@@ -1,0 +1,51 @@
+name: Daily Draft Post
+
+# Runs every day, drafts a new blog post from the next queued topic,
+# and opens a Pull Request for human review. Nothing is ever published
+# to the live site without you reviewing and merging the PR.
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 08:00 UTC daily — adjust as you like
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Generate draft post
+        id: generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_post.py
+
+      - name: Open Pull Request
+        if: success()
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Draft post: ${{ steps.generate.outputs.post_title }}"
+          branch: "auto-post/${{ github.run_number }}"
+          title: "[Draft] ${{ steps.generate.outputs.post_title }}"
+          body: >
+            Auto-generated draft post. Please review for accuracy
+            (pricing, app menu wording, current availability) before merging.
+            Merging this PR publishes the post live.
+          labels: |
+            auto-draft
+            needs-review
