@@ -1,0 +1,22 @@
+# Queue of topics for the daily auto-post GitHub Action.
+# The workflow pops the FIRST item each run, generates a draft post from it,
+# opens a PR, and removes it from this list once the PR is created.
+#
+# category must be one of: Streaming Services | Devices | Installation Guides
+# Add new topics to the bottom of this list whenever you like.
+
+- title: "Is Netflix Legal to Use in Ireland? What You're Actually Paying For"
+  category: "Streaming Services"
+  brief: "Explain that Netflix is a fully licensed service in Ireland, what the subscription tiers cost, and how it differs from unauthorized IPTV resale."
+
+- title: "Chromecast vs Fire TV Stick: Which Is Better for Irish Viewers?"
+  category: "Devices"
+  brief: "Compare Chromecast with Google TV and Amazon Fire TV Stick on app support (RTÉ Player, Virgin Media Player, sports packages), price, and ease of use in Ireland."
+
+- title: "How to Set Up Virgin Media Player on a Samsung Smart TV"
+  category: "Installation Guides"
+  brief: "Step-by-step instructions to install and sign into the Virgin Media Player app on a Samsung Tizen smart TV."
+
+- title: "Do You Need a TV Licence to Stream in Ireland?"
+  category: "Streaming Services"
+  brief: "Explain Ireland's TV licence requirement, which devices/services it applies to, and clear up common misconceptions for streaming-only households."
