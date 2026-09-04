@@ -11,7 +11,7 @@ description: >-
   installation instructions.
 url: "https://onairireland.com"
 baseurl: ""
-repository: "yourusername/onairireland" # TODO: update to your actual GitHub repo, e.g. janedoe/onairireland
+repository: "iptvtv-tech/onairireland" # TODO: update to your actual GitHub repo, e.g. janedoe/onairireland
 locale: "en-IE"
 lang: "en-IE"
 
