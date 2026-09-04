@@ -100,10 +100,6 @@ exclude:
 # ==============================
 # Collections / Defaults
 # ==============================
-collections:
-  posts:
-    output: true
-    permalink: /:categories/:title/
 
 defaults:
   # Global SEO-friendly defaults for all posts
