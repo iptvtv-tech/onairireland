@@ -47,7 +47,7 @@ bing_site_verification: ""   # TODO: optional
 # Theme
 # ==============================
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "contrast" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # ==============================
 # Build settings
