@@ -1,0 +1,152 @@
+# ==============================
+# Site Settings
+# ==============================
+title: "On Air Ireland"
+title_separator: "-"
+name: "On Air Ireland"
+subtitle: "Legal streaming services, devices & how-to guides for Ireland"
+description: >-
+  Your independent guide to legal streaming services in Ireland — service
+  reviews, device recommendations, where to buy, and step-by-step
+  installation instructions.
+url: "https://iptvirelandtv.com"
+baseurl: ""
+repository: "yourusername/onairireland" # TODO: update to your actual GitHub repo, e.g. janedoe/onairireland
+locale: "en-IE"
+lang: "en-IE"
+
+# ==============================
+# SEO / Social (jekyll-seo-tag)
+# ==============================
+logo: "/assets/images/logo.png" # TODO: add a real logo at this path
+og_image: "/assets/images/social-default.png" # TODO: add a default 1200x630 social share image
+twitter:
+  username: onairireland # TODO: update to your real handle if different
+  card: summary_large_image
+social:
+  type: Organization
+  name: On Air Ireland
+  links:
+    - "https://twitter.com/onairireland" # TODO
+    # - "https://www.facebook.com/onairireland"
+    # - "https://www.instagram.com/onairireland"
+
+# Used by jekyll-seo-tag for author meta + JSON-LD
+author:
+  name: "On Air Ireland"
+  bio: "Independent guides to legal streaming in Ireland."
+  location: "Ireland"
+
+# Site-wide default keywords (jekyll-seo-tag), pages/posts can override
+keywords: "legal streaming Ireland, IPTV alternatives Ireland, streaming devices, how to set up streaming device, best streaming services Ireland"
+
+google_site_verification: "" # TODO: paste your Google Search Console verification code
+bing_site_verification: ""   # TODO: optional
+
+# ==============================
+# Theme
+# ==============================
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# ==============================
+# Build settings
+# ==============================
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 10
+paginate_path: /page:num/
+timezone: Europe/Dublin
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# ==============================
+# Reading Files
+# ==============================
+exclude:
+  - "*.gemspec"
+  - "*.gem"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts/
+  - README.md
+
+# ==============================
+# Collections / Defaults
+# ==============================
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+defaults:
+  # Global SEO-friendly defaults for all posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      classes: wide
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# ==============================
+# Category definitions used across the site
+# (Streaming Services, Devices, Installation Guides)
+# ==============================
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# ==============================
+# Analytics (optional)
+# ==============================
+analytics:
+  provider: false # set to "google-gtag" and add tracking_id below if you want analytics
+  google:
+    tracking_id: ""
+    anonymize_ip: false
+
+# ==============================
+# Sitemap / Robots handled by jekyll-sitemap plugin automatically
+# ==============================
