@@ -17,9 +17,15 @@ seo:
   type: Article
 toc: true
 affiliate_links: true
+quick_facts:
+  - "GAA coverage is split across RTÉ, TG4, and paid subscription service GAA+"
+  - "Which broadcaster has your match depends on the round, not the county"
+  - "GAA+ (formerly GAAGO) is now fully owned by the GAA as of 2025"
 ---
 
 {% include affiliate-disclosure.html %}
+
+{% include quick-facts.html %}
 
 If you've ever gone looking for a specific Championship match only to find it's not on RTÉ, you're not alone — GAA coverage in Ireland is split across three separate broadcasters, and which one has your match depends on the round, not the county.
 
