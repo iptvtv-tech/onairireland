@@ -24,7 +24,7 @@
   price: "€44.99"
   badge: "Best Seller"
   blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
-  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_4K"
+  affiliate_link: "https://amzn.to/46bV2aZ"
 
 - id: apple-tv-4k
   name: "Apple TV 4K"
@@ -33,7 +33,7 @@
   price: "€169.00"
   badge: "Premium Pick"
   blurb: "Best choice if you're already in the Apple ecosystem — smoothest interface of the bunch."
-  affiliate_link: "AFFILIATE_LINK_APPLE_TV_4K"
+  affiliate_link: "https://amzn.to/4ytQGs2"
 
 - id: chromecast-google-tv
   name: "Chromecast with Google TV"
@@ -42,7 +42,7 @@
   price: "€39.99"
   badge: "Budget Pick"
   blurb: "Simple, affordable, and covers the essentials for casual viewers."
-  affiliate_link: "AFFILIATE_LINK_CHROMECAST"
+  affiliate_link: "https://amzn.to/4ytQGs2"
 
 - id: hdmi-cable-4k
   name: "High-Speed HDMI 2.1 Cable"
@@ -51,7 +51,7 @@
   price: "€9.99"
   badge: "Handy Extra"
   blurb: "Worth having a spare on hand — older bundled cables often bottleneck 4K/HDR playback."
-  affiliate_link: "AFFILIATE_LINK_HDMI_CABLE"
+  affiliate_link: "https://amzn.to/4xhxZH1"
 
 - id: wifi-extender
   name: "Wi-Fi Range Extender"
@@ -60,7 +60,7 @@
   price: "€29.99"
   badge: "Fixes Buffering"
   blurb: "If your streaming box is far from the router, this is usually the fix for constant buffering."
-  affiliate_link: "AFFILIATE_LINK_WIFI_EXTENDER"
+  affiliate_link: "https://amzn.to/4A1J2X4"
 
 - id: soundbar-budget
   name: "Compact Soundbar"
@@ -69,4 +69,4 @@
   price: "€89.99"
   badge: "Popular Add-on"
   blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
-  affiliate_link: "AFFILIATE_LINK_SOUNDBAR"
+  affiliate_link: "https://amzn.to/4zYUJhl"
