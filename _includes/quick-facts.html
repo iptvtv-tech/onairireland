@@ -1,0 +1,15 @@
+<!--
+  Renders a colorful "quick facts" summary tile near the top of a post.
+  Pass a list of short strings via page front matter: quick_facts: [ "fact one", "fact two" ]
+  See README.md for usage.
+-->
+{% if page.quick_facts %}
+<div class="quick-facts">
+  <h3 class="quick-facts__title">Quick Facts</h3>
+  <ul class="quick-facts__list">
+    {% for fact in page.quick_facts %}
+      <li>{{ fact }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
