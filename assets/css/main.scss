@@ -229,3 +229,40 @@
 .masthead__menu-item a {
   transition: color 0.15s ease;
 }
+/* ---------- Quick Facts tile (post readability aid) ---------- */
+.quick-facts {
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdfa 100%);
+  border: 1px solid #bae6fd;
+  border-left: 5px solid var(--oai-accent-dark);
+  border-radius: var(--oai-card-radius);
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0 2em;
+}
+.quick-facts__title {
+  margin: 0 0 0.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--oai-accent-dark);
+}
+.quick-facts__list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.quick-facts__list li {
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+}
+.quick-facts__list li:last-child {
+  margin-bottom: 0;
+}
+.page__hero-image,
+.page__hero-overlay {
+  border-radius: 0 0 var(--oai-card-radius) var(--oai-card-radius);
+}
+.page__hero-overlay .wrapper {
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+.page__title {
+  font-size: 1.9em;
+}
