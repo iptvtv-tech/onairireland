@@ -1,0 +1,19 @@
+<!--
+  Renders a grid of product cards, auto-filtered by category.
+  Usage: {% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}
+  Usage (auto-match current post's category): {% raw %}{% include product-showcase.html category=page.categories[0] %}{% endraw %}
+  Optional: title="Custom heading" limit=3
+-->
+{% assign matched = site.data.products | where: "category", include.category %}
+{% if matched.size > 0 %}
+<div class="product-showcase" data-shuffle="true">
+  <h3 class="product-showcase__title">{{ include.title | default: "Recommended for This Guide" }}</h3>
+  <div class="product-showcase__grid">
+    {% assign limit = include.limit | default: 3 %}
+    {% for product in matched limit: limit %}
+      {% include product-card.html product=product %}
+    {% endfor %}
+  </div>
+  <p class="product-showcase__disclosure">Contains affiliate links — we may earn a small commission at no extra cost to you. <a href="{{ "/about/" | relative_url }}">Learn more</a>.</p>
+</div>
+{% endif %}

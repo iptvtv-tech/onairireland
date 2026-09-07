@@ -1,0 +1,72 @@
+# Product catalog for the affiliate "product showcase" cards.
+#
+# HOW THIS WORKS:
+# Posts pull products automatically by category using:
+#   {% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}
+# Update a product's link, price, or image here ONCE and it updates
+# everywhere that category is shown across the whole site — you never
+# need to hunt through individual post files to change a link.
+#
+# Fields:
+#   id            - unique short slug, used internally
+#   name          - product name shown on the card
+#   category      - must match a post category: Streaming Services | Devices | Installation Guides
+#   image         - path to a product image (add real images under assets/images/products/)
+#   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
+#   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
+#   blurb         - one short sentence on why it's worth considering
+#   affiliate_link - TODO: replace with your real Amazon Associates (or other) tracking link
+
+- id: fire-tv-stick-4k
+  name: "Amazon Fire TV Stick 4K"
+  category: "Devices"
+  image: "/assets/images/products/fire-tv-stick-4k.jpg"
+  price: "€44.99"
+  badge: "Best Seller"
+  blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
+  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_4K"
+
+- id: apple-tv-4k
+  name: "Apple TV 4K"
+  category: "Devices"
+  image: "/assets/images/products/apple-tv-4k.jpg"
+  price: "€169.00"
+  badge: "Premium Pick"
+  blurb: "Best choice if you're already in the Apple ecosystem — smoothest interface of the bunch."
+  affiliate_link: "AFFILIATE_LINK_APPLE_TV_4K"
+
+- id: chromecast-google-tv
+  name: "Chromecast with Google TV"
+  category: "Devices"
+  image: "/assets/images/products/chromecast-google-tv.jpg"
+  price: "€39.99"
+  badge: "Budget Pick"
+  blurb: "Simple, affordable, and covers the essentials for casual viewers."
+  affiliate_link: "AFFILIATE_LINK_CHROMECAST"
+
+- id: hdmi-cable-4k
+  name: "High-Speed HDMI 2.1 Cable"
+  category: "Installation Guides"
+  image: "/assets/images/products/hdmi-cable.jpg"
+  price: "€9.99"
+  badge: "Handy Extra"
+  blurb: "Worth having a spare on hand — older bundled cables often bottleneck 4K/HDR playback."
+  affiliate_link: "AFFILIATE_LINK_HDMI_CABLE"
+
+- id: wifi-extender
+  name: "Wi-Fi Range Extender"
+  category: "Installation Guides"
+  image: "/assets/images/products/wifi-extender.jpg"
+  price: "€29.99"
+  badge: "Fixes Buffering"
+  blurb: "If your streaming box is far from the router, this is usually the fix for constant buffering."
+  affiliate_link: "AFFILIATE_LINK_WIFI_EXTENDER"
+
+- id: soundbar-budget
+  name: "Compact Soundbar"
+  category: "Streaming Services"
+  image: "/assets/images/products/soundbar.jpg"
+  price: "€89.99"
+  badge: "Popular Add-on"
+  blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
+  affiliate_link: "AFFILIATE_LINK_SOUNDBAR"

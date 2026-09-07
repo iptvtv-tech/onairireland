@@ -1,0 +1,20 @@
+<!--
+  Renders one product card. Expects `product` (a hash from _data/products.yml)
+  Usage: {% include product-card.html product=product %}
+-->
+<div class="product-card">
+  {% if product.badge %}<span class="product-card__badge">{{ product.badge }}</span>{% endif %}
+  <div class="product-card__image-wrap">
+    <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" class="product-card__image" loading="lazy" onerror="this.src='{{ "/assets/images/social-default.svg" | relative_url }}'">
+  </div>
+  <div class="product-card__body">
+    <h4 class="product-card__name">{{ product.name }}</h4>
+    <p class="product-card__blurb">{{ product.blurb }}</p>
+    <div class="product-card__footer">
+      <span class="product-card__price">{{ product.price }}</span>
+      <a href="{{ product.affiliate_link }}" class="product-card__cta" rel="nofollow sponsored noopener" target="_blank">
+        Check Price →
+      </a>
+    </div>
+  </div>
+</div>

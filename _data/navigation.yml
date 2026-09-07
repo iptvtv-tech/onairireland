@@ -1,0 +1,9 @@
+main:
+  - title: "Streaming Services"
+    url: /categories/streaming-services/
+  - title: "Devices"
+    url: /categories/devices/
+  - title: "Installation Guides"
+    url: /categories/installation-guides/
+  - title: "About"
+    url: /about/

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative signal/wave rings -->
+  <circle cx="1000" cy="150" r="60" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.35"/>
+  <circle cx="1000" cy="150" r="100" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.22"/>
+  <circle cx="1000" cy="150" r="140" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.12"/>
+
+  <!-- Play button icon -->
+  <circle cx="180" cy="315" r="70" fill="#38bdf8"/>
+  <polygon points="160,280 160,350 215,315" fill="#0f172a"/>
+
+  <!-- Title text -->
+  <text x="290" y="300" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">On Air Ireland</text>
+  <text x="290" y="350" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="400" fill="#93c5fd">Legal streaming services &amp; devices for Ireland</text>
+
+  <!-- Bottom accent line -->
+  <rect x="290" y="390" width="620" height="4" fill="#38bdf8"/>
+</svg>
