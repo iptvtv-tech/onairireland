@@ -1,11 +1,12 @@
 <!--
-  Renders one product card. Expects `product` (a hash from _data/products.yml)
-  Usage: {% include product-card.html product=product %}
+  Renders one product card. Expects `product` (a hash from _data/products.yml).
+  See README.md for usage.
 -->
 <div class="product-card">
   {% if product.badge %}<span class="product-card__badge">{{ product.badge }}</span>{% endif %}
   <div class="product-card__image-wrap">
-    <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" class="product-card__image" loading="lazy" onerror="this.src='{{ "/assets/images/social-default.svg" | relative_url }}'">
+    {% assign fallback_img = "/assets/images/social-default.svg" | relative_url %}
+    <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" class="product-card__image" loading="lazy" onerror="this.onerror=null;this.src=&quot;{{ fallback_img }}&quot;;">
   </div>
   <div class="product-card__body">
     <h4 class="product-card__name">{{ product.name }}</h4>
