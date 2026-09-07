@@ -18,9 +18,15 @@ seo:
   type: Article
 toc: true
 affiliate_links: true
+quick_facts:
+  - "Fire TV Stick 4K is the most affordable, widest app support option"
+  - "Apple TV 4K suits households already in the Apple ecosystem"
+  - "Most current smart TVs don't need an extra device at all"
 ---
 
 {% include affiliate-disclosure.html %}
+
+{% include quick-facts.html %}
 
 ## What to look for
 
