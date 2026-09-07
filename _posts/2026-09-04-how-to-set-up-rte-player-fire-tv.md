@@ -17,9 +17,15 @@ seo:
   type: HowTo
 toc: true
 affiliate_links: true
+quick_facts:
+  - "5-step setup, takes under 5 minutes"
+  - "No subscription needed to browse RTÉ Player's free content"
+  - "Works the same way on most Fire TV Stick generations"
 ---
 
 {% include affiliate-disclosure.html %}
+
+{% include quick-facts.html %}
 
 ## What you need
 
