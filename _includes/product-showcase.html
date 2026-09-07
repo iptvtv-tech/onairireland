@@ -1,8 +1,6 @@
 <!--
   Renders a grid of product cards, auto-filtered by category.
-  Usage: {% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}
-  Usage (auto-match current post's category): {% raw %}{% include product-showcase.html category=page.categories[0] %}{% endraw %}
-  Optional: title="Custom heading" limit=3
+  See README.md for usage.
 -->
 {% assign matched = site.data.products | where: "category", include.category %}
 {% if matched.size > 0 %}
