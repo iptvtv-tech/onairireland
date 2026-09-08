@@ -268,9 +268,7 @@
   font-size: 1.9em;
 }
 /* ---------- Narrower, more centered reading column ---------- */
-.page__content,
-.layout--single .page__content,
-.wide .page__content {
+.initial-content {
   max-width: 760px !important;
   margin-left: auto !important;
   margin-right: auto !important;
