@@ -18,9 +18,9 @@ seo:
 toc: true
 affiliate_links: true
 quick_facts:
-  - "GAA coverage is split across RTÉ, TG4, and paid subscription service GAA+"
-  - "Which broadcaster has your match depends on the round, not the county"
-  - "GAA+ (formerly GAAGO) is now fully owned by the GAA as of 2025"
+     - "GAA coverage is split across RTÉ, TG4, and paid subscription service GAA+"
+     - "Which broadcaster has your match depends on the round, not the county"
+     - "GAA+ (formerly GAAGO) is now fully owned by the GAA as of 2025"
 ---
 
 {% include affiliate-disclosure.html %}
