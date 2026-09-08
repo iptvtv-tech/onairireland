@@ -18,9 +18,9 @@ seo:
 toc: true
 affiliate_links: true
 quick_facts:
-  - "RTÉ Player and Virgin Media Player are free with no subscription"
-  - "Sky Stream/NOW gives legal Sky access with no satellite dish"
-  - "Licensed sports coverage runs through eir Sport and Premier Sports"
+  - RTÉ Player and Virgin Media Player are free with no subscription
+  - Sky Stream/NOW gives legal Sky access with no satellite dish
+  - Licensed sports coverage runs through eir Sport and Premier Sports
 ---
 
 {% include affiliate-disclosure.html %}
