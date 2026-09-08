@@ -268,8 +268,10 @@
   font-size: 1.9em;
 }
 /* ---------- Narrower, more centered reading column ---------- */
-.page__content {
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
+.page__content,
+.layout--single .page__content,
+.wide .page__content {
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
