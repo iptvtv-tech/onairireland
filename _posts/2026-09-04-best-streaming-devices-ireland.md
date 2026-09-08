@@ -11,8 +11,8 @@ tags:
   - amazon fire tv
   - apple tv
 header:
-  overlay_image: /assets/images/social-default.png
-  teaser: /assets/images/social-default.png
+  overlay_image: /assets/images/social-default.svg
+  teaser: /assets/images/social-default.svg
   caption: "Photo placeholder — replace with a licensed image"
 seo:
   type: Article
