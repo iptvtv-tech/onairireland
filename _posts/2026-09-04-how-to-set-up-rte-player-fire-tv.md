@@ -29,7 +29,7 @@ quick_facts:
 
 ## What you need
 
-- A Fire TV Stick connected to your TV and Wi-Fi — [don't have one yet? Check price](AFFILIATE_LINK_FIRE_TV_STICK) <!-- TODO: replace with your Amazon Associates link -->
+- A Fire TV Stick connected to your TV and Wi-Fi — [don't have one yet? Check price](https://amzn.to/46bV2aZ) <!-- TODO: replace with your Amazon Associates link -->
 - An Amazon account signed in on the device
 
 ## Steps
