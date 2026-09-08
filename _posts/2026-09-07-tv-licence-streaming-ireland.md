@@ -10,7 +10,7 @@ tags:
   - rté player
 header:
   overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/social-default.svg
+  teaser: /assets/images/products/soundbar.jpg
 seo:
   type: Article
 toc: true
