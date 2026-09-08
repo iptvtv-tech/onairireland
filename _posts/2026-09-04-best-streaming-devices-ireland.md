@@ -51,4 +51,4 @@ Stick to official retailers — [Harvey Norman](AFFILIATE_LINK_HARVEY_NORMAN), [
 
 {% include product-showcase.html category="Devices" title="Our Picks: Streaming Devices" %}
 
-Next: follow our [installation guides](/categories/installation-guides/) once you've picked a device.
+Next: follow our [installation guides](/categories/#installation-guides) once you've picked a device.
