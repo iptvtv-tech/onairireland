@@ -268,7 +268,16 @@
   font-size: 1.9em;
 }
 /* ---------- Narrower, more centered reading column ---------- */
-.initial-content {
+.initial-content > p,
+.initial-content > h2,
+.initial-content > h3,
+.initial-content > h4,
+.initial-content > ul,
+.initial-content > ol,
+.initial-content > blockquote,
+.initial-content > .notice--info,
+.initial-content > .quick-facts,
+.initial-content > .product-showcase {
   max-width: 760px !important;
   margin-left: auto !important;
   margin-right: auto !important;
