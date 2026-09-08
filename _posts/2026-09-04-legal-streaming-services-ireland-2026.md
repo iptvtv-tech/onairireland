@@ -11,7 +11,7 @@ tags:
   - virgin media
 header:
   overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/social-default.svg
+  teaser: /assets/images/products/apple-tv-4k.jpg
   caption: "Photo placeholder — replace with a licensed image"
 seo:
   type: Article
