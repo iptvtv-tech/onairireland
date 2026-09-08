@@ -18,7 +18,7 @@ lang: "en-IE"
 # ==============================
 # SEO / Social (jekyll-seo-tag)
 # ==============================
-logo: "/assets/images/social-default.svg" # TODO: add a real logo at this path
+logo: "/assets/images/icon.png" # TODO: add a real logo at this path
 og_image: "/assets/images/social-default.svg" # TODO: add a default 1200x630 social share image
 twitter:
   username: onairireland # TODO: update to your real handle if different
