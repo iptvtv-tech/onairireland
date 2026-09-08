@@ -18,7 +18,7 @@ lang: "en-IE"
 # ==============================
 # SEO / Social (jekyll-seo-tag)
 # ==============================
-logo: "/assets/images/logo.png" # TODO: add a real logo at this path
+logo: "/assets/images/social-default.svg" # TODO: add a real logo at this path
 og_image: "/assets/images/social-default.svg" # TODO: add a default 1200x630 social share image
 twitter:
   username: onairireland # TODO: update to your real handle if different
@@ -47,7 +47,7 @@ bing_site_verification: ""   # TODO: optional
 # Theme
 # ==============================
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "neon" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "air" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # ==============================
 # Build settings
