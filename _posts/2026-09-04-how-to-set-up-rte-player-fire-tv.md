@@ -49,4 +49,4 @@ quick_facts:
 
 {% include product-showcase.html category="Installation Guides" title="Helpful Extras" %}
 
-See more in [Streaming Services](/categories/streaming-services/) and [Devices](/categories/devices/).
+See more in [Streaming Services](/categories/#streaming-services) and [Devices](/categories/#devices).
