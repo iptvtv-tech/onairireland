@@ -45,7 +45,7 @@ quick_facts:
 
 ## Where to buy in Ireland
 
-Stick to official retailers — [Harvey Norman](AFFILIATE_LINK_HARVEY_NORMAN), [Currys](AFFILIATE_LINK_CURRYS), [Argos](AFFILIATE_LINK_ARGOS), or the manufacturer's own site — to ensure warranty and legitimate hardware. <!-- TODO: replace each with your retailer affiliate link once approved -->
+Stick to official retailers — [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [Argos](https://www.argos.co.uk/features/republic-of-ireland), or the manufacturer's own site — to ensure warranty and legitimate hardware. <!-- TODO: replace each with your retailer affiliate link once approved -->
 
 <small>Retailer names above are for reference only until you swap in your affiliate tracking links.</small>
 
