@@ -267,3 +267,9 @@
 .page__title {
   font-size: 1.9em;
 }
+/* ---------- Narrower, more centered reading column ---------- */
+.page__content {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
