@@ -15,9 +15,9 @@ seo:
   type: Article
 toc: true
 quick_facts:
-  - "Internet-only streaming devices are exempt from Ireland's TV licence"
-  - "The licence only applies if your setup can receive a broadcast signal (aerial/satellite)"
-  - "Current fee is €160 per household, per address not per person"
+  - Internet-only streaming devices are exempt from Ireland's TV licence
+  - The licence only applies if your setup can receive a broadcast signal (aerial/satellite)
+  - Current fee is €160 per household, per address not per person
 ---
 
 {% include quick-facts.html %}
