@@ -37,8 +37,8 @@ quick_facts:
 ## Popular options
 
 - **Amazon Fire TV Stick** — wide app support, affordable. [Check price on Amazon]({{ "https://amzn.to/46bV2aZ" }}) <!-- TODO: replace with your Amazon Associates link -->
-- **Apple TV 4K** — best for existing Apple households. [Check price]({{ "AFFILIATE_LINK_APPLE_TV_4K" }}) <!-- TODO: replace with affiliate link -->
-- **Chromecast with Google TV** — simple, budget-friendly. [Check price]({{ "AFFILIATE_LINK_CHROMECAST" }}) <!-- TODO: replace with affiliate link -->
+- **Apple TV 4K** — best for existing Apple households. [Check price]({{ "https://amzn.to/4ytQGs2" }}) <!-- TODO: replace with affiliate link -->
+- **Chromecast with Google TV** — simple, budget-friendly. [Check price]({{ "https://amzn.to/4gSHHZV" }}) <!-- TODO: replace with affiliate link -->
 - **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Android TV) — no extra device needed
 
 *(Replace with current models, prices, and retailer links before publishing.)*
