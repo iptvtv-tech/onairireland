@@ -12,7 +12,7 @@ tags:
   - apple tv
 header:
   overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/social-default.svg
+  teaser: /assets/images/products/chromecast-google-tv.jpg
   caption: "Photo placeholder — replace with a licensed image"
 seo:
   type: Article
