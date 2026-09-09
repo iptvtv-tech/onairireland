@@ -4,6 +4,7 @@ excerpt: "The short answer: it depends on whether your setup can receive a broad
 description: "A clear explainer on Ireland's TV licence rules for streaming-only households, based on the Broadcasting Act 2009."
 categories:
   - Streaming-Services
+  - Devices
 tags:
   - tv licence
   - legal streaming ireland
