@@ -50,4 +50,4 @@ Whichever combination you need, the setup is the same principle across services:
 
 {% include product-showcase.html category="Devices" title="Get Set Up for Championship Season" %}
 
-Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [device buying guide](/devices/best-streaming-devices-ireland-2026/).
+Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [device buying guide](/devices/best-streaming-devices-ireland/).
