@@ -3,7 +3,6 @@ title: "Best Streaming Devices for Irish Homes: Buying Guide"
 excerpt: "Which streaming stick, box, or smart TV platform makes the most sense for Irish viewers, and where to buy them."
 description: "A buying guide to the best streaming devices available in Ireland, comparing sticks, boxes, and smart TV platforms."
 categories:
-  - Streaming-Services
   - Devices
 tags:
   - streaming devices
