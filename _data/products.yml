@@ -10,7 +10,7 @@
 # Fields:
 #   id            - unique short slug, used internally
 #   name          - product name shown on the card
-#   category      - must match a post category: Streaming Services | Devices | Installation Guides
+#   category      - must match a post category: Streaming Services | Devices | Installation Guides | News | Sports Streaming | Reviews
 #   image         - path to a product image (add real images under assets/images/products/)
 #   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
 #   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
@@ -70,6 +70,7 @@
   badge: "Popular Add-on"
   blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
   affiliate_link: "https://amzn.to/4zYUJhl"
+
 
   - id: fire-tv-stick-4k
   name: "Amazon Fire TV Stick 4K"
