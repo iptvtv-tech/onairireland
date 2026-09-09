@@ -4,6 +4,7 @@ excerpt: "Both give you Sky content with no satellite dish — but they work com
 description: "A clear comparison of Sky Stream and NOW in Ireland — pricing, contracts, and which one actually fits how you watch."
 categories:
   - Streaming-Services
+  - Devices
 tags:
   - sky stream
   - now tv
