@@ -3,7 +3,7 @@ title: "How to Set Up RTÉ Player on an Amazon Fire TV Stick"
 excerpt: "Step-by-step instructions for installing and setting up RTÉ Player on a Fire TV Stick."
 description: "A step-by-step installation guide for setting up RTÉ Player on an Amazon Fire TV Stick in Ireland."
 categories:
-  - Installation Guides
+  - Installation-Guides
 tags:
   - rté player
   - fire tv stick
