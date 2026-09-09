@@ -3,7 +3,7 @@ title: "Legal Streaming Services in Ireland: The Full 2026 Guide"
 excerpt: "Every major legal streaming service available in Ireland, what it costs, and what you actually get — from RTÉ Player to premium sports packages."
 description: "A complete, up-to-date guide to legal streaming services available in Ireland in 2026, including pricing and what's included."
 categories:
-  - Streaming Services
+  - Streaming-Services
 tags:
   - streaming services ireland
   - legal streaming
