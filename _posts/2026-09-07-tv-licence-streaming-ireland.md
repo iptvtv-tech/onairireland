@@ -3,7 +3,7 @@ title: "Do You Need a TV Licence to Stream in Ireland?"
 excerpt: "The short answer: it depends on whether your setup can receive a broadcast signal, not on which apps you use."
 description: "A clear explainer on Ireland's TV licence rules for streaming-only households, based on the Broadcasting Act 2009."
 categories:
-  - Streaming Services
+  - Streaming-Services
 tags:
   - tv licence
   - legal streaming ireland
