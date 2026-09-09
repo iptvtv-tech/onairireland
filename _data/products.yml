@@ -10,7 +10,7 @@
 # Fields:
 #   id            - unique short slug, used internally
 #   name          - product name shown on the card
-#   category      - must match a post category: Streaming Services | Devices | Installation Guides | News | Sports Streaming | Reviews
+#   category      - must match a post category: Streaming Services | Devices | Installation Guides
 #   image         - path to a product image (add real images under assets/images/products/)
 #   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
 #   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
@@ -70,58 +70,3 @@
   badge: "Popular Add-on"
   blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
   affiliate_link: "https://amzn.to/4zYUJhl"
-
-
-  - id: fire-tv-stick-4k
-  name: "Amazon Fire TV Stick 4K"
-  category: "Sports Streaming"
-  image: "/assets/images/products/fire-tv-stick-4k.jpg"
-  price: "€44.99"
-  badge: "Best Seller"
-  blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
-  affiliate_link: "https://amzn.to/46bV2aZ"
-
-  - id: fire-tv-stick-4k
-  name: "Amazon Fire TV Stick 4K"
-  category: "News"
-  image: "/assets/images/products/fire-tv-stick-4k.jpg"
-  price: "€44.99"
-  badge: "Best Seller"
-  blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
-  affiliate_link: "https://amzn.to/46bV2aZ"
-
-  - id: chromecast-google-tv
-  name: "Chromecast with Google TV"
-  category: "News"
-  image: "/assets/images/products/chromecast-google-tv.jpg"
-  price: "€39.99"
-  badge: "Budget Pick"
-  blurb: "Simple, affordable, and covers the essentials for casual viewers."
-  affiliate_link: "https://amzn.to/4ytQGs2"
-
-  - id: soundbar-budget
-  name: "Compact Soundbar"
-  category: "Sports Streaming"
-  image: "/assets/images/products/soundbar.jpg"
-  price: "€89.99"
-  badge: "Popular Add-on"
-  blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
-  affiliate_link: "https://amzn.to/4zYUJhl"
-
-- id: wifi-extender
-  name: "Wi-Fi Range Extender"
-  category: "Reviews"
-  image: "/assets/images/products/wifi-extender.jpg"
-  price: "€29.99"
-  badge: "Fixes Buffering"
-  blurb: "If your streaming box is far from the router, this is usually the fix for constant buffering."
-  affiliate_link: "https://amzn.to/4A1J2X4"
-
-  - id: apple-tv-4k
-  name: "Apple TV 4K"
-  category: "Reviews"
-  image: "/assets/images/products/apple-tv-4k.jpg"
-  price: "€169.00"
-  badge: "Premium Pick"
-  blurb: "Best choice if you're already in the Apple ecosystem — smoothest interface of the bunch."
-  affiliate_link: "https://amzn.to/4ytQGs2"
