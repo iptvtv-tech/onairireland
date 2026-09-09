@@ -4,7 +4,6 @@ excerpt: "Every major legal streaming service available in Ireland, what it cost
 description: "A complete, up-to-date guide to legal streaming services available in Ireland in 2026, including pricing and what's included."
 categories:
   - Streaming-Services
-  - Devices
 tags:
   - streaming services ireland
   - legal streaming
