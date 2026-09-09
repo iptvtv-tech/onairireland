@@ -59,6 +59,6 @@ NOW is officially available in Ireland at nowtv.com/ie, structured the same way 
 
 {% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
 
-Related: see our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [where to watch GAA legally](/streaming-services/where-to-watch-gaa-legally-ireland-2026/).
+Related: see our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [where to watch GAA legally](/streaming-services/where-to-watch-gaa-legally-ireland/).
 
 <small>Pricing on streaming and TV packages changes often — the Sky Stream figures above are current standard pricing pulled directly from sky.ie at time of writing, but always confirm live pricing on the provider's own site before subscribing.</small>
