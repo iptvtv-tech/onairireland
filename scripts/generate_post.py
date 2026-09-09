@@ -34,6 +34,23 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def load_products():
+    products_path = os.path.join(REPO_ROOT, "_data", "products.yml")
+    with open(products_path, "r") as f:
+        return yaml.safe_load(f) or []
+
+
+def pick_product_image(category: str) -> str:
+    """Return the image path of the first product matching this category,
+    so auto-drafted posts get a real product photo instead of the generic
+    placeholder. Falls back to the placeholder if no product matches yet."""
+    products = load_products()
+    for product in products:
+        if product.get("category") == category:
+            return product.get("image", "/assets/images/social-default.svg")
+    return "/assets/images/social-default.svg"
+
+
 def load_queue():
     with open(QUEUE_PATH, "r") as f:
         return yaml.safe_load(f) or []
@@ -116,14 +133,20 @@ def main():
     filename = f"{today}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
 
+    category_slug_name = category.replace(" ", "-")
+    hero_image = pick_product_image(category)
+
     front_matter = f"""---
 title: "{title}"
 excerpt: "{summary}"
 description: "{summary}"
 categories:
-  - {category}
+  - {category_slug_name}
 tags:
   - {CATEGORY_SLUGS.get(category, slugify(category))}
+header:
+  overlay_image: {hero_image}
+  teaser: {hero_image}
 seo:
   type: Article
 toc: true
