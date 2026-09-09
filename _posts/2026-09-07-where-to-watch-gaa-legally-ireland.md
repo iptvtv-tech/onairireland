@@ -13,8 +13,7 @@ tags:
   - sports streaming ireland
 header:
   overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/social-default.svg
-seo:
+  teaser: /assets/images/firestick4k.jpg
   type: Article
 toc: true
 affiliate_links: true
