@@ -3,7 +3,7 @@ title: "Where to Watch GAA Legally in Ireland"
 excerpt: "GAA coverage is split across three different services. Here's exactly which matches are free-to-air and which need a subscription."
 description: "A clear guide to legally watching GAA Championship matches in Ireland — what's free on RTÉ and TG4, and what requires a GAA+ subscription."
 categories:
-  - Streaming Services
+  - Streaming-Services
 tags:
   - gaa
   - rté
