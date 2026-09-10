@@ -5,5 +5,13 @@ main:
     url: /categories/#devices
   - title: "Installation Guides"
     url: /categories/#installation-guides
+  - title: "Sports Streaming"
+    url: /categories/#sports-streaming
+  - title: "Reviews"
+    url: /categories/#reviews
+  - title: "News"
+    url: /categories/#news
+  - title: "Troubleshooting"
+    url: /categories/#troubleshooting
   - title: "About"
     url: /about/
