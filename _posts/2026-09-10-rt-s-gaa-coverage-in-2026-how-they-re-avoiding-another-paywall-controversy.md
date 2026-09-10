@@ -8,7 +8,7 @@ tags:
   - sports-streaming
 header:
   overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/social-default.svg
+  teaser: /assets/images/products/sports.jpg
 seo:
   type: Article
 toc: true
