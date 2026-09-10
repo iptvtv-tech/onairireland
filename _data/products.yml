@@ -24,16 +24,16 @@
   price: "€44.99"
   badge: "Best Seller"
   blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
-  affiliate_link: "https://amzn.to/4xfL2Ze"
+  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_4K"
 
 - id: apple-tv-4k
-  name: "Smart TV 4K"
+  name: "Apple TV 4K"
   category: "Devices"
   image: "/assets/images/products/apple-tv-4k.jpg"
   price: "€169.00"
   badge: "Premium Pick"
-  blurb: "Best choice if you're already in the Smart TV ecosystem — smoothest interface of the bunch."
-  affiliate_link: "https://sovrn.co/1p3eshq"
+  blurb: "Best choice if you're already in the Apple ecosystem — smoothest interface of the bunch."
+  affiliate_link: "AFFILIATE_LINK_APPLE_TV_4K"
 
 - id: chromecast-google-tv
   name: "Chromecast with Google TV"
@@ -42,7 +42,7 @@
   price: "€39.99"
   badge: "Budget Pick"
   blurb: "Simple, affordable, and covers the essentials for casual viewers."
-  affiliate_link: "https://amzn.to/4ilqtaf"
+  affiliate_link: "AFFILIATE_LINK_CHROMECAST"
 
 - id: hdmi-cable-4k
   name: "High-Speed HDMI 2.1 Cable"
@@ -51,7 +51,7 @@
   price: "€9.99"
   badge: "Handy Extra"
   blurb: "Worth having a spare on hand — older bundled cables often bottleneck 4K/HDR playback."
-  affiliate_link: "https://amzn.to/4yv8MK4"
+  affiliate_link: "AFFILIATE_LINK_HDMI_CABLE"
 
 - id: wifi-extender
   name: "Wi-Fi Range Extender"
@@ -60,7 +60,7 @@
   price: "€29.99"
   badge: "Fixes Buffering"
   blurb: "If your streaming box is far from the router, this is usually the fix for constant buffering."
-  affiliate_link: "https://amzn.to/4A6ee7M"
+  affiliate_link: "AFFILIATE_LINK_WIFI_EXTENDER"
 
 - id: soundbar-budget
   name: "Compact Soundbar"
@@ -68,4 +68,68 @@
   image: "/assets/images/products/soundbar.jpg"
   price: "€89.99"
   badge: "Popular Add-on"
+  blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
+  affiliate_link: "AFFILIATE_LINK_SOUNDBAR"
 
+- id: roku-streaming-stick-4k
+  name: "Roku Streaming Stick 4K"
+  category: "Devices"
+  image: "/assets/images/products/roku-streaming-stick.jpg"
+  price: "€54.99"
+  badge: "Simple Interface"
+  blurb: "One of the most straightforward remotes and menus of any streaming device — good pick for less tech-confident households."
+  affiliate_link: "AFFILIATE_LINK_ROKU_STICK"
+
+- id: tv-wall-mount
+  name: "Adjustable TV Wall Mount"
+  category: "Installation Guides"
+  image: "/assets/images/products/tv-wall-mount.jpg"
+  price: "€34.99"
+  badge: "Popular Add-on"
+  blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
+  affiliate_link: "AFFILIATE_LINK_TV_WALL_MOUNT"
+
+- id: mesh-wifi-system
+  name: "Mesh Wi-Fi System (2-pack)"
+  category: "Installation Guides"
+  image: "/assets/images/products/mesh-wifi.jpg"
+  price: "€129.99"
+  badge: "Best Fix for Buffering"
+  blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
+  affiliate_link: "AFFILIATE_LINK_MESH_WIFI"
+
+- id: prime-video-membership
+  name: "Amazon Prime Video"
+  category: "Streaming Services"
+  image: "/assets/images/products/prime-video.jpg"
+  price: "Included with Prime"
+  badge: "Try Free"
+  blurb: "Prime Video comes bundled with an Amazon Prime membership, which also includes free delivery — worth checking if you already have or are considering Prime for other reasons."
+  affiliate_link: "AFFILIATE_LINK_PRIME_VIDEO"
+
+- id: disney-plus-membership
+  name: "Disney+"
+  category: "Streaming Services"
+  image: "/assets/images/products/disney-plus.jpg"
+  price: "See current pricing"
+  badge: "Family Favourite"
+  blurb: "Licensed, legal access to Disney, Pixar, Marvel, and Star Wars content — sign up directly through the official app or website."
+  affiliate_link: "AFFILIATE_LINK_DISNEY_PLUS"
+
+- id: gaa-plus-membership
+  name: "GAA+ Season Pass"
+  category: "Sports Streaming"
+  image: "/assets/images/products/gaa-plus.jpg"
+  price: "See current pricing"
+  badge: "GAA Coverage"
+  blurb: "Official access to the Championship matches not shown free-to-air on RTÉ or TG4 — check current season pricing directly on GAA+."
+  affiliate_link: "AFFILIATE_LINK_GAA_PLUS"
+
+- id: premier-sports-membership
+  name: "Premier Sports"
+  category: "Sports Streaming"
+  image: "/assets/images/products/premier-sports.jpg"
+  price: "See current pricing"
+  badge: "Licensed Sports"
+  blurb: "Legal access to Premier Sports' live coverage — rugby, football, and more, available through their official app."
+  affiliate_link: "AFFILIATE_LINK_PREMIER_SPORTS_MEMBERSHIP"
