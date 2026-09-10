@@ -327,3 +327,428 @@
 .share-buttons__btn--facebook:hover { background: #1877f2; color: #fff !important; }
 .share-buttons__btn--whatsapp:hover { background: #25d366; color: #fff !important; }
 .share-buttons__btn--linkedin:hover { background: #0a66c2; color: #fff !important; }
+
+---
+# Front matter required so Jekyll processes this as Sass.
+# This file takes precedence over the remote theme's own main.scss.
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ============================================
+   On Air Ireland — custom "inviting" styling
+   ============================================ */
+
+:root {
+  --oai-accent: #38bdf8;
+  --oai-accent-dark: #0284c7;
+  --oai-warm: #fb923c;
+  --oai-card-radius: 14px;
+}
+
+/* ---------- Homepage hero ---------- */
+.oai-hero {
+  border-radius: var(--oai-card-radius);
+  padding: 3em 2em;
+  margin-bottom: 2em;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.oai-hero h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.3em;
+  color: #fff;
+}
+
+.oai-hero p {
+  font-size: 1.15em;
+  color: #cbd5e1;
+  max-width: 640px;
+  margin: 0 auto 1.3em;
+}
+
+.oai-hero__ctas {
+  display: flex;
+  gap: 0.75em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.oai-hero__cta {
+  display: inline-block;
+  padding: 0.65em 1.4em;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.oai-hero__cta--primary {
+  background: var(--oai-accent);
+  color: #0f172a;
+}
+
+.oai-hero__cta--secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+
+.oai-hero__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(56,189,248,0.35);
+}
+
+.oai-hero__pick {
+  margin-top: 1.5em;
+  font-size: 0.95em;
+  color: #cbd5e1;
+}
+
+.oai-hero__pick a {
+  color: var(--oai-accent);
+  font-weight: 600;
+  margin-left: 0.4em;
+  text-decoration: none;
+}
+
+.oai-hero__pick a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Post tiles (archive grid) ---------- */
+.archive__item {
+  border-radius: var(--oai-card-radius);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.archive__item.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+/* ---------- Product showcase ---------- */
+.product-showcase {
+  margin: 2.5em 0;
+  padding: 1.5em;
+  border-radius: var(--oai-card-radius);
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.product-showcase__title {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.product-showcase__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2em;
+  margin: 1em 0;
+}
+
+.product-showcase__disclosure {
+  font-size: 0.8em;
+  color: #64748b;
+  margin-bottom: 0;
+}
+
+.product-card {
+  position: relative;
+  background: #fff;
+  border-radius: var(--oai-card-radius);
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.product-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+  border-color: var(--oai-accent);
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: var(--oai-warm);
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 700;
+  padding: 0.3em 0.7em;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.product-card__image-wrap {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.product-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-card__image {
+  transform: scale(1.05);
+}
+
+.product-card__body {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-card__name {
+  margin: 0 0 0.3em;
+  font-size: 1.05em;
+}
+
+.product-card__blurb {
+  font-size: 0.88em;
+  color: #64748b;
+  flex: 1;
+  margin-bottom: 1em;
+}
+
+.product-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.product-card__price {
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+.product-card__cta {
+  background: var(--oai-accent-dark);
+  color: #fff !important;
+  padding: 0.5em 1em;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.product-card__cta:hover {
+  background: var(--oai-accent);
+  color: #0f172a !important;
+  transform: translateY(-1px);
+}
+
+/* ---------- Category "chips" for a friendlier nav feel ---------- */
+.masthead__menu-item a {
+  transition: color 0.15s ease;
+}
+
+/* ---------- Quick Facts tile (post readability aid) ---------- */
+.quick-facts {
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdfa 100%);
+  border: 1px solid #bae6fd;
+  border-left: 5px solid var(--oai-accent-dark);
+  border-radius: var(--oai-card-radius);
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0 2em;
+}
+
+.quick-facts__title {
+  margin: 0 0 0.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--oai-accent-dark);
+}
+
+.quick-facts__list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.quick-facts__list li {
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+  color: #1e293b;
+}
+
+.quick-facts__list li:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Hero banner (single post header) ---------- */
+.page__hero-image,
+.page__hero-overlay {
+  border-radius: 0 0 var(--oai-card-radius) var(--oai-card-radius);
+}
+
+.page__hero-overlay .wrapper {
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+
+.page__title {
+  font-size: 1.9em;
+}
+
+/* ---------- Narrower, more centered reading column ---------- */
+.initial-content > p,
+.initial-content > h2,
+.initial-content > h3,
+.initial-content > h4,
+.initial-content > ul,
+.initial-content > ol,
+.initial-content > blockquote,
+.initial-content > .notice--info,
+.initial-content > .quick-facts,
+.initial-content > .product-showcase,
+.initial-content > .share-buttons {
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ---------- Share buttons ---------- */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  flex-wrap: wrap;
+  margin: 1.5em 0 2em;
+}
+
+.share-buttons__label {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #64748b;
+  margin-right: 0.2em;
+}
+
+.share-buttons__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: #1e293b !important;
+  font-weight: 700;
+  font-size: 0.95em;
+  text-decoration: none !important;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.share-buttons__btn:hover {
+  transform: translateY(-2px);
+  background: var(--oai-accent);
+  color: #0f172a !important;
+}
+
+.share-buttons__btn--twitter:hover { background: #000; color: #fff !important; }
+.share-buttons__btn--facebook:hover { background: #1877f2; color: #fff !important; }
+.share-buttons__btn--whatsapp:hover { background: #25d366; color: #fff !important; }
+.share-buttons__btn--linkedin:hover { background: #0a66c2; color: #fff !important; }
+
+/* ---------- Newsletter signup (footer, sitewide) ---------- */
+.newsletter-signup {
+  max-width: 760px;
+  margin: 3em auto 2em;
+  padding: 2em;
+  border-radius: var(--oai-card-radius);
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.newsletter-signup__title {
+  margin: 0 0 0.4em;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.newsletter-signup__desc {
+  color: #cbd5e1;
+  margin-bottom: 1.2em;
+  font-size: 0.95em;
+}
+
+.newsletter-signup__form {
+  display: flex;
+  gap: 0.6em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newsletter-signup__form input[type="email"] {
+  flex: 1 1 260px;
+  max-width: 320px;
+  padding: 0.7em 1em;
+  border-radius: 999px;
+  border: none;
+  font-size: 0.95em;
+}
+
+.newsletter-signup__form button {
+  padding: 0.7em 1.6em;
+  border-radius: 999px;
+  border: none;
+  background: var(--oai-accent);
+  color: #0f172a;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.newsletter-signup__form button:hover {
+  transform: translateY(-2px);
+}
+
+.newsletter-signup__message {
+  margin-top: 1em;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.newsletter-signup__message--success {
+  color: #4ade80;
+}
+
+.newsletter-signup__message--error {
+  color: #fb7185;
+}
