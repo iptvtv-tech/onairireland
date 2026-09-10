@@ -24,7 +24,7 @@ quick_facts:
 ---
 
 {% include affiliate-disclosure.html %}
-
+{% include share-buttons.html %}
 {% include quick-facts.html %}
 
 If you're buying a new TV, the operating system matters as much as the screen — it decides which apps you get natively, without needing a separate streaming stick plugged in.
