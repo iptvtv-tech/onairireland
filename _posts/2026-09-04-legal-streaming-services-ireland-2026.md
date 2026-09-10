@@ -42,9 +42,9 @@ Unauthorized IPTV resale services are illegal in Ireland and unreliable — they
 - **Sky Stream / NOW** — legal access to Sky content without a satellite dish. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link -->
 - **eir Sport, Premier Sports** — licensed sports coverage. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link -->
 
-<small>Not every streaming service runs an affiliate program — check each provider's site before swapping in a real link; leave as a plain text mention if none exists.</small>
+#<small>Not every streaming service runs an affiliate program — check each provider's site before swapping in a real link; leave as a plain text mention if none exists.</small>#
 
-*(Replace this section with researched, current pricing and service details before publishing.)*
+#*(Replace this section with researched, current pricing and service details before publishing.)*#
 
 ## How to choose
 
