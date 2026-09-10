@@ -38,9 +38,9 @@ Unauthorized IPTV resale services are illegal in Ireland and unreliable — they
 
 ## Paid subscription services
 
-- **Netflix, Disney+, Amazon Prime Video** — standard international catalogues, Irish pricing. [Sign up](https://amzn.to/4xeXSXS) <!-- TODO: affiliate/referral link if the service offers one -->
-- **Sky Stream / NOW** — legal access to Sky content without a satellite dish. [Sign up](https://amzn.to/4xeXSXS) <!-- TODO: affiliate/referral link -->
-- **eir Sport, Premier Sports** — licensed sports coverage. [Sign up](https://amzn.to/4xeXSXS) <!-- TODO: affiliate/referral link -->
+- **Netflix, Disney+, Amazon Prime Video** — standard international catalogues, Irish pricing. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link if the service offers one -->
+- **Sky Stream / NOW** — legal access to Sky content without a satellite dish. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link -->
+- **eir Sport, Premier Sports** — licensed sports coverage. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link -->
 
 <small>Not every streaming service runs an affiliate program — check each provider's site before swapping in a real link; leave as a plain text mention if none exists.</small>
 
