@@ -13,7 +13,12 @@ seo:
   type: Article
 toc: true
 draft_generated: true
+affiliate_links: true
 ---
+
+{% include affiliate-disclosure.html %}
+
+{% include share-buttons.html %}
 
 ## Netflix in Ireland: Yes, It's Completely Legal
 
