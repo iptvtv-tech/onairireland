@@ -25,6 +25,10 @@ CATEGORY_SLUGS = {
     "Streaming Services": "streaming-services",
     "Devices": "devices",
     "Installation Guides": "installation-guides",
+    "News": "news",
+    "Reviews": "reviews",
+    "Sports Streaming": "sports-streaming",
+    "Troubleshooting": "troubleshooting",
 }
 
 
