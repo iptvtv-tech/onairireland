@@ -2,7 +2,8 @@
 # The workflow pops the FIRST item each run, generates a draft post from it,
 # opens a PR, and removes it from this list once the PR is created.
 #
-# category must be one of: Streaming Services | Devices | Installation Guides
+# category must be one of: Streaming Services | Devices | Installation Guides |
+# News | Reviews | Sports Streaming | Troubleshooting
 # Add new topics to the bottom of this list whenever you like.
 
 - title: "Is Netflix Legal to Use in Ireland? What You're Actually Paying For"
