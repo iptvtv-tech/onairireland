@@ -23,7 +23,7 @@ quick_facts:
 ---
 
 {% include affiliate-disclosure.html %}
-
+{% include share-buttons.html %}
 {% include quick-facts.html %}
 
 Both Sky Stream and NOW get you Sky content without a satellite dish — but they're built for completely different viewing habits, and picking the wrong one means either overpaying or missing what you actually wanted.
