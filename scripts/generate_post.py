@@ -2,7 +2,7 @@
 """
 Pops the first topic off _data/topic_queue.yml, asks Claude to draft a
 blog post from it, writes the draft into _posts/, and removes the topic
-from the queue. Intended to run inside the GitHub Action — never
+from the queue. Intended to run inside the GitHub Action -- never
 publishes directly; the workflow opens a PR with the result so a human
 reviews and merges before anything goes live.
 
@@ -61,16 +61,19 @@ def load_queue():
 
 
 def save_queue(queue):
+    header = (
+        "# Queue of topics for the daily auto-post GitHub Action.\n"
+        "# The workflow pops the FIRST item each run, generates a draft post from it,\n"
+        "# opens a PR, and removes it from this list once the PR is created.\n"
+        "#\n"
+        "# category must be one of: Streaming Services | Devices | Installation Guides |\n"
+        "# News | Reviews | Sports Streaming | Troubleshooting\n"
+        "# (add a new category name here anytime -- Jekyll auto-generates its listing page,\n"
+        "# no other file needs to change. Just keep spelling consistent across posts.)\n"
+        "# Add new topics to the bottom of this list whenever you like.\n\n"
+    )
     with open(QUEUE_PATH, "w") as f:
-        f.write(
-            "# Queue of topics for the daily auto-post GitHub Action.\n"
-            "# The workflow pops the FIRST item each run, generates a draft post from it,\n"
-            "# opens a PR, and removes it from this list once the PR is created.\n"
-            "#\n"
-            "# category must be one of: Streaming Services | Devices | Installation Guides |\n"
-            "# News | Reviews | Sports Streaming | Troubleshooting\n"
-            "# Add new topics to the bottom of this list whenever you like.\n\n"
-        )
+        f.write(header)
         yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True)
 
 
@@ -108,7 +111,7 @@ Requirements:
         },
         timeout=120,
     )
-        if not resp.ok:
+    if not resp.ok:
         print(f"Anthropic API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     data = resp.json()
@@ -118,7 +121,7 @@ Requirements:
 def main():
     queue = load_queue()
     if not queue:
-        print("Topic queue is empty — add more topics to _data/topic_queue.yml.")
+        print("Topic queue is empty -- add more topics to _data/topic_queue.yml.")
         sys.exit(0)
 
     topic = queue.pop(0)
@@ -158,13 +161,10 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-# affiliate_links: true  # TODO: uncomment and add {{% include affiliate-disclosure.html %}} below if you add affiliate links during review
 ---
 
 """
-    showcase_block = (
-        f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
-    )
+    showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
 
     with open(filepath, "w") as f:
         f.write(front_matter + body + showcase_block + "\n")
@@ -172,7 +172,6 @@ draft_generated: true
     save_queue(queue)
 
     print(f"Draft written to {filepath}")
-    # Emit for the workflow to use in the PR title/body
     print(f"::set-output name=post_path::{filepath}")
     print(f"::set-output name=post_title::{title}")
 
