@@ -24,7 +24,7 @@ quick_facts:
 ---
 
 {% include affiliate-disclosure.html %}
-
+{% include share-buttons.html %}
 {% include quick-facts.html %}
 
 ## What you need
