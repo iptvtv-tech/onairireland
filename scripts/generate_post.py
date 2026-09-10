@@ -67,7 +67,8 @@ def save_queue(queue):
             "# The workflow pops the FIRST item each run, generates a draft post from it,\n"
             "# opens a PR, and removes it from this list once the PR is created.\n"
             "#\n"
-            "# category must be one of: Streaming Services | Devices | Installation Guides\n"
+            "# category must be one of: Streaming Services | Devices | Installation Guides |\n"
+            "# News | Reviews | Sports Streaming | Troubleshooting\n"
             "# Add new topics to the bottom of this list whenever you like.\n\n"
         )
         yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True)
