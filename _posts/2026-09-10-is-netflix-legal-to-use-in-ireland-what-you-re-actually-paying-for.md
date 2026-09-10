@@ -63,9 +63,7 @@ Netflix is a legitimate, licensed service in Ireland, and your subscription fee 
 
 ### Related
 
-- Understanding Streaming Subscription Tiers: HD, Ultra HD, and Ad-Supported Plans
-- How to Spot an Unauthorized Streaming App or Device
-- A Guide to Legal Streaming Services Available in Ireland
+Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include product-showcase.html category="Streaming Services" %}
 
