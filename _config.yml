@@ -113,7 +113,7 @@ exclude:
 
 # ==============================
 # Category definitions used across the site
-# (Streaming Services, Devices, Installation Guides, News, Reviews, Sports Streaming, Troubleshooting)
+# (Streaming Services, Devices, Installation Guides)
 # ==============================
 category_archive:
   type: liquid
