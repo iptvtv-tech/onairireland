@@ -161,7 +161,12 @@ seo:
   type: Article
 toc: true
 draft_generated: true
+affiliate_links: true
 ---
+
+{{% include affiliate-disclosure.html %}}
+
+{{% include share-buttons.html %}}
 
 """
     showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
