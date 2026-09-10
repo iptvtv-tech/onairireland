@@ -21,7 +21,7 @@ quick_facts:
 ---
 
 {% include quick-facts.html %}
-
+{% include share-buttons.html %}
 If you've cut the cord entirely and only stream over the internet, this is one of the most common questions we get — and the answer genuinely surprises a lot of people.
 
 ## The short version
