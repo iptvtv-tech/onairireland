@@ -1,0 +1,14 @@
+<!--
+  Social share buttons for the current post/page.
+  See README.md for usage — just {% include share-buttons.html %}
+-->
+{% assign share_url = site.url | append: page.url | url_encode %}
+{% assign share_title = page.title | url_encode %}
+<div class="share-buttons">
+  <span class="share-buttons__label">Share this:</span>
+  <a href="https://twitter.com/intent/tweet?text={{ share_title }}&url={{ share_url }}" class="share-buttons__btn share-buttons__btn--twitter" target="_blank" rel="noopener" aria-label="Share on X/Twitter">𝕏</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" class="share-buttons__btn share-buttons__btn--facebook" target="_blank" rel="noopener" aria-label="Share on Facebook">f</a>
+  <a href="https://api.whatsapp.com/send?text={{ share_title }}%20{{ share_url }}" class="share-buttons__btn share-buttons__btn--whatsapp" target="_blank" rel="noopener" aria-label="Share on WhatsApp">WA</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" class="share-buttons__btn share-buttons__btn--linkedin" target="_blank" rel="noopener" aria-label="Share on LinkedIn">in</a>
+  <button type="button" class="share-buttons__btn share-buttons__btn--copy" onclick="navigator.clipboard.writeText('{{ site.url }}{{ page.url }}');this.innerText='Copied!';setTimeout(()=>{this.innerText='🔗';},1800);" aria-label="Copy link">🔗</button>
+</div>
