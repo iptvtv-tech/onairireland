@@ -9,6 +9,7 @@ reviews and merges before anything goes live.
 Requires the ANTHROPIC_API_KEY secret to be set on the repo
 (Settings -> Secrets and variables -> Actions).
 """
+import random
 import datetime
 import os
 import re
@@ -45,13 +46,14 @@ def load_products():
 
 
 def pick_product_image(category: str) -> str:
-    """Return the image path of the first product matching this category,
-    so auto-drafted posts get a real product photo instead of the generic
-    placeholder. Falls back to the placeholder if no product matches yet."""
+    """Return the image path of a random product matching this category,
+    so auto-drafted posts get a varied real product photo instead of the
+    generic placeholder, and don't always show the same one. Falls back
+    to the placeholder if no product matches yet."""
     products = load_products()
-    for product in products:
-        if product.get("category") == category:
-            return product.get("image", "/assets/images/social-default.svg")
+    matches = [p for p in products if p.get("category") == category]
+    if matches:
+        return random.choice(matches).get("image", "/assets/images/social-default.svg")
     return "/assets/images/social-default.svg"
 
 
