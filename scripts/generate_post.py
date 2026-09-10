@@ -108,6 +108,8 @@ Requirements:
         },
         timeout=120,
     )
+        if not resp.ok:
+        print(f"Anthropic API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     data = resp.json()
     return "".join(block.get("text", "") for block in data.get("content", []))
