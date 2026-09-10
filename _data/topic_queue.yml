@@ -4,68 +4,79 @@
 #
 # category must be one of: Streaming Services | Devices | Installation Guides |
 # News | Reviews | Sports Streaming | Troubleshooting
+# (add a new category name here anytime -- Jekyll auto-generates its listing page,
+# no other file needs to change. Just keep spelling consistent across posts.)
 # Add new topics to the bottom of this list whenever you like.
 
-- title: "Is Netflix Legal to Use in Ireland? What You're Actually Paying For"
-  category: "Streaming Services"
-  brief: "Explain that Netflix is a fully licensed service in Ireland, what the subscription tiers cost, and how it differs from unauthorized IPTV resale."
-
-- title: "Chromecast vs Fire TV Stick: Which Is Better for Irish Viewers?"
-  category: "Devices"
-  brief: "Compare Chromecast with Google TV and Amazon Fire TV Stick on app support (RTÉ Player, Virgin Media Player, sports packages), price, and ease of use in Ireland."
-
-- title: "How to Set Up Virgin Media Player on a Samsung Smart TV"
-  category: "Installation Guides"
-  brief: "Step-by-step instructions to install and sign into the Virgin Media Player app on a Samsung Tizen smart TV."
-
-- title: "RTÉ's GAA Coverage in 2026: How They're Avoiding Another Paywall Controversy"
-  category: "Sports Streaming"
-  brief: "Explain RTÉ's move to 19 weeks of GAA hurling and football championship coverage in 2026, following criticism over the split between paid GAA+ games and free-to-air games in prior seasons."
-
-- title: "Virgin Media Play: What's New in the Redesigned App"
-  category: "Streaming Services"
-  brief: "Cover Virgin Media Play's relaunched streaming app — live and on-demand VMTV channels, restart/catch-up features, and availability on mobile, tablet, and smart TV."
-
-- title: "NOW's 2026 Rebrand Explained: What Actually Changed"
-  category: "News"
-  brief: "Explain NOW's 'Now You Know' brand refresh, and clarify for readers whether anything changed about pricing, passes, or how the contract-free service works day to day."
-
-- title: "Sky Sports+ Explained: More Live Streams at No Extra Cost"
-  category: "Streaming Services"
-  brief: "Explain Sky Sports+ for Irish Sky Sports subscribers — additional live streams and a new channel included at no extra cost, and how to access it."
-
-- title: "Virgin Media TV Ireland: Essential vs Mix vs Max Compared"
-  category: "Streaming Services"
-  brief: "Compare Virgin Media's Essential, Mix, and Max TV plans in Ireland on price and channel/feature differences, to help readers pick the right tier."
-
-- title: "Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?"
-  category: "Reviews"
-  brief: "Discuss Netflix and Prime Video's near-equal share of the Irish streaming market per available market-share data, and what that means for someone choosing between them — note the data source and date clearly since streaming market share shifts often."
-
-- title: "Where to Watch the FIFA World Cup 2026 Legally in Ireland"
-  category: "Sports Streaming"
-  brief: "RTÉ holds licensed free-to-air broadcast rights for the 2026 World Cup in Ireland. Explain which matches are covered, and that no other Irish service legally streams the tournament."
-
-- title: "How to Watch Six Nations Rugby Legally in Ireland"
-  category: "Sports Streaming"
-  brief: "Explain how RTÉ and Virgin Media Television split Six Nations coverage in Ireland, and that both are free-to-air — no subscription needed for Ireland's matches."
-
-- title: "What Is Saorview and Do You Need It If You Stream?"
-  category: "Installation Guides"
-  brief: "Explain Ireland's free digital terrestrial TV platform (Saorview) — what it gives you for free (RTÉ, TG4, Virgin Media channels), and whether streaming-only households still benefit from an aerial setup alongside their apps."
-
-- title: "TG4 Player: What You Get for Free"
-  category: "Streaming Services"
-  brief: "Overview of TG4 Player's free live and catch-up content, including Irish-language programming and GAA coverage TG4 carries."
-
-- title: "GAA All-Ireland Finals: Where to Watch Every Match Legally"
-  category: "Sports Streaming"
-  brief: "Building on the existing GAA legal streaming guide — a focused piece on Championship Finals weekend specifically, covering RTÉ, TG4, and GAA+ coverage split for the biggest fixtures of the year."
-
-- title: "Why Is My Streaming App Buffering? Common Fixes"
-  category: "Troubleshooting"
-  brief: "Practical troubleshooting for buffering on streaming apps — broadband speed requirements, Wi-Fi placement, wired Ethernet vs Wi-Fi, and when the issue is the app/service rather than the connection."
-
-- title: "RTÉ Player App Review: What's Good and What's Missing"
-  category: "Reviews"
-  brief: "An honest review of the RTÉ Player app's interface, content library, and device support — where it excels and any real limitations, based on publicly available info about the app rather than invented details."
+- title: 'Chromecast vs Fire TV Stick: Which Is Better for Irish Viewers?'
+  category: Devices
+  brief: Compare Chromecast with Google TV and Amazon Fire TV Stick on app support
+    (RTÉ Player, Virgin Media Player, sports packages), price, and ease of use in
+    Ireland.
+- title: How to Set Up Virgin Media Player on a Samsung Smart TV
+  category: Installation Guides
+  brief: Step-by-step instructions to install and sign into the Virgin Media Player
+    app on a Samsung Tizen smart TV.
+- title: 'RTÉ''s GAA Coverage in 2026: How They''re Avoiding Another Paywall Controversy'
+  category: Sports Streaming
+  brief: Explain RTÉ's move to 19 weeks of GAA hurling and football championship coverage
+    in 2026, following criticism over the split between paid GAA+ games and free-to-air
+    games in prior seasons.
+- title: 'Virgin Media Play: What''s New in the Redesigned App'
+  category: Streaming Services
+  brief: Cover Virgin Media Play's relaunched streaming app — live and on-demand VMTV
+    channels, restart/catch-up features, and availability on mobile, tablet, and smart
+    TV.
+- title: 'NOW''s 2026 Rebrand Explained: What Actually Changed'
+  category: News
+  brief: Explain NOW's 'Now You Know' brand refresh, and clarify for readers whether
+    anything changed about pricing, passes, or how the contract-free service works
+    day to day.
+- title: 'Sky Sports+ Explained: More Live Streams at No Extra Cost'
+  category: Streaming Services
+  brief: Explain Sky Sports+ for Irish Sky Sports subscribers — additional live streams
+    and a new channel included at no extra cost, and how to access it.
+- title: 'Virgin Media TV Ireland: Essential vs Mix vs Max Compared'
+  category: Streaming Services
+  brief: Compare Virgin Media's Essential, Mix, and Max TV plans in Ireland on price
+    and channel/feature differences, to help readers pick the right tier.
+- title: 'Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?'
+  category: Reviews
+  brief: Discuss Netflix and Prime Video's near-equal share of the Irish streaming
+    market per available market-share data, and what that means for someone choosing
+    between them — note the data source and date clearly since streaming market share
+    shifts often.
+- title: Where to Watch the FIFA World Cup 2026 Legally in Ireland
+  category: Sports Streaming
+  brief: RTÉ holds licensed free-to-air broadcast rights for the 2026 World Cup in
+    Ireland. Explain which matches are covered, and that no other Irish service legally
+    streams the tournament.
+- title: How to Watch Six Nations Rugby Legally in Ireland
+  category: Sports Streaming
+  brief: Explain how RTÉ and Virgin Media Television split Six Nations coverage in
+    Ireland, and that both are free-to-air — no subscription needed for Ireland's
+    matches.
+- title: What Is Saorview and Do You Need It If You Stream?
+  category: Installation Guides
+  brief: Explain Ireland's free digital terrestrial TV platform (Saorview) — what
+    it gives you for free (RTÉ, TG4, Virgin Media channels), and whether streaming-only
+    households still benefit from an aerial setup alongside their apps.
+- title: 'TG4 Player: What You Get for Free'
+  category: Streaming Services
+  brief: Overview of TG4 Player's free live and catch-up content, including Irish-language
+    programming and GAA coverage TG4 carries.
+- title: 'GAA All-Ireland Finals: Where to Watch Every Match Legally'
+  category: Sports Streaming
+  brief: Building on the existing GAA legal streaming guide — a focused piece on Championship
+    Finals weekend specifically, covering RTÉ, TG4, and GAA+ coverage split for the
+    biggest fixtures of the year.
+- title: Why Is My Streaming App Buffering? Common Fixes
+  category: Troubleshooting
+  brief: Practical troubleshooting for buffering on streaming apps — broadband speed
+    requirements, Wi-Fi placement, wired Ethernet vs Wi-Fi, and when the issue is
+    the app/service rather than the connection.
+- title: 'RTÉ Player App Review: What''s Good and What''s Missing'
+  category: Reviews
+  brief: An honest review of the RTÉ Player app's interface, content library, and
+    device support — where it excels and any real limitations, based on publicly available
+    info about the app rather than invented details.
