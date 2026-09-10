@@ -1,1 +1,12 @@
 <script src="{{ '/assets/js/product-shuffle.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/newsletter.js' | relative_url }}" defer></script>
+
+<div class="newsletter-signup">
+  <h3 class="newsletter-signup__title">Join Our Newsletter</h3>
+  <p class="newsletter-signup__desc">New legal streaming guides for Ireland, straight to your inbox. No spam, unsubscribe anytime.</p>
+  <form id="newsletter-form" class="newsletter-signup__form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+    <button type="submit">Subscribe</button>
+  </form>
+  <p id="newsletter-message" class="newsletter-signup__message" hidden></p>
+</div>
