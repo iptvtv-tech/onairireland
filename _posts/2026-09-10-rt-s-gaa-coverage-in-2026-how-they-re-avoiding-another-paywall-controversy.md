@@ -3,9 +3,9 @@ title: "RTÉ's GAA Coverage in 2026: How They're Avoiding Another Paywall Contro
 excerpt: "RTÉ has expanded its 2026 GAA championship coverage to 19 weeks of live free-to-air action, a move that follows sustained criticism over how many marquee hurling and football games were held back for the paid GAA+ streaming service in previous seasons."
 description: "RTÉ has expanded its 2026 GAA championship coverage to 19 weeks of live free-to-air action, a move that follows sustained criticism over how many marquee hurling and football games were held back for the paid GAA+ streaming service in previous seasons."
 categories:
-  - Sports-Streaming
+  - News
 tags:
-  - sports-streaming
+  - news
 header:
   overlay_image: /assets/images/social-default.svg
   teaser: /assets/images/products/sports.jpg
@@ -60,7 +60,7 @@ RTÉ's move to 19 weeks of coverage doesn't fully resolve the underlying tension
 
 As always with GAA broadcast arrangements, the fine print matters. Once RTÉ releases its detailed fixture-by-fixture schedule, it should become clearer exactly how much championship hurling and football Irish fans will be able to watch without opening their wallets this summer.
 
-{% include product-showcase.html category="Sports Streaming" %}
+{% include product-showcase.html category="News" %}
 
 ### Related
 
