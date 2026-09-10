@@ -277,8 +277,53 @@
 .initial-content > blockquote,
 .initial-content > .notice--info,
 .initial-content > .quick-facts,
-.initial-content > .product-showcase {
-  max-width: 1080px !important;
+.initial-content > .product-showcase,
+.initial-content > .share-buttons {
+  max-width: 760px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* ---------- Share buttons ---------- */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  flex-wrap: wrap;
+  margin: 1.5em 0 2em;
+}
+
+.share-buttons__label {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #64748b;
+  margin-right: 0.2em;
+}
+
+.share-buttons__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: #1e293b !important;
+  font-weight: 700;
+  font-size: 0.95em;
+  text-decoration: none !important;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.share-buttons__btn:hover {
+  transform: translateY(-2px);
+  background: var(--oai-accent);
+  color: #0f172a !important;
+}
+
+.share-buttons__btn--twitter:hover { background: #000; color: #fff !important; }
+.share-buttons__btn--facebook:hover { background: #1877f2; color: #fff !important; }
+.share-buttons__btn--whatsapp:hover { background: #25d366; color: #fff !important; }
+.share-buttons__btn--linkedin:hover { background: #0a66c2; color: #fff !important; }
