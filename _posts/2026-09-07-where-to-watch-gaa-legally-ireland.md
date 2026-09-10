@@ -24,7 +24,7 @@ quick_facts:
 ---
 
 {% include affiliate-disclosure.html %}
-
+{% include share-buttons.html %}
 {% include quick-facts.html %}
 
 If you've ever gone looking for a specific Championship match only to find it's not on RTÉ, you're not alone — GAA coverage in Ireland is split across three separate broadcasters, and which one has your match depends on the round, not the county.
