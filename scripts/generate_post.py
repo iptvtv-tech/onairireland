@@ -91,7 +91,7 @@ Requirements:
 - Start directly with the article body in Markdown (no front matter, no title heading repeated).
 - Use ## and ### headings, short paragraphs.
 - Do NOT include a "Related" or "See also" section, and do not invent links to other posts
-  or pages — a real "Related" link gets appended automatically after your content.
+  or pages -- a real "Related" link gets appended automatically after your content.
 - Include a one-sentence meta-description-style summary as the very first line, prefixed
   with "SUMMARY:", then a blank line, then the article.
 - 500-800 words.
@@ -99,7 +99,6 @@ Requirements:
   wording, say so explicitly rather than inventing specifics, since a human will fact-check
   before publishing.
 """
-    
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
@@ -172,7 +171,8 @@ affiliate_links: true
 {{% include share-buttons.html %}}
 
 """
-        showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
+
+    showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
     related_block = (
         "\n### Related\n\n"
         "Read our [full guide to legal streaming services in Ireland]"
