@@ -13,5 +13,9 @@ main:
     url: /categories/#news
   - title: "Troubleshooting"
     url: /categories/#troubleshooting
+  - title: "Best Prices"
+    url: /best-prices/
+  - title: "Quiz"
+    url: /quiz/
   - title: "About"
     url: /about/
