@@ -57,7 +57,7 @@ For core Irish apps like RTÉ Player, neither device has a clear, well-documente
 Ultimately, both are solid, legal, affordable ways to bring streaming apps to an older TV, and the "better" choice comes down to which ecosystem you're already using and which specific Irish apps you rely on most.
 
 {% include product-showcase.html category="Devices" %}
-
+{% include related-posts.html %}
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
