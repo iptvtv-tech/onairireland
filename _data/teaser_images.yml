@@ -1,0 +1,27 @@
+# Extra teaser/hero image options per category, used alongside product
+# photos to give auto-drafted posts more visual variety. Add more paths
+# here anytime — just upload the actual image file to assets/images/teasers/
+# and list its path below under the right category.
+
+Streaming Services:
+  - /assets/images/teasers/streaming-1.jpg
+  - /assets/images/teasers/streaming-2.jpg
+
+Devices:
+  - /assets/images/teasers/devices-1.jpg
+  - /assets/images/teasers/devices-2.jpg
+
+Installation Guides:
+  - /assets/images/teasers/installation-1.jpg
+
+Sports Streaming:
+  - /assets/images/teasers/sports-1.jpg
+
+News:
+  - /assets/images/teasers/news-1.jpg
+
+Reviews:
+  - /assets/images/teasers/reviews-1.jpg
+
+Troubleshooting:
+  - /assets/images/teasers/troubleshooting-1.jpg
