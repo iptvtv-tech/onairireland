@@ -18,6 +18,17 @@ quick_facts:
   - Internet-only streaming devices are exempt from Ireland's TV licence
   - The licence only applies if your setup can receive a broadcast signal (aerial/satellite)
   - Current fee is €160 per household, per address not per person
+faqs:
+  - question: "Do I need a TV licence if I only use streaming apps like Netflix or RTÉ Player?"
+    answer: "No — if your setup is internet-only, with no aerial or satellite dish connected, you're not required to have a TV licence under Ireland's Broadcasting Act 2009."
+  - question: "What if my smart TV has an aerial socket but I don't use it?"
+    answer: "The requirement is based on whether your equipment is capable of receiving a broadcast signal, not whether you actually use that capability — so if you never connect an aerial or dish, you should fall into the exempt category."
+  - question: "How much is the TV licence fee in Ireland?"
+    answer: "€160 per household, correct at time of writing — always double-check the current figure directly with An Post, since fees can change."
+  - question: "Does the licence apply per person or per household?"
+    answer: "Per address, not per person. A shared house on a single tenancy needs one licence covering everyone, while separate tenancy agreements in the same building each need their own."
+  - question: "Who enforces the TV licence in Ireland?"
+    answer: "An Post currently administers TV licensing in Ireland — they're the authoritative source to confirm your specific situation."
 ---
 
 {% include quick-facts.html %}
@@ -44,6 +55,9 @@ The annual TV licence fee is **€160** per household (correct at time of writin
 Streaming apps like RTÉ Player don't ask you to prove you have a licence, and a smart TV *can* technically receive a broadcast signal if you plug an aerial into it — which is the detail that actually matters here, not which apps are installed. If you're setting up a new home and going fully internet-only, the practical takeaway is: don't connect an aerial or dish, and you're very likely in the exempt category.
 
 If you're at all unsure about your specific setup, An Post's TV licence service is the authoritative source to confirm — this guide is a starting point, not a legal ruling on your situation.
+
+{% include faq-section.html %}
+
 {% include related-posts.html %}
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
