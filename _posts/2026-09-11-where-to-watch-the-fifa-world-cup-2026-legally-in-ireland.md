@@ -8,7 +8,7 @@ tags:
   - sports-streaming
 header:
   overlay_image: /assets/images/products/gaa-plus.jpg
-  teaser: /assets/images/products/gaa-plus.jpg
+  teaser: /assets/images/products/sports.jpg
 seo:
   type: Article
 toc: true
