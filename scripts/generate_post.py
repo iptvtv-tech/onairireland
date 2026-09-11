@@ -96,7 +96,12 @@ Requirements:
   or pages -- a real "Related" link gets appended automatically after your content.
 - Include a one-sentence meta-description-style summary as the very first line, prefixed
   with "SUMMARY:", then a blank line, then the article.
-- 500-800 words.
+- After the article body, add a line that says exactly "FAQS:" on its own, then exactly
+  4 question-and-answer pairs, each formatted as:
+  Q: question text
+  A: answer text
+  with nothing else on those lines, and nothing after the last answer.
+- 500-800 words for the article body (not counting the FAQ section).
 - Be factually cautious: where you are not certain of a current price or exact app menu
   wording, say so explicitly rather than inventing specifics, since a human will fact-check
   before publishing.
@@ -122,6 +127,17 @@ Requirements:
     return "".join(block.get("text", "") for block in data.get("content", []))
 
 
+def parse_faqs(text: str):
+    """Split FAQS: block out of the raw response and parse Q:/A: pairs.
+    Returns (body_without_faqs, list_of_(question, answer)_tuples)."""
+    if "FAQS:" not in text:
+        return text, []
+    body, _, faq_block = text.partition("FAQS:")
+    pairs = re.findall(r"Q:\s*(.+?)\s*\nA:\s*(.+?)(?=\n\s*Q:|\Z)", faq_block.strip(), re.DOTALL)
+    cleaned = [(q.strip(), a.strip()) for q, a in pairs if q.strip() and a.strip()]
+    return body.strip(), cleaned
+
+
 def main():
     queue = load_queue()
     if not queue:
@@ -142,6 +158,8 @@ def main():
         summary = first_line.replace("SUMMARY:", "").strip()
         body = rest.strip()
 
+    body, faqs = parse_faqs(body)
+
     today = datetime.date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
@@ -154,6 +172,14 @@ def main():
     # front matter's quoted strings (this caused real build failures before).
     safe_title = title.replace('"', "'")
     safe_summary = summary.replace('"', "'")
+
+    faqs_yaml = ""
+    if faqs:
+        faqs_yaml = "faqs:\n"
+        for q, a in faqs:
+            safe_q = q.replace('"', "'")
+            safe_a = a.replace('"', "'")
+            faqs_yaml += f'  - question: "{safe_q}"\n    answer: "{safe_a}"\n'
 
     front_matter = f"""---
 title: "{safe_title}"
@@ -171,7 +197,7 @@ seo:
 toc: true
 draft_generated: true
 affiliate_links: true
----
+{faqs_yaml}---
 
 {{% include last-updated.html %}}
 
@@ -182,7 +208,9 @@ affiliate_links: true
 """
 
     showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
+    faq_block = "\n{% include faq-section.html %}\n" if faqs else ""
     related_block = (
+        f"{faq_block}"
         "\n{% include related-posts.html %}\n"
         "\n### Related\n\n"
         "Read our [full guide to legal streaming services in Ireland]"
