@@ -48,5 +48,5 @@ quick_facts:
 - **Playback issues:** confirm your broadband speed meets RTÉ Player's minimum requirement, and restart the device.
 
 {% include product-showcase.html category="Installation Guides" title="Helpful Extras" %}
-
+{% include related-posts.html %}
 See more in [Streaming Services](/categories/#streaming-services) and [Devices](/categories/#devices).
