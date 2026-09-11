@@ -72,7 +72,7 @@ We'd recommend checking Virgin Media's official website or contacting their cust
 The redesigned Virgin Media Play app brings a cleaner interface, more prominent live VMTV channels, and streamlined restart and catch-up tools, all while extending support across phones, tablets, smart TVs, and browsers. For existing Virgin Media customers, it's a straightforward way to bring live and on-demand Irish TV to more screens around the house — and beyond it.
 
 {% include product-showcase.html category="Streaming Services" %}
-
+{% include related-posts.html %}
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
