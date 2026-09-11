@@ -1,0 +1,19 @@
+<!--
+  Shows up to 3 other posts from the current post's first category.
+  See README.md for usage.
+-->
+{% assign related_category = page.categories[0] %}
+{% assign related_posts = site.categories[related_category] | where_exp: "post", "post.url != page.url" | limit: 3 %}
+{% if related_posts.size > 0 %}
+<div class="related-posts">
+  <h3 class="related-posts__title">You Might Also Like</h3>
+  <div class="related-posts__grid">
+    {% for post in related_posts %}
+    <a href="{{ post.url | relative_url }}" class="related-posts__card">
+      <img src="{{ post.header.teaser | default: '/assets/images/social-default.svg' | relative_url }}" alt="{{ post.title }}" loading="lazy">
+      <span class="related-posts__card-title">{{ post.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
