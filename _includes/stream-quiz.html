@@ -1,0 +1,32 @@
+<!--
+  Interactive quiz: recommends a streaming setup based on 3 quick questions.
+  Vanilla JS, no build step. See README.md for usage.
+-->
+<div class="stream-quiz" id="stream-quiz">
+  <div class="stream-quiz__step" data-step="1">
+    <h3>What matters most to you?</h3>
+    <button class="stream-quiz__option" data-q="priority" data-a="sports">Live sports</button>
+    <button class="stream-quiz__option" data-q="priority" data-a="movies">Movies &amp; shows</button>
+    <button class="stream-quiz__option" data-q="priority" data-a="free">Free options only</button>
+  </div>
+
+  <div class="stream-quiz__step" data-step="2" hidden>
+    <h3>What's your rough monthly budget?</h3>
+    <button class="stream-quiz__option" data-q="budget" data-a="low">Under €20</button>
+    <button class="stream-quiz__option" data-q="budget" data-a="mid">€20&ndash;€40</button>
+    <button class="stream-quiz__option" data-q="budget" data-a="high">No strict limit</button>
+  </div>
+
+  <div class="stream-quiz__step" data-step="3" hidden>
+    <h3>Do you already have a streaming device or smart TV?</h3>
+    <button class="stream-quiz__option" data-q="device" data-a="have">Yes, already set up</button>
+    <button class="stream-quiz__option" data-q="device" data-a="need">No, I need one</button>
+    <button class="stream-quiz__option" data-q="device" data-a="unsure">Not sure</button>
+  </div>
+
+  <div class="stream-quiz__result" data-step="result" hidden>
+    <h3>Our recommendation</h3>
+    <p id="stream-quiz-result-text"></p>
+    <button class="stream-quiz__restart" id="stream-quiz-restart">Start Over</button>
+  </div>
+</div>
