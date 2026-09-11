@@ -428,3 +428,136 @@
 .newsletter-signup__message--error {
   color: #fb7185;
 }
+
+/* ---------- Related posts ---------- */
+.related-posts {
+  margin: 2.5em 0;
+}
+
+.related-posts__title {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+.related-posts__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1em;
+}
+
+.related-posts__card {
+  display: block;
+  border-radius: var(--oai-card-radius);
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.related-posts__card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.related-posts__card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.related-posts__card-title {
+  display: block;
+  padding: 0.7em 0.9em;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+/* ---------- FAQ section ---------- */
+.faq-section {
+  margin: 2.5em 0;
+}
+
+.faq-section__title {
+  font-size: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+.faq-item {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.2em 1em;
+  margin-bottom: 0.6em;
+}
+
+.faq-item__question {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.6em 0;
+}
+
+.faq-item__answer {
+  padding: 0 0 0.9em;
+  color: #475569;
+  font-size: 0.95em;
+}
+
+/* ---------- Last updated badge ---------- */
+.last-updated {
+  display: inline-block;
+  font-size: 0.8em;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 0.3em 0.9em;
+  border-radius: 999px;
+  margin: 0.5em 0 1em;
+}
+
+/* ---------- Streaming setup quiz ---------- */
+.stream-quiz {
+  max-width: 600px;
+  margin: 1.5em auto;
+  padding: 2em;
+  border-radius: var(--oai-card-radius);
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.stream-quiz__step h3 {
+  margin-top: 0;
+}
+
+.stream-quiz__option {
+  display: block;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  margin-bottom: 0.7em;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.stream-quiz__option:hover {
+  background: var(--oai-accent);
+  border-color: var(--oai-accent);
+}
+
+.stream-quiz__result p {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.stream-quiz__restart {
+  padding: 0.6em 1.4em;
+  border-radius: 999px;
+  border: none;
+  background: var(--oai-accent-dark);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
