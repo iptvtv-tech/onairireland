@@ -76,7 +76,7 @@ Once signed in, you should see your available channels and on-demand content. Br
 Setting up Virgin Media Player on a Samsung Smart TV is generally straightforward, provided your TV model is supported and your subscription is active. If you run into persistent problems, Virgin Media's customer support team is the best point of contact, as they can check account-specific issues that go beyond general setup steps.
 
 {% include product-showcase.html category="Installation Guides" %}
-
+{% include related-posts.html %}
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
