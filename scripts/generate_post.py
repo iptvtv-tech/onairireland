@@ -45,15 +45,26 @@ def load_products():
         return yaml.safe_load(f) or []
 
 
+def load_teaser_images():
+    teasers_path = os.path.join(REPO_ROOT, "_data", "teaser_images.yml")
+    with open(teasers_path, "r") as f:
+        return yaml.safe_load(f) or {}
+
+
 def pick_product_image(category: str) -> str:
-    """Return the image path of a random product matching this category,
-    so auto-drafted posts get a varied real product photo instead of the
-    generic placeholder, and don't always show the same one. Falls back
-    to the placeholder if no product matches yet."""
+    """Return the image path of a random image matching this category --
+    pulled from both product photos AND the broader teaser_images.yml pool,
+    so auto-drafted posts get real visual variety instead of repeating the
+    same 1-2 product photos every time. Falls back to the placeholder if
+    nothing matches yet."""
     products = load_products()
-    matches = [p for p in products if p.get("category") == category]
-    if matches:
-        return random.choice(matches).get("image", "/assets/images/social-default.svg")
+    pool = [p.get("image") for p in products if p.get("category") == category and p.get("image")]
+
+    teasers = load_teaser_images()
+    pool += teasers.get(category, [])
+
+    if pool:
+        return random.choice(pool)
     return "/assets/images/social-default.svg"
 
 
@@ -81,6 +92,18 @@ def save_queue(queue):
 
 def call_claude(title: str, category: str, brief: str) -> str:
     api_key = os.environ["ANTHROPIC_API_KEY"]
+
+    matching_products = [p for p in load_products() if p.get("category") == category]
+    product_links_text = ""
+    if matching_products:
+        lines = [f"- [{p['name']}]({p['affiliate_link']})" for p in matching_products]
+        product_links_text = (
+            "\nRelevant product links you may naturally reference inline in the article "
+            "(not just at the end) -- weave 1-2 of these into the body as normal markdown "
+            "links where they fit naturally, using descriptive text, not a dumped list:\n"
+            + "\n".join(lines) + "\n"
+        )
+
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
@@ -88,7 +111,7 @@ unauthorized/unlicensed IPTV or streaming resale services.
 Title: {title}
 Category: {category}
 Brief: {brief}
-
+{product_links_text}
 Requirements:
 - Start directly with the article body in Markdown (no front matter, no title heading repeated).
 - Use ## and ### headings, short paragraphs.
