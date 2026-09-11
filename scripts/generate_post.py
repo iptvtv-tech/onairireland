@@ -9,9 +9,9 @@ reviews and merges before anything goes live.
 Requires the ANTHROPIC_API_KEY secret to be set on the repo
 (Settings -> Secrets and variables -> Actions).
 """
-import random
 import datetime
 import os
+import random
 import re
 import sys
 
@@ -147,7 +147,7 @@ def main():
     filename = f"{today}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
 
-        category_slug_name = category.replace(" ", "-")
+    category_slug_name = category.replace(" ", "-")
     hero_image = pick_product_image(category)
 
     # Escape double quotes so AI-generated text can never break the YAML
