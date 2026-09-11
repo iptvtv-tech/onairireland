@@ -48,5 +48,5 @@ Unauthorized IPTV resale services are illegal in Ireland and unreliable — they
 Pick based on what you actually watch — sports fans need a licensed sports package; casual viewers are often covered by one or two general streaming subscriptions plus RTÉ Player.
 
 {% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
-
+{% include related-posts.html %}
 Related: see our [device guides](/categories/#devices) and [installation guides](/categories/#installation-guides) for setup help.
