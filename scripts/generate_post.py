@@ -173,9 +173,11 @@ draft_generated: true
 affiliate_links: true
 ---
 
-{{% include affiliate-disclosure.html %}}
+{% include last-updated.html %}
 
-{{% include share-buttons.html %}}
+{% include affiliate-disclosure.html %}
+
+{% include share-buttons.html %}
 
 """
 
