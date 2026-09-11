@@ -48,5 +48,5 @@ If you've ever gone looking for a specific Championship match only to find it's 
 Whichever combination you need, the setup is the same principle across services: the RTÉ Player and TG4 Player apps are available on all major streaming devices (Fire TV Stick, Apple TV, Chromecast, and most smart TV platforms), and GAA+ runs as its own app on the same devices.
 
 {% include product-showcase.html category="Devices" title="Get Set Up for Championship Season" %}
-
+{% include related-posts.html %}
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [device buying guide](/devices/best-streaming-devices-ireland/).
