@@ -62,7 +62,7 @@ Netflix is available through official apps on smart TVs, games consoles, streami
 Netflix is a legitimate, licensed service in Ireland, and your subscription fee funds genuine content licensing, production, and infrastructure. While pricing details change over time, the underlying legal structure doesn't — and that's a meaningful difference from unauthorized streaming alternatives that might look tempting on price but carry real risks.
 
 ### Related
-
+{% include related-posts.html %}
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include product-showcase.html category="Streaming Services" %}
