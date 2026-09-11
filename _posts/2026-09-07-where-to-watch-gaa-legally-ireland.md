@@ -21,6 +21,15 @@ quick_facts:
      - GAA coverage is split across RTE, TG4, and GAA+
      - Coverage depends on the round, not the county
      - GAA+ is fully GAA-owned since 2025
+faqs:
+  - question: "Why isn't every GAA match on RTÉ?"
+    answer: "GAA coverage is split across three broadcasters — RTÉ, TG4, and paid subscription service GAA+ — with the split decided round by round, not by which county is playing."
+  - question: "What is GAA+?"
+    answer: "GAA+ is the GAA's own streaming platform, rebranded from GAAGO after the GAA took full ownership from RTÉ in early 2025. It carries Championship matches not shown free-to-air."
+  - question: "Is GAA+ expensive?"
+    answer: "Pricing is typically a flat season fee rather than per-match, but it changes between seasons — check GAA+'s own site directly for the current price rather than relying on a fixed figure here."
+  - question: "Do I need a special device to watch GAA+?"
+    answer: "No — the RTÉ Player, TG4 Player, and GAA+ apps are all available on the same major streaming devices: Fire TV Stick, Apple TV, Chromecast, and most smart TV platforms."
 ---
 
 {% include affiliate-disclosure.html %}
@@ -48,5 +57,8 @@ If you've ever gone looking for a specific Championship match only to find it's 
 Whichever combination you need, the setup is the same principle across services: the RTÉ Player and TG4 Player apps are available on all major streaming devices (Fire TV Stick, Apple TV, Chromecast, and most smart TV platforms), and GAA+ runs as its own app on the same devices.
 
 {% include product-showcase.html category="Devices" title="Get Set Up for Championship Season" %}
+
+{% include faq-section.html %}
+
 {% include related-posts.html %}
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [device buying guide](/devices/best-streaming-devices-ireland/).
