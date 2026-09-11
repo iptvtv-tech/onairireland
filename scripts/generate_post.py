@@ -173,16 +173,16 @@ draft_generated: true
 affiliate_links: true
 ---
 
-{% include last-updated.html %}
+{{% include last-updated.html %}}
 
-{% include affiliate-disclosure.html %}
+{{% include affiliate-disclosure.html %}}
 
-{% include share-buttons.html %}
+{{% include share-buttons.html %}}
 
 """
 
     showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
-       related_block = (
+    related_block = (
         "\n{% include related-posts.html %}\n"
         "\n### Related\n\n"
         "Read our [full guide to legal streaming services in Ireland]"
