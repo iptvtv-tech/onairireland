@@ -76,7 +76,7 @@ If you mainly want free-to-air Irish channels and a few extras, Essential is pro
 Because pricing and channel lineups can shift, it's a good idea to check Virgin Media's official Ireland website or contact their sales team directly for the latest details before choosing a plan.
 
 {% include product-showcase.html category="Streaming Services" %}
-
+{% include related-posts.html %}
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
