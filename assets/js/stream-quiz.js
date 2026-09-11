@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     resultStep.hidden = true;
   }
 
-  function recommend() {
+    function recommend() {
     var text = "";
 
     if (answers.priority === "sports") {
@@ -34,10 +34,15 @@ document.addEventListener("DOMContentLoaded", function () {
       text += "With a flexible budget, you could reasonably run a full stack — a general service, a sports package, and Sky Stream — without much compromise. ";
     }
 
+    var productCategory = "Streaming Services";
     if (answers.device === "need") {
+      productCategory = "Devices";
       text += "Since you'll need a device too, a Fire TV Stick 4K is the easiest all-round starting point — check our device buying guide for other options.";
     } else if (answers.device === "unsure") {
       text += "If you're not sure what your current TV supports, check our smart TV guide before buying anything extra — you might not need a separate device at all.";
+    } else if (answers.priority === "sports") {
+      productCategory = "Sports Streaming";
+      text += "Since you're already set up on a device, you're ready to just pick a service from above and sign up directly.";
     } else {
       text += "Since you're already set up on a device, you're ready to just pick the services from above and sign up directly.";
     }
@@ -45,21 +50,22 @@ document.addEventListener("DOMContentLoaded", function () {
     resultText.textContent = text;
     steps.forEach(function (step) { step.hidden = true; });
     resultStep.hidden = false;
+
+    var productContainer = document.getElementById("stream-quiz-product");
+    productContainer.innerHTML = "";
+    fetch("/products.json")
+      .then(function (r) { return r.json(); })
+      .then(function (products) {
+        var matches = products.filter(function (p) { return p.category === productCategory; });
+        if (matches.length === 0) matches = products.filter(function (p) { return p.category === "Streaming Services"; });
+        if (matches.length === 0) return;
+        var pick = matches[Math.floor(Math.random() * matches.length)];
+        productContainer.innerHTML =
+          '<div class="stream-quiz__pick">' +
+          '<img src="' + pick.image + '" alt="' + pick.name + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+          '<div><strong>' + pick.name + '</strong><br><span>' + pick.price + '</span><br>' +
+          '<a href="' + pick.affiliate_link + '" rel="nofollow sponsored noopener" target="_blank">Check Price →</a></div>' +
+          '</div>';
+      })
+      .catch(function () { /* silently skip the product card if this fails */ });
   }
-
-  quiz.addEventListener("click", function (e) {
-    if (!e.target.classList.contains("stream-quiz__option")) return;
-    var q = e.target.getAttribute("data-q");
-    var a = e.target.getAttribute("data-a");
-    answers[q] = a;
-
-    if (q === "priority") showStep(2);
-    else if (q === "budget") showStep(3);
-    else if (q === "device") recommend();
-  });
-
-  restartBtn.addEventListener("click", function () {
-    answers = {};
-    showStep(1);
-  });
-});
