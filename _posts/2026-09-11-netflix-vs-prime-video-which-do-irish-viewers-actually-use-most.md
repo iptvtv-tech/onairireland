@@ -8,7 +8,7 @@ tags:
   - reviews
 header:
   overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/social-default.svg
+  teaser: /assets/images/products/roku-streaming-stick.jpg
 seo:
   type: Article
 toc: true
