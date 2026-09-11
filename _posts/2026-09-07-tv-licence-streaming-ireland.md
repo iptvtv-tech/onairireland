@@ -44,7 +44,7 @@ The annual TV licence fee is **€160** per household (correct at time of writin
 Streaming apps like RTÉ Player don't ask you to prove you have a licence, and a smart TV *can* technically receive a broadcast signal if you plug an aerial into it — which is the detail that actually matters here, not which apps are installed. If you're setting up a new home and going fully internet-only, the practical takeaway is: don't connect an aerial or dish, and you're very likely in the exempt category.
 
 If you're at all unsure about your specific setup, An Post's TV licence service is the authoritative source to confirm — this guide is a starting point, not a legal ruling on your situation.
-
+{% include related-posts.html %}
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 <small>This is a sensitive/legal topic — always confirm current rules directly with An Post's TV Licence service rather than relying solely on this post, since fees and enforcement details can change.</small>
