@@ -41,13 +41,12 @@ quick_facts:
 - **Chromecast with Google TV** — simple, budget-friendly. [Check price]({{ "https://amzn.to/4gSHHZV" }}) <!-- TODO: replace with affiliate link -->
 - **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Android TV) — no extra device needed
 
-*(Replace with current models, prices, and retailer links before publishing.)*
 
 ## Where to buy in Ireland
 
 Stick to official retailers — [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [Argos](https://www.argos.co.uk/features/republic-of-ireland), or the manufacturer's own site — to ensure warranty and legitimate hardware. <!-- TODO: replace each with your retailer affiliate link once approved -->
 
-<small>Retailer names above are for reference only until you swap in your affiliate tracking links.</small>
+
 
 {% include product-showcase.html category="Devices" title="Our Picks: Streaming Devices" %}
 
