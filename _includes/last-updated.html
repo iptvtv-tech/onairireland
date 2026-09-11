@@ -1,0 +1,6 @@
+<!--
+  Shows a small "Last updated" badge. Uses page.last_updated if set in
+  front matter, otherwise falls back to the post's publish date.
+  See README.md for usage.
+-->
+<p class="last-updated">Last updated: {{ page.last_updated | default: page.date | date: "%B %-d, %Y" }}</p>
