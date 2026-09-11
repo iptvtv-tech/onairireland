@@ -147,13 +147,18 @@ def main():
     filename = f"{today}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
 
-    category_slug_name = category.replace(" ", "-")
+        category_slug_name = category.replace(" ", "-")
     hero_image = pick_product_image(category)
 
+    # Escape double quotes so AI-generated text can never break the YAML
+    # front matter's quoted strings (this caused real build failures before).
+    safe_title = title.replace('"', "'")
+    safe_summary = summary.replace('"', "'")
+
     front_matter = f"""---
-title: "{title}"
-excerpt: "{summary}"
-description: "{summary}"
+title: "{safe_title}"
+excerpt: "{safe_summary}"
+description: "{safe_summary}"
 categories:
   - {category_slug_name}
 tags:
