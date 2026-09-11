@@ -77,7 +77,7 @@ The safest way to confirm current details is directly through Sky's official web
 Sky Sports+ is a useful addition for existing Sky Sports customers in Ireland, offering more live streams and a dedicated channel without an extra charge, at least based on how it's currently positioned. If you're a Sky Sports subscriber, it's worth exploring the option next time multiple big events are on at once — just take a moment to confirm the specifics on your own account first, since details can vary by package and device.
 
 {% include product-showcase.html category="Streaming Services" %}
-
+{% include related-posts.html %}
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
