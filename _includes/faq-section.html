@@ -1,0 +1,36 @@
+<!--
+  Renders an FAQ accordion plus FAQPage JSON-LD schema, from front matter:
+  faqs:
+    - question: "Question text"
+      answer: "Answer text"
+  See README.md for usage.
+-->
+{% if page.faqs %}
+<div class="faq-section">
+  <h3 class="faq-section__title">Frequently Asked Questions</h3>
+  {% for faq in page.faqs %}
+  <details class="faq-item">
+    <summary class="faq-item__question">{{ faq.question }}</summary>
+    <div class="faq-item__answer">{{ faq.answer }}</div>
+  </details>
+  {% endfor %}
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in page.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.answer | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
