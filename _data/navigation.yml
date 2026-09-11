@@ -17,5 +17,7 @@ main:
     url: /best-prices/
   - title: "Quiz"
     url: /quiz/
+  - title: "Search"
+    url: /search/
   - title: "About"
     url: /about/
