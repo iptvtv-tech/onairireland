@@ -182,7 +182,8 @@ affiliate_links: true
 """
 
     showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
-    related_block = (
+       related_block = (
+        "\n{% include related-posts.html %}\n"
         "\n### Related\n\n"
         "Read our [full guide to legal streaming services in Ireland]"
         "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
