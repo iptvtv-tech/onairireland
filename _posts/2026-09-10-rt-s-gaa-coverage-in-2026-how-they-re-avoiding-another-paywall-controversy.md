@@ -61,7 +61,7 @@ RTÉ's move to 19 weeks of coverage doesn't fully resolve the underlying tension
 As always with GAA broadcast arrangements, the fine print matters. Once RTÉ releases its detailed fixture-by-fixture schedule, it should become clearer exactly how much championship hurling and football Irish fans will be able to watch without opening their wallets this summer.
 
 {% include product-showcase.html category="News" %}
-
+{% include related-posts.html %}
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
