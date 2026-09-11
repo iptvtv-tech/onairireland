@@ -27,13 +27,13 @@
   affiliate_link: "https://amzn.to/4h6LS4B"
 
 - id: apple-tv-4k
-  name: "Smart TV 4K"
+  name: "4K UHD Smart Television"
   category: "Devices"
-  image: "/assets/images/products/apple-tv-4k.jpg"
+  image: "/assets/images/products/apple-tv-4kwal.jpg"
   price: "€324.99"
   badge: "Premium Pick"
   blurb: "Best choice if you're already in the Apple ecosystem — smoothest interface of the bunch."
-  affiliate_link: "https://amzn.to/4gJELQI"
+  affiliate_link: "https://sovrn.co/1p3eshq"
 
 - id: chromecast-google-tv
   name: "Chromecast with Google TV"
