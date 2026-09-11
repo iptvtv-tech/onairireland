@@ -78,7 +78,7 @@
   price: "€54.99"
   badge: "Simple Interface"
   blurb: "One of the most straightforward remotes and menus of any streaming device — good pick for less tech-confident households."
-  affiliate_link: "AFFILIATE_LINK_ROKU_STICK"
+  affiliate_link: "https://amzn.to/4yya2ME"
 
 - id: tv-wall-mount
   name: "Adjustable TV Wall Mount"
@@ -87,7 +87,7 @@
   price: "€34.99"
   badge: "Popular Add-on"
   blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
-  affiliate_link: "AFFILIATE_LINK_TV_WALL_MOUNT"
+  affiliate_link: "https://amzn.to/4r7PN5J"
 
 - id: mesh-wifi-system
   name: "Mesh Wi-Fi System (2-pack)"
@@ -96,7 +96,7 @@
   price: "€129.99"
   badge: "Best Fix for Buffering"
   blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
-  affiliate_link: "AFFILIATE_LINK_MESH_WIFI"
+  affiliate_link: "https://amzn.to/4A4J9kK"
 
 - id: prime-video-membership
   name: "Amazon Prime Video"
