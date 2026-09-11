@@ -48,5 +48,5 @@ If you're buying a new TV, the operating system matters as much as the screen â€
 If you already own a smart TV that's missing an app you need, buying a new TV isn't the only fix â€” a streaming device is usually the cheaper, simpler upgrade path.
 
 {% include product-showcase.html category="Devices" title="Streaming Devices That Work on Any TV" %}
-
+{% include related-posts.html %}
 Related: see our [full streaming devices buying guide](/devices/best-streaming-devices-ireland/) and [legal streaming services guide](/streaming-services/legal-streaming-services-ireland-2026/).
