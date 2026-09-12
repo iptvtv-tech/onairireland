@@ -271,8 +271,18 @@ def main():
         summary = first_line.replace("SUMMARY:", "").strip()
         body = rest.strip()
 
-    body, faqs = parse_faqs(body)
+        body, faqs = parse_faqs(body)
 
+    # Guarantee at least one inline affiliate link -- don't just hope the AI
+    # followed the prompt instruction, since it sometimes skips it.
+    matching_products = [p for p in load_products() if p.get("category") == category]
+    already_linked = any(p.get("affiliate_link", "") in body for p in matching_products if p.get("affiliate_link"))
+    if matching_products and not already_linked:
+        pick = random.choice(matching_products)
+        body += (
+            f"\n\nIf you're looking to get set up, [{pick['name']}]({pick['affiliate_link']}) "
+            f"is worth a look — {pick.get('blurb', '')}"
+        )
     today = datetime.date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
