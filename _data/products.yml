@@ -53,83 +53,29 @@
   blurb: "Worth having a spare on hand — older bundled cables often bottleneck 4K/HDR playback."
   affiliate_link: "https://amzn.to/4A3puSx"
 
-- id: wifi-extender
+- id: wifi-extender-troubleshoot
   name: "Wi-Fi Range Extender"
-  category: "Installation Guides"
+  category: "Troubleshooting"
   image: "/assets/images/products/wifi-extender.jpg"
-  price: "€46.99"
+  price: "€29.99"
   badge: "Fixes Buffering"
-  blurb: "If your streaming box is far from the router, this is usually the fix for constant buffering."
-  affiliate_link: "https://amzn.to/3UMGj3S"
+  blurb: "The most common fix for streaming boxes that are too far from the router — extends your signal without a full mesh system."
+  affiliate_link: "AFFILIATE_LINK_WIFI_EXTENDER_TS"
 
-- id: soundbar-budget
-  name: "Compact Soundbar"
-  category: "Streaming Services"
-  image: "/assets/images/products/soundbar.jpg"
-  price: "€88.99"
-  badge: "Popular Add-on"
-  blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
-  affiliate_link: "https://amzn.to/4xpgjt1"
+- id: ethernet-cable-troubleshoot
+  name: "Long Ethernet Cable"
+  category: "Troubleshooting"
+  image: "/assets/images/products/ethernet-cable.jpg"
+  price: "€12.99"
+  badge: "Most Reliable Fix"
+  blurb: "A wired connection eliminates Wi-Fi buffering entirely if you can run a cable to your streaming device."
+  affiliate_link: "AFFILIATE_LINK_ETHERNET_CABLE"
 
-- id: roku-streaming-stick-4k
-  name: "Roku Streaming Stick 4K"
-  category: "Devices"
-  image: "/assets/images/products/roku-streaming-stick.jpg"
-  price: "€45.99"
-  badge: "Simple Interface"
-  blurb: "One of the most straightforward remotes and menus of any streaming device — good pick for less tech-confident households."
-  affiliate_link: "https://amzn.to/46iWUyM"
-
-- id: tv-wall-mount
-  name: "Adjustable TV Wall Mount"
-  category: "Installation Guides"
-  image: "/assets/images/products/tv-wall-mount.jpg"
-  price: "€79.99"
-  badge: "Popular Add-on"
-  blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
-  affiliate_link: "https://amzn.to/4r6l7BX"
-
-- id: mesh-wifi-system
+- id: mesh-wifi-troubleshoot
   name: "Mesh Wi-Fi System (2-pack)"
-  category: "Installation Guides"
+  category: "Troubleshooting"
   image: "/assets/images/products/mesh-wifi.jpg"
-  price: "€88.67"
-  badge: "Best Fix for Buffering"
-  blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
-  affiliate_link: "https://amzn.to/4r4Je3M"
-
-- id: prime-video-membership
-  name: "Amazon Prime Video"
-  category: "Streaming Services"
-  image: "/assets/images/products/prime-video.jpg"
-  price: "Included with Prime"
-  badge: "Try Free"
-  blurb: "Prime Video comes bundled with an Amazon Prime membership, which also includes free delivery — worth checking if you already have or are considering Prime for other reasons."
-  affiliate_link: "https://amzn.to/3SWG6dU"
-
-- id: disney-plus-membership
-  name: "Disney Storytime Collection"
-  category: "Streaming Services"
-  image: "/assets/images/products/disney-plus.jpg"
-  price: "€29.12"
-  badge: "Family Favourite"
-  blurb: "Give the ultimate gift of Disney with this deluxe, 15-book special edition slipcase set featuring some of Disney and Pixar's most treasured characters."
-  affiliate_link: "https://amzn.to/4gZnP7B"
-
-- id: gaa-plus-membership
-  name: "Gaelic Football and Hurling Log - Gaelic Stats"
-  category: "Sports Streaming"
-  image: "/assets/images/products/gaa-plus.jpg"
-  price: "€9.50"
-  badge: "Super Fan Edition"
-  blurb: "THE ULTIMATE RECORD OF YOUR TEAMS PERFORMANCE Contains enough logs for 45 games."
-  affiliate_link: "https://amzn.to/4cDMihv"
-
-- id: premier-sports-membership
-  name: "Premier League Stadium Travel Guide 2026–2027"
-  category: "Sports Streaming"
-  image: "/assets/images/products/premier-sports.jpg"
-  price: "€12.01"
-  badge: "Licensed Sports"
-  blurb: "Experience the excitement, tradition, and unforgettable atmosphere of English football with the Premier League Stadium Travel Guide 2026–2027"
-  affiliate_link: "https://amzn.to/4h0LKnf"
+  price: "€129.99"
+  badge: "Whole-Home Fix"
+  blurb: "For persistent buffering across multiple rooms, a mesh system solves it more thoroughly than a single extender."
+  affiliate_link: "AFFILIATE_LINK_MESH_WIFI_TS"
