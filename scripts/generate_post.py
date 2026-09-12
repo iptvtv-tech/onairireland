@@ -69,6 +69,10 @@ def pick_product_image(category: str) -> str:
 
 
 def load_queue():
+    if not os.path.exists(QUEUE_PATH):
+        print("topic_queue.yml is missing -- creating a fresh empty one.")
+        save_queue([])
+        return []
     with open(QUEUE_PATH, "r") as f:
         return yaml.safe_load(f) or []
 
@@ -161,11 +165,97 @@ def parse_faqs(text: str):
     return body.strip(), cleaned
 
 
+def existing_post_titles():
+    """Read titles from existing post files so we can ask Claude to avoid
+    repeating topics that already exist."""
+    titles = []
+    if os.path.isdir(POSTS_DIR):
+        for fname in os.listdir(POSTS_DIR):
+            if not fname.endswith(".md"):
+                continue
+            path = os.path.join(POSTS_DIR, fname)
+            with open(path, "r") as f:
+                content = f.read()
+            m = re.search(r'^title:\s*"(.+?)"', content, re.MULTILINE)
+            if m:
+                titles.append(m.group(1))
+    return titles
+
+
+def generate_new_topics(count: int = 8):
+    """Ask Claude to brainstorm a fresh batch of topics when the queue runs
+    dry, so the daily workflow never just goes idle. Returns a list of
+    {title, category, brief} dicts, or an empty list if generation fails."""
+    api_key = os.environ["ANTHROPIC_API_KEY"]
+    existing = existing_post_titles()
+    existing_text = "\n".join(f"- {t}" for t in existing) if existing else "(none yet)"
+    categories = " | ".join(CATEGORY_SLUGS.keys())
+
+    prompt = f"""You are planning new blog post topics for an Irish blog about LEGAL
+streaming services and devices. Never suggest anything about unauthorized
+IPTV or streaming resale services.
+
+Existing post titles already published (do NOT repeat or closely duplicate these):
+{existing_text}
+
+Generate exactly {count} new topic ideas. For each, output exactly this format,
+one block per topic, with a blank line between blocks, and nothing else:
+
+TITLE: <specific, clear title>
+CATEGORY: <one of: {categories}>
+BRIEF: <one sentence describing what the post should cover>
+
+Topics should be genuinely useful to an Irish streaming audience -- specific
+services (RTE Player, Virgin Media, Sky, NOW, Netflix, Disney+, GAA+, TG4),
+specific devices (Fire TV Stick, Apple TV, Chromecast, smart TVs), or practical
+troubleshooting/buying-guide angles.
+"""
+    resp = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+        json={
+            "model": "claude-sonnet-5",
+            "max_tokens": 1500,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=120,
+    )
+    if not resp.ok:
+        print(f"Anthropic API error generating new topics {resp.status_code}: {resp.text}")
+        return []
+    resp.raise_for_status()
+    data = resp.json()
+    raw = "".join(block.get("text", "") for block in data.get("content", []))
+
+    blocks = re.findall(
+        r"TITLE:\s*(.+?)\s*\nCATEGORY:\s*(.+?)\s*\nBRIEF:\s*(.+?)(?=\n\s*TITLE:|\Z)",
+        raw,
+        re.DOTALL,
+    )
+    topics = []
+    for t, c, b in blocks:
+        t, c, b = t.strip(), c.strip(), b.strip()
+        if c not in CATEGORY_SLUGS:
+            continue
+        if t and b:
+            topics.append({"title": t, "category": c, "brief": b})
+    return topics
+
+
 def main():
     queue = load_queue()
     if not queue:
-        print("Topic queue is empty -- add more topics to _data/topic_queue.yml.")
-        sys.exit(0)
+        print("Topic queue is empty -- auto-generating a fresh batch of topics...")
+        queue = generate_new_topics()
+        if not queue:
+            print("Could not generate new topics this run -- nothing to do.")
+            sys.exit(0)
+        save_queue(queue)
+        print(f"Added {len(queue)} new topics to the queue.")
 
     topic = queue.pop(0)
     title = topic["title"]
