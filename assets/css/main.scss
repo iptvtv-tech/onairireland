@@ -433,13 +433,15 @@
 }
 
 .related-posts__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
 .related-posts__card {
   display: block;
+  flex: 0 1 200px;
+  max-width: 200px;
   border-radius: var(--oai-card-radius);
   overflow: hidden;
   border: 1px solid #e2e8f0;
