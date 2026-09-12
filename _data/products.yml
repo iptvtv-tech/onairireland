@@ -97,3 +97,39 @@
   badge: "Full Sky Coverage"
   blurb: "The full Sky Sports channel lineup, added on top of a Sky Stream subscription — no satellite dish needed."
   affiliate_link: "AFFILIATE_LINK_SKY_SPORTS"
+
+- id: tv-aerial-signal-booster
+  name: "TV Aerial Signal Booster"
+  category: "News"
+  image: "/assets/images/products/aerial-booster.jpg"
+  price: "€24.99"
+  badge: "Handy Extra"
+  blurb: "Worth knowing about if a broadcast rights or channel-lineup change affects your aerial reception — a simple fix for a weak signal."
+  affiliate_link: "AFFILIATE_LINK_AERIAL_BOOSTER"
+
+- id: fire-tv-stick-lite-news
+  name: "Fire TV Stick Lite"
+  category: "News"
+  image: "/assets/images/products/fire-tv-stick-lite.jpg"
+  price: "€29.99"
+  badge: "Budget Pick"
+  blurb: "A no-frills starting point if a service or pricing change has you reconsidering your current setup."
+  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_LITE"
+
+- id: fire-tv-stick-4k-max-review
+  name: "Fire TV Stick 4K Max"
+  category: "Reviews"
+  image: "/assets/images/products/fire-tv-stick-4k-max.jpg"
+  price: "€64.99"
+  badge: "Reviewer's Pick"
+  blurb: "The higher-spec sibling of the standard 4K Stick — worth the extra cost if you want the fastest interface and Wi-Fi 6 support."
+  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_4K_MAX"
+
+- id: apple-tv-4k-review
+  name: "Apple TV 4K"
+  category: "Reviews"
+  image: "/assets/images/products/apple-tv-4k-review.jpg"
+  price: "€169.00"
+  badge: "Premium Pick"
+  blurb: "Consistently reviewed as the smoothest interface of any streaming box — the price reflects that, especially for Apple households."
+  affiliate_link: "AFFILIATE_LINK_APPLE_TV_4K_REVIEW"
