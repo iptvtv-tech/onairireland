@@ -117,19 +117,19 @@
   affiliate_link: "https://amzn.to/4gZnP7B"
 
 - id: gaa-plus-membership
-  name: "GAA+ Season Pass"
+  name: "Gaelic Football and Hurling Log - Gaelic Stats"
   category: "Sports Streaming"
   image: "/assets/images/products/gaa-plus.jpg"
   price: "€9.50"
-  badge: "GAA Coverage"
-  blurb: "Official access to the Championship matches not shown free-to-air on RTÉ or TG4 — check current season pricing directly on GAA+."
+  badge: "Super Fan Edition"
+  blurb: "THE ULTIMATE RECORD OF YOUR TEAMS PERFORMANCE Contains enough logs for 45 games."
   affiliate_link: "https://amzn.to/4cDMihv"
 
 - id: premier-sports-membership
-  name: "Premier Sports"
+  name: "Premier League Stadium Travel Guide 2026–2027"
   category: "Sports Streaming"
   image: "/assets/images/products/premier-sports.jpg"
   price: "€12.01"
   badge: "Licensed Sports"
-  blurb: "Legal access to Premier Sports' live coverage — rugby, football, and more, available through their official app."
+  blurb: "Experience the excitement, tradition, and unforgettable atmosphere of English football with the Premier League Stadium Travel Guide 2026–2027"
   affiliate_link: "https://amzn.to/4h0LKnf"
