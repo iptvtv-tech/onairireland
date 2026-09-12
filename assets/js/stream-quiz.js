@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     resultStep.hidden = true;
   }
 
-    function recommend() {
+     function recommend() {
     var text = "";
 
     if (answers.priority === "sports") {
