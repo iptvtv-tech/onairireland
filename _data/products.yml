@@ -79,3 +79,21 @@
   badge: "Whole-Home Fix"
   blurb: "For persistent buffering across multiple rooms, a mesh system solves it more thoroughly than a single extender."
   affiliate_link: "AFFILIATE_LINK_MESH_WIFI_TS"
+
+  - id: eir-sport-membership
+  name: "eir Sport"
+  category: "Sports Streaming"
+  image: "/assets/images/products/eir-sport.jpg"
+  price: "See current pricing"
+  badge: "Licensed Sports"
+  blurb: "Legal access to eir Sport's live coverage, available through their official app — check current pricing directly."
+  affiliate_link: "AFFILIATE_LINK_EIR_SPORT"
+
+- id: sky-sports-membership
+  name: "Sky Sports (via Sky Stream)"
+  category: "Sports Streaming"
+  image: "/assets/images/products/sky-sports.jpg"
+  price: "From €45/month add-on"
+  badge: "Full Sky Coverage"
+  blurb: "The full Sky Sports channel lineup, added on top of a Sky Stream subscription — no satellite dish needed."
+  affiliate_link: "AFFILIATE_LINK_SKY_SPORTS"
