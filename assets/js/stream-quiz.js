@@ -69,3 +69,19 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(function () { /* silently skip the product card if this fails */ });
   }
+  quiz.addEventListener("click", function (e) {
+    if (!e.target.classList.contains("stream-quiz__option")) return;
+    var q = e.target.getAttribute("data-q");
+    var a = e.target.getAttribute("data-a");
+    answers[q] = a;
+
+    if (q === "priority") showStep(2);
+    else if (q === "budget") showStep(3);
+    else if (q === "device") recommend();
+  });
+
+  restartBtn.addEventListener("click", function () {
+    answers = {};
+    showStep(1);
+  });
+});
