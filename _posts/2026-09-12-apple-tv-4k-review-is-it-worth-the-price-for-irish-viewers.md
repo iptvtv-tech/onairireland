@@ -57,11 +57,11 @@ I'd recommend double-checking current app store listings before buying, as avail
 
 This is really where the decision comes down to. Apple TV 4K sits at a noticeably higher price point than most competing devices sold in Ireland, and I'd suggest checking current retailer pricing directly, as costs shift regularly and I don't want to quote a figure that might already be out of date by the time you're reading this.
 
-For comparison, something like the [Fire TV Stick 4K Max](AFFILIATE_LINK_FIRE_TV_STICK_4K_MAX) delivers most of the same core streaming experience, 4K HDR playback, a similar range of apps, and a much smaller footprint, at a considerably lower price. For a lot of households, particularly those without an existing Apple ecosystem (iPhone, iPad, Mac), the Fire TV Stick range covers 90% of what most people actually want from a streaming device.
+For comparison, something like the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) delivers most of the same core streaming experience, 4K HDR playback, a similar range of apps, and a much smaller footprint, at a considerably lower price. For a lot of households, particularly those without an existing Apple ecosystem (iPhone, iPad, Mac), the Fire TV Stick range covers 90% of what most people actually want from a streaming device.
 
 Where Apple TV 4K pulls ahead is integration. If you already use Apple products, features like AirPlay, shared photo libraries, and Apple's privacy-focused approach to data become genuinely useful rather than just marketing points. It also tends to receive software updates for a long time after release, which matters if you like to keep hardware for several years.
 
-If you're shopping around more broadly, it's also worth comparing a dedicated streaming box against simply relying on the built-in smart platform of a modern [Smart TV 4K](AFFILIATE_LINK_APPLE_TV_4K_REVIEW), since many current sets now include Netflix, Prime Video, and RTÉ Player without any extra hardware at all.
+If you're shopping around more broadly, it's also worth comparing a dedicated streaming box against simply relying on the built-in smart platform of a modern [Smart TV 4K](https://amzn.to/4r8Xo41), since many current sets now include Netflix, Prime Video, and RTÉ Player without any extra hardware at all.
 
 ### Verdict
 
