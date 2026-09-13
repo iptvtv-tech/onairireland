@@ -48,136 +48,82 @@
   name: "Wi-Fi Range Extender"
   category: "Troubleshooting"
   image: "/assets/images/products/wifi-extender.jpg"
-  price: "€29.99"
+  price: "€31.99"
   badge: "Fixes Buffering"
   blurb: "The most common fix for streaming boxes that are too far from the router — extends your signal without a full mesh system."
-  affiliate_link: "AFFILIATE_LINK_WIFI_EXTENDER_TS"
+  affiliate_link: "https://amzn.to/3SZDvjo"
 
 - id: ethernet-cable-troubleshoot
   name: "Long Ethernet Cable"
   category: "Troubleshooting"
   image: "/assets/images/products/ethernet-cable.jpg"
-  price: "€12.99"
+  price: "€18.99"
   badge: "Most Reliable Fix"
   blurb: "A wired connection eliminates Wi-Fi buffering entirely if you can run a cable to your streaming device."
-  affiliate_link: "AFFILIATE_LINK_ETHERNET_CABLE"
+  affiliate_link: "https://amzn.to/4imUjuU"
 
 - id: mesh-wifi-troubleshoot
   name: "Mesh Wi-Fi System (2-pack)"
   category: "Troubleshooting"
   image: "/assets/images/products/mesh-wifi.jpg"
-  price: "€129.99"
+  price: "€109.99"
   badge: "Whole-Home Fix"
   blurb: "For persistent buffering across multiple rooms, a mesh system solves it more thoroughly than a single extender."
-  affiliate_link: "AFFILIATE_LINK_MESH_WIFI_TS"
-
-- id: eir-sport-membership
-  name: "eir Sport"
-  category: "Sports Streaming"
-  image: "/assets/images/products/eir-sport.jpg"
-  price: "See current pricing"
-  badge: "Licensed Sports"
-  blurb: "Legal access to eir Sport's live coverage, available through their official app — check current pricing directly."
-  affiliate_link: "AFFILIATE_LINK_EIR_SPORT"
-
-- id: sky-sports-membership
-  name: "Sky Sports (via Sky Stream)"
-  category: "Sports Streaming"
-  image: "/assets/images/products/sky-sports.jpg"
-  price: "From €45/month add-on"
-  badge: "Full Sky Coverage"
-  blurb: "The full Sky Sports channel lineup, added on top of a Sky Stream subscription — no satellite dish needed."
-  affiliate_link: "AFFILIATE_LINK_SKY_SPORTS"
-
+  affiliate_link: "https://amzn.to/4xqgJzh"
+  
 - id: tv-aerial-signal-booster
   name: "TV Aerial Signal Booster"
   category: "News"
   image: "/assets/images/products/aerial-booster.jpg"
-  price: "€24.99"
+  price: "€19.99"
   badge: "Handy Extra"
   blurb: "Worth knowing about if a broadcast rights or channel-lineup change affects your aerial reception — a simple fix for a weak signal."
-  affiliate_link: "AFFILIATE_LINK_AERIAL_BOOSTER"
+  affiliate_link: "https://amzn.to/3VrktTE"
 
 - id: fire-tv-stick-lite-news
-  name: "Fire TV Stick Lite"
+  name: "Fire TV Remote"
   category: "News"
   image: "/assets/images/products/fire-tv-stick-lite.jpg"
   price: "€29.99"
   badge: "Budget Pick"
   blurb: "A no-frills starting point if a service or pricing change has you reconsidering your current setup."
-  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_LITE"
+  affiliate_link: "https://amzn.to/4AbmIKM"
 
 - id: fire-tv-stick-4k-max-review
   name: "Fire TV Stick 4K Max"
   category: "Reviews"
   image: "/assets/images/products/fire-tv-stick-4k-max.jpg"
-  price: "€64.99"
+  price: "€114.99"
   badge: "Reviewer's Pick"
   blurb: "The higher-spec sibling of the standard 4K Stick — worth the extra cost if you want the fastest interface and Wi-Fi 6 support."
-  affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_4K_MAX"
+  affiliate_link: "https://amzn.to/4j6UWJc"
 
 - id: roku-ultra-review
   name: "Roku Ultra"
   category: "Reviews"
   image: "/assets/images/products/roku-ultra.jpg"
-  price: "€99.99"
+  price: "€49.99"
   badge: "Premium Pick"
   blurb: "Roku's top-tier model — faster processor, Dolby Vision/Atmos support, and a lost-remote finder button, reviewed as the best of the Roku lineup."
-  affiliate_link: "AFFILIATE_LINK_ROKU_ULTRA"
+  affiliate_link: "https://amzn.to/4hbNJFw"
 
 - id: soundbar-budget
   name: "Compact Soundbar"
   category: "Streaming Services"
   image: "/assets/images/products/soundbar.jpg"
-  price: "€89.99"
+  price: "€20.99"
   badge: "Popular Add-on"
   blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
-  affiliate_link: "AFFILIATE_LINK_SOUNDBAR"
-
-- id: prime-video-membership
-  name: "Amazon Prime Video"
-  category: "Streaming Services"
-  image: "/assets/images/products/prime-video.jpg"
-  price: "Included with Prime"
-  badge: "Try Free"
-  blurb: "Prime Video comes bundled with an Amazon Prime membership, which also includes free delivery — worth checking if you already have or are considering Prime for other reasons."
-  affiliate_link: "AFFILIATE_LINK_PRIME_VIDEO"
-
-- id: disney-plus-membership
-  name: "Disney+"
-  category: "Streaming Services"
-  image: "/assets/images/products/disney-plus.jpg"
-  price: "See current pricing"
-  badge: "Family Favourite"
-  blurb: "Licensed, legal access to Disney, Pixar, Marvel, and Star Wars content — sign up directly through the official app or website."
-  affiliate_link: "AFFILIATE_LINK_DISNEY_PLUS"
-
-- id: gaa-plus-membership
-  name: "GAA+ Season Pass"
-  category: "Sports Streaming"
-  image: "/assets/images/products/gaa-plus.jpg"
-  price: "See current pricing"
-  badge: "GAA Coverage"
-  blurb: "Official access to the Championship matches not shown free-to-air on RTÉ or TG4 — check current season pricing directly on GAA+."
-  affiliate_link: "AFFILIATE_LINK_GAA_PLUS"
-
-- id: premier-sports-membership
-  name: "Premier Sports"
-  category: "Sports Streaming"
-  image: "/assets/images/products/premier-sports.jpg"
-  price: "See current pricing"
-  badge: "Licensed Sports"
-  blurb: "Legal access to Premier Sports' live coverage — rugby, football, and more, available through their official app."
-  affiliate_link: "AFFILIATE_LINK_PREMIER_SPORTS_MEMBERSHIP"
+  affiliate_link: "https://amzn.to/4xmJyfY"
 
 - id: roku-streaming-stick-4k
   name: "Roku Streaming Stick 4K"
   category: "Devices"
   image: "/assets/images/products/roku-streaming-stick.jpg"
-  price: "€54.99"
+  price: "€88.99"
   badge: "Simple Interface"
   blurb: "One of the most straightforward remotes and menus of any streaming device — good pick for less tech-confident households."
-  affiliate_link: "AFFILIATE_LINK_ROKU_STICK"
+  affiliate_link: "https://amzn.to/4r8Xo41"
 
 - id: tv-wall-mount
   name: "Adjustable TV Wall Mount"
@@ -186,5 +132,5 @@
   price: "€16.99"
   badge: "Popular Add-on"
   blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
-  affiliate_link: "https://amzn.to/4A7jHv2"
+  affiliate_link: "https://amzn.to/4cKGEdr"
 
