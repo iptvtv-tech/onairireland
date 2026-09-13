@@ -54,6 +54,8 @@ minimal_mistakes_skin: "dirt" # options: default, air, aqua, contrast, dark, dir
 # ==============================
 markdown: kramdown
 highlighter: rouge
+sass:
+  style: compressed
 permalink: /:categories/:title/
 paginate: 10
 paginate_path: /page:num/
