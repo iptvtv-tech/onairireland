@@ -26,14 +26,14 @@
   blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
   affiliate_link: "https://amzn.to/4h6LS4B"
 
-- id: apple-tv-4k
-  name: "4K UHD Smart Television"
+- id: fire-tv-cube
+  name: "Amazon Fire TV Cube"
   category: "Devices"
-  image: "/assets/images/products/apple-tv-4kwal.jpg"
-  price: "€524.99"
+  image: "/assets/images/products/fire-tv-cube.jpg"
+  price: "€149.99"
   badge: "Premium Pick"
-  blurb: "Best choice if you're already in the Apple ecosystem — smoothest interface of the bunch."
-  affiliate_link: "https://sovrn.co/1p3eshq"
+  blurb: "The hands-free, faster sibling of the Fire TV Stick — built-in speaker and mic for voice control without pressing a button."
+  affiliate_link: "AFFILIATE_LINK_FIRE_TV_CUBE"
 
 - id: chromecast-google-tv
   name: "Chromecast with Google TV"
@@ -125,14 +125,14 @@
   blurb: "The higher-spec sibling of the standard 4K Stick — worth the extra cost if you want the fastest interface and Wi-Fi 6 support."
   affiliate_link: "AFFILIATE_LINK_FIRE_TV_STICK_4K_MAX"
 
-- id: apple-tv-4k-review
-  name: "Smart TV 4K"
+- id: roku-ultra-review
+  name: "Roku Ultra"
   category: "Reviews"
-  image: "/assets/images/products/apple-tv-4k-review.jpg"
-  price: "€169.00"
+  image: "/assets/images/products/roku-ultra.jpg"
+  price: "€99.99"
   badge: "Premium Pick"
-  blurb: "Consistently reviewed as the smoothest interface of any streaming box — the price reflects that, especially for Apple households."
-  affiliate_link: "AFFILIATE_LINK_APPLE_TV_4K_REVIEW"
+  blurb: "Roku's top-tier model — faster processor, Dolby Vision/Atmos support, and a lost-remote finder button, reviewed as the best of the Roku lineup."
+  affiliate_link: "AFFILIATE_LINK_ROKU_ULTRA"
 
 - id: soundbar-budget
   name: "Compact Soundbar"
