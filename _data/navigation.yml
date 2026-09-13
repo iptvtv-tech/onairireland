@@ -23,3 +23,5 @@ main:
     url: /about/
   - title: "Privacy Policy"
     url: /privacy-policy/
+  - title: "Watch Guides"
+    url: /categories/#watch-guides
