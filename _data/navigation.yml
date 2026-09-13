@@ -21,3 +21,5 @@ main:
     url: /search/
   - title: "About"
     url: /about/
+  - title: "Privacy Policy"
+    url: /privacy-policy/
