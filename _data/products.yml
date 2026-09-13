@@ -26,15 +26,6 @@
   blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
   affiliate_link: "https://amzn.to/4h6LS4B"
 
-- id: fire-tv-cube
-  name: "Amazon Fire TV Cube"
-  category: "Devices"
-  image: "/assets/images/products/fire-tv-cube.jpg"
-  price: "€149.99"
-  badge: "Premium Pick"
-  blurb: "The hands-free, faster sibling of the Fire TV Stick — built-in speaker and mic for voice control without pressing a button."
-  affiliate_link: "AFFILIATE_LINK_FIRE_TV_CUBE"
-
 - id: chromecast-google-tv
   name: "Chromecast with Google TV"
   category: "Devices"
