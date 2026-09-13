@@ -7,8 +7,8 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/products/disney-plus.jpg
-  teaser: /assets/images/products/sports.jpg
+  overlay_image: /assets/images/teasers/streaming-2.jpg
+  teaser: /assets/images/teasers/streaming-2.jpg
 seo:
   type: Article
 toc: true
