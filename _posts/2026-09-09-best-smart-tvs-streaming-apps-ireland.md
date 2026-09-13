@@ -41,7 +41,7 @@ If you're buying a new TV, the operating system matters as much as the screen �
 
 - **Confirm RTÉ Player support directly** for the specific model you're considering — older or budget-tier TVs sometimes run a stripped-down version of the OS with a smaller app selection
 - **Panasonic TVs from 2017 onward** support RTÉ Player, but earlier Panasonic models may not — worth checking the exact release year
-- **If a TV doesn't have native support**, that's not a dealbreaker — a Fire TV Stick, Apple TV, or Chromecast plugged into any HDMI port gives you the full app selection regardless of the TV's own OS
+- **If a TV doesn't have native support**, that's not a dealbreaker — a Fire TV Stick, Roku, or Chromecast plugged into any HDMI port gives you the full app selection regardless of the TV's own OS
 
 ## Don't feel locked in
 
