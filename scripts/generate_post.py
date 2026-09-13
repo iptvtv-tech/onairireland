@@ -30,6 +30,7 @@ CATEGORY_SLUGS = {
     "Reviews": "reviews",
     "Sports Streaming": "sports-streaming",
     "Troubleshooting": "troubleshooting",
+    "Watch Guides": "watch-guides",
 }
 
 
@@ -84,7 +85,7 @@ def save_queue(queue):
         "# opens a PR, and removes it from this list once the PR is created.\n"
         "#\n"
         "# category must be one of: Streaming Services | Devices | Installation Guides |\n"
-        "# News | Reviews | Sports Streaming | Troubleshooting\n"
+        "# News | Reviews | Sports Streaming | Troubleshooting | Watch Guides\n"
         "# (add a new category name here anytime -- Jekyll auto-generates its listing page,\n"
         "# no other file needs to change. Just keep spelling consistent across posts.)\n"
         "# Add new topics to the bottom of this list whenever you like.\n\n"
@@ -108,6 +109,23 @@ def call_claude(title: str, category: str, brief: str) -> str:
             + "\n".join(lines) + "\n"
         )
 
+    watch_guide_instructions = ""
+    if category == "Watch Guides":
+        watch_guide_instructions = """
+This is a "Watch Guide" post about a specific TV show or movie. Special rules:
+- Only name a specific streaming service as carrying this title if you are
+  genuinely confident that's accurate for Ireland. If you are not certain,
+  say plainly that availability should be confirmed on the service's own
+  site/app, rather than guessing or inventing a platform.
+- NEVER mention VPNs, geo-unblocking, or any "free streaming site" as a way
+  to watch. If a title isn't available on a licensed Irish service, say so
+  honestly rather than offering an unauthorized alternative -- this is a
+  hard rule, not a style preference.
+- Include a short section on which devices/apps to watch on (weaving in 1-2
+  device product links from the list above where natural), since that's
+  useful regardless of which service carries the title.
+"""
+
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
@@ -115,7 +133,7 @@ unauthorized/unlicensed IPTV or streaming resale services.
 Title: {title}
 Category: {category}
 Brief: {brief}
-{product_links_text}
+{product_links_text}{watch_guide_instructions}
 Requirements:
 - Start directly with the article body in Markdown (no front matter, no title heading repeated).
 - Use ## and ### headings, short paragraphs.
@@ -208,10 +226,15 @@ BRIEF: <one sentence describing what the post should cover>
 Topics should be genuinely useful to an Irish streaming audience -- specific
 services (RTE Player, Virgin Media, Sky, NOW, Netflix, Disney+, GAA+, TG4),
 specific devices (Fire TV Stick, Fire TV Cube, Roku, Chromecast, smart TVs),
-or practical troubleshooting/buying-guide angles. Do NOT suggest topics
-centered on Apple TV or other Apple products specifically -- there is no
-affiliate programme access for Apple hardware, so a dedicated Apple TV
-review or buying guide can't be monetised the way other device topics can.
+practical troubleshooting/buying-guide angles, or "Watch Guide" topics about
+a specific well-known TV show or movie and which LICENSED service carries
+it in Ireland (e.g. "Where to Watch [Show] Legally in Ireland"). For Watch
+Guide topics, only suggest titles you are reasonably confident are
+currently available on a real, mainstream licensed service -- do not invent
+or guess availability. Do NOT suggest topics centered on Apple TV or other
+Apple products specifically -- there is no affiliate programme access for
+Apple hardware, so a dedicated Apple TV review or buying guide can't be
+monetised the way other device topics can.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -274,7 +297,7 @@ def main():
         summary = first_line.replace("SUMMARY:", "").strip()
         body = rest.strip()
 
-        body, faqs = parse_faqs(body)
+    body, faqs = parse_faqs(body)
 
     # Guarantee at least one inline affiliate link -- don't just hope the AI
     # followed the prompt instruction, since it sometimes skips it.
@@ -286,6 +309,7 @@ def main():
             f"\n\nIf you're looking to get set up, [{pick['name']}]({pick['affiliate_link']}) "
             f"is worth a look — {pick.get('blurb', '')}"
         )
+
     today = datetime.date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
