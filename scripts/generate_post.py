@@ -207,8 +207,11 @@ BRIEF: <one sentence describing what the post should cover>
 
 Topics should be genuinely useful to an Irish streaming audience -- specific
 services (RTE Player, Virgin Media, Sky, NOW, Netflix, Disney+, GAA+, TG4),
-specific devices (Fire TV Stick, Apple TV, Chromecast, smart TVs), or practical
-troubleshooting/buying-guide angles.
+specific devices (Fire TV Stick, Fire TV Cube, Roku, Chromecast, smart TVs),
+or practical troubleshooting/buying-guide angles. Do NOT suggest topics
+centered on Apple TV or other Apple products specifically -- there is no
+affiliate programme access for Apple hardware, so a dedicated Apple TV
+review or buying guide can't be monetised the way other device topics can.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
