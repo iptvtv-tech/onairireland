@@ -134,3 +134,56 @@
   blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
   affiliate_link: "https://amzn.to/4cKGEdr"
 
+- id: fire-tv-cube
+  name: "Amazon Fire TV Cube Simplified"
+  category: "Devices"
+  image: "/assets/images/products/fire-tv-cube.jpg"
+  price: "€11.99"
+  badge: "Premium Pick"
+  blurb: "The hands-free, faster sibling of the Fire TV Stick — built-in speaker and mic for voice control without pressing a button."
+  affiliate_link: "https://amzn.to/4cLlYlI"
+
+- id: mesh-wifi-system
+  name: "Mesh Wi-Fi System (2-pack)"
+  category: "Installation Guides"
+  image: "/assets/images/products/mesh-wifi.jpg"
+  price: "€193.99"
+  badge: "Best Fix for Buffering"
+  blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
+  affiliate_link: "https://amzn.to/3UGxqJd"
+
+- id: outdoor-digital-tv-aerial
+  name: "Outdoor Digital TV Aerial"
+  category: "Sports Streaming"
+  image: "/assets/images/products/tv-aerial.jpg"
+  price: "€52.99"
+  badge: "Reliable Reception"
+  blurb: "A proper outdoor aerial gives the most reliable free-to-air reception for big match days on RTÉ or TG4, when every stream is under strain."
+  affiliate_link: "https://amzn.to/3T7hgI6"
+
+- id: hdmi-switch-3in1
+  name: "3-in-1 HDMI Switch"
+  category: "Sports Streaming"
+  image: "/assets/images/products/hdmi-switch.jpg"
+  price: "€21.99"
+  badge: "Handy Extra"
+  blurb: "Useful if your streaming box, games console, and set-top box are all fighting over one HDMI port on match day."
+  affiliate_link: "https://amzn.to/4h8t3OA"
+
+- id: universal-remote
+  name: "Universal Remote Control"
+  category: "Streaming Services"
+  image: "/assets/images/products/universal-remote.jpg"
+  price: "€10.99"
+  badge: "Popular Add-on"
+  blurb: "Cuts down on juggling three remotes to switch between your TV, streaming box, and soundbar."
+  affiliate_link: "https://amzn.to/4im1tzz"
+
+- id: bluetooth-speaker
+  name: "Portable Bluetooth Speaker"
+  category: "Streaming Services"
+  image: "/assets/images/products/bluetooth-speaker.jpg"
+  price: "€49.99"
+  badge: "Popular Add-on"
+  blurb: "A flexible alternative to a fixed soundbar if you want to move audio between rooms or take it outside for a match."
+  affiliate_link: "https://amzn.to/3VbjBT4"
