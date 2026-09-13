@@ -1,1 +1,43 @@
 <meta name='impact-site-verification' value='b480fada-6aca-4064-b835-c824086f97a2'>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "On Air Ireland",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}{{ site.logo | relative_url }}",
+  "sameAs": [
+    "https://twitter.com/onairireland"
+  ]
+}
+</script>
+
+{% if page.categories %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.categories | first }}",
+      "item": "{{ site.url }}/categories/#{{ page.categories | first | slugify }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
