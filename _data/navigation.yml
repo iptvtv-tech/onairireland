@@ -19,9 +19,9 @@ main:
     url: /quiz/
   - title: "Search"
     url: /search/
+  - title: "Watch Guides"
+    url: /categories/#watch-guides
   - title: "About"
     url: /about/
   - title: "Privacy Policy"
     url: /privacy-policy/
-  - title: "Watch Guides"
-    url: /categories/#watch-guides
