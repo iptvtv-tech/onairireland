@@ -7,8 +7,8 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/social-default.svg
-  teaser: /assets/images/products/roku-streaming-stick.jpg
+  overlay_image: /assets/images/teasers/reviews-1.jpg
+  teaser: /assets/images/teasers/reviews-1.jpg
 seo:
   type: Article
 toc: true
