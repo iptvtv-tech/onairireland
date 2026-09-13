@@ -8,7 +8,7 @@ tags:
   - watch-guides
 header:
   overlay_image: /assets/images/products/fire-tv-stick-4k.jpg
-  teaser: /assets/images/social-default.svg
+  teaser: assets/images/teasers/watch-guide-1.jpg
 seo:
   type: Article
 toc: true
