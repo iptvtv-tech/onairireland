@@ -422,6 +422,61 @@
   color: #fb7185;
 }
 
+/* ---------- Cookie consent banner ---------- */
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #0f172a;
+  color: #fff;
+  padding: 1em 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.2);
+}
+
+.cookie-consent__text {
+  margin: 0;
+  font-size: 0.85em;
+  color: #cbd5e1;
+  flex: 1 1 300px;
+}
+
+.cookie-consent__text a {
+  color: var(--oai-accent);
+}
+
+.cookie-consent__actions {
+  display: flex;
+  gap: 0.6em;
+  flex-shrink: 0;
+}
+
+.cookie-consent__btn {
+  padding: 0.5em 1.2em;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.cookie-consent__btn--accept {
+  background: var(--oai-accent);
+  color: #0f172a;
+}
+
+.cookie-consent__btn--decline {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
 /* ---------- Related posts ---------- */
 .related-posts {
   margin: 2.5em 0;
