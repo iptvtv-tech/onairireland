@@ -187,3 +187,21 @@
   badge: "Popular Add-on"
   blurb: "A flexible alternative to a fixed soundbar if you want to move audio between rooms or take it outside for a match."
   affiliate_link: "https://amzn.to/3VbjBT4"
+
+- id: fire-tv-stick-4k-watchguide
+  name: "Amazon Fire TV Stick 4K"
+  category: "Watch Guides"
+  image: "/assets/images/products/fire-tv-stick-4k.jpg"
+  price: "€46.99"
+  badge: "Best Seller"
+  blurb: "The easiest way to get every major streaming app — RTÉ Player, Netflix, Sky Stream — on one remote."
+  affiliate_link: "https://amzn.to/4h6LS4B"
+
+- id: roku-streaming-stick-4k-watchguide
+  name: "Roku Streaming Stick 4K"
+  category: "Watch Guides"
+  image: "/assets/images/products/roku-streaming-stick.jpg"
+  price: "€88.99"
+  badge: "Simple Interface"
+  blurb: "A straightforward remote and menu system if you just want to find your show and start watching."
+  affiliate_link: "https://amzn.to/4r8Xo41"
