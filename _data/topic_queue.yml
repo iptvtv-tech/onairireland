@@ -3,9 +3,32 @@
 # opens a PR, and removes it from this list once the PR is created.
 #
 # category must be one of: Streaming Services | Devices | Installation Guides |
-# News | Reviews | Sports Streaming | Troubleshooting
+# News | Reviews | Sports Streaming | Troubleshooting | Watch Guides
 # (add a new category name here anytime -- Jekyll auto-generates its listing page,
 # no other file needs to change. Just keep spelling consistent across posts.)
 # Add new topics to the bottom of this list whenever you like.
 
-[]
+- title: Where to Watch Squid Game Legally in Ireland
+  category: Watch Guides
+  brief: Confirm Netflix as the exclusive legal home for Squid Game in Ireland and
+    highlight related originals.
+- title: 'Fire TV Cube Review: Is It Worth the Upgrade for Irish Viewers?'
+  category: Reviews
+  brief: Assess whether the Fire TV Cube's extra power and hands-free controls justify
+    the price over a standard Fire TV Stick.
+- title: 'Chromecast with Google TV: Common Setup and Pairing Problems Solved'
+  category: Troubleshooting
+  brief: Walk through fixes for common Wi-Fi, pairing, and app crash issues on Chromecast
+    with Google TV in Irish homes.
+- title: How to Set Up NOW on a Samsung or LG Smart TV
+  category: Installation Guides
+  brief: Provide step-by-step instructions for downloading and signing into the NOW
+    app on popular smart TV brands.
+- title: Where to Watch the UEFA Champions League Legally in Ireland
+  category: Sports Streaming
+  brief: Break down which broadcasters and streaming apps carry live Champions League
+    football in Ireland this season.
+- title: 'Eir Vision Explained: Is Bundling TV with Broadband Worth It?'
+  category: Streaming Services
+  brief: Examine what channels and apps come with eir's Vision TV package and whether
+    it beats standalone streaming.
