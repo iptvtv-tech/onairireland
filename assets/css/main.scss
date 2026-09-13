@@ -423,6 +423,10 @@
 }
 
 /* ---------- Cookie consent banner ---------- */
+.cookie-consent[hidden] {
+  display: none !important;
+}
+
 .cookie-consent {
   position: fixed;
   bottom: 0;
