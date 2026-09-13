@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
     gtag("config", gaId, { anonymize_ip: true });
   }
 
-  if (choice === "accepted") {
+    if (choice === "accepted") {
+    banner.hidden = true;
     loadAnalytics();
   } else if (choice !== "declined") {
     banner.hidden = false;
