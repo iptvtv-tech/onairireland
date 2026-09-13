@@ -35,7 +35,7 @@ faqs:
 
 Roku has built a strong reputation in the US and UK as a simple, no-fuss way to get streaming apps onto any television. For Irish viewers, though, the picture is a little more complicated. Roku devices are not officially sold through Irish retailers in the same way Amazon's Fire TV range is, and availability can depend on importing through UK sellers or third-party marketplaces. Before buying, it's worth checking current stock and seller location carefully, as pricing and warranty support may differ from a straightforward Irish purchase.
 
-If you do manage to get your hands on one, the [Roku Streaming Stick 4K](AFFILIATE_LINK_ROKU_STICK) is generally considered the best entry point, offering 4K HDR playback and a compact form factor similar to Amazon's own stick.
+If you do manage to get your hands on one, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is generally considered the best entry point, offering 4K HDR playback and a compact form factor similar to Amazon's own stick.
 
 ### Setting Up and Region Considerations
 
