@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://iptvirelandtv.com/sitemap.xml
+
