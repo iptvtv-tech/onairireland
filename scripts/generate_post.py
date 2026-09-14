@@ -130,6 +130,13 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
 
+Do NOT mention, recommend, or link to Apple TV or any other Apple hardware
+anywhere in this article, even in passing or as one option among several --
+there is no affiliate programme access for Apple products, so recommending
+it sends readers to buy something that generates no revenue and isn't
+trackable. If a device comparison is relevant, use only: Fire TV Stick,
+Fire TV Cube, Roku, or Chromecast.
+
 Title: {title}
 Category: {category}
 Brief: {brief}
