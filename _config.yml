@@ -130,7 +130,7 @@ tag_archive:
 analytics:
   provider: false # set to "google-gtag" and add tracking_id below if you want analytics
   google:
-    tracking_id: ""
+    tracking_id: "G-RF9TGJ9YJF"
     anonymize_ip: false
 
 # ==============================
