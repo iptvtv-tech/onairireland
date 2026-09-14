@@ -56,7 +56,7 @@ Disney+ offers different subscription plans, and pricing and tier names have cha
 
 Disney+ has fairly broad device support at this stage, so most households won't need to buy anything new. The app works on smart TVs from the major manufacturers, games consoles, mobile phones and tablets, and most streaming sticks or boxes.
 
-If your television is a bit older and doesn't have a smart interface, or its built-in apps feel clunky and slow, a dedicated streaming device makes a real difference. Something like an [Amazon Fire TV Stick](#) is a straightforward option — it plugs into an HDMI port, connects to your Wi-Fi, and gives you a clean, fast interface for Disney+ and other apps without relying on your TV's own (often outdated) software.
+If your television is a bit older and doesn't have a smart interface, or its built-in apps feel clunky and slow, a dedicated streaming device makes a real difference. Something like an [Amazon Fire TV Stick](https://amzn.to/4h6LS4B) is a straightforward option — it plugs into an HDMI port, connects to your Wi-Fi, and gives you a clean, fast interface for Disney+ and other apps without relying on your TV's own (often outdated) software.
 
 For anyone who wants a slightly more premium experience with a unified interface across apps, a [Fire TV Cube](https://amzn.to/4cLlYlI) is another solid choice, particularly if you want hands-free voice control alongside strong performance.
 
