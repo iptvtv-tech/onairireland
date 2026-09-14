@@ -58,7 +58,7 @@ Disney+ has fairly broad device support at this stage, so most households won't 
 
 If your television is a bit older and doesn't have a smart interface, or its built-in apps feel clunky and slow, a dedicated streaming device makes a real difference. Something like an [Amazon Fire TV Stick](#) is a straightforward option — it plugs into an HDMI port, connects to your Wi-Fi, and gives you a clean, fast interface for Disney+ and other apps without relying on your TV's own (often outdated) software.
 
-For anyone who wants a slightly more premium experience with a unified interface across apps, an [Apple TV 4K](#) is another solid choice, particularly if you're already using other Apple devices and want easier casting or AirPlay support.
+For anyone who wants a slightly more premium experience with a unified interface across apps, a [Fire TV Cube](https://amzn.to/4cLlYlI) is another solid choice, particularly if you want hands-free voice control alongside strong performance.
 
 Whichever device you choose, the core steps are the same: download the Disney+ app from the device's app store, sign in with your account, and search for The Bear.
 
