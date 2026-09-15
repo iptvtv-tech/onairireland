@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // (missing file, broken path, not-yet-uploaded photo), swap it for the
   // placeholder graphic instead of showing a broken-image icon.
   var FALLBACK_IMAGE = "/assets/images/social-default.svg";
-  document.querySelectorAll("img").forEach(function (img) {
+    document.querySelectorAll("img").forEach(function (img) {
     img.addEventListener(
       "error",
       function () {
@@ -27,5 +27,14 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       { once: true }
     );
+  });
+
+  // Accessibility safety net: fill in alt text for any image missing it
+  // entirely, using the page title as a reasonable fallback description.
+  // Note: this only helps real visitors/screen readers via JS -- it does
+  // NOT reliably fix search-engine crawler warnings (e.g. Bing), since
+  // not all crawlers execute JavaScript before evaluating the page.
+  document.querySelectorAll("img:not([alt])").forEach(function (img) {
+    img.setAttribute("alt", document.title || "Image");
   });
 });
