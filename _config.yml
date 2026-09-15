@@ -36,6 +36,10 @@ author:
   name: "On Air Ireland"
   bio: "Independent guides to legal streaming in Ireland."
   location: "Ireland"
+  links:
+    - label: "Twitter/X"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/onairireland"
 
 # Site-wide default keywords (jekyll-seo-tag), pages/posts can override
 keywords: "legal streaming Ireland, IPTV alternatives Ireland, streaming devices, how to set up streaming device, best streaming services Ireland"
