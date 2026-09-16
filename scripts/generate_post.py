@@ -34,6 +34,51 @@ CATEGORY_SLUGS = {
 }
 
 
+CATEGORY_PEXELS_QUERIES = {
+    "Streaming Services": ["streaming tv remote", "watching tv living room", "smart tv screen"],
+    "Devices": ["streaming device tv", "tv remote control", "home entertainment setup"],
+    "Installation Guides": ["home theater setup", "tv cables wiring", "wifi router home"],
+    "News": ["breaking news tv", "newsroom broadcast", "tv news studio"],
+    "Reviews": ["technology review", "product unboxing", "gadget review desk"],
+    "Sports Streaming": ["sports fans watching tv", "stadium crowd sports", "friends watching game"],
+    "Troubleshooting": ["wifi router frustration", "technical support laptop", "internet connection problem"],
+    "Watch Guides": ["movie night living room", "popcorn tv night", "cozy home cinema"],
+}
+
+
+def fetch_pexels_image(category: str):
+    """Search Pexels for a relevant royalty-free photo for this category.
+    Returns a direct hotlink URL (Pexels' API terms explicitly permit
+    hotlinking), or None if no API key is set, the request fails, or no
+    results come back -- callers should fall back to the local image pool."""
+    api_key = os.environ.get("PEXELS_API_KEY", "")
+    if not api_key:
+        return None
+
+    queries = CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"])
+    query = random.choice(queries)
+
+    try:
+        resp = requests.get(
+            "https://api.pexels.com/v1/search",
+            headers={"Authorization": api_key},
+            params={"query": query, "per_page": 10, "orientation": "landscape"},
+            timeout=20,
+        )
+        if not resp.ok:
+            print(f"Pexels API error {resp.status_code}: {resp.text}")
+            return None
+        data = resp.json()
+        photos = data.get("photos", [])
+        if not photos:
+            return None
+        pick = random.choice(photos)
+        return pick.get("src", {}).get("large")
+    except requests.RequestException as e:
+        print(f"Pexels request failed: {e}")
+        return None
+
+
 def slugify(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^a-z0-9]+", "-", text)
@@ -157,6 +202,10 @@ Requirements:
 - Be factually cautious: where you are not certain of a current price or exact app menu
   wording, say so explicitly rather than inventing specifics, since a human will fact-check
   before publishing.
+- Do NOT mention Apple TV or any other Apple product anywhere in the article, even in
+  passing or as one option among several -- there is no affiliate link for Apple hardware,
+  so any mention creates a dead or broken link. Stick to devices we can actually link:
+  Fire TV Stick, Fire TV Cube, Roku, Chromecast, or smart TV platforms generally.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -229,6 +278,16 @@ one block per topic, with a blank line between blocks, and nothing else:
 TITLE: <specific, clear title>
 CATEGORY: <one of: {categories}>
 BRIEF: <one sentence describing what the post should cover>
+
+Title variety is important -- do NOT default to the same structure every
+time (e.g. always "X: Y" with a colon, or always "Where to Watch X Legally
+in Ireland", or always starting with "How to"). Mix it up across the batch:
+some short and punchy (4-6 words), some as direct questions, some as plain
+statements, some comparisons ("X vs Y"), some numbered/list-style. Vary
+sentence structure and opening words so the {count} titles don't all read
+like they came from the same template. Most titles should be on the
+shorter side -- aim for under 8 words where the topic allows it, reserving
+longer titles only for when real specificity requires it.
 
 Topics should be genuinely useful to an Irish streaming audience -- specific
 services (RTE Player, Virgin Media, Sky, NOW, Netflix, Disney+, GAA+, TG4),
@@ -323,7 +382,7 @@ def main():
     filepath = os.path.join(POSTS_DIR, filename)
 
     category_slug_name = category.replace(" ", "-")
-    hero_image = pick_product_image(category)
+    hero_image = fetch_pexels_image(category) or pick_product_image(category)
 
     # Escape double quotes so AI-generated text can never break the YAML
     # front matter's quoted strings (this caused real build failures before).
