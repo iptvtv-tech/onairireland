@@ -328,13 +328,20 @@ monetised the way other device topics can.
         raw,
         re.DOTALL,
     )
-    topics = []
+        topics = []
     for t, c, b in blocks:
         t, c, b = t.strip(), c.strip(), b.strip()
         if c not in CATEGORY_SLUGS:
             continue
         if t and b:
             topics.append({"title": t, "category": c, "brief": b})
+
+    if not topics:
+        print("Topic parsing found zero valid blocks. Raw response was:")
+        print("--- START RAW RESPONSE ---")
+        print(raw)
+        print("--- END RAW RESPONSE ---")
+
     return topics
 
 
