@@ -323,6 +323,10 @@ monetised the way other device topics can.
     data = resp.json()
     raw = "".join(block.get("text", "") for block in data.get("content", []))
 
+    if not raw.strip():
+        print("Anthropic response had no usable text content. Full response was:")
+        print(data)
+
     blocks = re.findall(
         r"TITLE:\s*(.+?)\s*\nCATEGORY:\s*(.+?)\s*\nBRIEF:\s*(.+?)(?=\n\s*TITLE:|\Z)",
         raw,
