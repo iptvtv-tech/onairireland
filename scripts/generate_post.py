@@ -175,12 +175,22 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
 
+NEVER recommend, mention, or imply using a VPN, proxy, or any geo-unblocking
+method to access content -- this applies to every post, not just ones about
+a specific show. If a topic naturally involves a "content not available in
+your country" type error, only explain LEGITIMATE causes and fixes (account
+region settings, correct app store/region, network configuration, contacting
+the service's own support) -- never suggest bypassing geo-restrictions.
+
 Do NOT mention, recommend, or link to Apple TV or any other Apple hardware
 anywhere in this article, even in passing or as one option among several --
 there is no affiliate programme access for Apple products, so recommending
 it sends readers to buy something that generates no revenue and isn't
 trackable. If a device comparison is relevant, use only: Fire TV Stick,
-Fire TV Cube, Roku, or Chromecast.
+Fire TV Cube, Roku, or Chromecast. Note: this restriction is about Apple TV
+hardware specifically -- Apple TV+ (the streaming service/subscription) is a
+different thing and can be discussed normally when relevant, since it's not
+a hardware recommendation.
 
 Title: {title}
 Category: {category}
