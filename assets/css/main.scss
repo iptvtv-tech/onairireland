@@ -732,7 +732,7 @@
 /* ---------- Wider post tiles (2 columns instead of 4) ---------- */
 @media (min-width: 48em) {
   .grid__item {
-    width: 48.9795918367% !important;
+    width: 49.5% !important;
   }
 
   .grid__item:nth-child(2n+1) {
@@ -742,7 +742,7 @@
 
   .grid__item:nth-child(2n+2) {
     clear: none !important;
-    margin-inline-start: 2.0408163265% !important;
+    margin-inline-start: 1% !important;
   }
 }
 @media (min-width: 48em) {
