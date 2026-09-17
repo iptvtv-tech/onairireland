@@ -328,7 +328,7 @@ monetised the way other device topics can.
         raw,
         re.DOTALL,
     )
-        topics = []
+    topics = []
     for t, c, b in blocks:
         t, c, b = t.strip(), c.strip(), b.strip()
         if c not in CATEGORY_SLUGS:
