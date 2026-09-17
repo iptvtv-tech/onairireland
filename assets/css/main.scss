@@ -704,23 +704,6 @@
 .site-search__result a span {
   font-size: 0.88em;
 
-  /* ---------- Wider post tiles (2 columns instead of 4) ---------- */
-@media (min-width: 48em) {
-  .grid__item {
-    width: 48.9795918367% !important;
-  }
-
-  .grid__item:nth-child(2n+1) {
-    clear: both !important;
-    margin-inline-start: 0 !important;
-  }
-
-  .grid__item:nth-child(2n+2) {
-    clear: none !important;
-    margin-inline-start: 2.0408163265% !important;
-  }
-} 
-
   /* ---------- Follow on X button ---------- */
 .follow-twitter {
   text-align: center;
@@ -744,4 +727,21 @@
   transform: translateY(-2px);
 } 
   color: #64748b;
+}
+
+/* ---------- Wider post tiles (2 columns instead of 4) ---------- */
+@media (min-width: 48em) {
+  .grid__item {
+    width: 48.9795918367% !important;
+  }
+
+  .grid__item:nth-child(2n+1) {
+    clear: both !important;
+    margin-inline-start: 0 !important;
+  }
+
+  .grid__item:nth-child(2n+2) {
+    clear: none !important;
+    margin-inline-start: 2.0408163265% !important;
+  }
 }
