@@ -745,3 +745,14 @@
     margin-inline-start: 2.0408163265% !important;
   }
 }
+@media (min-width: 48em) {
+  .grid__item .archive__item-teaser {
+    max-height: 260px !important;
+  }
+}
+
+@media (min-width: 37.5em) and (max-width: 48em) {
+  .grid__item .archive__item-teaser {
+    max-height: 220px !important;
+  }
+}
