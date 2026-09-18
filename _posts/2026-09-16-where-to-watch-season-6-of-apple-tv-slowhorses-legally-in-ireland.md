@@ -1,5 +1,5 @@
 ---
-title: "Where to Watch Season 6 of Apple TV SlowHorses Legally In Ireland."
+title: "title: "Where to Watch Slow Horses Season 6 Legally in Ireland""
 excerpt: "A practical guide for Irish viewers on where Season 6 of Slow Horses might be available legally, plus the devices and apps you'll need to watch it properly."
 description: "A practical guide for Irish viewers on where Season 6 of Slow Horses might be available legally, plus the devices and apps you'll need to watch it properly."
 categories:
@@ -50,7 +50,7 @@ It's also worth keeping an eye on official streaming service announcements and p
 
 ## The Bottom Line
 
-For now, the responsible advice is to check your existing streaming subscriptions directly through their official apps rather than relying on secondhand information. Once you've got a reliable streaming device set up, whether that's a Fire TV Stick, Fire TV Cube, Roku, or Chromecast, checking availability takes just a couple of minutes. We'll update this guide with confirmed details on Season 6's Irish streaming home as soon as
+For now, the responsible advice is to check your existing streaming subscriptions directly through their official apps rather than relying on secondhand information. Once you've got a reliable streaming device set up, whether that's a Fire TV Stick, Fire TV Cube, Roku, or Chromecast, checking availability takes just a couple of minutes. We'll update this guide with confirmed details on Season 6's Irish streaming home once they're officially announced.
 
 {% include product-showcase.html category="Watch Guides" %}
 
