@@ -62,7 +62,7 @@ Realistically, most Irish households end up juggling two or three of these subsc
 
 ## Getting Paramount+ on Your TV
 
-Paramount+ is generally available as an app on major smart TV platforms, plus streaming devices like the [Fire TV Stick](https://amzn.to/4im1tzz) and Chromecast. If your TV is a few years old and doesn't have the app pre-installed, a streaming stick is usually the simplest fix rather than replacing the whole television.
+Paramount+ is generally available as an app on major smart TV platforms, plus streaming devices like the [Fire TV Stick](https://amzn.to/4h6LS4B) and Chromecast. If your TV is a few years old and doesn't have the app pre-installed, a streaming stick is usually the simplest fix rather than replacing the whole television.
 
 For households that jump between several streaming apps regularly, a [universal remote control](https://amzn.to/4im1tzz) can save a lot of hassle, especially if you've got a separate box for Sky, Virgin, or a games console alongside your streaming stick.
 
