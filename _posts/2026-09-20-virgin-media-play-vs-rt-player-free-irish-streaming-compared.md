@@ -7,8 +7,8 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: https://images.pexels.com/photos/4474018/pexels-photo-4474018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/4474018/pexels-photo-4474018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: assets/images/teasers/streaming-5.jpg
+  teaser: assets/images/teasers/streaming-5.jpg
 seo:
   type: Article
 toc: true
