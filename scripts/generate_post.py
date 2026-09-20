@@ -6,7 +6,8 @@ from the queue. Intended to run inside the GitHub Action -- never
 publishes directly; the workflow opens a PR with the result so a human
 reviews and merges before anything goes live.
 
-Requires the ANTHROPIC_API_KEY secret to be set on the repo
+Requires the ANTHROPIC_API_KEY secret to be set on the repo, and
+optionally PEXELS_API_KEY for real stock photo hero images
 (Settings -> Secrets and variables -> Actions).
 """
 import datetime
@@ -33,7 +34,6 @@ CATEGORY_SLUGS = {
     "Watch Guides": "watch-guides",
 }
 
-
 CATEGORY_PEXELS_QUERIES = {
     "Streaming Services": ["streaming tv remote", "watching tv living room", "smart tv screen"],
     "Devices": ["streaming device tv", "tv remote control", "home entertainment setup"],
@@ -46,17 +46,14 @@ CATEGORY_PEXELS_QUERIES = {
 }
 
 
-def fetch_pexels_image(category: str):
-    """Search Pexels for a relevant royalty-free photo for this category.
-    Returns a direct hotlink URL (Pexels' API terms explicitly permit
-    hotlinking), or None if no API key is set, the request fails, or no
-    results come back -- callers should fall back to the local image pool."""
+def fetch_pexels_image(query: str):
+    """Search Pexels for a relevant royalty-free photo. Returns a direct
+    hotlink URL (Pexels' API terms explicitly permit hotlinking), or None
+    if no API key is set, the request fails, or no results come back --
+    callers should fall back to the local image pool."""
     api_key = os.environ.get("PEXELS_API_KEY", "")
-    if not api_key:
+    if not api_key or not query:
         return None
-
-    queries = CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"])
-    query = random.choice(queries)
 
     try:
         resp = requests.get(
@@ -99,10 +96,8 @@ def load_teaser_images():
 
 def pick_product_image(category: str) -> str:
     """Return the image path of a random image matching this category --
-    pulled from both product photos AND the broader teaser_images.yml pool,
-    so auto-drafted posts get real visual variety instead of repeating the
-    same 1-2 product photos every time. Falls back to the placeholder if
-    nothing matches yet."""
+    pulled from both product photos AND the broader teaser_images.yml pool.
+    Falls back to the placeholder if nothing matches yet."""
     products = load_products()
     pool = [p.get("image") for p in products if p.get("category") == category and p.get("image")]
 
@@ -112,6 +107,23 @@ def pick_product_image(category: str) -> str:
     if pool:
         return random.choice(pool)
     return "/assets/images/social-default.svg"
+
+
+def pick_hero_image(category: str, image_query: str) -> str:
+    """Try a post-specific Pexels search first (using the AI-suggested
+    query for this exact post), then a generic category-based Pexels
+    search, then finally fall back to the local product/teaser pool."""
+    if image_query:
+        result = fetch_pexels_image(image_query)
+        if result:
+            return result
+
+    generic_query = random.choice(CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"]))
+    result = fetch_pexels_image(generic_query)
+    if result:
+        return result
+
+    return pick_product_image(category)
 
 
 def load_queue():
@@ -140,7 +152,19 @@ def save_queue(queue):
         yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True)
 
 
-def call_claude(title: str, category: str, brief: str) -> str:
+def parse_faqs(text: str):
+    """Split FAQS: block out of the raw response and parse Q:/A: pairs.
+    Returns (body_without_faqs, list_of_(question, answer)_tuples)."""
+    if "FAQS:" not in text:
+        return text, []
+    body, _, faq_block = text.partition("FAQS:")
+    pairs = re.findall(r"Q:\s*(.+?)\s*\nA:\s*(.+?)(?=\n\s*Q:|\Z)", faq_block.strip(), re.DOTALL)
+    cleaned = [(q.strip(), a.strip()) for q, a in pairs if q.strip() and a.strip()]
+    return body.strip(), cleaned
+
+
+def call_claude(title: str, category: str, brief: str):
+    """Returns (article_text, image_query)."""
     api_key = os.environ["ANTHROPIC_API_KEY"]
 
     matching_products = [p for p in load_products() if p.get("category") == category]
@@ -162,10 +186,6 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
   genuinely confident that's accurate for Ireland. If you are not certain,
   say plainly that availability should be confirmed on the service's own
   site/app, rather than guessing or inventing a platform.
-- NEVER mention VPNs, geo-unblocking, or any "free streaming site" as a way
-  to watch. If a title isn't available on a licensed Irish service, say so
-  honestly rather than offering an unauthorized alternative -- this is a
-  hard rule, not a style preference.
 - Include a short section on which devices/apps to watch on (weaving in 1-2
   device product links from the list above where natural), since that's
   useful regardless of which service carries the title.
@@ -203,6 +223,11 @@ Requirements:
   or pages -- a real "Related" link gets appended automatically after your content.
 - Include a one-sentence meta-description-style summary as the very first line, prefixed
   with "SUMMARY:", then a blank line, then the article.
+- Immediately after the SUMMARY line (still before the blank line and article), add a
+  second line prefixed "IMAGE_QUERY:" with a short (2-4 word) generic stock-photo search
+  term that suits THIS SPECIFIC post -- describe a generic, photographable scene (people,
+  devices, settings), never a brand name, show title, or anything a stock photo site won't
+  actually have images of.
 - After the article body, add a line that says exactly "FAQS:" on its own, then exactly
   4 question-and-answer pairs, each formatted as:
   Q: question text
@@ -212,10 +237,6 @@ Requirements:
 - Be factually cautious: where you are not certain of a current price or exact app menu
   wording, say so explicitly rather than inventing specifics, since a human will fact-check
   before publishing.
-- Do NOT mention Apple TV or any other Apple product anywhere in the article, even in
-  passing or as one option among several -- there is no affiliate link for Apple hardware,
-  so any mention creates a dead or broken link. Stick to devices we can actually link:
-  Fire TV Stick, Fire TV Cube, Roku, Chromecast, or smart TV platforms generally.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -235,20 +256,15 @@ Requirements:
         print(f"Anthropic API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     data = resp.json()
-    return "".join(block.get("text", "") for block in data.get("content", []))
-
-
-def parse_faqs(text: str):
-    """Split FAQS: block out of the raw response and parse Q:/A: pairs.
-    Returns (body_without_faqs, list_of_(question, answer)_tuples)."""
-    if "FAQS:" not in text:
-        return text, []
-    body, _, faq_block = text.partition("FAQS:")
-    pairs = re.findall(r"Q:\s*(.+?)\s*\nA:\s*(.+?)(?=\n\s*Q:|\Z)", faq_block.strip(), re.DOTALL)
-    cleaned = [(q.strip(), a.strip()) for q, a in pairs if q.strip() and a.strip()]
-    return body.strip(), cleaned
-
-
+    raw = "".join(block.get("text", "") for block in data.get("content", []))
+ 
+    if not raw.strip():
+        print("Anthropic response had no usable text content. Full response was:")
+        print(data)
+ 
+    return raw
+ 
+ 
 def existing_post_titles():
     """Read titles from existing post files so we can ask Claude to avoid
     repeating topics that already exist."""
@@ -264,8 +280,8 @@ def existing_post_titles():
             if m:
                 titles.append(m.group(1))
     return titles
-
-
+ 
+ 
 def generate_new_topics(count: int = 8):
     """Ask Claude to brainstorm a fresh batch of topics when the queue runs
     dry, so the daily workflow never just goes idle. Returns a list of
@@ -274,21 +290,21 @@ def generate_new_topics(count: int = 8):
     existing = existing_post_titles()
     existing_text = "\n".join(f"- {t}" for t in existing) if existing else "(none yet)"
     categories = " | ".join(CATEGORY_SLUGS.keys())
-
+ 
     prompt = f"""You are planning new blog post topics for an Irish blog about LEGAL
 streaming services and devices. Never suggest anything about unauthorized
 IPTV or streaming resale services.
-
+ 
 Existing post titles already published (do NOT repeat or closely duplicate these):
 {existing_text}
-
+ 
 Generate exactly {count} new topic ideas. For each, output exactly this format,
 one block per topic, with a blank line between blocks, and nothing else:
-
+ 
 TITLE: <specific, clear title>
 CATEGORY: <one of: {categories}>
 BRIEF: <one sentence describing what the post should cover>
-
+ 
 Title variety is important -- do NOT default to the same structure every
 time (e.g. always "X: Y" with a colon, or always "Where to Watch X Legally
 in Ireland", or always starting with "How to"). Mix it up across the batch:
@@ -298,7 +314,7 @@ sentence structure and opening words so the {count} titles don't all read
 like they came from the same template. Most titles should be on the
 shorter side -- aim for under 8 words where the topic allows it, reserving
 longer titles only for when real specificity requires it.
-
+ 
 Topics should be genuinely useful to an Irish streaming audience -- specific
 services (RTE Player, Virgin Media, Sky, NOW, Netflix, Disney+, GAA+, TG4),
 specific devices (Fire TV Stick, Fire TV Cube, Roku, Chromecast, smart TVs),
@@ -332,11 +348,7 @@ monetised the way other device topics can.
     resp.raise_for_status()
     data = resp.json()
     raw = "".join(block.get("text", "") for block in data.get("content", []))
-
-    if not raw.strip():
-        print("Anthropic response had no usable text content. Full response was:")
-        print(data)
-
+ 
     blocks = re.findall(
         r"TITLE:\s*(.+?)\s*\nCATEGORY:\s*(.+?)\s*\nBRIEF:\s*(.+?)(?=\n\s*TITLE:|\Z)",
         raw,
@@ -349,16 +361,16 @@ monetised the way other device topics can.
             continue
         if t and b:
             topics.append({"title": t, "category": c, "brief": b})
-
+ 
     if not topics:
         print("Topic parsing found zero valid blocks. Raw response was:")
         print("--- START RAW RESPONSE ---")
         print(raw)
         print("--- END RAW RESPONSE ---")
-
+ 
     return topics
-
-
+ 
+ 
 def main():
     queue = load_queue()
     if not queue:
@@ -369,23 +381,28 @@ def main():
             sys.exit(0)
         save_queue(queue)
         print(f"Added {len(queue)} new topics to the queue.")
-
+ 
     topic = queue.pop(0)
     title = topic["title"]
     category = topic["category"]
     brief = topic.get("brief", "")
-
+ 
     raw = call_claude(title, category, brief)
-
+ 
     summary = ""
+    image_query = ""
     body = raw
     if raw.startswith("SUMMARY:"):
         first_line, _, rest = raw.partition("\n")
         summary = first_line.replace("SUMMARY:", "").strip()
         body = rest.strip()
-
+    if body.startswith("IMAGE_QUERY:"):
+        first_line, _, rest = body.partition("\n")
+        image_query = first_line.replace("IMAGE_QUERY:", "").strip()
+        body = rest.strip()
+ 
     body, faqs = parse_faqs(body)
-
+ 
     # Guarantee at least one inline affiliate link -- don't just hope the AI
     # followed the prompt instruction, since it sometimes skips it.
     matching_products = [p for p in load_products() if p.get("category") == category]
@@ -396,20 +413,20 @@ def main():
             f"\n\nIf you're looking to get set up, [{pick['name']}]({pick['affiliate_link']}) "
             f"is worth a look — {pick.get('blurb', '')}"
         )
-
+ 
     today = datetime.date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
-
+ 
     category_slug_name = category.replace(" ", "-")
-    hero_image = fetch_pexels_image(category) or pick_product_image(category)
-
+    hero_image = pick_hero_image(category, image_query)
+ 
     # Escape double quotes so AI-generated text can never break the YAML
     # front matter's quoted strings (this caused real build failures before).
     safe_title = title.replace('"', "'")
     safe_summary = summary.replace('"', "'")
-
+ 
     faqs_yaml = ""
     if faqs:
         faqs_yaml = "faqs:\n"
@@ -417,7 +434,7 @@ def main():
             safe_q = q.replace('"', "'")
             safe_a = a.replace('"', "'")
             faqs_yaml += f'  - question: "{safe_q}"\n    answer: "{safe_a}"\n'
-
+ 
     front_matter = f"""---
 title: "{safe_title}"
 excerpt: "{safe_summary}"
@@ -435,15 +452,15 @@ toc: true
 draft_generated: true
 affiliate_links: true
 {faqs_yaml}---
-
+ 
 {{% include last-updated.html %}}
-
+ 
 {{% include affiliate-disclosure.html %}}
-
+ 
 {{% include share-buttons.html %}}
-
+ 
 """
-
+ 
     showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
     faq_block = "\n{% include faq-section.html %}\n" if faqs else ""
     related_block = (
@@ -453,16 +470,41 @@ affiliate_links: true
         "Read our [full guide to legal streaming services in Ireland]"
         "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
     )
-
+ 
     with open(filepath, "w") as f:
         f.write(front_matter + body + showcase_block + related_block)
-
+ 
     save_queue(queue)
-
+ 
     print(f"Draft written to {filepath}")
     print(f"::set-output name=post_path::{filepath}")
     print(f"::set-output name=post_title::{title}")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
