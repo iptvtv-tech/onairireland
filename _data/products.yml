@@ -223,3 +223,12 @@
   badge: "Simple Interface"
   blurb: "A straightforward remote and menu system if you just want to find your show and start watching."
   affiliate_link: "https://amzn.to/4r8Xo41"
+   
+- id: satellite_receiver
+  name: "HD Satellite Receiver"
+  category: "Watch Guides"
+  image: "/assets/images/products/edision_proton.jpg"
+  price: "€22.99"
+  badge: "Premium Pick"
+  blurb: "Box is pre-tuned to Astra19.2E and includes a 2 pin plug for Europe. By doing a factory reset, It can be tuned to Astra28.2E for Irish/British channels. A great little box for the price."
+  affiliate_link: "https://amzn.to/4hibfjU" 
