@@ -1,0 +1,36 @@
+# Seasonal topics, injected into the front of _data/topic_queue.yml when
+# their date window is active, by scripts/inject_seasonal_topics.py
+# (triggered manually via the "Inject Seasonal Topics" GitHub Action).
+#
+# window_start / window_end use MM-DD format and can wrap across New Year
+# (e.g. start: 12-01, end: 01-15 covers Dec 1 through Jan 15).
+
+- title: "Best Streaming Deals for Christmas in Ireland"
+  category: "Streaming Services"
+  brief: "Round up any current Christmas/New Year promotional pricing on streaming services and devices relevant to Irish shoppers, being clear about which prices are time-limited offers."
+  window_start: "11-15"
+  window_end: "12-26"
+
+- title: "Cutting the Cord: A New Year Streaming Setup Guide"
+  category: "Streaming Services"
+  brief: "A New Year's resolution-style guide for households switching from cable/satellite to legal streaming-only setups in Ireland."
+  window_start: "12-27"
+  window_end: "01-20"
+
+- title: "How to Watch the Six Nations Legally in Ireland"
+  category: "Sports Streaming"
+  brief: "Explain how RTÉ and Virgin Media Television split Six Nations coverage in Ireland, free-to-air, ahead of the tournament kicking off."
+  window_start: "01-15"
+  window_end: "02-10"
+
+- title: "GAA Championship Season: Your Streaming Setup Checklist"
+  category: "Sports Streaming"
+  brief: "A pre-season checklist for GAA fans getting their legal streaming setup (RTÉ Player, TG4 Player, GAA+) ready before Championship season starts."
+  window_start: "04-15"
+  window_end: "05-15"
+
+- title: "Back to College: Best Budget Streaming Setup in Ireland"
+  category: "Devices"
+  brief: "A budget-focused streaming device and service guide aimed at students setting up in new accommodation for the academic year."
+  window_start: "08-15"
+  window_end: "09-20"
