@@ -188,6 +188,16 @@
   blurb: "Useful if your streaming box, games console, and set-top box are all fighting over one HDMI port on match day."
   affiliate_link: "https://amzn.to/4h8t3OA"
 
+- id: Anker_240W_USB_C
+  name: "Anker 240W USB-C to USB-C Cable"
+  category: "Sports Streaming"
+  image: "/assets/images/products/anker-240W-USB-C.jpg"
+  price: "€11.99"
+  badge: "Top Pick"
+  blurb: "Anker 240W USB-C to USB-C Cable, Double Braided Nylon, 10ft (3m) Type C Charging Cable for MacBook Pro, iPhone 17/16/15, iPad Pro, Samsung Galaxy "
+  affiliate_link: "https://amzn.to/3SSkm2U"
+ 
+
 - id: universal-remote
   name: "Universal Remote Control"
   category: "Streaming Services"
