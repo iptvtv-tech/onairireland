@@ -793,3 +793,14 @@
   font-weight: 700;
   margin-top: 0.2em;
 }
+/* ---------- Trust band ---------- */
+.oai-hero__trust {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2em;
+  margin-bottom: 1.3em;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #e2e8f0;
+}
