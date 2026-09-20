@@ -21,3 +21,30 @@ A single page pulling together every device and service we currently recommend, 
 
 {% include product-showcase.html category=cat title=cat limit=20 %}
 {% endfor %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% for product in site.data.products %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Product",
+        "name": {{ product.name | jsonify }},
+        "image": "{{ site.url }}{{ product.image | relative_url }}",
+        "description": {{ product.blurb | jsonify }},
+        "offers": {
+          "@type": "Offer",
+          "url": {{ product.affiliate_link | jsonify }},
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
