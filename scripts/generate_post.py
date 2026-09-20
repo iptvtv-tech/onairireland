@@ -5,7 +5,7 @@ blog post from it, writes the draft into _posts/, and removes the topic
 from the queue. Intended to run inside the GitHub Action -- never
 publishes directly; the workflow opens a PR with the result so a human
 reviews and merges before anything goes live.
-
+ 
 Requires the ANTHROPIC_API_KEY secret to be set on the repo, and
 optionally PEXELS_API_KEY for real stock photo hero images
 (Settings -> Secrets and variables -> Actions).
@@ -15,14 +15,14 @@ import os
 import random
 import re
 import sys
-
+ 
 import requests
 import yaml
-
+ 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
 POSTS_DIR = os.path.join(REPO_ROOT, "_posts")
-
+ 
 CATEGORY_SLUGS = {
     "Streaming Services": "streaming-services",
     "Devices": "devices",
@@ -33,7 +33,7 @@ CATEGORY_SLUGS = {
     "Troubleshooting": "troubleshooting",
     "Watch Guides": "watch-guides",
 }
-
+ 
 CATEGORY_PEXELS_QUERIES = {
     "Streaming Services": ["streaming tv remote", "watching tv living room", "smart tv screen"],
     "Devices": ["streaming device tv", "tv remote control", "home entertainment setup"],
@@ -44,8 +44,8 @@ CATEGORY_PEXELS_QUERIES = {
     "Troubleshooting": ["wifi router frustration", "technical support laptop", "internet connection problem"],
     "Watch Guides": ["movie night living room", "popcorn tv night", "cozy home cinema"],
 }
-
-
+ 
+ 
 def fetch_pexels_image(query: str):
     """Search Pexels for a relevant royalty-free photo. Returns a direct
     hotlink URL (Pexels' API terms explicitly permit hotlinking), or None
@@ -54,7 +54,7 @@ def fetch_pexels_image(query: str):
     api_key = os.environ.get("PEXELS_API_KEY", "")
     if not api_key or not query:
         return None
-
+ 
     try:
         resp = requests.get(
             "https://api.pexels.com/v1/search",
@@ -74,41 +74,41 @@ def fetch_pexels_image(query: str):
     except requests.RequestException as e:
         print(f"Pexels request failed: {e}")
         return None
-
-
+ 
+ 
 def slugify(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return text.strip("-")
-
-
+ 
+ 
 def load_products():
     products_path = os.path.join(REPO_ROOT, "_data", "products.yml")
     with open(products_path, "r") as f:
         return yaml.safe_load(f) or []
-
-
+ 
+ 
 def load_teaser_images():
     teasers_path = os.path.join(REPO_ROOT, "_data", "teaser_images.yml")
     with open(teasers_path, "r") as f:
         return yaml.safe_load(f) or {}
-
-
+ 
+ 
 def pick_product_image(category: str) -> str:
     """Return the image path of a random image matching this category --
     pulled from both product photos AND the broader teaser_images.yml pool.
     Falls back to the placeholder if nothing matches yet."""
     products = load_products()
     pool = [p.get("image") for p in products if p.get("category") == category and p.get("image")]
-
+ 
     teasers = load_teaser_images()
     pool += teasers.get(category, [])
-
+ 
     if pool:
         return random.choice(pool)
     return "/assets/images/social-default.svg"
-
-
+ 
+ 
 def pick_hero_image(category: str, image_query: str) -> str:
     """Try a post-specific Pexels search first (using the AI-suggested
     query for this exact post), then a generic category-based Pexels
@@ -117,15 +117,15 @@ def pick_hero_image(category: str, image_query: str) -> str:
         result = fetch_pexels_image(image_query)
         if result:
             return result
-
+ 
     generic_query = random.choice(CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"]))
     result = fetch_pexels_image(generic_query)
     if result:
         return result
-
+ 
     return pick_product_image(category)
-
-
+ 
+ 
 def load_queue():
     if not os.path.exists(QUEUE_PATH):
         print("topic_queue.yml is missing -- creating a fresh empty one.")
@@ -133,8 +133,8 @@ def load_queue():
         return []
     with open(QUEUE_PATH, "r") as f:
         return yaml.safe_load(f) or []
-
-
+ 
+ 
 def save_queue(queue):
     header = (
         "# Queue of topics for the daily auto-post GitHub Action.\n"
@@ -150,8 +150,8 @@ def save_queue(queue):
     with open(QUEUE_PATH, "w") as f:
         f.write(header)
         yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True)
-
-
+ 
+ 
 def parse_faqs(text: str):
     """Split FAQS: block out of the raw response and parse Q:/A: pairs.
     Returns (body_without_faqs, list_of_(question, answer)_tuples)."""
@@ -161,12 +161,12 @@ def parse_faqs(text: str):
     pairs = re.findall(r"Q:\s*(.+?)\s*\nA:\s*(.+?)(?=\n\s*Q:|\Z)", faq_block.strip(), re.DOTALL)
     cleaned = [(q.strip(), a.strip()) for q, a in pairs if q.strip() and a.strip()]
     return body.strip(), cleaned
-
-
+ 
+ 
 def call_claude(title: str, category: str, brief: str):
     """Returns (article_text, image_query)."""
     api_key = os.environ["ANTHROPIC_API_KEY"]
-
+ 
     matching_products = [p for p in load_products() if p.get("category") == category]
     product_links_text = ""
     if matching_products:
@@ -177,7 +177,7 @@ def call_claude(title: str, category: str, brief: str):
             "links where they fit naturally, using descriptive text, not a dumped list:\n"
             + "\n".join(lines) + "\n"
         )
-
+ 
     watch_guide_instructions = ""
     if category == "Watch Guides":
         watch_guide_instructions = """
@@ -190,18 +190,18 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
   device product links from the list above where natural), since that's
   useful regardless of which service carries the title.
 """
-
+ 
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
-
+ 
 NEVER recommend, mention, or imply using a VPN, proxy, or any geo-unblocking
 method to access content -- this applies to every post, not just ones about
 a specific show. If a topic naturally involves a "content not available in
 your country" type error, only explain LEGITIMATE causes and fixes (account
 region settings, correct app store/region, network configuration, contacting
 the service's own support) -- never suggest bypassing geo-restrictions.
-
+ 
 Do NOT mention, recommend, or link to Apple TV or any other Apple hardware
 anywhere in this article, even in passing or as one option among several --
 there is no affiliate programme access for Apple products, so recommending
@@ -211,7 +211,7 @@ Fire TV Cube, Roku, or Chromecast. Note: this restriction is about Apple TV
 hardware specifically -- Apple TV+ (the streaming service/subscription) is a
 different thing and can be discussed normally when relevant, since it's not
 a hardware recommendation.
-
+ 
 Title: {title}
 Category: {category}
 Brief: {brief}
@@ -257,7 +257,7 @@ Requirements:
     resp.raise_for_status()
     data = resp.json()
     raw = "".join(block.get("text", "") for block in data.get("content", []))
- 
+    
     if not raw.strip():
         print("Anthropic response had no usable text content. Full response was:")
         print(data)
@@ -323,10 +323,18 @@ a specific well-known TV show or movie and which LICENSED service carries
 it in Ireland (e.g. "Where to Watch [Show] Legally in Ireland"). For Watch
 Guide topics, only suggest titles you are reasonably confident are
 currently available on a real, mainstream licensed service -- do not invent
-or guess availability. Do NOT suggest topics centered on Apple TV or other
-Apple products specifically -- there is no affiliate programme access for
-Apple hardware, so a dedicated Apple TV review or buying guide can't be
-monetised the way other device topics can.
+or guess availability.
+ 
+Include a mix of these high-search-intent formats where they genuinely fit:
+- "Is [Service] Available in Ireland?" -- direct-answer format people
+  actually type into Google (category: Streaming Services or News)
+- "[Service/App] Not Working: Common Fixes" -- targets real error-message
+  searches (category: Troubleshooting)
+ 
+Do NOT suggest topics centered on Apple TV or other Apple products
+specifically -- there is no affiliate programme access for Apple hardware,
+so a dedicated Apple TV review or buying guide can't be monetised the way
+other device topics can.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -422,6 +430,8 @@ def main():
     category_slug_name = category.replace(" ", "-")
     hero_image = pick_hero_image(category, image_query)
  
+    seo_type = "HowTo" if category in ("Installation Guides", "Troubleshooting") else "Article"
+ 
     # Escape double quotes so AI-generated text can never break the YAML
     # front matter's quoted strings (this caused real build failures before).
     safe_title = title.replace('"', "'")
@@ -447,7 +457,7 @@ header:
   overlay_image: {hero_image}
   teaser: {hero_image}
 seo:
-  type: Article
+  type: {seo_type}
 toc: true
 draft_generated: true
 affiliate_links: true
@@ -484,27 +494,3 @@ affiliate_links: true
 if __name__ == "__main__":
     main()
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
