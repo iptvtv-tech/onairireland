@@ -242,3 +242,48 @@
   badge: "Premium Pick"
   blurb: "Box is pre-tuned to Astra19.2E and includes a 2 pin plug for Europe. By doing a factory reset, It can be tuned to Astra28.2E for Irish/British channels. A great little box for the price."
   affiliate_link: "https://amzn.to/4hibfjU" 
+
+- id: hdmi-extender-adapter
+  name: "HDMI Extender Adapter"
+  category: "Installation Guides"
+  image: "/assets/images/products/hdmi-extender.jpg"
+  price: "€6.99"
+  badge: "Handy Extra"
+  blurb: "Useful when a streaming stick sits too close to a wall or cabinet and needs a bit of clearance for good Wi-Fi reception."
+  affiliate_link: "https://amzn.to/4An8hDF"
+
+- id: screen-cleaning-kit
+  name: "TV Screen Cleaning Kit"
+  category: "Installation Guides"
+  image: "/assets/images/products/screen-cleaning-kit.jpg"
+  price: "€19.50"
+  badge: "Popular Add-on"
+  blurb: "A safe, streak-free way to keep your screen clear — worth having once you've got your setup looking sharp."
+  affiliate_link: "https://amzn.to/4xyXx2o"
+
+- id: rechargeable-remote-batteries
+  name: "Rechargeable Remote Batteries (4-pack)"
+  category: "Troubleshooting"
+  image: "/assets/images/products/rechargeable-batteries.jpg"
+  price: "€7.69"
+  badge: "Budget Pick"
+  blurb: "Dead remote batteries are one of the most common 'my streaming device isn't working' calls — a rechargeable set fixes it for good."
+  affiliate_link: "https://amzn.to/4h8jsHi"
+
+- id: cable-management-clips
+  name: "Cable Management Clips"
+  category: "Installation Guides"
+  image: "/assets/images/products/cable-clips.jpg"
+  price: "€6.59"
+  badge: "Budget Pick"
+  blurb: "Keeps HDMI and power cables tidy behind the TV — small, cheap, and makes the whole setup look a lot less chaotic."
+  affiliate_link: "https://amzn.to/4ApzPIu"
+
+- id: travel-router
+  name: "Compact Travel Router"
+  category: "Devices"
+  image: "/assets/images/products/travel-router.jpg"
+  price: "€49.35"
+  badge: "Handy Extra"
+  blurb: "Useful for streaming reliably on holidays or in a second home, without depending on unfamiliar hotel Wi-Fi."
+  affiliate_link: "https://amzn.to/4rkI7xj"
