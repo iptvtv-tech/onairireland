@@ -804,3 +804,39 @@
   font-weight: 600;
   color: #e2e8f0;
 }
+/* ---------- Post byline (author + last updated) ---------- */
+.post-byline {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin: 0.5em 0 1.2em;
+}
+
+.post-byline__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.post-byline__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+}
+
+.post-byline__author {
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.last-updated {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 0.2em 0.7em;
+  border-radius: 999px;
+  width: fit-content;
+}
