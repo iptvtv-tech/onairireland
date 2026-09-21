@@ -1,6 +1,13 @@
 <!--
-  Shows a small "Last updated" badge. Uses page.last_updated if set in
-  front matter, otherwise falls back to the post's publish date.
+  Shows the post author (name + avatar) and a "Last updated" badge,
+  top-left of the post. Uses page.last_updated if set in front matter,
+  otherwise falls back to the post's publish date.
   See README.md for usage.
 -->
-<p class="last-updated">Last updated: {{ page.last_updated | default: page.date | date: "%B %-d, %Y" }}</p>
+<div class="post-byline">
+  <img src="{{ '/assets/images/author-conor-walsh.jpg' | relative_url }}" alt="Conor Walsh" class="post-byline__avatar" onerror="this.style.display='none'">
+  <div class="post-byline__text">
+    <span class="post-byline__author">Conor Walsh</span>
+    <span class="last-updated">Last updated: {{ page.last_updated | default: page.date | date: "%B %-d, %Y" }}</span>
+  </div>
+</div>
