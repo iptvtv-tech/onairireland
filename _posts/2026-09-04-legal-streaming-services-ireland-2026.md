@@ -36,11 +36,11 @@ Unauthorized IPTV resale services are illegal in Ireland and unreliable — they
 - **RTÉ Player** — free, includes live TV and catch-up for RTÉ channels
 - **Virgin Media Player** — free with a Virgin Media account
 
-## Paid subscription services
+## Other Devices To Buy
 
-- **Netflix, Disney+, Amazon Prime Video** — standard international catalogues, Irish pricing. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link if the service offers one -->
-- **Sky Stream / NOW** — legal access to Sky content without a satellite dish. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link -->
-- **eir Sport, Premier Sports** — licensed sports coverage. [Sign up](https://amzn.to/4hkd7tK) <!-- TODO: affiliate/referral link -->
+- **Amazon Fire TV Stick** — Compact streaming sticks that plug into any HDMI port. [Check Price](https://amzn.to/4y4CYvF) <!-- TODO: affiliate/referral link if the service offers one -->
+- **Smart TVs** — Built-in apps for Netflix, Disney+, and more. [Check Price](https://amzn.to/3Tdso6z) <!-- TODO: affiliate/referral link -->
+- **Soundbars** — Enhance your movie nights and music library with premium audio. [Check Price](https://amzn.to/4AqggzP) <!-- TODO: affiliate/referral link -->
 
 
 ## How to choose
