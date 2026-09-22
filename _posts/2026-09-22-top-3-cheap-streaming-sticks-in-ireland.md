@@ -7,8 +7,8 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: assets/images/teasers/watch-guide-3.jpg
-  teaser: assets/images/teasers/watch-guide-3.jpg
+  overlay_image: assets/images/teasers/devices-7.jpg
+  teaser: assets/images/teasers/devices-7.jpg
 seo:
   type: Article
 toc: true
