@@ -1,7 +1,7 @@
 ---
 title: "Virgin Media 360 Box Review: Is It Still Worth It?"
-excerpt: "A look at whether Virgin Media's 360 Box still competes with modern streaming devices for Irish households in 2024."
-description: "A look at whether Virgin Media's 360 Box still competes with modern streaming devices for Irish households in 2024."
+excerpt: "A look at whether Virgin Media's 360 Box still competes with modern streaming devices for Irish households in 2026."
+description: "A look at whether Virgin Media's 360 Box still competes with modern streaming devices for Irish households in 2026."
 categories:
   - Reviews
 tags:
