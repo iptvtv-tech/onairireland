@@ -7,8 +7,8 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/12956039/pexels-photo-12956039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/12956039/pexels-photo-12956039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: assets/images/teasers/watch-guide-7.jpg
+  teaser: assets/images/teasers/watch-guide-7.jpg
 seo:
   type: Article
 toc: true
