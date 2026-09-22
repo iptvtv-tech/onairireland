@@ -1,5 +1,5 @@
 ---
-title: "Where to Stream TV Show Emerdale"
+title: "Where to Stream TV Show Emmerdale"
 excerpt: "A practical guide for Irish viewers on legally watching Emmerdale, including which broadcaster carries it here and the best devices for streaming it at home."
 description: "A practical guide for Irish viewers on legally watching Emmerdale, including which broadcaster carries it here and the best devices for streaming it at home."
 categories:
@@ -7,8 +7,8 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/4474018/pexels-photo-4474018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/4474018/pexels-photo-4474018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: assets/images/teasers/streaming-1.jpg
+  teaser: assets/images/teasers/streaming-1.jpg
 seo:
   type: Article
 toc: true
