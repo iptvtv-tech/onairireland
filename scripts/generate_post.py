@@ -99,37 +99,24 @@ def fetch_pexels_image(query: str, exclude: set = None):
         return None
 
 
-def slugify(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"[^a-z0-9]+", "-", text)
-    return text.strip("-")
+def pick_hero_image(category: str, image_query: str) -> str:
+    """Try a post-specific Pexels search first (using the AI-suggested
+    query for this exact post), then a generic category-based Pexels
+    search, then finally fall back to the local product/teaser pool.
+    Avoids repeating an image still in use on recent posts where possible."""
+    exclude = recently_used_images()
 
+    if image_query:
+        result = fetch_pexels_image(image_query, exclude=exclude)
+        if result:
+            return result
 
-def load_products():
-    products_path = os.path.join(REPO_ROOT, "_data", "products.yml")
-    with open(products_path, "r") as f:
-        return yaml.safe_load(f) or []
+    generic_query = random.choice(CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"]))
+    result = fetch_pexels_image(generic_query, exclude=exclude)
+    if result:
+        return result
 
-
-def load_teaser_images():
-    teasers_path = os.path.join(REPO_ROOT, "_data", "teaser_images.yml")
-    with open(teasers_path, "r") as f:
-        return yaml.safe_load(f) or {}
-
-
-def pick_product_image(category: str) -> str:
-    """Return the image path of a random image matching this category --
-    pulled from both product photos AND the broader teaser_images.yml pool.
-    Falls back to the placeholder if nothing matches yet."""
-    products = load_products()
-    pool = [p.get("image") for p in products if p.get("category") == category and p.get("image")]
-
-    teasers = load_teaser_images()
-    pool += teasers.get(category, [])
-
-    if pool:
-        return random.choice(pool)
-    return "/assets/images/social-default.svg"
+    return pick_product_image(category)
 
 
 def pick_hero_image(category: str, image_query: str) -> str:
