@@ -164,7 +164,7 @@
 - id: mesh-wifi-system
   name: "Mesh Wi-Fi System (2-pack)"
   category: "Installation Guides"
-  image: "/assets/images/products/mesh-wifi.jpg"
+  image: "/assets/images/products/mesh-wifi-2.jpg"
   price: "€193.99"
   badge: "Best Fix for Buffering"
   blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
