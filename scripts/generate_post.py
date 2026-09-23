@@ -5,7 +5,7 @@ blog post from it, writes the draft into _posts/, and removes the topic
 from the queue. Intended to run inside the GitHub Action -- never
 publishes directly; the workflow opens a PR with the result so a human
 reviews and merges before anything goes live.
- 
+
 Requires the ANTHROPIC_API_KEY secret to be set on the repo, and
 optionally PEXELS_API_KEY for real stock photo hero images
 (Settings -> Secrets and variables -> Actions).
@@ -15,14 +15,14 @@ import os
 import random
 import re
 import sys
- 
+
 import requests
 import yaml
- 
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
 POSTS_DIR = os.path.join(REPO_ROOT, "_posts")
- 
+
 CATEGORY_SLUGS = {
     "Streaming Services": "streaming-services",
     "Devices": "devices",
@@ -33,7 +33,7 @@ CATEGORY_SLUGS = {
     "Troubleshooting": "troubleshooting",
     "Watch Guides": "watch-guides",
 }
- 
+
 CATEGORY_PEXELS_QUERIES = {
     "Streaming Services": ["streaming tv remote", "watching tv living room", "smart tv screen"],
     "Devices": ["streaming device tv", "tv remote control", "home entertainment setup"],
@@ -44,9 +44,28 @@ CATEGORY_PEXELS_QUERIES = {
     "Troubleshooting": ["wifi router frustration", "technical support laptop", "internet connection problem"],
     "Watch Guides": ["movie night living room", "popcorn tv night", "cozy home cinema"],
 }
- 
- 
-def fetch_pexels_image(query: str):
+
+
+def recently_used_images(limit: int = 30):
+    """Scan recent post files for header images already in use, so Pexels
+    picks can avoid repeating a photo that's still fresh on the site."""
+    used = set()
+    if not os.path.isdir(POSTS_DIR):
+        return used
+    files = sorted(
+        (f for f in os.listdir(POSTS_DIR) if f.endswith(".md")),
+        reverse=True,
+    )[:limit]
+    for fname in files:
+        path = os.path.join(POSTS_DIR, fname)
+        with open(path, "r") as f:
+            content = f.read()
+        for m in re.finditer(r"(?:overlay_image|teaser):\s*(\S+)", content):
+            used.add(m.group(1).strip())
+    return used
+
+
+def fetch_pexels_image(query: str, exclude: set = None):
     """Search Pexels for a relevant royalty-free photo. Returns a direct
     hotlink URL (Pexels' API terms explicitly permit hotlinking), or None
     if no API key is set, the request fails, or no results come back --
@@ -54,12 +73,13 @@ def fetch_pexels_image(query: str):
     api_key = os.environ.get("PEXELS_API_KEY", "")
     if not api_key or not query:
         return None
- 
+    exclude = exclude or set()
+
     try:
         resp = requests.get(
             "https://api.pexels.com/v1/search",
             headers={"Authorization": api_key},
-            params={"query": query, "per_page": 10, "orientation": "landscape"},
+            params={"query": query, "per_page": 30, "orientation": "landscape"},
             timeout=20,
         )
         if not resp.ok:
@@ -69,63 +89,69 @@ def fetch_pexels_image(query: str):
         photos = data.get("photos", [])
         if not photos:
             return None
-        pick = random.choice(photos)
+
+        candidates = [p for p in photos if p.get("src", {}).get("large") not in exclude]
+        pool = candidates if candidates else photos  # fall back if everything's excluded
+        pick = random.choice(pool)
         return pick.get("src", {}).get("large")
     except requests.RequestException as e:
         print(f"Pexels request failed: {e}")
         return None
- 
- 
+
+
 def slugify(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return text.strip("-")
- 
- 
+
+
 def load_products():
     products_path = os.path.join(REPO_ROOT, "_data", "products.yml")
     with open(products_path, "r") as f:
         return yaml.safe_load(f) or []
- 
- 
+
+
 def load_teaser_images():
     teasers_path = os.path.join(REPO_ROOT, "_data", "teaser_images.yml")
     with open(teasers_path, "r") as f:
         return yaml.safe_load(f) or {}
- 
- 
+
+
 def pick_product_image(category: str) -> str:
     """Return the image path of a random image matching this category --
     pulled from both product photos AND the broader teaser_images.yml pool.
     Falls back to the placeholder if nothing matches yet."""
     products = load_products()
     pool = [p.get("image") for p in products if p.get("category") == category and p.get("image")]
- 
+
     teasers = load_teaser_images()
     pool += teasers.get(category, [])
- 
+
     if pool:
         return random.choice(pool)
     return "/assets/images/social-default.svg"
- 
- 
+
+
 def pick_hero_image(category: str, image_query: str) -> str:
     """Try a post-specific Pexels search first (using the AI-suggested
     query for this exact post), then a generic category-based Pexels
-    search, then finally fall back to the local product/teaser pool."""
+    search, then finally fall back to the local product/teaser pool.
+    Avoids repeating an image still in use on recent posts where possible."""
+    exclude = recently_used_images()
+
     if image_query:
-        result = fetch_pexels_image(image_query)
+        result = fetch_pexels_image(image_query, exclude=exclude)
         if result:
             return result
- 
+
     generic_query = random.choice(CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"]))
-    result = fetch_pexels_image(generic_query)
+    result = fetch_pexels_image(generic_query, exclude=exclude)
     if result:
         return result
- 
+
     return pick_product_image(category)
- 
- 
+
+
 def load_queue():
     if not os.path.exists(QUEUE_PATH):
         print("topic_queue.yml is missing -- creating a fresh empty one.")
@@ -133,8 +159,8 @@ def load_queue():
         return []
     with open(QUEUE_PATH, "r") as f:
         return yaml.safe_load(f) or []
- 
- 
+
+
 def save_queue(queue):
     header = (
         "# Queue of topics for the daily auto-post GitHub Action.\n"
@@ -150,8 +176,8 @@ def save_queue(queue):
     with open(QUEUE_PATH, "w") as f:
         f.write(header)
         yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True)
- 
- 
+
+
 def parse_faqs(text: str):
     """Split FAQS: block out of the raw response and parse Q:/A: pairs.
     Returns (body_without_faqs, list_of_(question, answer)_tuples)."""
@@ -161,12 +187,12 @@ def parse_faqs(text: str):
     pairs = re.findall(r"Q:\s*(.+?)\s*\nA:\s*(.+?)(?=\n\s*Q:|\Z)", faq_block.strip(), re.DOTALL)
     cleaned = [(q.strip(), a.strip()) for q, a in pairs if q.strip() and a.strip()]
     return body.strip(), cleaned
- 
- 
+
+
 def call_claude(title: str, category: str, brief: str):
     """Returns (article_text, image_query)."""
     api_key = os.environ["ANTHROPIC_API_KEY"]
- 
+
     matching_products = [p for p in load_products() if p.get("category") == category]
     product_links_text = ""
     if matching_products:
@@ -177,7 +203,7 @@ def call_claude(title: str, category: str, brief: str):
             "links where they fit naturally, using descriptive text, not a dumped list:\n"
             + "\n".join(lines) + "\n"
         )
- 
+
     watch_guide_instructions = ""
     if category == "Watch Guides":
         watch_guide_instructions = """
@@ -190,18 +216,18 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
   device product links from the list above where natural), since that's
   useful regardless of which service carries the title.
 """
- 
+
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
- 
+
 NEVER recommend, mention, or imply using a VPN, proxy, or any geo-unblocking
 method to access content -- this applies to every post, not just ones about
 a specific show. If a topic naturally involves a "content not available in
 your country" type error, only explain LEGITIMATE causes and fixes (account
 region settings, correct app store/region, network configuration, contacting
 the service's own support) -- never suggest bypassing geo-restrictions.
- 
+
 Do NOT mention, recommend, or link to Apple TV or any other Apple hardware
 anywhere in this article, even in passing or as one option among several --
 there is no affiliate programme access for Apple products, so recommending
@@ -211,7 +237,7 @@ Fire TV Cube, Roku, or Chromecast. Note: this restriction is about Apple TV
 hardware specifically -- Apple TV+ (the streaming service/subscription) is a
 different thing and can be discussed normally when relevant, since it's not
 a hardware recommendation.
- 
+
 Title: {title}
 Category: {category}
 Brief: {brief}
@@ -257,14 +283,14 @@ Requirements:
     resp.raise_for_status()
     data = resp.json()
     raw = "".join(block.get("text", "") for block in data.get("content", []))
-    
+
     if not raw.strip():
         print("Anthropic response had no usable text content. Full response was:")
         print(data)
- 
+
     return raw
- 
- 
+
+
 def existing_post_titles():
     """Read titles from existing post files so we can ask Claude to avoid
     repeating topics that already exist."""
@@ -280,8 +306,8 @@ def existing_post_titles():
             if m:
                 titles.append(m.group(1))
     return titles
- 
- 
+
+
 def generate_new_topics(count: int = 8):
     """Ask Claude to brainstorm a fresh batch of topics when the queue runs
     dry, so the daily workflow never just goes idle. Returns a list of
@@ -290,21 +316,21 @@ def generate_new_topics(count: int = 8):
     existing = existing_post_titles()
     existing_text = "\n".join(f"- {t}" for t in existing) if existing else "(none yet)"
     categories = " | ".join(CATEGORY_SLUGS.keys())
- 
+
     prompt = f"""You are planning new blog post topics for an Irish blog about LEGAL
 streaming services and devices. Never suggest anything about unauthorized
 IPTV or streaming resale services.
- 
+
 Existing post titles already published (do NOT repeat or closely duplicate these):
 {existing_text}
- 
+
 Generate exactly {count} new topic ideas. For each, output exactly this format,
 one block per topic, with a blank line between blocks, and nothing else:
- 
+
 TITLE: <specific, clear title>
 CATEGORY: <one of: {categories}>
 BRIEF: <one sentence describing what the post should cover>
- 
+
 Title variety is important -- do NOT default to the same structure every
 time (e.g. always "X: Y" with a colon, or always "Where to Watch X Legally
 in Ireland", or always starting with "How to"). Mix it up across the batch:
@@ -314,7 +340,7 @@ sentence structure and opening words so the {count} titles don't all read
 like they came from the same template. Most titles should be on the
 shorter side -- aim for under 8 words where the topic allows it, reserving
 longer titles only for when real specificity requires it.
- 
+
 Topics should be genuinely useful to an Irish streaming audience -- specific
 services (RTE Player, Virgin Media, Sky, NOW, Netflix, Disney+, GAA+, TG4),
 specific devices (Fire TV Stick, Fire TV Cube, Roku, Chromecast, smart TVs),
@@ -324,13 +350,13 @@ it in Ireland (e.g. "Where to Watch [Show] Legally in Ireland"). For Watch
 Guide topics, only suggest titles you are reasonably confident are
 currently available on a real, mainstream licensed service -- do not invent
 or guess availability.
- 
+
 Include a mix of these high-search-intent formats where they genuinely fit:
 - "Is [Service] Available in Ireland?" -- direct-answer format people
   actually type into Google (category: Streaming Services or News)
 - "[Service/App] Not Working: Common Fixes" -- targets real error-message
   searches (category: Troubleshooting)
- 
+
 Do NOT suggest topics centered on Apple TV or other Apple products
 specifically -- there is no affiliate programme access for Apple hardware,
 so a dedicated Apple TV review or buying guide can't be monetised the way
@@ -356,7 +382,7 @@ other device topics can.
     resp.raise_for_status()
     data = resp.json()
     raw = "".join(block.get("text", "") for block in data.get("content", []))
- 
+
     blocks = re.findall(
         r"TITLE:\s*(.+?)\s*\nCATEGORY:\s*(.+?)\s*\nBRIEF:\s*(.+?)(?=\n\s*TITLE:|\Z)",
         raw,
@@ -369,16 +395,16 @@ other device topics can.
             continue
         if t and b:
             topics.append({"title": t, "category": c, "brief": b})
- 
+
     if not topics:
         print("Topic parsing found zero valid blocks. Raw response was:")
         print("--- START RAW RESPONSE ---")
         print(raw)
         print("--- END RAW RESPONSE ---")
- 
+
     return topics
- 
- 
+
+
 def main():
     queue = load_queue()
     if not queue:
@@ -389,14 +415,14 @@ def main():
             sys.exit(0)
         save_queue(queue)
         print(f"Added {len(queue)} new topics to the queue.")
- 
+
     topic = queue.pop(0)
     title = topic["title"]
     category = topic["category"]
     brief = topic.get("brief", "")
- 
+
     raw = call_claude(title, category, brief)
- 
+
     summary = ""
     image_query = ""
     body = raw
@@ -408,9 +434,9 @@ def main():
         first_line, _, rest = body.partition("\n")
         image_query = first_line.replace("IMAGE_QUERY:", "").strip()
         body = rest.strip()
- 
+
     body, faqs = parse_faqs(body)
- 
+
     # Guarantee at least one inline affiliate link -- don't just hope the AI
     # followed the prompt instruction, since it sometimes skips it.
     matching_products = [p for p in load_products() if p.get("category") == category]
@@ -421,22 +447,22 @@ def main():
             f"\n\nIf you're looking to get set up, [{pick['name']}]({pick['affiliate_link']}) "
             f"is worth a look — {pick.get('blurb', '')}"
         )
- 
+
     today = datetime.date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
- 
+
     category_slug_name = category.replace(" ", "-")
     hero_image = pick_hero_image(category, image_query)
- 
+
     seo_type = "HowTo" if category in ("Installation Guides", "Troubleshooting") else "Article"
- 
+
     # Escape double quotes so AI-generated text can never break the YAML
     # front matter's quoted strings (this caused real build failures before).
     safe_title = title.replace('"', "'")
     safe_summary = summary.replace('"', "'")
- 
+
     faqs_yaml = ""
     if faqs:
         faqs_yaml = "faqs:\n"
@@ -444,7 +470,7 @@ def main():
             safe_q = q.replace('"', "'")
             safe_a = a.replace('"', "'")
             faqs_yaml += f'  - question: "{safe_q}"\n    answer: "{safe_a}"\n'
- 
+
     front_matter = f"""---
 title: "{safe_title}"
 excerpt: "{safe_summary}"
@@ -462,15 +488,15 @@ toc: true
 draft_generated: true
 affiliate_links: true
 {faqs_yaml}---
- 
+
 {{% include last-updated.html %}}
- 
+
 {{% include affiliate-disclosure.html %}}
- 
+
 {{% include share-buttons.html %}}
- 
+
 """
- 
+
     showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
     faq_block = "\n{% include faq-section.html %}\n" if faqs else ""
     related_block = (
@@ -480,17 +506,16 @@ affiliate_links: true
         "Read our [full guide to legal streaming services in Ireland]"
         "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
     )
- 
+
     with open(filepath, "w") as f:
         f.write(front_matter + body + showcase_block + related_block)
- 
+
     save_queue(queue)
- 
+
     print(f"Draft written to {filepath}")
     print(f"::set-output name=post_path::{filepath}")
     print(f"::set-output name=post_title::{title}")
- 
- 
+
+
 if __name__ == "__main__":
     main()
- 
