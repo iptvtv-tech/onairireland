@@ -1,44 +1,72 @@
 ---
-title: "This Week's Best Prices"
+title: "Best Streaming Prices in Ireland"
+excerpt: "Compare current prices on the streaming devices, cables, and accessories our guides recommend most — all in one place."
 permalink: /best-prices/
 layout: single
-description: "Current pricing on the streaming devices and services we recommend, in one place."
-excerpt: "All our recommended devices and services, in one browsable page."
+classes: wide
+header:
+  overlay_image: /assets/images/teasers/best-prices-hero.jpg
+  teaser: /assets/images/teasers/best-prices-hero.jpg
 seo:
-  type: WebPage
-last_updated: "September 2026"
+  type: Article
+toc: false
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
 
-A single page pulling together every device and service we currently recommend, grouped by category — useful if you just want to browse and shop rather than read a full guide.
+<p class="catalog-intro">A running list of the devices and accessories we actually recommend in our guides, with current prices in one place so you don't have to dig through individual posts. Prices are set by the retailer and can change — click through for the live price before buying.</p>
 
-{% assign product_categories = site.data.products | map: "category" | uniq %}
-{% for cat in product_categories %}
-## {{ cat }}
-
-{% include product-showcase.html category=cat title=cat limit=20 %}
+<div class="shop-catalog">
+{% assign grouped = site.data.products | group_by: "category" %}
+{% for group in grouped %}
+  <div class="shop-catalog__category">
+    <h2 class="shop-catalog__category-title">{{ group.name }}</h2>
+    <div class="shop-catalog__grid">
+      {% for product in group.items %}
+        {% unless product.affiliate_link contains "AFFILIATE_LINK" %}
+        <div class="shop-card">
+          {% if product.badge %}<span class="shop-card__badge">{{ product.badge }}</span>{% endif %}
+          <a href="{{ product.affiliate_link }}" target="_blank" rel="nofollow sponsored noopener" class="shop-card__image-link">
+            <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" class="shop-card__image" loading="lazy" onerror="this.src='/assets/images/products/placeholder.jpg'">
+          </a>
+          <div class="shop-card__body">
+            <h3 class="shop-card__name">{{ product.name }}</h3>
+            <p class="shop-card__blurb">{{ product.blurb }}</p>
+            <div class="shop-card__footer">
+              <span class="shop-card__price">{{ product.price }}</span>
+              <a href="{{ product.affiliate_link }}" target="_blank" rel="nofollow sponsored noopener" class="shop-card__buy-btn">Check Price</a>
+            </div>
+          </div>
+        </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
 {% endfor %}
+</div>
+
+<p class="catalog-disclaimer">As an Amazon Associate we earn from qualifying purchases. Prices and availability shown here are accurate as of the date listed above but are set by the retailer and may change.</p>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
+  "name": "Best Streaming Prices in Ireland",
   "itemListElement": [
-    {% for product in site.data.products %}
+    {% assign flat = site.data.products | where_exp: "p", "p.affiliate_link contains 'http'" %}
+    {% for product in flat %}
     {
       "@type": "ListItem",
       "position": {{ forloop.index }},
       "item": {
         "@type": "Product",
-        "name": {{ product.name | jsonify }},
-        "image": "{{ site.url }}{{ product.image | relative_url }}",
-        "description": {{ product.blurb | jsonify }},
+        "name": "{{ product.name | escape }}",
+        "image": "{{ product.image | absolute_url }}",
         "offers": {
           "@type": "Offer",
-          "url": {{ product.affiliate_link | jsonify }},
+          "url": "{{ product.affiliate_link }}",
           "priceCurrency": "EUR",
           "availability": "https://schema.org/InStock"
         }
