@@ -981,3 +981,29 @@
     justify-content: center;
   }
 }
+
+.shop-catalog__category {
+  scroll-margin-top: 90px; /* keeps the sticky header from covering the anchor target */
+}
+
+.shop-catalog__back-to-top {
+  display: inline-block;
+  margin-top: 1.4em;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #2a6df5;
+  text-decoration: none !important;
+}
+
+.shop-catalog__back-to-top:hover {
+  text-decoration: underline !important;
+}
+
+.shop-catalog,
+#catalog-top {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
