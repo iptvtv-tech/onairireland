@@ -16,12 +16,13 @@ toc: false
 
 {% include affiliate-disclosure.html %}
 
-<p class="catalog-intro">A running list of the devices and accessories we actually recommend in our guides, with current prices in one place so you don't have to dig through individual posts. Prices are set by the retailer and can change — click through for the live price before buying.</p>
+<p class="catalog-intro" id="catalog-top">A running list of the devices and accessories we actually recommend in our guides, with current prices in one place so you don't have to dig through individual posts. Prices are set by the retailer and can change — click through for the live price before buying.</p>
 
 <div class="shop-catalog">
 {% assign grouped = site.data.products | group_by: "category" %}
 {% for group in grouped %}
-  <div class="shop-catalog__category">
+  {% assign anchor = group.name | slugify %}
+  <div class="shop-catalog__category" id="{{ anchor }}">
     <h2 class="shop-catalog__category-title">{{ group.name }}</h2>
     <div class="shop-catalog__grid">
       {% for product in group.items %}
@@ -43,6 +44,7 @@ toc: false
         {% endunless %}
       {% endfor %}
     </div>
+    <a href="#catalog-top" class="shop-catalog__back-to-top">&#8593; Back to top</a>
   </div>
 {% endfor %}
 </div>
