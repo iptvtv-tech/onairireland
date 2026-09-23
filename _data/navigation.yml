@@ -1,27 +1,23 @@
 main:
   - title: "Streaming Services"
-    url: /categories/#streaming-services
+    url: /streaming-services/
   - title: "Devices"
-    url: /categories/#devices
+    url: /devices/
   - title: "Installation Guides"
-    url: /categories/#installation-guides
-  - title: "Sports Streaming"
-    url: /categories/#sports-streaming
-  - title: "Reviews"
-    url: /categories/#reviews
-  - title: "News"
-    url: /categories/#news
+    url: /installation-guides/
   - title: "Troubleshooting"
-    url: /categories/#troubleshooting
+    url: /troubleshooting/
+  - title: "Sports Streaming"
+    url: /sports-streaming/
+  - title: "Watch Guides"
+    url: /watch-guides/
+  - title: "Reviews"
+    url: /reviews/
+  - title: "News"
+    url: /news/
   - title: "Best Prices"
     url: /best-prices/
   - title: "Quiz"
     url: /quiz/
   - title: "Search"
     url: /search/
-  - title: "Watch Guides"
-    url: /categories/#watch-guides
-  - title: "About"
-    url: /about/
-  - title: "Privacy Policy"
-    url: /privacy-policy/
