@@ -96,6 +96,7 @@ exclude:
 # ==============================
 # Defaults
 # ==============================
+defaults:
   # Global SEO-friendly defaults for all posts
   - scope:
       path: ""
