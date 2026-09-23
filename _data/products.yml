@@ -190,7 +190,7 @@
 
 - id: Anker_240W_USB_C
   name: "Anker 240W USB-C to USB-C Cable"
-  category: "Sports Streaming"
+  category: "Devices"
   image: "/assets/images/products/anker-240W-USB-C.jpg"
   price: "€11.99"
   badge: "Top Pick"
@@ -254,7 +254,7 @@
 
 - id: screen-cleaning-kit
   name: "TV Screen Cleaning Kit"
-  category: "Installation Guides"
+  category: "Troubleshooting"
   image: "/assets/images/products/screen-cleaning-kit.jpg"
   price: "€19.50"
   badge: "Popular Add-on"
