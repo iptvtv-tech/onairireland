@@ -288,9 +288,9 @@
   blurb: "Useful for streaming reliably on holidays or in a second home, without depending on unfamiliar hotel Wi-Fi."
   affiliate_link: "https://amzn.to/4rkI7xj"
 
-- id: amazon_echo_dot 
+- id: amazon_echo_dot
   name: "Amazon Echo Dot Alexa"
-  category: "Installation Guides"
+  category: "Devices"
   image: "/assets/images/products/amazon-echo.jpg"
   price: "€70.59"
   badge: "Simple Interface"
@@ -306,9 +306,9 @@
   blurb: "Belkin BoostCharge 20000mAh Power Bank with Integrated USB-C Cable."
   affiliate_link: "https://amzn.to/4hp8b5N"
 
-- id: ring_video_doorbell 
+- id: ring_video_doorbell
   name: "Ring Wired Video Doorbell 2K"
-  category: "Sports Streaming"
+  category: "Devices"
   image: "/assets/images/products/ring_video_doorbell .jpg"
   price: "€68.80"
   badge: "Home Essentials"
@@ -317,16 +317,16 @@
 
 - id: apple_airtag 
   name: "Apple AirTag (2nd generation)"
-  category: "Sports Streaming"
+  category: "Devices"
   image: "/assets/images/products/apple_airtag.jpg"
   price: "€34.66"
-  badge: "Home Essentials"
+  badge: "Handy Extra"
   blurb: "Apple AirTag (2nd generation): Tracker for Keychain, Wallet and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad."
   affiliate_link: "https://amzn.to/4dx3A05"
 
 - id: smart_tvs_1
   name: "Xiaomi TV,32 Inch Smart TV"
-  category: "Installation Guides"
+  category: "Watch Guides"
   image: "/assets/images/products/smart_tvs_1.jpg"
   price: "€147.83"
   badge: "Handy Extra"
@@ -335,7 +335,7 @@
 
 - id: smart_tvs_2
   name: "LG LED AI,32 inch HD Smart TV"
-  category: "Sports Streaming"
+  category: "Streaming Services"
   image: "/assets/images/products/smart_tvs_2.jpg"
   price: "€173.26"
   badge: "Handy Extra"
