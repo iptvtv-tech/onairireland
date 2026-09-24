@@ -36,7 +36,7 @@ We only cover services and devices that are legally available in Ireland. When w
 
 ## Get in Touch
 
-Questions, corrections, or a topic you'd like us to cover? Email us at **hello@iptvirelandtv.com**.
+Questions, corrections, or a topic you'd like us to cover? Email us at **contact@iptvirelandtv.com**.
 
 ## Affiliate disclosure
 
