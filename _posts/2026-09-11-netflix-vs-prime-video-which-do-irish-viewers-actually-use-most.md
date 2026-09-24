@@ -7,7 +7,7 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/teasers/reviews-1.jpg
+  overlay_image: /assets/images/social-home.jpg
   teaser: /assets/images/teasers/reviews-1.jpg
 seo:
   type: Article
