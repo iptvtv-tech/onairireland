@@ -62,6 +62,8 @@ HBO Max carries HBO originals (for example *House of the Dragon* and *The Last o
 
 The HBO Max app runs on most recent smart TVs, streaming sticks, games consoles, phones and tablets. If your TV is older and the app isn't in its store, a plug-in streaming stick such as the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a cheap way to add it — but check the supported devices list on hbomax.com first.
 
+**Related guides:** [Where to Watch A Knight of the Seven Kingdoms in Ireland](/watch-guides/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland/) · [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/)
+
 {% include product-showcase.html category="News" %}
 
 {% include faq-section.html %}

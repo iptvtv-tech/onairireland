@@ -1,7 +1,7 @@
 ---
 title: "Where to Watch the United Rugby Championship Legally in Ireland"
-excerpt: "A guide for Irish rugby fans on the licensed, legal ways to watch every United Rugby Championship match this season, from RTÉ's free coverage to Premier Sports subscriptions."
-description: "A guide for Irish rugby fans on the licensed, legal ways to watch every United Rugby Championship match this season, from RTÉ's free coverage to Premier Sports subscriptions."
+excerpt: "How to watch every URC match legally in Ireland this season, from RTÉ's free coverage to Premier Sports subscriptions."
+description: "How to watch every URC match legally in Ireland this season, from RTÉ's free coverage to Premier Sports subscriptions."
 categories:
   - Sports-Streaming
 tags:
@@ -37,9 +37,9 @@ The United Rugby Championship has become one of the most exciting competitions o
 
 ### RTÉ's Free Coverage
 
-RTÉ has held broadcast rights to a selection of URC matches in recent seasons, typically showing a weekly game featuring one of the Irish provinces on RTÉ2 or via the RTÉ Player app. This is free to air and available to anyone with a TV licence, making it the most accessible entry point for casual fans. Coverage tends to focus on marquee fixtures rather than every single round, so don't expect blanket coverage through RTÉ alone.
+RTÉ has held broadcast rights to a selection of URC matches in recent seasons, typically showing a weekly game featuring one of the Irish provinces on RTÉ2 or via the [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) app. This is free to air and available to anyone with a TV licence, making it the most accessible entry point for casual fans. Coverage tends to focus on marquee fixtures rather than every single round, so don't expect blanket coverage through RTÉ alone.
 
-The RTÉ Player app is built into most modern smart TVs, and it also runs well on a Fire TV Stick or Chromecast if your telly doesn't support it natively. Worth checking the app store on your specific device to confirm availability, as coverage can vary slightly by platform and by season.
+The RTÉ Player app is built into most modern smart TVs, and it also runs well on a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) or Chromecast if your telly doesn't support it natively. Worth checking the app store on your specific device to confirm availability, as coverage can vary slightly by platform and by season.
 
 ### Premier Sports and the Full Fixture List
 

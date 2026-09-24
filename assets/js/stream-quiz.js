@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (answers.priority === "movies") {
       text = "For movies and shows, a general streaming subscription (Netflix, Disney+, or Prime Video) covers most of what you're after. ";
     } else {
-      text = "If you want to stay fully free, RTÉ Player, Virgin Media Player, and TG4 Player between them cover a surprising amount, with zero subscription cost. ";
+      text = "If you want to stay fully free, RTÉ Player, Virgin Media Play, and TG4 Player between them cover a surprising amount, with zero subscription cost. ";
     }
 
     if (answers.budget === "low") {

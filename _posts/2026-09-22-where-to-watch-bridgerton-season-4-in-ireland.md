@@ -67,6 +67,8 @@ Whichever device you choose, make sure it's connected to a stable broadband conn
 
 If it's been a while since the last season, a quick refresher on the Bridgerton family tree and where the last run left off will make the new episodes easier to follow, particularly given how many characters and subplots the show juggles. Netflix's own "recap" or "previously on" features, where available on the title page, can be a handy shortcut before you settle in.
 
+**Related guides:** [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/) · [Where to Watch Slow Horses Season 6 Legally in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/)
+
 {% include product-showcase.html category="Watch Guides" %}
 
 {% include faq-section.html %}

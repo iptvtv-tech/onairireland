@@ -59,6 +59,8 @@ Beyond streaming sticks, Netflix also works on smart TVs with the app pre-instal
 
 To watch Wednesday Season 2 in Ireland, all you need is a Netflix subscription and a device with the Netflix app installed. There's no need to look anywhere else, and no need to wait for it to "arrive" on another platform later, since it's a Netflix original made exclusively for the service. Just open the app, search for Wednesday, and you should find Season 2 sitting right alongside the first season.
 
+**Related guides:** [Where to Watch Bridgerton Season 4 in Ireland](/watch-guides/where-to-watch-bridgerton-season-4-in-ireland/) · [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/)
+
 {% include product-showcase.html category="Watch Guides" %}
 
 {% include faq-section.html %}

@@ -1,7 +1,7 @@
 ---
 title: "Where to Watch the UEFA Champions League Legally in Ireland"
-excerpt: "A practical guide to watching UEFA Champions League football legally in Ireland this season, covering broadcasters, streaming apps, and the devices that make it easiest to watch on the big screen."
-description: "A practical guide to watching UEFA Champions League football legally in Ireland this season, covering broadcasters, streaming apps, and the devices that make it easiest to watch on the big screen."
+excerpt: "How to watch the Champions League legally in Ireland this season: broadcasters, free games, streaming apps and devices."
+description: "How to watch the Champions League legally in Ireland this season: broadcasters, free games, streaming apps and devices."
 categories:
   - Sports-Streaming
 tags:
@@ -37,7 +37,7 @@ Champions League nights are appointment viewing for a lot of Irish football fans
 
 ### Free-to-Air Coverage
 
-In recent seasons, RTÉ has held rights to show a selection of Champions League matches free-to-air, usually including highlights and at least one live game per matchday. This is accessible through standard TV reception or via the RTÉ Player app, which is free to use with an RTÉ Player account.
+In recent seasons, RTÉ has held rights to show a selection of Champions League matches free-to-air, usually including highlights and at least one live game per matchday. This is accessible through standard TV reception or via the [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) app, which is free to use with an RTÉ Player account.
 
 If you're relying on an aerial for free-to-air channels, especially in rural areas or homes with a weak signal, upgrading your setup can make a noticeable difference. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6) is a sensible option for households that struggle with dropouts during big matches, since a stronger signal reduces the risk of your feed cutting out at the worst possible moment.
 
@@ -49,7 +49,7 @@ Pricing and packaging change from season to season, and sometimes mid-season, so
 
 ### Streaming Apps and Getting Them on Your TV
 
-Most of the major Irish sports broadcasters now offer apps that work on common streaming devices, which means you don't necessarily need a traditional satellite box to watch. A Fire TV Stick, Fire TV Cube, Roku device, or Chromecast will generally let you install the relevant broadcaster app and stream matches directly to your television, provided the broadcaster supports that platform.
+Most of the major Irish sports broadcasters now offer apps that work on common streaming devices, which means you don't necessarily need a traditional satellite box to watch. A Fire TV Stick, Fire TV Cube, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) device, or Chromecast will generally let you install the relevant broadcaster app and stream matches directly to your television, provided the broadcaster supports that platform.
 
 It's worth checking the app store on whichever device you own before subscribing, since not every sports app is available on every platform, and availability can change. Fire TV devices and Roku tend to have broad support for Irish and UK sports apps, while Chromecast relies on casting from a phone or tablet rather than running the app natively.
 
@@ -70,7 +70,7 @@ Because these details shift regularly, treat any specific pricing or app names m
 
 ### Final Thought
 
-Watching the Champions League legally in Ireland usually comes down to a mix of free-to-air highlights and a subscription sports channel, accessed either through a traditional box or a streaming device like a Fire TV Stick or Roku. Taking a few minutes to confirm current rights holders and app availability before the season kicks off will save you from any last-minute scrambling on matchday.
+Watching the Champions League legally in Ireland usually comes down to a mix of free-to-air highlights and a subscription sports channel, accessed either through a traditional box or a streaming device like a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) or Roku. Taking a few minutes to confirm current rights holders and app availability before the season kicks off will save you from any last-minute scrambling on matchday.
 
 {% include product-showcase.html category="Sports Streaming" %}
 

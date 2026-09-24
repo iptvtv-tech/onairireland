@@ -33,11 +33,11 @@ faqs:
 
 ## Vodafone TV: Is It Still Worth Using in 2026?
 
-Vodafone has been quietly pitching its TV bundle as the "add it to your broadband" option for Irish households for a good few years now. With Virgin Media and Eir Vision both refreshing their own offerings recently, it's worth asking whether Vodafone TV still earns its place on the couch in 2026, or whether it's become the option people only choose because it's convenient at sign-up.
+Vodafone has been quietly pitching its TV bundle as the "add it to your broadband" option for Irish households for a good few years now. With Virgin Media and [Eir Vision](/streaming-services/eir-vision-explained-is-bundling-tv-with-broadband-worth-it/) both refreshing their own offerings recently, it's worth asking whether Vodafone TV still earns its place on the couch in 2026, or whether it's become the option people only choose because it's convenient at sign-up.
 
 ### What Vodafone TV Actually Offers
 
-Vodafone TV is built around a set-top box bundled in with broadband and mobile plans, giving access to standard Irish channels (RTÉ, Virgin Media One, TG4 and so on) alongside a selection of on-demand apps. In recent years Vodafone has leaned into aggregating third-party apps like Netflix and Disney+ into a single interface, rather than trying to build out a huge proprietary library of its own.
+Vodafone TV is built around a set-top box bundled in with broadband and mobile plans, giving access to standard Irish channels (RTÉ, Virgin Media One, TG4 and so on) alongside a selection of on-demand apps. In recent years Vodafone has leaned into aggregating third-party apps like Netflix and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) into a single interface, rather than trying to build out a huge proprietary library of its own.
 
 That's arguably the right call. Building original content or exclusive deals is expensive, and most Irish viewers just want one remote and one bill. The question is whether the box and interface are pleasant to use day to day, and that's where opinions have been mixed. Menu speed and search have historically lagged a step behind what you'd get from a modern streaming stick, though we'd note we haven't tested the very latest firmware update ourselves, so it's worth checking recent user reviews before assuming anything here is unchanged.
 

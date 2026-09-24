@@ -1,7 +1,7 @@
 ---
 title: "Why Is My Streaming App Buffering? Common Fixes"
-excerpt: "A practical guide for Irish viewers on diagnosing and fixing buffering issues on legal streaming apps, covering broadband speed, Wi-Fi setup, wired connections, and when the problem lies with the service itself."
-description: "A practical guide for Irish viewers on diagnosing and fixing buffering issues on legal streaming apps, covering broadband speed, Wi-Fi setup, wired connections, and when the problem lies with the service itself."
+excerpt: "Fix buffering on Irish streaming apps: check broadband speed, Wi-Fi placement and wired connections, and spot when the service is at fault."
+description: "Fix buffering on Irish streaming apps: check broadband speed, Wi-Fi placement and wired connections, and spot when the service is at fault."
 categories:
   - Troubleshooting
 tags:
@@ -73,6 +73,8 @@ If buffering only happens with a particular show or during peak evening hours ac
 ### A Simple Process of Elimination
 
 When troubleshooting, it helps to change one thing at a time. Test your speed, then try moving closer to the router, then try a wired connection, then try a different app. This step-by-step approach makes it much easier to pinpoint whether the fault lies with your broadband, your home Wi-Fi setup, or the streaming service itself, rather than guessing at fixes.
+
+**Related guides:** [Why Does NOW Keep Buffering on Smart TVs?](/troubleshooting/why-does-now-keep-buffering-on-smart-tvs/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
 
 {% include product-showcase.html category="Troubleshooting" %}
 

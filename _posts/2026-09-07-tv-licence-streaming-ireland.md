@@ -42,7 +42,7 @@ Under Ireland's Broadcasting Act 2009, a **TV licence is required for any premis
 ## What actually triggers the requirement
 
 - **You need a licence if:** you have a physical TV set connected to an aerial or satellite dish, or any equipment capable of picking up a broadcast TV signal — regardless of whether you actually watch RTÉ
-- **You likely don't need one if:** your setup is internet-only — a smart TV or streaming device used purely for apps like Netflix, RTÉ Player, or Prime Video, with no aerial or satellite connection at all
+- **You likely don't need one if:** your setup is internet-only — a smart TV or streaming device used purely for apps like Netflix, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), or Prime Video, with no aerial or satellite connection at all
 
 The licence applies **per address, not per person** — so a shared house on a single tenancy needs one licence covering everyone, while separate tenancy agreements in the same building each need their own.
 
@@ -57,6 +57,8 @@ Streaming apps like RTÉ Player don't ask you to prove you have a licence, and a
 If you're at all unsure about your specific setup, An Post's TV licence service is the authoritative source to confirm — this guide is a starting point, not a legal ruling on your situation.
 
 {% include faq-section.html %}
+
+**Related guides:** [What Is Saorview and Do You Need It If You Stream?](/installation-guides/what-is-saorview-and-do-you-need-it-if-you-stream/) · [Sky Stream vs NOW: Which Is Right for You in Ireland?](/streaming-services/sky-stream-vs-now-ireland/)
 
 {% include related-posts.html %}
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).

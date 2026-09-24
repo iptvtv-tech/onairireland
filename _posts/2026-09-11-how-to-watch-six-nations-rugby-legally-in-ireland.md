@@ -1,7 +1,7 @@
 ---
 title: "How to Watch Six Nations Rugby Legally in Ireland"
-excerpt: "RTÉ and Virgin Media Television share live Six Nations rugby coverage in Ireland, and both broadcasters show their matches completely free-to-air, with no subscription required."
-description: "RTÉ and Virgin Media Television share live Six Nations rugby coverage in Ireland, and both broadcasters show their matches completely free-to-air, with no subscription required."
+excerpt: "RTÉ and Virgin Media share Six Nations coverage in Ireland, and every match is free-to-air. Here's how to watch live and on the apps."
+description: "RTÉ and Virgin Media share Six Nations coverage in Ireland, and every match is free-to-air. Here's how to watch live and on the apps."
 categories:
   - Sports-Streaming
 tags:
@@ -36,29 +36,29 @@ Because the exact split can change from year to year depending on the broadcasti
 
 ### Watching on RTÉ
 
-RTÉ's coverage typically includes studio analysis before and after matches, featuring pundits and former players discussing the action. RTÉ shows its Six Nations content on its main channel, RTÉ2 or RTÉ One depending on scheduling, and simulcasts most live sport on its streaming platform, RTÉ Player.
+RTÉ's coverage typically includes studio analysis before and after matches, featuring pundits and former players discussing the action. RTÉ shows its Six Nations content on its main channel, RTÉ2 or RTÉ One depending on scheduling, and simulcasts most live sport on its streaming platform, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/).
 
 RTÉ Player is free to use and doesn't require a subscription — you may need to create a free account to sign in, particularly if you're watching from outside the traditional TV set. It's available on smart TVs, phones, tablets, and through a web browser.
 
 ### Watching on Virgin Media Television
 
-Virgin Media Television also broadcasts a share of Six Nations matches on its channels, alongside its own studio coverage and analysis. Its streaming platform, Virgin Media Player, allows viewers to watch live sport for free as well, though again you may need to register for an account.
+Virgin Media Television also broadcasts a share of Six Nations matches on its channels, alongside its own studio coverage and analysis. Its streaming platform, [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), allows viewers to watch live sport for free as well, though again you may need to register for an account.
 
 Virgin Media Television is available not just to Virgin Media broadband and TV customers — the channels are also carried on saorview and other TV platforms in Ireland, so you don't need to be a Virgin Media customer to watch.
 
 ### Do You Need Saorview or an Aerial?
 
-If you don't have cable or a satellite TV subscription, saorview (Ireland's free digital terrestrial TV service) is likely your easiest route to both RTÉ and Virgin Media Television channels. A saorview-compatible TV or set-top box, combined with a standard rooftop or indoor aerial, should let you access both broadcasters without any ongoing cost beyond the TV licence.
+If you don't have cable or a satellite TV subscription, saorview (Ireland's free digital terrestrial TV service) is likely your easiest route to both RTÉ and Virgin Media Television channels. A saorview-compatible TV or set-top box, combined with a standard rooftop or indoor aerial, should let you access both broadcasters without any ongoing cost beyond the [TV licence](/streaming-services/tv-licence-streaming-ireland/).
 
 If you're unsure whether your TV or box supports saorview, it's worth checking the specifications before assuming you're covered, as older equipment may need an upgrade.
 
 ### Streaming Apps and Smart TVs
 
-Both RTÉ Player and Virgin Media Player have apps available on most major smart TV platforms, as well as on streaming devices and mobile app stores. Exact availability can vary by device manufacturer and region, so if you're planning to stream via a specific smart TV brand or streaming stick, it's a good idea to search that platform's app store directly to confirm the app is supported before matchday.
+Both RTÉ Player and Virgin Media Play have apps available on most major smart TV platforms, as well as on streaming devices and mobile app stores. Exact availability can vary by device manufacturer and region, so if you're planning to stream via a specific smart TV brand or streaming stick, it's a good idea to search that platform's app store directly to confirm the app is supported before matchday.
 
 ### A Note on Pricing and Access
 
-At the time of writing, both RTÉ Player and Virgin Media Player are free to access for live sport, funded through the TV licence system and advertising respectively rather than subscription fees. However, streaming services and app terms can change, so it's worth double-checking current terms on each broadcaster's official website closer to the tournament.
+At the time of writing, both RTÉ Player and Virgin Media Play are free to access for live sport, funded through the TV licence system and advertising respectively rather than subscription fees. However, streaming services and app terms can change, so it's worth double-checking current terms on each broadcaster's official website closer to the tournament.
 
 ### Keeping It Simple
 

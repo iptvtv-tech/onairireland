@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up GAA+ on an Apple TV"
-excerpt: "This guide walks GAA fans through downloading, logging into, and casting GAA+ on an Apple TV so you can watch club and county action legally on the big screen."
-description: "This guide walks GAA fans through downloading, logging into, and casting GAA+ on an Apple TV so you can watch club and county action legally on the big screen."
+excerpt: "How to download, sign in to and cast GAA+ on an Apple TV, so you can watch club and county games legally on the big screen."
+description: "How to download, sign in to and cast GAA+ on an Apple TV, so you can watch club and county games legally on the big screen."
 categories:
   - Installation-Guides
 tags:
@@ -33,7 +33,7 @@ faqs:
 
 ## Getting Started with GAA+ on Apple TV
 
-GAA+ (previously known as GAAGO in some markets) is the official streaming service for Gaelic games not shown live on terrestrial television. For anyone with an Apple TV box sitting under the telly, getting GAA+ installed and running is a straightforward job that takes a few minutes. Below is a clear walkthrough to get you from a blank home screen to full-screen championship action.
+[GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) (previously known as GAAGO in some markets) is the official streaming service for Gaelic games not shown live on terrestrial television. For anyone with an Apple TV box sitting under the telly, getting GAA+ installed and running is a straightforward job that takes a few minutes. Below is a clear walkthrough to get you from a blank home screen to full-screen championship action.
 
 ### What You'll Need
 
@@ -86,6 +86,8 @@ If you'd rather start playback on your phone and send it to the television, GAA+
 If the app is slow to load or buffers frequently, first check your broadband speed, since live sport streaming benefits from a stable, reasonably fast connection. Restarting the Apple TV by unplugging it briefly can also resolve minor glitches. If sign-in issues persist, try resetting your password through the official GAA+ website rather than repeatedly guessing in the app.
 
 With everything set up, you should be ready to enjoy league and championship coverage in full HD from the comfort of your sofa.
+
+**Related guides:** [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/) · [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/)
 
 {% include product-showcase.html category="Installation Guides" %}
 

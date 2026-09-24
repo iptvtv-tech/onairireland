@@ -33,7 +33,7 @@ faqs:
 
 ## What Sport Does Prime Video Actually Carry in Ireland?
 
-Amazon Prime Video has slowly become a genuine player in sports broadcasting, but the picture in Ireland is quite different from the UK or US. Irish subscribers don't get the same volume of live Premier League or tennis coverage that British viewers do, so it's worth being clear-eyed about what you're actually paying for before you sign up purely for sport.
+Amazon [Prime Video](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/) has slowly become a genuine player in sports broadcasting, but the picture in Ireland is quite different from the UK or US. Irish subscribers don't get the same volume of live Premier League or tennis coverage that British viewers do, so it's worth being clear-eyed about what you're actually paying for before you sign up purely for sport.
 
 In practice, Prime Video's sports offering for Irish accounts tends to be more limited and can change from season to season. Rights deals shift constantly, and a competition carried live one year might move to a different broadcaster the next. If sport is your main reason for considering Prime Video, it's worth checking the current schedule on Amazon's own listings rather than relying on last year's line-up, since I won't pretend to know exactly what's confirmed for the coming season.
 
@@ -56,6 +56,8 @@ Streaming apps also behave a little differently depending on your device. Prime 
 ## Final Thoughts
 
 For Irish viewers, Prime Video's sport offering is a nice bonus rather than a headline feature. If live sport is genuinely the only reason you're considering the subscription, it's worth checking exactly what's confirmed for Ireland this season before you commit, since availability can and does change. For most households, Prime Video makes more sense as part of a broader entertainment mix — films, series, and the odd live event — rather than a standalone sports subscription.
+
+**Related guides:** [Where to Watch Premier League Football Legally in Ireland](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/) · [Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

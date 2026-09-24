@@ -67,6 +67,8 @@ Other solid options include the Fire TV Cube for a more powerful, voice-controll
 
 With your account and device sorted, you'll be ready to settle in for Hawkins' final chapter without any last-minute technical surprises.
 
+**Related guides:** [Where to Watch Bridgerton Season 4 in Ireland](/watch-guides/where-to-watch-bridgerton-season-4-in-ireland/) · [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/)
+
 {% include product-showcase.html category="Watch Guides" %}
 
 {% include faq-section.html %}

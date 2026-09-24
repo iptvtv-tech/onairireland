@@ -1,7 +1,7 @@
 ---
 title: "TG4 Player: What You Get for Free"
-excerpt: "TG4 Player is a free, legal way to watch TG4's live channel and catch-up content, including Irish-language shows, documentaries, and GAA coverage, on the web and via apps."
-description: "TG4 Player is a free, legal way to watch TG4's live channel and catch-up content, including Irish-language shows, documentaries, and GAA coverage, on the web and via apps."
+excerpt: "TG4 Player is free and legal: TG4 live, catch-up, Irish-language shows, documentaries and GAA, on the web and in apps."
+description: "TG4 Player is free and legal: TG4 live, catch-up, Irish-language shows, documentaries and GAA, on the web and in apps."
 categories:
   - Streaming-Services
 tags:
@@ -57,6 +57,8 @@ To use TG4 Player, you generally don't need to create an account for basic viewi
 ## Why It's Worth Knowing About
 
 For an Irish audience, TG4 Player is a straightforward, free, and entirely legal option for keeping up with Irish-language television and GAA action alike. It sits alongside other public and commercial streaming options in Ireland, but its combination of free access, strong sports coverage, and dedicated Irish-language content makes it a distinctive part of the country's broadcasting landscape.
+
+**Related guides:** [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [5 Hidden Gems on TG4 Player](/watch-guides/5-hidden-gems-on-tg4-player/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

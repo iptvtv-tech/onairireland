@@ -1,7 +1,7 @@
 ---
 title: "How to Fix 'Content Not Available in Your Country' Errors While Streaming"
-excerpt: "Seeing a 'content not available in your country' message on a legal Irish streaming app is usually down to your account region, network settings, or a temporary licensing issue rather than anything sinister."
-description: "Seeing a 'content not available in your country' message on a legal Irish streaming app is usually down to your account region, network settings, or a temporary licensing issue rather than anything sinister."
+excerpt: "'Content not available in your country' on an Irish app? It's usually your account region or network settings. How to fix it."
+description: "'Content not available in your country' on an Irish app? It's usually your account region or network settings. How to fix it."
 categories:
   - Troubleshooting
 tags:
@@ -80,6 +80,8 @@ Sometimes the message is accurate: the content simply isn't licensed for Ireland
 ## A Note on Workarounds
 
 You may see suggestions online for using VPNs or DNS tricks to access other countries' catalogues. Doing this typically breaches the terms of service of the streaming platform and can result in account suspension. It's best avoided, both for account safety and because it doesn't support the licensing system that allows Irish audiences to get local content and pricing in the first place.
+
+**Related guides:** [Audio Out of Sync? Fixing Streaming Lag on Smart TVs](/troubleshooting/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs/) · [Disney+ Not Working? Try These Fixes](/troubleshooting/disney-not-working-try-these-fixes/)
 
 {% include product-showcase.html category="Troubleshooting" %}
 

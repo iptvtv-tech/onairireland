@@ -31,11 +31,11 @@ faqs:
 
 {% include share-buttons.html %}
 
-Most of us default to RTÉ Player and TG4 Player when we think about free Irish streaming, and fair enough — they're excellent, well-funded, and packed with home-grown content. But there's a small cluster of other free, fully legal apps that don't get nearly as much attention, despite offering genuinely useful viewing. Here are five worth knowing about.
+Most of us default to [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) and TG4 Player when we think about free Irish streaming, and fair enough — they're excellent, well-funded, and packed with home-grown content. But there's a small cluster of other free, fully legal apps that don't get nearly as much attention, despite offering genuinely useful viewing. Here are five worth knowing about.
 
-## Virgin Media Player
+## Virgin Media Play
 
-If you have Virgin Media broadband or TV, the Virgin Media Player app is free to download and gives you catch-up access to Virgin Media One, Two, Three and Four, along with a decent library of box sets. It's ad-supported on some content, but there's no subscription fee involved. It runs on most smart TV platforms and streaming boxes, so it's worth checking your device's app store to see if it's listed for Ireland specifically, since availability can vary depending on the store region set on your account.
+If you have Virgin Media broadband or TV, the [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) app is free to download and gives you catch-up access to Virgin Media One, Two, Three and Four, along with a decent library of box sets. It's ad-supported on some content, but there's no subscription fee involved. It runs on most smart TV platforms and streaming boxes, so it's worth checking your device's app store to see if it's listed for Ireland specifically, since availability can vary depending on the store region set on your account.
 
 ## Samsung TV Plus
 
@@ -43,7 +43,7 @@ If you own a Samsung smart TV, it's worth having a poke around the built-in Sams
 
 ## Pluto TV
 
-Pluto TV has been expanding its footprint across Europe, and Irish availability has improved recently, though it's the kind of thing worth verifying directly in your device's app store before assuming it's there. When it is available, it offers a mix of free, ad-supported live channels and on-demand content, similar in spirit to Samsung TV Plus but not tied to a single TV brand. It tends to show up on Fire TV Stick, Chromecast, and Roku devices, among others.
+Pluto TV has been expanding its footprint across Europe, and Irish availability has improved recently, though it's the kind of thing worth verifying directly in your device's app store before assuming it's there. When it is available, it offers a mix of free, ad-supported live channels and on-demand content, similar in spirit to Samsung TV Plus but not tied to a single TV brand. It tends to show up on Fire TV Stick, Chromecast, and [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices, among others.
 
 ## IFI@Home
 

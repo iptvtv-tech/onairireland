@@ -33,19 +33,19 @@ faqs:
 
 ## Finals Weekend Is Here — Let's Talk Coverage
 
-All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for the rest of the Championship. Between RTÉ's free-to-air coverage, TG4's dedicated slots, and GAA+ filling in the gaps, most fans in Ireland can catch the big games without any grey-area streaming nonsense. Here's how it typically breaks down.
+All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for the rest of the Championship. Between RTÉ's free-to-air coverage, TG4's dedicated slots, and [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) filling in the gaps, most fans in Ireland can catch the big games without any grey-area streaming nonsense. Here's how it typically breaks down.
 
 ### RTÉ: Your First Port of Call
 
 RTÉ has held broadcast rights to the marquee Finals — the Hurling and Football All-Ireland Finals — for decades, and that's unlikely to change any time soon. These games are shown free-to-air on RTÉ2 or RTÉ One, with build-up shows, half-time analysis, and post-match reaction all part of the package.
 
-If you're at home, RTÉ Player is the easiest way to stream live, either through a smart TV app, a browser, or a streaming stick like a Chromecast or Fire TV Stick. It's free with a valid TV licence, and no subscription is needed on top. The Player app also lets you catch up afterwards if you miss throw-in, though obviously nothing beats watching the Final live.
+If you're at home, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) is the easiest way to stream live, either through a smart TV app, a browser, or a streaming stick like a Chromecast or Fire TV Stick. It's free with a valid TV licence, and no subscription is needed on top. The Player app also lets you catch up afterwards if you miss throw-in, though obviously nothing beats watching the Final live.
 
 One thing worth double-checking closer to the day: RTÉ occasionally simulcasts or splits coverage between channels when there are scheduling clashes (for example, if a minor or club fixture overlaps). It's always worth glancing at the official RTÉ GAA schedule in the days beforehand rather than assuming a fixed channel.
 
 ### TG4: Camogie, Ladies Football, and More
 
-TG4 has built a brilliant reputation for its GAA coverage, particularly around the Ladies Football and Camogie Championships. Their All-Ireland Finals coverage tends to include strong pre-match build-up and is available both on the TG4 channel and through the TG4 Player app.
+TG4 has built a brilliant reputation for its GAA coverage, particularly around the Ladies Football and Camogie Championships. Their All-Ireland Finals coverage tends to include strong pre-match build-up and is available both on the TG4 channel and through the [TG4 Player](/streaming-services/tg4-player-what-you-get-for-free/) app.
 
 Commentary is primarily as Gaeilge, though English-language radio or match-tracker alternatives are often available for those who want it. TG4's app works well on smart TVs and mobile devices, and like RTÉ Player, it's free to use.
 

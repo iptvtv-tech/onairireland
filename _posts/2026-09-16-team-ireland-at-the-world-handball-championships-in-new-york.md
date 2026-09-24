@@ -1,7 +1,7 @@
 ---
 title: "Team Ireland at the World Handball Championships in New York"
-excerpt: "A look at how Team Ireland got on at the World Handball Championships in New York, plus a realistic guide to where Irish fans might legally catch coverage or highlights."
-description: "A look at how Team Ireland got on at the World Handball Championships in New York, plus a realistic guide to where Irish fans might legally catch coverage or highlights."
+excerpt: "How Team Ireland got on at the World Handball Championships in New York, and where Irish fans can legally find coverage."
+description: "How Team Ireland got on at the World Handball Championships in New York, and where Irish fans can legally find coverage."
 categories:
   - Sports-Streaming
 tags:
@@ -58,6 +58,8 @@ For those juggling several devices on one television, whether that's a streaming
 We want to be upfront: at the time of writing, we can't confirm the exact final placings for Team Ireland at this year's championships, nor can we guarantee a specific streaming platform will carry every match. Details like this often firm up only in the days immediately before or during the tournament. If you're planning to follow closely, keep an eye on GAA Handball's official announcements for the most accurate and current information on both results and viewing options.
 
 Minority sports coverage in Ireland is improving, but it's still patchy compared to mainstream fixtures. Supporting official channels, even if that just means watching a free legitimate stream or following live text updates, helps make the case for more consistent coverage of Team Ireland's international efforts in future.
+
+**Related guides:** [Where to Watch the FIFA World Cup 2026 Legally in Ireland](/sports-streaming/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland/) · [How to Watch Six Nations Rugby Legally in Ireland](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/)
 
 {% include product-showcase.html category="Sports Streaming" %}
 

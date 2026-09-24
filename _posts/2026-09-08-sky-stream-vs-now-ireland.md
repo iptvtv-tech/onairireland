@@ -57,6 +57,8 @@ NOW is officially available in Ireland at nowtv.com/ie, structured the same way 
 - **Choose NOW if:** you only want sport for part of the year, or want to dip into Sky Cinema for a month and cancel — the lack of a contract is the whole point
 - **A practical middle ground:** some households use NOW's Sports Membership just for GAA/Premier League season and skip Sky Stream entirely the rest of the year, since NOW never locks you into paying when you're not watching
 
+**Related guides:** [How to Fix Common Sky Stream Remote and Pairing Issues](/troubleshooting/how-to-fix-common-sky-stream-remote-and-pairing-issues/) · [Sky Sports+ Explained: More Live Streams at No Extra Cost](/streaming-services/sky-sports-explained-more-live-streams-at-no-extra-cost/)
+
 {% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
 {% include related-posts.html %}
 Related: see our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [where to watch GAA legally](/streaming-services/where-to-watch-gaa-legally-ireland/).

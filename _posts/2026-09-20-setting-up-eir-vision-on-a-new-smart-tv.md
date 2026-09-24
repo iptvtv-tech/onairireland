@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Eir Vision on a New Smart TV"
-excerpt: "A step-by-step guide to pairing and setting up Eir Vision on a new smart TV, including account activation, app installation, and picture and sound configuration."
-description: "A step-by-step guide to pairing and setting up Eir Vision on a new smart TV, including account activation, app installation, and picture and sound configuration."
+excerpt: "Step-by-step: set up Eir Vision on a new smart TV, from account activation and app install to picture and sound settings."
+description: "Step-by-step: set up Eir Vision on a new smart TV, from account activation and app install to picture and sound settings."
 categories:
   - Installation-Guides
 tags:
@@ -33,7 +33,7 @@ faqs:
  
 ## Getting Started with Eir Vision on a New TV
 
-Bringing home a new smart TV is a great excuse to get your Eir Vision setup running properly from day one. Whether you're moving the service from an old television or activating it for the first time, the process is fairly straightforward once you know the order of steps to follow.
+Bringing home a new smart TV is a great excuse to get your [Eir Vision](/streaming-services/eir-vision-explained-is-bundling-tv-with-broadband-worth-it/) setup running properly from day one. Whether you're moving the service from an old television or activating it for the first time, the process is fairly straightforward once you know the order of steps to follow.
 
 This guide walks through what to expect, from unboxing to fine-tuning your picture settings, so you can get watching with as little fuss as possible.
 
@@ -51,7 +51,7 @@ If your new TV is going on a wall rather than a stand, it's much easier to run c
 
 Eir Vision is a streaming service, so a stable internet connection matters more than almost anything else in this setup. Go into your TV's network settings and connect either via Wi-Fi or a wired Ethernet connection if your TV and router are close enough.
 
-If your home has a few dead zones or the TV is in a room far from the router, a [mesh Wi-Fi system](https://amzn.to/3UGxqJd) can help maintain a steadier signal throughout the house, which reduces buffering and login issues during streaming.
+If your home has a few dead zones or the TV is in a room far from the router, a [mesh Wi-Fi system](https://amzn.to/3UGxqJd) can help maintain a steadier signal throughout the house, which reduces [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) and login issues during streaming.
 
 ## Step 2: Find and Install the Eir Vision App
 

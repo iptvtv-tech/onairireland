@@ -78,6 +78,8 @@ This way you'll know in advance which subscription (or combination of subscripti
 
 Between Sky Sports and TNT Sports, the vast majority of Premier League fixtures are covered for Irish audiences through fully legal channels. Pair the right subscription with a decent aerial and a tidy HDMI setup, and you should have everything you need for a smooth season of football watching.
 
+**Related guides:** [Where to Watch the UEFA Champions League Legally in Ireland](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/) · [GAA All-Ireland Finals: Where to Watch Every Match Legally](/sports-streaming/gaa-all-ireland-finals-where-to-watch-every-match-legally/)
+
 {% include product-showcase.html category="Sports Streaming" %}
 
 {% include faq-section.html %}

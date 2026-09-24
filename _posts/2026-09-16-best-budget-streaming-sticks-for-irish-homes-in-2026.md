@@ -1,7 +1,7 @@
 ---
 title: "Best Budget Streaming Sticks for Irish Homes in 2026"
-excerpt: "A practical, budget-focused guide to the cheapest streaming sticks worth buying in Ireland right now, covering Fire TV, Roku and Chromecast options for every type of viewer."
-description: "A practical, budget-focused guide to the cheapest streaming sticks worth buying in Ireland right now, covering Fire TV, Roku and Chromecast options for every type of viewer."
+excerpt: "The cheapest streaming sticks worth buying in Ireland right now, from Fire TV and Roku to Google TV, for every type of viewer."
+description: "The cheapest streaming sticks worth buying in Ireland right now, from Fire TV and Roku to Google TV, for every type of viewer."
 categories:
   - Devices
 tags:
@@ -35,7 +35,7 @@ faqs:
 
 Most new tellies sold in Ireland come with some kind of smart platform built in, but plenty of Irish households are still watching perfectly good TVs that are five, eight, or even ten years old. Rather than replacing the whole set, a streaming stick is a cheap way to bring modern apps, faster menus, and better voice search to an older screen.
 
-The good news is that budget streaming sticks have gotten genuinely good. You don't need to spend a fortune to get smooth 4K playback, reliable RTÉ Player access, or a snappy interface that doesn't lag every time you open a new app.
+The good news is that budget streaming sticks have gotten genuinely good. You don't need to spend a fortune to get smooth 4K playback, reliable [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) access, or a snappy interface that doesn't lag every time you open a new app.
 
 ## What "Budget" Actually Means Here
 
@@ -51,21 +51,21 @@ For households that want one device to handle everything, including some smart h
 
 ### Roku Express and Roku Streaming Stick 4K
 
-Roku has a smaller footprint in Ireland compared to the UK or US, but its devices are still available here and worth considering. The Roku Express is generally the cheaper entry point, with a simpler interface that some viewers find easier to navigate than Fire TV's more ad-heavy home screen.
+[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) has a smaller footprint in Ireland compared to the UK or US, but its devices are still available here and worth considering. The Roku Express is generally the cheaper entry point, with a simpler interface that some viewers find easier to navigate than Fire TV's more ad-heavy home screen.
 
 Stepping up, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) adds sharper picture support and a better remote. Roku's interface tends to be less cluttered with promotional tiles, which some readers may prefer, though app availability for Irish-specific services should always be double-checked before buying, as this can vary and change over time.
 
-### Chromecast Options
+### Google TV Options
 
-Google's Chromecast range takes a different approach. The basic Chromecast HD is a solid, no-frills option for anyone who mostly casts from a phone or tablet rather than using an on-screen menu directly. It's typically one of the cheapest ways to add smart streaming to an older TV.
+Google stopped making its Chromecast sticks in 2024. Its current device is the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), a small box with a proper remote, the Google TV home screen and casting built in. It costs more than the cheapest sticks, so it's less of a pure budget pick, but it suits households already using Android phones and Google accounts.
 
-The [Chromecast with Google TV](https://amzn.to/3VpfanK) adds a proper remote and home screen interface, making it feel more like a traditional streaming stick rather than a casting-only accessory. It's a reasonable middle ground if you want Google's ecosystem but don't want to hunt for your phone every time you want to change what's on.
+If you only want to cast from your phone, check whether your TV already supports Google Cast or AirPlay — many recent smart TVs do, which means you may not need an extra device at all.
 
 ## Which One Should You Actually Buy?
 
-If you already use Amazon Prime and Alexa devices around the house, a Fire TV Stick will likely feel the most familiar. If you dislike heavy home-screen advertising, Roku's cleaner layout might suit you better. If you're deeply embedded in Google's ecosystem and mostly cast from a phone, Chromecast makes sense.
+If you already use Amazon Prime and Alexa devices around the house, a Fire TV Stick will likely feel the most familiar. If you dislike heavy home-screen advertising, Roku's cleaner layout might suit you better. If you're deeply embedded in Google's ecosystem, the Google TV Streamer makes sense.
 
-Whichever you choose, always confirm that the apps you actually use, RTÉ Player, Virgin Media Player, or your streaming subscriptions of choice, are supported before buying, since availability can shift over time and isn't always identical across brands.
+Whichever you choose, always confirm that the apps you actually use, RTÉ Player, Virgin Media Play, or your streaming subscriptions of choice, are supported before buying, since availability can shift over time and isn't always identical across brands.
 
 ## A Final Word on Broadband
 

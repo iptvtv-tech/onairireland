@@ -1,7 +1,7 @@
 ---
 title: "How to Watch the Ryder Cup Legally in Ireland"
-excerpt: "A guide to watching the Ryder Cup legally in Ireland, covering the licensed broadcaster, streaming options, and the gear that makes the coverage look its best."
-description: "A guide to watching the Ryder Cup legally in Ireland, covering the licensed broadcaster, streaming options, and the gear that makes the coverage look its best."
+excerpt: "How to watch the Ryder Cup legally in Ireland: the licensed broadcaster, streaming options and the best setup for watching."
+description: "How to watch the Ryder Cup legally in Ireland: the licensed broadcaster, streaming options and the best setup for watching."
 categories:
   - Sports-Streaming
 tags:
@@ -39,13 +39,13 @@ The Ryder Cup only comes around every two years, which is exactly why so many Ir
 
 Sky Sports has traditionally held the broadcast rights to the Ryder Cup across Ireland and the UK, with extensive live coverage across the tournament weekend. That said, broadcast deals do get renegotiated between editions, so it's worth double-checking closer to the date via Sky's own site or a quick search to confirm Sky still holds the rights for the specific year you're reading this. Rights holders can and do change, and I'd rather point you to verify than have you plan your weekend around outdated information.
 
-If Sky is indeed the holder, you'll need a Sky subscription that includes Sky Sports, or a NOW subscription with the Sky Sports add-on if you'd rather not commit to a long-term contract. NOW is the streaming-only route into Sky Sports content and is generally the easier option for anyone not wanting satellite hardware installed.
+If Sky is indeed the holder, you'll need a Sky subscription that includes Sky Sports, or a [NOW](/streaming-services/sky-stream-vs-now-ireland/) subscription with the Sky Sports add-on if you'd rather not commit to a long-term contract. NOW is the streaming-only route into Sky Sports content and is generally the easier option for anyone not wanting satellite hardware installed.
 
 ### Setting Up NOW or Sky Go on a Streaming Device
 
 If you're going the NOW route, you'll want a streaming device that supports the app cleanly. A [Fire TV Stick](https://amzn.to/3T7hgI6) is one of the more affordable options and generally has good app support for Irish and UK streaming services, though it's always sensible to check the NOW app is listed as compatible with your specific device model before buying anything.
 
-Roku devices and Chromecast with Google TV are the other realistic options if you're building out a smart TV setup from scratch. Whichever route you go, make sure your home broadband can handle sustained HD streaming for several hours at a time, particularly across the Friday and Saturday sessions when coverage can run long.
+Roku devices and the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) are the other realistic options if you're building out a smart TV setup from scratch. Whichever route you go, make sure your home broadband can handle sustained HD streaming for several hours at a time, particularly across the Friday and Saturday sessions when coverage can run long.
 
 ### Account Region Matters
 

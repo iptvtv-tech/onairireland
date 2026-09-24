@@ -33,7 +33,7 @@ faqs:
 
 ## House of the Dragon Season 3: The Irish Lowdown
 
-House of the Dragon has landed on Irish screens via Sky Atlantic and the NOW streaming service for its previous two seasons, and all signs point to Season 3 following the same path when it arrives. Since HBO content in Ireland is distributed through Sky's platforms rather than a standalone HBO app, this is the licensed route Irish viewers should plan around.
+House of the Dragon has landed on Irish screens via Sky Atlantic and the [NOW](/streaming-services/sky-stream-vs-now-ireland/) streaming service for its previous two seasons, and all signs point to Season 3 following the same path when it arrives. Since HBO content in Ireland is distributed through Sky's platforms rather than a standalone HBO app, this is the licensed route Irish viewers should plan around.
 
 That said, exact premiere dates and any last-minute distribution changes should always be double-checked on the NOW website or app closer to release. Streaming rights can shift, and broadcasters don't always confirm scheduling far in advance, so treat any date you see online as provisional until NOW or Sky officially confirm it.
 
@@ -55,7 +55,7 @@ NOW's app is widely supported across most modern streaming devices and smart TVs
 
 The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid, affordable choice that plugs straight into your TV's HDMI port and gives you the NOW app along with all the other major Irish streaming services in one place. It supports 4K and HDR playback, which is worth having for a visually heavy series like House of the Dragon, provided your NOW membership tier and internet connection support that quality.
 
-Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another dependable option, particularly if you prefer Roku's simpler, ad-light home screen over Amazon's more algorithm-driven interface. Roku devices have long supported NOW in Ireland and the UK, and the remote and menu system tend to be very straightforward for anyone who isn't especially tech-savvy.
+Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another dependable option, particularly if you prefer [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s simpler, ad-light home screen over Amazon's more algorithm-driven interface. Roku devices have long supported NOW in Ireland and the UK, and the remote and menu system tend to be very straightforward for anyone who isn't especially tech-savvy.
 
 If you already have a smart TV, there's a good chance NOW's app is built in natively, so you may not need any extra hardware at all. It's worth checking your TV's app store first before buying a separate streaming device, since many Irish households already have everything they need.
 

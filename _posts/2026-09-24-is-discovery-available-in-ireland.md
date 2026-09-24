@@ -43,7 +43,7 @@ If you're seeing an error message saying content isn't available in your country
 
 ### Where to Legally Watch Discovery+ Style Content in Ireland
 
-The good news is that a lot of the programming people associate with Discovery+ — home renovation shows, true crime documentaries, nature and wildlife series — hasn't disappeared. Much of it turns up on other legal platforms available in Ireland, including Sky and Virgin Media TV packages, as well as various on-demand services that carry Discovery-owned content under licensing agreements. Some individual series are also distributed to platforms like Prime Video on a title-by-title basis, so it's always worth searching for a specific show by name on the apps you already subscribe to before assuming it's inaccessible.
+The good news is that a lot of the programming people associate with Discovery+ — home renovation shows, true crime documentaries, nature and wildlife series — hasn't disappeared. Much of it turns up on other legal platforms available in Ireland, including Sky and Virgin Media TV packages, as well as various on-demand services that carry Discovery-owned content under licensing agreements. Some individual series are also distributed to platforms like [Prime Video](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/) on a title-by-title basis, so it's always worth searching for a specific show by name on the apps you already subscribe to before assuming it's inaccessible.
 
 If you're an existing Sky or Virgin Media customer, check your on-demand menu for a Discovery-branded hub, as many operators integrate this content directly into their electronic programme guide rather than requiring a separate app.
 
@@ -58,6 +58,8 @@ Sound is worth thinking about too, particularly for documentary-style content wh
 ### The Bottom Line
 
 Discovery+ isn't reliably available as its own dedicated app in Ireland right now, and its future here seems tied to how Warner Bros. Discovery continues rolling out the Max platform across Europe. Rather than waiting on a specific app, Irish viewers are generally better served checking their existing Sky, Virgin Media, or Prime Video subscriptions for the same shows, since much of that content is already licensed and available legally through those routes.
+
+**Related guides:** [Is Britbox Available in Ireland?](/streaming-services/is-britbox-available-in-ireland/) · [HBO Max in Ireland: Is It Available and How Do You Get It?](/news/is-hbo-max-coming-to-ireland/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

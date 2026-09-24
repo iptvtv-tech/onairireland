@@ -31,6 +31,8 @@ faqs:
 
 {% include share-buttons.html %}
 
+*Google stopped selling the Chromecast with Google TV in 2024, but existing ones still run all the main Irish apps. These fixes also apply to its replacement, the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/).*
+
 ## Why Chromecast with Google TV Acts Up in Irish Homes
 
 Chromecast with Google TV is a handy, affordable way to get Netflix, RTÉ Player, and other streaming apps onto an older television. But plenty of Irish users run into the same handful of niggles after setup - the remote won't pair, the stream buffers constantly, or an app crashes the moment it opens. Most of these issues come down to a small number of causes, and nearly all of them are fixable without contacting support.
@@ -75,6 +77,8 @@ If you've tried everything above and Wi-Fi range remains a persistent issue, it'
 ## When to Consider a Factory Reset
 
 If problems persist across multiple apps and a stable wired connection, a factory reset is a reasonable last step. This wipes all settings and installed apps, so you'll need to sign back into each streaming service afterwards. It's a genuine fresh start and often clears up issues that seemed unrelated to the network entirely.
+
+**Related guides:** [How to Fix Common Sky Stream Remote and Pairing Issues](/troubleshooting/how-to-fix-common-sky-stream-remote-and-pairing-issues/) · [Why Is My Streaming App Buffering? Common Fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/)
 
 {% include product-showcase.html category="Troubleshooting" %}
 

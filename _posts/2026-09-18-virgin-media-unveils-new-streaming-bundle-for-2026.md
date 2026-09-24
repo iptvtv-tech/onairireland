@@ -67,6 +67,8 @@ As always with telecom bundles in Ireland, the value proposition often comes dow
 
 We'll update this post with confirmed pricing and launch details once Virgin Media makes them official.
 
+**Related guides:** [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/) · [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/)
+
 {% include product-showcase.html category="News" %}
 
 {% include faq-section.html %}

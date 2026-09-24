@@ -1,7 +1,7 @@
 ---
 title: "Watch The Odyssey online in Ireland"
-excerpt: "A cautious, up-to-date guide for Irish viewers on how to legally find and stream The Odyssey, plus the devices and apps that make watching movies at home easier."
-description: "A cautious, up-to-date guide for Irish viewers on how to legally find and stream The Odyssey, plus the devices and apps that make watching movies at home easier."
+excerpt: "How to find and stream The Odyssey legally in Ireland once it leaves cinemas, plus the devices and apps that make it easy."
+description: "How to find and stream The Odyssey legally in Ireland once it leaves cinemas, plus the devices and apps that make it easy."
 categories:
   - Watch-Guides
 tags:
@@ -37,9 +37,9 @@ Christopher Nolan's *The Odyssey* has generated huge buzz, and plenty of Irish v
 
 ### Is The Odyssey streaming yet?
 
-At the time of writing, big-budget cinema releases like this one typically spend several weeks or months in Irish cinemas before any digital or streaming option appears. Given the studio behind the film, it's likely that a premium video-on-demand release (rent or buy through services like Prime Video, Sky Store, or the Apple TV+ app store) will come before it lands on any subscription service.
+At the time of writing, big-budget cinema releases like this one typically spend several weeks or months in Irish cinemas before any digital or streaming option appears. Given the studio behind the film, it's likely that a premium video-on-demand release (rent or buy through services like [Prime Video](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/), Sky Store, or the Apple TV+ app store) will come before it lands on any subscription service.
 
-Rather than guess which streaming platform will eventually carry it, the most reliable approach is to check the film's listing directly on the major platforms you already use — Prime Video, Sky/NOW, and Disney+ all show upcoming titles once a release date is confirmed. If you search for the film and see a "not currently available" message, this generally just means the digital release date hasn't arrived yet for Irish audiences, rather than anything being wrong with your account or device.
+Rather than guess which streaming platform will eventually carry it, the most reliable approach is to check the film's listing directly on the major platforms you already use — Prime Video, Sky/NOW, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) all show upcoming titles once a release date is confirmed. If you search for the film and see a "not currently available" message, this generally just means the digital release date hasn't arrived yet for Irish audiences, rather than anything being wrong with your account or device.
 
 ### What to do if a title seems unavailable
 
@@ -56,11 +56,11 @@ Whenever The Odyssey does become available to rent, buy, or stream, having the r
 
 **Fire TV Stick 4K** — a compact and affordable way to add all the major streaming apps to any HDMI-equipped television. It's worth having a browse of the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) if you want a simple upgrade that supports 4K and HDR playback on supported titles.
 
-**Roku Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a popular choice for exactly this reason.
+**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a popular choice for exactly this reason.
 
 **Fire TV Cube** — for anyone who wants a more powerful, hands-free option with built-in voice control, this sits a notch above the standard Stick.
 
-**Chromecast** — still a handy option if you're often casting from a phone or tablet rather than using a dedicated remote-based interface.
+**Google TV Streamer** — Google's replacement for the discontinued Chromecast, handy if you use an Android phone and like casting as well as a remote-driven menu.
 
 If you're setting up a new television rather than adding a streaming device to an old one, something like the [Xiaomi 32 Inch Smart TV](https://amzn.to/4rydeFK) comes with popular apps built in, which can simplify things considerably. And for households that still rely on satellite for some channels alongside streaming, an [HD Satellite Receiver](https://amzn.to/4hibfjU) can help keep everything running through the one television setup.
 

@@ -1,7 +1,7 @@
 ---
 title: "Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?"
-excerpt: "Netflix and Prime Video run neck-and-neck for Irish viewers' attention, so the right pick for your household comes down to catalogue taste, household sharing rules, and what else is bundled into the subscription."
-description: "Netflix and Prime Video run neck-and-neck for Irish viewers' attention, so the right pick for your household comes down to catalogue taste, household sharing rules, and what else is bundled into the subscription."
+excerpt: "Netflix vs Prime Video in Ireland: which suits your household, based on catalogue, sharing rules and what's bundled in."
+description: "Netflix vs Prime Video in Ireland: which suits your household, based on catalogue, sharing rules and what's bundled in."
 categories:
   - Reviews
 tags:
@@ -60,6 +60,8 @@ If you're deciding between the two rather than paying for both, the honestly use
 ## The Bigest Takeaway
 
 The real story isn't that one service has "won" the Irish market — it's that the gap has narrowed enough that most households can reasonably justify either, or both. Anyone quoting a precise market-share percentage for Ireland should name their source and the date of the data, because this is exactly the kind of figure that looks authoritative but ages quickly.
+
+**Related guides:** [Is Netflix Legal to Use in Ireland? What You're Actually Paying For](/streaming-services/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for/) · [5 Netflix Features Irish Viewers Often Miss](/streaming-services/5-netflix-features-irish-viewers-often-miss/)
 
 {% include product-showcase.html category="Reviews" %}
 

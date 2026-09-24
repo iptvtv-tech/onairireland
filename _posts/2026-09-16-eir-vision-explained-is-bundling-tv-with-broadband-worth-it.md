@@ -1,7 +1,7 @@
 ---
 title: "Eir Vision Explained: Is Bundling TV with Broadband Worth It?"
-excerpt: "A look at what eir's Vision TV package actually includes, how it stacks up against building your own legal streaming setup, and who should consider each option."
-description: "A look at what eir's Vision TV package actually includes, how it stacks up against building your own legal streaming setup, and who should consider each option."
+excerpt: "What Eir Vision includes, how it compares with building your own legal streaming setup, and who should pick each option."
+description: "What Eir Vision includes, how it compares with building your own legal streaming setup, and who should pick each option."
 categories:
   - Streaming-Services
 tags:
@@ -70,6 +70,8 @@ If you like watching sport or catching up on shows outside the sitting room too 
 There isn't a single right answer here. If you value simplicity, already have eir broadband, and mostly watch Irish and mainstream channels, Vision can make sense as a tidy all-in-one solution. If you're a heavier streaming user who wants flexibility, wants to avoid contract lock-in, or wants to mix and match services freely, building your own setup around a dedicated streaming device is likely to serve you better long-term.
 
 Before committing to either path, it's worth listing out the channels and apps your household actually uses regularly. That short list will tell you more about which option suits you than any bundle brochure will.
+
+**Related guides:** [Setting Up Eir Vision on a New Smart TV](/installation-guides/setting-up-eir-vision-on-a-new-smart-tv/) · [Sky Sports+ Explained: More Live Streams at No Extra Cost](/streaming-services/sky-sports-explained-more-live-streams-at-no-extra-cost/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

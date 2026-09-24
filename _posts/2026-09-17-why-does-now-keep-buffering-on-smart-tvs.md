@@ -33,7 +33,7 @@ faqs:
 
 ## Why Does NOW Keep Buffering on Smart TVs?
 
-If you've settled in for a match or a movie on NOW and the little spinning wheel keeps popping up, you're not alone. Buffering on smart TVs is one of the most common complaints among Irish streaming fans, and it's rarely down to just one thing. Below we'll go through the usual suspects and how to fix them.
+If you've settled in for a match or a movie on [NOW](/streaming-services/sky-stream-vs-now-ireland/) and the little spinning wheel keeps popping up, you're not alone. Buffering on smart TVs is one of the most common complaints among Irish streaming fans, and it's rarely down to just one thing. Below we'll go through the usual suspects and how to fix them.
 
 ### Check Your Broadband Speed First
 
@@ -49,7 +49,7 @@ If your TV is more than one or two rooms away from your router, a [Wi-Fi range e
 
 ### Consider a Wired Connection
 
-Wherever possible, a wired connection will always be more stable than Wi-Fi for streaming. Most smart TVs and streaming devices have an Ethernet port, and running a [long Ethernet cable](https://amzn.to/4imUjuU) from your router to your TV removes Wi-Fi interference from the equation entirely. This is particularly worth trying if buffering happens at the same time every evening, which often points to network congestion rather than a NOW-specific issue.
+Wherever possible, a wired connection will always be more stable than Wi-Fi for streaming. Most smart TVs and streaming devices have an Ethernet port, and running a [long Ethernet cable](https://amzn.to/4imUjuU) from your router to your TV removes Wi-Fi interference from the equation entirely. This is particularly worth trying if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) happens at the same time every evening, which often points to network congestion rather than a NOW-specific issue.
 
 ### Update the NOW App and Your TV's Software
 

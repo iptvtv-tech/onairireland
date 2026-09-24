@@ -1,7 +1,7 @@
 ---
 title: "Where to Watch the FIFA World Cup 2026 Legally in Ireland"
-excerpt: "RTÉ holds the free-to-air Irish broadcast rights to the FIFA World Cup 2026, and this guide explains what that means for viewers here, how to watch legally on RTÉ Player, and why no other Irish streaming service can legitimately show the tournament."
-description: "RTÉ holds the free-to-air Irish broadcast rights to the FIFA World Cup 2026, and this guide explains what that means for viewers here, how to watch legally on RTÉ Player, and why no other Irish streaming service can legitimately show the tournament."
+excerpt: "RTÉ has the free-to-air Irish rights to the 2026 World Cup. How to watch every game legally on TV and RTÉ Player."
+description: "RTÉ has the free-to-air Irish rights to the 2026 World Cup. How to watch every game legally on TV and RTÉ Player."
 categories:
   - Sports-Streaming
 tags:
@@ -26,7 +26,7 @@ affiliate_links: true
 
 RTÉ has confirmed it holds licensed free-to-air rights to broadcast FIFA World Cup 2026 matches in Ireland. This is a continuation of the long-standing arrangement whereby RTÉ, often working alongside the European Broadcasting Union's collective negotiations, secures rights for major FIFA tournaments on behalf of Irish viewers.
 
-In practical terms, this means the tournament will be available to watch without a subscription, both on RTÉ's linear television channels and through its official streaming platform, RTÉ Player. There is no need to sign up for a paid sports package to follow the World Cup legally in Ireland.
+In practical terms, this means the tournament will be available to watch without a subscription, both on RTÉ's linear television channels and through its official streaming platform, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/). There is no need to sign up for a paid sports package to follow the World Cup legally in Ireland.
 
 It's worth noting that exact details — such as whether every single match will be shown live, or whether some fixtures will be shown as highlights or delayed coverage — are typically confirmed closer to the tournament itself. Broadcasters often finalise their match schedules only a few months before kickoff, so treat any early claims about "every match live" with some caution until RTÉ publishes its official schedule.
 
@@ -59,6 +59,8 @@ If you're an Irish viewer travelling during the tournament, or simply want alter
 ## Final Word
 
 For Irish football fans, the good news is that the FIFA World Cup 2026 will be available completely free through RTÉ, both on TV and via RTÉ Player. As the tournament approaches, keep an eye on RTÉ's official announcements for the full match schedule, presenter lineups, and any changes to how coverage is delivered. Until then, the safest and only confirmed legal way to watch in Ireland is through RTÉ's own platforms.
+
+**Related guides:** [How to Watch the Ryder Cup Legally in Ireland](/sports-streaming/how-to-watch-the-ryder-cup-legally-in-ireland/) · [Solheim Cup 2026: Where Irish Fans Can Watch Live](/sports-streaming/solheim-cup-2026-where-irish-fans-can-watch-live/)
 
 {% include product-showcase.html category="Sports Streaming" %}
 

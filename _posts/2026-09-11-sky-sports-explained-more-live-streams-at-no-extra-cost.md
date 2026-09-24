@@ -1,7 +1,7 @@
 ---
 title: "Sky Sports+ Explained: More Live Streams at No Extra Cost"
-excerpt: "Sky Sports+ gives existing Sky Sports subscribers in Ireland access to extra live streams and a dedicated channel at no additional cost, and here's how to find it on your Sky Q, Sky Glass, or Sky Stream box."
-description: "Sky Sports+ gives existing Sky Sports subscribers in Ireland access to extra live streams and a dedicated channel at no additional cost, and here's how to find it on your Sky Q, Sky Glass, or Sky Stream box."
+excerpt: "Sky Sports+ gives Irish Sky Sports customers extra live streams at no extra cost. How to find it on Sky Q, Sky Glass and Sky Stream."
+description: "Sky Sports+ gives Irish Sky Sports customers extra live streams at no extra cost. How to find it on Sky Q, Sky Glass and Sky Stream."
 categories:
   - Streaming-Services
 tags:
@@ -75,6 +75,8 @@ The safest way to confirm current details is directly through Sky's official web
 ## The Bottom Line
 
 Sky Sports+ is a useful addition for existing Sky Sports customers in Ireland, offering more live streams and a dedicated channel without an extra charge, at least based on how it's currently positioned. If you're a Sky Sports subscriber, it's worth exploring the option next time multiple big events are on at once — just take a moment to confirm the specifics on your own account first, since details can vary by package and device.
+
+**Related guides:** [Eir Vision Explained: Is Bundling TV with Broadband Worth It?](/streaming-services/eir-vision-explained-is-bundling-tv-with-broadband-worth-it/) · [Sky Stream vs NOW: Which Is Right for You in Ireland?](/streaming-services/sky-stream-vs-now-ireland/)
 
 {% include product-showcase.html category="Streaming Services" %}
 {% include related-posts.html %}

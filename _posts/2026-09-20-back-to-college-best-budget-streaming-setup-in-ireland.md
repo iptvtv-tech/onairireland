@@ -1,7 +1,7 @@
 ---
 title: "Back to College: Best Budget Streaming Setup in Ireland"
-excerpt: "A practical, budget-friendly guide to setting up legal streaming in Irish student accommodation, covering devices, apps, and account basics for the new academic year."
-description: "A practical, budget-friendly guide to setting up legal streaming in Irish student accommodation, covering devices, apps, and account basics for the new academic year."
+excerpt: "A budget streaming setup for Irish student accommodation: the devices, free and paid apps, and account basics you need."
+description: "A budget streaming setup for Irish student accommodation: the devices, free and paid apps, and account basics you need."
 categories:
   - Devices
 tags:
@@ -41,9 +41,9 @@ Most student rooms and shared houses already have a TV with an HDMI port, so the
 
 You don't need the most expensive box on the shelf. For most students, a compact stick that plugs straight into the HDMI port is the simplest option, since there's no extra box taking up space on a shared shelf or desk.
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid all-rounder and tends to come up as a popular choice because it covers the major Irish streaming apps, including RTÉ Player, Netflix, and Disney+. If you'd rather stick with a Google-based interface, the [Chromecast with Google TV](https://amzn.to/3VpfanK) does a similar job with a slightly different menu layout, which might suit you better if you're already using Android apps day to day.
+The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid all-rounder and tends to come up as a popular choice because it covers the major Irish streaming apps, including [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Netflix, and Disney+. If you'd rather stick with a Google-based interface, the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) does a similar job with a slightly different menu layout, which might suit you better if you're already using Android apps day to day.
 
-Roku devices, such as the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41), are another option worth considering. Roku's interface is generally considered straightforward for anyone sharing a device with housemates, since app icons are laid out simply on the home screen.
+[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices, such as the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41), are another option worth considering. Roku's interface is generally considered straightforward for anyone sharing a device with housemates, since app icons are laid out simply on the home screen.
 
 If you're setting up in a shared common room rather than a bedroom, a slightly more powerful option like the Amazon Fire TV Cube Simplified might be worth the extra cost, as it's built to handle a household TV used by multiple people rather than a single small screen.
 

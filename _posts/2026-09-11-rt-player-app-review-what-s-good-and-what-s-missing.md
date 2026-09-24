@@ -72,6 +72,8 @@ RTÉ Player remains a solid, free way to access RTÉ's live channels and on-dema
 
 For most Irish viewers, it's a worthwhile addition alongside other legal streaming subscriptions, rather than a replacement for them.
 
+**Related guides:** [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/) · [How to Set Up RTÉ Player on an Amazon Fire TV Stick](/installation-guides/how-to-set-up-rte-player-fire-tv/)
+
 {% include product-showcase.html category="Reviews" %}
 
 {% include faq-section.html %}

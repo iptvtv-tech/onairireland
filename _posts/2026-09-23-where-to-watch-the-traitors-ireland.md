@@ -37,7 +37,7 @@ The Traitors Ireland has quickly become one of the most talked-about reality com
 
 ### The Licensed Home of The Traitors Ireland
 
-The Traitors Ireland airs on RTÉ One and is available to stream through RTÉ Player, RTÉ's free official streaming service. Because it's a home-grown production, there's no confusion around licensing deals or regional rights changing hands between platforms - RTÉ holds the show and makes it available both for live broadcast and on-demand viewing.
+The Traitors Ireland airs on RTÉ One and is available to stream through [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), RTÉ's free official streaming service. Because it's a home-grown production, there's no confusion around licensing deals or regional rights changing hands between platforms - RTÉ holds the show and makes it available both for live broadcast and on-demand viewing.
 
 If you want to watch as episodes air, simply tune into RTÉ One at the scheduled broadcast time. For anyone who prefers to watch later, or who wants to binge earlier episodes before the next instalment drops, RTÉ Player carries full episodes shortly after broadcast. As always with catch-up availability, it's worth double-checking the RTÉ Player app or website directly, since exact windows for how long episodes stay up can vary by series.
 
@@ -69,6 +69,8 @@ Many newer smart TVs also come with the RTÉ Player app built in, so if you've g
 ### Keeping Up With New Episodes
 
 Because The Traitors Ireland is appointment viewing for a lot of people, setting a reminder for the weekly broadcast slot on RTÉ One is a good habit if you want to watch along with everyone else and avoid spoilers on social media. For everyone else, RTÉ Player remains the reliable, free, and fully legal way to catch up whenever suits you.
+
+**Related guides:** [RTÉ Player App Review: What's Good and What's Missing](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) · [Can The TV Show Love/Hate Still Be Streamed?](/watch-guides/can-the-tv-show-love-hate-still-be-streamed/)
 
 {% include product-showcase.html category="Watch Guides" %}
 

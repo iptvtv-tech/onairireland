@@ -1,7 +1,7 @@
 ---
 title: "Paramount+ in Ireland: Is It Worth Subscribing?"
-excerpt: "A look at what Paramount+ costs in Ireland, what you can actually watch on it, and whether it's worth adding to your streaming lineup alongside Netflix and Disney+."
-description: "A look at what Paramount+ costs in Ireland, what you can actually watch on it, and whether it's worth adding to your streaming lineup alongside Netflix and Disney+."
+excerpt: "Paramount+ in Ireland: what it costs, what you can watch, and whether it's worth adding alongside Netflix and Disney+."
+description: "Paramount+ in Ireland: what it costs, what you can watch, and whether it's worth adding alongside Netflix and Disney+."
 categories:
   - Streaming-Services
 tags:
@@ -39,7 +39,7 @@ For Irish viewers who grew up on Sky or Virgin Media bundles, Paramount+ is a sl
 
 ### Pricing in Ireland
 
-Paramount+ pricing has shifted a few times since launch, and we'd recommend checking the official site before you commit, since we don't want to quote you a figure that's gone out of date. As a rough guide, it has generally sat below Netflix's mid-tier plan and around the same range as Disney+, often with an annual option that works out cheaper per month than paying monthly. There may also be a limited free trial period, though the length and availability of this can change without much notice.
+Paramount+ pricing has shifted a few times since launch, and we'd recommend checking the official site before you commit, since we don't want to quote you a figure that's gone out of date. As a rough guide, it has generally sat below Netflix's mid-tier plan and around the same range as [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/), often with an annual option that works out cheaper per month than paying monthly. There may also be a limited free trial period, though the length and availability of this can change without much notice.
 
 ## What Can You Actually Watch?
 
@@ -73,6 +73,8 @@ Streaming quality is only half the picture — audio matters just as much for di
 ## Final Verdict
 
 Paramount+ isn't essential for everyone, but if *Star Trek* is your thing, or you want a lower-cost extra alongside Netflix or Disney+, it's a reasonable addition. Just keep an eye on pricing, since promotional rates and trial offers tend to shift, and always confirm current terms on the official Paramount+ site before subscribing.
+
+**Related guides:** [Disney+ Ireland: Plans, Pricing and What's Worth Watching in 2026](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) · [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

@@ -1,7 +1,7 @@
 ---
-title: "How to Set Up Virgin Media Player on a Samsung Smart TV"
-excerpt: "A practical, step-by-step guide to installing, signing into, and troubleshooting the Virgin Media Player app on a Samsung Tizen smart TV."
-description: "A practical, step-by-step guide to installing, signing into, and troubleshooting the Virgin Media Player app on a Samsung Tizen smart TV."
+title: "How to Set Up Virgin Media Play on a Samsung Smart TV"
+excerpt: "A practical, step-by-step guide to installing, signing into, and troubleshooting the Virgin Media Play app on a Samsung Tizen smart TV."
+description: "A practical, step-by-step guide to installing, signing into, and troubleshooting the Virgin Media Play app on a Samsung Tizen smart TV."
 categories:
   - Installation-Guides
 tags:
@@ -20,9 +20,9 @@ affiliate_links: true
 
 {% include share-buttons.html %}
 
-## Getting Started with Virgin Media Player on Samsung TVs
+## Getting Started with Virgin Media Play on Samsung TVs
 
-Virgin Media Player is the official app that lets Virgin Media Ireland broadband and TV customers stream live channels, catch-up content, and on-demand shows directly through supported smart TVs. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
+[Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) is the official app that lets Virgin Media Ireland broadband and TV customers stream live channels, catch-up content, and on-demand shows directly through supported smart TVs. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
 
 This guide walks through the process from checking compatibility to signing in and fixing common issues.
 
@@ -30,7 +30,7 @@ This guide walks through the process from checking compatibility to signing in a
 
 Before installing anything, it's worth confirming a few basics:
 
-- **You need an active Virgin Media subscription** that includes TV services. A broadband-only account will not give you access to the Virgin Media Player content.
+- **You need an active Virgin Media subscription** that includes TV services. A broadband-only account will not give you access to the Virgin Media Play content.
 - **Your Samsung TV should be reasonably recent.** Tizen-based Samsung Smart TVs from roughly the last several years typically support the app, but exact compatibility can vary by model year and region. If you're unsure whether your specific model is supported, it's best to check Samsung's or Virgin Media's official support pages, as we can't guarantee every model works.
 - **A stable internet connection** is essential, ideally via ethernet or a strong Wi-Fi signal, since streaming quality depends heavily on your connection.
 
@@ -46,9 +46,9 @@ Press the **Home** button on your Samsung remote to bring up the Smart Hub inter
 
 From the Smart Hub, navigate to the section usually labelled **Apps**. This opens Samsung's app marketplace, where you can search for and download apps compatible with your TV.
 
-### Step 4: Search for Virgin Media Player
+### Step 4: Search for Virgin Media Play
 
-Use the search function within the Apps section and type in "Virgin Media Player." Select the official app when it appears in the results. Double-check that the publisher listed is Virgin Media, since app store listings can sometimes be confusing if there are similarly named apps.
+Use the search function within the Apps section and type in "Virgin Media Play." Select the official app when it appears in the results. Double-check that the publisher listed is Virgin Media, since app store listings can sometimes be confusing if there are similarly named apps.
 
 ### Step 5: Install the App
 
@@ -56,9 +56,9 @@ Select **Install** and wait for the download to complete. This should only take 
 
 ### Step 6: Sign In
 
-Open the Virgin Media Player app and you'll be prompted to sign in. You'll typically need your Virgin Media account credentials, the same ones used for My Virgin Media online or the mobile app. If you've never set up online account access, you may need to register first via Virgin Media's website before you can log in on the TV.
+Open the Virgin Media Play app and you'll be prompted to sign in. You'll typically need your Virgin Media account credentials, the same ones used for My Virgin Media online or the mobile app. If you've never set up online account access, you may need to register first via Virgin Media's website before you can log in on the TV.
 
-Some Samsung TV apps also support a "sign in on another device" option, where you visit a short web address on your phone or computer and enter a code shown on the TV screen. Whether Virgin Media Player offers this exact method isn't something we can confirm with certainty, so treat the on-screen instructions as the authoritative guide during setup.
+Some Samsung TV apps also support a "sign in on another device" option, where you visit a short web address on your phone or computer and enter a code shown on the TV screen. Whether Virgin Media Play offers this exact method isn't something we can confirm with certainty, so treat the on-screen instructions as the authoritative guide during setup.
 
 ### Step 7: Start Streaming
 
@@ -73,7 +73,9 @@ Once signed in, you should see your available channels and on-demand content. Br
 
 ## Final Thoughts
 
-Setting up Virgin Media Player on a Samsung Smart TV is generally straightforward, provided your TV model is supported and your subscription is active. If you run into persistent problems, Virgin Media's customer support team is the best point of contact, as they can check account-specific issues that go beyond general setup steps.
+Setting up Virgin Media Play on a Samsung Smart TV is generally straightforward, provided your TV model is supported and your subscription is active. If you run into persistent problems, Virgin Media's customer support team is the best point of contact, as they can check account-specific issues that go beyond general setup steps.
+
+**Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/)
 
 {% include product-showcase.html category="Installation Guides" %}
 {% include related-posts.html %}

@@ -33,11 +33,11 @@ faqs:
 
 ## Roku vs Fire TV Stick: Which Should You Buy?
 
-If you're setting up a telly for streaming and don't fancy the built-in smart TV apps, a small streaming stick is usually the easiest fix. In Ireland, the two most talked-about budget options are Roku and Amazon's Fire TV Stick range. Both do a similar job, but there are real differences worth knowing before you spend your money.
+If you're setting up a telly for streaming and don't fancy the built-in smart TV apps, a small streaming stick is usually the easiest fix. In Ireland, the two most talked-about budget options are [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) and Amazon's Fire TV Stick range. Both do a similar job, but there are real differences worth knowing before you spend your money.
 
 ### Price and Availability
 
-Fire TV Sticks tend to be widely stocked in Ireland through Amazon and most major electronics retailers, with frequent sales around events like Black Friday. The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is generally the mid-range option in the lineup, sitting between the cheaper HD-only stick and the pricier Fire TV Cube.
+[Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/)s tend to be widely stocked in Ireland through Amazon and most major electronics retailers, with frequent sales around events like Black Friday. The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is generally the mid-range option in the lineup, sitting between the cheaper HD-only stick and the pricier Fire TV Cube.
 
 Roku devices, including the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41), are also available to Irish shoppers, though historically Roku has had a smaller retail footprint in Ireland compared to the UK or US. It's worth checking current stock and pricing directly, as availability can shift more than it does with Amazon's own hardware.
 
@@ -45,7 +45,7 @@ We won't quote exact euro prices here since they change regularly with sales and
 
 ### App Selection
 
-This is where things get genuinely important for Irish viewers. Both platforms support the major Irish and UK streaming apps that most people want, including the RTÉ Player, Virgin Media Player, Netflix, Disney+, and Prime Video, though exact app availability can vary by region and firmware version, so it's worth checking the device's own app store listing before you buy if a specific app is a dealbreaker.
+This is where things get genuinely important for Irish viewers. Both platforms support the major Irish and UK streaming apps that most people want, including the [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Virgin Media Play, Netflix, Disney+, and Prime Video, though exact app availability can vary by region and firmware version, so it's worth checking the device's own app store listing before you buy if a specific app is a dealbreaker.
 
 Fire TV's interface is built around Amazon's ecosystem, which makes sense given it's an Amazon product — Prime Video is front and centre, though other apps are easy enough to find via search or the home screen rails.
 
@@ -59,11 +59,11 @@ Fire TV's remote includes voice search via Alexa, which can be handy for searchi
 
 One small but common annoyance with any streaming remote is losing it in the couch cushions. A [glow in the dark remote cover case](https://amzn.to/3UXJaXL) is a cheap way to make it easier to spot in a dark room, regardless of which device you go with.
 
-### What About Chromecast or Fire TV Cube?
+### What About Google TV or Fire TV Cube?
 
-If neither Roku nor Fire TV Stick feels quite right, there are two other options worth a mention. The [Chromecast with Google TV](https://amzn.to/3VpfanK) offers a similar experience built around Google's interface and works well if you're already embedded in the Google ecosystem with an Android phone.
+If neither Roku nor Fire TV Stick feels quite right, there are two other options worth a mention. The [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), which replaced the discontinued Chromecast with Google TV, offers a similar experience built around Google's interface and works well if you're already embedded in the Google ecosystem with an Android phone.
 
-For those wanting more power for gaming-adjacent features or hands-free voice control, the [Amazon Fire TV Cube](https://amzn.4cLlYlI) sits above the standard Fire TV Stick, though it's a bigger investment and probably overkill for anyone who just wants Netflix and RTÉ Player on the main TV.
+For those wanting more power for gaming-adjacent features or hands-free voice control, the [Amazon Fire TV Cube](https://amzn.to/4cLlYlI) sits above the standard Fire TV Stick, though it's a bigger investment and probably overkill for anyone who just wants Netflix and RTÉ Player on the main TV.
 
 ### Which Should You Buy?
 

@@ -33,7 +33,7 @@ faqs:
 
 ## The Bear Is Streaming on Disney+ in Ireland
 
-If you've been hearing the buzz about Carmy, the Berzatto family, and the chaotic beauty of a Chicago kitchen trying to reinvent itself, you'll be glad to know you don't need anything unusual to watch it here in Ireland. The Bear is available legally through Disney+, and it sits under the Star content hub rather than the main Disney-branded tiles.
+If you've been hearing the buzz about Carmy, the Berzatto family, and the chaotic beauty of a Chicago kitchen trying to reinvent itself, you'll be glad to know you don't need anything unusual to watch it here in Ireland. The Bear is available legally through [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/), and it sits under the Star content hub rather than the main Disney-branded tiles.
 
 This trips a lot of people up. Disney+ in Ireland and the UK bundles in a lot of more adult-oriented content — think FX and Hulu-originated shows — under the Star banner, separate from the family-friendly Marvel and Pixar sections. The Bear, being an FX production with plenty of kitchen-floor swearing and intensity, lives there.
 
@@ -67,6 +67,8 @@ Whichever device you choose, the core steps are the same: download the Disney+ a
 Streaming rights can change, and shows occasionally move between platforms as licensing deals are renegotiated. At the time of writing, The Bear's home in Ireland is Disney+ via the Star hub, but if you ever find it's not showing up as expected, it's worth double-checking directly on the Disney+ app or site rather than assuming it's disappeared entirely. Broadcasters and streamers do update their catalogues, and search functions within these apps are generally the most accurate source of truth.
 
 There's no need to look beyond an official, licensed subscription to catch up on Carmy and the crew — it's all sitting there on Disney+, ready to binge.
+
+**Related guides:** [Disney+ Ireland: Plans, Pricing and What's Worth Watching in 2026](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) · [Where to Watch Wednesday Season 2 Legally in Ireland](/watch-guides/where-to-watch-wednesday-season-2-legally-in-ireland/)
 
 {% include product-showcase.html category="Watch Guides" %}
 

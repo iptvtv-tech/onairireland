@@ -67,14 +67,14 @@ If you use a separate soundbar or AV receiver, check its settings too, as delay 
 If you're using an external streaming device rather than your TV's built-in apps, the fix might live on the device instead.
 
 - **Fire TV Stick or Fire TV Cube**: check the audio settings within the specific app you're watching, as some apps (like certain sports or catch-up services) have their own sync controls separate from the device-wide settings.
-- **Roku devices**: a system restart often resolves minor drift, and it's worth checking that your Roku software is up to date.
+- **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices**: a system restart often resolves minor drift, and it's worth checking that your Roku software is up to date.
 - **Chromecast**: since it relies on your phone or another device to cast, try restarting the casting app on your phone as well as the Chromecast itself.
 
 If sync problems persist across multiple apps on the same device, the device's own hardware or an outdated HDMI cable could be a factor, and swapping the HDMI cable is a cheap first step before assuming the device is faulty.
 
 ## When It's a Network Problem
 
-Sometimes what looks like an audio delay is actually buffering that's affecting audio and video slightly differently. If your connection is struggling, streams may drop frames or briefly stall, which can throw sync off temporarily.
+Sometimes what looks like an audio delay is actually [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) that's affecting audio and video slightly differently. If your connection is struggling, streams may drop frames or briefly stall, which can throw sync off temporarily.
 
 Signs your network might be the culprit:
 

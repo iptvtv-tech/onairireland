@@ -15,7 +15,7 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Does the Google TV Streamer work with RTÉ Player and Virgin Media Player?"
+  - question: "Does the Google TV Streamer work with RTÉ Player and Virgin Media Play?"
     answer: "Yes, both apps are available on Google TV in Ireland, the same as they are on Fire TV and Roku devices."
   - question: "Do I need a Chromecast as well if I buy the Google TV Streamer?"
     answer: "No, casting functionality is built into the device, so a separate Chromecast dongle isn't required."
@@ -33,7 +33,7 @@ faqs:
 
 ## Google TV Streamer Review: Should You Switch From Fire TV?
 
-Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a Fire TV Stick, you might be wondering whether it's worth the switch. We've put it through its paces with the Irish app landscape in mind.
+Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/), you might be wondering whether it's worth the switch. We've put it through its paces with the Irish app landscape in mind.
 
 ### What Is the Google TV Streamer?
 
@@ -43,7 +43,7 @@ The interface is the familiar Google TV layout: a scrolling homepage with recomm
 
 ### Setting It Up in Ireland
 
-Setup works the same way it does anywhere else: connect to your Google account, pick your home Wi-Fi, and install apps from the Play Store. For Irish viewers, all the big names are present and correct - RTÉ Player, Virgin Media Player, Sky's streaming apps where applicable, Netflix, Disney+, Apple TV+, and Prime Video all have Google TV versions.
+Setup works the same way it does anywhere else: connect to your Google account, pick your home Wi-Fi, and install apps from the Play Store. For Irish viewers, all the big names are present and correct - [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Virgin Media Play, Sky's streaming apps where applicable, Netflix, Disney+, Apple TV+, and Prime Video all have Google TV versions.
 
 One thing worth flagging: your Google Play Store region should match your actual billing address and country for the correct catalogue of apps to show up. If you've ever set up a Google account while living abroad, it's worth double-checking your account's country setting in the Play Store menu, since a mismatched region can cause certain apps or the Google TV free channels to look different or incomplete. This is a genuine account settings issue, not a content-blocking one, and Google's own support pages talk you through changing it.
 
@@ -51,7 +51,7 @@ One thing worth flagging: your Google Play Store region should match your actual
 
 Amazon's Fire TV Stick range is still the most common streaming device in Irish homes, largely because it's cheap, widely stocked, and dead simple to set up. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) in particular is a strong performer for the price, with quick app loading and support for all the major Irish streaming apps.
 
-The core difference is the operating system. Fire TV's interface leans heavily on promoting Amazon's own Prime Video content, while Google TV's homepage feels a little more neutral, pulling recommendations from whichever apps you actually use. Neither is objectively "better" for RTÉ Player or Virgin Media Player, since both platforms support these apps fully.
+The core difference is the operating system. Fire TV's interface leans heavily on promoting Amazon's own Prime Video content, while Google TV's homepage feels a little more neutral, pulling recommendations from whichever apps you actually use. Neither is objectively "better" for RTÉ Player or [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), since both platforms support these apps fully.
 
 Remote controls are broadly similar too, both include voice search, a mic button, and shortcut buttons for a couple of big streaming names. If you already own a pile of Fire TV Sticks around the house, switching just one room to Google TV might feel like an unnecessary complication rather than an upgrade.
 

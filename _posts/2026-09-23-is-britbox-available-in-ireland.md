@@ -67,6 +67,8 @@ For anyone who splits their viewing between the living room and other parts of t
 
 BritBox is a legitimate, properly licensed option for Irish viewers who want access to British archive content. Signing up directly through the official app with your correct country and app store settings is the simplest way to ensure you see the right catalogue and pricing for Ireland.
 
+**Related guides:** [Is Discovery+ Available in Ireland?](/streaming-services/is-discovery-available-in-ireland/) · [HBO Max in Ireland: Is It Available and How Do You Get It?](/news/is-hbo-max-coming-to-ireland/)
+
 {% include product-showcase.html category="Streaming Services" %}
 
 {% include faq-section.html %}

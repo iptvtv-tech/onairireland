@@ -33,7 +33,7 @@ faqs:
 
 ## Why Bother With a Separate Streaming Stick?
 
-If your telly already has a NOW app baked in, buying another gadget to plug into the HDMI port might seem like a waste of money. That's a fair question, and this guide weighs up the two options for everyday viewing - sport, entertainment and background channels like Sky Sports News.
+If your telly already has a [NOW](/streaming-services/sky-stream-vs-now-ireland/) app baked in, buying another gadget to plug into the HDMI port might seem like a waste of money. That's a fair question, and this guide weighs up the two options for everyday viewing - sport, entertainment and background channels like Sky Sports News.
 
 The short version: the dedicated stick wins on speed and reliability, but there are real trade-offs worth knowing about before you spend anything.
 
@@ -57,7 +57,7 @@ The usual reason is that purpose-built streaming devices tend to get software up
 
 It's worth putting the NOW stick in context against other well-known streaming devices on the Irish market. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) is a strong all-rounder if you want one device to handle NOW alongside other streaming apps, and its interface is generally quicker than most built-in smart TV menus.
 
-If you'd rather have a remote with a simpler, less cluttered menu, the [Roku Ultra](https://amzn.to/4hbNJFw) is another solid option - Roku's platform tends to be less pushy about promoting its own content over what you actually want to watch. Fire TV Cube and the Google TV Streamer are also worth a look if you're shopping around.
+If you'd rather have a remote with a simpler, less cluttered menu, the [Roku Ultra](https://amzn.to/4hbNJFw) is another solid option - [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s platform tends to be less pushy about promoting its own content over what you actually want to watch. Fire TV Cube and the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) are also worth a look if you're shopping around.
 
 ## Remote Control and Usability
 

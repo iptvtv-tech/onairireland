@@ -37,7 +37,7 @@ quick_facts:
 
 - **Amazon Fire TV Stick** — wide app support, affordable. [Check price on Amazon](https://amzn.to/46bV2aZ)
 - **Fire TV Cube** — the premium, hands-free option with built-in Alexa voice control.
-- **Google TV Streamer** — Google's current box, which replaced the discontinued Chromecast with Google TV in 2024.
+- **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/)** — Google's current box, which replaced the discontinued Chromecast with Google TV in 2024.
 - **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Android TV) — no extra device needed
 
 
@@ -46,6 +46,8 @@ quick_facts:
 Stick to official retailers — [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [DID Electrical](https://www.did.ie/), [Power City](https://www.powercity.ie/), or the manufacturer's own site — to ensure warranty and legitimate hardware.
 
 
+
+**Related guides:** [Roku Streaming Devices: Are They Worth Buying in Ireland?](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) · [Best Budget Streaming Sticks for Irish Homes in 2026](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/)
 
 {% include product-showcase.html category="Devices" title="Our Picks: Streaming Devices" %}
 {% include related-posts.html %}

@@ -33,7 +33,7 @@ faqs:
 
 ## Getting Disney+ Ready on Your LG Smart TV
 
-Disney+ is available as a native app on most LG Smart TVs running webOS, which means Irish viewers can stream everything from Marvel to Pixar without needing an extra box plugged in. That said, a few older LG models may not support the app at all, so it's worth checking your TV's webOS version before you start. If your telly is more than five or six years old, you may need to check LG's official support pages for compatibility, as we can't confirm exact cut-off years here.
+[Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) is available as a native app on most LG Smart TVs running webOS, which means Irish viewers can stream everything from Marvel to Pixar without needing an extra box plugged in. That said, a few older LG models may not support the app at all, so it's worth checking your TV's webOS version before you start. If your telly is more than five or six years old, you may need to check LG's official support pages for compatibility, as we can't confirm exact cut-off years here.
 
 Here's how to get everything set up properly.
 
@@ -80,6 +80,8 @@ If the app crashes, freezes, or won't load content, try these steps in order:
 4. As a last resort, uninstall and reinstall the Disney+ app.
 
 If your LG TV doesn't support Disney+ at all, or the app performance is consistently poor, plugging in an external device such as a Fire TV Stick, Fire TV Cube, Roku, or Chromecast is a reliable workaround worth considering.
+
+**Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/)
 
 {% include product-showcase.html category="Installation Guides" %}
 

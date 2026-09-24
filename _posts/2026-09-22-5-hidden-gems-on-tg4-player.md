@@ -33,7 +33,7 @@ faqs:
  
 ## Why TG4 Player Deserves More of Your Time
 
-TG4 Player often gets overlooked in favour of the bigger streaming names, but it's one of the best free resources available to anyone in Ireland. Every episode is free to watch, no subscription or sign-in required for most content, and the archive stretches back further than most people realise. Beyond the main soaps and news bulletins, there's a genuinely rich catalogue of dramas, documentaries and archive footage sitting quietly on the platform, waiting to be discovered.
+[TG4 Player](/streaming-services/tg4-player-what-you-get-for-free/) often gets overlooked in favour of the bigger streaming names, but it's one of the best free resources available to anyone in Ireland. Every episode is free to watch, no subscription or sign-in required for most content, and the archive stretches back further than most people realise. Beyond the main soaps and news bulletins, there's a genuinely rich catalogue of dramas, documentaries and archive footage sitting quietly on the platform, waiting to be discovered.
 
 Here are five hidden gems worth digging out.
 
@@ -70,6 +70,8 @@ Whichever method you choose, it's worth confirming the TG4 Player app is availab
 ## A Quick Word on Access
 
 TG4 Player is a free, publicly accessible service intended for viewers in Ireland, and no special account setup should be needed beyond what's outlined on TG4's own website. If you ever run into a message saying content isn't available, the most likely explanations are a temporary technical issue or a licensing restriction on that particular archive clip, both of which are best resolved by checking TG4's own help pages or contacting their support team directly.
+
+**Related guides:** [How to Set Up RTÉ Player on an Amazon Fire TV Stick](/installation-guides/how-to-set-up-rte-player-fire-tv/) · [RTÉ Player App Review: What's Good and What's Missing](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/)
 
 {% include product-showcase.html category="Watch Guides" %}
 

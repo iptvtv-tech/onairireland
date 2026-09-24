@@ -33,7 +33,7 @@ faqs:
 
 ## Getting NOW Onto Your Smart TV
 
-NOW has become one of the most popular ways for Irish viewers to catch Sky-owned content, entertainment, and sport without signing up to a full satellite package. If you've got a Samsung or LG smart TV sitting in your living room, there's a good chance you can install the NOW app directly, no extra streaming stick required. Here's how to get it up and running.
+[NOW](/streaming-services/sky-stream-vs-now-ireland/) has become one of the most popular ways for Irish viewers to catch Sky-owned content, entertainment, and sport without signing up to a full satellite package. If you've got a Samsung or LG smart TV sitting in your living room, there's a good chance you can install the NOW app directly, no extra streaming stick required. Here's how to get it up and running.
 
 Before you start, it's worth checking that your TV is connected to a stable broadband connection. NOW relies heavily on streaming quality, and a shaky Wi-Fi signal is the most common reason people run into buffering issues. If your smart TV lives in a room far from your router, upgrading to a [Mesh Wi-Fi System (2-pack)](https://amzn.to/3UGxqJd) can make a noticeable difference, especially in older homes with thick walls.
 
@@ -73,6 +73,8 @@ If you're connecting any external streaming device, it's worth using a decent [H
 Once NOW is installed and you're signed in, take a moment to check your video quality settings within the app itself, these are sometimes found under an account or playback settings menu, though exact wording can vary depending on app updates. If you're mounting or repositioning your TV to get a better view for movie nights, an [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr) can help you angle the screen properly and tidy away cables at the same time.
 
 Finally, remember that NOW operates on a membership basis covering different content passes (such as entertainment, sport, or cinema), so make sure you've selected and are paying for the correct pass for the content you actually want to watch. Pricing and available passes change from time to time, so it's best to check the official NOW website or app directly for current details rather than relying on older information.
+
+**Related guides:** [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/) · [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/)
 
 {% include product-showcase.html category="Installation Guides" %}
 

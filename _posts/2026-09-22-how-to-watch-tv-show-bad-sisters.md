@@ -51,9 +51,9 @@ The good news is that Apple TV+ has a genuinely broad reach when it comes to dev
 
 If you're using a **Fire TV Stick**, Apple TV+ is available directly from the Amazon Appstore on the device. The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid, affordable option if you're setting up a spare room TV or replacing an older streaming device, and it handles the Apple TV+ app smoothly alongside everything else you'd expect, like Netflix and Prime Video.
 
-Roku devices also support Apple TV+ natively through the Roku Channel Store. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
+[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices also support Apple TV+ natively through the Roku Channel Store. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
 
-Chromecast with Google TV is another option that supports the Apple TV+ app directly, with a similar setup process — download from the on-device store, sign in, and you're ready to go.
+Google TV devices, including the Google TV Streamer and older Chromecast with Google TV models, also support the Apple TV app directly, with a similar setup process — download from the on-device store, sign in, and you're ready to go.
 
 If your main viewing setup involves a satellite or digital TV box rather than a dedicated streaming stick, it's worth checking whether smart apps are supported on that hardware, or whether you'll need to run a separate streaming device alongside it. Some households pair an [HD Satellite Receiver](https://amzn.to/4hibfjU) for regular channels with a separate streaming stick for on-demand apps like Apple TV+, which keeps things simple without needing a full smart TV upgrade.
 
@@ -68,6 +68,8 @@ If you hit an error suggesting the show or the service isn't available, double-c
 ### A Quick Note on Confirming Availability
 
 Streaming libraries and exclusivity deals can shift over time, so while Bad Sisters currently sits on Apple TV+, it's always worth a quick check on the app or the service's official site if you're planning a binge, just to confirm the series and its seasons are still listed as expected.
+
+**Related guides:** [Where to Watch Slow Horses Season 6 Legally in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/) · [How to Watch TV Show Father Ted](/watch-guides/how-to-watch-tv-show-father-ted/)
 
 {% include product-showcase.html category="Watch Guides" %}
 

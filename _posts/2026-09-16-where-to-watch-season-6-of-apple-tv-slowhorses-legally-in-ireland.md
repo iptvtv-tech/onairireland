@@ -29,7 +29,7 @@ Slow Horses has built a loyal following in Ireland thanks to its sharp writing a
 
 **The short answer: Apple TV.** Slow Horses is an Apple original series, so every season — including Season 6 — streams on Apple's subscription service, Apple TV (called Apple TV+ until late 2025), which is available in Ireland. Season 6 premiered on 15 September 2026, with new episodes weekly on Wednesdays until 21 October.
 
-The Apple TV app is available on Apple devices, most recent smart TVs (including Samsung and LG), Fire TV, Roku, Google TV devices and games consoles, and you can also watch in a web browser at tv.apple.com.
+The Apple TV app is available on Apple devices, most recent smart TVs (including Samsung and LG), Fire TV, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), Google TV devices and games consoles, and you can also watch in a web browser at tv.apple.com.
 
 ## Getting Set Up: Devices and Apps
 
@@ -39,7 +39,7 @@ The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid, affordable op
 
 If you'd prefer an alternative, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another well-regarded option, known for its clean, straightforward interface and broad app support. Roku devices tend to be praised for how easy they make it to search across multiple services at once, which is handy when you're juggling several subscriptions.
 
-Fire TV Cube is worth a look too if you want a more powerful, voice-controlled option with faster processing, while Chromecast remains a budget-friendly way to stream from a phone or laptop straight to your television. Whichever device you choose, make sure its app store is up to date, as streaming apps are updated frequently and an outdated version can cause playback issues or missing content.
+Fire TV Cube is worth a look too if you want a more powerful, voice-controlled option with faster processing, while the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced Chromecast) suits Android households. Whichever device you choose, make sure its app store is up to date, as streaming apps are updated frequently and an outdated version can cause playback issues or missing content.
 
 ## Catching Up on Earlier Seasons
 

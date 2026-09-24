@@ -68,6 +68,8 @@ Streaming libraries and content licensing can shift, though originals like Squid
 
 For now, though, the answer for Squid Game in Ireland remains simple and consistent: Netflix is the one legal place to watch it.
 
+**Related guides:** [Where to Watch Stranger Things' Final Season in Ireland](/watch-guides/where-to-watch-stranger-things-final-season-in-ireland/) · [Where to Watch Wednesday Season 2 Legally in Ireland](/watch-guides/where-to-watch-wednesday-season-2-legally-in-ireland/)
+
 {% include product-showcase.html category="Watch Guides" %}
 
 {% include faq-section.html %}

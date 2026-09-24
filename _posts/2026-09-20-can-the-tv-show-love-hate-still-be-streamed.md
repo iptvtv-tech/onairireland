@@ -35,7 +35,7 @@ faqs:
 
 Love/Hate remains one of the most talked-about Irish dramas of the last two decades, and the good news is that it hasn't disappeared from legal streaming entirely. As an RTÉ-produced series, the show's natural home in Ireland is the [RTÉ Player](https://www.rte.ie/player/), which has carried the full run of the series across its various seasons in the past.
 
-That said, streaming libraries change more often than viewers expect. Broadcasters periodically rotate box sets in and out depending on rights agreements, so even a well-known Irish title like Love/Hate can appear, disappear, and reappear on the RTÉ Player over time. Before you settle in for a binge, it's worth doing a quick search within the RTÉ Player app itself to confirm all five seasons are currently listed, rather than relying on what was there last year.
+That said, streaming libraries change more often than viewers expect. Broadcasters periodically rotate box sets in and out depending on rights agreements, so even a well-known Irish title like Love/Hate can appear, disappear, and reappear on the [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) over time. Before you settle in for a binge, it's worth doing a quick search within the RTÉ Player app itself to confirm all five seasons are currently listed, rather than relying on what was there last year.
 
 If you find that some or all seasons aren't currently up on RTÉ Player, it's not necessarily gone for good. Irish broadcasters do sometimes bring back older domestic drama for anniversary runs or after renewing distribution deals, so it's worth checking back periodically.
 
@@ -51,7 +51,7 @@ The RTÉ Player works through a web browser, but most people find it far more co
 
 If you're using a [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B), you'll find the RTÉ Player app in the Amazon app store, and it installs in much the same way as Netflix or any other streaming app. Fire TV devices are a popular choice in Irish households because they're affordable and simple to set up with just an HDMI port and a WiFi connection.
 
-A [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another solid option, and Roku's channel store also carries the RTÉ Player app, along with the other main Irish and UK broadcaster apps. Roku devices are known for a straightforward, no-fuss interface, which suits anyone who just wants to find their shows quickly without digging through menus.
+A [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another solid option, and [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s channel store also carries the RTÉ Player app, along with the other main Irish and UK broadcaster apps. Roku devices are known for a straightforward, no-fuss interface, which suits anyone who just wants to find their shows quickly without digging through menus.
 
 Chromecast and many modern smart TVs also support RTÉ Player, either as a built-in app or through casting from a phone or tablet. If you're watching on a smart TV directly, it's worth checking that the software is up to date, since older TV operating systems sometimes stop receiving app updates and can lose access to certain streaming apps over time.
 

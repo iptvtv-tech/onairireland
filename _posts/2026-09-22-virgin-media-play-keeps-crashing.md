@@ -1,7 +1,7 @@
 ---
 title: "Virgin Media Play Keeps Crashing"
-excerpt: "A practical troubleshooting guide for Irish viewers whose Virgin Media Play app keeps freezing or crashing, covering common causes and fixes across devices."
-description: "A practical troubleshooting guide for Irish viewers whose Virgin Media Play app keeps freezing or crashing, covering common causes and fixes across devices."
+excerpt: "Virgin Media Play keeps freezing or crashing? The common causes and step-by-step fixes for phones, smart TVs and streaming sticks."
+description: "Virgin Media Play keeps freezing or crashing? The common causes and step-by-step fixes for phones, smart TVs and streaming sticks."
 categories:
   - Troubleshooting
 tags:
@@ -33,7 +33,7 @@ faqs:
  
 ## Virgin Media Play Keeps Crashing
 
-If Virgin Media Play has been freezing mid-programme, closing itself without warning, or refusing to load at all, you're not imagining it. This is one of the more common complaints from streaming customers in Ireland, and thankfully most causes are things you can fix yourself without waiting on a callback.
+If [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) has been freezing mid-programme, closing itself without warning, or refusing to load at all, you're not imagining it. This is one of the more common complaints from streaming customers in Ireland, and thankfully most causes are things you can fix yourself without waiting on a callback.
 
 Below we've broken down the usual culprits and the practical steps that tend to sort them out, whether you're using the app on a smart TV, a streaming stick, or a phone.
 
@@ -55,7 +55,7 @@ First, fully close the app rather than just leaving it running in the background
 
 Next, restart the device itself. It sounds obvious, but a simple power cycle clears temporary memory issues that build up over days or weeks of use, and it resolves a surprising number of crashing complaints.
 
-If that doesn't help, check for updates. Both the Virgin Media Play app and your device's system software should be kept current. On Fire TV Stick and Fire TV Cube devices, updates are usually found under Settings > My Fire TV > About. On Roku, check Settings > System > System Update. Menu wording can vary slightly depending on software version, so if you can't find the exact option, a quick look through the settings menu should reveal something close.
+If that doesn't help, check for updates. Both the Virgin Media Play app and your device's system software should be kept current. On Fire TV Stick and [Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) devices, updates are usually found under Settings > My Fire TV > About. On Roku, check Settings > System > System Update. Menu wording can vary slightly depending on software version, so if you can't find the exact option, a quick look through the settings menu should reveal something close.
 
 ### Clear Cache and Data
 
@@ -81,7 +81,7 @@ If you've tried all of the above and the app is still misbehaving, there may be 
 
 ### A Quick Note on Device Compatibility
 
-Not every device runs Virgin Media Play equally well. If you're using an older smart TV or streaming stick, it may simply lack the processing power for smooth performance. In that case, moving to a more capable device such as a Fire TV Stick, Fire TV Cube, Roku, or Chromecast can often resolve persistent crashing issues that no amount of troubleshooting will fix on ageing hardware.
+Not every device runs Virgin Media Play equally well. If you're using an older smart TV or streaming stick, it may simply lack the processing power for smooth performance. In that case, moving to a more capable device such as a Fire TV Stick, Fire TV Cube, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), or Chromecast can often resolve persistent crashing issues that no amount of troubleshooting will fix on ageing hardware.
 
 {% include product-showcase.html category="Troubleshooting" %}
 

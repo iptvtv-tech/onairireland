@@ -1,7 +1,7 @@
 ---
 title: "Netflix Ireland Price Changes for 2026: What You Need to Know"
-excerpt: "Netflix has adjusted its Irish subscription prices for 2026, and here's what we know so far about how each tier is affected and what it means for your streaming setup at home."
-description: "Netflix has adjusted its Irish subscription prices for 2026, and here's what we know so far about how each tier is affected and what it means for your streaming setup at home."
+excerpt: "Netflix has raised its Irish prices for 2026. How each plan is affected and what it means for your streaming budget."
+description: "Netflix has raised its Irish prices for 2026. How each plan is affected and what it means for your streaming budget."
 categories:
   - News
 tags:
@@ -66,6 +66,8 @@ It's also worth checking that your streaming hardware itself isn't holding you b
 Rather than reacting immediately to headlines about price changes, take a few minutes to log into your Netflix account and review your current plan, billing date, and price. Netflix usually gives advance notice by email before a price change takes effect, so keep an eye on your inbox around renewal time.
 
 If the new pricing doesn't suit your budget, consider whether a lower tier still meets your household's needs — do you really need 4K on every screen, or would the standard plan suffice? Comparing your usage honestly against the cost is the simplest way to make sure you're not overpaying in 2026.
+
+**Related guides:** [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/) · [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/)
 
 {% include product-showcase.html category="News" %}
 

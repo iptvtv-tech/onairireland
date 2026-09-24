@@ -19,9 +19,13 @@ We cover:
 
 We do not promote, link to, or provide instructions for unauthorized or unlicensed IPTV services.
 
+## Who We Are
+
+On Air Ireland is run by John Cunningham from Windgap, Co. Kilkenny. Our guides are written and edited by [Conor Walsh](/about/conor-walsh/).
+
 ## Where We're Based
 
-On Air Ireland is based in Dublin, Ireland. We write specifically for Irish viewers — pricing, availability, and legal requirements (like the TV licence) can differ from the UK or elsewhere, and being based here means we're checking against what's actually true for Ireland, not assuming it matches other markets.
+On Air Ireland is based in Co. Kilkenny, Ireland. We write specifically for Irish viewers — pricing, availability, and legal requirements (like the TV licence) can differ from the UK or elsewhere, and being based here means we're checking against what's actually true for Ireland, not assuming it matches other markets.
 
 ## Our Approach
 

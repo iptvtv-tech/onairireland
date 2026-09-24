@@ -77,6 +77,8 @@ Occasionally viewers report content appearing unavailable or restricted. In most
 
 YouTube Premium isn't essential for everyone, but it's not a bad deal either if you're a heavy user who also listens to music through YouTube Music. Light, occasional viewers will likely be perfectly happy sticking with the free version and putting up with the odd ad break.
 
+**Related guides:** [Setting Up YouTube on Your Smart TV](/installation-guides/setting-up-youtube-on-your-smart-tv/) · [5 Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
+
 {% include product-showcase.html category="Streaming Services" %}
 
 {% include faq-section.html %}

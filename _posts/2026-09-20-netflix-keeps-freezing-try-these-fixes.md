@@ -33,7 +33,7 @@ faqs:
 
 ## Why Does Netflix Keep Freezing?
 
-If Netflix keeps freezing or buffering on your smart TV, Fire TV Stick, or Roku, the cause is almost always one of a handful of things: your broadband connection, your Wi-Fi signal strength, the streaming device itself, or the Netflix app needing a refresh. The good news is that most of these are easy to diagnose and fix yourself without waiting on a technician.
+If Netflix keeps freezing or buffering on your smart TV, Fire TV Stick, or [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), the cause is almost always one of a handful of things: your broadband connection, your Wi-Fi signal strength, the streaming device itself, or the Netflix app needing a refresh. The good news is that most of these are easy to diagnose and fix yourself without waiting on a technician.
 
 Irish broadband speeds have improved a lot in recent years, but freezing issues still crop up regularly in older houses, rural areas, or homes where the router is tucked away in a hallway press. Let's go through the fixes in order of how often they solve the problem.
 
@@ -43,7 +43,7 @@ Netflix recommends at least 3 Mbps for standard definition, 5 Mbps for HD, and a
 
 ### 2. Restart Your Router and Streaming Device
 
-It sounds obvious, but a simple restart clears temporary glitches in both your router and your streaming box. Unplug your router, wait about 30 seconds, then plug it back in. Do the same with your Fire TV Stick, Roku, or Chromecast. Give everything a minute or two to fully reconnect before testing Netflix again.
+It sounds obvious, but a simple restart clears temporary glitches in both your router and your streaming box. Unplug your router, wait about 30 seconds, then plug it back in. Do the same with your [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/), Roku, or Chromecast. Give everything a minute or two to fully reconnect before testing Netflix again.
 
 ### 3. Move Closer to the Router (or Extend Your Wi-Fi)
 

@@ -1,7 +1,7 @@
 ---
 title: "Where to Watch A Knight of the Seven Kingdoms in Ireland"
-excerpt: "A guide to watching A Knight of the Seven Kingdoms in Ireland legally via Sky Atlantic and NOW, including which membership you need and the best devices to stream it on."
-description: "A guide to watching A Knight of the Seven Kingdoms in Ireland legally via Sky Atlantic and NOW, including which membership you need and the best devices to stream it on."
+excerpt: "Watch A Knight of the Seven Kingdoms in Ireland on Sky Atlantic or NOW: which membership you need and the best devices."
+description: "Watch A Knight of the Seven Kingdoms in Ireland on Sky Atlantic or NOW: which membership you need and the best devices."
 categories:
   - Watch-Guides
 tags:
@@ -37,7 +37,7 @@ George R.R. Martin's Dunk & Egg novellas have finally made it to screen with *A 
 
 ### Sky Atlantic and NOW
 
-In Ireland, HBO content typically reaches us through Sky, and that's the case here too. *A Knight of the Seven Kingdoms* is available on **Sky Atlantic** for those with a Sky subscription that includes the channel, and it's also streaming on **NOW**, Sky's standalone streaming platform that doesn't require a satellite dish or a Sky Q box.
+In Ireland, HBO content typically reaches us through Sky, and that's the case here too. *A Knight of the Seven Kingdoms* is available on **Sky Atlantic** for those with a Sky subscription that includes the channel, and it's also streaming on **[NOW](/streaming-services/sky-stream-vs-now-ireland/)**, Sky's standalone streaming platform that doesn't require a satellite dish or a Sky Q box.
 
 If you're going the NOW route, you'll need at least a **NOW Entertainment Membership** to access it, since this is where Sky Atlantic's on-demand content lives on the platform. If you already have a broader NOW package that includes Entertainment, you're covered. It's always worth double-checking your specific membership tier in the NOW app or on the NOW website before you settle in, as package names and what they include can shift over time.
 
@@ -53,9 +53,9 @@ The NOW app is broadly available across most modern streaming devices and smart 
 
 The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a popular choice in Irish households, plugging directly into your TV's HDMI port and giving you fast access to the NOW app alongside everything else you're likely already using, from other streaming services to catch-up TV apps. It supports 4K and HDR playback, which is handy if your broadband speeds and TV can make use of it.
 
-Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. Roku's interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
+Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
 
-Fire TV Cube and Chromecast are also worth considering if you're comparing devices, particularly if you already use other products in either ecosystem, since app support for NOW should be consistent across these mainstream streaming devices. Whichever you choose, just make sure the NOW app is downloaded from your device's own app store while your account and device are both set to the correct region.
+[Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) and Chromecast are also worth considering if you're comparing devices, particularly if you already use other products in either ecosystem, since app support for NOW should be consistent across these mainstream streaming devices. Whichever you choose, just make sure the NOW app is downloaded from your device's own app store while your account and device are both set to the correct region.
 
 ### A Quick Recap
 

@@ -1,7 +1,7 @@
 ---
 title: "Best Smart TVs for Streaming Apps in Ireland"
 excerpt: "Not every smart TV supports RTÉ Player natively — here's what to check before you buy."
-description: "A buying guide to smart TVs in Ireland, focused on which brands and models natively support RTÉ Player, Virgin Media Player, and the major streaming apps."
+description: "A buying guide to smart TVs in Ireland, focused on which brands and models natively support RTÉ Player, Virgin Media Play, and the major streaming apps."
 categories:
   - Devices
 tags:
@@ -31,7 +31,7 @@ If you're buying a new TV, the operating system matters as much as the screen �
 
 ## The three main platforms
 
-**Samsung (Tizen):** Samsung has run its own Tizen OS on smart TVs for years, and RTÉ Player has supported Samsung TVs from 2015 onward specifically. Tizen's app store also carries all the major names — Netflix, Disney+, Prime Video.
+**Samsung (Tizen):** Samsung has run its own Tizen OS on smart TVs for years, and [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) has supported Samsung TVs from 2015 onward specifically. Tizen's app store also carries all the major names — Netflix, Disney+, Prime Video.
 
 **LG (webOS):** LG's webOS platform natively supports RTÉ Player and covers the same major streaming apps as Samsung. webOS is generally considered one of the more polished, easy-to-navigate smart TV interfaces.
 

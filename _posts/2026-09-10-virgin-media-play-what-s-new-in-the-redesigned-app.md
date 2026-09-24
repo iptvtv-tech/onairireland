@@ -1,7 +1,7 @@
 ---
 title: "Virgin Media Play: What's New in the Redesigned App"
-excerpt: "Virgin Media has relaunched its Virgin Media Play app with a refreshed interface, easier catch-up and restart features, and wider support across phones, tablets, and smart TVs."
-description: "Virgin Media has relaunched its Virgin Media Play app with a refreshed interface, easier catch-up and restart features, and wider support across phones, tablets, and smart TVs."
+excerpt: "Virgin Media Play's redesign brings a fresh look, easier catch-up and restart, and wider support on phones, tablets and smart TVs."
+description: "Virgin Media Play's redesign brings a fresh look, easier catch-up and restart, and wider support on phones, tablets and smart TVs."
 categories:
   - Streaming-Services
 tags:
@@ -70,6 +70,8 @@ We'd recommend checking Virgin Media's official website or contacting their cust
 ## The Bottom Line
 
 The redesigned Virgin Media Play app brings a cleaner interface, more prominent live VMTV channels, and streamlined restart and catch-up tools, all while extending support across phones, tablets, smart TVs, and browsers. For existing Virgin Media customers, it's a straightforward way to bring live and on-demand Irish TV to more screens around the house — and beyond it.
+
+**Related guides:** [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/)
 
 {% include product-showcase.html category="Streaming Services" %}
 {% include related-posts.html %}

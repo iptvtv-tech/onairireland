@@ -28,13 +28,13 @@ quick_facts:
 
 ## What you need
 
-- A Fire TV Stick connected to your TV and Wi-Fi — [don't have one yet? Check price](https://amzn.to/46bV2aZ)
+- A [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) connected to your TV and Wi-Fi — [don't have one yet? Check price](https://amzn.to/46bV2aZ)
 - An Amazon account signed in on the device
 
 ## Steps
 
 1. From the Fire TV home screen, open the **Find** menu and select **Search**.
-2. Type **RTÉ Player** and select it from the results.
+2. Type **[RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/)** and select it from the results.
 3. Select **Get** or **Download** to install the app.
 4. Once installed, open RTÉ Player and select **Sign In** (or continue as a guest, depending on current app requirements).
 5. Browse live TV or catch-up content directly from the home screen.

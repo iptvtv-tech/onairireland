@@ -44,11 +44,11 @@ Apple TV 4K comes up constantly in "best streaming device" conversations, and it
 
 Apple TV 4K runs tvOS, and the polish shows — menu navigation feels faster and more consistent than most competing platforms, the remote is well designed, and if you already own an iPhone or Mac, features like AirPlay screen mirroring and Handoff make it feel genuinely integrated with the rest of your devices rather than a separate box bolted onto your TV.
 
-It supports every major Irish streaming app — RTÉ Player, Virgin Media Player, Netflix, Disney+, Sky Stream — the same as any other current streaming box, so app support isn't a differentiator here.
+It supports every major Irish streaming app — RTÉ Player, Virgin Media Play, Netflix, Disney+, Sky Stream — the same as any other current streaming box, so app support isn't a differentiator here.
 
 ## Where It Falls Short for Most Buyers
 
-The honest downside is price. Apple TV 4K sits well above comparable devices from Amazon and Roku, and for a household that isn't already using other Apple products, that premium doesn't buy you meaningfully more day-to-day streaming capability — you're mostly paying for interface polish and ecosystem integration you may never actually use.
+The honest downside is price. Apple TV 4K sits well above comparable devices from Amazon and [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), and for a household that isn't already using other Apple products, that premium doesn't buy you meaningfully more day-to-day streaming capability — you're mostly paying for interface polish and ecosystem integration you may never actually use.
 
 ## What We'd Actually Recommend
 
@@ -58,7 +58,7 @@ For everyone else, two alternatives cover nearly identical ground for less money
 
 {% include product-showcase.html category="Reviews" title="Better Value Alternatives" %}
 
-The **Fire TV Cube** adds hands-free voice control and strong performance at a noticeably lower price point, while the **Roku Ultra** is the pick if you want the simplest possible remote and menu system — both run every app an Apple TV 4K does.
+The **[Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/)** adds hands-free voice control and strong performance at a noticeably lower price point, while the **Roku Ultra** is the pick if you want the simplest possible remote and menu system — both run every app an Apple TV 4K does.
 
 ## The Bottom Line
 

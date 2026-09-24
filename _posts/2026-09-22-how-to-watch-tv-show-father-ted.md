@@ -66,6 +66,8 @@ Whichever device you choose, make sure its software is fully updated before sett
 
 There's no need to complicate watching an Irish classic like Father Ted. Stick to checking official app listings, keep your account region settings accurate, and use a properly updated streaming device. If the show isn't on a service you already pay for, the most reliable path is simply waiting for licensing to change or checking listings on traditional TV, rather than searching for workarounds.
 
+**Related guides:** [Can The TV Show Love/Hate Still Be Streamed?](/watch-guides/can-the-tv-show-love-hate-still-be-streamed/) · [How to Watch TV Show Bad Sisters](/watch-guides/how-to-watch-tv-show-bad-sisters/)
+
 {% include product-showcase.html category="Watch Guides" %}
 
 {% include faq-section.html %}

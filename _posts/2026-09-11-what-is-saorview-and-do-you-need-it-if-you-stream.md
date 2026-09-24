@@ -1,7 +1,7 @@
 ---
 title: "What Is Saorview and Do You Need It If You Stream?"
-excerpt: "Saorview is Ireland's free digital terrestrial TV service, and even streaming-first households can benefit from having it as a free, reliable backup for news, sport and Irish-language content."
-description: "Saorview is Ireland's free digital terrestrial TV service, and even streaming-first households can benefit from having it as a free, reliable backup for news, sport and Irish-language content."
+excerpt: "Saorview is Ireland's free aerial TV service. Why even streaming-first homes can use it as a free backup for news, sport and TG4."
+description: "Saorview is Ireland's free aerial TV service. Why even streaming-first homes can use it as a free backup for news, sport and TG4."
 categories:
   - Installation-Guides
 tags:
@@ -41,7 +41,7 @@ The exact channel lineup and numbering can shift slightly over time, so it's wor
 
 ## Why Would a Streaming Household Care?
 
-If you already have Netflix, an RTÉ Player-type app, and maybe a broadband-based sports package, you might wonder why you'd bother with an aerial at all. There are a few practical reasons.
+If you already have Netflix, an [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/)-type app, and maybe a broadband-based sports package, you might wonder why you'd bother with an aerial at all. There are a few practical reasons.
 
 ### It's a Free Backup When Broadband Fails
 
@@ -75,6 +75,8 @@ You'll also need a suitable aerial. In many built-up areas an indoor aerial is e
 ## The Bottom Line
 
 Saorview won't replace your streaming apps, and it isn't trying to. But as a free, no-subscription backup that guarantees access to RTÉ, TG4, and Virgin Media's main channels, it's a sensible addition for most Irish households — streaming-first or not. If you're setting up a new TV anyway, it costs little extra to make sure Saorview is working alongside your apps.
+
+**Related guides:** [Do You Need a TV Licence to Stream in Ireland?](/streaming-services/tv-licence-streaming-ireland/) · [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/)
 
 {% include product-showcase.html category="Installation Guides" %}
 

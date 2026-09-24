@@ -31,7 +31,7 @@ faqs:
  
 {% include share-buttons.html %}
  
-Disney+ has become a staple in Irish households, but even the most reliable streaming services run into hiccups from time to time. Whether it's a mysterious error code, a login that won't cooperate, or a picture that keeps freezing at the worst moment, most of these issues have straightforward fixes. Here's a rundown of the most common problems Irish users report and how to sort them.
+[Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) has become a staple in Irish households, but even the most reliable streaming services run into hiccups from time to time. Whether it's a mysterious error code, a login that won't cooperate, or a picture that keeps freezing at the worst moment, most of these issues have straightforward fixes. Here's a rundown of the most common problems Irish users report and how to sort them.
 
 ## Common Disney+ Error Codes
 
@@ -61,7 +61,7 @@ It's also worth checking how many devices are streaming simultaneously on your a
 
 ## Device-Specific Fixes
 
-If you're streaming through a Fire TV Stick, Fire TV Cube, Roku, or Chromecast, a good first step for any persistent issue is to fully restart the device rather than just closing the app. On Fire TV and Roku devices, this can usually be done through the settings menu; for Chromecast, unplugging it from power for 30 seconds often does the trick.
+If you're streaming through a Fire TV Stick, Fire TV Cube, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), or Chromecast, a good first step for any persistent issue is to fully restart the device rather than just closing the app. On Fire TV and Roku devices, this can usually be done through the settings menu; for Chromecast, unplugging it from power for 30 seconds often does the trick.
 
 Remote responsiveness issues can sometimes masquerade as app problems, when in fact it's simply weak batteries causing missed button presses. Switching to a set of [rechargeable remote batteries](https://amzn.to/4h8jsHi) is a handy long-term fix and saves you from constantly buying disposables.
 

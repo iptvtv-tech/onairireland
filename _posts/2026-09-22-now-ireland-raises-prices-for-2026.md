@@ -1,7 +1,7 @@
 ---
 title: "NOW Ireland Raises Prices for 2026"
-excerpt: "NOW Ireland is adjusting subscription prices across several of its streaming packages from early 2026, and here's what current customers need to know before their next bill lands."
-description: "NOW Ireland is adjusting subscription prices across several of its streaming packages from early 2026, and here's what current customers need to know before their next bill lands."
+excerpt: "NOW Ireland is raising prices across several memberships for 2026. What current customers need to know before their next bill."
+description: "NOW Ireland is raising prices across several memberships for 2026. What current customers need to know before their next bill."
 categories:
   - News
 tags:
@@ -33,7 +33,7 @@ faqs:
  
 ## NOW Ireland Raises Prices for 2026
 
-NOW has confirmed changes to its subscription pricing in Ireland, with updates expected to take effect in the early part of 2026. If you're a current subscriber to any of the NOW passes — Entertainment, Sky Cinema, or Sky Sports — you should keep an eye on your email inbox and your next billing statement for the specifics that apply to your plan.
+[NOW](/streaming-services/sky-stream-vs-now-ireland/) has confirmed changes to its subscription pricing in Ireland, with updates expected to take effect in the early part of 2026. If you're a current subscriber to any of the NOW passes — Entertainment, Sky Cinema, or Sky Sports — you should keep an eye on your email inbox and your next billing statement for the specifics that apply to your plan.
 
 We don't have confirmed exact euro figures for every tier at the time of writing, so treat any specific numbers you see elsewhere with some caution until NOW publishes its official pricing page update or emails affected customers directly. What we do know is that price changes of this kind are usually rolled out gradually and communicated in advance, so nobody should be hit with a surprise charge without some form of notice first.
 
@@ -64,6 +64,8 @@ It's also worth confirming that your account region is set correctly and that yo
 ### The Bottom Line
 
 Price increases are rarely welcome news, but they're becoming a routine part of subscribing to any streaming service. The best defence is simply staying informed — read the emails NOW sends about your plan, check your account dashboard periodically, and don't hesitate to reach out to their support if a charge doesn't match what you expected. We'll update this post with confirmed pricing figures once NOW makes them official.
+
+**Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
 
 {% include product-showcase.html category="News" %}
 

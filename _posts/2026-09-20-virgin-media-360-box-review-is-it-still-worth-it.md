@@ -57,7 +57,7 @@ This is where things get interesting. A dedicated streaming device bought separa
 
 The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) is a good example. It's compact, supports 4K where your broadband and content allow, and generally feels snappier navigating between apps than the 360 Box does. For anyone who mostly watches via streaming apps rather than live TV, it's a noticeably smoother experience.
 
-If you'd prefer a platform with a simpler, less cluttered interface, the [Roku Ultra](https://amzn.to/4hbNJFw) is worth considering too. Roku's menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
+If you'd prefer a platform with a simpler, less cluttered interface, the [Roku Ultra](https://amzn.to/4hbNJFw) is worth considering too. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
 
 Other options worth a mention for completeness include the Fire TV Cube for those who want more power and voice control, or Chromecast if you mostly prefer casting from a phone or tablet rather than using an on-box interface directly.
 
@@ -70,6 +70,8 @@ However, if streaming apps are your primary use case and you're finding menus sl
 ### Final Verdict
 
 The 360 Box isn't bad, but it's not keeping pace with dedicated streaming hardware anymore. For live TV and bundled simplicity, it still has a role. For streaming specifically, a modern device will likely feel faster and more future-proof. Many Irish households end up running both side by side, which is a perfectly reasonable compromise rather than an all-or-nothing decision.
+
+**Related guides:** [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/) · [Virgin Media Unveils New Streaming Bundle for 2026](/news/virgin-media-unveils-new-streaming-bundle-for-2026/)
 
 {% include product-showcase.html category="Reviews" %}
 

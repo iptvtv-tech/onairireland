@@ -1,7 +1,7 @@
 ---
 title: "Setting Up YouTube on Your Smart TV"
-excerpt: "A step-by-step guide to installing, signing into, and troubleshooting the YouTube app on the smart TVs and streaming devices most commonly used in Irish homes."
-description: "A step-by-step guide to installing, signing into, and troubleshooting the YouTube app on the smart TVs and streaming devices most commonly used in Irish homes."
+excerpt: "How to install, sign in to and fix the YouTube app on the smart TVs and streaming devices most common in Irish homes."
+description: "How to install, sign in to and fix the YouTube app on the smart TVs and streaming devices most common in Irish homes."
 categories:
   - Installation-Guides
 tags:
@@ -57,9 +57,9 @@ If your television doesn't have a modern smart platform, a streaming stick is us
 
 **Fire TV Stick and Fire TV Cube:** From the home screen, go to the search icon, type "YouTube," and select Get or Download. Amazon's Fire TV interface doesn't include YouTube by default on every model, but it's readily available through the app store. Sign in using the code method described above.
 
-**Roku:** Open the Roku Channel Store, search for YouTube, and add it to your channel list. Roku will prompt you to activate the app using a code entered on a separate browser.
+**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/):** Open the Roku Channel Store, search for YouTube, and add it to your channel list. Roku will prompt you to activate the app using a code entered on a separate browser.
 
-**Chromecast (with Google TV):** YouTube comes pre-loaded, and if you signed into your Google account during initial setup, it should already be linked. Otherwise, install it from the built-in app store and follow the same activation code process.
+**[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) or Chromecast with Google TV:** YouTube comes pre-loaded, and if you signed into your Google account during initial setup, it should already be linked. Otherwise, install it from the built-in app store and follow the same activation code process.
 
 If you're mounting a new TV alongside setting up these devices, an [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr) makes it easier to angle the screen correctly and tidy away cabling from streaming sticks and cubes sitting behind the panel.
 

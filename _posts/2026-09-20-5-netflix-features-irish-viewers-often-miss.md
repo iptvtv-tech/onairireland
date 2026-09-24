@@ -1,7 +1,7 @@
 ---
 title: "5 Netflix Features Irish Viewers Often Miss"
-excerpt: "A look at five handy but often-overlooked Netflix features that can make streaming easier for Irish subscribers, from profile transfers to smarter subtitle settings."
-description: "A look at five handy but often-overlooked Netflix features that can make streaming easier for Irish subscribers, from profile transfers to smarter subtitle settings."
+excerpt: "Five handy Netflix features Irish subscribers often miss, from profile transfers to smarter subtitle settings."
+description: "Five handy Netflix features Irish subscribers often miss, from profile transfers to smarter subtitle settings."
 categories:
   - Streaming-Services
 tags:
@@ -62,6 +62,8 @@ None of these features require anything more than exploring the settings menus y
 If your household juggles a games console, a streaming stick, and the TV's own inputs, a [universal remote](https://amzn.to/4im1tzz) can also cut down on the usual scramble for three different remotes just to watch one episode in peace.
 
 Small adjustments like these won't change what's available to stream, but they can make the experience considerably smoother — and most of them take less than a minute to set up once you know where to look.
+
+**Related guides:** [Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/) · [5 Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

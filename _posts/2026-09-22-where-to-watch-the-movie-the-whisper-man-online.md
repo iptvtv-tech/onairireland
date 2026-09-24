@@ -39,7 +39,7 @@ The Whisper Man has been generating plenty of chatter among Irish film fans, and
 
 At the time of writing, we can't say with certainty which specific streaming service holds the rights to The Whisper Man in Ireland. New titles often move between a cinema window, a premium digital rental period, and eventually a home on one of the major subscription platforms — and the timeline can vary from film to film.
 
-Rather than guess and risk sending you down the wrong path, the safest bet is to check the official apps or websites of the platforms you already use — Netflix, Prime Video, Disney+, or Apple TV+ are the usual suspects for Irish audiences. Most of these services let you search by title directly, and if it's available, it'll show up on your account without any fuss. If it's not there yet, it may simply be too early in its release cycle.
+Rather than guess and risk sending you down the wrong path, the safest bet is to check the official apps or websites of the platforms you already use — Netflix, [Prime Video](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/), Disney+, or Apple TV+ are the usual suspects for Irish audiences. Most of these services let you search by title directly, and if it's available, it'll show up on your account without any fuss. If it's not there yet, it may simply be too early in its release cycle.
 
 It's also worth keeping an eye on digital rental and purchase options through storefronts like Prime Video or the Rakuten TV app, since newer films sometimes land there before a subscription service picks them up.
 
@@ -57,7 +57,7 @@ If you've confirmed your account details are correct and the title still isn't s
 
 Once you know which service has The Whisper Man, having the right streaming device makes a real difference to picture quality and ease of use. A few solid options for Irish households:
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and Disney+. Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
+The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/). Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
 
 If you'd rather avoid Amazon's ecosystem, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another excellent option. Roku's interface is famously straightforward, laying out all your installed apps on one home screen without pushing its own content too aggressively. It supports 4K and HDR playback too, so picture quality won't be a letdown on a modern television.
 

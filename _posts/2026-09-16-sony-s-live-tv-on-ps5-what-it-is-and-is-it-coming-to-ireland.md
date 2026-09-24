@@ -1,7 +1,7 @@
 ---
 title: "Sony's Live TV on PS5: What It Is, and Is It Coming to Ireland?"
-excerpt: "Sony has launched a free, ad-supported Live TV app on PS5 in the US with over 100 channels, but Irish PS5 owners can't access it yet and there's no confirmed European launch date."
-description: "Sony has launched a free, ad-supported Live TV app on PS5 in the US with over 100 channels, but Irish PS5 owners can't access it yet and there's no confirmed European launch date."
+excerpt: "Sony's free Live TV app for PS5 has launched in the US with over 100 channels. Irish owners can't get it yet. Here's what we know."
+description: "Sony's free Live TV app for PS5 has launched in the US with over 100 channels. Irish owners can't get it yet. Here's what we know."
 categories:
   - News
 tags:
@@ -22,7 +22,7 @@ faqs:
   - question: "How many channels does it offer?"
     answer: "Reports indicate more than 100 live channels at launch, though the exact lineup may vary and hasn't been independently verified for this piece."
   - question: "What can Irish viewers use instead for free live TV?"
-    answer: "Apps like RTÉ Player, Virgin Media Player and TG4, along with UK services such as BBC iPlayer, are legitimate options already available in Ireland."
+    answer: "Apps like RTÉ Player, Virgin Media Play and TG4, along with UK services such as BBC iPlayer, are legitimate options already available in Ireland."
 ---
 
 {% include last-updated.html %}
@@ -41,7 +41,7 @@ The channel lineup reportedly spans news, sport, movies, comedy and lifestyle co
 
 ### Why This Matters for Console Owners
 
-PS5 has slowly become less of a "just for games" box and more of a genuine living room hub. Apps like this push it further into competition with dedicated streaming devices. If you're used to a Fire TV Stick or a Chromecast for your streaming needs, a built-in live TV option on a console you already own is a neat bit of added value — assuming it eventually lands where you live.
+PS5 has slowly become less of a "just for games" box and more of a genuine living room hub. Apps like this push it further into competition with dedicated streaming devices. If you're used to a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) or a Chromecast for your streaming needs, a built-in live TV option on a console you already own is a neat bit of added value — assuming it eventually lands where you live.
 
 It's also part of a broader trend of free ad-supported TV growing rapidly, as viewers look for live-style content without stacking up yet another paid subscription.
 
@@ -57,7 +57,7 @@ If you're an Irish PS5 owner, checking your console's home screen or app store w
 
 While we wait to see if Sony brings this to Ireland, there's no shortage of **legitimate** ways to get free or low-cost live TV here already.
 
-RTÉ Player remains the obvious starting point for Irish content, and it's genuinely free. Virgin Media Player and TG4's own player are also worth having installed if you haven't already. For UK channels, apps like the BBC iPlayer, ITVX and Channel 4's streaming service are widely used in Ireland, though picture quality and access can depend on your setup.
+RTÉ Player remains the obvious starting point for Irish content, and it's genuinely free. Virgin Media Play and TG4's own player are also worth having installed if you haven't already. For UK channels, apps like the BBC iPlayer, ITVX and Channel 4's streaming service are widely used in Ireland, though picture quality and access can depend on your setup.
 
 If your issue is less about apps and more about your actual reception — say, patchy signal for Saorview or aerial-based channels feeding into a smart TV setup — a [TV aerial signal booster](https://amzn.to/3VrktTE) can make a noticeable difference before you even get to the streaming side of things.
 
@@ -70,6 +70,8 @@ If you're already on Fire TV and find yourself constantly hunting for the remote
 ## The Bottom Line
 
 Sony's Live TV app is a solid step for PS5 owners in the US, offering a free way to access live channels without adding another subscription. But for now, it's firmly a US (and soon Canada) feature. Irish PS5 owners will need to keep relying on existing apps and services, and we'll update this piece if Sony confirms any European rollout plans.
+
+**Related guides:** [Is Peacock Ever Coming to Ireland?](/news/is-peacock-ever-coming-to-ireland/) · [5 Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
 {% include product-showcase.html category="News" %}
 

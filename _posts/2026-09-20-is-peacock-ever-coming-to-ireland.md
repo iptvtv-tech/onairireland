@@ -1,7 +1,7 @@
 ---
 title: "Is Peacock Ever Coming to Ireland?"
-excerpt: "Peacock still isn't officially available in Ireland, so here's a look at why, and the legal ways Irish viewers can already watch a lot of its biggest shows."
-description: "Peacock still isn't officially available in Ireland, so here's a look at why, and the legal ways Irish viewers can already watch a lot of its biggest shows."
+excerpt: "Peacock still isn't officially available in Ireland. Why not, and the legal ways Irish viewers can already watch its biggest shows."
+description: "Peacock still isn't officially available in Ireland. Why not, and the legal ways Irish viewers can already watch its biggest shows."
 categories:
   - News
 tags:
@@ -18,7 +18,7 @@ faqs:
   - question: "Is Peacock officially available in Ireland?"
     answer: "No, as of now Peacock has not launched in Ireland and there's no confirmed launch date from NBCUniversal."
   - question: "Can I watch NBCUniversal shows in Ireland at all?"
-    answer: "Yes, many NBCUniversal titles are legally available through Irish services like Sky, NOW, RTÉ Player, and Virgin Media Player."
+    answer: "Yes, many NBCUniversal titles are legally available through Irish services like Sky, NOW, RTÉ Player, and Virgin Media Play."
   - question: "Why do some streaming apps show different content in different countries?"
     answer: "This is due to licensing agreements, which vary by region, so a show available in one country may not be licensed for another."
   - question: "What should I do if an app says content isn't available in my region?"
@@ -47,9 +47,9 @@ There's also the question of market strategy. Companies like NBCUniversal need t
 
 The good news is that a lot of Peacock's most talked-about content is already legally available in Ireland through other services, just under different roofs.
 
-- **Sky and NOW**: Many NBCUniversal titles, including some Peacock originals and NBC network shows, have found a home on Sky in Ireland, accessible either through a Sky subscription or a NOW streaming pass.
+- **Sky and [NOW](/streaming-services/sky-stream-vs-now-ireland/)**: Many NBCUniversal titles, including some Peacock originals and NBC network shows, have found a home on Sky in Ireland, accessible either through a Sky subscription or a NOW streaming pass.
 - **Apple TV+**: Occasionally picks up licensed content from major US studios, so it's always worth checking their catalogue if you're searching for a specific title.
-- **RTÉ Player and Virgin Media Player**: Both have picked up various NBCUniversal shows over the years, particularly comedies and reality formats.
+- **[RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) and Virgin Media Play**: Both have picked up various NBCUniversal shows over the years, particularly comedies and reality formats.
 
 If you're chasing one specific series, the simplest approach is to search for the title directly in each Irish streaming app rather than assuming it's exclusive to Peacock.
 
@@ -73,7 +73,7 @@ Sometimes what looks like a streaming problem is actually a broadband or recepti
 
 ### The Bottom Line
 
-Peacock isn't in Ireland yet, and there's no official word on when, or if, that will change. For now, Irish viewers are better served checking Sky, NOW, RTÉ Player, Virgin Media Player, and other licensed services for the shows they're after, rather than waiting on a launch date that hasn't been set.
+Peacock isn't in Ireland yet, and there's no official word on when, or if, that will change. For now, Irish viewers are better served checking Sky, NOW, RTÉ Player, [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), and other licensed services for the shows they're after, rather than waiting on a launch date that hasn't been set.
 
 {% include product-showcase.html category="News" %}
 

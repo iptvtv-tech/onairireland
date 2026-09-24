@@ -7,7 +7,7 @@
 <div class="post-byline">
   <img src="{{ '/assets/images/author-conor-walsh.jpg' | relative_url }}" alt="Conor Walsh" class="post-byline__avatar" onerror="this.style.display='none'">
   <div class="post-byline__text">
-    <span class="post-byline__author">Conor Walsh</span>
+    <a class="post-byline__author" href="{{ '/about/conor-walsh/' | relative_url }}">Conor Walsh</a>
     <span class="last-updated">Last updated: {{ page.last_updated | default: page.date | date: "%B %-d, %Y" }}</span>
   </div>
 </div>

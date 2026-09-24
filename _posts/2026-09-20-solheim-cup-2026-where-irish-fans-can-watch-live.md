@@ -1,7 +1,7 @@
 ---
 title: "Solheim Cup 2026: Where Irish Fans Can Watch Live"
-excerpt: "A guide for Irish golf fans on how to watch the 2026 Solheim Cup legally, covering the likely broadcaster, streaming options, and the gear that makes following the action easier."
-description: "A guide for Irish golf fans on how to watch the 2026 Solheim Cup legally, covering the likely broadcaster, streaming options, and the gear that makes following the action easier."
+excerpt: "How Irish golf fans can watch the 2026 Solheim Cup legally: the likely broadcaster, streaming options and the best setup."
+description: "How Irish golf fans can watch the 2026 Solheim Cup legally: the likely broadcaster, streaming options and the best setup."
 categories:
   - Sports-Streaming
 tags:
@@ -37,7 +37,7 @@ The Solheim Cup returns in 2026, and Irish golf fans will once again be glued to
 
 Sky Sports has been the long-standing home of the Solheim Cup for viewers in Ireland and the UK, carrying the event as part of its golf coverage alongside the Ryder Cup. At the time of writing, the broadcaster for the 2026 edition has not been officially confirmed for the Irish market, so treat this as the likely scenario based on recent history rather than a certainty. Once details are announced closer to the tournament, we'll update this piece with the confirmed channel and streaming details.
 
-If Sky Sports does retain the rights, Irish viewers will need a Sky subscription that includes the Sky Sports package, or access via NOW, which offers Sky Sports content on a day, month, or season pass basis without a long-term contract. NOW is a legitimate option for anyone who only wants to dip in for tournament week rather than commit to a full year of Sky.
+If Sky Sports does retain the rights, Irish viewers will need a Sky subscription that includes the Sky Sports package, or access via [NOW](/streaming-services/sky-stream-vs-now-ireland/), which offers Sky Sports content on a day, month, or season pass basis without a long-term contract. NOW is a legitimate option for anyone who only wants to dip in for tournament week rather than commit to a full year of Sky.
 
 ## Streaming Without a Satellite Dish
 
@@ -64,6 +64,8 @@ If you're planning to follow shot-by-shot updates on a tablet or phone alongside
 ## Final Thoughts
 
 Once the official broadcast details for the 2026 Solheim Cup are confirmed, Irish fans should have a clear, legal route to follow every session through Sky Sports or NOW. In the meantime, getting your streaming setup, aerial, and cabling sorted now means one less thing to worry about when the opening tee shots are struck.
+
+**Related guides:** [How to Watch the Ryder Cup Legally in Ireland](/sports-streaming/how-to-watch-the-ryder-cup-legally-in-ireland/) · [Where to Watch the FIFA World Cup 2026 Legally in Ireland](/sports-streaming/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland/)
 
 {% include product-showcase.html category="Sports Streaming" %}
 

@@ -33,7 +33,7 @@ faqs:
 
 ## Why Your Sky Stream Remote Might Be Acting Up
 
-If your Sky Stream remote has stopped responding, won't pair, or works inconsistently, you're not alone. This is one of the most common issues reported by Sky Stream users across Ireland, and thankfully, most causes are simple to diagnose and fix at home without needing an engineer visit.
+If your [Sky Stream](/streaming-services/sky-stream-vs-now-ireland/) remote has stopped responding, won't pair, or works inconsistently, you're not alone. This is one of the most common issues reported by Sky Stream users across Ireland, and thankfully, most causes are simple to diagnose and fix at home without needing an engineer visit.
 
 The Sky Stream remote uses Bluetooth to connect to your Sky Stream puck, rather than the old infrared line-of-sight system. This makes it more flexible, but it also means it can be affected by battery issues, interference from other wireless devices, or a lost pairing connection.
 
@@ -75,6 +75,8 @@ For larger homes with multiple dead spots, a [mesh Wi-Fi system](https://amzn.to
 ## Still Having Issues?
 
 If you've tried re-pairing, replaced the batteries, ruled out interference, and improved your Wi-Fi setup but the remote still isn't working properly, the remote itself may be faulty. In that case, it's best to check Sky's official support channels for guidance on repair or replacement options, as exact processes and any associated costs can change over time and are best confirmed directly with Sky.
+
+**Related guides:** [Sky Stream vs NOW: Which Is Right for You in Ireland?](/streaming-services/sky-stream-vs-now-ireland/) · [Why Is My Streaming App Buffering? Common Fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/)
 
 {% include product-showcase.html category="Troubleshooting" %}
 

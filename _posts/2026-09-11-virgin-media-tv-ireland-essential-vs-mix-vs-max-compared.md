@@ -1,7 +1,7 @@
 ---
 title: "Virgin Media TV Ireland: Essential vs Mix vs Max Compared"
-excerpt: "A practical, fact-checked-with-caution comparison of Virgin Media Ireland's Essential, Mix, and Max TV packages to help you choose the right tier for your household."
-description: "A practical, fact-checked-with-caution comparison of Virgin Media Ireland's Essential, Mix, and Max TV packages to help you choose the right tier for your household."
+excerpt: "Virgin Media TV's Essential, Mix and Max packages compared, to help you pick the right tier for your household."
+description: "Virgin Media TV's Essential, Mix and Max packages compared, to help you pick the right tier for your household."
 categories:
   - Streaming-Services
 tags:
@@ -33,7 +33,7 @@ Virgin Media periodically changes plan names, pricing, and channel lineups, and 
 Essential is Virgin Media's basic TV package, aimed at households that want solid free-to-air and popular Irish/UK channels without paying for extras like premium sports or movies.
 
 - Typically includes RTÉ, Virgin Media's own channels, TG4, and a range of general entertainment channels.
-- Usually comes with access to the Virgin TV Anywhere or Virgin Media Player app for some on-demand and catch-up content, though the exact app name and feature set may have changed recently, so it's worth double-checking.
+- Usually comes with access to the Virgin TV Anywhere or Virgin Media Play app for some on-demand and catch-up content, though the exact app name and feature set may have changed recently, so it's worth double-checking.
 - Best suited to casual viewers who mainly want news, soaps, reality TV, and Irish programming rather than a huge breadth of channels.
 - Generally the cheapest of the three tiers, though exact pricing depends on whether it's bundled with broadband and any current promotional offers.
 
@@ -74,6 +74,8 @@ Max is generally positioned as Virgin Media's top standard TV tier (separate fro
 If you mainly want free-to-air Irish channels and a few extras, Essential is probably enough. If you want more variety for a family household, Mix is a reasonable middle ground. If you're a heavy TV viewer who wants the broadest channel selection and the richest on-demand experience, Max is worth the extra cost.
 
 Because pricing and channel lineups can shift, it's a good idea to check Virgin Media's official Ireland website or contact their sales team directly for the latest details before choosing a plan.
+
+**Related guides:** [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [Virgin Media Play: What's New in the Redesigned App](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/)
 
 {% include product-showcase.html category="Streaming Services" %}
 {% include related-posts.html %}

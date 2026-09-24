@@ -33,7 +33,7 @@ faqs:
 
 ## GAA+ Not Working? Try These Fixes
 
-If you've settled in to watch your county battle it out only to be met with buffering wheels or an error message, you're not alone. GAA+ issues tend to crop up around the busiest match days, when demand on both your own network and the service itself is at its highest. Here's a step-by-step way to work through the most common causes.
+If you've settled in to watch your county battle it out only to be met with buffering wheels or an error message, you're not alone. [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) issues tend to crop up around the busiest match days, when demand on both your own network and the service itself is at its highest. Here's a step-by-step way to work through the most common causes.
 
 ## Start With the Basics
 
@@ -58,7 +58,7 @@ Buffering is almost always a network issue rather than an app issue. A few thing
 1. **Restart your router.** Unplug it for about 30 seconds and let it fully reboot. This clears temporary congestion and refreshes your connection.
 2. **Move closer to your router**, or better yet, connect via ethernet if your device supports it. A [long ethernet cable](https://amzn.to/4imUjuU) is a cheap fix if your streaming device sits far from the router and you want a rock-solid wired connection for match day.
 3. **Check for Wi-Fi dead spots.** If your living room is at the far end of the house from the router, a [Wi-Fi range extender](https://amzn.to/3SZDvjo) can make a real difference to stream stability without any complicated setup.
-4. **Consider a mesh system** if buffering is a recurring problem throughout the house, not just in one room. A [mesh Wi-Fi system](https://amzn.to/4xqgJzh) spreads coverage more evenly than a single router, which helps when multiple people are streaming at once.
+4. **Consider a mesh system** if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) is a recurring problem throughout the house, not just in one room. A [mesh Wi-Fi system](https://amzn.to/4xqgJzh) spreads coverage more evenly than a single router, which helps when multiple people are streaming at once.
 
 ## Device-Specific Checks
 
