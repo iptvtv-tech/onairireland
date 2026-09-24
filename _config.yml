@@ -117,7 +117,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-"Fix missing defaults: key in _config.yml"
+
 # ==============================
 # Category definitions used across the site
 # (Streaming Services, Devices, Installation Guides)
