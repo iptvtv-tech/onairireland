@@ -11,7 +11,7 @@ tags:
   - amazon fire tv
   - apple tv
 header:
-  overlay_image: /assets/images/teasers/devices-1.jpg
+  overlay_image: /assets/images/social-home.jpg
   teaser: /assets/images/products/chromecast-google-tv.jpg
 seo:
   type: Article
