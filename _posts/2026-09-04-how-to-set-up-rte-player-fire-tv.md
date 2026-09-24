@@ -10,7 +10,7 @@ tags:
   - installation guide
   - how to
 header:
-  overlay_image: /assets/images/teasers/installation-1.jpg
+  overlay_image: /assets/images/social-home.jpg
   teaser: /assets/images/products/fire-tv-stick-4k.jpg
 seo:
   type: HowTo
