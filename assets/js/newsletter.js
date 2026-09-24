@@ -4,13 +4,32 @@ document.addEventListener("DOMContentLoaded", function () {
   var tpl = document.getElementById("newsletter-inline-template");
   var content = document.querySelector(".page__content");
   if (tpl && content && "content" in tpl) {
-    var headings = Array.prototype.filter.call(content.querySelectorAll("h2"), function (h) {
-      // skip headings inside FAQ/related/product blocks
-      return h.parentElement === content;
-    });
-    if (headings.length >= 3) {
-      var target = headings[Math.floor(headings.length / 2)];
-      target.parentNode.insertBefore(tpl.content.cloneNode(true), target);
+    // Only look at the article itself: stop at the FAQ / related-posts blocks.
+    var body = [];
+    for (var el = content.firstElementChild; el; el = el.nextElementSibling) {
+      if (el.matches(".faq-section, .related-posts")) break;
+      if (el.matches(".share-buttons, .sidebar__right, aside")) continue;
+      body.push(el);
+    }
+    var isHeading = function (el) {
+      return /^H[23]$/.test(el.tagName) && !/^related/i.test(el.textContent.trim());
+    };
+    var headings = body.filter(isHeading);
+    var paragraphs = body.filter(function (el) { return el.tagName === "P"; });
+    var box = tpl.content.cloneNode(true);
+
+    if (headings.length >= 2) {
+      // before the heading about halfway down
+      var h = headings[Math.floor(headings.length / 2)];
+      h.parentNode.insertBefore(box, h);
+    } else if (paragraphs.length >= 2) {
+      // after the paragraph about halfway down
+      var p = paragraphs[Math.floor(paragraphs.length / 2)];
+      p.parentNode.insertBefore(box, p.nextSibling);
+    } else if (body.length) {
+      // very short post: after the last bit of the article
+      var last = body[body.length - 1];
+      last.parentNode.insertBefore(box, last.nextSibling);
     }
   }
 
