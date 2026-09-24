@@ -30,7 +30,7 @@ Guides only cover licensed, legal services. We never recommend unauthorised IPTV
 
 ## Corrections
 
-Spotted something out of date? Streaming prices and line-ups change often, and we'd rather fix a mistake quickly than leave it up. Email **contact@iptvirelandtv.com** and we'll update the guide.
+Spotted something out of date? Streaming prices and line-ups change often, and we'd rather fix a mistake quickly than leave it up. Email **admin@iptvirelandtv.com** and we'll update the guide.
 
 <script type="application/ld+json">
 {
