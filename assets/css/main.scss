@@ -575,12 +575,13 @@
 /* ---------- Last updated badge ---------- */
 .last-updated {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.75em;
   color: #64748b;
   background: #f1f5f9;
-  padding: 0.3em 0.9em;
+  padding: 0.2em 0.7em;
   border-radius: 999px;
   margin: 0.5em 0 1em;
+  width: fit-content;
 }
 
 /* ---------- Streaming setup quiz ---------- */
@@ -704,8 +705,10 @@
 
 .site-search__result a span {
   font-size: 0.88em;
+  color: #64748b;
+}
 
-  /* ---------- Follow on X button ---------- */
+/* ---------- Follow on X button ---------- */
 .follow-twitter {
   text-align: center;
   margin: 2em 0 0;
@@ -726,8 +729,6 @@
 
 .follow-twitter__btn:hover {
   transform: translateY(-2px);
-} 
-  color: #64748b;
 }
 
 /* ---------- Wider post tiles (2 columns instead of 4) ---------- */
@@ -831,15 +832,6 @@
   font-size: 0.9em;
 }
 
-.last-updated {
-  display: inline-block;
-  font-size: 0.75em;
-  color: #64748b;
-  background: #f1f5f9;
-  padding: 0.2em 0.7em;
-  border-radius: 999px;
-  width: fit-content;
-}
 
 /* ---- Best Prices shop catalog ---- */
 .catalog-intro {
