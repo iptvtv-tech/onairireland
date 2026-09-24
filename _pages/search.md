@@ -4,6 +4,8 @@ permalink: /search/
 layout: single
 description: "Search On Air Ireland's guides on legal streaming services, devices, and installation."
 excerpt: "Search all our guides."
+header:
+  overlay_image: assets/images/teasers/streaming-8.jpg
 seo:
   type: WebPage
 ---
