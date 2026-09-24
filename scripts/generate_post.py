@@ -22,6 +22,7 @@ import yaml
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
 POSTS_DIR = os.path.join(REPO_ROOT, "_posts")
+PRODUCTS_PATH = os.path.join(REPO_ROOT, "_data", "products.yml")
 
 CATEGORY_SLUGS = {
     "Streaming Services": "streaming-services",
@@ -44,6 +45,15 @@ CATEGORY_PEXELS_QUERIES = {
     "Troubleshooting": ["wifi router frustration", "technical support laptop", "internet connection problem"],
     "Watch Guides": ["movie night living room", "popcorn tv night", "cozy home cinema"],
 }
+
+
+def load_products():
+    """Load the product catalog from _data/products.yml as a list of dicts."""
+    if not os.path.isfile(PRODUCTS_PATH):
+        return []
+    with open(PRODUCTS_PATH, "r") as f:
+        data = yaml.safe_load(f)
+    return data or []
 
 
 def recently_used_images(limit: int = 30):
@@ -119,24 +129,22 @@ def pick_hero_image(category: str, image_query: str) -> str:
     return pick_product_image(category)
 
 
-def pick_hero_image(category: str, image_query: str) -> str:
-    """Try a post-specific Pexels search first (using the AI-suggested
-    query for this exact post), then a generic category-based Pexels
-    search, then finally fall back to the local product/teaser pool.
-    Avoids repeating an image still in use on recent posts where possible."""
-    exclude = recently_used_images()
+def pick_product_image(category: str) -> str:
+    """Last-resort local fallback when Pexels is unavailable or returns
+    nothing usable -- reuses a product image already in the catalog for
+    this category, since every category has at least one product with an
+    image, so this never has to guess at a filename that may not exist."""
+    matching = [p for p in load_products() if p.get("category") == category and p.get("image")]
+    if matching:
+        return random.choice(matching)["image"]
+    return "/assets/images/teasers/streaming-4.jpg"  # site-wide default, always exists
 
-    if image_query:
-        result = fetch_pexels_image(image_query, exclude=exclude)
-        if result:
-            return result
 
-    generic_query = random.choice(CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"]))
-    result = fetch_pexels_image(generic_query, exclude=exclude)
-    if result:
-        return result
-
-    return pick_product_image(category)
+def slugify(text: str) -> str:
+    """Turn a post title into a URL-safe filename slug."""
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")
 
 
 def load_queue():
@@ -177,7 +185,8 @@ def parse_faqs(text: str):
 
 
 def call_claude(title: str, category: str, brief: str):
-    """Returns (article_text, image_query)."""
+    """Returns raw article text (with SUMMARY:/IMAGE_QUERY:/FAQS: markers
+    still embedded -- main() splits those out)."""
     api_key = os.environ["ANTHROPIC_API_KEY"]
 
     matching_products = [p for p in load_products() if p.get("category") == category]
