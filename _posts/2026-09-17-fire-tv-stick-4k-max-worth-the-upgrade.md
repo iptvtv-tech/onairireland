@@ -35,7 +35,7 @@ faqs:
 
 If you've had a Fire TV Stick plugged into your telly for a few years, you've probably noticed things aren't quite as snappy as they used to be. Menus load slower, apps take a moment to open, and switching between services feels more sluggish than it should. That's usually the point where the question comes up: is it time to upgrade to the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc)?
 
-We've been using one for a while now across a fairly typical Irish household setup — RTÉ Player, Virgin Media Player, Netflix, Disney+ and a few sports apps — and here's our honest take.
+Here's what the upgrade gets you for a fairly typical Irish household setup — RTÉ Player, Virgin Media Player, Netflix, Disney+ and a few sports apps.
 
 ### What's Actually Different This Time
 

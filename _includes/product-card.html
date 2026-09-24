@@ -12,9 +12,9 @@
     <h4 class="product-card__name">{{ product.name }}</h4>
     <p class="product-card__blurb">{{ product.blurb }}</p>
     <div class="product-card__footer">
-      <span class="product-card__price">{{ product.price }}</span>
+      {% if site.show_prices %}<span class="product-card__price">{{ product.price }}</span>{% endif %}
       <a href="{{ product.affiliate_link }}" class="product-card__cta" rel="nofollow sponsored noopener" target="_blank">
-        Check Price →
+        Check price on Amazon →
       </a>
     </div>
   </div>

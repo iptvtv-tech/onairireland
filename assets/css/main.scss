@@ -487,9 +487,25 @@
 }
 
 .cookie-consent__btn--decline {
-  background: transparent;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.4);
+  /* Same weight as Accept (Irish DPC guidance: no nudging towards Accept) */
+  background: var(--oai-accent);
+  color: #0f172a;
+}
+
+.cookie-settings-link {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0.5em 0 1em;
+}
+
+.cookie-settings-link button {
+  background: none;
+  border: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
 }
 
 /* ---------- Related posts ---------- */

@@ -1,0 +1,34 @@
+name: Check Pull Request
+
+# Catches broken front matter and build errors BEFORE a post is merged
+# (e.g. the Slow Horses post whose title broke the YAML).
+on:
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Check post front matter
+        run: python scripts/check_posts.py
+
+      - name: Build site exactly like GitHub Pages
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site

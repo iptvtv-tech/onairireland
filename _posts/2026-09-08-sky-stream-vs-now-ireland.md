@@ -10,7 +10,7 @@ tags:
   - sky ireland
   - streaming comparison
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/streaming-5.jpg
   teaser: /assets/images/products/apple-tv-4k.jpg
 seo:
   type: Article

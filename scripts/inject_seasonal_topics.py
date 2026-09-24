@@ -8,6 +8,7 @@ just curates the queue so the next daily draft run picks it up.
 """
 import datetime
 import os
+import re
 
 import yaml
 
@@ -71,8 +72,8 @@ def main():
         if topic["title"] in queued_titles:
             continue
         # Rough check: skip if a post file already contains this topic's slug
-        slug_guess = topic["title"].lower().replace(" ", "-")
-        if any(slug_guess[:25] in fname for fname in posted_files):
+        slug_guess = re.sub(r"[^a-z0-9]+", "-", topic["title"].lower()).strip("-")
+        if any(fname[11:-3] == slug_guess for fname in posted_files):
             continue
 
         entry = {

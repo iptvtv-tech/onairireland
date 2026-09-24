@@ -44,21 +44,31 @@ Back in **Settings → Pages**, tick **Enforce HTTPS** once DNS has propagated
 
 ## 4. SEO setup already included
 
-- `jekyll-seo-tag` — auto-generates title tags, meta description, Open
-  Graph tags, Twitter Card tags, and JSON-LD structured data on every
-  page/post from the front matter
-- `jekyll-sitemap` — auto-generates `/sitemap.xml`
-- `robots.txt` — points crawlers to the sitemap
-- Per-post `description`, `excerpt`, `categories`, `tags`, and `seo.type`
-  front matter fields for structured data
+- The Minimal Mistakes theme's own `_includes/seo.html` generates the title
+  tag, meta description (from each page's `description`), Open Graph and
+  Twitter tags, and canonical URLs. The default share image is `og_image`
+  in `_config.yml`.
+- `_includes/head/custom.html` adds favicons, verification tags,
+  Organization and BreadcrumbList JSON-LD.
+- `jekyll-sitemap` generates `/sitemap.xml`; `robots.txt` points to it.
+  Add `sitemap: false` to a page's front matter to leave it out.
+- Per-post `description`, `excerpt`, `categories`, `tags` and optional
+  `faqs` (rendered by `faq-section.html` with FAQPage schema).
 
-**Still to do manually:**
-- Add a real logo at `assets/images/logo.png`
-- Add a real default social share image at `assets/images/social-default.png` (1200×630px)
-- Set `google_site_verification` in `_config.yml` once you register the
-  site with Google Search Console
-- Update `twitter.username` and `social.links` in `_config.yml`
-- Submit `https://iptvirelandtv.com/sitemap.xml` to Google Search Console
+## 4b. Checks before publishing
+
+- `scripts/check_posts.py` validates every post's front matter (YAML,
+  title, category, images, leftover `TODO`/`AFFILIATE_LINK_` placeholders).
+- `.github/workflows/check-pr.yml` runs it plus a full GitHub Pages build on
+  every pull request. The daily draft workflow runs the same check before it
+  opens its PR.
+
+## 4c. Prices
+
+`show_prices: false` in `_config.yml` hides the hand-typed `price` values in
+`_data/products.yml` everywhere (cards, Best Prices, quiz, hover previews).
+Amazon's Associates rules only allow showing prices pulled live from their
+Product Advertising API, so leave this off unless you add that.
 
 ## 5. Affiliate product showcase (Amazon Associates + others)
 
@@ -121,7 +131,7 @@ in a minute or two.
 
 ## 8. Daily auto-draft posts (PR-based, not auto-publish)
 
-`.github/workflows/daily-draft-post.yml` runs daily, pulls the next topic
+`.github/workflows/daily-draft-post.yml` runs Monday, Wednesday and Friday, pulls the next topic
 from `_data/topic_queue.yml`, asks Claude to draft a post, and opens a
 **Pull Request** — it never publishes directly. You review the draft for
 accuracy (prices, app steps, current availability), then merge to publish.
@@ -131,7 +141,9 @@ accuracy (prices, app steps, current availability), then merge to publish.
 2. In your repo: **Settings → Secrets and variables → Actions → New repository secret**
    - Name: `ANTHROPIC_API_KEY`
    - Value: your key
-3. Add topics anytime by appending to `_data/topic_queue.yml`
+3. Add topics anytime by appending to `_data/topic_queue.yml`. When the
+   queue is empty, the workflow opens a PR with AI-suggested topics instead
+   of a post — edit or delete them before merging.
 4. To run it on demand instead of waiting for the daily schedule: **Actions tab → Daily Draft Post → Run workflow**
 
 ## Local preview

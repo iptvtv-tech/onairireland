@@ -11,9 +11,8 @@ tags:
   - amazon fire tv
   - apple tv
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/devices-1.jpg
   teaser: /assets/images/products/chromecast-google-tv.jpg
-  caption: "Photo placeholder — replace with a licensed image"
 seo:
   type: Article
 toc: true
@@ -36,18 +35,18 @@ quick_facts:
 
 ## Popular options
 
-- **Amazon Fire TV Stick** — wide app support, affordable. [Check price on Amazon]({{ "https://amzn.to/46bV2aZ" }}) <!-- TODO: replace with your Amazon Associates link -->
-- **Fire TV Cube** — the premium, hands-free option with built-in Alexa voice control. [Check price](AFFILIATE_LINK_FIRE_TV_CUBE)
-- **Chromecast with Google TV** — simple, budget-friendly. [Check price]({{ "https://amzn.to/4gSHHZV" }}) <!-- TODO: replace with affiliate link -->
+- **Amazon Fire TV Stick** — wide app support, affordable. [Check price on Amazon](https://amzn.to/46bV2aZ)
+- **Fire TV Cube** — the premium, hands-free option with built-in Alexa voice control.
+- **Google TV Streamer** — Google's current box, which replaced the discontinued Chromecast with Google TV in 2024.
 - **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Android TV) — no extra device needed
 
 
 ## Where to buy in Ireland
 
-Stick to official retailers — [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [Argos](https://www.argos.co.uk/features/republic-of-ireland), or the manufacturer's own site — to ensure warranty and legitimate hardware. <!-- TODO: replace each with your retailer affiliate link once approved -->
+Stick to official retailers — [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [DID Electrical](https://www.did.ie/), [Power City](https://www.powercity.ie/), or the manufacturer's own site — to ensure warranty and legitimate hardware.
 
 
 
 {% include product-showcase.html category="Devices" title="Our Picks: Streaming Devices" %}
 {% include related-posts.html %}
-Next: follow our [installation guides](/categories/#installation-guides) once you've picked a device.
+Next: follow our [installation guides](/installation-guides/) once you've picked a device.

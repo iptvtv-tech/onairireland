@@ -1,8 +1,9 @@
 name: Daily Draft Post
 
+# Runs Mon/Wed/Fri. Slower, properly fact-checked publishing beats volume.
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 8 * * 1,3,5"
   workflow_dispatch: {}
 
 permissions:
@@ -31,6 +32,11 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python scripts/generate_post.py
 
+      # PRs opened with GITHUB_TOKEN don't trigger other workflows, so the
+      # front-matter check from check-pr.yml runs here too.
+      - name: Check post front matter
+        run: python scripts/check_posts.py
+
       - name: Open Pull Request
         if: success()
         uses: peter-evans/create-pull-request@v6
@@ -39,10 +45,16 @@ jobs:
           commit-message: "Draft post: ${{ steps.generate.outputs.post_title }}"
           branch: "auto-post/${{ github.run_number }}"
           title: "[Draft] ${{ steps.generate.outputs.post_title }}"
-          body: >
-            Auto-generated draft post. Please review for accuracy
-            (pricing, app menu wording, current availability) before merging.
-            Merging this PR publishes the post live.
+          body: |
+            Auto-generated draft. Merging this PR publishes it live.
+
+            Before merging, check:
+            - [ ] Every service, price, date and channel named is correct today (check the provider's own site)
+            - [ ] Watch guides name the actual service and date, not just "check your apps"
+            - [ ] No claims of first-hand testing or experience
+            - [ ] Product links are relevant to this post (delete any that aren't)
+            - [ ] Title and description read naturally; description under 160 characters
+            - [ ] Add 1-2 links to related posts on this site
           labels: |
             auto-draft
             needs-review

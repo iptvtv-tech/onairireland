@@ -8,7 +8,7 @@ tags:
   - news
 header:
   overlay_image: https://images.pexels.com/photos/987586/pexels-photo-987586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/987586/pexels-photo-987586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
+  teaser: https://images.pexels.com/photos/987586/pexels-photo-987586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 seo:
   type: Article
 toc: true

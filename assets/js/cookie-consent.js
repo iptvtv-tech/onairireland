@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var banner = document.getElementById("cookie-consent");
   if (!banner) return;
 
-  var choice = localStorage.getItem("oai-cookie-consent");
+  var choice = null;
+  try { choice = localStorage.getItem("oai-cookie-consent"); } catch (e) {}
 
   function loadAnalytics() {
     var gaId = banner.getAttribute("data-ga-id");
@@ -32,7 +33,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.getElementById("cookie-decline").addEventListener("click", function () {
+    var hadAccepted = localStorage.getItem("oai-cookie-consent") === "accepted";
     localStorage.setItem("oai-cookie-consent", "declined");
     banner.hidden = true;
+    // If analytics was running, reload so it stops for the rest of the visit.
+    if (hadAccepted) window.location.reload();
   });
+
+  // "Cookie settings" link in the footer lets visitors change their mind.
+  var settings = document.getElementById("cookie-settings");
+  if (settings) {
+    settings.addEventListener("click", function () {
+      banner.hidden = false;
+    });
+  }
 });

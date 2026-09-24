@@ -9,11 +9,11 @@ seo:
 ---
 
 <div class="site-search">
-  <input type="text" id="search-input" class="site-search__input" placeholder="Search guides (e.g. 'Fire TV Stick', 'GAA', 'TV licence')...">
+  <input type="search" aria-label="Search guides" id="search-input" class="site-search__input" placeholder="Search guides (e.g. 'Fire TV Stick', 'GAA', 'TV licence')...">
   <ul id="search-results" class="site-search__results"></ul>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
 <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),

@@ -63,8 +63,8 @@ document.addEventListener("DOMContentLoaded", function () {
         productContainer.innerHTML =
           '<div class="stream-quiz__pick">' +
           '<img src="' + pick.image + '" alt="' + pick.name + '" loading="lazy" onerror="this.style.display=\'none\'">' +
-          '<div><strong>' + pick.name + '</strong><br><span>' + pick.price + '</span><br>' +
-          '<a href="' + pick.affiliate_link + '" rel="nofollow sponsored noopener" target="_blank">Check Price →</a></div>' +
+          '<div><strong>' + pick.name + '</strong><br>' + (pick.price ? '<span>' + pick.price + '</span><br>' : '') +
+          '<a href="' + pick.affiliate_link + '" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon →</a></div>' +
           '</div>';
       })
       .catch(function () { /* silently skip the product card if this fails */ });

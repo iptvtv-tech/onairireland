@@ -11,7 +11,7 @@ tags:
   - android tv
   - buying guide
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/devices-1.jpg
   teaser: /assets/images/products/chromecast-google-tv.jpg
 seo:
   type: Article

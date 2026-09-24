@@ -6,7 +6,7 @@ description: "On Air Ireland's privacy policy — what data we collect, how it's
 excerpt: "What we collect, why, and your rights."
 seo:
   type: WebPage
-last_updated: "September 2026"
+last_updated: 2026-09-24
 ---
 
 {% include last-updated.html %}
@@ -27,7 +27,17 @@ This site uses cookies for:
 - **Analytics** (Google Analytics) — only loaded after you accept cookies via the banner shown on your first visit
 - **Affiliate tracking** — set by retailers (Amazon and others) when you click a product link, not by this site directly
 
-You can decline analytics cookies via the consent banner, or clear/block cookies entirely through your browser settings at any time.
+You can accept or decline analytics cookies via the consent banner, and change your choice at any time using the **Cookie settings** link at the bottom of every page. You can also clear or block cookies through your browser settings.
+
+## Legal Basis for Processing
+
+- **Newsletter emails** — your consent, given when you subscribe. You can withdraw it at any time.
+- **Analytics cookies** — your consent, given via the cookie banner. Nothing is loaded unless you click Accept.
+- **Server logs kept by our host** — our legitimate interest in keeping the site secure and working.
+
+## International Transfers
+
+Some of the services we use (Formspree, Google and GitHub) are based in the United States, so your data may be transferred outside the European Economic Area. These providers rely on safeguards recognised under GDPR, such as the EU–US Data Privacy Framework or the European Commission's Standard Contractual Clauses.
 
 ## Third-Party Services We Use
 
@@ -43,6 +53,8 @@ You have the right to:
 - Request a copy of that data
 - Request correction or deletion of your data
 - Withdraw consent (e.g. unsubscribe from the newsletter) at any time
+- Object to or restrict how we use your data
+- Lodge a complaint with the Irish Data Protection Commission ([dataprotection.ie](https://www.dataprotection.ie/))
 
 To exercise any of these rights, contact us at **hello@iptvirelandtv.com**.
 

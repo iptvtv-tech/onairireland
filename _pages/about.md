@@ -29,8 +29,8 @@ We only cover services and devices that are legally available in Ireland. When w
 
 ## Get in Touch
 
-Questions, corrections, or a topic you'd like us to cover? Email us at **hello@iptvirelandtv.com** <!-- TODO: replace with your real contact email -->.
+Questions, corrections, or a topic you'd like us to cover? Email us at **hello@iptvirelandtv.com**.
 
 ## Affiliate disclosure
 
-On Air Ireland is a participant in the **Amazon Associates Programme** and other affiliate programmes. Some links on this site are affiliate links — if you click through and make a purchase, we may earn a small commission at no extra cost to you. This never influences which products we recommend; we choose products based on genuine fit for the guide, not commission rates.
+On Air Ireland is a participant in the **Amazon Associates Programme** and other affiliate programmes. Some links on this site are affiliate links — if you click through and make a purchase, we may earn a small commission at no extra cost to you. Our product picks focus on items we can link to, so we may not cover every option on the market. As an Amazon Associate we earn from qualifying purchases.

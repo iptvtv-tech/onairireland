@@ -1,5 +1,19 @@
-<meta name='impact-site-verification' value='b480fada-6aca-4064-b835-c824086f97a2'>
+<!-- Favicons + manifest (moved here from index.html so every page gets them) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0f172a">
 
+<!-- Ownership verification tags (must be inside <head> to be detected) -->
+<meta name="impact-site-verification" value="b480fada-6aca-4064-b835-c824086f97a2">
+<meta name="influencerrate-verification" content="21a3e1d6f5b4bfbf5b07c275a2d57093" />
+
+{% comment %}
+  The theme outputs its own Organization JSON-LD on the homepage (schema.html),
+  so this copy only runs on the other pages to avoid a duplicate.
+{% endcomment %}
+{% unless page.url == "/" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -8,12 +22,15 @@
   "url": "{{ site.url }}",
   "logo": "{{ site.url }}{{ site.logo | relative_url }}",
   "sameAs": [
-    "https://twitter.com/onairireland"
+    "https://x.com/onairireland"
   ]
 }
 </script>
+{% endunless %}
 
-{% if page.categories %}
+{% if page.categories and page.categories.size > 0 %}
+{% assign crumb_cat = page.categories | first %}
+{% assign crumb_slug = crumb_cat | slugify %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,8 +45,8 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "{{ page.categories | first }}",
-      "item": "{{ site.url }}/categories/#{{ page.categories | first | slugify }}"
+      "name": {{ crumb_cat | replace: '-', ' ' | jsonify }},
+      "item": "{{ site.url }}/{{ crumb_slug }}/"
     },
     {
       "@type": "ListItem",
@@ -40,10 +57,4 @@
   ]
 }
 </script>
-{% endif %}
-{% assign social_image = page.header.overlay_image | default: page.header.image | default: page.header.teaser | default: site.image %}
-{% if social_image %}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ social_image | absolute_url }}">
-<meta property="og:image" content="{{ social_image | absolute_url }}">
 {% endif %}

@@ -10,9 +10,8 @@ tags:
   - rté player
   - virgin media
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/streaming-1.jpg
   teaser: /assets/images/products/apple-tv-4k.jpg
-  caption: "Photo placeholder — replace with a licensed image"
 seo:
   type: Article
 toc: true
@@ -20,7 +19,7 @@ affiliate_links: true
 quick_facts:
   - RTÉ Player and Virgin Media Player are free with no subscription
   - Sky Stream/NOW gives legal Sky access with no satellite dish
-  - Licensed sports coverage runs through eir Sport and Premier Sports
+  - Licensed sport runs through Sky Sports, Premier Sports and GAA+, plus free coverage on RTÉ, TG4 and Virgin Media
 ---
 
 {% include affiliate-disclosure.html %}
@@ -38,9 +37,9 @@ Unauthorized IPTV resale services are illegal in Ireland and unreliable — they
 
 ## Other Devices To Buy
 
-- **Amazon Fire TV Stick** — Compact streaming sticks that plug into any HDMI port. [Check Price](https://amzn.to/4y4CYvF) <!-- TODO: affiliate/referral link if the service offers one -->
-- **Smart TVs** — Built-in apps for Netflix, Disney+, and more. [Check Price](https://amzn.to/3Tdso6z) <!-- TODO: affiliate/referral link -->
-- **Soundbars** — Enhance your movie nights and music library with premium audio. [Check Price](https://amzn.to/4AqggzP) <!-- TODO: affiliate/referral link -->
+- **Amazon Fire TV Stick** — Compact streaming sticks that plug into any HDMI port. [Check Price](https://amzn.to/4y4CYvF)
+- **Smart TVs** — Built-in apps for Netflix, Disney+, and more. [Check Price](https://amzn.to/3Tdso6z)
+- **Soundbars** — Enhance your movie nights and music library with premium audio. [Check Price](https://amzn.to/4AqggzP)
 
 
 ## How to choose
@@ -49,4 +48,4 @@ Pick based on what you actually watch — sports fans need a licensed sports pac
 
 {% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
 {% include related-posts.html %}
-Related: see our [device guides](/categories/#devices) and [installation guides](/categories/#installation-guides) for setup help.
+Related: see our [device guides](/devices/) and [installation guides](/installation-guides/) for setup help.

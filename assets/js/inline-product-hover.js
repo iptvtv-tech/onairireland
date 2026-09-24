@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         link.addEventListener("mouseenter", function () {
           tooltip.innerHTML =
             '<img src="' + match.image + '" alt="' + match.name + '" onerror="this.style.display=\'none\'">' +
-            '<div class="inline-product-hover__body"><strong>' + match.name + '</strong><span>' + match.price + '</span></div>';
+            '<div class="inline-product-hover__body"><strong>' + match.name + '</strong>' + (match.price ? '<span>' + match.price + '</span>' : '') + '</div>';
           var rect = link.getBoundingClientRect();
           var left = Math.max(8, Math.min(rect.left, window.innerWidth - 280));
           tooltip.style.left = left + "px";

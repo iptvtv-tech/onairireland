@@ -7,7 +7,7 @@ categories:
 tags:
   - news
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/news-2.jpg
   teaser: /assets/images/products/sports.jpg
 seo:
   type: Article

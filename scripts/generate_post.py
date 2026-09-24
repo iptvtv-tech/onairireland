@@ -15,6 +15,7 @@ import os
 import random
 import re
 import sys
+import unicodedata
 
 import requests
 import yaml
@@ -103,14 +104,18 @@ def fetch_pexels_image(query: str, exclude: set = None):
         candidates = [p for p in photos if p.get("src", {}).get("large") not in exclude]
         pool = candidates if candidates else photos  # fall back if everything's excluded
         pick = random.choice(pool)
-        return pick.get("src", {}).get("large")
+        url = pick.get("src", {}).get("large")
+        if not url:
+            return None
+        credit = pick.get("photographer", "")
+        return {"url": url, "credit": f"Photo: {credit} / Pexels" if credit else "Photo: Pexels"}
     except requests.RequestException as e:
         print(f"Pexels request failed: {e}")
         return None
 
 
 def pick_hero_image(category: str, image_query: str) -> str:
-    """Try a post-specific Pexels search first (using the AI-suggested
+    """Returns {"url": ..., "credit": ...}. Try a post-specific Pexels search first (using the AI-suggested
     query for this exact post), then a generic category-based Pexels
     search, then finally fall back to the local product/teaser pool.
     Avoids repeating an image still in use on recent posts where possible."""
@@ -126,7 +131,7 @@ def pick_hero_image(category: str, image_query: str) -> str:
     if result:
         return result
 
-    return pick_product_image(category)
+    return {"url": pick_product_image(category), "credit": ""}
 
 
 def pick_product_image(category: str) -> str:
@@ -134,6 +139,15 @@ def pick_product_image(category: str) -> str:
     nothing usable -- reuses a product image already in the catalog for
     this category, since every category has at least one product with an
     image, so this never has to guess at a filename that may not exist."""
+    # Prefer the category's scene photos in _data/teaser_images.yml; product
+    # shots (a cable, a remote) make poor hero images.
+    teaser_path = os.path.join(REPO_ROOT, "_data", "teaser_images.yml")
+    if os.path.isfile(teaser_path):
+        with open(teaser_path, "r") as f:
+            pool = (yaml.safe_load(f) or {}).get(category) or []
+        pool = [p for p in pool if os.path.isfile(os.path.join(REPO_ROOT, p.lstrip("/")))]
+        if pool:
+            return random.choice(pool)
     matching = [p for p in load_products() if p.get("category") == category and p.get("image")]
     if matching:
         return random.choice(matching)["image"]
@@ -142,7 +156,10 @@ def pick_product_image(category: str) -> str:
 
 def slugify(text: str) -> str:
     """Turn a post title into a URL-safe filename slug."""
-    text = text.lower()
+    # Transliterate accents (RTÉ -> rte), keep "+" meaningful (Disney+ ->
+    # disney-plus) and drop apostrophes (What's -> whats) before slugging.
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    text = text.lower().replace("+", " plus").replace("'", "").replace("\u2019", "")
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return text.strip("-")
 
@@ -195,8 +212,8 @@ def call_claude(title: str, category: str, brief: str):
         lines = [f"- [{p['name']}]({p['affiliate_link']})" for p in matching_products]
         product_links_text = (
             "\nRelevant product links you may naturally reference inline in the article "
-            "(not just at the end) -- weave 1-2 of these into the body as normal markdown "
-            "links where they fit naturally, using descriptive text, not a dumped list:\n"
+            "(not just at the end) -- if (and only if) any are directly relevant, "
+            "weave at most 1-2 into the body as normal markdown links using descriptive text:\n"
             + "\n".join(lines) + "\n"
         )
 
@@ -224,15 +241,13 @@ your country" type error, only explain LEGITIMATE causes and fixes (account
 region settings, correct app store/region, network configuration, contacting
 the service's own support) -- never suggest bypassing geo-restrictions.
 
-Do NOT mention, recommend, or link to Apple TV or any other Apple hardware
-anywhere in this article, even in passing or as one option among several --
-there is no affiliate programme access for Apple products, so recommending
-it sends readers to buy something that generates no revenue and isn't
-trackable. If a device comparison is relevant, use only: Fire TV Stick,
-Fire TV Cube, Roku, or Chromecast. Note: this restriction is about Apple TV
-hardware specifically -- Apple TV+ (the streaming service/subscription) is a
-different thing and can be discussed normally when relevant, since it's not
-a hardware recommendation.
+NEVER claim first-hand testing, hands-on use, time spent with a product,
+or personal experience (no "we tested", "over a fortnight", "in our
+experience"). Write as a researched guide, not a review diary.
+
+Recommend whatever genuinely suits the reader, even when no product link is
+available for it. Only link products that are directly relevant to this
+post's topic -- it is fine to include no product links at all.
 
 Title: {title}
 Category: {category}
@@ -243,8 +258,9 @@ Requirements:
 - Use ## and ### headings, short paragraphs.
 - Do NOT include a "Related" or "See also" section, and do not invent links to other posts
   or pages -- a real "Related" link gets appended automatically after your content.
-- Include a one-sentence meta-description-style summary as the very first line, prefixed
-  with "SUMMARY:", then a blank line, then the article.
+- Include a one-sentence meta-description-style summary (max 155 characters) as the very
+  first line, prefixed with "SUMMARY:", then a blank line, then the article.
+- Open the article with a one or two sentence direct answer to the title's question.
 - Immediately after the SUMMARY line (still before the blank line and article), add a
   second line prefixed "IMAGE_QUERY:" with a short (2-4 word) generic stock-photo search
   term that suits THIS SPECIFIC post -- describe a generic, photographable scene (people,
@@ -353,10 +369,8 @@ Include a mix of these high-search-intent formats where they genuinely fit:
 - "[Service/App] Not Working: Common Fixes" -- targets real error-message
   searches (category: Troubleshooting)
 
-Do NOT suggest topics centered on Apple TV or other Apple products
-specifically -- there is no affiliate programme access for Apple hardware,
-so a dedicated Apple TV review or buying guide can't be monetised the way
-other device topics can.
+Do not suggest news topics about launches, prices or rights deals unless
+they are well established -- a human will check each topic before drafting.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -385,12 +399,12 @@ other device topics can.
         re.DOTALL,
     )
     topics = []
-    for t, c, b in blocks:
-        t, c, b = t.strip(), c.strip(), b.strip()
+    for ti, c, b in blocks:
+        ti, c, b = ti.strip(), c.strip(), b.strip()
         if c not in CATEGORY_SLUGS:
             continue
-        if t and b:
-            topics.append({"title": t, "category": c, "brief": b})
+        if ti and b:
+            topics.append({"title": ti, "category": c, "brief": b})
 
     if not topics:
         print("Topic parsing found zero valid blocks. Raw response was:")
@@ -401,16 +415,30 @@ other device topics can.
     return topics
 
 
+def set_output(name: str, value: str):
+    """Write a step output (replaces the deprecated ::set-output command)."""
+    out = os.environ.get("GITHUB_OUTPUT")
+    if out:
+        with open(out, "a") as f:
+            f.write(f"{name}={value}\n")
+    else:
+        print(f"{name}={value}")
+
+
 def main():
     queue = load_queue()
     if not queue:
-        print("Topic queue is empty -- auto-generating a fresh batch of topics...")
+        # New AI-suggested topics go into a PR for a human to review and edit
+        # BEFORE anything is drafted from them.
+        print("Topic queue is empty -- generating topic ideas for review...")
         queue = generate_new_topics()
         if not queue:
             print("Could not generate new topics this run -- nothing to do.")
             sys.exit(0)
         save_queue(queue)
-        print(f"Added {len(queue)} new topics to the queue.")
+        print(f"Added {len(queue)} new topics to the queue for review.")
+        set_output("post_title", "New topic ideas for review (edit or delete before merging)")
+        return
 
     topic = queue.pop(0)
     title = topic["title"]
@@ -433,17 +461,6 @@ def main():
 
     body, faqs = parse_faqs(body)
 
-    # Guarantee at least one inline affiliate link -- don't just hope the AI
-    # followed the prompt instruction, since it sometimes skips it.
-    matching_products = [p for p in load_products() if p.get("category") == category]
-    already_linked = any(p.get("affiliate_link", "") in body for p in matching_products if p.get("affiliate_link"))
-    if matching_products and not already_linked:
-        pick = random.choice(matching_products)
-        body += (
-            f"\n\nIf you're looking to get set up, [{pick['name']}]({pick['affiliate_link']}) "
-            f"is worth a look — {pick.get('blurb', '')}"
-        )
-
     today = datetime.date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
@@ -454,36 +471,31 @@ def main():
 
     seo_type = "HowTo" if category in ("Installation Guides", "Troubleshooting") else "Article"
 
-    # Escape double quotes so AI-generated text can never break the YAML
-    # front matter's quoted strings (this caused real build failures before).
-    safe_title = title.replace('"', "'")
-    safe_summary = summary.replace('"', "'")
+    if len(summary) > 160:
+        summary = summary[:155].rsplit(" ", 1)[0].rstrip(",;:") + "…"
 
-    faqs_yaml = ""
+    header = {"overlay_image": hero_image["url"], "teaser": hero_image["url"]}
+    if hero_image.get("credit"):
+        header["caption"] = hero_image["credit"]
+
+    fm = {
+        "title": title,
+        "excerpt": summary,
+        "description": summary,
+        "categories": [category_slug_name],
+        "tags": [CATEGORY_SLUGS.get(category, slugify(category))],
+        "header": header,
+        "seo": {"type": seo_type},
+        "toc": True,
+        "draft_generated": True,
+        "affiliate_links": True,
+    }
     if faqs:
-        faqs_yaml = "faqs:\n"
-        for q, a in faqs:
-            safe_q = q.replace('"', "'")
-            safe_a = a.replace('"', "'")
-            faqs_yaml += f'  - question: "{safe_q}"\n    answer: "{safe_a}"\n'
+        fm["faqs"] = [{"question": q, "answer": a} for q, a in faqs]
 
-    front_matter = f"""---
-title: "{safe_title}"
-excerpt: "{safe_summary}"
-description: "{safe_summary}"
-categories:
-  - {category_slug_name}
-tags:
-  - {CATEGORY_SLUGS.get(category, slugify(category))}
-header:
-  overlay_image: {hero_image}
-  teaser: {hero_image}
-seo:
-  type: {seo_type}
-toc: true
-draft_generated: true
-affiliate_links: true
-{faqs_yaml}---
+    # yaml.safe_dump quotes/escapes AI-generated text properly, so colons,
+    # quotes or '#' in a title can never break the front matter again.
+    front_matter = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + f"""---
 
 {{% include last-updated.html %}}
 
@@ -509,8 +521,8 @@ affiliate_links: true
     save_queue(queue)
 
     print(f"Draft written to {filepath}")
-    print(f"::set-output name=post_path::{filepath}")
-    print(f"::set-output name=post_title::{title}")
+    set_output("post_path", filepath)
+    set_output("post_title", title.replace("\n", " "))
 
 
 if __name__ == "__main__":

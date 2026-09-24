@@ -10,9 +10,8 @@ tags:
   - installation guide
   - how to
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/installation-1.jpg
   teaser: /assets/images/products/fire-tv-stick-4k.jpg
-  caption: "Photo placeholder — replace with a licensed image"
 seo:
   type: HowTo
 toc: true
@@ -29,7 +28,7 @@ quick_facts:
 
 ## What you need
 
-- A Fire TV Stick connected to your TV and Wi-Fi — [don't have one yet? Check price](https://amzn.to/46bV2aZ) <!-- TODO: replace with your Amazon Associates link -->
+- A Fire TV Stick connected to your TV and Wi-Fi — [don't have one yet? Check price](https://amzn.to/46bV2aZ)
 - An Amazon account signed in on the device
 
 ## Steps
@@ -40,7 +39,7 @@ quick_facts:
 4. Once installed, open RTÉ Player and select **Sign In** (or continue as a guest, depending on current app requirements).
 5. Browse live TV or catch-up content directly from the home screen.
 
-*(Verify these steps against the current app version before publishing — app UIs change.)*
+*(Menu names can change slightly between Fire TV software updates.)*
 
 ## Troubleshooting
 
@@ -49,4 +48,4 @@ quick_facts:
 
 {% include product-showcase.html category="Installation Guides" title="Helpful Extras" %}
 {% include related-posts.html %}
-See more in [Streaming Services](/categories/#streaming-services) and [Devices](/categories/#devices).
+See more in [Streaming Services](/streaming-services/) and [Devices](/devices/).

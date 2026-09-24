@@ -11,23 +11,25 @@ description: >-
   installation instructions.
 url: "https://iptvirelandtv.com"
 baseurl: ""
-repository: "iptvtv-tech/onairireland" # TODO: update to your actual GitHub repo, e.g. janedoe/onairireland
+repository: "iptvtv-tech/onairireland"
 locale: "en-IE"
 lang: "en-IE"
 
 # ==============================
 # SEO / Social (jekyll-seo-tag)
 # ==============================
-logo: "/assets/images/logo.png" # TODO: add a real logo at this path
-image: "https://iptvirelandtv.com/assets/images/social-default.jpg" # TODO: add a default 1200x630 social share image
+logo: "/assets/images/logo.png"
+image: "https://iptvirelandtv.com/assets/images/social-default.jpg"
+# Minimal Mistakes reads og_image (not image) for the default share image
+og_image: "/assets/images/social-default.jpg"
 twitter:
-  username: onairireland # TODO: update to your real handle if different
+  username: onairireland
   card: summary_large_image
 social:
   type: Organization
   name: On Air Ireland
   links:
-    - "https://x.com/onairireland" # TODO
+    - "https://x.com/onairireland"
     # - "https://www.facebook.com/onairireland"
     # - "https://www.instagram.com/onairireland"
 
@@ -39,13 +41,10 @@ author:
   links:
     - label: "Twitter/X"
       icon: "fab fa-twitter"
-      url: "https://twitter.com/onairireland"
+      url: "https://x.com/onairireland"
 
-# Site-wide default keywords (jekyll-seo-tag), pages/posts can override
-keywords: "legal streaming Ireland, IPTV alternatives Ireland, streaming devices, how to set up streaming device, best streaming services Ireland"
-
-google_site_verification: "tEtxNziR2i8q265EO-Oja9Ck-2A3hLFo175N7zNU6AE" # TODO: paste your Google Search Console verification code
-bing_site_verification: "C7C4370E4ACCFEEF2B837E2A5AC56296"   # TODO: optional
+google_site_verification: "tEtxNziR2i8q265EO-Oja9Ck-2A3hLFo175N7zNU6AE"
+bing_site_verification: "C7C4370E4ACCFEEF2B837E2A5AC56296"
 
 # ==============================
 # Theme
@@ -64,6 +63,10 @@ permalink: /:categories/:title/
 paginate: 10
 paginate_path: /page:num/
 timezone: Europe/Dublin
+
+# Amazon Associates rules: only show prices pulled live from the Product
+# Advertising API. Hand-typed prices are hidden while this is false.
+show_prices: false
 
 include:
   - _pages
@@ -106,8 +109,10 @@ defaults:
       author_profile: true
       read_time: true
       comments: false
-      share: true
-      related: true
+      # share/related are off because every post already includes the custom
+      # share-buttons.html and related-posts.html (avoids showing them twice)
+      share: false
+      related: false
       toc: true
       toc_sticky: true
       classes: wide
@@ -133,7 +138,9 @@ tag_archive:
 # Analytics (optional)
 # ==============================
 analytics:
-  provider: false # set to "google-gtag" and add tracking_id below if you want analytics
+  # Keep provider false: Google Analytics is loaded by the cookie banner
+  # (assets/js/cookie-consent.js) only after the visitor clicks Accept.
+  provider: false
   google:
     tracking_id: "G-RF9TGJ9YJF"
     anonymize_ip: false

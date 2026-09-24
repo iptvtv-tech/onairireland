@@ -9,7 +9,7 @@ permalink: /products.json
     "name": {{ product.name | jsonify }},
     "category": {{ product.category | jsonify }},
     "image": {{ product.image | jsonify }},
-    "price": {{ product.price | jsonify }},
+    "price": {% if site.show_prices %}{{ product.price | jsonify }}{% else %}""{% endif %},
     "affiliate_link": {{ product.affiliate_link | jsonify }},
     "blurb": {{ product.blurb | jsonify }}
   }{% unless forloop.last %},{% endunless %}

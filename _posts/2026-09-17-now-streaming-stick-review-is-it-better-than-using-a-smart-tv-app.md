@@ -33,31 +33,31 @@ faqs:
 
 ## Why Bother With a Separate Streaming Stick?
 
-If your telly already has a NOW app baked in, buying another gadget to plug into the HDMI port might seem like a waste of money. That's a fair question, and it's the one we set out to answer over a fortnight of everyday viewing - sport, entertainment, and a fair few evenings of Sky Sports News on in the background.
+If your telly already has a NOW app baked in, buying another gadget to plug into the HDMI port might seem like a waste of money. That's a fair question, and this guide weighs up the two options for everyday viewing - sport, entertainment and background channels like Sky Sports News.
 
 The short version: the dedicated stick wins on speed and reliability, but there are real trade-offs worth knowing about before you spend anything.
 
-### What We Tested
+### What This Comparison Covers
 
-We compared the NOW streaming stick against the built-in NOW app on a couple of common smart TV platforms. We didn't test every TV brand out there, so results may vary depending on how old your telly is and how well its manufacturer keeps the software updated. That last point turns out to matter a lot.
+This guide compares the NOW streaming stick with the built-in NOW app found on common smart TV platforms. Results vary a lot depending on how old your telly is and how well its manufacturer keeps the software updated.
 
 ## Performance: App Launch and Load Times
 
-The dedicated stick consistently opened the NOW app faster than the smart TV equivalents we tried. We're talking a few seconds' difference, not night and day, but it's noticeable when you're flicking between apps during ad breaks or half-time.
+A dedicated stick generally opens the NOW app faster than a built-in smart TV app, especially on older sets. The difference is usually a few seconds, not night and day, but it's noticeable when you're flicking between apps during ad breaks or half-time.
 
 Older smart TVs were the weak link. If your set is more than three or four years old, there's a decent chance its app store hasn't seen a meaningful update in a while, and streaming apps on those platforms can feel sluggish or occasionally crash. We can't say for certain how your specific TV model performs, so it's worth checking recent reviews for your exact set before assuming the built-in app will be fine.
 
 ## Picture Quality and Streaming Stability
 
-Picture quality was broadly similar between the two once a stream got going, assuming a decent broadband connection. Where the dedicated stick pulled ahead was consistency - fewer buffering moments during live sport, and quicker recovery when our WiFi had a wobble.
+Picture quality is broadly similar between the two once a stream gets going, assuming a decent broadband connection. Where a dedicated stick tends to pull ahead is consistency, such as recovering more quickly when Wi-Fi has a wobble.
 
-This lines up with what we've generally found testing other streaming hardware: purpose-built streaming devices tend to get software updates more frequently than the app layer on a smart TV, because the manufacturer only has to focus on one job. A smart TV maker, by contrast, is juggling updates across dozens of apps and hardware generations.
+The usual reason is that purpose-built streaming devices tend to get software updates more frequently than the app layer on a smart TV, because the manufacturer only has to focus on one job. A smart TV maker, by contrast, is juggling updates across dozens of apps and hardware generations.
 
 ## How It Compares to Other Streaming Devices
 
-It's worth putting the NOW stick in context against other well-known streaming devices on the Irish market. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) is a strong all-rounder if you want one device to handle NOW alongside other streaming apps, and its interface felt snappier than most built-in smart TV menus we tried.
+It's worth putting the NOW stick in context against other well-known streaming devices on the Irish market. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) is a strong all-rounder if you want one device to handle NOW alongside other streaming apps, and its interface is generally quicker than most built-in smart TV menus.
 
-If you'd rather have a remote with a simpler, less cluttered menu, the [Roku Ultra](https://amzn.to/4hbNJFw) is another solid option - Roku's platform tends to be less pushy about promoting its own content over what you actually want to watch. Fire TV Cube and Chromecast are also worth a look if you're shopping around, though we didn't specifically test NOW's performance on either for this piece.
+If you'd rather have a remote with a simpler, less cluttered menu, the [Roku Ultra](https://amzn.to/4hbNJFw) is another solid option - Roku's platform tends to be less pushy about promoting its own content over what you actually want to watch. Fire TV Cube and the Google TV Streamer are also worth a look if you're shopping around.
 
 ## Remote Control and Usability
 

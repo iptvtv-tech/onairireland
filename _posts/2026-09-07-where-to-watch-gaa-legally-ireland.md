@@ -11,7 +11,7 @@ tags:
   - gaa+
   - sports streaming ireland
 header:
-  overlay_image: /assets/images/social-default.svg
+  overlay_image: /assets/images/teasers/streaming-3.jpg
   teaser: /assets/images/products/fire-tv-stick-4k.jpg
 seo:
   type: Article
