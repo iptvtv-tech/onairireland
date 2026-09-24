@@ -1,0 +1,60 @@
+name: Weekly Sport Guide
+
+# Every Thursday morning: builds next week's "Sport on TV this week" listings
+# (Friday to Thursday) and opens a pull request. Nothing goes live until you
+# check the listings and merge.
+on:
+  schedule:
+    - cron: "0 7 * * 4"
+  workflow_dispatch:
+    inputs:
+      week_start:
+        description: "First day of the week to cover (YYYY-MM-DD). Leave blank for next Friday."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sport-week:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Build sport listings
+        id: generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WEEK_START: ${{ github.event.inputs.week_start }}
+        run: python scripts/generate_sport_week.py $WEEK_START
+
+      - name: Open Pull Request
+        if: success()
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Sport on TV: ${{ steps.generate.outputs.week_label }}"
+          branch: "sport-week/${{ github.run_number }}"
+          title: "[Sport on TV] ${{ steps.generate.outputs.week_label }} (${{ steps.generate.outputs.event_count }} events)"
+          body: |
+            Next week's listings for /sport-on-tv/. Merging this PR publishes them.
+
+            Before merging, open `_data/sport_week.yml` and check:
+            - [ ] Each event's broadcaster is right **for Ireland** (click the source link)
+            - [ ] Dates and throw-in/kick-off times look right
+            - [ ] "free: true" only for RTÉ, Virgin Media, TG4 and their free apps
+            - [ ] Nothing big is missing (add it by hand, same format)
+          labels: |
+            sport-week
+            needs-review

@@ -43,6 +43,11 @@ author:
       icon: "fab fa-twitter"
       url: "https://x.com/onairireland"
 
+# WhatsApp Channel for match-day alerts. Create the channel in WhatsApp,
+# copy its invite link (https://whatsapp.com/channel/...) and paste it here.
+# The "Follow on WhatsApp" buttons stay hidden while this is empty.
+whatsapp_channel_url: ""
+
 google_site_verification: "tEtxNziR2i8q265EO-Oja9Ck-2A3hLFo175N7zNU6AE"
 bing_site_verification: "C7C4370E4ACCFEEF2B837E2A5AC56296"
 
@@ -51,6 +56,9 @@ bing_site_verification: "C7C4370E4ACCFEEF2B837E2A5AC56296"
 # ==============================
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+# Adds the search (magnifying glass) button to the top menu
+search: true
+search_full_content: false
 
 # ==============================
 # Build settings

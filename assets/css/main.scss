@@ -1047,3 +1047,296 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* ---------- Homepage tool links (under the hero buttons) ---------- */
+.oai-hero__tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 1.4em;
+}
+
+.oai-hero__tools a {
+  padding: 0.4em 0.9em;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff !important;
+  font-size: 0.85em;
+  text-decoration: none !important;
+}
+
+.oai-hero__tools a:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* ---------- Footer: explore links + WhatsApp button ---------- */
+.footer-explore {
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 2;
+  margin: 1.5em 0 0.5em;
+}
+
+.follow-whatsapp__btn {
+  background: #25d366;
+  color: #0f172a !important;
+  margin-left: 0.5em;
+}
+
+/* ---------- In-article newsletter box ---------- */
+.newsletter-inline {
+  margin: 2em 0;
+  padding: 1.4em 1.5em;
+  border-radius: var(--oai-card-radius);
+  border: 1px solid #bae6fd;
+  background: #f0f9ff;
+  text-align: center;
+}
+
+.newsletter-inline__title {
+  margin: 0 0 0.3em;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.newsletter-inline__desc {
+  margin: 0 0 1em;
+  font-size: 0.9em;
+  color: #334155;
+}
+
+.newsletter-inline__form input[type="email"] {
+  border: 1px solid #94a3b8;
+}
+
+.newsletter-inline .newsletter-signup__message--success { color: #15803d; }
+.newsletter-inline .newsletter-signup__message--error { color: #be123c; }
+
+.newsletter-inline__small {
+  margin: 0.8em 0 0;
+  font-size: 0.75em;
+  color: #64748b;
+}
+
+/* ---------- Byline: facts checked ---------- */
+.last-checked {
+  display: block;
+  font-size: 0.85em;
+  color: #15803d;
+}
+
+/* ---------- Streaming prices tracker ---------- */
+.price-tracker__stamp {
+  display: inline-block;
+  padding: 0.35em 0.9em;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #14532d;
+  font-size: 0.9em;
+}
+
+.price-tracker__wrap {
+  overflow-x: auto;
+}
+
+.price-tracker {
+  width: 100%;
+  display: table;
+  font-size: 0.9em;
+}
+
+.price-tracker td small {
+  color: #64748b;
+}
+
+@media (max-width: 37.5em) {
+  .price-tracker thead { display: none; }
+  .price-tracker tr { display: block; border-bottom: 1px solid #e2e8f0; padding: 0.5em 0; }
+  .price-tracker td { display: flex; justify-content: space-between; gap: 1em; border: none; padding: 0.2em 0; }
+  .price-tracker td::before { content: attr(data-label); font-weight: 600; color: #475569; }
+}
+
+/* ---------- Cost calculator ---------- */
+.cost-calc {
+  margin: 1.5em 0 2em;
+}
+
+.cost-calc__services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1em;
+}
+
+.cost-calc__service {
+  margin: 0;
+  padding: 0.8em 1em;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--oai-card-radius);
+}
+
+.cost-calc__service legend {
+  font-weight: 700;
+  padding: 0 0.3em;
+}
+
+.cost-calc__plan,
+.cost-calc__yearly {
+  display: block;
+  font-size: 0.9em;
+  margin: 0.25em 0;
+  cursor: pointer;
+}
+
+.cost-calc__yearly {
+  margin-left: 1.6em;
+  color: #15803d;
+}
+
+.cost-calc__yearly[hidden],
+.cost-calc__tips[hidden] {
+  display: none;
+}
+
+.cost-calc__price {
+  color: #64748b;
+  font-size: 0.9em;
+}
+
+.cost-calc__total {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+  margin-top: 1.2em;
+  padding: 1em;
+  border-radius: var(--oai-card-radius);
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+}
+
+.cost-calc__label {
+  display: block;
+  font-size: 0.8em;
+  color: #cbd5e1;
+}
+
+.cost-calc__amount {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.cost-calc__tips li {
+  margin: 0.5em 0;
+  padding: 0.5em 0.8em;
+  border-left: 4px solid var(--oai-warm);
+  background: #fff7ed;
+  list-style: none;
+}
+
+.cost-calc__tips {
+  margin: 1em 0 0;
+  padding: 0;
+}
+
+.cost-calc__reset {
+  margin-top: 0.8em;
+  background: none;
+  border: 1px solid #94a3b8;
+  border-radius: 999px;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+/* ---------- Sport on TV this week ---------- */
+.sport-week__range {
+  font-weight: 600;
+}
+
+.sport-week__free {
+  display: inline-block;
+  padding: 0.05em 0.5em;
+  border-radius: 4px;
+  background: #16a34a;
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.sport-week__list {
+  list-style: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+.sport-week__item {
+  display: grid;
+  grid-template-columns: 4em 1fr;
+  gap: 0.2em 1em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.sport-week__time {
+  grid-row: span 2;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.sport-week__comp {
+  display: block;
+  font-size: 0.8em;
+  color: #64748b;
+}
+
+.sport-week__watch {
+  font-size: 0.9em;
+}
+
+.sport-week__src {
+  font-size: 0.8em;
+  margin-left: 0.3em;
+}
+
+/* ---------- Guides page, hubs, Ask form ---------- */
+.guides-sections li {
+  margin-bottom: 0.4em;
+}
+
+.ask-form {
+  display: grid;
+  gap: 0.4em;
+  max-width: 40em;
+  margin: 1.5em 0 2em;
+}
+
+.ask-form label {
+  font-weight: 600;
+  margin-top: 0.6em;
+}
+
+.ask-form input,
+.ask-form select,
+.ask-form textarea {
+  width: 100%;
+  padding: 0.6em;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.ask-form button {
+  justify-self: start;
+  margin-top: 0.8em;
+}
+
+.ask-form__note {
+  font-size: 0.8em;
+  color: #64748b;
+}

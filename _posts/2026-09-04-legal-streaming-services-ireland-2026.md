@@ -3,6 +3,7 @@ title: "Legal Streaming Services in Ireland: The Full 2026 Guide"
 excerpt: "Every major legal streaming service in Ireland, what it costs and what you get, from free RTÉ Player to Netflix, NOW and live sport."
 description: "Every legal streaming service in Ireland for 2026: free apps, Netflix, Disney+, NOW, HBO Max, sport and what each one costs."
 last_updated: 2026-09-24
+last_checked: 2026-09-24
 categories:
   - Streaming-Services
 tags:

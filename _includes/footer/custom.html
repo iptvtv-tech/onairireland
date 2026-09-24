@@ -5,18 +5,28 @@
 <script src="{{ '/assets/js/inline-product-hover.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/lazy-load-safety-net.js' | relative_url }}" defer></script>
 
-<p class="cookie-settings-link"><a href="/about/">About us</a> · <a href="/about/conor-walsh/">Conor Walsh</a> · <a href="/privacy-policy/">Privacy policy</a> · <button type="button" id="cookie-settings">Cookie settings</button></p>
+<nav class="footer-explore" aria-label="More from On Air Ireland">
+  <a href="/sport-on-tv/">Sport on TV this week</a> · <a href="/streaming-prices/">Streaming prices</a> · <a href="/streaming-cost-calculator/">Cost calculator</a> · <a href="/quiz/">Quiz</a> · <a href="/best-prices/">Best prices</a><br>
+  <a href="/gaa/">GAA</a> · <a href="/netflix/">Netflix</a> · <a href="/now-and-sky/">NOW &amp; Sky</a> · <a href="/virgin-media/">Virgin Media</a> · <a href="/fire-tv/">Fire TV</a> · <a href="/installation-guides/">Set-up guides</a> · <a href="/troubleshooting/">Troubleshooting</a> · <a href="/reviews/">Reviews</a> · <a href="/news/">News</a> · <a href="/search/">Search</a>
+</nav>
+
+<p class="cookie-settings-link"><a href="/about/">About us</a> · <a href="/about/conor-walsh/">Conor Walsh</a> · <a href="/ask/">Ask us</a> · <a href="/privacy-policy/">Privacy policy</a> · <button type="button" id="cookie-settings">Cookie settings</button></p>
 
 <div class="follow-twitter">
   <a href="https://x.com/onairireland" target="_blank" rel="noopener" class="follow-twitter__btn">
     𝕏 Follow us on X @onairireland
   </a>
+  {%- if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}
+  <a href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener" class="follow-twitter__btn follow-whatsapp__btn">
+    Match-day alerts on WhatsApp
+  </a>
+  {%- endif %}
 </div>
 
 <div class="newsletter-signup">
   <h3 class="newsletter-signup__title">Join Our Newsletter</h3>
       <p class="newsletter-signup__desc">New legal streaming guides for Ireland, straight to your inbox — plus two free guides: where to watch GAA legally and how to pick the right streaming device. No spam, unsubscribe anytime. See our <a href="/privacy-policy/" style="color:#38bdf8;">privacy policy</a>.</p>
-  <form id="newsletter-form" class="newsletter-signup__form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
+  <form id="newsletter-form" class="newsletter-signup__form js-newsletter-form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
     <input type="email" name="fields[email]" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
     <input type="hidden" name="ml-submit" value="1">
     <input type="hidden" name="anticsrf" value="true">
@@ -24,3 +34,21 @@
   </form>
   <p id="newsletter-message" class="newsletter-signup__message" hidden></p>
 </div>
+
+{%- if page.collection == "posts" %}
+<!-- Copied into the middle of the article by assets/js/newsletter.js -->
+<template id="newsletter-inline-template">
+  <aside class="newsletter-inline" aria-label="Newsletter signup">
+    <p class="newsletter-inline__title">Found this useful?</p>
+    <p class="newsletter-inline__desc">Get new guides and price changes by email, plus two free PDF guides: GAA on TV and choosing a streaming device.</p>
+    <form class="newsletter-signup__form newsletter-inline__form js-newsletter-form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
+      <input type="email" name="fields[email]" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
+      <input type="hidden" name="ml-submit" value="1">
+      <input type="hidden" name="anticsrf" value="true">
+      <button type="submit">Send me the guides</button>
+    </form>
+    <p class="newsletter-signup__message" hidden></p>
+    <p class="newsletter-inline__small">No spam. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a>{% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %} · Prefer WhatsApp? <a href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener">Follow our channel</a>{% endif %}</p>
+  </aside>
+</template>
+{%- endif %}

@@ -1,0 +1,17 @@
+{%- comment -%}
+  Lists every post whose title contains one of the keywords (case-sensitive).
+  Usage: {% include hub-posts.html keywords="GAA|Hurling" %}
+  New posts appear automatically when their title matches.
+{%- endcomment -%}
+{%- assign hub_keywords = include.keywords | split: "|" -%}
+<div class="hub-posts">
+{%- for post in site.posts -%}
+  {%- assign hub_hit = false -%}
+  {%- for kw in hub_keywords -%}
+    {%- if post.title contains kw -%}{%- assign hub_hit = true -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if hub_hit -%}
+    {% include archive-single.html %}
+  {%- endif -%}
+{%- endfor -%}
+</div>

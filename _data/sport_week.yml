@@ -1,0 +1,8 @@
+# "Sport on TV this week" data, shown on /sport-on-tv/.
+# Written every Thursday by scripts/generate_sport_week.py (GitHub Action
+# "Weekly Sport Guide"), which opens a pull request for you to check.
+# Leave events empty to show the "coming soon" message.
+week_start:
+week_end:
+generated:
+events: []

@@ -19,6 +19,8 @@ On Air Ireland is run by **John Cunningham**, Windgap, Co. Kilkenny, Ireland, wh
 
 ## What We Collect
 
+**Questions you email us** — if you contact us (including through the [Ask us](/ask/) page, which opens your own email app), we use your email address and message only to reply, and we delete them when they're no longer needed. If we turn a question into a guide, we never include your name or details.
+
 **Email addresses** — if you subscribe to our newsletter, your email address is stored by our email provider, MailerLite, and used solely to send you our free guides and updates about new guides. We ask you to confirm your subscription by email (double opt-in), and every email has an unsubscribe link. We never sell or share your email address with third parties for marketing purposes.
 
 **Analytics data** — we use Google Analytics to understand how visitors use the site (which pages are popular, general visitor numbers). This involves cookies — see the Cookies section below. We do not use this data to identify individual visitors personally.
@@ -36,6 +38,7 @@ You can accept or decline analytics cookies via the consent banner, and change y
 ## Legal Basis for Processing
 
 - **Newsletter emails** — your consent, given when you subscribe. You can withdraw it at any time.
+- **Replying to questions you email us** — our legitimate interest in answering you.
 - **Analytics cookies** — your consent, given via the cookie banner. Nothing is loaded unless you click Accept.
 - **Server logs kept by our host** — our legitimate interest in keeping the site secure and working.
 

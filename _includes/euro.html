@@ -1,0 +1,8 @@
+{%- comment -%}
+  Prints a euro amount with two decimals: {% include euro.html amount=5 %} -> €5.00
+  YAML turns 5.00 into 5.0, so this rebuilds the cents by hand.
+{%- endcomment -%}
+{%- assign oai_cents = include.amount | times: 100 | round -%}
+{%- assign oai_euro = oai_cents | divided_by: 100 -%}
+{%- assign oai_rem = oai_cents | modulo: 100 -%}
+€{{ oai_euro }}.{% if oai_rem < 10 %}0{% endif %}{{ oai_rem }}

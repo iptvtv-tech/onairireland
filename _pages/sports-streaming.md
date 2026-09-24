@@ -12,3 +12,5 @@ header:
   og_image: /assets/images/social-home.jpg
   image_description: "A living room TV showing a streaming app home screen"
 ---
+
+**This week:** see [sport on TV this week](/sport-on-tv/) for the big games and where to watch each one. GAA fans, start with the [GAA guide](/gaa/).
