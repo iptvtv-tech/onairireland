@@ -15,10 +15,11 @@
 
 <div class="newsletter-signup">
   <h3 class="newsletter-signup__title">Join Our Newsletter</h3>
-      <p class="newsletter-signup__desc">New legal streaming guides for Ireland, straight to your inbox — plus two free guides instantly: GAA broadcast coverage and picking the right streaming device. No spam, unsubscribe anytime. See our <a href="/privacy-policy/" style="color:#38bdf8;">privacy policy</a>.</p>
-  <form id="newsletter-form" class="newsletter-signup__form" action="https://formspree.io/f/xwlkqkql" method="POST">
-    <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
-    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="newsletter-signup__desc">New legal streaming guides for Ireland, straight to your inbox — plus two free guides: where to watch GAA legally and how to pick the right streaming device. No spam, unsubscribe anytime. See our <a href="/privacy-policy/" style="color:#38bdf8;">privacy policy</a>.</p>
+  <form id="newsletter-form" class="newsletter-signup__form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
+    <input type="email" name="fields[email]" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
+    <input type="hidden" name="ml-submit" value="1">
+    <input type="hidden" name="anticsrf" value="true">
     <button type="submit">Subscribe</button>
   </form>
   <p id="newsletter-message" class="newsletter-signup__message" hidden></p>
