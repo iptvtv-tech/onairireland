@@ -141,3 +141,4 @@ analytics:
 # ==============================
 # Sitemap / Robots handled by jekyll-sitemap plugin automatically
 # ==============================
+"Fix missing defaults: key in _config.yml",
