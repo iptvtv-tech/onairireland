@@ -5,7 +5,7 @@ permalink: /troubleshooting/
 taxonomy: Troubleshooting
 excerpt: "Fixes for buffering, dropped connections, app crashes, and other common streaming problems."
 header:
-  overlay_image: assets/images/teasers/troubleshooting-6.jpg
+  overlay_image: assets/images/teasers/streaming-8.jpg
   teaser: assets/images/teasers/troubleshooting-6.jpg
 sitemap: true
 ---
