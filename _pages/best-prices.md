@@ -5,7 +5,7 @@ permalink: /best-prices/
 layout: single
 classes: wide
 header:
-  overlay_image: assets/images/teasers/devices-3.jpg
+  overlay_image: assets/images/social-default.jpg
   teaser: assets/images/teasers/devices-3.jpg
 seo:
   type: Article
