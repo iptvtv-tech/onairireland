@@ -4,6 +4,9 @@ permalink: /about/
 layout: single
 description: "On Air Ireland is an independent guide to legal streaming services, devices, and setup instructions for viewers in Ireland."
 excerpt: "Independent guides to legal streaming in Ireland — no unauthorized services, ever."
+header:
+  overlay_image: assets/images/teasers/streaming-8.jpg
+  teaser: /assets/images/teasers/streaming-8.jpg
 seo:
   type: AboutPage
 ---
