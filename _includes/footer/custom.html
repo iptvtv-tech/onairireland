@@ -23,6 +23,7 @@
   {%- endif %}
 </div>
 
+{%- if site.newsletter_enabled %}
 <div class="newsletter-signup">
   <h3 class="newsletter-signup__title">Join Our Newsletter</h3>
       <p class="newsletter-signup__desc">New legal streaming guides for Ireland, straight to your inbox — plus two free guides: where to watch GAA legally and how to pick the right streaming device. No spam, unsubscribe anytime. See our <a href="/privacy-policy/" style="color:#38bdf8;">privacy policy</a>.</p>
@@ -34,12 +35,23 @@
   </form>
   <p id="newsletter-message" class="newsletter-signup__message" hidden></p>
 </div>
+{%- else %}
+<div class="newsletter-signup">
+  <h3 class="newsletter-signup__title">Free Guides</h3>
+  <p class="newsletter-signup__desc">Two free PDF guides from On Air Ireland. No sign-up needed.</p>
+  <div class="newsletter-signup__form">
+    <a class="oai-hero__cta oai-hero__cta--primary" href="/assets/downloads/gaa-legal-streaming-guide.pdf" download>Where to watch GAA legally (PDF)</a>
+    <a class="oai-hero__cta oai-hero__cta--primary" href="/assets/downloads/legal-streaming-device-guide.pdf" download>Choosing a streaming device (PDF)</a>
+  </div>
+</div>
+{%- endif %}
 
 {%- if page.collection == "posts" %}
 <!-- Copied into the middle of the article by assets/js/newsletter.js -->
 <template id="newsletter-inline-template">
   <aside class="newsletter-inline" aria-label="Newsletter signup">
     <p class="newsletter-inline__title">Found this useful?</p>
+{%- if site.newsletter_enabled %}
     <p class="newsletter-inline__desc">Get new guides and price changes by email, plus two free PDF guides: GAA on TV and choosing a streaming device.</p>
     <form class="newsletter-signup__form newsletter-inline__form js-newsletter-form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
       <input type="email" name="fields[email]" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
@@ -49,6 +61,13 @@
     </form>
     <p class="newsletter-signup__message" hidden></p>
     <p class="newsletter-inline__small">No spam. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a>{% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %} · Prefer WhatsApp? <a href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener">Follow our channel</a>{% endif %}</p>
+    {%- else %}
+    <p class="newsletter-inline__desc">Download our two free PDF guides: where to watch GAA legally, and how to choose a streaming device.</p>
+    <p><a href="/assets/downloads/gaa-legal-streaming-guide.pdf" download><strong>GAA guide (PDF)</strong></a> · <a href="/assets/downloads/legal-streaming-device-guide.pdf" download><strong>Device guide (PDF)</strong></a></p>
+    {%- if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}
+    <p class="newsletter-inline__small">Match-day alerts: <a href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener">follow our WhatsApp Channel</a></p>
+    {%- endif %}
+    {%- endif %}
   </aside>
 </template>
 {%- endif %}
