@@ -4,6 +4,8 @@ permalink: /quiz/
 layout: single
 description: "Answer three quick questions and get a streaming setup recommendation tailored to what you watch and your budget."
 excerpt: "Three quick questions, one clear recommendation."
+header:
+  overlay_image: assets/images/teasers/streaming-8.jpg
 seo:
   type: WebPage
 ---
