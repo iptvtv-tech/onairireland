@@ -8,7 +8,7 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/products/roku-streaming-stick.jpg
+  overlay_image: assets/images/teasers/streaming-8.jpg
   teaser: /assets/images/products/roku-streaming-stick.jpg
 seo:
   type: Article

@@ -7,7 +7,7 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/teasers/troubleshooting-1.jpg
+  overlay_image: assets/images/teasers/streaming-8.jpg
   teaser: /assets/images/teasers/troubleshooting-1.jpg
 seo:
   type: Article
