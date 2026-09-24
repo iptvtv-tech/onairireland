@@ -5,8 +5,8 @@ permalink: /best-prices/
 layout: single
 classes: wide
 header:
-  overlay_image: /assets/images/teasers/best-prices-hero.jpg
-  teaser: /assets/images/teasers/best-prices-hero.jpg
+  overlay_image: assets/images/teasers/devices-3.jpg
+  teaser: assets/images/teasers/devices-3.jpg
 seo:
   type: Article
 toc: false
