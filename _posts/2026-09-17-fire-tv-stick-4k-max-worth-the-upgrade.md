@@ -7,7 +7,7 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: https://images.pexels.com/photos/6958443/pexels-photo-6958443.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/social-home.jpg
   teaser: https://images.pexels.com/photos/6958443/pexels-photo-6958443.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 seo:
   type: Article
