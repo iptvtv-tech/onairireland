@@ -43,6 +43,11 @@ author:
       icon: "fab fa-twitter"
       url: "https://x.com/onairireland"
 
+# Newsletter signup forms. Set to true once a new email provider is set up
+# and the form addresses in _includes/footer/custom.html point to it.
+# While false, the site offers the two free PDF guides as direct downloads.
+newsletter_enabled: false
+
 # WhatsApp Channel for match-day alerts. Create the channel in WhatsApp,
 # copy its invite link (https://whatsapp.com/channel/...) and paste it here.
 # The "Follow on WhatsApp" buttons stay hidden while this is empty.

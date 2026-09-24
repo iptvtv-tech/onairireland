@@ -49,4 +49,4 @@ If your TV is more than a few years old or its apps are slow, a streaming stick 
 
 ## Still stuck?
 
-[Ask us a question](/ask/). We read every one, and the most common questions become new guides. For new guides and price changes in your inbox, plus two free PDF guides, join the newsletter below.
+[Ask us a question](/ask/). We read every one, and the most common questions become new guides. {% if site.newsletter_enabled %}For new guides and price changes in your inbox, plus two free PDF guides, join the newsletter below.{% else %}Our two free PDF guides, on GAA and on choosing a streaming device, are at the bottom of every page.{% endif %}
