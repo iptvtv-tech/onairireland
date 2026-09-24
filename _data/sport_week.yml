@@ -2,7 +2,111 @@
 # Written every Thursday by scripts/generate_sport_week.py (GitHub Action
 # "Weekly Sport Guide"), which opens a pull request for you to check.
 # Leave events empty to show the "coming soon" message.
-week_start:
-week_end:
-generated:
-events: []
+week_start: 2026-09-25
+week_end: 2026-10-01
+generated: 2026-09-24
+events:
+- date: 2026-09-25
+  time: '19:45'
+  sport: Rugby
+  event: Connacht v DHL Stormers
+  competition: United Rugby Championship - Round 1
+  watch: TG4 and Premier Sports
+  free: true
+  source: https://www.unitedrugby.com/latest/news/2026-27-fixtures-in-full/
+- date: 2026-09-25
+  time: '19:45'
+  sport: Rugby
+  event: Ulster v Edinburgh
+  competition: United Rugby Championship - Round 1
+  watch: Premier Sports
+  free: false
+  source: https://www.unitedrugby.com/latest/news/2026-27-fixtures-in-full/
+- date: 2026-09-25
+  time: '19:45'
+  sport: Football
+  event: Galway United v Shelbourne
+  competition: League of Ireland Premier Division
+  watch: LOITV
+  free: false
+  source: https://www.live-footballontv.com/
+- date: 2026-09-26
+  time: '12:30'
+  sport: Rugby
+  event: Lions v Leinster
+  competition: United Rugby Championship - Round 1
+  watch: TG4 and Premier Sports
+  free: true
+  source: https://www.munsterrugby.ie/2026/05/19/2026-27-urc-fixtures-released/
+- date: 2026-09-26
+  time: '17:30'
+  sport: Rugby
+  event: Munster v Glasgow Warriors
+  competition: United Rugby Championship - Round 1
+  watch: Premier Sports
+  free: false
+  source: https://www.munsterrugby.ie/2026/05/19/2026-27-urc-fixtures-released/
+- date: 2026-09-27
+  time: '12:30'
+  sport: Football
+  event: Brentford v Manchester United
+  competition: Premier League
+  watch: TNT Sports
+  free: false
+  source: https://www.premierleague.com/en/news/4362015/fixture-amendments-for-premier-league-matches-in-september
+- date: 2026-09-27
+  time: '17:30'
+  sport: Football
+  event: Nottingham Forest v Sunderland
+  competition: Premier League
+  watch: Sky Sports
+  free: false
+  source: https://www.premierleague.com/en/news/4362015/fixture-amendments-for-premier-league-matches-in-september
+- date: 2026-09-27
+  time: '19:45'
+  sport: Football
+  event: Israel v Republic of Ireland
+  competition: UEFA Nations League
+  watch: RTÉ2 (stripped-back coverage)
+  free: true
+  source: https://www.rte.ie/sport/soccer/2026/0919/1592190-rte-to-strip-back-coverage-of-ireland-v-israel-fixtures/
+- date: 2026-09-27
+  time: TBC
+  sport: Football
+  event: Women's FAI Cup Final
+  competition: Club Orange Women's FAI Cup
+  watch: TG4
+  free: true
+  source: https://www.fai.ie/latest/club-orange-womens-fai-cup-semi-finals-fixtures-confirmed-broadcast-live-tg4/
+- date: 2026-09-28
+  time: '14:00'
+  sport: Football
+  event: Tottenham Hotspur v Wolves
+  competition: Premier League
+  watch: Sky Sports
+  free: false
+  source: https://www.premierleague.com/en/news/4362015/fixture-amendments-for-premier-league-matches-in-september
+- date: 2026-09-28
+  time: '16:30'
+  sport: Football
+  event: Newcastle United v Arsenal
+  competition: Premier League
+  watch: Sky Sports
+  free: false
+  source: https://www.premierleague.com/en/news/4362015/fixture-amendments-for-premier-league-matches-in-september
+- date: 2026-10-01
+  time: '19:45'
+  sport: Football
+  event: Republic of Ireland v Austria
+  competition: UEFA Nations League
+  watch: RTÉ2
+  free: true
+  source: https://www.balls.ie/football/ireland-nations-league-permutations-663732
+- date: 2026-10-01
+  time: TBC
+  sport: Golf
+  event: Alfred Dunhill Links Championship - Round 1
+  competition: DP World Tour
+  watch: Sky Sports Golf
+  free: false
+  source: https://www.alfreddunhilllinks.com/follow-the-links/
