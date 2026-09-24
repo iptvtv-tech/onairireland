@@ -1,6 +1,4 @@
 ---
-title: "Best Streaming Prices in Ireland"
-excerpt: "Compare current prices on the streaming devices, cables, and accessories our guides recommend most — all in one place."
 permalink: /best-prices/
 layout: single
 classes: wide
