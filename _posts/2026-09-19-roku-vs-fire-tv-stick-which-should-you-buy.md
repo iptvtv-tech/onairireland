@@ -63,7 +63,7 @@ One small but common annoyance with any streaming remote is losing it in the cou
 
 If neither Roku nor Fire TV Stick feels quite right, there are two other options worth a mention. The [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), which replaced the discontinued Chromecast with Google TV, offers a similar experience built around Google's interface and works well if you're already embedded in the Google ecosystem with an Android phone.
 
-For those wanting more power for gaming-adjacent features or hands-free voice control, the [Amazon Fire TV Cube](https://amzn.to/4cLlYlI) sits above the standard Fire TV Stick, though it's a bigger investment and probably overkill for anyone who just wants Netflix and RTÉ Player on the main TV.
+For those wanting more power for gaming-adjacent features or hands-free voice control, the Amazon Fire TV Cube sits above the standard Fire TV Stick, though it's a bigger investment and probably overkill for anyone who just wants Netflix and RTÉ Player on the main TV.
 
 ### Which Should You Buy?
 

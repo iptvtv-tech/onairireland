@@ -19,9 +19,9 @@ lang: "en-IE"
 # SEO / Social (jekyll-seo-tag)
 # ==============================
 logo: "/assets/images/logo.png"
-image: "https://iptvirelandtv.com/assets/images/social-default.jpg"
+image: "https://iptvirelandtv.com/assets/images/social-home.jpg"
 # Minimal Mistakes reads og_image (not image) for the default share image
-og_image: "/assets/images/social-default.jpg"
+og_image: "/assets/images/social-home.jpg"
 twitter:
   username: onairireland
   card: summary_large_image

@@ -6,6 +6,12 @@ description: "On Air Ireland is an independent guide to legal streaming services
 excerpt: "Independent guides to legal streaming in Ireland — no unauthorized services, ever."
 seo:
   type: AboutPage
+header:
+  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 On Air Ireland helps people in Ireland find and set up **legal, licensed streaming services** — from RTÉ Player and Virgin Media TV to Netflix, Disney+, and licensed sports packages.

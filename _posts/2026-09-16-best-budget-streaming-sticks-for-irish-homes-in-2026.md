@@ -47,7 +47,7 @@ Amazon's Fire TV range dominates budget streaming in Ireland, largely because it
 
 If you're happy to spend a little more for noticeably smoother performance, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is worth a look. It supports 4K and HDR content where your broadband and subscription allow for it, and the extra processing power makes scrolling through menus feel less sluggish than on the cheapest models.
 
-For households that want one device to handle everything, including some smart home control, the [Amazon Fire TV Cube Simplified](https://amzn.to/4cLlYlI) sits a step above stick territory. It costs more than a basic stick, so it's not strictly "budget," but it's worth knowing about if you're weighing up whether to spend a bit extra.
+For households that want one device to handle everything, including some smart home control, the Amazon Fire TV Cube sits a step above stick territory. It costs more than a basic stick, so it's not strictly "budget," but it's worth knowing about if you're weighing up whether to spend a bit extra.
 
 ### Roku Express and Roku Streaming Stick 4K
 

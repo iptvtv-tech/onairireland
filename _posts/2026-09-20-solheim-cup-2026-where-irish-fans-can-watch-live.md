@@ -59,7 +59,7 @@ Occasionally viewers see a message saying content isn't available, and the fix i
 
 ## Keeping Devices Charged and Ready
 
-If you're planning to follow shot-by-shot updates on a tablet or phone alongside the TV coverage, having a reliable charging cable on hand is worth thinking about. An [Anker 240W USB-C to USB-C cable](https://amzn.to/3SSkm2U) is a sturdy option for keeping devices topped up during a long day of coverage without worrying about a flimsy cable giving out mid-tournament.
+If you're planning to follow shot-by-shot updates on a tablet or phone alongside the TV coverage, it's worth keeping a charger and a decent cable within reach, so your second screen doesn't die mid-round during a long day of coverage.
 
 ## Final Thoughts
 

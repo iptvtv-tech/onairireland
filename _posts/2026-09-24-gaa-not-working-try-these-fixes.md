@@ -84,7 +84,7 @@ A few low-tech culprits are easy to miss:
 
 - **Remote control issues** can make it seem like the app has frozen when it hasn't. If your remote is sluggish, [rechargeable batteries](https://amzn.to/4h8jsHi) are a handy long-term fix, especially for households going through disposables during a busy GAA season.
 - **A dirty or glare-covered screen** won't cause playback issues, but it does make picture quality problems harder to diagnose. A proper [screen cleaning kit](https://amzn.to/4xyXx2o) is worth having if you're trying to judge whether a picture issue is your screen or your stream.
-- **Low battery on a tablet or phone** used as a secondary screen can cause the device to throttle performance to save power. Keeping a portable charger like the [Belkin BoostCharge 20000mAh](https://amzn.to/4hp8b5N) on hand avoids this entirely during a long championship weekend.
+- **Low battery on a tablet or phone** used as a secondary screen can cause the device to throttle performance to save power. Keeping it plugged in or charged up avoids this during a long championship weekend.
 
 ## When All Else Fails
 
