@@ -51,7 +51,7 @@ newsletter_enabled: false
 # WhatsApp Channel for match-day alerts. Create the channel in WhatsApp,
 # copy its invite link (https://whatsapp.com/channel/...) and paste it here.
 # The "Follow on WhatsApp" buttons stay hidden while this is empty.
-whatsapp_channel_url: ""
+whatsapp_channel_url: "https://whatsapp.com/channel/0029VbDvKAaEawdv3YeHxu2E"
 
 google_site_verification: "tEtxNziR2i8q265EO-Oja9Ck-2A3hLFo175N7zNU6AE"
 bing_site_verification: "C7C4370E4ACCFEEF2B837E2A5AC56296"
