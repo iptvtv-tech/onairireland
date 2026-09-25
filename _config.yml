@@ -43,10 +43,12 @@ author:
       icon: "fab fa-twitter"
       url: "https://x.com/onairireland"
 
-# Newsletter signup forms. Set to true once a new email provider is set up
-# and the form addresses in _includes/footer/custom.html point to it.
-# While false, the site offers the two free PDF guides as direct downloads.
-newsletter_enabled: false
+# Newsletter signup forms (Brevo). Paste the form address from Brevo's embed
+# code (the https://....sibforms.com/serve/... link) below, then set
+# newsletter_enabled to true. While false, the site offers the two free PDF
+# guides as direct downloads instead.
+newsletter_enabled: true
+newsletter_form_action: "https://648ad5f0.sibforms.com/v2/serve/MUIFABIopV6p8-BCW69hXoOg8-miFvv2vyijmZGEizenmvIFH5dG3bbrpAT3Tm4eunZbkJKC3m22m9Q1o0kFaddfIFi_mZ6XHZPAJn6-H3Rk3nZs23bSKX12SN7Y5bdxrPKXJFBrfnWbBH3DLZ0Yg51-ISkPdvbaqsHc1k_Yom2O6N9Z6Rvbd5yFMyXL__AaGd6La-kwcyO9hvFjtw=="
 
 # WhatsApp Channel for match-day alerts. Create the channel in WhatsApp,
 # copy its invite link (https://whatsapp.com/channel/...) and paste it here.

@@ -27,10 +27,10 @@
 <div class="newsletter-signup">
   <h3 class="newsletter-signup__title">Join Our Newsletter</h3>
       <p class="newsletter-signup__desc">New legal streaming guides for Ireland, straight to your inbox — plus two free guides: where to watch GAA legally and how to pick the right streaming device. No spam, unsubscribe anytime. See our <a href="/privacy-policy/" style="color:#38bdf8;">privacy policy</a>.</p>
-  <form id="newsletter-form" class="newsletter-signup__form js-newsletter-form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
-    <input type="email" name="fields[email]" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
-    <input type="hidden" name="ml-submit" value="1">
-    <input type="hidden" name="anticsrf" value="true">
+  <form id="newsletter-form" class="newsletter-signup__form js-newsletter-form" action="{{ site.newsletter_form_action }}" method="POST">
+    <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
+    <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+    <input type="hidden" name="locale" value="en">
     <button type="submit">Subscribe</button>
   </form>
   <p id="newsletter-message" class="newsletter-signup__message" hidden></p>
@@ -53,10 +53,10 @@
     <p class="newsletter-inline__title">Found this useful?</p>
 {%- if site.newsletter_enabled %}
     <p class="newsletter-inline__desc">Get new guides and price changes by email, plus two free PDF guides: GAA on TV and choosing a streaming device.</p>
-    <form class="newsletter-signup__form newsletter-inline__form js-newsletter-form" action="https://assets.mailerlite.com/jsonp/2657434/forms/199500137458828863/subscribe" method="POST">
-      <input type="email" name="fields[email]" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
-      <input type="hidden" name="ml-submit" value="1">
-      <input type="hidden" name="anticsrf" value="true">
+    <form class="newsletter-signup__form newsletter-inline__form js-newsletter-form" action="{{ site.newsletter_form_action }}" method="POST">
+      <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
+      <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+      <input type="hidden" name="locale" value="en">
       <button type="submit">Send me the guides</button>
     </form>
     <p class="newsletter-signup__message" hidden></p>

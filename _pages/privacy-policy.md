@@ -21,7 +21,7 @@ On Air Ireland is run by **John Cunningham**, Windgap, Co. Kilkenny, Ireland, wh
 
 **Questions you email us** — if you contact us (including through the [Ask us](/ask/) page, which opens your own email app), we use your email address and message only to reply, and we delete them when they're no longer needed. If we turn a question into a guide, we never include your name or details.
 
-**Email addresses** — newsletter sign-ups are currently paused, and the site does not collect email addresses through any form. When the newsletter was running, if you subscribed, your email address is stored by our email provider, MailerLite, and used solely to send you our free guides and updates about new guides. We ask you to confirm your subscription by email (double opt-in), and every email has an unsubscribe link. We never sell or share your email address with third parties for marketing purposes.
+**Email addresses** — if you subscribe to our newsletter, your email address is stored by our email provider, Brevo, and used solely to send you our free guides and updates about new guides. We ask you to confirm your subscription by email (double opt-in), and every email has an unsubscribe link. We never sell or share your email address with third parties for marketing purposes.
 
 **Analytics data** — we use Google Analytics to understand how visitors use the site (which pages are popular, general visitor numbers). This involves cookies — see the Cookies section below. We do not use this data to identify individual visitors personally.
 
@@ -44,11 +44,11 @@ You can accept or decline analytics cookies via the consent banner, and change y
 
 ## International Transfers
 
-Some of the services we use (Google, GitHub and some of MailerLite's sub-processors) are based in the United States, so your data may be transferred outside the European Economic Area. These providers rely on safeguards recognised under GDPR, such as the EU–US Data Privacy Framework or the European Commission's Standard Contractual Clauses.
+Some of the services we use (Google and GitHub) are based in the United States, so your data may be transferred outside the European Economic Area. These providers rely on safeguards recognised under GDPR, such as the EU–US Data Privacy Framework or the European Commission's Standard Contractual Clauses.
 
 ## Third-Party Services We Use
 
-- **MailerLite** — stores newsletter subscribers and sends our emails. See [MailerLite's privacy policy](https://www.mailerlite.com/legal/privacy-policy) for how they handle data.
+- **Brevo** (Sendinblue SAS, France) — stores newsletter subscribers and sends our emails. See [Brevo's privacy policy](https://www.brevo.com/legal/privacypolicy/) for how they handle data.
 - **Google Analytics** — website analytics. See [Google's privacy policy](https://policies.google.com/privacy) for details.
 - **Amazon Associates and other affiliate programmes** — product links on this site are affiliate links. See the retailer's own privacy policy for their data practices.
 - **GitHub Pages** — this site is hosted on GitHub Pages, which may log standard server access data (IP address, browser type) as part of normal web hosting.

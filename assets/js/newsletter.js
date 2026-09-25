@@ -51,8 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       if (button) button.disabled = true;
 
-      // Sends the signup to MailerLite (Newsletter group, double opt-in).
-      fetch(form.action, { method: "POST", body: new FormData(form) })
+      // Sends the signup to Brevo (double opt-in). isAjax=1 makes Brevo reply with JSON.
+      var url = form.action + (form.action.indexOf("?") === -1 ? "?" : "&") + "isAjax=1";
+      fetch(url, { method: "POST", body: new FormData(form) })
         .then(function (response) {
           return response.json().catch(function () { return {}; }).then(function (data) {
             return { ok: response.ok, data: data };
