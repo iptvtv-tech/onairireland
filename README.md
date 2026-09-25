@@ -2,7 +2,7 @@
 
 Jekyll blog (Minimal Mistakes theme) about **legal** streaming services,
 devices, and installation guides for Ireland. Deployed via GitHub Pages
-to `iptvirelandtv.com`.
+to `onairireland.ie`.
 
 ## 1. Push this repo to GitHub
 
@@ -21,11 +21,11 @@ Update `repository:` in `_config.yml` to match your actual GitHub path.
 
 Repo → **Settings → Pages** → Source: `main` branch, `/ (root)` → Save.
 
-## 3. Point iptvirelandtv.com at GitHub Pages
+## 3. Point onairireland.ie at GitHub Pages
 
-At your DNS registrar for `iptvirelandtv.com`:
+At your DNS registrar for `onairireland.ie`:
 
-**Apex domain (`iptvirelandtv.com`)** — four A records:
+**Apex domain (`onairireland.ie`)** — four A records:
 ```
 185.199.108.153
 185.199.109.153
@@ -33,9 +33,9 @@ At your DNS registrar for `iptvirelandtv.com`:
 185.199.111.153
 ```
 
-**Or `www.iptvirelandtv.com`** — a CNAME record pointing to `YOURUSERNAME.github.io`
+**Or `www.onairireland.ie`** — a CNAME record pointing to `YOURUSERNAME.github.io`
 
-The `CNAME` file in this repo is already set to `iptvirelandtv.com` — GitHub
+The `CNAME` file in this repo is already set to `onairireland.ie` — GitHub
 Pages reads it automatically, you don't need to re-enter the domain unless
 it gets reset.
 

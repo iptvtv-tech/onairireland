@@ -11,11 +11,11 @@ last_updated: 2026-09-24
 
 {% include last-updated.html %}
 
-This policy explains what personal data On Air Ireland (iptvirelandtv.com) collects, why, and your rights regarding it, in line with the EU General Data Protection Regulation (GDPR).
+This policy explains what personal data On Air Ireland (onairireland.ie) collects, why, and your rights regarding it, in line with the EU General Data Protection Regulation (GDPR).
 
 ## Who We Are
 
-On Air Ireland is run by **John Cunningham**, Windgap, Co. Kilkenny, Ireland, who is the data controller for personal data collected through this site. You can contact the site administrator at **admin@iptvirelandtv.com**.
+On Air Ireland is run by **John Cunningham**, Windgap, Co. Kilkenny, Ireland, who is the data controller for personal data collected through this site. You can contact the site administrator at **admin@onairireland.ie**.
 
 ## What We Collect
 
@@ -63,7 +63,7 @@ You have the right to:
 - Object to or restrict how we use your data
 - Lodge a complaint with the Irish Data Protection Commission ([dataprotection.ie](https://www.dataprotection.ie/))
 
-To exercise any of these rights, contact us at **admin@iptvirelandtv.com**.
+To exercise any of these rights, contact us at **admin@onairireland.ie**.
 
 ## Data Retention
 
@@ -75,4 +75,4 @@ We may update this policy from time to time. The "Last updated" date at the top 
 
 ## Contact
 
-Questions about this policy or your data can be sent to **admin@iptvirelandtv.com**.
+Questions about this policy or your data can be sent to **admin@onairireland.ie**.

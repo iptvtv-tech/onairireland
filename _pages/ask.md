@@ -33,7 +33,7 @@ We only help with legal services. We can't help with unofficial IPTV boxes, "loa
   <label for="ask-question">Your question</label>
   <textarea id="ask-question" name="question" rows="6" required placeholder="Tell us what you're trying to do and what happens"></textarea>
   <button type="submit" class="btn btn--primary">Open in my email app</button>
-  <p class="ask-form__note">This opens your own email app with the question filled in, addressed to <strong>hello@iptvirelandtv.com</strong>. Nothing is sent or stored until you press send there. If nothing opens, email us directly at that address.</p>
+  <p class="ask-form__note">This opens your own email app with the question filled in, addressed to <strong>hello@onairireland.ie</strong>. Nothing is sent or stored until you press send there. If nothing opens, email us directly at that address.</p>
 </form>
 
 <script>
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var q = form.question.value.trim();
     if (!q) { form.question.focus(); return; }
     var body = q + "\n\n" + (form.device.value.trim() ? "Watching on: " + form.device.value.trim() + "\n" : "") + "Sent from " + location.href;
-    window.location.href = "mailto:hello@iptvirelandtv.com?subject=" +
+    window.location.href = "mailto:hello@onairireland.ie?subject=" +
       encodeURIComponent("Question: " + form.topic.value) + "&body=" + encodeURIComponent(body);
   });
 });

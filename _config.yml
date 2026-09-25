@@ -9,7 +9,7 @@ description: >-
   Your independent guide to legal streaming services in Ireland — service
   reviews, device recommendations, where to buy, and step-by-step
   installation instructions.
-url: "https://iptvirelandtv.com"
+url: "https://onairireland.ie"
 baseurl: ""
 repository: "iptvtv-tech/onairireland"
 locale: "en-IE"
@@ -19,7 +19,7 @@ lang: "en-IE"
 # SEO / Social (jekyll-seo-tag)
 # ==============================
 logo: "/assets/images/logo.png"
-image: "https://iptvirelandtv.com/assets/images/social-home.jpg"
+image: "https://onairireland.ie/assets/images/social-home.jpg"
 # Minimal Mistakes reads og_image (not image) for the default share image
 og_image: "/assets/images/social-home.jpg"
 twitter:
