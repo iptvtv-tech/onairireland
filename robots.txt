@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://onairireland.ie/sitemap.xml
-
+Sitemap: https://tcgamehub.win/sitemap.xml
