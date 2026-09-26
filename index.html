@@ -1,92 +1,33 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Quick Play Arcade · Free browser games with levels & high scores</title>
-  <meta name="description" content="Free quick-play browser games: Neon Snake, Feather Dash, Prism Breaker and more. Levels that speed up, bonus rounds, a daily challenge and a public high-score board. No sign-up — just enter your name.">
-  <link rel="canonical" href="https://tcgamehub.win/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Quick Play Arcade — free browser games">
-  <meta property="og:description" content="Levels that speed up, bonus rounds, a daily challenge and a public high-score board. No sign-up.">
-  <meta property="og:image" content="https://tcgamehub.win/assets/img/og.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#0b0b1a">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap">
-  <link rel="stylesheet" href="assets/css/site.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <a class="logo" href="./"><img src="favicon.svg" alt=""><span data-site-name>Quick Play Arcade</span></a>
-      <nav class="site-nav">
-        <a href="./" aria-current="page">Games</a>
-        <a href="leaderboard/">Leaderboard</a>
-        <a href="about/">About</a>
-      </nav>
-    </div>
-  </header>
+---
+layout: home
+title: "Legal Streaming Services & Devices Guide"
+description: "Independent Irish guides to legal streaming: services, prices, devices, setup and fixes for RTÉ Player, Virgin Media, Sky, NOW, Netflix, GAA+ and more."
+seo:
+  type: WebSite
+excerpt: "Legal streaming services, devices, and how-to guides for Ireland."
+entries_layout: grid
+image: "https://onairireland.ie/assets/images/social-home.jpg"
+header:
+  og_image: /assets/images/social-home.jpg
+---
+<div class="oai-hero">
+  <h1>Legal Streaming, Sorted for Ireland</h1>
+  <p>No unauthorized IPTV, no grey-area boxes — just clear, honest guides to the licensed streaming services, devices, and setups that actually work in Ireland.</p>
+  <div class="oai-hero__trust">
+    <span>✅ 100% Legal</span>
+    <span>🚫 No VPNs, No Piracy</span>
+    <span>🇮🇪 Independent Irish Guides</span>
+  </div>
 
-  <main class="wrap">
-    <section class="hero">
-      <div class="hero-main">
-        <h1>Quick games.<br><span class="glow">Rising levels.</span><br>Your name in lights.</h1>
-        <p>Jump straight in — no sign-up, no downloads. Every level gets a little faster, every fifth level is a bonus round, and the best scores go on the public board.</p>
-        <div class="hero-actions">
-          <button class="btn primary big" id="play-random">▶ Play now</button>
-          <a class="btn big" href="leaderboard/">🏆 High scores</a>
-        </div>
-      </div>
-      <aside class="daily-card" id="daily">
-        <span class="pill daily">📅 Daily Challenge</span>
-        <h2 data-daily-title>…</h2>
-        <p class="muted" style="margin:0">Same level layout for everyone today, with its own leaderboard.</p>
-        <div class="daily-top" data-daily-top></div>
-        <div>New challenge in <span class="countdown" data-countdown>--:--:--</span></div>
-        <a class="btn primary" data-daily-link href="#">Take the challenge →</a>
-        <img data-daily-img src="" alt="">
-      </aside>
-    </section>
+  <div class="oai-hero__ctas">
+    <a href="/streaming-services/" class="oai-hero__cta oai-hero__cta--primary">Browse Streaming Services</a>
+    <a href="/devices/" class="oai-hero__cta oai-hero__cta--secondary">See Device Guides</a>
+  </div>
 
-    <div class="ticker" aria-label="Latest high scores">
-      <span class="ticker-label">⚡ Latest scores</span>
-      <div class="ticker-track"><div class="ticker-items" id="ticker"><span>Loading…</span></div></div>
-    </div>
-
-    <div id="continue"></div>
-
-    <section class="section" id="games">
-      <div class="section-head"><h2>Pick a game</h2><span class="muted small">Tip: press <kbd>M</kbd> in a game to mute</span></div>
-      <div class="game-grid" id="grid"></div>
-    </section>
-
-    <section class="section">
-      <div class="section-head"><h2>How it works</h2></div>
-      <div class="how-grid">
-        <div><b>⚡ Start easy, get faster</b><p>The first levels are a warm-up. Each level after that is a little quicker, with something new to deal with.</p></div>
-        <div><b>⭐ Bonus every 5th level</b><p>No way to lose, a timer, and loads of points to grab. Clear it to unlock a checkpoint.</p></div>
-        <div><b>🔥 Combos</b><p>Chain hits quickly to raise your multiplier up to x5 and beyond.</p></div>
-        <div><b>🏆 Just your name</b><p>Make the top 20 and type a name — no email, no account. Boards reset daily and weekly so everyone gets a shot.</p></div>
-      </div>
-    </section>
-
-    <section class="section" id="badges">
-      <div class="section-head"><h2>Your badges</h2><span class="progress-count" id="badge-count"></span></div>
-      <div id="badge-list"></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>© <span data-year></span> <span data-site-name>Quick Play Arcade</span> · Free games, no sign-up</span>
-      <span><a href="leaderboard/">Leaderboard</a> · <a href="about/">About & privacy</a></span>
-    </div>
-  </footer>
-
-  <script type="module" src="assets/js/home.js"></script>
-</body>
-</html>
+  <div class="oai-hero__tools">
+    <a href="/sport-on-tv/">⚽ Sport on TV this week</a>
+    <a href="/streaming-prices/">💶 Streaming prices</a>
+    <a href="/streaming-cost-calculator/">🧮 What will my streaming cost?</a>
+    <a href="/start-here/">👋 New here? Start here</a>
+  </div>
+</div>
