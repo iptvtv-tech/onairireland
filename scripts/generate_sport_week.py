@@ -94,7 +94,7 @@ def call_claude(prompt):
         },
         json={
             "model": "claude-sonnet-5",
-            "max_tokens": 8000,
+            "max_tokens": 16000,
             "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 20}],
             "messages": [{"role": "user", "content": prompt}],
         },
@@ -104,8 +104,18 @@ def call_claude(prompt):
         print(f"Anthropic API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     data = resp.json()
+ 
+    stop_reason = data.get("stop_reason")
+    if stop_reason == "max_tokens":
+        print(
+            "WARNING: response hit max_tokens before finishing -- the model "
+            "likely got cut off mid-research, before writing the final JSON. "
+            "If this keeps happening, raise max_tokens further or reduce "
+            "web_search max_uses."
+        )
+ 
     return "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
-
+ 
 
 def parse_events(raw, start, end):
     m = re.search(r"<json>\s*(\{.*\})\s*</json>", raw, re.S) or re.search(r"(\{\s*\"events\".*\})", raw, re.S)
