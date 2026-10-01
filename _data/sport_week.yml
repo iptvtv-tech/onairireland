@@ -4,125 +4,77 @@
 # Leave events empty to show the "coming soon" message.
 week_start: 2026-10-02
 week_end: 2026-10-08
-generated: 2026-09-25
+generated: 2026-10-01
 events:
 - date: 2026-10-02
   time: '19:45'
   sport: Rugby
   event: Benetton v Connacht
-  competition: United Rugby Championship Round 2
+  competition: United Rugby Championship (Round 2)
   watch: Premier Sports
   free: false
-  source: https://www.irishtimes.com/sport/rugby/2026/09/22/urc-fixtures-list-leinster-start-campaign-with-a-trip-to-south-africa/
-- date: 2026-10-02
-  time: '20:00'
-  sport: Football
-  event: AFC Bournemouth v Fulham
-  competition: Premier League
-  watch: Sky Sports
-  free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
-- date: 2026-10-02
-  time: TBC
-  sport: Golf
-  event: Alfred Dunhill Links Championship (Round 2)
-  competition: DP World Tour - Rory McIlroy, Shane Lowry, Tom McKibbin playing
-  watch: Sky Sports Golf
-  free: false
-  source: https://www.nationalclubgolfer.com/tour/dp-world-tour/alfred-dunhill-links-championship-tee-times-first-round/
+  source: https://sportforbusiness.com/urc-opens-new-season-with-commercial-momentum-and-four-different-irish-challenges/
 - date: 2026-10-03
   time: '12:30'
   sport: Football
-  event: Leeds United v Tottenham Hotspur
+  event: Aston Villa v Manchester City
   competition: Premier League
   watch: TNT Sports
   free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
+  source: https://www.live-footballontv.com/live-english-football-on-tv.html
 - date: 2026-10-03
   time: '17:30'
   sport: Rugby
   event: Sharks v Leinster
-  competition: United Rugby Championship Round 2
+  competition: United Rugby Championship (Round 2)
   watch: Premier Sports
   free: false
-  source: https://www.irishtimes.com/sport/rugby/2026/09/22/urc-fixtures-list-leinster-start-campaign-with-a-trip-to-south-africa/
+  source: https://sportforbusiness.com/urc-opens-new-season-with-commercial-momentum-and-four-different-irish-challenges/
 - date: 2026-10-03
   time: '17:30'
-  sport: Football
-  event: Chelsea v Liverpool
-  competition: Premier League
-  watch: Sky Sports
+  sport: Rugby
+  event: Glasgow Warriors v Ulster
+  competition: United Rugby Championship (Round 2)
+  watch: Premier Sports
   free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
+  source: https://sportforbusiness.com/urc-opens-new-season-with-commercial-momentum-and-four-different-irish-challenges/
+- date: 2026-10-03
+  time: '19:35'
+  sport: Football
+  event: Chelsea v Bournemouth
+  competition: Premier League
+  watch: Premier Sports
+  free: false
+  source: https://premiersportsireland.com/
 - date: 2026-10-03
   time: '19:45'
   sport: Rugby
   event: Munster v Bulls
-  competition: United Rugby Championship Round 2
+  competition: United Rugby Championship (Round 2)
   watch: Premier Sports
   free: false
-  source: https://www.irishtimes.com/sport/rugby/2026/09/22/urc-fixtures-list-leinster-start-campaign-with-a-trip-to-south-africa/
+  source: https://sportforbusiness.com/urc-opens-new-season-with-commercial-momentum-and-four-different-irish-challenges/
 - date: 2026-10-03
   time: TBC
+  sport: Football
+  event: Tottenham Hotspur v Brighton & Hove Albion
+  competition: Premier League
+  watch: Sky Sports
+  free: false
+  source: https://www.live-footballontv.com/live-english-football-on-tv.html
+- date: 2026-10-04
+  time: '11:30'
   sport: Golf
-  event: Alfred Dunhill Links Championship (Round 3)
-  competition: DP World Tour - Rory McIlroy, Shane Lowry, Tom McKibbin playing
-  watch: Sky Sports Golf
-  free: false
-  source: https://www.nationalclubgolfer.com/tour/dp-world-tour/alfred-dunhill-links-championship-tee-times-first-round/
-- date: 2026-10-04
-  time: '14:00'
-  sport: Football
-  event: Everton v Crystal Palace
-  competition: Premier League
+  event: Alfred Dunhill Links Championship - Final Round (feat. Padraig Harrington)
+  competition: DP World Tour
   watch: Sky Sports
   free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
-- date: 2026-10-04
-  time: '14:00'
-  sport: Football
-  event: Aston Villa v Burnley
-  competition: Premier League
-  watch: Sky Sports
-  free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
-- date: 2026-10-04
-  time: '14:00'
-  sport: Football
-  event: Newcastle United v Nottingham Forest
-  competition: Premier League
-  watch: Sky Sports
-  free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
-- date: 2026-10-04
-  time: '14:00'
-  sport: Football
-  event: Wolves v Brighton & Hove Albion
-  competition: Premier League
-  watch: Sky Sports
-  free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
-- date: 2026-10-04
-  time: '15:00'
-  sport: Racing
-  event: Qatar Prix de l'Arc de Triomphe
-  competition: Group 1 Flat racing, ParisLongchamp
-  watch: Virgin Media Television
-  free: true
-  source: https://www.advanced-television.com/2025/10/08/record-interest-for-2025-qatar-prix-de-larc-de-triomphe/
-- date: 2026-10-04
-  time: '16:30'
-  sport: Football
-  event: Brentford v Manchester City
-  competition: Premier League
-  watch: Sky Sports
-  free: false
-  source: https://www.premierleague.com/en/news/4324539/all-380-fixtures-for-202526-premier-league-season
-- date: 2026-10-04
+  source: https://www.europeantour.com/dpworld-tour/alfred-dunhill-links-championship-2026/tv-schedule
+- date: 2026-10-08
   time: TBC
-  sport: Golf
-  event: Alfred Dunhill Links Championship (Final Round)
-  competition: DP World Tour - Rory McIlroy, Shane Lowry, Tom McKibbin playing
-  watch: Sky Sports Golf
+  sport: Boxing
+  event: Imam Khataev v Padraig McCrory
+  competition: Light Heavyweight (NABF title)
+  watch: DAZN
   free: false
-  source: https://www.nationalclubgolfer.com/tour/dp-world-tour/alfred-dunhill-links-championship-tee-times-first-round/
+  source: https://www.ringmagazine.com/events
