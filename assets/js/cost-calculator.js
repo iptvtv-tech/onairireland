@@ -121,8 +121,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (has(sel, "HBO Max") && has(sel, "NOW", "Entertainment & HBO Max")) {
       tips.push("NOW Entertainment & HBO Max already includes HBO Max Basic with Ads, so you may be paying for HBO Max twice.");
     }
-    if (has(sel, "NOW", "Sports")) {
-      tips.push("NOW Sports is much cheaper on a 12-month offer than month to month. Check the NOW site for the current deal.");
+    if (has(sel, "NOW", "Sports") && has(sel, "NOW", "Sports Extra")) {
+      tips.push("NOW Sports and Sports Extra together are much cheaper on the 12-month Sports Saver than month to month. Check the NOW site for the current deal.");
+    } else if (has(sel, "NOW", "Sports") || has(sel, "NOW", "Sports Extra")) {
+      tips.push("NOW sports memberships are often cheaper on an offer than month to month. Check the NOW site for the current deal.");
     }
     if (sel.length >= 4) {
       tips.push("You have " + sel.length + " paid plans. Most people save by keeping two or three and rotating the rest.");

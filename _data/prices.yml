@@ -21,7 +21,7 @@
   plan: Basic
   monthly: 11.99
   changed: 2026-09-10
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: The Irish Times
   url: https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/
   group: general
@@ -29,7 +29,7 @@
   plan: Standard
   monthly: 18.99
   changed: 2026-09-10
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: The Irish Times
   url: https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/
   group: general
@@ -37,7 +37,7 @@
   plan: Premium
   monthly: 25.99
   changed: 2026-09-10
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: The Irish Times
   url: https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/
   group: general
@@ -46,7 +46,7 @@
   plan: Standard with Ads
   monthly: 8.99
   note: New customers often get an introductory price for 6 months
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: SmartSaver.ie
   url: https://www.smartsaver.ie/entertainment/disney-plus
   group: general
@@ -54,7 +54,7 @@
   plan: Standard
   monthly: 11.99
   yearly: 119.90
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: SmartSaver.ie
   url: https://www.smartsaver.ie/entertainment/disney-plus
   group: general
@@ -62,54 +62,56 @@
   plan: Premium
   monthly: 15.99
   yearly: 159.90
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: SmartSaver.ie
   url: https://www.smartsaver.ie/entertainment/disney-plus
   group: general
 
 - service: Prime Video
-  plan: Prime
+  plan: Amazon Prime (includes Prime Video)
   monthly: 6.99
   yearly: 69.90
-  checked: 2026-09-24
-  source: bonkers.ie
-  url: https://www.bonkers.ie/blog/broadband-phone/wading-through-the-stream-the-definitive-guide-to-streaming-platforms-in-ireland/
+  note: Full Amazon Prime has been available in Ireland since Amazon.ie launched in March 2025
+  checked: 2026-10-07
+  source: SmartSaver.ie
+  url: https://www.smartsaver.ie/entertainment/prime-video
   group: general
 
 - service: Apple TV
   plan: Apple TV
   monthly: 9.99
-  checked: 2026-09-24
-  source: bonkers.ie
-  url: https://www.bonkers.ie/blog/broadband-phone/wading-through-the-stream-the-definitive-guide-to-streaming-platforms-in-ireland/
+  note: Formerly Apple TV+. 7-day free trial
+  checked: 2026-10-07
+  source: Apple
+  url: https://www.apple.com/ie/apple-tv/
   group: film-tv
 
 - service: HBO Max
   plan: Basic with Ads
   monthly: 5.99
-  note: Included with many Sky TV packages
-  checked: 2026-09-24
+  note: Included with Sky Ultimate TV (not Essential TV)
+  checked: 2026-10-07
   source: TheJournal.ie
   url: https://www.thejournal.ie/hbo-max-launches-ireland-how-to-watch-the-pitt-euphoria-friends-6995214-Mar2026/
   group: film-tv
 - service: HBO Max
   plan: Standard with Ads
   monthly: 6.99
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: TheJournal.ie
   url: https://www.thejournal.ie/hbo-max-launches-ireland-how-to-watch-the-pitt-euphoria-friends-6995214-Mar2026/
   group: film-tv
 - service: HBO Max
   plan: Standard
   monthly: 10.99
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: TheJournal.ie
   url: https://www.thejournal.ie/hbo-max-launches-ireland-how-to-watch-the-pitt-euphoria-friends-6995214-Mar2026/
   group: film-tv
 - service: HBO Max
   plan: Premium
   monthly: 15.99
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: TheJournal.ie
   url: https://www.thejournal.ie/hbo-max-launches-ireland-how-to-watch-the-pitt-euphoria-friends-6995214-Mar2026/
   group: film-tv
@@ -117,16 +119,33 @@
 - service: Paramount+
   plan: Basic with Ads
   monthly: 5.99
-  note: Higher plans up to €11.99
-  checked: 2026-09-24
-  source: bonkers.ie
-  url: https://www.bonkers.ie/blog/broadband-phone/wading-through-the-stream-the-definitive-guide-to-streaming-platforms-in-ireland/
+  yearly: 52.99
+  checked: 2026-10-07
+  source: SmartSaver.ie
+  url: https://www.smartsaver.ie/entertainment/paramount-plus
+  group: film-tv
+- service: Paramount+
+  plan: Standard
+  monthly: 8.99
+  yearly: 79.99
+  checked: 2026-10-07
+  source: SmartSaver.ie
+  url: https://www.smartsaver.ie/entertainment/paramount-plus
+  group: film-tv
+- service: Paramount+
+  plan: Premium
+  monthly: 11.99
+  yearly: 106.99
+  note: Ad-free, 4K
+  checked: 2026-10-07
+  source: SmartSaver.ie
+  url: https://www.smartsaver.ie/entertainment/paramount-plus
   group: film-tv
 - service: Hayu
   plan: Hayu
   monthly: 6.99
   yearly: 61.99
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: bonkers.ie
   url: https://www.bonkers.ie/blog/broadband-phone/wading-through-the-stream-the-definitive-guide-to-streaming-platforms-in-ireland/
   group: film-tv
@@ -135,7 +154,7 @@
   plan: Entertainment
   monthly: 8.99
   note: Intro offers often available on a 6-month term
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: NOW
   url: https://www.nowtv.com/ie/membership
   group: film-tv
@@ -144,7 +163,7 @@
   plan: Entertainment & HBO Max
   monthly: 11.99
   note: Includes HBO Max Basic with Ads
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: NOW
   url: https://www.nowtv.com/ie/membership
   group: film-tv
@@ -152,7 +171,7 @@
 - service: NOW
   plan: Cinema
   monthly: 11.99
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: NOW
   url: https://www.nowtv.com/ie/membership
   group: film-tv
@@ -160,8 +179,8 @@
 - service: NOW
   plan: Boost add-on
   monthly: 5.00
-  note: Adds 1080p, ad-free on demand and a second stream
-  checked: 2026-09-24
+  note: Adds Full HD 1080p, ad-free on demand and a second stream
+  checked: 2026-10-07
   source: NOW
   url: https://www.nowtv.com/ie/membership
   group: film-tv
@@ -169,18 +188,28 @@
 
 - service: NOW
   plan: Sports
-  monthly: 72.99
-  note: Sky Sports, Premier Sports and TNT Sports. Much cheaper on a 12-month offer
-  checked: 2026-09-24
+  monthly: 38.99
+  note: 12 Sky Sports channels plus Sky Sports+. Day pass €14.99
+  checked: 2026-10-07
   source: NOW
-  url: https://www.nowtv.com/ie/membership
+  url: https://www.nowtv.com/ie/membership/sports/watch-sky-sports
+  group: sport
+  combinable: true
+- service: NOW
+  plan: Sports Extra
+  monthly: 33.99
+  note: Premier Sports 1-2 and TNT Sports 1-4 (Ireland only). Day pass €14.99. Sports + Sports Extra together is €27 a month on the 12-month Sports Saver offer
+  checked: 2026-10-07
+  source: NOW
+  url: https://www.nowtv.com/ie/membership/sports/watch-sports-extra
   group: sport
   combinable: true
 - service: GAA+
   plan: Season Pass
   yearly: 95.00
-  note: One-off pass for the championship season. Single games €15
-  checked: 2026-09-24
+  note: One-off pass for the championship season. Single games €15, or 3 for €30. GAA members get 10% off
+  changed: 2026-03-24
+  checked: 2026-10-07
   source: GAA
   url: https://www.gaa.ie/article/gaa-launches-2026-season-pass
   group: sport
@@ -188,29 +217,29 @@
 - service: RTÉ Player
   plan: Free
   monthly: 0
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: RTÉ
   url: https://www.rte.ie/player/
   group: free
 - service: Virgin Media Play
   plan: Free
   monthly: 0
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: Virgin Media Television
   url: https://www.virginmediatelevision.ie/
   group: free
 - service: TG4 Player
   plan: Free
   monthly: 0
-  checked: 2026-09-24
+  checked: 2026-10-07
   source: TG4
   url: https://www.tg4.ie/
   group: free
 - service: TV licence
-  plan: Per household
+  plan: Per premises
   yearly: 160.00
-  note: Needed if you have a TV that can receive broadcast channels
-  checked: 2026-09-24
+  note: Needed for any TV set, including a smart TV used only for streaming
+  checked: 2026-10-07
   source: Citizens Information
   url: https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/
   group: free

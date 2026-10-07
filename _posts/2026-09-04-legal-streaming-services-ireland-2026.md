@@ -2,8 +2,8 @@
 title: "Legal Streaming Services in Ireland: The Full 2026 Guide"
 excerpt: "Every major legal streaming service in Ireland, what it costs and what you get, from free RTÉ Player to Netflix, NOW and live sport."
 description: "Every legal streaming service in Ireland for 2026: free apps, Netflix, Disney+, NOW, HBO Max, sport and what each one costs."
-last_updated: 2026-09-24
-last_checked: 2026-09-24
+last_updated: 2026-10-07
+last_checked: 2026-10-07
 categories:
   - Streaming-Services
 tags:
@@ -25,16 +25,16 @@ quick_facts:
   - "RTÉ Player, Virgin Media Play and TG4 Player are free — no subscription needed"
   - "Netflix now costs €11.99 to €25.99 a month after its September 2026 price rise"
   - "Live sport runs through NOW Sports, Sky, Premier Sports, TNT Sports and GAA+, plus free coverage on RTÉ, TG4 and Virgin Media"
-  - "You don't need a TV licence for streaming-only devices (the licence is €160)"
+  - "You don't need a TV licence to stream on a phone, laptop or tablet, but any TV set needs one, even a smart TV used only for apps (the licence is €160)"
 faqs:
   - question: "What is the cheapest legal way to stream TV in Ireland?"
     answer: "The free apps: RTÉ Player, Virgin Media Play and TG4 Player cost nothing and cover all the main Irish channels live and on catch-up. Of the paid services, NOW Entertainment and Paramount+ are among the cheapest."
   - question: "Is IPTV legal in Ireland?"
     answer: "IPTV just means TV delivered over the internet, and licensed services like NOW, Sky Stream and Virgin Media TV use it legally. What's illegal is buying unlicensed 'IPTV subscriptions' or 'fully loaded' boxes that resell channels without permission."
   - question: "Is there a Netflix plan with ads in Ireland?"
-    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). Netflix has said an ad-supported plan is coming but hasn't given a date."
+    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). An ad-supported plan is expected (reportedly in 2027), but Netflix hasn't announced an Irish launch date."
   - question: "Do I need a TV licence if I only stream?"
-    answer: "No, as long as your devices can't receive a TV signal by aerial, satellite or cable. A TV set that can be connected to an aerial still counts as TV equipment."
+    answer: "Not if you only watch on a phone, laptop, tablet or other device that can't receive a TV signal by aerial, satellite or cable. Any TV set needs a licence, even a smart TV you only use for streaming apps."
 ---
 
 {% include last-updated.html %}
@@ -47,7 +47,7 @@ faqs:
 
 **The short answer:** most Irish households can cover everything they watch with the three free Irish apps ([RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) and TG4 Player) plus one or two paid services — usually Netflix, Disney+ or NOW. Live sport is where costs climb, so decide what sport you actually follow before you sign up for anything.
 
-This guide covers every major licensed streaming service available in Ireland in 2026, what each costs, and who it suits. Prices were checked in September 2026; providers change them often, so always confirm on the provider's own site before paying.
+This guide covers every major licensed streaming service available in Ireland in 2026, what each costs, and who it suits. Prices were checked in October 2026; providers change them often, so always confirm on the provider's own site before paying.
 
 ## Why "legal" matters
 
@@ -68,7 +68,7 @@ Virgin Media Play replaced the older Virgin Media Player app in 2024, so if you 
 
 ## Paid streaming services and prices
 
-These are the standard monthly prices in Ireland as of September 2026. Several services run introductory offers for new customers.
+These are the standard monthly prices in Ireland as of October 2026. Several services run introductory offers for new customers.
 
 | Service | Plans and monthly price | Best for |
 | --- | --- | --- |
@@ -76,12 +76,12 @@ These are the standard monthly prices in Ireland as of September 2026. Several s
 | **Disney+** | From €8.99 (Standard with Ads) · Standard €11.99 · Premium €15.99 | Families, Marvel, Star Wars, Pixar |
 | **Prime Video** | €6.99 | Good value, especially if you already shop on Amazon |
 | **Apple TV** | €9.99 | Apple originals like *Slow Horses* and *Severance* |
-| **Paramount+** | From €5.99 (Basic with Ads) | US drama and comedy on a budget |
+| **Paramount+** | Basic with Ads €5.99 · Standard €8.99 · Premium €11.99 | US drama and comedy on a budget |
 | **NOW Entertainment** | €8.99 (€11.99 with HBO Max Basic with Ads) | Sky Originals and HBO series without a Sky contract |
 | **NOW Cinema** | €11.99 | New film releases |
-| **HBO Max** | Standalone at hbomax.com, or through Sky and NOW | HBO, Warner Bros. and DC in one app |
+| **HBO Max** | From €5.99 (Basic with Ads) · Standard €10.99 · Premium €15.99; also included with Sky Ultimate TV and NOW | HBO, Warner Bros. and DC in one app |
 
-NOW's optional **Boost** add-on (€5 a month) adds 1080p, ad-free on-demand viewing and a second simultaneous stream.
+NOW's optional **Boost** add-on (€5 a month) adds Full HD 1080p, ad-free on-demand viewing and a second simultaneous stream.
 
 Read more in our guides to [Netflix's 2026 price changes](/news/netflix-ireland-price-changes-for-2026-what-you-need-to-know/), [Disney+ plans](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/), [Paramount+](/streaming-services/paramount-in-ireland-is-it-worth-subscribing/), [HBO Max in Ireland](/news/is-hbo-max-coming-to-ireland/) and [NOW's latest prices](/news/now-ireland-raises-prices-for-2026/).
 
@@ -90,8 +90,8 @@ Read more in our guides to [Netflix's 2026 price changes](/news/netflix-ireland-
 If you want live channels, sport and on-demand in one bill, the pay-TV providers now deliver most of it over broadband:
 
 - **Sky** — Sky Stream works over Wi-Fi with no satellite dish. See [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/).
-- **Virgin Media TV** — sold with Virgin broadband in Essential, Mix and Max packages. See [Virgin Media TV compared](/streaming-services/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared/).
-- **Eir** — Eir Vision bundles TV with broadband. See [Eir Vision explained](/streaming-services/eir-vision-explained-is-bundling-tv-with-broadband-worth-it/).
+- **Virgin Media TV** — sold with Virgin broadband as Basic, Core and Loaded TV, now on the Streaming TV box. See [Virgin Media TV compared](/streaming-services/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared/).
+- **eir** — eir TV bundles TV with broadband (from €14.99 a month with broadband). See [eir TV explained](/streaming-services/eir-vision-explained-is-bundling-tv-with-broadband-worth-it/).
 
 Pay-TV prices depend heavily on your broadband bundle and any current offers, so compare the total monthly bill rather than the TV part alone.
 
@@ -101,23 +101,23 @@ Sport is split across several services, so the cheapest route depends on what yo
 
 | Sport | Where to watch legally |
 | --- | --- |
-| **GAA** | RTÉ and TG4 (free) for many championship games; **GAA+** for the rest — the 2026 Season Pass cost €95, or €15 per match |
-| **Premier League football** | Mainly Sky Sports and TNT Sports — both included, along with Premier Sports, in the NOW Sports membership (€72.99 a month, or less on a 12-month deal) |
-| **Champions League football** | Selected games free on Virgin Media until 2027; the rest on Premier Sports. From 2027 the free games move to RTÉ |
-| **Rugby** | Six Nations free on RTÉ and Virgin Media; URC through pay-TV and streaming partners |
+| **GAA** | RTÉ (35 live championship games in 2026) and TG4 (free); **GAA+** for 40 exclusive games — the 2026 Season Pass cost €95, or €15 per match |
+| **Premier League football** | Sky Sports (most games), TNT Sports, and Premier Sports, which has an exclusive Saturday 3pm game every round in Ireland. On NOW: Sports (Sky Sports, €38.99 a month) plus Sports Extra (TNT and Premier Sports, €33.99), or both for €27 a month on the 12-month Sports Saver |
+| **Champions League football** | Free games on RTÉ (first pick of Wednesdays) and Virgin Media until 2027; Premier Sports has first pick of Tuesday games. From 2027–28 Virgin drops out: RTÉ keeps free Wednesday games and the final, Premier Sports keeps Tuesdays and Sky Sports gets the rest |
+| **Rugby** | Six Nations free on RTÉ and Virgin Media; URC free on TG4 (selected games) and every Irish province match on Premier Sports |
 | **Golf and other events** | Mostly Sky Sports, with some free coverage on RTÉ |
 
 Our sport guides go into detail: [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/), [Premier League football](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/), [the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/), [Six Nations rugby](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/) and [the URC](/sports-streaming/where-to-watch-the-united-rugby-championship-legally-in-ireland/).
 
 ## Do you need a TV licence to stream?
 
-The TV licence costs **€160 a year**. According to Citizens Information, you don't need one to watch on a computer, phone or other device that can't receive a TV signal by aerial, satellite or cable — so streaming-only households are generally exempt. A TV set that can be connected to an aerial still counts as TV equipment. Our [TV licence guide](/streaming-services/tv-licence-streaming-ireland/) explains the rules in full.
+The TV licence costs **€160 a year**. According to Citizens Information, you don't need one to watch on a computer, phone or other device that can't receive a TV signal by aerial, satellite or cable. But any TV set needs a licence, even a smart TV you only use for streaming apps, so a household is only exempt if it has no TV set at all. Our [TV licence guide](/streaming-services/tv-licence-streaming-ireland/) explains the rules in full.
 
 ## What you need to watch on your TV
 
 Most smart TVs from the last few years already have RTÉ Player, Virgin Media Play, Netflix and the other big apps built in. If yours is older or missing apps, a plug-in streaming stick is the cheapest fix:
 
-- **Amazon Fire TV Stick** — wide app support, including all the Irish apps. [Check price on Amazon](https://amzn.to/4y4CYvF)
+- **Amazon Fire TV Stick** — wide app support, including Virgin Media Play, TG4 Player, NOW and GAA+. [Check price on Amazon](https://amzn.to/4y4CYvF)
 - **A new smart TV** — worth it if your current set is slow or no longer gets app updates. [Check smart TV prices](https://amzn.to/3Tdso6z)
 - **A soundbar** — the single biggest upgrade for TV speakers. [Check soundbar prices](https://amzn.to/4AqggzP)
 
@@ -132,7 +132,7 @@ See our [best streaming devices for Irish homes](/devices/best-streaming-devices
 | HBO and Sky shows | NOW Entertainment (with HBO Max) or HBO Max directly |
 | Kids and families | Disney+ |
 | GAA | Free RTÉ and TG4 coverage, plus a GAA+ pass |
-| Premier League football | NOW Sports, or a Sky or Virgin Media package with sport |
+| Premier League football | NOW Sports plus Sports Extra, or a Sky or Virgin Media package with sport |
 
 Not sure how many services you actually need? Read [how many streaming subscriptions Irish households really need](/news/how-many-streaming-subscriptions-do-irish-households-really-need/), or take our [quick streaming quiz](/quiz/).
 
@@ -142,6 +142,6 @@ Not sure how many services you actually need? Read [how many streaming subscript
 
 ### Sources
 
-Prices checked September 2026: [Netflix price rise (Irish Times)](https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/) · [Disney+ prices (SmartSaver)](https://www.smartsaver.ie/entertainment/disney-plus) · [Streaming prices in Ireland (SmartSaver)](https://www.smartsaver.ie/streaming/guides/best-streaming-service-ireland) · [NOW memberships](https://www.nowtv.com/ie/membership) · [GAA+ 2026 Season Pass](https://www.gaa.ie/article/gaa-launches-2026-season-pass) · [Champions League rights (The42)](https://www.the42.ie/champions-league-tv-rights-2-7028206-Apr2026/) · [Six Nations free-to-air coverage (RTÉ)](https://about.rte.ie/2026/01/24/rte-and-virgin-media-television-kick-off-comprehensive-free-to-air-coverage-of-the-2026-six-nations-championship/) · [TV licences (Citizens Information)](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/) · [HBO Max UK & Ireland launch (WBD)](https://press.wbd.com/us/media-release/hbo-max-launch-uk-ireland-thursday-march-26) · [Virgin Media Play launch](https://www.virginmedia.ie/about-us/press/2024/virgin-media-television-announce-brand-new-streaming-service/)
+Prices checked October 2026: [Netflix price rise (Irish Times)](https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/) · [Disney+ prices (SmartSaver)](https://www.smartsaver.ie/entertainment/disney-plus) · [Streaming prices in Ireland (SmartSaver)](https://www.smartsaver.ie/streaming/guides/best-streaming-service-ireland) · [NOW memberships](https://www.nowtv.com/ie/membership) · [NOW Sports and Sports Extra](https://www.nowtv.com/ie/membership/sports) · [Paramount+ prices (SmartSaver)](https://www.smartsaver.ie/entertainment/paramount-plus) · [Premier League broadcasters in Ireland 2025–31](https://www.premierleague.com/en/news/3703577) · [GAA+ 2026 Season Pass](https://www.gaa.ie/article/gaa-launches-2026-season-pass) · [Champions League rights (The42)](https://www.the42.ie/champions-league-tv-rights-2-7028206-Apr2026/) · [Champions League on RTÉ 2027–31](https://about.rte.ie/2026/05/01/rte-secures-uefa-champions-league-rights-from-2027-2031/) · [URC broadcasters (IRFU)](https://www.irishrugby.ie/2025/04/17/tg4-become-exclusive-free-to-air-broadcaster-of-bkt-united-rugby-championship-in-ireland) · [RTÉ GAA 2026 (Irish Times)](https://www.irishtimes.com/sport/2026/04/07/gaa-rte-to-televise-35-live-championship-games-this-season/) · [Six Nations free-to-air coverage (RTÉ)](https://about.rte.ie/2026/01/24/rte-and-virgin-media-television-kick-off-comprehensive-free-to-air-coverage-of-the-2026-six-nations-championship/) · [TV licences (Citizens Information)](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/) · [HBO Max UK & Ireland launch (WBD)](https://press.wbd.com/us/media-release/hbo-max-launch-uk-ireland-thursday-march-26) · [Virgin Media Play launch](https://www.virginmedia.ie/about-us/press/2024/virgin-media-television-announce-brand-new-streaming-service/)
 
 {% include related-posts.html %}

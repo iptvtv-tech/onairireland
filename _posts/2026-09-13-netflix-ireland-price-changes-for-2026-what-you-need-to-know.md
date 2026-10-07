@@ -2,6 +2,8 @@
 title: "Netflix Ireland Price Changes for 2026: What You Need to Know"
 excerpt: "Netflix has raised its Irish prices for 2026. How each plan is affected and what it means for your streaming budget."
 description: "Netflix has raised its Irish prices for 2026. How each plan is affected and what it means for your streaming budget."
+last_updated: 2026-10-07
+last_checked: 2026-10-07
 categories:
   - News
 tags:
@@ -16,9 +18,9 @@ draft_generated: true
 affiliate_links: true
 faqs:
   - question: "Has Netflix confirmed exact new prices for Ireland in 2026?"
-    answer: "Specific euro amounts should be verified directly on the official Netflix Ireland account page, as we don't want to publish figures that may already be outdated."
-  - question: "Will the ad-supported plan increase in price too?"
-    answer: "It's possible, but the ad-supported tier has historically seen smaller or less frequent increases compared to standard and premium plans."
+    answer: "Yes. From 10 September 2026 Basic is €11.99 (was €10.99), Standard €18.99 (was €16.99) and Premium €25.99 (was €23.99). New customers pay the new prices straight away; existing customers move over on their billing date, and everyone should be on them by mid-October."
+  - question: "Is there a cheaper Netflix plan with ads in Ireland?"
+    answer: "Not yet. Ireland has no ad-supported plan. One is expected (reportedly in 2027), but Netflix hasn't announced an Irish launch date."
   - question: "How will I know if my subscription price has changed?"
     answer: "Netflix typically emails subscribers in advance of a price change and also displays updated pricing in your account billing section."
   - question: "Can I downgrade my plan if the new price doesn't suit me?"
@@ -33,9 +35,17 @@ faqs:
 
 ## Netflix Pricing in Ireland: What's Changing
 
-Netflix regularly reviews its pricing across European markets, and Ireland is no exception. Reports suggest that 2026 brings another round of adjustments to the standard subscription tiers, though we'd encourage readers to check the official Netflix Ireland account page for the exact euro figures currently displayed at checkout, as these can shift and we don't want to publish a number that's already out of date by the time you read this.
+Netflix raised all three of its Irish prices on 10 September 2026, [as reported by The Irish Times](https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/):
 
-What we can say with confidence is that Netflix has historically kept a tiered structure in Ireland: a cheaper ad-supported plan, a mid-range standard option, and a premium tier with the highest video quality and most simultaneous streams. If 2026 follows the pattern of recent years, expect the increases to be modest per tier rather than a dramatic across-the-board jump.
+| Plan | Old price | New price |
+| --- | --- | --- |
+| Basic | €10.99 | €11.99 |
+| Standard | €16.99 | €18.99 |
+| Premium | €23.99 | €25.99 |
+
+The new prices applied straight away to new customers. Existing customers move over on their billing date, and everyone should be on the new prices by mid-October 2026.
+
+Netflix in Ireland has three ad-free plans: Basic, Standard and Premium, with Premium offering the highest video quality and most simultaneous streams. Unlike the UK, Ireland has no cheaper ad-supported plan yet. The September rise added €1 a month to Basic and €2 to Standard and Premium.
 
 ### Why Netflix Adjusts Prices
 
@@ -43,17 +53,17 @@ Streaming services typically point to content investment as the reason for price
 
 ## How the Tiers Are Affected
 
-### Ad-Supported Plan
+### Basic Plan
 
-The ad-supported tier remains Netflix's entry point for budget-conscious viewers. It's generally the tier least affected by price changes, since Netflix uses it to keep subscriber numbers up. Still, don't assume it will stay untouched forever — always double check the current price before renewing.
+Basic went from €10.99 to €11.99 a month. It's the cheapest way into Netflix in Ireland, since there's no ad-supported tier here yet.
 
 ### Standard Plan
 
-The standard, ad-free tier is usually where most Irish households sit, and it's often the plan most exposed to yearly increases. If you're on this plan, it's worth logging into your account settings to confirm your next billing date and whether the new pricing has already applied or will kick in from your next cycle.
+Standard went from €16.99 to €18.99 a month. It's usually where most Irish households sit, and it's often the plan most exposed to yearly increases. If you're on this plan, it's worth logging into your account settings to confirm your next billing date and whether the new pricing has already applied or will kick in from your next cycle.
 
 ### Premium Plan
 
-The premium tier, with 4K streaming and support for more simultaneous screens, tends to see the steepest absolute price increases in cash terms, even if the percentage rise is similar to other tiers. Families sharing one account across multiple screens will feel this the most.
+Premium went from €23.99 to €25.99 a month. With 4K streaming and support for more simultaneous screens, it tends to see the steepest price increases in cash terms. Families sharing one account across multiple screens will feel this the most.
 
 ## Getting the Most From Your Subscription
 

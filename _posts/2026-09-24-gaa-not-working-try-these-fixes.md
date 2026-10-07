@@ -2,6 +2,8 @@
 title: "GAA+ Not Working? Try These Fixes"
 excerpt: "A practical troubleshooting guide for Irish viewers dealing with GAA+ streaming problems on smart TVs, phones, and streaming sticks."
 description: "A practical troubleshooting guide for Irish viewers dealing with GAA+ streaming problems on smart TVs, phones, and streaming sticks."
+last_updated: 2026-10-07
+last_checked: 2026-10-07
 categories:
   - Troubleshooting
 tags:
@@ -19,8 +21,8 @@ faqs:
     answer: "Overall broadband speed matters less than the stability of the connection to your specific streaming device, so check for Wi-Fi interference, distance from the router, or too many devices connected at once."
   - question: "Is it better to watch GAA+ on a smart TV app or a streaming stick?"
     answer: "Streaming sticks such as Fire TV Stick or Roku often receive app updates faster than built-in smart TV software, so they can be more reliable if your TV app is misbehaving."
-  - question: "I'm getting a message that content isn't available in my account region. What should I do?"
-    answer: "Double-check that your GAA+ account and app store account are both set to Ireland, and if the issue persists after that, contact GAA+ support directly to confirm your account details."
+  - question: "I'm getting a message that content isn't available in my region. What should I do?"
+    answer: "Usually this means the game is one RTÉ, TG4 or BBC NI is showing, and those can't be streamed on GAA+ in Ireland, so watch it on RTÉ Player or TG4 Player instead. If it is a GAA+ game, log out and back in on your home Wi-Fi, then contact help@gaaplus.ie."
   - question: "Does closing other apps help GAA+ run better?"
     answer: "Yes, closing unused apps frees up memory and processing power on your device, which can reduce freezing or crashing during playback."
 ---
@@ -46,10 +48,10 @@ It's also worth checking whether the problem is actually with GAA+ or with your 
 A surprising number of "not available" or "content restricted" errors come down to account settings rather than technical faults. Confirm that:
 
 - You're logged into the correct GAA+ account (easy to get wrong if multiple family members share devices).
-- Your account's registered country matches where you're actually watching, since some services tailor availability based on your registered region.
-- Your app store account (Google Play, Amazon Appstore, etc.) is set to the Irish store, which affects which version of the app you receive and how it behaves.
+- The match is actually on GAA+. Games shown by RTÉ, TG4 or BBC NI aren't available on GAA+ in Ireland, so use RTÉ Player or TG4 Player for those.
+- You're on your home Wi-Fi. GAA+ works out what you can watch from where it detects you are, so if you've just come back from abroad, log out and back in.
 
-If something still looks wrong after checking these, it's best to contact GAA+ support directly. They can confirm whether there's a known outage or an issue specific to your account, which saves a lot of guesswork.
+If something still looks wrong after checking these, it's best to contact GAA+ support directly at help@gaaplus.ie. They can confirm whether there's a known outage or an issue specific to your account, which saves a lot of guesswork.
 
 ## Diagnose a Buffering or Freezing Stream
 
@@ -66,9 +68,9 @@ Buffering is almost always a network issue rather than an app issue. A few thing
 
 Built-in smart TV apps are sometimes the last to get updates, and older TV models can struggle with newer app versions. If GAA+ consistently underperforms on your TV's native app, try streaming through a dedicated device instead.
 
-### Fire TV Stick, Fire TV Cube, Roku, and Chromecast
+### Fire TV Stick, Fire TV Cube, Roku and Google TV
 
-These streaming devices generally get app updates faster than smart TV operating systems do. If you're troubleshooting on one of these:
+These streaming devices generally get app updates faster than smart TV operating systems do. GAA+ doesn't support casting to Fire TV or Roku, so use the GAA+ app on those (Chromecast works for casting from the GAA+ mobile app). If you're troubleshooting on one of these:
 
 - Unplug the device itself (not just the TV) for 30 seconds to force a full restart.
 - Check available storage, as some devices slow down or crash apps when storage is nearly full.

@@ -2,6 +2,8 @@
 title: "Best Streaming Devices for Irish Homes: Buying Guide"
 excerpt: "Which streaming stick, box, or smart TV platform makes the most sense for Irish viewers, and where to buy them."
 description: "A buying guide to the best streaming devices available in Ireland, comparing sticks, boxes, and smart TV platforms."
+last_updated: 2026-10-07
+last_checked: 2026-10-07
 categories:
   - Devices
 tags:
@@ -18,7 +20,7 @@ seo:
 toc: true
 affiliate_links: true
 quick_facts:
-  - "Fire TV Stick 4K is the most affordable, widest app support option"
+  - "Fire TV Stick HD is the cheapest Fire TV; the Fire TV Stick 4K Max has the widest app support for 4K TVs"
   - "Apple TV 4K suits households already in the Apple ecosystem"
   - "Most current smart TVs don't need an extra device at all"
 ---
@@ -35,10 +37,10 @@ quick_facts:
 
 ## Popular options
 
-- **Amazon Fire TV Stick** — wide app support, affordable. [Check price on Amazon](https://amzn.to/46bV2aZ)
+- **Amazon Fire TV Stick** — wide app support, affordable. The newest models run Amazon's Vega OS, which has fewer apps, so check your apps are available before you buy. [Check price on Amazon](https://amzn.to/46bV2aZ)
 - **Fire TV Cube** — the premium, hands-free option with built-in Alexa voice control.
-- **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/)** — Google's current box, which replaced the discontinued Chromecast with Google TV in 2024.
-- **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Android TV) — no extra device needed
+- **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/)** — Google's current box (€119 from the Google Store), which replaced the Chromecast with Google TV (announced 2024, sold out early 2025).
+- **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Google TV / Android TV) — no extra device needed
 
 
 ## Where to buy in Ireland

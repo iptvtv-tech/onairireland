@@ -5,6 +5,7 @@ layout: single
 description: "Everything about Netflix in Ireland: current prices, which plan to pick, fixes when it freezes, and where to watch the biggest Netflix shows."
 excerpt: "Prices, plans, fixes and what's worth watching on Netflix in Ireland."
 last_updated: 2026-09-24
+last_checked: 2026-10-07
 seo:
   type: WebPage
 header:
