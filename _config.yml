@@ -61,7 +61,7 @@ bing_site_verification: "C7C4370E4ACCFEEF2B837E2A5AC56296"
 # ==============================
 # Theme
 # ==============================
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@7c68402e079564981274be1d07da0387e3ebdf97" # pinned (security): update deliberately, not automatically
 minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 # Adds the search (magnifying glass) button to the top menu
 search: true
