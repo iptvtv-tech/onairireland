@@ -6,7 +6,7 @@ description: "On Air Ireland's privacy policy — what data we collect, how it's
 excerpt: "What we collect, why, and your rights."
 seo:
   type: WebPage
-last_updated: 2026-09-24
+last_updated: 2026-10-10
 ---
 
 {% include last-updated.html %}
@@ -24,6 +24,8 @@ On Air Ireland is run by **John Cunningham**, Windgap, Co. Kilkenny, Ireland, wh
 **Email addresses** — if you subscribe to our newsletter, your email address is stored by our email provider, Brevo, and used solely to send you our free guides and updates about new guides. We ask you to confirm your subscription by email (double opt-in), and every email has an unsubscribe link. We never sell or share your email address with third parties for marketing purposes.
 
 **Analytics data** — we use Google Analytics to understand how visitors use the site (which pages are popular, general visitor numbers). This involves cookies — see the Cookies section below. We do not use this data to identify individual visitors personally.
+
+We also use GoatCounter, a privacy-friendly analytics service, to count page views on every page. GoatCounter sets no cookies and does not store your IP address or any personal data; it records only anonymous totals such as which pages are viewed, referring sites, and general browser, screen-size and country information.
 
 **Affiliate link clicks** — when you click a product link on this site, the retailer (e.g. Amazon) may track that click to credit us with a referral commission if you purchase. This tracking is handled by the retailer's own systems, not by us directly — see their own privacy policies for details on what they collect.
 
@@ -50,6 +52,7 @@ Some of the services we use (Google and GitHub) are based in the United States, 
 
 - **Brevo** (Sendinblue SAS, France) — stores newsletter subscribers and sends our emails. See [Brevo's privacy policy](https://www.brevo.com/legal/privacypolicy/) for how they handle data.
 - **Google Analytics** — website analytics. See [Google's privacy policy](https://policies.google.com/privacy) for details.
+- **GoatCounter** — cookie-free page-view counting. See [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy) for details.
 - **Amazon Associates and other affiliate programmes** — product links on this site are affiliate links. See the retailer's own privacy policy for their data practices.
 - **GitHub Pages** — this site is hosted on GitHub Pages, which may log standard server access data (IP address, browser type) as part of normal web hosting.
 
