@@ -1,1 +1,1 @@
-"Never commit or push. Leave changes for me to review and push."
+"Never commit or push until I review changes , and then i will tell you to push to main branch."
