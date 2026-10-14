@@ -30,6 +30,14 @@ social:
   name: On Air Ireland
   links:
     - "https://x.com/onairireland"
+ youtube:
+  username: onairireland
+  card: summary_large_image
+social:
+  type: Organization
+  name: On Air Ireland
+  links:
+    - "https://www.youtube.com/@onairireland"
     # - "https://www.facebook.com/onairireland"
     # - "https://www.instagram.com/onairireland"
 
