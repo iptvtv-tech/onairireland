@@ -28,7 +28,7 @@
 
 - id: chromecast-google-tv
   name: "Chromecast with Google TV"
-  category: "Devices"
+  category: "Legacy"
   image: "/assets/images/products/chromecast-google-tv.jpg"
   price: "€144.99"
   badge: "Older Model"
@@ -154,7 +154,7 @@
 
 - id: fire-tv-cube
   name: "Amazon Fire TV Cube Simplified"
-  category: "Devices"
+  category: "Guides"
   image: "/assets/images/products/fire-tv-cube.jpg"
   price: "€11.99"
   badge: "Beginner's Guide"
@@ -311,7 +311,7 @@
   image: "/assets/images/products/adapter-fire-tv.jpg"
   badge: "Fixes Buffering"
   blurb: "Plugs into your Fire TV Stick's power port and gives it a wired connection — the most reliable fix for buffering during live sport."
-  affiliate_link: "https://amzn.to/3Ti7NOw"
+  affiliate_link: "https://link.amazon/B0ceZVweP"
 
 - id: powerline-adapters
   name: "Powerline Adapter Kit"
@@ -325,9 +325,9 @@
   name: "Google TV Streamer"
   category: "Devices"
   image: "/assets/images/products/google-tv-streamer.jpg"
-  badge: "Chromecast Replacement"
-  blurb: "Google's current streaming box, replacing the Chromecast with Google TV — 4K HDR, Dolby Vision, 32GB storage, casting and an Ethernet port."
-  affiliate_link: "https://amzn.to/3TsvELp"
+  badge: "Editor's Pick"
+  blurb: "Google's current streaming box — 4K HDR, Dolby Vision, 32 GB storage, built-in Ethernet port and Google Cast. Replaced the discontinued Chromecast with Google TV."
+  affiliate_link: "https://link.amazon/B0b3PaIgQ"
 
 - id: saorview-set-top-box
   name: "Saorview Set-Top Box"

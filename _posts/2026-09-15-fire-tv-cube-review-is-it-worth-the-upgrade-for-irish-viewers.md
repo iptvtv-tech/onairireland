@@ -31,6 +31,10 @@ faqs:
 
 {% include share-buttons.html %}
 
+<div class="notice--warning">
+<strong>Availability note (October 2026):</strong> The Fire TV Cube is not currently sold on Amazon.ie or through mainstream Irish retailers. This review covers its features to help you decide whether importing is worthwhile — but if you want a premium device available to buy in Ireland right now, the closest alternatives are the <a href="https://amzn.to/4j6UWJc" rel="nofollow sponsored noopener" target="_blank">Fire TV Stick 4K Max</a> and the <a href="https://link.amazon/B0b3PaIgQ" rel="nofollow sponsored noopener" target="_blank">Google TV Streamer</a>.
+</div>
+
 ## Fire TV Cube Review: Is It Worth the Upgrade for Irish Viewers?
 
 If you've been happily streaming on a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) for years, you might be wondering whether Amazon's pricier Fire TV Cube actually earns its keep. It promises more power, hands-free Alexa voice control, and the ability to switch on your telly without touching a remote. But is that worth the extra cost for the average Irish household? We put it through its paces to find out.
