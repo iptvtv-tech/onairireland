@@ -30,13 +30,6 @@ social:
   name: On Air Ireland
   links:
     - "https://x.com/onairireland"
- youtube:
-  username: onairireland
-  card: summary_large_image
-social:
-  type: Organization
-  name: On Air Ireland
-  links:
     - "https://www.youtube.com/@onairireland"
     # - "https://www.facebook.com/onairireland"
     # - "https://www.instagram.com/onairireland"
@@ -50,6 +43,9 @@ author:
     - label: "Twitter/X"
       icon: "fab fa-twitter"
       url: "https://x.com/onairireland"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@onairireland"
 
 # Newsletter signup forms (Brevo). Paste the form address from Brevo's embed
 # code (the https://....sibforms.com/serve/... link) below, then set

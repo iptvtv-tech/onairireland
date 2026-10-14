@@ -1085,6 +1085,24 @@ html {
   margin-left: 0.5em;
 }
 
+.follow-youtube__btn {
+  background: #dc2626;
+  color: #fff !important;
+  margin-left: 0.5em;
+}
+
+/* Let the follow buttons wrap onto new lines on phones */
+.follow-twitter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.follow-twitter .follow-twitter__btn {
+  margin-left: 0;
+}
+
 /* ---------- In-article newsletter box ---------- */
 .newsletter-inline {
   margin: 2em 0;
