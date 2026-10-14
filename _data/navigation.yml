@@ -13,3 +13,5 @@ main:
     url: /watch-guides/
   - title: "All Guides"
     url: /guides/
+  - title: "Free Guides"
+    url: /free-guides/

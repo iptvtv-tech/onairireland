@@ -54,14 +54,30 @@
 <!-- Copied into the middle of the article by assets/js/newsletter.js -->
 <template id="newsletter-inline-template">
   <aside class="newsletter-inline" aria-label="Newsletter signup">
+{%- assign oai_t = page.title | downcase -%}
+{%- assign oai_topic = "general" -%}
+{%- if oai_t contains "gaa" or page.tags contains "gaa" or page.tags contains "gaa+" -%}{%- assign oai_topic = "gaa" -%}
+{%- elsif page.categories contains "Devices" or page.categories contains "Installation-Guides" -%}{%- assign oai_topic = "device" -%}{%- endif %}
+{%- if oai_topic == "gaa" %}
+    <p class="newsletter-inline__title">Following your county this year?</p>
+{%- elsif oai_topic == "device" %}
+    <p class="newsletter-inline__title">Setting up a new TV or stick?</p>
+{%- else %}
     <p class="newsletter-inline__title">Found this useful?</p>
+{%- endif %}
 {%- if site.newsletter_enabled %}
+{%- if oai_topic == "gaa" %}
+    <p class="newsletter-inline__desc">Get our free guide to watching GAA legally: what's free on RTÉ and TG4, what's on GAA+, and what it costs. You'll also get our starter and device guides, plus one email a month.</p>
+{%- elsif oai_topic == "device" %}
+    <p class="newsletter-inline__desc">Get our free guide to choosing and setting up a streaming device, plus our starter and GAA guides and one email a month with price changes.</p>
+{%- else %}
     <p class="newsletter-inline__desc">Get new guides and price changes by email, plus three free PDF guides: a streaming starter guide, GAA on TV, and choosing a streaming device.</p>
+{%- endif %}
     <form class="newsletter-signup__form newsletter-inline__form js-newsletter-form" action="{{ site.newsletter_form_action }}" method="POST">
       <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
       <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
       <input type="hidden" name="locale" value="en">
-      <button type="submit">Send me the guides</button>
+      <button type="submit">{% if oai_topic == "gaa" %}Send me the GAA guide{% elsif oai_topic == "device" %}Send me the device guide{% else %}Send me the guides{% endif %}</button>
     </form>
     <p class="newsletter-signup__message" hidden></p>
     <p class="newsletter-inline__small">No spam. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a>{% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %} · Prefer WhatsApp? <a href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener">Follow our channel</a>{% endif %}</p>

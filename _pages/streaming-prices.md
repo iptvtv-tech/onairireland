@@ -67,4 +67,6 @@ Want to add up your own bill? Try the [streaming cost calculator](/streaming-cos
 
 We check every price on this page at least once a quarter, and straight away when a provider announces a change. Spotted a price that's out of date? [Tell us](/ask/) and we'll fix it.
 
-{% if site.newsletter_enabled %}Want to know when prices change? Join the newsletter at the bottom of this page — price rises go in the next email.{% endif %}
+{% if site.newsletter_enabled %}Want to know when prices change? Sign up for price alerts below — price rises go in the next email.{% endif %}
+
+{% include price-alert-signup.html %}

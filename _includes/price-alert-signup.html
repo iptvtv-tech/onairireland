@@ -1,0 +1,14 @@
+{%- comment -%} Price-alert signup for the prices tracker and cost calculator. Same Brevo list as the newsletter. {%- endcomment -%}
+{%- if site.newsletter_enabled %}
+<div class="newsletter-signup price-alert">
+  <h2 class="newsletter-signup__title">Get price-change alerts</h2>
+  <p class="newsletter-signup__desc">Streaming prices in Ireland change often. Join our monthly email and we'll tell you when Netflix, NOW, Disney+ or GAA+ prices move. You'll also get our three free PDF guides. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a>.</p>
+  <form class="newsletter-signup__form js-newsletter-form" action="{{ site.newsletter_form_action }}" method="POST">
+    <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address" autocomplete="email">
+    <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+    <input type="hidden" name="locale" value="en">
+    <button type="submit">Alert me to price changes</button>
+  </form>
+  <p class="newsletter-signup__message" hidden></p>
+</div>
+{%- endif %}

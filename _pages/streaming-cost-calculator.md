@@ -41,3 +41,5 @@ RTÃ‰ Player, Virgin Media Play and TG4 Player are free. You need a TV licence (â
 - **Take the ads plan.** Where there is one, it's usually the cheapest way in.
 
 Not sure which services you need? Take the [three-question quiz](/quiz/).
+
+{% include price-alert-signup.html %}
