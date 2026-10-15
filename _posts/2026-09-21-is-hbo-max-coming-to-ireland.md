@@ -1,7 +1,7 @@
 ---
-title: "HBO Max in Ireland: Is It Available and How Do You Get It?"
-excerpt: "Yes. HBO Max launched in Ireland on 26 March 2026. Here's how to get it, the plan types and what to check before you sign up."
-description: "Yes. HBO Max launched in Ireland on 26 March 2026. How to get it, the plan types, and what to check before signing up."
+title: "Is HBO Max Available in Ireland? Yes, Here's How to Get It"
+excerpt: "Yes. HBO Max launched in Ireland on 26 March 2026. How to sign up directly or through Sky, the plan types, and what to check first."
+description: "Yes. HBO Max launched in Ireland on 26 March 2026. How to sign up directly or through Sky, the plan types, and what to check first."
 last_updated: 2026-09-24
 categories:
   - News

@@ -62,6 +62,13 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(function (res) {
           if (res.ok && res.data && res.data.success !== false) {
             form.reset();
+            // Count the signup in GoatCounter (track-events.js), by form type and page.
+            if (window.oaiTrack) {
+              var kind = box.closest(".price-alert") ? "price-alert"
+                : box.closest(".newsletter-inline") ? "in-article" : "footer";
+              window.oaiTrack("signup/" + kind + (location.pathname.replace(/\/$/, "") || "/home"),
+                "Newsletter signup (" + kind + ")");
+            }
             show("Almost done! Check your inbox and click the link to confirm your subscription. Your free guides arrive straight after.", true);
           } else {
             show("That didn't work. Please check your email address and try again.", false);

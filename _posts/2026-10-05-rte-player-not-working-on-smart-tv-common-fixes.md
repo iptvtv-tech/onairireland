@@ -1,7 +1,7 @@
 ---
-title: RTÉ Player Not Working on Smart TV? Common Fixes
-excerpt: Troubleshooting guide for RTÉ Player issues on smart TVs, covering app updates, network checks, and account settings.
-description: Troubleshooting guide for RTÉ Player issues on smart TVs, covering app updates, network checks, and account settings.
+title: "RTÉ Player Not Working on Smart TV? 7 Fixes to Try"
+excerpt: "RTÉ Player not loading or crashing on your Samsung, LG or Fire TV? Seven fixes to try, from app updates to Wi-Fi and sign-in problems."
+description: "RTÉ Player not loading or crashing on your Samsung, LG or Fire TV? Seven fixes to try, from app updates to Wi-Fi and sign-in problems."
 categories:
 - Troubleshooting
 tags:

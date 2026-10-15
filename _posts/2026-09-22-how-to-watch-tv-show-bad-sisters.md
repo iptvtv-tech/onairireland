@@ -1,7 +1,7 @@
 ---
-title: "How to Watch TV Show Bad Sisters"
-excerpt: "A practical Irish guide to legally watching Bad Sisters, including which service carries it and the best streaming devices to use."
-description: "A practical Irish guide to legally watching Bad Sisters, including which service carries it and the best streaming devices to use."
+title: "Where to Watch Bad Sisters in Ireland"
+excerpt: "Bad Sisters is an Apple Original, so it streams only on Apple TV (formerly Apple TV+) in Ireland. How to watch it on your TV, phone or streaming stick."
+description: "Bad Sisters is an Apple Original, so it streams only on Apple TV (formerly Apple TV+) in Ireland. How to watch it on your TV, phone or streaming stick."
 categories:
   - Watch-Guides
 tags:

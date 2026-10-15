@@ -1,7 +1,7 @@
 ---
-title: "Where to Watch Premier League Football Legally in Ireland"
-excerpt: "A guide to the official broadcasters and streaming platforms that legally carry Premier League football for viewers in Ireland this season."
-description: "A guide to the official broadcasters and streaming platforms that legally carry Premier League football for viewers in Ireland this season."
+title: "Where to Watch Premier League Football in Ireland 2026/27"
+excerpt: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
+description: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
 last_updated: 2026-10-07
 last_checked: 2026-10-07
 categories:

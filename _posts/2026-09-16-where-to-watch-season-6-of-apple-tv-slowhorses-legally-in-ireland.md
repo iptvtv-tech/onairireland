@@ -1,7 +1,7 @@
 ---
-title: "Where to Watch Slow Horses Season 6 Legally in Ireland"
-excerpt: "Slow Horses is an Apple original, so Season 6 streams on Apple TV (formerly Apple TV+) in Ireland. Here's how to watch it on your TV."
-description: "Slow Horses is an Apple original, so Season 6 streams on Apple TV (formerly Apple TV+) in Ireland. How to watch it legally on your TV."
+title: "Where to Watch Slow Horses in Ireland, Including Season 6"
+excerpt: "Every season of Slow Horses, including Season 6, streams on Apple TV (formerly Apple TV+) in Ireland. How to watch it legally on your TV."
+description: "Every season of Slow Horses, including Season 6, streams on Apple TV (formerly Apple TV+) in Ireland. How to watch it legally on your TV."
 last_updated: 2026-09-24
 categories:
   - Watch-Guides

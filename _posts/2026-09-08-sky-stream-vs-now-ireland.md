@@ -1,7 +1,7 @@
 ---
-title: "Sky Stream vs NOW: Which Is Right for You in Ireland?"
-excerpt: "Both give you Sky content with no satellite dish — but they work completely differently. Here's how to pick."
-description: "A clear comparison of Sky Stream and NOW in Ireland — pricing, contracts, and which one actually fits how you watch."
+title: "Sky Stream vs NOW in Ireland: Cost, Contracts and Which to Pick"
+excerpt: "Sky Stream Essential TV is €31 a month on standard pricing; NOW Entertainment is €8.99 with no contract. What each gets you, and which suits you."
+description: "Sky Stream Essential TV is €31 a month on standard pricing; NOW Entertainment is €8.99 with no contract. What each gets you, and which suits you."
 last_updated: 2026-10-07
 last_checked: 2026-10-07
 categories:

@@ -1,7 +1,9 @@
 ---
-title: "Virgin Media Play Login Issues Explained"
-excerpt: "Fix Virgin Media Play sign-in problems on phones, tablets and streaming devices, from password resets to account errors."
-description: "Fix Virgin Media Play sign-in problems on phones, tablets and streaming devices, from password resets to account errors."
+title: "Can't Log In to Virgin Media Play? How to Fix It"
+excerpt: "Virgin Media Play login not working? Fixes for sign-in errors on phones, smart TVs and streaming sticks, and why the app is free to use."
+description: "Virgin Media Play login not working? Fixes for sign-in errors on phones, smart TVs and streaming sticks, and why the app is free to use."
+last_updated: 2026-10-15
+last_checked: 2026-10-15
 categories:
   - Troubleshooting
 tags:
@@ -15,6 +17,8 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
+  - question: "Is Virgin Media Play free?"
+    answer: "Yes. Virgin Media Play is free to use in Ireland, with no Virgin Media broadband or TV package needed. You just sign in with a free account (email, password and year of birth). The free stream only works in Ireland."
   - question: "Why does the Virgin Media Play app keep logging me out?"
     answer: "This is often caused by an outdated app version, corrupted cache, or an unstable network connection interrupting the authentication process; updating the app and checking your Wi-Fi signal usually resolves it."
   - question: "Do I need to reset my password every time I get a login error?"
