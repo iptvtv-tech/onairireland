@@ -14,7 +14,7 @@ tags:
   - sports streaming ireland
 header:
   overlay_image: /assets/images/teasers/streaming-3.jpg
-  teaser: /assets/images/products/fire-tv-stick-4k.jpg
+  teaser: /assets/images/headers/streaming-services.jpg
 seo:
   type: Article
 toc: true

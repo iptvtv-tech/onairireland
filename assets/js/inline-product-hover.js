@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Mark every affiliate link in post text as paid (product cards already do this).
+  document.querySelectorAll(
+    '.initial-content a[href*="amzn.to"], .initial-content a[href*="link.amazon"], .initial-content a[href*="amazon."]'
+  ).forEach(function (a) {
+    a.setAttribute("rel", "nofollow sponsored noopener");
+  });
+
   var links = document.querySelectorAll(
     '.initial-content a[href*="amzn.to"], .initial-content a[href*="sovrn.co"], .initial-content a[href*="AFFILIATE_LINK"]'
   );

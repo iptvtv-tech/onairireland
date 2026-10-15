@@ -7,8 +7,8 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: /assets/images/products/fire-tv-stick-4k.jpg
-  teaser: /assets/images/products/fire-tv-stick-4k.jpg
+  overlay_image: /assets/images/headers/devices.jpg
+  teaser: /assets/images/headers/devices.jpg
 seo:
   type: Article
 toc: true

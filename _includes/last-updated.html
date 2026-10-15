@@ -1,14 +1,14 @@
 <!--
-  Shows the post author (name + avatar) and a "Last updated" badge,
+  Shows the byline (On Air Ireland team + logo) and a "Last updated" badge,
   top-left of the post. Uses page.last_updated if set in front matter,
   otherwise falls back to the post's publish date. If page.last_checked is set
   (the date prices, channels and dates were last re-checked), that shows too.
   See README.md for usage.
 -->
 <div class="post-byline">
-  <img src="{{ '/assets/images/author-conor-walsh.jpg' | relative_url }}" alt="Conor Walsh" class="post-byline__avatar" onerror="this.style.display='none'">
+  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="" class="post-byline__avatar" onerror="this.style.display='none'">
   <div class="post-byline__text">
-    <a class="post-byline__author" href="{{ '/about/conor-walsh/' | relative_url }}">Conor Walsh</a>
+    <a class="post-byline__author" href="{{ '/about/' | relative_url }}">On Air Ireland team</a>
     <span class="last-updated">Last updated: {{ page.last_updated | default: page.date | date: "%B %-d, %Y" }}</span>
     {%- if page.last_checked %}
     <span class="last-checked">Facts checked: {{ page.last_checked | date: "%B %-d, %Y" }}</span>

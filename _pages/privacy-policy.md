@@ -15,7 +15,7 @@ This policy explains what personal data On Air Ireland (onairireland.ie) collect
 
 ## Who We Are
 
-On Air Ireland is run by **John Cunningham**, Windgap, Co. Kilkenny, Ireland, who is the data controller for personal data collected through this site. You can contact the site administrator at **admin@onairireland.ie**.
+The data controller for personal data collected through On Air Ireland is **John Cunningham**, Windgap, Co. Kilkenny, Ireland. You can contact the site administrator at **admin@onairireland.ie**.
 
 ## What We Collect
 

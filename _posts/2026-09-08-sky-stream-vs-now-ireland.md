@@ -13,7 +13,7 @@ tags:
   - streaming comparison
 header:
   overlay_image: /assets/images/teasers/streaming-5.jpg
-  teaser: /assets/images/products/apple-tv-4k.jpg
+  teaser: /assets/images/headers/streaming-services.jpg
 seo:
   type: Article
 toc: true

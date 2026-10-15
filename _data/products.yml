@@ -20,25 +20,16 @@
 - id: fire-tv-stick-4k
   name: "Amazon Fire TV Stick 4K"
   category: "Devices"
-  image: "/assets/images/products/fire-tv-stick-4k.jpg"
+  image: "/assets/images/products/streaming-stick.svg"
   price: "€46.99"
   badge: "Best Seller"
   blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
   affiliate_link: "https://amzn.to/4h6LS4B"
 
-- id: chromecast-google-tv
-  name: "Chromecast with Google TV"
-  category: "Legacy"
-  image: "/assets/images/products/chromecast-google-tv.jpg"
-  price: "€144.99"
-  badge: "Older Model"
-  blurb: "Google stopped making it in 2024 (the Google TV Streamer replaced it), but it still runs all the main Irish streaming apps if you find one in stock."
-  affiliate_link: "https://amzn.to/3VpfanK"
-
 - id: hdmi-cable-4k
   name: "High-Speed HDMI 2.1 Cable"
   category: "Installation Guides"
-  image: "/assets/images/products/hdmi-cable.jpg"
+  image: "/assets/images/products/hdmi-cable.svg"
   price: "€5.99"
   badge: "Handy Extra"
   blurb: "Worth having a spare on hand — older bundled cables often bottleneck 4K/HDR playback."
@@ -47,7 +38,7 @@
 - id: wifi-extender-troubleshoot
   name: "Wi-Fi Range Extender"
   category: "Troubleshooting"
-  image: "/assets/images/products/wifi-extender.jpg"
+  image: "/assets/images/products/wifi-extender.svg"
   price: "€31.99"
   badge: "Fixes Buffering"
   blurb: "The most common fix for streaming boxes that are too far from the router — extends your signal without a full mesh system."
@@ -56,7 +47,7 @@
 - id: ethernet-cable-troubleshoot
   name: "Long Ethernet Cable"
   category: "Troubleshooting"
-  image: "/assets/images/products/ethernet-cable.jpg"
+  image: "/assets/images/products/ethernet-cable.svg"
   price: "€18.99"
   badge: "Most Reliable Fix"
   blurb: "A wired connection eliminates Wi-Fi buffering entirely if you can run a cable to your streaming device."
@@ -65,7 +56,7 @@
 - id: mesh-wifi-troubleshoot
   name: "Mesh Wi-Fi System (2-pack)"
   category: "Troubleshooting"
-  image: "/assets/images/products/mesh-wifi.jpg"
+  image: "/assets/images/products/mesh-wifi.svg"
   price: "€109.99"
   badge: "Whole-Home Fix"
   blurb: "For persistent buffering across multiple rooms, a mesh system solves it more thoroughly than a single extender."
@@ -74,16 +65,16 @@
 - id: tv-aerial-signal-booster
   name: "TV Aerial Signal Booster"
   category: "News"
-  image: "/assets/images/products/aerial-booster.jpg"
+  image: "/assets/images/products/indoor-aerial.svg"
   price: "€19.99"
   badge: "Handy Extra"
   blurb: "Worth knowing about if a broadcast rights or channel-lineup change affects your aerial reception — a simple fix for a weak signal."
   affiliate_link: "https://amzn.to/3VrktTE"
 
-- id: fire-tv-stick-lite-news
-  name: "Fire TV Remote"
+- id: fire-tv-stick-lite
+  name: "Fire TV Stick Lite"
   category: "News"
-  image: "/assets/images/products/fire-tv-stick-lite.jpg"
+  image: "/assets/images/products/streaming-stick-lite.svg"
   price: "€29.99"
   badge: "Budget Pick"
   blurb: "A no-frills starting point if a service or pricing change has you reconsidering your current setup."
@@ -92,7 +83,7 @@
 - id: fire-tv-stick-4k-max-review
   name: "Fire TV Stick 4K Max"
   category: "Reviews"
-  image: "/assets/images/products/fire-tv-stick-4k-max.jpg"
+  image: "/assets/images/products/streaming-stick.svg"
   price: "€114.99"
   badge: "Reviewer's Pick"
   blurb: "The higher-spec sibling of the standard 4K Stick — worth the extra cost if you want the fastest interface and Wi-Fi 6 support."
@@ -101,7 +92,7 @@
 - id: roku-ultra-review
   name: "Roku Ultra"
   category: "Reviews"
-  image: "/assets/images/products/roku-ultra.jpg"
+  image: "/assets/images/products/streaming-box.svg"
   price: "€49.99"
   badge: "Premium Pick"
   blurb: "Roku's top-tier model — faster processor, Dolby Vision/Atmos support, and a lost-remote finder button, reviewed as the best of the Roku lineup."
@@ -110,7 +101,7 @@
 - id: soundbar-budget
   name: "Compact Soundbar"
   category: "Streaming Services"
-  image: "/assets/images/products/soundbar.jpg"
+  image: "/assets/images/products/soundbar.svg"
   price: "€20.99"
   badge: "Popular Add-on"
   blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
@@ -119,7 +110,7 @@
 - id: roku-streaming-stick-4k
   name: "Roku Streaming Stick 4K"
   category: "Devices"
-  image: "/assets/images/products/roku-streaming-stick.jpg"
+  image: "/assets/images/products/streaming-stick-alt.svg"
   price: "€88.99"
   badge: "Simple Interface"
   blurb: "One of the most straightforward remotes and menus of any streaming device — good pick for less tech-confident households."
@@ -128,7 +119,7 @@
 - id: akiyo-02-projector
   name: "AKIYO O2 Projector"
   category: "Devices"
-  image: "/assets/images/products/akiyo-projector.jpg"
+  image: "/assets/images/products/projector.svg"
   price: "€53.99"
   badge: "Big-Screen Extra"
   blurb: "A compact projector for movie nights or match days on a wall — plug a streaming stick into its HDMI port for all your usual apps."
@@ -137,7 +128,7 @@
 - id: 2-Pack-Pinowu-Remote-Cover-Case
   name: "Glow in the Dark Remote Cover Case"
   category: "Devices"
-  image: "/assets/images/products/glow-in-the-dark.jpg"
+  image: "/assets/images/products/remote-cover.svg"
   price: "€8.99"
   badge: "Handy Extra"
   blurb: "Glow-in-the-dark covers for the Fire TV Alexa Voice Remote (3rd gen) — easier to find in a dark room and harder to drop."
@@ -146,25 +137,25 @@
 - id: tv-wall-mount
   name: "Adjustable TV Wall Mount"
   category: "Installation Guides"
-  image: "/assets/images/products/tv-wall-mount.jpg"
+  image: "/assets/images/products/wall-mount.svg"
   price: "€16.99"
   badge: "Popular Add-on"
   blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
   affiliate_link: "https://amzn.to/4cKGEdr"
 
-- id: fire-tv-cube
-  name: "Amazon Fire TV Cube Simplified"
+- id: fire-tv-cube-guidebook
+  name: "Fire TV Cube Simplified (setup guidebook)"
   category: "Guides"
-  image: "/assets/images/products/fire-tv-cube.jpg"
+  image: "/assets/images/products/guidebook.svg"
   price: "€11.99"
-  badge: "Beginner's Guide"
-  blurb: "A plain-English setup and user guide for the Fire TV Cube — handy if you're new to Alexa voice control and the Fire TV menus."
+  badge: "Book"
+  blurb: "A setup guidebook, not the Fire TV Cube itself: a plain-English guide to the Cube, handy if you're new to Alexa voice control and the Fire TV menus."
   affiliate_link: "https://amzn.to/4cLlYlI"
 
 - id: mesh-wifi-system
   name: "Mesh Wi-Fi System (2-pack)"
   category: "Installation Guides"
-  image: "/assets/images/products/mesh-wifi-2.jpg"
+  image: "/assets/images/products/mesh-wifi-3.svg"
   price: "€193.99"
   badge: "Best Fix for Buffering"
   blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
@@ -173,7 +164,7 @@
 - id: outdoor-digital-tv-aerial
   name: "Outdoor Digital TV Aerial"
   category: "Sports Streaming"
-  image: "/assets/images/products/tv-aerial.jpg"
+  image: "/assets/images/products/outdoor-aerial.svg"
   price: "€52.99"
   badge: "Reliable Reception"
   blurb: "A proper outdoor aerial gives the most reliable free-to-air reception for big match days on RTÉ or TG4, when every stream is under strain."
@@ -182,7 +173,7 @@
 - id: hdmi-switch-3in1
   name: "3-in-1 HDMI Switch"
   category: "Sports Streaming"
-  image: "/assets/images/products/hdmi-switch.jpg"
+  image: "/assets/images/products/hdmi-switch.svg"
   price: "€21.99"
   badge: "Handy Extra"
   blurb: "Useful if your streaming box, games console, and set-top box are all fighting over one HDMI port on match day."
@@ -191,7 +182,7 @@
 - id: universal-remote
   name: "Universal Remote Control"
   category: "Streaming Services"
-  image: "/assets/images/products/universal-remote.jpg"
+  image: "/assets/images/products/universal-remote.svg"
   price: "€10.99"
   badge: "Popular Add-on"
   blurb: "Cuts down on juggling three remotes to switch between your TV, streaming box, and soundbar."
@@ -200,7 +191,7 @@
 - id: bluetooth-speaker
   name: "Portable Bluetooth Speaker"
   category: "Streaming Services"
-  image: "/assets/images/products/bluetooth-speaker.jpg"
+  image: "/assets/images/products/speaker.svg"
   price: "€49.99"
   badge: "Popular Add-on"
   blurb: "A flexible alternative to a fixed soundbar if you want to move audio between rooms or take it outside for a match."
@@ -209,7 +200,7 @@
 - id: fire-tv-stick-4k-watchguide
   name: "Amazon Fire TV Stick 4K"
   category: "Watch Guides"
-  image: "/assets/images/products/fire-tv-stick-4k.jpg"
+  image: "/assets/images/products/streaming-stick.svg"
   price: "€46.99"
   badge: "Best Seller"
   blurb: "The easiest way to get every major streaming app — RTÉ Player, Netflix, Sky Stream — on one remote."
@@ -218,7 +209,7 @@
 - id: roku-streaming-stick-4k-watchguide
   name: "Roku Streaming Stick 4K"
   category: "Watch Guides"
-  image: "/assets/images/products/roku-streaming-stick.jpg"
+  image: "/assets/images/products/streaming-stick-alt.svg"
   price: "€88.99"
   badge: "Simple Interface"
   blurb: "A straightforward remote and menu system if you just want to find your show and start watching."
@@ -227,7 +218,7 @@
 - id: satellite_receiver
   name: "HD Satellite Receiver"
   category: "Watch Guides"
-  image: "/assets/images/products/edision_proton.jpg"
+  image: "/assets/images/products/satellite-receiver.svg"
   price: "€22.99"
   badge: "Budget Pick"
   blurb: "A free-to-air HD satellite receiver. It ships tuned to Astra 19.2E, and after a factory reset it can be retuned to Astra 28.2E for free-to-air Irish and UK channels."
@@ -236,7 +227,7 @@
 - id: hdmi-extender-adapter
   name: "HDMI Extender Adapter"
   category: "Installation Guides"
-  image: "/assets/images/products/hdmi-extender.jpg"
+  image: "/assets/images/products/hdmi-adapter.svg"
   price: "€6.99"
   badge: "Handy Extra"
   blurb: "Useful when a streaming stick sits too close to a wall or cabinet and needs a bit of clearance for good Wi-Fi reception."
@@ -245,7 +236,7 @@
 - id: screen-cleaning-kit
   name: "TV Screen Cleaning Kit"
   category: "Troubleshooting"
-  image: "/assets/images/products/screen-cleaning-kit.jpg"
+  image: "/assets/images/products/screen-cleaning.svg"
   price: "€19.50"
   badge: "Popular Add-on"
   blurb: "A safe, streak-free way to keep your screen clear — worth having once you've got your setup looking sharp."
@@ -254,7 +245,7 @@
 - id: rechargeable-remote-batteries
   name: "Rechargeable Remote Batteries (4-pack)"
   category: "Troubleshooting"
-  image: "/assets/images/products/rechargeable-batteries.jpg"
+  image: "/assets/images/products/batteries.svg"
   price: "€7.69"
   badge: "Budget Pick"
   blurb: "Dead remote batteries are one of the most common 'my streaming device isn't working' calls — a rechargeable set fixes it for good."
@@ -263,7 +254,7 @@
 - id: cable-management-clips
   name: "Cable Management Clips"
   category: "Installation Guides"
-  image: "/assets/images/products/cable-clips.jpg"
+  image: "/assets/images/products/cable-clips.svg"
   price: "€6.59"
   badge: "Budget Pick"
   blurb: "Keeps HDMI and power cables tidy behind the TV — small, cheap, and makes the whole setup look a lot less chaotic."
@@ -272,7 +263,7 @@
 - id: travel-router
   name: "Compact Travel Router"
   category: "Devices"
-  image: "/assets/images/products/travel-router.jpg"
+  image: "/assets/images/products/travel-router.svg"
   price: "€49.35"
   badge: "Handy Extra"
   blurb: "Useful for streaming reliably on holidays or in a second home, without depending on unfamiliar hotel Wi-Fi."
@@ -281,7 +272,7 @@
 - id: amazon_echo_dot
   name: "Amazon Echo Dot Alexa"
   category: "Devices"
-  image: "/assets/images/products/amazon-echo.jpg"
+  image: "/assets/images/products/smart-speaker.svg"
   price: "€70.59"
   badge: "Simple Interface"
   blurb: "Amazon's small Alexa speaker — pair it with a Fire TV to change channels, search and control playback by voice."
@@ -290,7 +281,7 @@
 - id: smart_tvs_1
   name: "Xiaomi TV,32 Inch Smart TV"
   category: "Watch Guides"
-  image: "/assets/images/products/smart_tvs_1.jpg"
+  image: "/assets/images/products/smart-tv.svg"
   price: "€147.83"
   badge: "Handy Extra"
   blurb: "A 32-inch smart TV running Fire OS, so the main Irish streaming apps are built in — no extra stick needed. Good for a bedroom or kitchen."
@@ -299,7 +290,7 @@
 - id: smart_tvs_2
   name: "LG LED AI,32 inch HD Smart TV"
   category: "Streaming Services"
-  image: "/assets/images/products/smart_tvs_2.jpg"
+  image: "/assets/images/products/smart-tv-2.svg"
   price: "€173.26"
   badge: "Handy Extra"
   blurb: "A 2026 32-inch LG smart TV with webOS apps built in, plus Google Cast and AirPlay 2 for casting from your phone."
@@ -308,7 +299,7 @@
 - id: fire-tv-ethernet-adapter
   name: "Amazon Ethernet Adapter for Fire TV"
   category: "Troubleshooting"
-  image: "/assets/images/products/adapter-fire-tv.jpg"
+  image: "/assets/images/products/ethernet-adapter.svg"
   badge: "Fixes Buffering"
   blurb: "Plugs into your Fire TV Stick's power port and gives it a wired connection — the most reliable fix for buffering during live sport."
   affiliate_link: "https://link.amazon/B0ceZVweP"
@@ -316,7 +307,7 @@
 - id: powerline-adapters
   name: "Powerline Adapter Kit"
   category: "Troubleshooting"
-  image: "/assets/images/products/powerline-adapters.jpg"
+  image: "/assets/images/products/powerline.svg"
   badge: "No Cables Needed"
   blurb: "Sends your broadband through the home's electrical wiring, so a TV far from the router gets a wired-style connection without drilling."
   affiliate_link: "https://amzn.to/4xEEuDX"
@@ -324,7 +315,7 @@
 - id: google-tv-streamer
   name: "Google TV Streamer"
   category: "Devices"
-  image: "/assets/images/products/google-tv-streamer.jpg"
+  image: "/assets/images/products/streaming-pebble.svg"
   badge: "Editor's Pick"
   blurb: "Google's current streaming box — 4K HDR, Dolby Vision, 32 GB storage, built-in Ethernet port and Google Cast. Replaced the discontinued Chromecast with Google TV."
   affiliate_link: "https://link.amazon/B0b3PaIgQ"
@@ -332,7 +323,7 @@
 - id: saorview-set-top-box
   name: "Saorview Set-Top Box"
   category: "Installation Guides"
-  image: "/assets/images/products/saorview-set-top-box.jpg"
+  image: "/assets/images/products/set-top-box.svg"
   badge: "Free-to-Air"
   blurb: "Adds free Saorview channels to any TV with an aerial — a simple backup for news and sport when broadband drops. Check it's Saorview-approved before buying."
   affiliate_link: "https://amzn.to/4hcu2yx"
@@ -340,7 +331,7 @@
 - id: wireless-tv-headphones
   name: "Wireless TV Headphones"
   category: "Streaming Services"
-  image: "/assets/images/products/tv-headphones.jpg"
+  image: "/assets/images/products/headphones.svg"
   badge: "Popular Add-on"
   blurb: "Lets one person turn the volume up without disturbing the rest of the house — a favourite for late-night viewing and anyone hard of hearing."
   affiliate_link: "https://amzn.to/4iGoVrs"
@@ -348,7 +339,7 @@
 - id: soundbar-mid-range
   name: "Soundbar with Wireless Subwoofer"
   category: "Streaming Services"
-  image: "/assets/images/products/mid-range-soundbar.jpg"
+  image: "/assets/images/products/soundbar-sub.svg"
   badge: "Step-Up Pick"
   blurb: "A bigger upgrade than a compact soundbar — the separate subwoofer adds the depth that films and match-day crowds need."
   affiliate_link: "https://amzn.to/3V1gugH"
@@ -356,7 +347,7 @@
 - id: surge-protected-extension
   name: "Surge-Protected Extension Lead"
   category: "Installation Guides"
-  image: "/assets/images/products/surge-protect-extension.jpg"
+  image: "/assets/images/products/extension-lead.svg"
   badge: "Handy Extra"
   blurb: "Enough sockets for the TV, soundbar, router and streaming stick behind one cabinet, with surge protection for the lot."
   affiliate_link: "https://amzn.to/4y9wjjX"

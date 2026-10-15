@@ -7,8 +7,8 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/products/hdmi-cable.jpg
-  teaser: /assets/images/products/hdmi-cable.jpg
+  overlay_image: /assets/images/headers/installation-guides.jpg
+  teaser: /assets/images/headers/installation-guides.jpg
 seo:
   type: Article
 toc: true

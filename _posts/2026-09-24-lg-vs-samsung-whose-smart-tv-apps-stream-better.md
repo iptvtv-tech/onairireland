@@ -63,7 +63,7 @@ Occasionally a streaming app on either platform will throw up a message saying c
 
 ### So which one streams better?
 
-Honestly, for the core Irish streaming apps, both LG and Samsung perform similarly well on recent, mid-to-high-spec models. The real differences show up at the budget end, or as TVs age. If app speed and long-term freshness matter more to you than brand loyalty, pairing either TV with a separate streaming stick or box, like a [Chromecast with Google TV](https://amzn.to/3VpfanK), is often the more future-proof choice.
+Honestly, for the core Irish streaming apps, both LG and Samsung perform similarly well on recent, mid-to-high-spec models. The real differences show up at the budget end, or as TVs age. If app speed and long-term freshness matter more to you than brand loyalty, pairing either TV with a separate streaming stick or box, like a [Google TV Streamer](https://link.amazon/B0b3PaIgQ), is often the more future-proof choice.
 
 {% include product-showcase.html category="Devices" %}
 

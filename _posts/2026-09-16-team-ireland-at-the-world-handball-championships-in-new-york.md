@@ -2,6 +2,7 @@
 title: "Team Ireland at the World Handball Championships in New York"
 excerpt: "How Team Ireland got on at the World Handball Championships in New York, and where Irish fans can legally find coverage."
 description: "How Team Ireland got on at the World Handball Championships in New York, and where Irish fans can legally find coverage."
+last_updated: 2026-10-15
 categories:
   - Sports-Streaming
 tags:
@@ -20,7 +21,7 @@ faqs:
   - question: "Is there likely to be a free legal stream available?"
     answer: "Some international handball events offer free or low-cost official streams through the host federation, but this varies by tournament and isn't confirmed for every match."
   - question: "What's the easiest device for watching a web-based stream on my TV?"
-    answer: "A Chromecast is often the simplest option for casting a browser-based stream, though a Fire TV Stick or Roku can also work if an app is available."
+    answer: "A Google Cast device such as the Google TV Streamer is often the simplest option for casting a browser-based stream, though a Fire TV Stick or Roku can also work if an app is available."
   - question: "Where can I find the most accurate results for Team Ireland?"
     answer: "GAA Handball's official website and social media accounts are generally the most reliable sources for up-to-date results and fixture information."
 ---
@@ -30,6 +31,10 @@ faqs:
 {% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
+
+<div class="notice--info" markdown="1">
+**Update, 15 October 2026:** The championships in New York finished in September 2026. We haven't confirmed Team Ireland's final placings, so check GAA Handball's website and social channels for official results.
+</div>
 
 ## Team Ireland Take On The World's Best
 
@@ -47,7 +52,7 @@ We'd genuinely recommend checking the official World Handball Championships webs
 
 If you do track down a legal stream, whether that's through a browser, a smart TV app, or a dedicated event platform, having the right hardware makes a big difference. A **Fire TV Stick** is a solid, affordable option for casting or running apps directly on your television, and it handles most streaming platforms without much fuss. **Roku** devices are another reliable choice if you want a simple interface, while a **Fire TV Cube** offers more power if you're also using voice controls or juggling multiple apps.
 
-**Chromecast** is worth considering too, particularly if the official stream is only available through a website rather than a dedicated app, since casting from a laptop or phone browser is often the easiest workaround for niche sporting events.
+A **Google TV Streamer** (or any Google Cast device) is worth considering too, particularly if the official stream is only available through a website rather than a dedicated app, since casting from a laptop or phone browser is often the easiest workaround for niche sporting events.
 
 If your household relies on an aerial for standard broadcast channels alongside streaming apps, and reception has been patchy, it might be time to look at upgrading. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6) can make a noticeable difference if you're in an area with weaker signal, ensuring you don't miss other sports coverage while you wait on handball-specific streams.
 

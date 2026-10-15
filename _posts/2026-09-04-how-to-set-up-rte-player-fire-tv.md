@@ -11,7 +11,7 @@ tags:
   - how to
 header:
   overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/products/fire-tv-stick-4k.jpg
+  teaser: /assets/images/headers/installation-guides.jpg
 seo:
   type: HowTo
 toc: true

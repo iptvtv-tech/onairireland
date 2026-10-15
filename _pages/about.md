@@ -27,7 +27,7 @@ We do not promote, link to, or provide instructions for unauthorized or unlicens
 
 ## Who We Are
 
-On Air Ireland is run by John Cunningham from Windgap, Co. Kilkenny. Our guides are written and edited by [Conor Walsh](/about/conor-walsh/).
+On Air Ireland is an independent site based in Co. Kilkenny, Ireland. Every guide is written and edited by the On Air Ireland team, and some start as drafts produced with AI assistance before we review and check them. See [how we make money](/how-we-make-money/) for how the site is funded.
 
 ## Where We're Based
 
@@ -43,4 +43,4 @@ Questions, corrections, or a topic you'd like us to cover? Email us at **hello@o
 
 ## Affiliate disclosure
 
-On Air Ireland is a participant in the **Amazon Associates Programme** and other affiliate programmes. Some links on this site are affiliate links — if you click through and make a purchase, we may earn a small commission at no extra cost to you. Our product picks focus on items we can link to, so we may not cover every option on the market. As an Amazon Associate we earn from qualifying purchases.
+On Air Ireland is a participant in the **Amazon Associates Programme**, our only affiliate programme at present. Some links on this site are affiliate links — if you click through and make a purchase, we may earn a small commission at no extra cost to you. Our product picks focus on items we can link to, so we may not cover every option on the market. As an Amazon Associate we earn from qualifying purchases. See [how we make money](/how-we-make-money/) for the full details.

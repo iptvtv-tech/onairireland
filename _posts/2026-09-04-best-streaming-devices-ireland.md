@@ -14,7 +14,7 @@ tags:
   - apple tv
 header:
   overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/products/chromecast-google-tv.jpg
+  teaser: /assets/images/headers/devices.jpg
 seo:
   type: Article
 toc: true

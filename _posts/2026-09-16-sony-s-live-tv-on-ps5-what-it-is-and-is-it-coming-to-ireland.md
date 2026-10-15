@@ -7,8 +7,8 @@ categories:
 tags:
   - news
 header:
-  overlay_image: /assets/images/products/aerial-booster.jpg
-  teaser: /assets/images/products/aerial-booster.jpg
+  overlay_image: /assets/images/headers/news.jpg
+  teaser: /assets/images/headers/news.jpg
 seo:
   type: Article
 toc: true

@@ -8,7 +8,7 @@ tags:
   - news
 header:
   overlay_image: /assets/images/teasers/news-2.jpg
-  teaser: /assets/images/products/sports.jpg
+  teaser: /assets/images/headers/news.jpg
 seo:
   type: Article
 toc: true

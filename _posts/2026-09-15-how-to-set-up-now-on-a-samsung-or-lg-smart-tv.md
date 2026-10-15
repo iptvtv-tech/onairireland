@@ -7,8 +7,8 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/products/tv-wall-mount.jpg
-  teaser: /assets/images/products/tv-wall-mount.jpg
+  overlay_image: /assets/images/headers/installation-guides.jpg
+  teaser: /assets/images/headers/installation-guides.jpg
 seo:
   type: Article
 toc: true

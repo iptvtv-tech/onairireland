@@ -9,8 +9,8 @@ tags:
   - streaming devices
   - device comparison
 header:
-  overlay_image: /assets/images/products/fire-tv-stick-4k-max.jpg
-  teaser: /assets/images/products/fire-tv-stick-4k-max.jpg
+  overlay_image: /assets/images/headers/reviews.jpg
+  teaser: /assets/images/headers/reviews.jpg
 seo:
   type: Article
 toc: true

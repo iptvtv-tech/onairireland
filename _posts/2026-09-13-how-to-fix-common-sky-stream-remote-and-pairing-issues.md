@@ -7,8 +7,8 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/products/wifi-extender.jpg
-  teaser: /assets/images/products/wifi-extender.jpg
+  overlay_image: /assets/images/headers/troubleshooting.jpg
+  teaser: /assets/images/headers/troubleshooting.jpg
 seo:
   type: Article
 toc: true

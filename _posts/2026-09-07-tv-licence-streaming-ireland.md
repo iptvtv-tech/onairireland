@@ -12,7 +12,7 @@ tags:
   - rté player
 header:
   overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/products/soundbar.jpg
+  teaser: /assets/images/headers/streaming-services.jpg
 seo:
   type: Article
 toc: true

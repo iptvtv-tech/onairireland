@@ -1,7 +1,9 @@
 ---
 title: "Solheim Cup 2026: Where Irish Fans Can Watch Live"
-excerpt: "How Irish golf fans can watch the 2026 Solheim Cup legally: the likely broadcaster, streaming options and the best setup."
-description: "How Irish golf fans can watch the 2026 Solheim Cup legally: the likely broadcaster, streaming options and the best setup."
+excerpt: "Europe beat the USA 15-13 at the 2026 Solheim Cup, shown live on Sky Sports in Ireland. How it was broadcast and how to watch golf legally."
+description: "Europe beat the USA 15-13 at the 2026 Solheim Cup, shown live on Sky Sports in Ireland. How it was broadcast and how to watch golf legally."
+last_updated: 2026-10-15
+last_checked: 2026-10-15
 categories:
   - Sports-Streaming
 tags:
@@ -16,11 +18,11 @@ draft_generated: true
 affiliate_links: true
 faqs:
   - question: "Will the 2026 Solheim Cup be shown free-to-air in Ireland?"
-    answer: "This has not been confirmed, and historically the tournament has been behind a subscription paywall via Sky Sports rather than shown free-to-air."
+    answer: "No. Sky Sports showed the 2026 Solheim Cup exclusively live in Ireland and the UK."
   - question: "Can I watch the Solheim Cup without a long-term Sky contract?"
     answer: "Yes, NOW offers Sky Sports content through day, month, or season passes, which suits viewers who only want access for tournament week."
   - question: "What streaming device works best for watching golf coverage?"
-    answer: "A Fire TV Stick, Roku device, or Chromecast will all run the relevant streaming apps, so choose based on your TV's compatibility and your preferred interface."
+    answer: "A Fire TV Stick, Roku device or Google TV Streamer will all run the relevant streaming apps, so choose based on your TV's compatibility and your preferred interface."
   - question: "I'm getting a content availability error on my streaming app, what should I do?"
     answer: "Check your account's region setting matches your location, confirm you're using the correct app store version for Ireland, and contact the broadcaster's support team if the issue continues."
 ---
@@ -30,18 +32,22 @@ faqs:
 {% include affiliate-disclosure.html %}
  
 {% include share-buttons.html %}
+
+<div class="notice--info" markdown="1">
+**Update, 15 October 2026:** Europe beat the United States 15-13 at Bernardus Golf in the Netherlands, 11 to 13 September 2026. Sky Sports Golf showed it live in Ireland and the UK, and NOW offered day and month passes for viewers without Sky.
+</div>
  
-The Solheim Cup returns in 2026, and Irish golf fans will once again be glued to their screens for three days of tense matchplay between Europe and the United States. With Ireland's own contingent on the European side in recent editions, interest in this event has never been higher here. Here's what we know so far about watching it legally, and how to make sure your setup at home is ready.
+The 2026 Solheim Cup brought three days of matchplay between Europe and the United States. With Ireland's own contingent on the European side in recent editions, interest in this event has never been higher here. Here's how it was shown in Ireland, and how to get your setup ready for golf on TV.
 
 ## Who Holds the Broadcast Rights
 
-Sky Sports has been the long-standing home of the Solheim Cup for viewers in Ireland and the UK, carrying the event as part of its golf coverage alongside the Ryder Cup. At the time of writing, the broadcaster for the 2026 edition has not been officially confirmed for the Irish market, so treat this as the likely scenario based on recent history rather than a certainty. Once details are announced closer to the tournament, we'll update this piece with the confirmed channel and streaming details.
+Sky Sports showed the 2026 Solheim Cup exclusively live in Ireland and the UK, mainly on Sky Sports Golf, with some coverage on Sky Sports Main Event.
 
-If Sky Sports does retain the rights, Irish viewers will need a Sky subscription that includes the Sky Sports package, or access via [NOW](/streaming-services/sky-stream-vs-now-ireland/), which offers Sky Sports content on a day, month, or season pass basis without a long-term contract. NOW is a legitimate option for anyone who only wants to dip in for tournament week rather than commit to a full year of Sky.
+Irish viewers needed a Sky subscription that includes Sky Sports, or access via [NOW](/streaming-services/sky-stream-vs-now-ireland/), which offers Sky Sports content on a day, month, or season pass basis without a long-term contract. NOW is a legitimate option for anyone who only wants to dip in for tournament week rather than commit to a full year of Sky.
 
 ## Streaming Without a Satellite Dish
 
-You don't need a satellite dish to watch Sky Sports coverage. Streaming through NOW works on smart TVs, laptops, phones, and dedicated streaming devices. If you're setting up a TV for the first time or replacing an old box, a [Fire TV Stick](https://amzn.to/3T7hgI6) is a straightforward way to get the NOW app and other Irish streaming services running on a television that doesn't have smart features built in. Alternatively, a Roku device or Chromecast will also run the relevant apps, so the choice mostly comes down to which interface you prefer and what's compatible with your TV.
+You don't need a satellite dish to watch Sky Sports coverage. Streaming through NOW works on smart TVs, laptops, phones, and dedicated streaming devices. If you're setting up a TV for the first time or replacing an old box, a [Fire TV Stick](https://amzn.to/4h6LS4B) is a straightforward way to get the NOW app and other Irish streaming services running on a television that doesn't have smart features built in. Alternatively, a Roku device or Google TV Streamer will also run the relevant apps, so the choice mostly comes down to which interface you prefer and what's compatible with your TV.
 
 For households that still rely on traditional TV reception for RTÉ, Virgin Media, or other free-to-air coverage that might run analysis and highlights, it's worth checking that your reception is solid before tournament week. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6) can make a real difference if you're currently relying on an indoor one and getting patchy signal, particularly for high-definition broadcasts.
 
@@ -63,7 +69,7 @@ If you're planning to follow shot-by-shot updates on a tablet or phone alongside
 
 ## Final Thoughts
 
-Once the official broadcast details for the 2026 Solheim Cup are confirmed, Irish fans should have a clear, legal route to follow every session through Sky Sports or NOW. In the meantime, getting your streaming setup, aerial, and cabling sorted now means one less thing to worry about when the opening tee shots are struck.
+Europe won the 2026 Solheim Cup, and Irish fans could follow every session legally through Sky Sports or NOW. For golf and other sport on TV this week, see [Sport on TV this week](/sport-on-tv/).
 
 **Related guides:** [How to Watch the Ryder Cup Legally in Ireland](/sports-streaming/how-to-watch-the-ryder-cup-legally-in-ireland/) · [Where to Watch the FIFA World Cup 2026 Legally in Ireland](/sports-streaming/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland/)
 

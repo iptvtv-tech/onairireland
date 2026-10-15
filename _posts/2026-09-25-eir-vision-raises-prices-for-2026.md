@@ -58,7 +58,7 @@ If anything in your notice is unclear, contacting Eir's customer support directl
 
 Some households respond to a bundle price rise by reviewing whether they need the full TV package at all, particularly if they already have a good broadband connection and prefer standalone streaming apps. Others keep their broadband but supplement it with a dedicated streaming device.
 
-If you go this route, it's worth having a reliable remote on hand for whichever device you choose — a spare [Fire TV Remote](https://amzn.to/46Ivy5j) is a handy backup if you're running a separate streaming stick alongside your main Eir Vision box, especially in households where remotes tend to go missing between the couch cushions.
+If you go this route, a budget streaming stick such as the [Fire TV Stick Lite](https://amzn.to/46Ivy5j) is a cheap way to add the main streaming apps to a second TV, or to run them alongside your main Eir Vision box.
 
 It's also worth remembering that a TV bundle price rise doesn't necessarily reflect anything about the quality of your terrestrial reception. Homes that still rely partly on an aerial for local channels alongside their IPTV package sometimes find picture quality drops are actually down to a weak or aging aerial signal rather than the streaming service itself. In that case, a [TV Aerial Signal Booster](https://amzn.to/3VrktTE) can sometimes resolve intermittent dropouts on free-to-air channels, separate from any broadband-delivered TV issues.
 

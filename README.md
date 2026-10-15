@@ -81,7 +81,7 @@ Posts now show a **colorful product card grid** ("Recommended for This Guide") t
   {% raw %}{% include product-showcase.html category="Devices" title="Our Picks: Streaming Devices" %}{% endraw %}
   ```
 - **Update a link, price, or image in `_data/products.yml` and it updates on every post that shows that category — no need to touch individual posts.**
-- Product images live at `assets/images/products/` — add real product photos there (Amazon's own product images are copyrighted; use your own photos, purchased stock, or Amazon's official affiliate image tools/API where their terms allow it — check Amazon Associates' image-use policy before using Amazon's product photos directly)
+- Product images are generic SVG illustrations in `assets/images/products/` (one per product type, made to match the site). To use your own photo of a device you own, save it as e.g. `assets/images/products/fire-tv-stick-4k.jpg` (4:3, about 800x600) and point that product's `image:` at it. Don't download Amazon's product photos: the Associates licence doesn't allow storing them on your site.
 - Card order is lightly shuffled client-side on each page load (`assets/js/product-shuffle.js`) so the same product isn't always shown first
 - The disclosure line under each product grid is required by Ireland's CCPC/ASAI advertising rules — don't remove it
 
