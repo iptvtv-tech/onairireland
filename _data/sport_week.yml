@@ -2,143 +2,143 @@
 # Written every Thursday by scripts/generate_sport_week.py (GitHub Action
 # "Weekly Sport Guide"), which opens a pull request for you to check.
 # Leave events empty to show the "coming soon" message.
-week_start: 2026-10-09
-week_end: 2026-10-15
-generated: 2026-10-08
+week_start: 2026-10-16
+week_end: 2026-10-22
+generated: 2026-10-15
 events:
-- date: 2026-10-09
-  time: '12:00'
-  sport: Football
-  event: Kazakhstan v Republic of Ireland (Women)
-  competition: 2027 FIFA Women's World Cup Qualifying Play-off, First Leg
-  watch: RTÉ2 and RTÉ Player
-  free: true
-  source: https://gaacork.ie/event/supervalu-pairc-ui-chaoimh-to-host-crucial-fifa-womens-world-cup-play-off-second-leg/
-- date: 2026-10-09
-  time: '19:45'
-  sport: Football
-  event: Bohemians v Waterford
-  competition: FAI Cup Semi-Final
-  watch: RTÉ2 and RTÉ Player
-  free: true
-  source: https://www.rte.ie/sport/soccer/2026/0907/1590595-details-confirmed-for-fai-cup-semi-finals/
-- date: 2026-10-09
-  time: '19:45'
-  sport: Football
-  event: Shelbourne v Sligo Rovers
-  competition: League of Ireland Premier Division
-  watch: LOITV
-  free: false
-  source: https://www.live-footballontv.com/live-irish-football-on-tv.html
-- date: 2026-10-10
-  time: '12:30'
-  sport: Football
-  event: Arsenal v Leeds United
-  competition: Premier League
-  watch: TNT Sports
-  free: false
-  source: https://www.tvguide.co.uk/sport/football/fixtures/arsenal-vs-leeds-united-20261010-1c8e0270b0
-- date: 2026-10-10
+- date: 2026-10-17
   time: '12:45'
   sport: Racing
-  event: Newmarket & York race meetings
-  competition: British Flat Racing
+  event: British Champions Day
+  competition: QIPCO British Champions Series (Ascot)
   watch: UTV and Virgin Media One
   free: true
-  source: https://www.irishtimes.com/sport/2026/10/04/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-10
-  time: '15:00'
-  sport: Football
-  event: Galway United v Derry City
-  competition: FAI Cup Semi-Final
-  watch: RTÉ2 and RTÉ Player
-  free: true
-  source: https://www.rte.ie/sport/soccer/2026/0907/1590595-details-confirmed-for-fai-cup-semi-finals/
-- date: 2026-10-10
-  time: '17:30'
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-17
+  time: '14:15'
   sport: Rugby
-  event: Ulster v Munster
-  competition: United Rugby Championship, Round 3
-  watch: Premier Sports 1
+  event: Clermont Auvergne v Leinster
+  competition: Champions Cup, Round 1
+  watch: Premier Sports 2
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/04/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-10
-  time: '17:30'
+  source: https://rugbylad.ie/leinster-rugby-fixtures-2026-27/
+- date: 2026-10-17
+  time: '14:30'
   sport: Football
-  event: Manchester United v Tottenham Hotspur
+  event: Brentford v Liverpool
   competition: Premier League
-  watch: Sky Sports
+  watch: Premier Sports
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/04/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-10
-  time: '19:45'
-  sport: Rugby
-  event: Leinster v Cardiff
-  competition: United Rugby Championship, Round 3
-  watch: TG4 and Premier Sports 1
-  free: true
-  source: https://www.irishtimes.com/sport/2026/10/04/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-11
-  time: '14:00'
-  sport: GAA
-  event: The Downs v St Loman's Mullingar
-  competition: Westmeath Senior Football Championship Final
-  watch: TG4
-  free: true
-  source: https://www.the42.ie/tipperary-westmeath-gaa-club-football-hurling-7183065-Oct2026/
-- date: 2026-10-11
-  time: '16:00'
-  sport: GAA
-  event: Moycarkey-Borris v Thurles Sarsfields
-  competition: Tipperary Senior Hurling Championship Final
-  watch: TG4
-  free: true
-  source: https://www.the42.ie/tipperary-westmeath-gaa-club-football-hurling-7183065-Oct2026/
-- date: 2026-10-11
-  time: '16:30'
+  source: https://premiersportsireland.com/
+- date: 2026-10-17
+  time: '14:45'
   sport: Football
-  event: Liverpool v Manchester City
-  competition: Premier League
-  watch: Sky Sports
-  free: false
-  source: https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november
-- date: 2026-10-11
-  time: TBC
-  sport: Golf
-  event: Open de España (final round, featuring Shane Lowry and Tom McKibbin)
-  competition: DP World Tour
-  watch: Sky Sports
-  free: false
-  source: https://www.europeantour.com/dpworld-tour/open-de-espana-presented-by-madrid-2026/tv-schedule
-- date: 2026-10-12
-  time: '20:00'
-  sport: Football
-  event: Shamrock Rovers v Bohemians
+  event: Sligo Rovers v Dundalk
   competition: League of Ireland Premier Division
   watch: LOITV
   free: false
-  source: https://www.leagueofireland.ie/mens/sse-airtricity-mens-premier-division/fixtures/
-- date: 2026-10-13
-  time: '19:30'
-  sport: Football
-  event: Republic of Ireland v Kazakhstan (Women)
-  competition: 2027 FIFA Women's World Cup Qualifying Play-off, Second Leg
-  watch: RTÉ2 and RTÉ Player
-  free: true
-  source: https://gaacork.ie/event/supervalu-pairc-ui-chaoimh-to-host-crucial-fifa-womens-world-cup-play-off-second-leg/
-- date: 2026-10-13
-  time: '20:00'
-  sport: Football
-  event: Arsenal v Lille
-  competition: UEFA Champions League, Matchday 2
-  watch: TNT Sports
+  source: https://www.livesoccertv.com/competitions/ireland-republic/football-league/
+- date: 2026-10-17
+  time: '17:30'
+  sport: Rugby
+  event: Connacht v Saracens
+  competition: Champions Cup, Round 1
+  watch: Premier Sports 1
   free: false
-  source: https://www.live-footballontv.com/arsenal-on-tv.html
-- date: 2026-10-14
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-17
+  time: '17:30'
+  sport: Football
+  event: Newcastle United v Aston Villa
+  competition: Premier League
+  watch: Sky Sports Main Event (via Sky/NOW)
+  free: false
+  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+- date: 2026-10-17
+  time: '19:00'
+  sport: Boxing
+  event: Daniel Dubois v Fabio Wardley II
+  competition: WBO World Heavyweight Title
+  watch: DAZN (PPV)
+  free: false
+  source: https://www.dazn.com/en-US/news/boxing/boxing-schedule-fight-dates-tv-channel-and-live-stream-for-confirmed-cards/1l3zwnho1gotu17qp8l44fmww9
+- date: 2026-10-17
+  time: '19:35'
+  sport: Football
+  event: Shelbourne v Athlone Town
+  competition: League of Ireland Women's Premier Division
+  watch: TG4
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-17
+  time: '20:00'
+  sport: Rugby
+  event: Munster v Racing 92
+  competition: Champions Cup, Round 1
+  watch: Premier Sports 1
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-18
+  time: 07:00
+  sport: Golf
+  event: DP World India Championship (final round)
+  competition: DP World Tour
+  watch: Sky Sports Golf (via Sky/NOW)
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-18
+  time: '14:00'
+  sport: Football
+  event: Leeds United v Manchester United
+  competition: Premier League
+  watch: Sky Sports Football (via Sky/NOW)
+  free: false
+  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+- date: 2026-10-18
+  time: '16:30'
+  sport: Football
+  event: Nottingham Forest v Arsenal
+  competition: Premier League
+  watch: Sky Sports Main Event (via Sky/NOW)
+  free: false
+  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+- date: 2026-10-19
   time: '20:00'
   sport: Football
-  event: Manchester City v Paris Saint-Germain
-  competition: UEFA Champions League, Matchday 2
-  watch: RTÉ2
+  event: Tottenham Hotspur v Coventry City
+  competition: Premier League
+  watch: Sky Sports Main Event (via Sky/NOW)
+  free: false
+  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+- date: 2026-10-20
+  time: '20:00'
+  sport: Football
+  event: Liverpool v Villarreal
+  competition: UEFA Champions League, Matchday 3
+  watch: RTÉ2 and RTÉ Player (also Premier Sports)
   free: true
-  source: https://www.rte.ie/sport/soccer/2026/1005/1594041-ireland-optimism-the-kazakhstan-mission-fai-cup-semis/
+  source: https://www.rte.ie/sport/results/soccer/champions-league/47760/fixtures/
+- date: 2026-10-20
+  time: '20:00'
+  sport: Football
+  event: Paris Saint-Germain v Barcelona
+  competition: UEFA Champions League, Matchday 3
+  watch: Premier Sports / TNT Sports (via Sky, NOW, Virgin Media)
+  free: false
+  source: https://www.livesoccertv.com/competitions/international/uefa-champions-league/watch/ireland-republic/
+- date: 2026-10-21
+  time: '17:45'
+  sport: Football
+  event: Como v Manchester United
+  competition: UEFA Champions League, Matchday 3
+  watch: Premier Sports / TNT Sports (via Sky, NOW, Virgin Media)
+  free: false
+  source: https://www.aljazeera.com/sports/2026/10/12/champions-league-schedule-teams-matches-players
+- date: 2026-10-21
+  time: '20:00'
+  sport: Football
+  event: Bayern Munich v Arsenal
+  competition: UEFA Champions League, Matchday 3
+  watch: Premier Sports / TNT Sports (via Sky, NOW, Virgin Media)
+  free: false
+  source: https://www.aljazeera.com/sports/2026/10/12/champions-league-schedule-teams-matches-players
