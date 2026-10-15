@@ -81,8 +81,3 @@ faqs:
 </div>
 
 {% include faq-section.html %}
-
-<div class="follow-twitter wa-also">
-  <a href="https://x.com/onairireland" target="_blank" rel="noopener" class="follow-twitter__btn">𝕏 Follow us on X @onairireland</a>
-  <a href="https://www.youtube.com/@onairireland" target="_blank" rel="noopener" class="follow-twitter__btn follow-youtube__btn">▶ Watch on YouTube</a>
-</div>
