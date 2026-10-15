@@ -114,6 +114,7 @@ exclude:
   - vendor/ruby/
   - scripts/
   - README.md
+  - CLAUDE.md
 
 # ==============================
 # Defaults

@@ -2,8 +2,8 @@
 title: "Netflix Ireland Price Changes for 2026: What You Need to Know"
 excerpt: "Netflix has raised its Irish prices for 2026. How each plan is affected and what it means for your streaming budget."
 description: "Netflix has raised its Irish prices for 2026. How each plan is affected and what it means for your streaming budget."
-last_updated: 2026-10-07
-last_checked: 2026-10-07
+last_updated: 2026-10-15
+last_checked: 2026-10-15
 categories:
   - News
 tags:
@@ -18,9 +18,9 @@ draft_generated: true
 affiliate_links: true
 faqs:
   - question: "Has Netflix confirmed exact new prices for Ireland in 2026?"
-    answer: "Yes. From 10 September 2026 Basic is €11.99 (was €10.99), Standard €18.99 (was €16.99) and Premium €25.99 (was €23.99). New customers pay the new prices straight away; existing customers move over on their billing date, and everyone should be on them by mid-October."
+    answer: "Yes. From 10 September 2026 Basic is €11.99 (was €10.99), Standard €18.99 (was €16.99) and Premium €25.99 (was €23.99). New customers pay the new prices straight away; existing customers move over on a later billing date, and Netflix emails you before your price changes."
   - question: "Is there a cheaper Netflix plan with ads in Ireland?"
-    answer: "Not yet. Ireland has no ad-supported plan. One is expected (reportedly in 2027), but Netflix hasn't announced an Irish launch date."
+    answer: "Not yet, but one is coming. Netflix has confirmed that ads will start on its Irish service from 1 March 2027. It hasn't announced the price of the ad-supported plan."
   - question: "How will I know if my subscription price has changed?"
     answer: "Netflix typically emails subscribers in advance of a price change and also displays updated pricing in your account billing section."
   - question: "Can I downgrade my plan if the new price doesn't suit me?"
@@ -43,9 +43,9 @@ Netflix raised all three of its Irish prices on 10 September 2026, [as reported 
 | Standard | €16.99 | €18.99 |
 | Premium | €23.99 | €25.99 |
 
-The new prices applied straight away to new customers. Existing customers move over on their billing date, and everyone should be on the new prices by mid-October 2026.
+The new prices applied straight away to new customers. Existing customers move over on a later billing date. Netflix emails you before your price changes, and the new amount shows in your account's billing section.
 
-Netflix in Ireland has three ad-free plans: Basic, Standard and Premium, with Premium offering the highest video quality and most simultaneous streams. Unlike the UK, Ireland has no cheaper ad-supported plan yet. The September rise added €1 a month to Basic and €2 to Standard and Premium.
+Netflix in Ireland has three ad-free plans: Basic, Standard and Premium, with Premium offering the highest video quality and most simultaneous streams. Unlike the UK, Ireland has no cheaper ad-supported plan yet, but that's changing: Netflix has confirmed ads will start on its Irish service from 1 March 2027, [as reported by The Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/). It hasn't said what the ad plan will cost. The September rise added €1 a month to Basic and €2 to Standard and Premium.
 
 ### Why Netflix Adjusts Prices
 
@@ -55,7 +55,7 @@ Streaming services typically point to content investment as the reason for price
 
 ### Basic Plan
 
-Basic went from €10.99 to €11.99 a month. It's the cheapest way into Netflix in Ireland, since there's no ad-supported tier here yet.
+Basic went from €10.99 to €11.99 a month. It's the cheapest way into Netflix in Ireland, at least until Netflix's ad-supported plan arrives in Ireland on 1 March 2027.
 
 ### Standard Plan
 

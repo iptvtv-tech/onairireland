@@ -20,7 +20,7 @@ GAA championship games in Ireland are split between free-to-air TV (RTÉ and TG4
 
 ## The quick version
 
-- **Free on RTÉ:** RTÉ2 and RTÉ Player carry 35 live championship games, including the All-Ireland finals and the camogie championship.
+- **Free on RTÉ:** RTÉ is showing 35 live championship games in 2026, including the football, hurling and camogie All-Ireland semi-finals, and the All-Ireland camogie finals are live on RTÉ too.
 - **Free on TG4:** TG4 and TG4 Player show Allianz League games, the minor and U20 championships and the Ladies football championships, plus highlights.
 - **GAA+:** everything else, with a season pass or single games. See the [streaming prices tracker](/streaming-prices/) for the current cost.
 

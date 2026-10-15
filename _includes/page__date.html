@@ -1,0 +1,12 @@
+{%- comment -%}
+  Overrides the theme's page__date.html so the date at the foot of a post
+  matches the byline: uses last_updated from front matter if set, then the
+  theme's last_modified_at, then the publish date.
+{%- endcomment -%}
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+{% assign oai_updated = page.last_updated | default: page.last_modified_at %}
+{% if oai_updated %}
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ oai_updated | date: "%Y-%m-%d" }}">{{ oai_updated | date: date_format }}</time></p>
+{% elsif page.date %}
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time></p>
+{% endif %}

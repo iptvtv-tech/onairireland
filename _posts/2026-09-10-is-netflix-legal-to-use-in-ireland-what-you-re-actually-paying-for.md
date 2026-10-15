@@ -43,7 +43,7 @@ A Netflix subscription fee covers several things beyond just "access to shows":
 
 ### Subscription Tiers
 
-Netflix Ireland typically offers multiple pricing tiers, generally differentiated by video quality (HD vs. Ultra HD), the number of simultaneous screens, and whether the plan includes advertising. As of recent years, Netflix has also introduced a lower-cost, ad-supported tier in many markets, including Ireland.
+Netflix Ireland typically offers multiple pricing tiers, generally differentiated by video quality (HD vs. Ultra HD), and the number of simultaneous screens. Netflix has a lower-cost, ad-supported tier in many markets, but not yet in Ireland: it has confirmed ads will start on its Irish service from 1 March 2027.
 
 We're being deliberately cautious here on exact euro amounts: Netflix adjusts its pricing periodically, and quoting a specific figure risks being out of date by the time you read this. Check Netflix's official Irish website or your account billing page for current tier names and prices before making a decision. What you can rely on is the general structure — a cheaper ad-supported option, a mid-tier standard plan, and a premium plan with the highest video quality and most simultaneous streams.
 

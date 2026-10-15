@@ -39,7 +39,7 @@ There's no need to consider any other platform for this one. Netflix commissione
 
 ### Do You Need a Specific Netflix Plan?
 
-Netflix Ireland currently offers a few different subscription tiers, ranging from a cheaper ad-supported option up to premium plans with higher video quality and more simultaneous streams. Wednesday Season 2 should be available across all of these tiers, since it's a flagship original rather than a special add-on. That said, exact pricing and plan names do shift from time to time, so it's worth double-checking the current tiers on Netflix's own website or app before you sign up, just to make sure you're picking the plan that suits how you watch — particularly if you care about 4K resolution or want to stream on multiple screens in the house at once.
+Netflix Ireland currently offers three ad-free plans (Basic, Standard and Premium), with the higher plans adding better video quality and more simultaneous streams. A cheaper plan with ads is due in Ireland from 1 March 2027. Wednesday Season 2 should be available across all of these tiers, since it's a flagship original rather than a special add-on. That said, exact pricing and plan names do shift from time to time, so it's worth double-checking the current tiers on Netflix's own website or app before you sign up, just to make sure you're picking the plan that suits how you watch — particularly if you care about 4K resolution or want to stream on multiple screens in the house at once.
 
 ### When to Watch
 

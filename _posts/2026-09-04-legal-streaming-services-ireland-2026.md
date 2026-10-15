@@ -32,7 +32,7 @@ faqs:
   - question: "Is IPTV legal in Ireland?"
     answer: "IPTV just means TV delivered over the internet, and licensed services like NOW, Sky Stream and Virgin Media TV use it legally. What's illegal is buying unlicensed 'IPTV subscriptions' or 'fully loaded' boxes that resell channels without permission."
   - question: "Is there a Netflix plan with ads in Ireland?"
-    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). An ad-supported plan is expected (reportedly in 2027), but Netflix hasn't announced an Irish launch date."
+    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). Netflix has confirmed ads will start on its Irish service from 1 March 2027, but hasn't announced the price."
   - question: "Do I need a TV licence if I only stream?"
     answer: "Not if you only watch on a phone, laptop, tablet or other device that can't receive a TV signal by aerial, satellite or cable. Any TV set needs a licence, even a smart TV you only use for streaming apps."
 ---
@@ -72,7 +72,7 @@ These are the standard monthly prices in Ireland as of October 2026. Several ser
 
 | Service | Plans and monthly price | Best for |
 | --- | --- | --- |
-| **Netflix** | Basic €11.99 · Standard €18.99 · Premium €25.99 | The biggest general library; no ad tier in Ireland yet |
+| **Netflix** | Basic €11.99 · Standard €18.99 · Premium €25.99 | The biggest general library; no ad tier in Ireland until 1 March 2027 |
 | **Disney+** | From €8.99 (Standard with Ads) · Standard €11.99 · Premium €15.99 | Families, Marvel, Star Wars, Pixar |
 | **Prime Video** | €6.99 | Good value, especially if you already shop on Amazon |
 | **Apple TV** | €9.99 | Apple originals like *Slow Horses* and *Severance* |

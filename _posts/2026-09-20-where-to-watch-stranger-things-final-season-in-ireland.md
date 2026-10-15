@@ -60,7 +60,7 @@ Other solid options include the Fire TV Cube for a more powerful, voice-controll
 
 ### Quick Checklist Before the Premiere
 
-- Confirm your Netflix plan supports the streaming quality you want (ad-supported, Standard, or Premium).
+- Confirm your Netflix plan supports the streaming quality you want (Basic, Standard or Premium).
 - Check your account's country and billing address are correctly set to Ireland.
 - Update your streaming device or smart TV apps to the latest version.
 - Test your broadband speed if you plan to stream in 4K — Netflix recommends a faster connection for Ultra HD playback, and your internet provider's app or website can usually confirm your current speed.

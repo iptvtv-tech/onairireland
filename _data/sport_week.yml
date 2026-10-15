@@ -6,6 +6,14 @@ week_start: 2026-10-16
 week_end: 2026-10-22
 generated: 2026-10-15
 events:
+- date: 2026-10-16
+  time: '19:45'
+  sport: Football
+  event: St Patrick's Athletic v Shelbourne
+  competition: League of Ireland Premier Division
+  watch: Virgin Media Two and Virgin Media Play
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-17
   time: '12:45'
   sport: Racing
@@ -15,22 +23,6 @@ events:
   free: true
   source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-17
-  time: '14:15'
-  sport: Rugby
-  event: Clermont Auvergne v Leinster
-  competition: Champions Cup, Round 1
-  watch: Premier Sports 2
-  free: false
-  source: https://rugbylad.ie/leinster-rugby-fixtures-2026-27/
-- date: 2026-10-17
-  time: '14:30'
-  sport: Football
-  event: Brentford v Liverpool
-  competition: Premier League
-  watch: Premier Sports
-  free: false
-  source: https://premiersportsireland.com/
-- date: 2026-10-17
   time: '14:45'
   sport: Football
   event: Sligo Rovers v Dundalk
@@ -38,6 +30,22 @@ events:
   watch: LOITV
   free: false
   source: https://www.livesoccertv.com/competitions/ireland-republic/football-league/
+- date: 2026-10-17
+  time: '15:00'
+  sport: Football
+  event: Brentford v Liverpool
+  competition: Premier League
+  watch: Premier Sports 1
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-17
+  time: '15:15'
+  sport: Rugby
+  event: Clermont Auvergne v Leinster
+  competition: Champions Cup, Round 1
+  watch: Premier Sports 2
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-17
   time: '17:30'
   sport: Rugby
@@ -51,9 +59,9 @@ events:
   sport: Football
   event: Newcastle United v Aston Villa
   competition: Premier League
-  watch: Sky Sports Main Event (via Sky/NOW)
+  watch: Sky Sports Premier League (via Sky/NOW)
   free: false
-  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-17
   time: '19:00'
   sport: Boxing
@@ -67,7 +75,7 @@ events:
   sport: Football
   event: Shelbourne v Athlone Town
   competition: League of Ireland Women's Premier Division
-  watch: TG4
+  watch: TG4 and TG4 Player
   free: true
   source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-17
@@ -79,7 +87,7 @@ events:
   free: false
   source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-18
-  time: 07:00
+  time: '07:00'
   sport: Golf
   event: DP World India Championship (final round)
   competition: DP World Tour
@@ -93,15 +101,31 @@ events:
   competition: Premier League
   watch: Sky Sports Football (via Sky/NOW)
   free: false
-  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-18
+  time: '14:15'
+  sport: GAA
+  event: Kilcormac-Killoughey v Ballinamere
+  competition: Offaly Senior Hurling Championship Final
+  watch: TG4 and TG4 Player
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-18
+  time: '16:15'
+  sport: GAA
+  event: Castleknock v Cuala
+  competition: Dublin Senior Football Championship Final
+  watch: TG4 and TG4 Player
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-18
   time: '16:30'
   sport: Football
   event: Nottingham Forest v Arsenal
   competition: Premier League
-  watch: Sky Sports Main Event (via Sky/NOW)
+  watch: Sky Sports Football (via Sky/NOW)
   free: false
-  source: https://www.virginmedia.com/the-edit/sport/live-on-sky-sports-this-month
+  source: https://www.irishtimes.com/sport/2026/10/11/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-10-19
   time: '20:00'
   sport: Football
@@ -115,9 +139,9 @@ events:
   sport: Football
   event: Liverpool v Villarreal
   competition: UEFA Champions League, Matchday 3
-  watch: RTÉ2 and RTÉ Player (also Premier Sports)
-  free: true
-  source: https://www.rte.ie/sport/results/soccer/champions-league/47760/fixtures/
+  watch: Premier Sports / TNT Sports (via Sky, NOW, Virgin Media). RTÉ hasn't confirmed its pick yet.
+  free: false
+  source: https://www.livesoccertv.com/match/liverpool-vs-villarreal/19x55
 - date: 2026-10-20
   time: '20:00'
   sport: Football
