@@ -51,5 +51,5 @@ Schedules change, especially for GAA and when broadcasters swap games at short n
 - [All sports streaming guides](/sports-streaming/)
 
 {% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}
-<p class="sport-week__whatsapp"><a class="btn btn--success" href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener">Get match-day alerts on our WhatsApp Channel</a></p>
+<p class="sport-week__whatsapp"><a class="btn btn--success" href="{{ site.whatsapp_channel_url }}" target="_blank" rel="noopener">Follow us on WhatsApp</a></p>
 {% endif %}

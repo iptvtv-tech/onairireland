@@ -52,4 +52,4 @@ Three free guides from On Air Ireland, written in plain English and covering lic
 - [Start here](/start-here/): three steps to a legal streaming setup
 - [Watch on YouTube](https://www.youtube.com/@onairireland)
 - [Follow us on X @onairireland](https://x.com/onairireland){% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}
-- [Match-day alerts on WhatsApp]({{ site.whatsapp_channel_url }}){% endif %}
+- [Follow us on WhatsApp]({{ site.whatsapp_channel_url }}){% endif %}
