@@ -169,9 +169,8 @@ happen". Full plan: the *Social & WhatsApp Content Strategy* doc.
   `PRICE CHANGE: {Service} {Plan} / {old} -> {new} a month from {date} / {what to do} / onairireland.ie/streaming-prices/`
 - **New launch:** `NEW: {Service} / what it is, price, start date / who it suits / link`
 - **Deal:** `DEAL: {Offer} / price, what it replaces, ends {date} / who should skip it / link`.
-  WhatsApp posts use plain links only, never affiliate links. Link to the
-  retailer's or service's normal page, or to the on-site page that carries
-  the affiliate links and disclosure.
+  WhatsApp deal posts never use affiliate links. They always link to an
+  on-site page that carries the affiliate links and the disclosure.
 - **Log:** add each alert to `_data/whatsapp_posts.yml` so the monthly
   "Price check" recap can be written from it.
 - **Every blog post** ends with `{% raw %}{% include whatsapp-cta.html %}{% endraw %}`
