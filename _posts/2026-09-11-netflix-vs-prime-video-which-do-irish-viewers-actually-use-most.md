@@ -70,3 +70,5 @@ The real story isn't that one service has "won" the Irish market — it's that t
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

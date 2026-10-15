@@ -86,3 +86,5 @@ Peacock isn't in Ireland yet, and there's no official word on when, or if, that 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

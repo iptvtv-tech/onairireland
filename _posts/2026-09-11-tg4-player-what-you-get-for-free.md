@@ -67,3 +67,5 @@ For an Irish audience, TG4 Player is a straightforward, free, and entirely legal
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

@@ -81,3 +81,5 @@ Because F1 calendars and broadcast deals shift year to year, it's worth checking
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

@@ -1,0 +1,7 @@
+{%- comment -%}
+  One-line WhatsApp CTA shown at the foot of every blog post (via related-posts.html).
+  Hidden automatically if site.whatsapp_channel_url is empty.
+{%- endcomment -%}
+{%- if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}
+<p class="post-whatsapp-cta">Price changes, new launches, and deals as they happen — <a href="/whatsapp/">Follow us on WhatsApp</a></p>
+{%- endif %}

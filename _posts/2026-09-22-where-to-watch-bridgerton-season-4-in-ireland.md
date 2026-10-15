@@ -78,3 +78,5 @@ If it's been a while since the last season, a quick refresher on the Bridgerton 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

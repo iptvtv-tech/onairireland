@@ -87,3 +87,5 @@ Streaming prices across Ireland have been prone to change with little warning, o
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

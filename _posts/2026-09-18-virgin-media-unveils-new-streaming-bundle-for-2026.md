@@ -78,3 +78,5 @@ We'll update this post with confirmed pricing and launch details once Virgin Med
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

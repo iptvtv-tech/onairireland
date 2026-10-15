@@ -80,3 +80,5 @@ If none of the above helps, the fault may sit with your broadband provider's net
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

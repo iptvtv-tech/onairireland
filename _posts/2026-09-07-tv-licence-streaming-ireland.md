@@ -66,3 +66,5 @@ If you're at all unsure about your specific setup, An Post's TV licence service 
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 <small>This is a sensitive/legal topic — always confirm current rules directly with An Post's TV Licence service rather than relying solely on this post, since fees and enforcement details can change.</small>
+
+{% include whatsapp-cta.html %}

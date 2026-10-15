@@ -92,3 +92,5 @@ You may see suggestions online for using VPNs or DNS tricks to access other coun
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

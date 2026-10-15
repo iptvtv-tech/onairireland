@@ -74,3 +74,5 @@ Vodafone TV in 2026 isn't a bad service, but it's not obviously ahead of Virgin 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

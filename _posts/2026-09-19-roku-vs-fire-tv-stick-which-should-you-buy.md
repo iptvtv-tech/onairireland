@@ -78,3 +78,5 @@ If you're already deep into Amazon Prime and want tight integration with Alexa, 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

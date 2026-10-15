@@ -80,3 +80,5 @@ If Irish content, news, and homegrown drama are your priority, RTÉ Player earns
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

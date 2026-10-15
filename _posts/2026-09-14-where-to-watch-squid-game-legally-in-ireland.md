@@ -79,3 +79,5 @@ For now, though, the answer for Squid Game in Ireland remains simple and consist
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

@@ -49,3 +49,5 @@ quick_facts:
 {% include product-showcase.html category="Installation Guides" title="Helpful Extras" %}
 {% include related-posts.html %}
 See more in [Streaming Services](/streaming-services/) and [Devices](/devices/).
+
+{% include whatsapp-cta.html %}

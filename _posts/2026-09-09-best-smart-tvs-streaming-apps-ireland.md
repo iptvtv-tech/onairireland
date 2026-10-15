@@ -50,3 +50,5 @@ If you already own a smart TV that's missing an app you need, buying a new TV is
 {% include product-showcase.html category="Devices" title="Streaming Devices That Work on Any TV" %}
 {% include related-posts.html %}
 Related: see our [full streaming devices buying guide](/devices/best-streaming-devices-ireland/) and [legal streaming services guide](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

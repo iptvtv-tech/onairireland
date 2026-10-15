@@ -1358,3 +1358,14 @@ html {
   font-size: 0.8em;
   color: #64748b;
 }
+
+/* ---------- Blog post footer: WhatsApp CTA ---------- */
+.post-whatsapp-cta {
+  margin: 1.5rem 0;
+  padding: 0.85rem 1.1rem;
+  background: #eafaf2;
+  border-left: 4px solid #25D366;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+}
+.post-whatsapp-cta a { font-weight: 700; }

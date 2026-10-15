@@ -66,3 +66,5 @@ Whichever combination you need, the setup is the same principle across services:
 
 {% include related-posts.html %}
 Related: see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [device buying guide](/devices/best-streaming-devices-ireland/).
+
+{% include whatsapp-cta.html %}

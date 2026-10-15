@@ -76,3 +76,5 @@ Six-month intro offers often bring Entertainment down to €5.99. Irish and UK p
 Related: see our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [where to watch GAA legally](/streaming-services/where-to-watch-gaa-legally-ireland/).
 
 <small>Pricing on streaming and TV packages changes often — the Sky Stream and NOW figures above are standard pricing from sky.ie and nowtv.com/ie, checked 7 October 2026, but always confirm live pricing on the provider's own site before subscribing.</small>
+
+{% include whatsapp-cta.html %}

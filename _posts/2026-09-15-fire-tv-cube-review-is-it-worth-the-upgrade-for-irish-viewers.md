@@ -84,3 +84,5 @@ If voice convenience matters a lot to you, or you've grown tired of hunting for 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

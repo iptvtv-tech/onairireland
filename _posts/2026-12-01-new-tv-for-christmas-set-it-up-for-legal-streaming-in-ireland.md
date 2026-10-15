@@ -43,3 +43,5 @@ If someone gave you an Android box "with every channel", it's almost certainly s
 ## Want the full picture?
 
 Our free **Irish Streaming Starter Guide** covers every legal service and its price, where the sport is, three example monthly budgets and which device to buy. [Get it free here](/free-guides/).
+
+{% include whatsapp-cta.html %}

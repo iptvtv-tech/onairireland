@@ -75,3 +75,5 @@ Until Eir publishes full confirmed pricing for every Vision and bundle tier, the
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

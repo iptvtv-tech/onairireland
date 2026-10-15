@@ -87,3 +87,5 @@ Since Apple TV+ is often watched on a television rather than a phone screen, sou
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

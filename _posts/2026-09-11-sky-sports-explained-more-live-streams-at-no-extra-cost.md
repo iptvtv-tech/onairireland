@@ -83,3 +83,5 @@ Sky Sports+ is a useful addition for existing Sky Sports customers in Ireland, o
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

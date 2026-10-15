@@ -70,3 +70,5 @@ None of these apps will replace RTÉ Player or TG4 Player as your main destinati
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

@@ -78,3 +78,5 @@ Between RTÉ's free selected coverage and Premier Sports' full season access, Ir
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

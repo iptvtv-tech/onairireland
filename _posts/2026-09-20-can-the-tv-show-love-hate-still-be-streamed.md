@@ -68,3 +68,5 @@ One thing that occasionally trips people up isn't availability at all, but accou
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

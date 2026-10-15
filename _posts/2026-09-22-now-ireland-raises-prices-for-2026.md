@@ -76,3 +76,5 @@ Price increases are rarely welcome news, but they're becoming a routine part of 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

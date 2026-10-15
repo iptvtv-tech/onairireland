@@ -73,3 +73,5 @@ RTÉ showed the 2026 World Cup free-to-air in Ireland, on TV and on RTÉ Player.
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

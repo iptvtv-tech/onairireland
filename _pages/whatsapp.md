@@ -83,6 +83,14 @@ header:
   <p class="wa-sub-note">Opens WhatsApp. No account needed to follow.</p>
 </div>
 
+<div class="wa-trust" style="max-width:520px;margin:0 auto 2rem;">
+  <strong>What a price-change alert looks like</strong> <em>(illustrative example)</em><br>
+  💸 <strong>Price change:</strong> a streaming service is raising its monthly plan in Ireland.<br>
+  📅 <strong>When:</strong> the date it takes effect.<br>
+  ✅ <strong>What to do:</strong> whether it's still worth it, and the cheaper legal options.<br>
+  Short, one message, no waffle.
+</div>
+
 <div class="wa-benefits">
   <div class="wa-benefit">
     <div class="icon">💸</div>

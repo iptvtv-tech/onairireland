@@ -67,3 +67,5 @@ Apple TV 4K isn't overpriced for what it is — it's a premium device priced lik
 {% include related-posts.html %}
 
 Related: see our [full streaming devices buying guide](/devices/best-streaming-devices-ireland/).
+
+{% include whatsapp-cta.html %}

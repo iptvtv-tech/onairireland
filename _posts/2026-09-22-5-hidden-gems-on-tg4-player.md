@@ -82,3 +82,5 @@ TG4 Player is a free, publicly accessible service intended for viewers in Irelan
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

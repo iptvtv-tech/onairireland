@@ -101,3 +101,5 @@ If you've worked through connectivity, app updates, and account settings and GAA
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

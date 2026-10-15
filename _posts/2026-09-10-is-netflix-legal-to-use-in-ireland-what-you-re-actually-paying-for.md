@@ -69,3 +69,4 @@ Read our [full guide to legal streaming services in Ireland](/streaming-services
 
 {% include product-showcase.html category="Streaming Services" %}
 
+{% include whatsapp-cta.html %}

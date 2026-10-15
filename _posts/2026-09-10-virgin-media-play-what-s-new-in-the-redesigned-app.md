@@ -78,3 +78,5 @@ The redesigned Virgin Media Play app brings a cleaner interface, more prominent 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

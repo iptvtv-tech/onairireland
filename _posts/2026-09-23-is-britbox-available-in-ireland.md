@@ -78,3 +78,5 @@ BritBox is a legitimate, properly licensed option for Irish viewers who want acc
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

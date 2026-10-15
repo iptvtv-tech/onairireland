@@ -99,3 +99,5 @@ If you've tried the above and audio is still noticeably out of sync, it's worth 
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

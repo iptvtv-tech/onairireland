@@ -56,3 +56,5 @@ Slow Horses Season 6 is an Apple TV exclusive in Ireland, like every season befo
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

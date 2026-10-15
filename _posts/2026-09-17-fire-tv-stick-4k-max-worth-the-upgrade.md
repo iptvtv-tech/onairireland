@@ -82,3 +82,5 @@ The Fire TV Stick 4K Max is a solid piece of kit and a clear improvement over ol
 ### Related
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+
+{% include whatsapp-cta.html %}

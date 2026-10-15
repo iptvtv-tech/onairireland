@@ -54,3 +54,5 @@ Stick to official retailers — [Harvey Norman](https://www.harveynorman.ie/), [
 {% include product-showcase.html category="Devices" title="Our Picks: Streaming Devices" %}
 {% include related-posts.html %}
 Next: follow our [installation guides](/installation-guides/) once you've picked a device.
+
+{% include whatsapp-cta.html %}
