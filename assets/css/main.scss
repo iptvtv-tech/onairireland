@@ -1369,3 +1369,83 @@ html {
   font-size: 0.95rem;
 }
 .post-whatsapp-cta a { font-weight: 700; }
+
+/* ---------- /whatsapp/ landing page ---------- */
+.wa-hero { text-align: center; padding: 2rem 0 1.5rem; }
+.wa-hero--tight { padding-top: 0.5rem; }
+.page__content .wa-tagline {
+  font-size: 1.3rem;
+  max-width: 540px;
+  margin: 0.5rem auto 0;
+  text-align: center;
+  line-height: 1.5;
+  color: #0f172a;
+}
+.wa-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #25d366;
+  color: #0f172a !important;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 0.85rem 2rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  margin: 1.5rem 0 0.5rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.wa-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.35);
+}
+.wa-cta-btn svg { width: 22px; height: 22px; flex-shrink: 0; fill: #0f172a; }
+.page__content .wa-sub-note { font-size: 0.85rem; color: #475569; margin: 0.4rem 0 0; text-align: center; }
+.wa-qr { display: none; margin-top: 1.5rem; }
+.wa-qr img { border: 1px solid #e2e8f0; border-radius: var(--oai-card-radius); padding: 0.4rem; background: #fff; }
+@media (min-width: 48em) { .wa-qr { display: block; } }
+
+/* Example alert shown as a chat bubble */
+.wa-chat {
+  max-width: 460px;
+  margin: 0 auto 2.5rem;
+  padding: 1.1rem 1.1rem 1.3rem;
+  background: #efeae2;
+  border-radius: var(--oai-card-radius);
+}
+.page__content .wa-chat__label { font-size: 0.85rem; color: #475569; margin: 0 0 0.6rem; text-align: center; }
+.wa-chat__bubble {
+  background: #d9fdd3;
+  border-radius: 12px 12px 12px 2px;
+  padding: 0.7rem 0.9rem 0.5rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  font-size: 0.95rem;
+  color: #0f172a;
+}
+.page__content .wa-chat__bubble p { margin: 0 0 0.45rem; font-size: 0.95rem; }
+.wa-chat__time { display: block; text-align: right; font-size: 0.75rem; color: #64748b; }
+
+.wa-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2.5rem 0;
+}
+@media (min-width: 48em) { .wa-benefits { grid-template-columns: repeat(2, 1fr); } }
+.wa-benefit {
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: var(--oai-card-radius);
+  padding: 1.25rem 1.25rem 1rem;
+}
+.wa-benefit .icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+.wa-benefit h3 { font-size: 1rem; margin: 0 0 0.35rem; }
+.page__content .wa-benefit p { font-size: 0.9rem; color: #475569; margin: 0; }
+.wa-trust {
+  background: #eafaf2;
+  border-left: 4px solid #25d366;
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}

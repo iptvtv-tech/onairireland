@@ -535,6 +535,7 @@ def main():
         "\n### Related\n\n"
         "Read our [full guide to legal streaming services in Ireland]"
         "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
+        "\n{% include whatsapp-cta.html %}\n"
     )
 
     with open(filepath, "w") as f:

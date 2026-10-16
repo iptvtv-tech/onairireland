@@ -154,3 +154,25 @@ bundle exec jekyll serve
 ```
 Visit `http://localhost:4000`.
 
+## 7. WhatsApp channel posts
+
+The channel's promise is "price changes, new launches, and deals as they
+happen". Full plan: the *Social & WhatsApp Content Strategy* doc.
+
+- **Every post** is under 60 words, has one link and names its source. Legal
+  services and licensed devices only.
+- **Limit:** at most 3 posts a week, not counting the Thursday
+  "Sport on TV this week" message.
+- **Price change:** update `_data/prices.yml` first (`monthly`, `changed`,
+  `checked`, `source`), then post, so the channel and `/streaming-prices/`
+  agree. Template:
+  `PRICE CHANGE: {Service} {Plan} / {old} -> {new} a month from {date} / {what to do} / onairireland.ie/streaming-prices/`
+- **New launch:** `NEW: {Service} / what it is, price, start date / who it suits / link`
+- **Deal:** `DEAL: {Offer} / price, what it replaces, ends {date} / who should skip it / link`.
+  WhatsApp deal posts never use affiliate links. They always link to an
+  on-site page that carries the affiliate links and the disclosure.
+- **Log:** add each alert to `_data/whatsapp_posts.yml` so the monthly
+  "Price check" recap can be written from it.
+- **Every blog post** ends with `{% raw %}{% include whatsapp-cta.html %}{% endraw %}`
+  (the daily draft script adds it automatically; add it by hand to any
+  post written manually).

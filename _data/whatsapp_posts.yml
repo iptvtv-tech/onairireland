@@ -1,0 +1,20 @@
+# Log of posts sent to the On Air Ireland WhatsApp channel (newest first).
+# Add one entry per post so the first-Monday "Price check" recap can be
+# written from it. Not shown on the site.
+#
+# Fields:
+#   date    - YYYY-MM-DD the post went out
+#   type    - price-change | launch | deal | sport | recap
+#   title   - short label, e.g. "Netflix Standard price rise"
+#   link    - the one link in the post
+#   source  - where the facts were confirmed
+#   affiliate - true if the link earns commission (deal posts)
+#
+# Example:
+# - date: 2026-10-16
+#   type: sport
+#   title: Sport on TV this week
+#   link: https://onairireland.ie/sport-on-tv/
+#   source: _data/sport_week.yml
+#   affiliate: false
+[]
