@@ -303,6 +303,27 @@ Requirements:
     return raw
 
 
+def prioritise_queue(queue: list) -> list:
+    """Float entries with publish_by within the next 14 days to the top,
+    sorted earliest-deadline first. Evergreen entries keep their original order."""
+    today = datetime.date.today()
+    cutoff = today + datetime.timedelta(days=14)
+    urgent, normal = [], []
+    for entry in queue:
+        pb = entry.get("publish_by")
+        if pb:
+            try:
+                d = datetime.date.fromisoformat(str(pb))
+                if d <= cutoff:
+                    urgent.append((d, entry))
+                    continue
+            except ValueError:
+                pass
+        normal.append(entry)
+    urgent.sort(key=lambda x: x[0])
+    return [e for _, e in urgent] + normal
+
+
 def existing_post_titles():
     """Read titles from existing post files so we can ask Claude to avoid
     repeating topics that already exist."""
@@ -440,6 +461,7 @@ def main():
         set_output("post_title", "New topic ideas for review (edit or delete before merging)")
         return
 
+    queue = prioritise_queue(queue)
     topic = queue.pop(0)
     title = topic["title"]
     category = topic["category"]
@@ -523,6 +545,54 @@ def main():
     print(f"Draft written to {filepath}")
     set_output("post_path", filepath)
     set_output("post_title", title.replace("\n", " "))
+    set_output("publish_by", str(topic.get("publish_by", "")))
+
+    # --- Social content generation ---
+    # Runs after the post is written. Failure here is non-fatal: the post PR
+    # still opens, just without social drafts in the body.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from generate_social import generate_post_social, write_multiline_output
+
+        video_angle = topic.get("video_angle") if topic.get("video") else None
+        pillar = topic.get("pillar", "")
+        # whatsapp: false suppresses WhatsApp copy for minor/niche posts
+        want_whatsapp = topic.get("whatsapp", True)
+        social = generate_post_social(
+            title, category, brief, body,
+            pillar=pillar,
+            video_angle=video_angle,
+            want_whatsapp=want_whatsapp,
+        )
+
+        gh_out = os.environ.get("GITHUB_OUTPUT")
+        write_multiline_output(gh_out, "x_post", social.get("x_post", ""))
+        write_multiline_output(gh_out, "whatsapp_msg", social.get("whatsapp_msg", ""))
+
+        # YouTube script → committed as a separate file in the same PR.
+        # _video_scripts/ starts with _ so Jekyll ignores it.
+        yt_script = social.get("youtube_script", "")
+        if yt_script:
+            scripts_dir = os.path.join(REPO_ROOT, "_video_scripts")
+            os.makedirs(scripts_dir, exist_ok=True)
+            yt_path = os.path.join(scripts_dir, f"{today}-{slug}.md")
+            video_pillar = topic.get("video_pillar", "")
+            with open(yt_path, "w", encoding="utf-8") as fh:
+                fh.write(f"# YouTube Script: {title}\n\n")
+                fh.write(f"_Generated {today}. Edit before recording._\n\n")
+                if video_pillar:
+                    fh.write(f"**Pillar:** {video_pillar}  \n")
+                fh.write(f"**Angle:** {video_angle}\n\n---\n\n")
+                fh.write(yt_script)
+                fh.write("\n")
+            print(f"YouTube script written to {yt_path}")
+            set_output("youtube_script_path", yt_path)
+
+        set_output("has_social", "true")
+        print("Social content generated.")
+    except Exception as exc:
+        print(f"Social generation skipped: {exc}")
+        set_output("has_social", "false")
 
 
 if __name__ == "__main__":

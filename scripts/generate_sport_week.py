@@ -182,11 +182,26 @@ def main():
     OUT.write_text(HEADER + yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=200), encoding="utf-8")
     print(f"Wrote {len(events)} events to {OUT}")
 
+    week_label = f"{start:%-d %b} to {end:%-d %b %Y}"
+
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a", encoding="utf-8") as fh:
-            fh.write(f"week_label={start:%-d %b} to {end:%-d %b %Y}\n")
+            fh.write(f"week_label={week_label}\n")
             fh.write(f"event_count={len(events)}\n")
+
+    # --- Social content generation ---
+    # Failure here is non-fatal: the sport guide PR still opens without social drafts.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from generate_social import generate_sport_social, write_multiline_output
+
+        social = generate_sport_social(week_label, events)
+        write_multiline_output(gh_out, "x_post", social.get("x_post", ""))
+        write_multiline_output(gh_out, "whatsapp_msg", social.get("whatsapp_msg", ""))
+        print("Sport social content generated.")
+    except Exception as exc:
+        print(f"Sport social generation skipped: {exc}")
 
 
 if __name__ == "__main__":

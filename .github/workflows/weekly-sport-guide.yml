@@ -55,6 +55,20 @@ jobs:
             - [ ] Dates and throw-in/kick-off times look right
             - [ ] "free: true" only for RTÉ, Virgin Media, TG4 and their free apps
             - [ ] Nothing big is missing (add it by hand, same format)
+
+            ---
+
+            ## 📣 Social drafts — copy, edit and post after merging
+
+            ### X post
+            ```
+            ${{ steps.generate.outputs.x_post }}
+            ```
+
+            ### WhatsApp
+            ```
+            ${{ steps.generate.outputs.whatsapp_msg }}
+            ```
           labels: |
             sport-week
             needs-review

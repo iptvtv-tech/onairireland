@@ -47,6 +47,7 @@ jobs:
           title: "[Draft] ${{ steps.generate.outputs.post_title }}"
           body: |
             Auto-generated draft. Merging this PR publishes it live.
+            ${{ steps.generate.outputs.publish_by && format('> ⚠️ **Time-sensitive** — publish by {0}', steps.generate.outputs.publish_by) || '' }}
 
             Before merging, check:
             - [ ] Every service, price, date and channel named is correct today (check the provider's own site)
@@ -55,6 +56,18 @@ jobs:
             - [ ] Product links are relevant to this post (delete any that aren't)
             - [ ] Title and description read naturally; description under 160 characters
             - [ ] Add 1-2 links to related posts on this site
+
+            ---
+
+            ## 📣 Social drafts — copy, edit and schedule after merging
+
+            ${{ steps.generate.outputs.has_social == 'true' && '### X post' || '> ⚠️ Social generation failed — check the Actions log for this run.' }}
+            ${{ steps.generate.outputs.has_social == 'true' && format('```\n{0}\n```', steps.generate.outputs.x_post) || '' }}
+
+            ${{ steps.generate.outputs.has_social == 'true' && '### WhatsApp' || '' }}
+            ${{ steps.generate.outputs.has_social == 'true' && format('```\n{0}\n```', steps.generate.outputs.whatsapp_msg) || '' }}
+
+            ${{ steps.generate.outputs.youtube_script_path && format('### YouTube script\nSee `{0}` in this PR.', steps.generate.outputs.youtube_script_path) || '' }}
           labels: |
             auto-draft
             needs-review
