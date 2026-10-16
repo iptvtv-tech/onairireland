@@ -14,7 +14,7 @@ header:
   image_description: "A living room TV showing a streaming app home screen"
 faqs:
   - question: "How often will I get messages?"
-    answer: "Only when there's something worth knowing: a price change, a new service or a deal. Usually a few messages a week, plus the sport listings every Thursday."
+    answer: "Only when there's something worth knowing: a price change, a new service or a deal. Usually a few messages a week, plus the sport listings every Thursday and a service review every three months."
   - question: "Is this a WhatsApp group?"
     answer: "No. It's a one-way channel: we post and you read. You can't message the channel or other followers, and nobody can see your phone number."
   - question: "How is this different from the newsletter?"
@@ -46,6 +46,8 @@ Streaming prices in Ireland change more often than most people notice. Our free 
 **Offers and what's ending.** Deals worth knowing about, and offers or channels that are about to end.
 
 **Sport on TV this week.** Every Thursday, the week's main sport and where to watch it on Irish TV and streaming.
+
+**Quarterly service review.** Every three months, a short round-up of what each legal service in Ireland costs now and what's changed.
 
 ## What a message looks like
 
