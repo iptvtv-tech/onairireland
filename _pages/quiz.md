@@ -7,10 +7,11 @@ excerpt: "Three quick questions, one clear recommendation."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/posts/page-quiz-hero.jpg
-  teaser: /assets/images/posts/page-quiz-teaser.jpg
-  og_image: /assets/images/posts/page-quiz-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Not sure where to start? Answer three quick questions and we'll point you toward the right combination of services and devices for how you actually watch TV.

@@ -8,10 +8,11 @@ last_updated: 2026-10-15
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/posts/page-how-we-make-money-hero.jpg
-  teaser: /assets/images/posts/page-how-we-make-money-teaser.jpg
-  og_image: /assets/images/posts/page-how-we-make-money-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 On Air Ireland is free to read. This page explains how the site pays for itself, so you can judge our guides with that in mind.

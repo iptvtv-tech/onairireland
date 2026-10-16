@@ -8,10 +8,11 @@ seo:
   type: WebPage
 last_updated: 2026-09-24
 header:
-  overlay_image: /assets/images/posts/page-streaming-prices-hero.jpg
-  teaser: /assets/images/posts/page-streaming-prices-teaser.jpg
-  og_image: /assets/images/posts/page-streaming-prices-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 {% assign all_prices = site.data.prices %}

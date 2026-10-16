@@ -6,8 +6,9 @@ taxonomy: Reviews
 excerpt: "Honest reviews of streaming devices, boxes, and accessories for Irish viewers."
 sitemap: true
 header:
-  overlay_image: /assets/images/posts/page-reviews-hero.jpg
-  teaser: /assets/images/posts/page-reviews-teaser.jpg
-  og_image: /assets/images/posts/page-reviews-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---

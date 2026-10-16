@@ -7,10 +7,11 @@ excerpt: "The week's big games, and the legal place to watch each one."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/posts/page-sport-on-tv-hero.jpg
-  teaser: /assets/images/posts/page-sport-on-tv-teaser.jpg
-  og_image: /assets/images/posts/page-sport-on-tv-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 {% assign wk = site.data.sport_week %}

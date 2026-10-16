@@ -7,10 +7,11 @@ excerpt: "Tick what you pay for. See the monthly and yearly total, and where you
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/posts/page-streaming-cost-calculator-hero.jpg
-  teaser: /assets/images/posts/page-streaming-cost-calculator-teaser.jpg
-  og_image: /assets/images/posts/page-streaming-cost-calculator-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Pick the plan you have (or are thinking about) for each service. The total updates as you go. Prices are the standard Irish rates from our [streaming prices tracker](/streaming-prices/) and don't include introductory offers.

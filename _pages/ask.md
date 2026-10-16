@@ -7,10 +7,11 @@ excerpt: "Stuck with an app, a device or a bill? Ask us."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/posts/page-ask-hero.jpg
-  teaser: /assets/images/posts/page-ask-teaser.jpg
-  og_image: /assets/images/posts/page-ask-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Can't find the answer in our guides? Ask us. We read every question, reply by email when we can, and turn the most common ones into new guides (without your name).

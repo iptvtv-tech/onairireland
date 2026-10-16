@@ -9,10 +9,11 @@ excerpt: "Which Fire TV to buy, how to set it up, and how to fix it."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/posts/page-hub-fire-tv-hero.jpg
-  teaser: /assets/images/posts/page-hub-fire-tv-teaser.jpg
-  og_image: /assets/images/posts/page-hub-fire-tv-og.jpg
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
+  og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Amazon's Fire TV Sticks are the most popular way to add streaming apps to an older TV in Ireland. Virgin Media Play, TG4 Player, NOW and GAA+ all have Fire TV apps. The newest models running Amazon's Vega OS (the 2026 Fire TV Stick HD and the new Fire TV Stick 4K) have fewer apps, so check before you buy.
