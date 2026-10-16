@@ -1,36 +1,87 @@
-# Seasonal topics, injected into the front of _data/topic_queue.yml when
-# their date window is active, by scripts/inject_seasonal_topics.py
-# (triggered manually via the "Inject Seasonal Topics" GitHub Action).
+# Seasonal topics, added to the front of _data/topic_queue.yml when their date
+# window is active, by scripts/inject_seasonal_topics.py. The "Inject Seasonal
+# Topics" workflow runs every Monday (and on demand) and opens a PR; nothing
+# reaches the queue until that PR is merged.
 #
-# window_start / window_end use MM-DD format and can wrap across New Year
-# (e.g. start: 12-01, end: 01-15 covers Dec 1 through Jan 15).
+# window_start / window_end: MM-DD. Windows can wrap across New Year
+#   (e.g. start 12-01, end 01-15 covers 1 Dec to 15 Jan).
+#   Keep each window at least 7 days long so a Monday run always falls inside it.
+# publish_by is set automatically to the window_end date, so the daily draft
+#   workflow floats the topic to the top of the queue.
+# {month} and {year} in title or brief are replaced with the month and year the
+#   topic is added (e.g. "January 2027"). Use them for recurring topics so each
+#   one gets its own title and post.
+# Optional fields copied into the queue as-is: pillar, video, video_angle, whatsapp.
+
+# ---------------------------------------------------------------------------
+# QUARTERLY SERVICE REVIEW — first two weeks of Jan, Apr, Jul and Oct.
+# Do the quarterly fact check of _data/prices.yml and the hub pages in the same
+# week, so the post and the price table agree.
+# ---------------------------------------------------------------------------
+
+- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
+  category: "Streaming Services"
+  pillar: Price Watch
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  window_start: "01-01"
+  window_end: "01-14"
+
+- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
+  category: "Streaming Services"
+  pillar: Price Watch
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  window_start: "04-01"
+  window_end: "04-14"
+
+- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
+  category: "Streaming Services"
+  pillar: Price Watch
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  window_start: "07-01"
+  window_end: "07-14"
+
+- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
+  category: "Streaming Services"
+  pillar: Price Watch
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  window_start: "10-01"
+  window_end: "10-14"
+
+# ---------------------------------------------------------------------------
+# SEASONAL
+# ---------------------------------------------------------------------------
 
 - title: "Best Streaming Deals for Christmas in Ireland"
   category: "Streaming Services"
+  pillar: Price Watch
   brief: "Round up any current Christmas/New Year promotional pricing on streaming services and devices relevant to Irish shoppers, being clear about which prices are time-limited offers."
   window_start: "11-15"
   window_end: "12-26"
 
 - title: "Cutting the Cord: A New Year Streaming Setup Guide"
   category: "Streaming Services"
+  pillar: Service Guide
   brief: "A New Year's resolution-style guide for households switching from cable/satellite to legal streaming-only setups in Ireland."
   window_start: "12-27"
   window_end: "01-20"
 
 - title: "How to Watch the Six Nations Legally in Ireland"
   category: "Sports Streaming"
+  pillar: Where to Watch
   brief: "Explain how RTÉ and Virgin Media Television split Six Nations coverage in Ireland, free-to-air, ahead of the tournament kicking off."
   window_start: "01-15"
   window_end: "02-10"
 
 - title: "GAA Championship Season: Your Streaming Setup Checklist"
   category: "Sports Streaming"
+  pillar: Where to Watch
   brief: "A pre-season checklist for GAA fans getting their legal streaming setup (RTÉ Player, TG4 Player, GAA+) ready before Championship season starts."
   window_start: "04-15"
   window_end: "05-15"
 
 - title: "Back to College: Best Budget Streaming Setup in Ireland"
   category: "Devices"
+  pillar: Device Setup
   brief: "A budget-focused streaming device and service guide aimed at students setting up in new accommodation for the academic year."
   window_start: "08-15"
   window_end: "09-20"

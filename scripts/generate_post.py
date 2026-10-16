@@ -173,21 +173,37 @@ def load_queue():
         return yaml.safe_load(f) or []
 
 
+DEFAULT_QUEUE_HEADER = (
+    "# Queue of topics for the daily auto-post GitHub Action.\n"
+    "# The workflow pops the FIRST item each run, generates a draft post from it,\n"
+    "# opens a PR, and removes it from this list once the PR is created.\n"
+    "#\n"
+    "# category must be one of: Streaming Services | Devices | Installation Guides |\n"
+    "# News | Reviews | Sports Streaming | Troubleshooting | Watch Guides\n"
+    "# Add new topics to the bottom of this list whenever you like.\n"
+)
+
+
+def existing_queue_header() -> str:
+    """The comment block at the top of topic_queue.yml (field notes etc.),
+    up to the first section divider or entry, so a rewrite keeps it."""
+    if not os.path.exists(QUEUE_PATH):
+        return DEFAULT_QUEUE_HEADER
+    header = []
+    with open(QUEUE_PATH, "r", encoding="utf-8") as f:
+        for line in f:
+            if line.startswith("- ") or line.startswith("# ---"):
+                break
+            header.append(line)
+    text = "".join(header).rstrip() + "\n"
+    return text if text.strip() else DEFAULT_QUEUE_HEADER
+
+
 def save_queue(queue):
-    header = (
-        "# Queue of topics for the daily auto-post GitHub Action.\n"
-        "# The workflow pops the FIRST item each run, generates a draft post from it,\n"
-        "# opens a PR, and removes it from this list once the PR is created.\n"
-        "#\n"
-        "# category must be one of: Streaming Services | Devices | Installation Guides |\n"
-        "# News | Reviews | Sports Streaming | Troubleshooting | Watch Guides\n"
-        "# (add a new category name here anytime -- Jekyll auto-generates its listing page,\n"
-        "# no other file needs to change. Just keep spelling consistent across posts.)\n"
-        "# Add new topics to the bottom of this list whenever you like.\n\n"
-    )
-    with open(QUEUE_PATH, "w") as f:
-        f.write(header)
-        yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True)
+    header = existing_queue_header()
+    with open(QUEUE_PATH, "w", encoding="utf-8") as f:
+        f.write(header + "\n")
+        yaml.safe_dump(queue, f, sort_keys=False, allow_unicode=True, width=1000)
 
 
 def parse_faqs(text: str):
@@ -577,12 +593,11 @@ def main():
             scripts_dir = os.path.join(REPO_ROOT, "_video_scripts")
             os.makedirs(scripts_dir, exist_ok=True)
             yt_path = os.path.join(scripts_dir, f"{today}-{slug}.md")
-            video_pillar = topic.get("video_pillar", "")
             with open(yt_path, "w", encoding="utf-8") as fh:
                 fh.write(f"# YouTube Script: {title}\n\n")
                 fh.write(f"_Generated {today}. Edit before recording._\n\n")
-                if video_pillar:
-                    fh.write(f"**Pillar:** {video_pillar}  \n")
+                if pillar:
+                    fh.write(f"**Pillar:** {pillar}  \n")
                 fh.write(f"**Angle:** {video_angle}\n\n---\n\n")
                 fh.write(yt_script)
                 fh.write("\n")

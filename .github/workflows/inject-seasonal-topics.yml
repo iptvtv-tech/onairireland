@@ -1,8 +1,10 @@
 name: Inject Seasonal Topics
 
-# Runs every Monday, and can also be run manually from the Actions tab, to
-# check today's date against _data/seasonal_topics.yml and add any
-# in-season topics to the front of the daily draft queue.
+# Runs every Monday (and on demand from the Actions tab). Checks today's date
+# against _data/seasonal_topics.yml and, if any topic is in season, opens a PR
+# adding it to the front of _data/topic_queue.yml. Nothing reaches the queue
+# until that PR is merged. Merge it before the next Mon/Wed/Fri draft run if
+# you want the topic drafted next.
 
 on:
   schedule:
@@ -11,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   inject:
@@ -28,12 +31,32 @@ jobs:
         run: pip install pyyaml
 
       - name: Inject seasonal topics
+        id: inject
         run: python scripts/inject_seasonal_topics.py
 
-      - name: Commit changes if any
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/topic_queue.yml
-          git diff --staged --quiet || git commit -m "Inject seasonal topics"
-          git push
+      # Fixed branch name: a re-run while the PR is still open updates that PR
+      # instead of opening a duplicate. No PR is opened if nothing changed.
+      - name: Open Pull Request
+        if: steps.inject.outputs.added != ''
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add seasonal topics to the queue"
+          branch: "auto/seasonal-topics"
+          delete-branch: true
+          add-paths: _data/topic_queue.yml
+          title: "[Queue] Seasonal topics to add"
+          body: |
+            These in-season topics will be added to the front of `_data/topic_queue.yml`:
+
+            ${{ steps.inject.outputs.added }}
+
+            Merging this PR changes the queue only; nothing is published. The next Mon/Wed/Fri run drafts the first topic as its own PR.
+
+            Before merging:
+            - [ ] Each brief still makes sense this year (edit it in this PR if not)
+            - [ ] Delete any topic you don't want this time
+            ${{ contains(steps.inject.outputs.added, 'Quarterly Review') && '- [ ] Quarterly review: plan the quarterly fact check of `_data/prices.yml` and the hub pages for the same week' || '' }}
+          labels: |
+            auto-queue
+            needs-review
