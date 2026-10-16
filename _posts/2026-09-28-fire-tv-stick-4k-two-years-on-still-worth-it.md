@@ -7,9 +7,9 @@ categories:
 tags:
 - reviews
 header:
-  overlay_image: https://images.pexels.com/photos/5202917/pexels-photo-5202917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/5202917/pexels-photo-5202917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: https://kaboompics.com/ / Pexels'
+  overlay_image: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero.jpg
+  teaser: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-teaser.jpg
+  og_image: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-og.jpg
 seo:
   type: Article
 toc: true

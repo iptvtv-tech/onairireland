@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/teasers/troubleshooting-2.jpg
-  teaser: /assets/images/teasers/troubleshooting-2.jpg
+  overlay_image: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-hero.jpg
+  teaser: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-teaser.jpg
+  og_image: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-og.jpg
 seo:
   type: Article
 toc: true

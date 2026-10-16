@@ -7,8 +7,8 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/watch-guide-7.jpg
-  teaser: assets/images/teasers/watch-guide-7.jpg
+  overlay_image: assets/images/teasers/watch-guide-7.webp
+  teaser: assets/images/teasers/watch-guide-7.webp
 seo:
   type: Article
 toc: true

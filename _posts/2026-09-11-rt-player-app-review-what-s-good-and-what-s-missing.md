@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/teasers/reviews-1.jpg
+  overlay_image: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-hero.jpg
+  teaser: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-teaser.jpg
+  og_image: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-og.jpg
 seo:
   type: Article
 toc: true

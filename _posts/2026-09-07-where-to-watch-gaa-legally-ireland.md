@@ -13,8 +13,9 @@ tags:
   - gaa+
   - sports streaming ireland
 header:
-  overlay_image: /assets/images/teasers/streaming-3.jpg
-  teaser: /assets/images/headers/streaming-services.jpg
+  overlay_image: /assets/images/posts/where-to-watch-gaa-legally-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-gaa-legally-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-gaa-legally-ireland-og.jpg
 seo:
   type: Article
 toc: true

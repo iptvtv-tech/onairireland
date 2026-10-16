@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/watch-guide-6.jpg
-  teaser: assets/images/teasers/watch-guide-6.jpg
+  overlay_image: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero.jpg
+  teaser: /assets/images/posts/how-to-watch-tv-show-bad-sisters-teaser.jpg
+  og_image: /assets/images/posts/how-to-watch-tv-show-bad-sisters-og.jpg
 seo:
   type: Article
 toc: true

@@ -7,8 +7,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: assets/images/teasers/streaming-3.jpg
-  teaser: assets/images/teasers/streaming-3.jpg
+  overlay_image: /assets/images/posts/now-ireland-raises-prices-for-2026-hero.jpg
+  teaser: /assets/images/posts/now-ireland-raises-prices-for-2026-teaser.jpg
+  og_image: /assets/images/posts/now-ireland-raises-prices-for-2026-og.jpg
 seo:
   type: Article
 toc: true

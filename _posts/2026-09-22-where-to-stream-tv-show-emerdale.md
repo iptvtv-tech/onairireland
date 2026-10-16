@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/streaming-1.jpg
-  teaser: assets/images/teasers/streaming-1.jpg
+  overlay_image: /assets/images/posts/where-to-stream-tv-show-emerdale-hero.jpg
+  teaser: /assets/images/posts/where-to-stream-tv-show-emerdale-teaser.jpg
+  og_image: /assets/images/posts/where-to-stream-tv-show-emerdale-og.jpg
 seo:
   type: Article
 toc: true

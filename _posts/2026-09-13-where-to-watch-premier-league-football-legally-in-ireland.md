@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/headers/sports-streaming.jpg
-  teaser: /assets/images/headers/sports-streaming.jpg
+  overlay_image: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

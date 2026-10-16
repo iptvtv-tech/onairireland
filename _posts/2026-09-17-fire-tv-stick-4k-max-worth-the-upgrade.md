@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/social-home.jpg
-  teaser: https://images.pexels.com/photos/6958443/pexels-photo-6958443.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.jpg
+  teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.jpg
+  og_image: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-og.jpg
 seo:
   type: Article
 toc: true

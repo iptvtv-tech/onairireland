@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: assets/images/teasers/streaming-5.jpg
-  teaser: assets/images/teasers/streaming-5.jpg
+  overlay_image: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero.jpg
+  teaser: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-teaser.jpg
+  og_image: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-og.jpg
 seo:
   type: Article
 toc: true

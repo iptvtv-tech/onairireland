@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/teasers/troubleshooting-2.jpg
-  teaser: /assets/images/teasers/troubleshooting-2.jpg
+  overlay_image: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-hero.jpg
+  teaser: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-teaser.jpg
+  og_image: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-og.jpg
 seo:
   type: Article
 toc: true

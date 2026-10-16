@@ -11,8 +11,9 @@ tags:
   - legal streaming ireland
   - rté player
 header:
-  overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/headers/streaming-services.jpg
+  overlay_image: /assets/images/posts/tv-licence-streaming-ireland-hero.jpg
+  teaser: /assets/images/posts/tv-licence-streaming-ireland-teaser.jpg
+  og_image: /assets/images/posts/tv-licence-streaming-ireland-og.jpg
 seo:
   type: Article
 toc: true

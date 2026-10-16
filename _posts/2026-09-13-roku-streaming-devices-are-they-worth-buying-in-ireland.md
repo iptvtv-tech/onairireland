@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: /assets/images/headers/devices.jpg
-  teaser: /assets/images/headers/devices.jpg
+  overlay_image: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-hero.jpg
+  teaser: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

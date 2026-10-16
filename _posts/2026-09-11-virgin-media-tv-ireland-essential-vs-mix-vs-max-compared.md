@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/headers/streaming-services.jpg
-  teaser: /assets/images/headers/streaming-services.jpg
+  overlay_image: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-hero.jpg
+  teaser: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-teaser.jpg
+  og_image: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-og.jpg
 seo:
   type: Article
 toc: true

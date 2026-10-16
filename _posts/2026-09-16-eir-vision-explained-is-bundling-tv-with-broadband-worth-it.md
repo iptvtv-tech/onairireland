@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/teasers/streaming-3.jpg
-  teaser: /assets/images/teasers/streaming-3.jpg
+  overlay_image: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-hero.jpg
+  teaser: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-teaser.jpg
+  og_image: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-og.jpg
 seo:
   type: Article
 toc: true

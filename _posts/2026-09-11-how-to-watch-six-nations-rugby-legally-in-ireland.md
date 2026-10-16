@@ -7,8 +7,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/headers/sports-streaming.jpg
-  teaser: /assets/images/headers/sports-streaming.jpg
+  overlay_image: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

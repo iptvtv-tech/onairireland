@@ -7,18 +7,20 @@ publishes directly; the workflow opens a PR with the result so a human
 reviews and merges before anything goes live.
 
 Requires the ANTHROPIC_API_KEY secret to be set on the repo, and
-optionally PEXELS_API_KEY for real stock photo hero images
-(Settings -> Secrets and variables -> Actions).
+optionally PEXELS_API_KEY so posts with a clear real-world scene can get a
+self-hosted, credited Pexels photo (otherwise every post gets a unique brand card;
+see scripts/image_system.py and scripts/card_kit/README.md).
 """
 import datetime
 import os
-import random
 import re
 import sys
 import unicodedata
 
 import requests
 import yaml
+
+import image_system  # scripts/image_system.py: cards first, relevant photos when a scene fits
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
@@ -36,18 +38,6 @@ CATEGORY_SLUGS = {
     "Watch Guides": "watch-guides",
 }
 
-CATEGORY_PEXELS_QUERIES = {
-    "Streaming Services": ["streaming tv remote", "watching tv living room", "smart tv screen"],
-    "Devices": ["streaming device tv", "tv remote control", "home entertainment setup"],
-    "Installation Guides": ["home theater setup", "tv cables wiring", "wifi router home"],
-    "News": ["breaking news tv", "newsroom broadcast", "tv news studio"],
-    "Reviews": ["technology review", "product unboxing", "gadget review desk"],
-    "Sports Streaming": ["sports fans watching tv", "stadium crowd sports", "friends watching game"],
-    "Troubleshooting": ["wifi router frustration", "technical support laptop", "internet connection problem"],
-    "Watch Guides": ["movie night living room", "popcorn tv night", "cozy home cinema"],
-}
-
-
 def load_products():
     """Load the product catalog from _data/products.yml as a list of dicts."""
     if not os.path.isfile(PRODUCTS_PATH):
@@ -55,103 +45,6 @@ def load_products():
     with open(PRODUCTS_PATH, "r") as f:
         data = yaml.safe_load(f)
     return data or []
-
-
-def recently_used_images(limit: int = 30):
-    """Scan recent post files for header images already in use, so Pexels
-    picks can avoid repeating a photo that's still fresh on the site."""
-    used = set()
-    if not os.path.isdir(POSTS_DIR):
-        return used
-    files = sorted(
-        (f for f in os.listdir(POSTS_DIR) if f.endswith(".md")),
-        reverse=True,
-    )[:limit]
-    for fname in files:
-        path = os.path.join(POSTS_DIR, fname)
-        with open(path, "r") as f:
-            content = f.read()
-        for m in re.finditer(r"(?:overlay_image|teaser):\s*(\S+)", content):
-            used.add(m.group(1).strip())
-    return used
-
-
-def fetch_pexels_image(query: str, exclude: set = None):
-    """Search Pexels for a relevant royalty-free photo. Returns a direct
-    hotlink URL (Pexels' API terms explicitly permit hotlinking), or None
-    if no API key is set, the request fails, or no results come back --
-    callers should fall back to the local image pool."""
-    api_key = os.environ.get("PEXELS_API_KEY", "")
-    if not api_key or not query:
-        return None
-    exclude = exclude or set()
-
-    try:
-        resp = requests.get(
-            "https://api.pexels.com/v1/search",
-            headers={"Authorization": api_key},
-            params={"query": query, "per_page": 30, "orientation": "landscape"},
-            timeout=20,
-        )
-        if not resp.ok:
-            print(f"Pexels API error {resp.status_code}: {resp.text}")
-            return None
-        data = resp.json()
-        photos = data.get("photos", [])
-        if not photos:
-            return None
-
-        candidates = [p for p in photos if p.get("src", {}).get("large") not in exclude]
-        pool = candidates if candidates else photos  # fall back if everything's excluded
-        pick = random.choice(pool)
-        url = pick.get("src", {}).get("large")
-        if not url:
-            return None
-        credit = pick.get("photographer", "")
-        return {"url": url, "credit": f"Photo: {credit} / Pexels" if credit else "Photo: Pexels"}
-    except requests.RequestException as e:
-        print(f"Pexels request failed: {e}")
-        return None
-
-
-def pick_hero_image(category: str, image_query: str) -> str:
-    """Returns {"url": ..., "credit": ...}. Try a post-specific Pexels search first (using the AI-suggested
-    query for this exact post), then a generic category-based Pexels
-    search, then finally fall back to the local product/teaser pool.
-    Avoids repeating an image still in use on recent posts where possible."""
-    exclude = recently_used_images()
-
-    if image_query:
-        result = fetch_pexels_image(image_query, exclude=exclude)
-        if result:
-            return result
-
-    generic_query = random.choice(CATEGORY_PEXELS_QUERIES.get(category, ["television streaming"]))
-    result = fetch_pexels_image(generic_query, exclude=exclude)
-    if result:
-        return result
-
-    return {"url": pick_product_image(category), "credit": ""}
-
-
-def pick_product_image(category: str) -> str:
-    """Last-resort local fallback when Pexels is unavailable or returns
-    nothing usable -- reuses a product image already in the catalog for
-    this category, since every category has at least one product with an
-    image, so this never has to guess at a filename that may not exist."""
-    # Prefer the category's scene photos in _data/teaser_images.yml; product
-    # shots (a cable, a remote) make poor hero images.
-    teaser_path = os.path.join(REPO_ROOT, "_data", "teaser_images.yml")
-    if os.path.isfile(teaser_path):
-        with open(teaser_path, "r") as f:
-            pool = (yaml.safe_load(f) or {}).get(category) or []
-        pool = [p for p in pool if os.path.isfile(os.path.join(REPO_ROOT, p.lstrip("/")))]
-        if pool:
-            return random.choice(pool)
-    matching = [p for p in load_products() if p.get("category") == category and p.get("image")]
-    if matching:
-        return random.choice(matching)["image"]
-    return "/assets/images/teasers/streaming-4.jpg"  # site-wide default, always exists
 
 
 def slugify(text: str) -> str:
@@ -282,6 +175,12 @@ Requirements:
   term that suits THIS SPECIFIC post -- describe a generic, photographable scene (people,
   devices, settings), never a brand name, show title, or anything a stock photo site won't
   actually have images of.
+- On the line straight after IMAGE_QUERY, add "IMAGE_SCENE:" followed by exactly one of:
+  viewing-room, remote-closeup, router-cabling, hands-hdmi, aerial-roof, sport-viewing, none.
+  Choose a scene ONLY if a plain stock photo of it would genuinely suit this post (for example
+  router-cabling for a buffering fix, hands-hdmi for a cabling guide). Use "none" for anything
+  about a specific service, show, price, review, comparison or news item -- those get a
+  brand illustration instead, so "none" is the right answer most of the time.
 - After the article body, add a line that says exactly "FAQS:" on its own, then exactly
   4 question-and-answer pairs, each formatted as:
   Q: question text
@@ -496,6 +395,11 @@ def main():
         first_line, _, rest = body.partition("\n")
         image_query = first_line.replace("IMAGE_QUERY:", "").strip()
         body = rest.strip()
+    image_scene = "none"
+    if body.startswith("IMAGE_SCENE:"):
+        first_line, _, rest = body.partition("\n")
+        image_scene = first_line.replace("IMAGE_SCENE:", "").strip().lower() or "none"
+        body = rest.strip()
 
     body, faqs = parse_faqs(body)
 
@@ -505,16 +409,23 @@ def main():
     filepath = os.path.join(POSTS_DIR, filename)
 
     category_slug_name = category.replace(" ", "-")
-    hero_image = pick_hero_image(category, image_query)
+    hero_image = image_system.choose_hero(
+        title, category, slug,
+        scene=image_scene, image_query=image_query, post_file=filename,
+    )
 
     seo_type = "HowTo" if category in ("Installation Guides", "Troubleshooting") else "Article"
 
     if len(summary) > 160:
         summary = summary[:155].rsplit(" ", 1)[0].rstrip(",;:") + "…"
 
-    header = {"overlay_image": hero_image["url"], "teaser": hero_image["url"]}
-    if hero_image.get("credit"):
-        header["caption"] = hero_image["credit"]
+    header = {
+        "overlay_image": hero_image["overlay_image"],
+        "teaser": hero_image["teaser"],
+        "og_image": hero_image["og_image"],
+    }
+    if hero_image.get("caption"):
+        header["caption"] = hero_image["caption"]
 
     fm = {
         "title": title,

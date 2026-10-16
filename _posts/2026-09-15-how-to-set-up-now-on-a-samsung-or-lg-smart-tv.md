@@ -7,8 +7,9 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/headers/installation-guides.jpg
-  teaser: /assets/images/headers/installation-guides.jpg
+  overlay_image: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero.jpg
+  teaser: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-teaser.jpg
+  og_image: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-og.jpg
 seo:
   type: Article
 toc: true

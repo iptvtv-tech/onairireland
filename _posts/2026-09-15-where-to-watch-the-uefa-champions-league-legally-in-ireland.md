@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/teasers/sports-3.jpg
-  teaser: /assets/images/teasers/sports-3.jpg
+  overlay_image: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

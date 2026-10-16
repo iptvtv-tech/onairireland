@@ -12,8 +12,9 @@ tags:
   - sky ireland
   - streaming comparison
 header:
-  overlay_image: /assets/images/teasers/streaming-5.jpg
-  teaser: /assets/images/headers/streaming-services.jpg
+  overlay_image: /assets/images/posts/sky-stream-vs-now-ireland-hero.jpg
+  teaser: /assets/images/posts/sky-stream-vs-now-ireland-teaser.jpg
+  og_image: /assets/images/posts/sky-stream-vs-now-ireland-og.jpg
 seo:
   type: Article
 toc: true

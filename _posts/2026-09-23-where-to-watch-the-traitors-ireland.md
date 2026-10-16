@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/watch-guide-2.jpg
-  teaser: assets/images/teasers/watch-guide-2.jpg
+  overlay_image: /assets/images/posts/where-to-watch-the-traitors-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-the-traitors-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-the-traitors-ireland-og.jpg
 seo:
   type: Article
 toc: true

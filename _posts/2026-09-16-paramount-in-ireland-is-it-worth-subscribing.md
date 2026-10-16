@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/teasers/streaming-2.jpg
-  teaser: /assets/images/teasers/streaming-2.jpg
+  overlay_image: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-hero.jpg
+  teaser: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-teaser.jpg
+  og_image: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-og.jpg
 seo:
   type: Article
 toc: true

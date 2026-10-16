@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/watch-guide-5.jpg
-  teaser: assets/images/teasers/watch-guide-5.jpg
+  overlay_image: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

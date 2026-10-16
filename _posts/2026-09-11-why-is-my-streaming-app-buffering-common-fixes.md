@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: assets/images/teasers/streaming-8.jpg
-  teaser: /assets/images/teasers/troubleshooting-1.jpg
+  overlay_image: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-hero.jpg
+  teaser: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-teaser.jpg
+  og_image: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-og.jpg
 seo:
   type: Article
 toc: true

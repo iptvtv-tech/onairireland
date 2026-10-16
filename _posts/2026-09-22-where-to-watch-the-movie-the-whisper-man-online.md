@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/streaming-2.jpg
-  teaser: assets/images/teasers/streaming-2.jpg
+  overlay_image: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-og.jpg
 seo:
   type: Article
 toc: true

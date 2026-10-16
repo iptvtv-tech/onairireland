@@ -9,8 +9,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: https://images.pexels.com/photos/31121857/pexels-photo-31121857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/31121857/pexels-photo-31121857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/virgin-media-player-login-issues-explained-hero.jpg
+  teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.jpg
+  og_image: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
 seo:
   type: HowTo
 toc: true

@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/teasers/sports-1.jpg
-  teaser: /assets/images/teasers/sports-1.jpg
+  overlay_image: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

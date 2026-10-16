@@ -7,7 +7,7 @@ classes: wide
 last_updated: 2026-09-24
 header:
   overlay_image: assets/images/teasers/streaming-8.jpg
-  teaser: assets/images/teasers/devices-7.jpg
+  teaser: /assets/images/teasers/streaming-8.jpg
 seo:
   type: Article
 toc: false

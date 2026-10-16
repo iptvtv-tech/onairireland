@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/teasers/reviews-1.jpg
+  overlay_image: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-hero.jpg
+  teaser: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-teaser.jpg
+  og_image: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-og.jpg
 seo:
   type: Article
 toc: true

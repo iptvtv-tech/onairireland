@@ -10,8 +10,9 @@ tags:
   - installation guide
   - how to
 header:
-  overlay_image: /assets/images/social-home.jpg
-  teaser: /assets/images/headers/installation-guides.jpg
+  overlay_image: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero.jpg
+  teaser: /assets/images/posts/how-to-set-up-rte-player-fire-tv-teaser.jpg
+  og_image: /assets/images/posts/how-to-set-up-rte-player-fire-tv-og.jpg
 seo:
   type: HowTo
 toc: true
