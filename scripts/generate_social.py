@@ -11,6 +11,9 @@ import re
 
 import requests
 
+# Model used for all social copy generation. Update here to change everywhere.
+MODEL = "claude-sonnet-5"
+
 
 # ---------------------------------------------------------------------------
 # Internal helpers
@@ -26,7 +29,7 @@ def _call_claude(prompt: str, max_tokens: int = 600) -> str:
             "content-type": "application/json",
         },
         json={
-            "model": "claude-sonnet-5",
+            "model": MODEL,
             "max_tokens": max_tokens,
             "messages": [{"role": "user", "content": prompt}],
         },

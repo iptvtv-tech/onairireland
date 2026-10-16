@@ -1,0 +1,59 @@
+name: Quarterly Price Check
+
+# Runs at 07:00 UTC on 1 Jan, 1 Apr, 1 Jul and 1 Oct (and on demand from the
+# Actions tab). Reads each provider's own website, confirms or updates
+# _data/prices.yml, and opens a PR. Nothing changes on the site until you
+# review and merge it. If no price can be confirmed, the run fails and GitHub
+# emails you instead of opening an empty PR.
+
+on:
+  schedule:
+    - cron: "0 7 1 1,4,7,10 *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  price-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Check prices against provider sites
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PRICE_REPORT_PATH: ${{ runner.temp }}/price_check_report.md
+        run: python scripts/check_prices.py
+
+      - name: Show report in the run summary
+        if: always()
+        run: cat "${{ runner.temp }}/price_check_report.md" >> "$GITHUB_STEP_SUMMARY" || true
+
+      # PRs opened with GITHUB_TOKEN don't trigger check-pr.yml, so validate here.
+      - name: Validate prices.yml
+        run: python scripts/check_prices_data.py
+
+      - name: Open Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Quarterly price check"
+          branch: "auto/price-check"
+          delete-branch: true
+          add-paths: _data/prices.yml
+          title: "[Prices] Quarterly price check"
+          body-path: ${{ runner.temp }}/price_check_report.md
+          labels: |
+            auto-prices
+            needs-review

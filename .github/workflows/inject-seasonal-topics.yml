@@ -56,7 +56,7 @@ jobs:
             Before merging:
             - [ ] Each brief still makes sense this year (edit it in this PR if not)
             - [ ] Delete any topic you don't want this time
-            ${{ contains(steps.inject.outputs.added, 'Quarterly Review') && '- [ ] Quarterly review: plan the quarterly fact check of `_data/prices.yml` and the hub pages for the same week' || '' }}
+            ${{ contains(steps.inject.outputs.added, 'Quarterly Review') && '- [ ] Quarterly review: merge the `[Prices] Quarterly price check` PR first, and check the hub pages' || '' }}
           labels: |
             auto-queue
             needs-review

@@ -1,0 +1,73 @@
+# Official sources for the quarterly price check (scripts/check_prices.py).
+#
+# One entry per `service` name in _data/prices.yml (spelling must match).
+#   domains:    the provider's own sites. The checker may ONLY search and fetch
+#               these, so every price it proposes comes from a primary source.
+#   start_urls: pages to read first (usually the Irish pricing page).
+#   source_name: what to show in the `source` column (defaults to the service name).
+#   skip:       true -> not checked automatically (listed in the PR as "check by hand").
+#
+# Services in prices.yml with no entry here, or in the free group, are not
+# checked automatically and are listed in the PR instead.
+
+Netflix:
+  source_name: Netflix
+  domains: [netflix.com, help.netflix.com]
+  start_urls:
+    - https://help.netflix.com/en/node/24926
+
+Disney+:
+  source_name: Disney+
+  domains: [disneyplus.com, help.disneyplus.com]
+  start_urls:
+    - https://www.disneyplus.com/en-ie
+
+Prime Video:
+  source_name: Amazon
+  domains: [amazon.ie]
+  start_urls:
+    - https://www.amazon.ie/amazonprime
+
+Apple TV:
+  source_name: Apple
+  domains: [apple.com]
+  start_urls:
+    - https://www.apple.com/ie/apple-tv/
+
+HBO Max:
+  source_name: HBO Max
+  domains: [hbomax.com, help.hbomax.com]
+  start_urls:
+    - https://www.hbomax.com/ie/en
+
+Paramount+:
+  source_name: Paramount+
+  domains: [paramountplus.com, help.paramountplus.com]
+  start_urls:
+    - https://www.paramountplus.com/ie/
+
+Hayu:
+  source_name: Hayu
+  domains: [hayu.com]
+  start_urls:
+    - https://www.hayu.com/
+
+NOW:
+  source_name: NOW
+  domains: [nowtv.com, help.nowtv.com]
+  start_urls:
+    - https://www.nowtv.com/ie/membership
+    - https://www.nowtv.com/ie/membership/sports/watch-sky-sports
+    - https://www.nowtv.com/ie/membership/sports/watch-sports-extra
+
+GAA+:
+  source_name: GAA
+  domains: [gaa.ie, gaaplus.ie]
+  start_urls:
+    - https://www.gaa.ie/
+
+TV licence:
+  source_name: Citizens Information
+  domains: [citizensinformation.ie, gov.ie]
+  start_urls:
+    - https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/

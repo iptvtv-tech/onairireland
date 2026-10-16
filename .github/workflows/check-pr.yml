@@ -27,6 +27,9 @@ jobs:
       - name: Check post front matter
         run: python scripts/check_posts.py
 
+      - name: Check prices data
+        run: python scripts/check_prices_data.py
+
       - name: Build site exactly like GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:

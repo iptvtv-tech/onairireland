@@ -15,35 +15,35 @@
 
 # ---------------------------------------------------------------------------
 # QUARTERLY SERVICE REVIEW — first two weeks of Jan, Apr, Jul and Oct.
-# Do the quarterly fact check of _data/prices.yml and the hub pages in the same
-# week, so the post and the price table agree.
+# The Quarterly Price Check workflow opens a prices PR on the 1st of the same
+# months. Merge that first so the post and the price table agree.
 # ---------------------------------------------------------------------------
 
 - title: "Streaming in Ireland: Quarterly Review, {month} {year}"
   category: "Streaming Services"
   pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
   window_start: "01-01"
   window_end: "01-14"
 
 - title: "Streaming in Ireland: Quarterly Review, {month} {year}"
   category: "Streaming Services"
   pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
   window_start: "04-01"
   window_end: "04-14"
 
 - title: "Streaming in Ireland: Quarterly Review, {month} {year}"
   category: "Streaming Services"
   pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
   window_start: "07-01"
   window_end: "07-14"
 
 - title: "Streaming in Ireland: Quarterly Review, {month} {year}"
   category: "Streaming Services"
   pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Check every price and plan on the provider's own Irish site and update _data/prices.yml in the same PR before publishing."
+  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
   window_start: "10-01"
   window_end: "10-14"
 
