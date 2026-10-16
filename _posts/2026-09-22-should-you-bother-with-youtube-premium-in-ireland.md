@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: https://images.pexels.com/photos/27086631/pexels-photo-27086631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/27086631/pexels-photo-27086631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero.jpg
+  teaser: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

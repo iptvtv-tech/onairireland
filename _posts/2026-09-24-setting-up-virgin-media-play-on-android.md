@@ -7,9 +7,9 @@ categories:
 tags:
 - installation-guides
 header:
-  overlay_image: https://images.pexels.com/photos/9052250/pexels-photo-9052250.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/9052250/pexels-photo-9052250.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: SHVETS production / Pexels'
+  overlay_image: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.jpg
+  teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.jpg
+  og_image: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
 seo:
   type: HowTo
 toc: true

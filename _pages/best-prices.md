@@ -6,8 +6,9 @@ layout: single
 classes: wide
 last_updated: 2026-09-24
 header:
-  overlay_image: assets/images/teasers/streaming-8.jpg
-  teaser: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/posts/page-best-prices-hero.jpg
+  teaser: /assets/images/posts/page-best-prices-teaser.jpg
+  og_image: /assets/images/posts/page-best-prices-og.jpg
 seo:
   type: Article
 toc: false

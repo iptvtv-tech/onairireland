@@ -7,11 +7,10 @@ excerpt: "Search all our guides."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/posts/page-search-hero.jpg
+  teaser: /assets/images/posts/page-search-teaser.jpg
+  og_image: /assets/images/posts/page-search-og.jpg
   overlay_filter: 0.5
-  teaser: /assets/images/teasers/streaming-8.jpg
-  og_image: /assets/images/social-home.jpg
-  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 <div class="site-search">

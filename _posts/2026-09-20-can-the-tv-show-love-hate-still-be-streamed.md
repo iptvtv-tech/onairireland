@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/9999344/pexels-photo-9999344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/9999344/pexels-photo-9999344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.jpg
+  teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.jpg
+  og_image: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
 seo:
   type: Article
 toc: true

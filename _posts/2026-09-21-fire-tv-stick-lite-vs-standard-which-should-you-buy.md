@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: https://images.pexels.com/photos/21792101/pexels-photo-21792101.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/21792101/pexels-photo-21792101.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.jpg
+  teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.jpg
+  og_image: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
 seo:
   type: Article
 toc: true

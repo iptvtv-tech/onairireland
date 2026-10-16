@@ -9,8 +9,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: https://images.pexels.com/photos/11970615/pexels-photo-11970615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/11970615/pexels-photo-11970615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero.jpg
+  teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.jpg
+  og_image: /assets/images/posts/is-peacock-ever-coming-to-ireland-og.jpg
 seo:
   type: Article
 toc: true

@@ -9,8 +9,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: https://images.pexels.com/photos/221181/pexels-photo-221181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/221181/pexels-photo-221181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/gaa-not-working-try-these-fixes-hero.jpg
+  teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.jpg
+  og_image: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
 seo:
   type: HowTo
 toc: true

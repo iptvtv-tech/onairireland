@@ -7,9 +7,9 @@ categories:
 tags:
 - troubleshooting
 header:
-  overlay_image: https://images.pexels.com/photos/1682519/pexels-photo-1682519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/1682519/pexels-photo-1682519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: Vidal Balielo Jr. / Pexels'
+  overlay_image: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero.jpg
+  teaser: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-teaser.jpg
+  og_image: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-og.jpg
 seo:
   type: HowTo
 toc: true

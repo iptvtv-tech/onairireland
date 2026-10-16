@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: https://images.pexels.com/photos/6017141/pexels-photo-6017141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/6017141/pexels-photo-6017141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero.jpg
+  teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

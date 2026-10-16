@@ -7,9 +7,9 @@ categories:
 tags:
 - installation-guides
 header:
-  overlay_image: https://images.pexels.com/photos/29606737/pexels-photo-29606737.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/29606737/pexels-photo-29606737.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: Jakub Zerdzicki / Pexels'
+  overlay_image: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero.jpg
+  teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.jpg
+  og_image: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-og.jpg
 seo:
   type: HowTo
 toc: true

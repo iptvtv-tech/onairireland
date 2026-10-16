@@ -9,11 +9,10 @@ last_checked: 2026-10-07
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/posts/page-hub-netflix-hero.jpg
+  teaser: /assets/images/posts/page-hub-netflix-teaser.jpg
+  og_image: /assets/images/posts/page-hub-netflix-og.jpg
   overlay_filter: 0.5
-  teaser: /assets/images/teasers/streaming-8.jpg
-  og_image: /assets/images/social-home.jpg
-  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Netflix is one of the most popular paid streaming services in Irish homes. It has three plans, and prices went up in September 2026.

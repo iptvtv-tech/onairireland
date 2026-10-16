@@ -7,8 +7,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: https://images.pexels.com/photos/19650875/pexels-photo-19650875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/19650875/pexels-photo-19650875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero.jpg
+  teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.jpg
+  og_image: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-og.jpg
 seo:
   type: Article
 toc: true

@@ -7,9 +7,9 @@ categories:
 tags:
 - troubleshooting
 header:
-  overlay_image: https://images.pexels.com/photos/5207535/pexels-photo-5207535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/5207535/pexels-photo-5207535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: https://kaboompics.com/ / Pexels'
+  overlay_image: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.jpg
+  teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.jpg
+  og_image: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
 seo:
   type: HowTo
 toc: true

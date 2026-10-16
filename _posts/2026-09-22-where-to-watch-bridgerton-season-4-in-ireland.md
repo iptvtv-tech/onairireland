@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/4260642/pexels-photo-4260642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/4260642/pexels-photo-4260642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

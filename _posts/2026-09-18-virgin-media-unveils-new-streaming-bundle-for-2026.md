@@ -7,8 +7,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: https://images.pexels.com/photos/12199409/pexels-photo-12199409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/12199409/pexels-photo-12199409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero.jpg
+  teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.jpg
+  og_image: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-og.jpg
 seo:
   type: Article
 toc: true

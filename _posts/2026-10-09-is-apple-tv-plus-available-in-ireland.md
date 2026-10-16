@@ -7,9 +7,9 @@ categories:
 tags:
 - streaming-services
 header:
-  overlay_image: https://images.pexels.com/photos/9807579/pexels-photo-9807579.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/9807579/pexels-photo-9807579.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: Ron Lach / Pexels'
+  overlay_image: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero.jpg
+  teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/is-apple-tv-plus-available-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

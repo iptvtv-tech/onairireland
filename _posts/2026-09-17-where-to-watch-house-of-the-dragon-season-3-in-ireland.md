@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/11509785/pexels-photo-11509785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/11509785/pexels-photo-11509785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

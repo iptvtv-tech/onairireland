@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: https://images.pexels.com/photos/6336660/pexels-photo-6336660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/6336660/pexels-photo-6336660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero.jpg
+  teaser: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-teaser.jpg
+  og_image: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-og.jpg
 seo:
   type: Article
 toc: true

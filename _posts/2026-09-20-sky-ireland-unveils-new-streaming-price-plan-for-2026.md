@@ -7,8 +7,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: https://images.pexels.com/photos/10464454/pexels-photo-10464454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/10464454/pexels-photo-10464454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero.jpg
+  teaser: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-teaser.jpg
+  og_image: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-og.jpg
 seo:
   type: Article
 toc: true

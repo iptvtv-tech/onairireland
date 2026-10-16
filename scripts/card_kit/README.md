@@ -34,7 +34,7 @@ No `PEXELS_API_KEY` means every post simply gets a card.
 `scripts/check_posts.py` (runs on every PR) fails if two posts share an image, a header image is really a
 different format from its extension, a social or logo image is used as a header, a file in
 `assets/images/posts/` is missing from the ledger, a photo has no credit caption, or two cards share a
-fingerprint. Older posts that still hotlink Pexels produce one summary warning.
+fingerprint. Any post that hotlinks Pexels produces a warning (none do now).
 
 ## Maintenance
 

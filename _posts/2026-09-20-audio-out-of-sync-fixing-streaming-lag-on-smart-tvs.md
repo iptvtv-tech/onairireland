@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: https://images.pexels.com/photos/12659926/pexels-photo-12659926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/12659926/pexels-photo-12659926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero.jpg
+  teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.jpg
+  og_image: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-og.jpg
 seo:
   type: Article
 toc: true

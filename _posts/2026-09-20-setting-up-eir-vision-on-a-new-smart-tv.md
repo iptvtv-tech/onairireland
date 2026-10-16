@@ -7,8 +7,9 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: https://images.pexels.com/photos/5202917/pexels-photo-5202917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/5202917/pexels-photo-5202917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.jpg
+  teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.jpg
+  og_image: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
 seo:
   type: Article
 toc: true

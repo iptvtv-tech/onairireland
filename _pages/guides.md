@@ -7,11 +7,10 @@ excerpt: "Every topic, tool and guide on the site."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/posts/page-guides-hero.jpg
+  teaser: /assets/images/posts/page-guides-teaser.jpg
+  og_image: /assets/images/posts/page-guides-og.jpg
   overlay_filter: 0.5
-  teaser: /assets/images/teasers/streaming-8.jpg
-  og_image: /assets/images/social-home.jpg
-  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 ## Popular topics

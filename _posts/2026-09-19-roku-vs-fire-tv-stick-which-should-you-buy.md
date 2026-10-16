@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: https://images.pexels.com/photos/18293806/pexels-photo-18293806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/18293806/pexels-photo-18293806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.jpg
+  teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.jpg
+  og_image: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
 seo:
   type: Article
 toc: true

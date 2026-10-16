@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: https://images.pexels.com/photos/5833784/pexels-photo-5833784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/5833784/pexels-photo-5833784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.jpg
+  teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.jpg
+  og_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
 seo:
   type: Article
 toc: true

@@ -7,9 +7,9 @@ categories:
 tags:
 - sports-streaming
 header:
-  overlay_image: https://images.pexels.com/photos/4740529/pexels-photo-4740529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/4740529/pexels-photo-4740529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: Ksenia Chernaya / Pexels'
+  overlay_image: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

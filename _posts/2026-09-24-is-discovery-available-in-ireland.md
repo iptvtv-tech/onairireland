@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: https://images.pexels.com/photos/5081418/pexels-photo-5081418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/5081418/pexels-photo-5081418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/is-discovery-available-in-ireland-hero.jpg
+  teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/is-discovery-available-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

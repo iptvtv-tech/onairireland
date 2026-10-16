@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: https://images.pexels.com/photos/31121857/pexels-photo-31121857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/31121857/pexels-photo-31121857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero.jpg
+  teaser: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-teaser.jpg
+  og_image: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-og.jpg
 seo:
   type: Article
 toc: true

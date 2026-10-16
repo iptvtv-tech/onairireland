@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: https://images.pexels.com/photos/5207536/pexels-photo-5207536.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/5207536/pexels-photo-5207536.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/virgin-media-play-keeps-crashing-hero.jpg
+  teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.jpg
+  og_image: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
 seo:
   type: HowTo
 toc: true

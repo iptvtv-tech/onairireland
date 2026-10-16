@@ -10,9 +10,9 @@ tags:
   - sky
   - streaming services
 header:
-  overlay_image: https://images.pexels.com/photos/12956039/pexels-photo-12956039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/12956039/pexels-photo-12956039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: "Photo: Pexels"
+  overlay_image: /assets/images/posts/is-hbo-max-coming-to-ireland-hero.jpg
+  teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.jpg
+  og_image: /assets/images/posts/is-hbo-max-coming-to-ireland-og.jpg
 seo:
   type: Article
 toc: true

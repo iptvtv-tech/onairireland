@@ -7,9 +7,9 @@ categories:
 tags:
 - news
 header:
-  overlay_image: https://images.pexels.com/photos/8798927/pexels-photo-8798927.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/8798927/pexels-photo-8798927.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: RDNE Stock project / Pexels'
+  overlay_image: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.jpg
+  teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.jpg
+  og_image: /assets/images/posts/eir-vision-raises-prices-for-2026-og.jpg
 seo:
   type: Article
 toc: true

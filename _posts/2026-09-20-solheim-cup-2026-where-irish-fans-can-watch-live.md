@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: https://images.pexels.com/photos/36766023/pexels-photo-36766023.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/36766023/pexels-photo-36766023.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.jpg
+  teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.jpg
+  og_image: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
 seo:
   type: Article
 toc: true

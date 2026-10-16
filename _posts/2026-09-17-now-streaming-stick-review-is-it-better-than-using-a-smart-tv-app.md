@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero.jpg
+  teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.jpg
+  og_image: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-og.jpg
 seo:
   type: Article
 toc: true

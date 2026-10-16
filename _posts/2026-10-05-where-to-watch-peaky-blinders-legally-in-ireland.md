@@ -7,9 +7,9 @@ categories:
 tags:
 - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/7901682/pexels-photo-7901682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/7901682/pexels-photo-7901682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: Ivan S / Pexels'
+  overlay_image: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero.jpg
+  teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

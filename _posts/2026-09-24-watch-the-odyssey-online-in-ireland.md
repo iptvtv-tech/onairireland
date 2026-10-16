@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  overlay_image: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero.jpg
+  teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.jpg
+  og_image: /assets/images/posts/watch-the-odyssey-online-in-ireland-og.jpg
 seo:
   type: Article
 toc: true

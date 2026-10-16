@@ -663,6 +663,1071 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
+- id: card-netflix-ireland-price-changes-for-2026-what-you-need-to-know
+  files:
+    hero: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero.jpg
+    teaser: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-teaser.jpg
+    og: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-og.jpg
+  fingerprint: feature|s|News|satellite-receiver,smart-tv,universal-remote
+  layout: feature
+  palette: News
+  icons:
+  - smart-tv
+  - universal-remote
+  - satellite-receiver
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-13-netflix-ireland-price-changes-for-2026-what-you-need-to-know.md
+- id: card-best-budget-streaming-sticks-for-irish-homes-in-2026
+  files:
+    hero: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero.jpg
+    teaser: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-teaser.jpg
+    og: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-og.jpg
+  fingerprint: duo|s|Devices|smart-tv,streaming-pebble,streaming-stick-lite
+  layout: duo
+  palette: Devices
+  icons:
+  - streaming-stick-lite
+  - streaming-pebble
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-16-best-budget-streaming-sticks-for-irish-homes-in-2026.md
+- id: card-where-to-watch-the-united-rugby-championship-legally-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-og.jpg
+  fingerprint: trio|s|Sports-Streaming|satellite-receiver,smart-tv,speaker
+  layout: trio
+  palette: Sports-Streaming
+  icons:
+  - satellite-receiver
+  - speaker
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-16-where-to-watch-the-united-rugby-championship-legally-in-ireland.md
+- id: card-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app
+  files:
+    hero: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero.jpg
+    teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.jpg
+    og: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-og.jpg
+  fingerprint: trio|m|Reviews|smart-tv,smart-tv-2,streaming-box
+  layout: trio-mirrored
+  palette: Reviews
+  icons:
+  - smart-tv
+  - streaming-box
+  - smart-tv-2
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-17-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app.md
+- id: card-where-to-watch-house-of-the-dragon-season-3-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-og.jpg
+  fingerprint: duo|m|Watch-Guides|headphones,smart-tv,speaker
+  layout: duo-mirrored
+  palette: Watch-Guides
+  icons:
+  - speaker
+  - smart-tv
+  - headphones
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-17-where-to-watch-house-of-the-dragon-season-3-in-ireland.md
+- id: card-why-does-now-keep-buffering-on-smart-tvs
+  files:
+    hero: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.jpg
+    teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.jpg
+    og: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
+  fingerprint: wide|m|Troubleshooting|ethernet-cable,mesh-wifi,wifi-extender
+  layout: wide-mirrored
+  palette: Troubleshooting
+  icons:
+  - ethernet-cable
+  - mesh-wifi
+  - wifi-extender
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-17-why-does-now-keep-buffering-on-smart-tvs.md
+- id: card-how-to-watch-the-ryder-cup-legally-in-ireland
+  files:
+    hero: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.jpg
+    teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.jpg
+    og: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-og.jpg
+  fingerprint: stagger|m|Sports-Streaming|guidebook,satellite-receiver,soundbar
+  layout: stagger-mirrored
+  palette: Sports-Streaming
+  icons:
+  - guidebook
+  - soundbar
+  - satellite-receiver
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-18-how-to-watch-the-ryder-cup-legally-in-ireland.md
+- id: card-virgin-media-unveils-new-streaming-bundle-for-2026
+  files:
+    hero: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero.jpg
+    teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.jpg
+    og: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-og.jpg
+  fingerprint: feature|m|News|set-top-box,streaming-stick,universal-remote
+  layout: feature-mirrored
+  palette: News
+  icons:
+  - set-top-box
+  - streaming-stick
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-18-virgin-media-unveils-new-streaming-bundle-for-2026.md
+- id: card-roku-vs-fire-tv-stick-which-should-you-buy
+  files:
+    hero: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.jpg
+    teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.jpg
+    og: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
+  fingerprint: feature|m|Devices|streaming-pebble,streaming-stick,streaming-stick-alt
+  layout: feature-mirrored
+  palette: Devices
+  icons:
+  - streaming-stick
+  - streaming-pebble
+  - streaming-stick-alt
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-19-roku-vs-fire-tv-stick-which-should-you-buy.md
+- id: card-5-netflix-features-irish-viewers-often-miss
+  files:
+    hero: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.jpg
+    teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.jpg
+    og: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-og.jpg
+  fingerprint: trio|s|Streaming-Services|set-top-box,smart-tv,streaming-stick
+  layout: trio
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - streaming-stick
+  - set-top-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-5-netflix-features-irish-viewers-often-miss.md
+- id: card-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs
+  files:
+    hero: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero.jpg
+    teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.jpg
+    og: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-og.jpg
+  fingerprint: wide|m|Troubleshooting|headphones,mesh-wifi,soundbar
+  layout: wide-mirrored
+  palette: Troubleshooting
+  icons:
+  - soundbar
+  - mesh-wifi
+  - headphones
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs.md
+- id: card-back-to-college-best-budget-streaming-setup-in-ireland
+  files:
+    hero: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero.jpg
+    teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.jpg
+    og: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-og.jpg
+  fingerprint: wide|s|Devices|guidebook,smart-tv,streaming-box
+  layout: wide
+  palette: Devices
+  icons:
+  - guidebook
+  - streaming-box
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-back-to-college-best-budget-streaming-setup-in-ireland.md
+- id: card-can-the-tv-show-love-hate-still-be-streamed
+  files:
+    hero: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.jpg
+    teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.jpg
+    og: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
+  fingerprint: wide|m|Watch-Guides|headphones,smart-tv,soundbar
+  layout: wide-mirrored
+  palette: Watch-Guides
+  icons:
+  - smart-tv
+  - soundbar
+  - headphones
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-can-the-tv-show-love-hate-still-be-streamed.md
+- id: card-google-tv-streamer-review-should-you-switch-from-fire-tv
+  files:
+    hero: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.jpg
+    teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.jpg
+    og: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-og.jpg
+  fingerprint: duo|s|Reviews|smart-tv,streaming-box,streaming-pebble
+  layout: duo
+  palette: Reviews
+  icons:
+  - streaming-pebble
+  - smart-tv
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-google-tv-streamer-review-should-you-switch-from-fire-tv.md
+- id: card-is-peacock-ever-coming-to-ireland
+  files:
+    hero: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero.jpg
+    teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.jpg
+    og: /assets/images/posts/is-peacock-ever-coming-to-ireland-og.jpg
+  fingerprint: trio|m|News|guidebook,streaming-stick,universal-remote
+  layout: trio-mirrored
+  palette: News
+  icons:
+  - guidebook
+  - universal-remote
+  - streaming-stick
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-is-peacock-ever-coming-to-ireland.md
+- id: card-is-prime-video-worth-it-just-for-sport
+  files:
+    hero: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.jpg
+    teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.jpg
+    og: /assets/images/posts/is-prime-video-worth-it-just-for-sport-og.jpg
+  fingerprint: trio|m|Streaming-Services|smart-tv,streaming-stick,universal-remote
+  layout: trio-mirrored
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - universal-remote
+  - streaming-stick
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-is-prime-video-worth-it-just-for-sport.md
+- id: card-netflix-keeps-freezing-try-these-fixes
+  files:
+    hero: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.jpg
+    teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.jpg
+    og: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
+  fingerprint: duo|s|Troubleshooting|powerline,smart-tv,wifi-extender
+  layout: duo
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - powerline
+  - wifi-extender
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-netflix-keeps-freezing-try-these-fixes.md
+- id: card-setting-up-eir-vision-on-a-new-smart-tv
+  files:
+    hero: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.jpg
+    teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.jpg
+    og: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
+  fingerprint: trio|s|Installation-Guides|hdmi-cable,mesh-wifi,smart-tv
+  layout: trio
+  palette: Installation-Guides
+  icons:
+  - smart-tv
+  - mesh-wifi
+  - hdmi-cable
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-setting-up-eir-vision-on-a-new-smart-tv.md
+- id: card-setting-up-youtube-on-your-smart-tv
+  files:
+    hero: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero.jpg
+    teaser: /assets/images/posts/setting-up-youtube-on-your-smart-tv-teaser.jpg
+    og: /assets/images/posts/setting-up-youtube-on-your-smart-tv-og.jpg
+  fingerprint: stagger|m|Installation-Guides|indoor-aerial,smart-tv-2,wall-mount
+  layout: stagger-mirrored
+  palette: Installation-Guides
+  icons:
+  - smart-tv-2
+  - indoor-aerial
+  - wall-mount
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-setting-up-youtube-on-your-smart-tv.md
+- id: card-sky-ireland-unveils-new-streaming-price-plan-for-2026
+  files:
+    hero: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero.jpg
+    teaser: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-teaser.jpg
+    og: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-og.jpg
+  fingerprint: wide|m|News|satellite-receiver,streaming-stick,universal-remote
+  layout: wide-mirrored
+  palette: News
+  icons:
+  - satellite-receiver
+  - streaming-stick
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-sky-ireland-unveils-new-streaming-price-plan-for-2026.md
+- id: card-solheim-cup-2026-where-irish-fans-can-watch-live
+  files:
+    hero: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.jpg
+    teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.jpg
+    og: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
+  fingerprint: duo|s|Sports-Streaming|projector,smart-tv,speaker
+  layout: duo
+  palette: Sports-Streaming
+  icons:
+  - projector
+  - speaker
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-solheim-cup-2026-where-irish-fans-can-watch-live.md
+- id: card-virgin-media-360-box-review-is-it-still-worth-it
+  files:
+    hero: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.jpg
+    teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.jpg
+    og: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
+  fingerprint: trio|s|Reviews|headphones,set-top-box,streaming-box
+  layout: trio
+  palette: Reviews
+  icons:
+  - set-top-box
+  - headphones
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-virgin-media-360-box-review-is-it-still-worth-it.md
+- id: card-where-to-watch-stranger-things-final-season-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-og.jpg
+  fingerprint: duo|s|Watch-Guides|headphones,projector,soundbar
+  layout: duo
+  palette: Watch-Guides
+  icons:
+  - projector
+  - soundbar
+  - headphones
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-20-where-to-watch-stranger-things-final-season-in-ireland.md
+- id: card-disney-not-working-try-these-fixes
+  files:
+    hero: /assets/images/posts/disney-not-working-try-these-fixes-hero.jpg
+    teaser: /assets/images/posts/disney-not-working-try-these-fixes-teaser.jpg
+    og: /assets/images/posts/disney-not-working-try-these-fixes-og.jpg
+  fingerprint: wide|m|Troubleshooting|powerline,smart-tv,wifi-extender
+  layout: wide-mirrored
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - powerline
+  - wifi-extender
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-21-disney-not-working-try-these-fixes.md
+- id: card-fire-tv-stick-lite-vs-standard-which-should-you-buy
+  files:
+    hero: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.jpg
+    teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.jpg
+    og: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
+  fingerprint: trio|s|Devices|streaming-pebble,streaming-stick,streaming-stick-alt
+  layout: trio
+  palette: Devices
+  icons:
+  - streaming-stick
+  - streaming-stick-alt
+  - streaming-pebble
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-21-fire-tv-stick-lite-vs-standard-which-should-you-buy.md
+- id: card-is-hbo-max-coming-to-ireland
+  files:
+    hero: /assets/images/posts/is-hbo-max-coming-to-ireland-hero.jpg
+    teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.jpg
+    og: /assets/images/posts/is-hbo-max-coming-to-ireland-og.jpg
+  fingerprint: duo|m|News|guidebook,set-top-box,universal-remote
+  layout: duo-mirrored
+  palette: News
+  icons:
+  - guidebook
+  - universal-remote
+  - set-top-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-21-is-hbo-max-coming-to-ireland.md
+- id: card-how-to-watch-tv-show-father-ted
+  files:
+    hero: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.jpg
+    teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.jpg
+    og: /assets/images/posts/how-to-watch-tv-show-father-ted-og.jpg
+  fingerprint: wide|m|Watch-Guides|guidebook,headphones,soundbar
+  layout: wide-mirrored
+  palette: Watch-Guides
+  icons:
+  - guidebook
+  - headphones
+  - soundbar
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-22-how-to-watch-tv-show-father-ted.md
+- id: card-should-you-bother-with-youtube-premium-in-ireland
+  files:
+    hero: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero.jpg
+    teaser: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-teaser.jpg
+    og: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-og.jpg
+  fingerprint: duo|m|Streaming-Services|set-top-box,smart-tv-2,universal-remote
+  layout: duo-mirrored
+  palette: Streaming-Services
+  icons:
+  - smart-tv-2
+  - set-top-box
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-22-should-you-bother-with-youtube-premium-in-ireland.md
+- id: card-virgin-media-play-keeps-crashing
+  files:
+    hero: /assets/images/posts/virgin-media-play-keeps-crashing-hero.jpg
+    teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.jpg
+    og: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
+  fingerprint: duo|m|Troubleshooting|ethernet-cable,set-top-box,universal-remote
+  layout: duo-mirrored
+  palette: Troubleshooting
+  icons:
+  - set-top-box
+  - universal-remote
+  - ethernet-cable
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-22-virgin-media-play-keeps-crashing.md
+- id: card-where-to-watch-bridgerton-season-4-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-og.jpg
+  fingerprint: wide|m|Watch-Guides|projector,speaker,universal-remote
+  layout: wide-mirrored
+  palette: Watch-Guides
+  icons:
+  - universal-remote
+  - projector
+  - speaker
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-22-where-to-watch-bridgerton-season-4-in-ireland.md
+- id: card-5-free-irish-streaming-apps-worth-knowing
+  files:
+    hero: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.jpg
+    teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.jpg
+    og: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
+  fingerprint: stagger|s|Streaming-Services|set-top-box,smart-tv,streaming-box
+  layout: stagger
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - set-top-box
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-23-5-free-irish-streaming-apps-worth-knowing.md
+- id: card-vodafone-tv-is-it-still-worth-using-in-2026
+  files:
+    hero: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero.jpg
+    teaser: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-teaser.jpg
+    og: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-og.jpg
+  fingerprint: stagger|m|Reviews|set-top-box,streaming-box,streaming-pebble
+  layout: stagger-mirrored
+  palette: Reviews
+  icons:
+  - set-top-box
+  - streaming-box
+  - streaming-pebble
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-23-vodafone-tv-is-it-still-worth-using-in-2026.md
+- id: card-gaa-not-working-try-these-fixes
+  files:
+    hero: /assets/images/posts/gaa-not-working-try-these-fixes-hero.jpg
+    teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.jpg
+    og: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
+  fingerprint: stagger|s|Troubleshooting|ethernet-cable,powerline,universal-remote
+  layout: stagger
+  palette: Troubleshooting
+  icons:
+  - universal-remote
+  - powerline
+  - ethernet-cable
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-24-gaa-not-working-try-these-fixes.md
+- id: card-how-many-streaming-subscriptions-do-irish-households-really-need
+  files:
+    hero: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero.jpg
+    teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.jpg
+    og: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-og.jpg
+  fingerprint: duo|m|News|satellite-receiver,smart-tv-2,universal-remote
+  layout: duo-mirrored
+  palette: News
+  icons:
+  - universal-remote
+  - smart-tv-2
+  - satellite-receiver
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-24-how-many-streaming-subscriptions-do-irish-households-really-need.md
+- id: card-is-discovery-available-in-ireland
+  files:
+    hero: /assets/images/posts/is-discovery-available-in-ireland-hero.jpg
+    teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.jpg
+    og: /assets/images/posts/is-discovery-available-in-ireland-og.jpg
+  fingerprint: trio|m|Streaming-Services|set-top-box,smart-tv-2,streaming-box
+  layout: trio-mirrored
+  palette: Streaming-Services
+  icons:
+  - streaming-box
+  - smart-tv-2
+  - set-top-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-24-is-discovery-available-in-ireland.md
+- id: card-lg-vs-samsung-whose-smart-tv-apps-stream-better
+  files:
+    hero: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.jpg
+    teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.jpg
+    og: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
+  fingerprint: duo|s|Devices|smart-tv,streaming-box,streaming-stick-alt
+  layout: duo
+  palette: Devices
+  icons:
+  - smart-tv
+  - streaming-stick-alt
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-24-lg-vs-samsung-whose-smart-tv-apps-stream-better.md
+- id: card-setting-up-virgin-media-play-on-android
+  files:
+    hero: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.jpg
+    teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.jpg
+    og: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
+  fingerprint: stagger|m|Installation-Guides|mesh-wifi,set-top-box,wall-mount
+  layout: stagger-mirrored
+  palette: Installation-Guides
+  icons:
+  - set-top-box
+  - wall-mount
+  - mesh-wifi
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-24-setting-up-virgin-media-play-on-android.md
+- id: card-watch-the-odyssey-online-in-ireland
+  files:
+    hero: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero.jpg
+    teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.jpg
+    og: /assets/images/posts/watch-the-odyssey-online-in-ireland-og.jpg
+  fingerprint: trio|m|Watch-Guides|smart-tv,soundbar,universal-remote
+  layout: trio-mirrored
+  palette: Watch-Guides
+  icons:
+  - universal-remote
+  - smart-tv
+  - soundbar
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-24-watch-the-odyssey-online-in-ireland.md
+- id: card-eir-vision-raises-prices-for-2026
+  files:
+    hero: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.jpg
+    teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.jpg
+    og: /assets/images/posts/eir-vision-raises-prices-for-2026-og.jpg
+  fingerprint: trio|s|News|set-top-box,streaming-stick,universal-remote
+  layout: trio
+  palette: News
+  icons:
+  - set-top-box
+  - streaming-stick
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-25-eir-vision-raises-prices-for-2026.md
+- id: card-where-to-watch-formula-1-legally-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-og.jpg
+  fingerprint: stagger|s|Sports-Streaming|smart-tv,soundbar,speaker
+  layout: stagger
+  palette: Sports-Streaming
+  icons:
+  - soundbar
+  - smart-tv
+  - speaker
+  created: '2026-10-16'
+  used_in:
+  - 2026-09-30-where-to-watch-formula-1-legally-in-ireland.md
+- id: card-rte-player-not-working-on-smart-tv-common-fixes
+  files:
+    hero: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.jpg
+    teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.jpg
+    og: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
+  fingerprint: trio|s|Troubleshooting|smart-tv,smart-tv-2,wifi-extender
+  layout: trio
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - wifi-extender
+  - smart-tv-2
+  created: '2026-10-16'
+  used_in:
+  - 2026-10-05-rte-player-not-working-on-smart-tv-common-fixes.md
+- id: card-where-to-watch-peaky-blinders-legally-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-og.jpg
+  fingerprint: stagger|s|Watch-Guides|smart-tv,speaker,universal-remote
+  layout: stagger
+  palette: Watch-Guides
+  icons:
+  - smart-tv
+  - universal-remote
+  - speaker
+  created: '2026-10-16'
+  used_in:
+  - 2026-10-05-where-to-watch-peaky-blinders-legally-in-ireland.md
+- id: card-is-apple-tv-plus-available-in-ireland
+  files:
+    hero: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero.jpg
+    teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.jpg
+    og: /assets/images/posts/is-apple-tv-plus-available-in-ireland-og.jpg
+  fingerprint: wide|s|Streaming-Services|smart-tv,smart-tv-2,universal-remote
+  layout: wide
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - universal-remote
+  - smart-tv-2
+  created: '2026-10-16'
+  used_in:
+  - 2026-10-09-is-apple-tv-plus-available-in-ireland.md
+- id: card-apple-tv-plus-keeps-buffering-try-these-fixes
+  files:
+    hero: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero.jpg
+    teaser: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-teaser.jpg
+    og: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-og.jpg
+  fingerprint: wide|s|Troubleshooting|hdmi-cable,smart-tv,universal-remote
+  layout: wide
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - hdmi-cable
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - 2026-10-12-apple-tv-plus-keeps-buffering-try-these-fixes.md
+- id: card-setting-up-sky-stream-on-a-new-smart-tv
+  files:
+    hero: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero.jpg
+    teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.jpg
+    og: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-og.jpg
+  fingerprint: stagger|m|Installation-Guides|smart-tv,smart-tv-2,wall-mount
+  layout: stagger-mirrored
+  palette: Installation-Guides
+  icons:
+  - smart-tv
+  - wall-mount
+  - smart-tv-2
+  created: '2026-10-16'
+  used_in:
+  - 2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
+- id: card-page-about
+  files:
+    hero: /assets/images/posts/page-about-hero.jpg
+    teaser: /assets/images/posts/page-about-teaser.jpg
+    og: /assets/images/posts/page-about-og.jpg
+  fingerprint: wide|m|Streaming-Services|smart-tv,streaming-box,universal-remote
+  layout: wide-mirrored
+  palette: Streaming-Services
+  icons:
+  - streaming-box
+  - smart-tv
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - about.md
+- id: card-page-ask
+  files:
+    hero: /assets/images/posts/page-ask-hero.jpg
+    teaser: /assets/images/posts/page-ask-teaser.jpg
+    og: /assets/images/posts/page-ask-og.jpg
+  fingerprint: trio|m|Troubleshooting|ethernet-cable,powerline,wifi-extender
+  layout: trio-mirrored
+  palette: Troubleshooting
+  icons:
+  - wifi-extender
+  - ethernet-cable
+  - powerline
+  created: '2026-10-16'
+  used_in:
+  - ask.md
+- id: card-page-best-prices
+  files:
+    hero: /assets/images/posts/page-best-prices-hero.jpg
+    teaser: /assets/images/posts/page-best-prices-teaser.jpg
+    og: /assets/images/posts/page-best-prices-og.jpg
+  fingerprint: trio|s|Streaming-Services|smart-tv,streaming-box,streaming-stick
+  layout: trio
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - streaming-stick
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - best-prices.md
+- id: card-page-devices
+  files:
+    hero: /assets/images/posts/page-devices-hero.jpg
+    teaser: /assets/images/posts/page-devices-teaser.jpg
+    og: /assets/images/posts/page-devices-og.jpg
+  fingerprint: stagger|s|Devices|smart-tv,soundbar,streaming-box
+  layout: stagger
+  palette: Devices
+  icons:
+  - smart-tv
+  - streaming-box
+  - soundbar
+  created: '2026-10-16'
+  used_in:
+  - devices.md
+- id: card-page-free-guides
+  files:
+    hero: /assets/images/posts/page-free-guides-hero.jpg
+    teaser: /assets/images/posts/page-free-guides-teaser.jpg
+    og: /assets/images/posts/page-free-guides-og.jpg
+  fingerprint: wide|m|Installation-Guides|hdmi-cable,set-top-box,wall-mount
+  layout: wide-mirrored
+  palette: Installation-Guides
+  icons:
+  - wall-mount
+  - hdmi-cable
+  - set-top-box
+  created: '2026-10-16'
+  used_in:
+  - free-guides.md
+- id: card-page-guides
+  files:
+    hero: /assets/images/posts/page-guides-hero.jpg
+    teaser: /assets/images/posts/page-guides-teaser.jpg
+    og: /assets/images/posts/page-guides-og.jpg
+  fingerprint: trio|s|Watch-Guides|projector,soundbar,universal-remote
+  layout: trio
+  palette: Watch-Guides
+  icons:
+  - soundbar
+  - projector
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - guides.md
+- id: card-page-how-we-make-money
+  files:
+    hero: /assets/images/posts/page-how-we-make-money-hero.jpg
+    teaser: /assets/images/posts/page-how-we-make-money-teaser.jpg
+    og: /assets/images/posts/page-how-we-make-money-og.jpg
+  fingerprint: feature|m|Reviews|headphones,smart-tv,streaming-box
+  layout: feature-mirrored
+  palette: Reviews
+  icons:
+  - streaming-box
+  - smart-tv
+  - headphones
+  created: '2026-10-16'
+  used_in:
+  - how-we-make-money.md
+- id: card-page-hub-fire-tv
+  files:
+    hero: /assets/images/posts/page-hub-fire-tv-hero.jpg
+    teaser: /assets/images/posts/page-hub-fire-tv-teaser.jpg
+    og: /assets/images/posts/page-hub-fire-tv-og.jpg
+  fingerprint: duo|s|Devices|smart-tv,streaming-pebble,streaming-stick
+  layout: duo
+  palette: Devices
+  icons:
+  - streaming-stick
+  - streaming-pebble
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - hub-fire-tv.md
+- id: card-page-hub-gaa
+  files:
+    hero: /assets/images/posts/page-hub-gaa-hero.jpg
+    teaser: /assets/images/posts/page-hub-gaa-teaser.jpg
+    og: /assets/images/posts/page-hub-gaa-og.jpg
+  fingerprint: feature|s|Sports-Streaming|guidebook,outdoor-aerial,smart-tv
+  layout: feature
+  palette: Sports-Streaming
+  icons:
+  - guidebook
+  - smart-tv
+  - outdoor-aerial
+  created: '2026-10-16'
+  used_in:
+  - hub-gaa.md
+- id: card-page-hub-netflix
+  files:
+    hero: /assets/images/posts/page-hub-netflix-hero.jpg
+    teaser: /assets/images/posts/page-hub-netflix-teaser.jpg
+    og: /assets/images/posts/page-hub-netflix-og.jpg
+  fingerprint: duo|m|Streaming-Services|smart-tv,streaming-stick,universal-remote
+  layout: duo-mirrored
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - streaming-stick
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - hub-netflix.md
+- id: card-page-hub-now-and-sky
+  files:
+    hero: /assets/images/posts/page-hub-now-and-sky-hero.jpg
+    teaser: /assets/images/posts/page-hub-now-and-sky-teaser.jpg
+    og: /assets/images/posts/page-hub-now-and-sky-og.jpg
+  fingerprint: trio|s|Streaming-Services|satellite-receiver,smart-tv,streaming-box
+  layout: trio
+  palette: Streaming-Services
+  icons:
+  - satellite-receiver
+  - smart-tv
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - hub-now-and-sky.md
+- id: card-page-hub-virgin-media
+  files:
+    hero: /assets/images/posts/page-hub-virgin-media-hero.jpg
+    teaser: /assets/images/posts/page-hub-virgin-media-teaser.jpg
+    og: /assets/images/posts/page-hub-virgin-media-og.jpg
+  fingerprint: feature|s|Streaming-Services|set-top-box,streaming-stick,universal-remote
+  layout: feature
+  palette: Streaming-Services
+  icons:
+  - set-top-box
+  - streaming-stick
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - hub-virgin-media.md
+- id: card-page-installation-guides
+  files:
+    hero: /assets/images/posts/page-installation-guides-hero.jpg
+    teaser: /assets/images/posts/page-installation-guides-teaser.jpg
+    og: /assets/images/posts/page-installation-guides-og.jpg
+  fingerprint: stagger|s|Installation-Guides|hdmi-cable,indoor-aerial,wall-mount
+  layout: stagger
+  palette: Installation-Guides
+  icons:
+  - hdmi-cable
+  - indoor-aerial
+  - wall-mount
+  created: '2026-10-16'
+  used_in:
+  - installation-guides.md
+- id: card-page-news
+  files:
+    hero: /assets/images/posts/page-news-hero.jpg
+    teaser: /assets/images/posts/page-news-teaser.jpg
+    og: /assets/images/posts/page-news-og.jpg
+  fingerprint: stagger|m|News|satellite-receiver,set-top-box,smart-tv-2
+  layout: stagger-mirrored
+  palette: News
+  icons:
+  - set-top-box
+  - smart-tv-2
+  - satellite-receiver
+  created: '2026-10-16'
+  used_in:
+  - news.md
+- id: card-page-quiz
+  files:
+    hero: /assets/images/posts/page-quiz-hero.jpg
+    teaser: /assets/images/posts/page-quiz-teaser.jpg
+    og: /assets/images/posts/page-quiz-og.jpg
+  fingerprint: stagger|s|Devices|guidebook,soundbar,streaming-box
+  layout: stagger
+  palette: Devices
+  icons:
+  - guidebook
+  - streaming-box
+  - soundbar
+  created: '2026-10-16'
+  used_in:
+  - quiz.md
+- id: card-page-reviews
+  files:
+    hero: /assets/images/posts/page-reviews-hero.jpg
+    teaser: /assets/images/posts/page-reviews-teaser.jpg
+    og: /assets/images/posts/page-reviews-og.jpg
+  fingerprint: trio|m|Reviews|headphones,soundbar,streaming-box
+  layout: trio-mirrored
+  palette: Reviews
+  icons:
+  - soundbar
+  - headphones
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - reviews.md
+- id: card-page-search
+  files:
+    hero: /assets/images/posts/page-search-hero.jpg
+    teaser: /assets/images/posts/page-search-teaser.jpg
+    og: /assets/images/posts/page-search-og.jpg
+  fingerprint: duo|m|Watch-Guides|headphones,projector,soundbar
+  layout: duo-mirrored
+  palette: Watch-Guides
+  icons:
+  - headphones
+  - projector
+  - soundbar
+  created: '2026-10-16'
+  used_in:
+  - search.md
+- id: card-page-sport-on-tv
+  files:
+    hero: /assets/images/posts/page-sport-on-tv-hero.jpg
+    teaser: /assets/images/posts/page-sport-on-tv-teaser.jpg
+    og: /assets/images/posts/page-sport-on-tv-og.jpg
+  fingerprint: wide|s|Sports-Streaming|outdoor-aerial,smart-tv,speaker
+  layout: wide
+  palette: Sports-Streaming
+  icons:
+  - smart-tv
+  - speaker
+  - outdoor-aerial
+  created: '2026-10-16'
+  used_in:
+  - sport-on-tv.md
+- id: card-page-sports-streaming
+  files:
+    hero: /assets/images/posts/page-sports-streaming-hero.jpg
+    teaser: /assets/images/posts/page-sports-streaming-teaser.jpg
+    og: /assets/images/posts/page-sports-streaming-og.jpg
+  fingerprint: stagger|m|Sports-Streaming|projector,satellite-receiver,smart-tv
+  layout: stagger-mirrored
+  palette: Sports-Streaming
+  icons:
+  - projector
+  - smart-tv
+  - satellite-receiver
+  created: '2026-10-16'
+  used_in:
+  - sports-streaming.md
+- id: card-page-start-here
+  files:
+    hero: /assets/images/posts/page-start-here-hero.jpg
+    teaser: /assets/images/posts/page-start-here-teaser.jpg
+    og: /assets/images/posts/page-start-here-og.jpg
+  fingerprint: stagger|s|Watch-Guides|smart-tv,soundbar,universal-remote
+  layout: stagger
+  palette: Watch-Guides
+  icons:
+  - universal-remote
+  - soundbar
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - start-here.md
+- id: card-page-streaming-cost-calculator
+  files:
+    hero: /assets/images/posts/page-streaming-cost-calculator-hero.jpg
+    teaser: /assets/images/posts/page-streaming-cost-calculator-teaser.jpg
+    og: /assets/images/posts/page-streaming-cost-calculator-og.jpg
+  fingerprint: trio|m|Streaming-Services|smart-tv,smart-tv-2,streaming-box
+  layout: trio-mirrored
+  palette: Streaming-Services
+  icons:
+  - smart-tv-2
+  - streaming-box
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - streaming-cost-calculator.md
+- id: card-page-streaming-prices
+  files:
+    hero: /assets/images/posts/page-streaming-prices-hero.jpg
+    teaser: /assets/images/posts/page-streaming-prices-teaser.jpg
+    og: /assets/images/posts/page-streaming-prices-og.jpg
+  fingerprint: trio|s|Streaming-Services|smart-tv,streaming-box,universal-remote
+  layout: trio
+  palette: Streaming-Services
+  icons:
+  - universal-remote
+  - smart-tv
+  - streaming-box
+  created: '2026-10-16'
+  used_in:
+  - streaming-prices.md
+- id: card-page-streaming-services
+  files:
+    hero: /assets/images/posts/page-streaming-services-hero.jpg
+    teaser: /assets/images/posts/page-streaming-services-teaser.jpg
+    og: /assets/images/posts/page-streaming-services-og.jpg
+  fingerprint: duo|s|Streaming-Services|streaming-box,streaming-stick,universal-remote
+  layout: duo
+  palette: Streaming-Services
+  icons:
+  - universal-remote
+  - streaming-box
+  - streaming-stick
+  created: '2026-10-16'
+  used_in:
+  - streaming-services.md
+- id: card-page-troubleshooting
+  files:
+    hero: /assets/images/posts/page-troubleshooting-hero.jpg
+    teaser: /assets/images/posts/page-troubleshooting-teaser.jpg
+    og: /assets/images/posts/page-troubleshooting-og.jpg
+  fingerprint: stagger|s|Troubleshooting|ethernet-cable,mesh-wifi,wifi-extender
+  layout: stagger
+  palette: Troubleshooting
+  icons:
+  - ethernet-cable
+  - wifi-extender
+  - mesh-wifi
+  created: '2026-10-16'
+  used_in:
+  - troubleshooting.md
+- id: card-page-watch-guides
+  files:
+    hero: /assets/images/posts/page-watch-guides-hero.jpg
+    teaser: /assets/images/posts/page-watch-guides-teaser.jpg
+    og: /assets/images/posts/page-watch-guides-og.jpg
+  fingerprint: wide|s|Watch-Guides|projector,soundbar,universal-remote
+  layout: wide
+  palette: Watch-Guides
+  icons:
+  - projector
+  - soundbar
+  - universal-remote
+  created: '2026-10-16'
+  used_in:
+  - watch-guides.md
+- id: card-page-whatsapp
+  files:
+    hero: /assets/images/posts/page-whatsapp-hero.jpg
+    teaser: /assets/images/posts/page-whatsapp-teaser.jpg
+    og: /assets/images/posts/page-whatsapp-og.jpg
+  fingerprint: feature|m|News|satellite-receiver,smart-tv,streaming-stick
+  layout: feature-mirrored
+  palette: News
+  icons:
+  - satellite-receiver
+  - streaming-stick
+  - smart-tv
+  created: '2026-10-16'
+  used_in:
+  - whatsapp.md
 photos: []
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
