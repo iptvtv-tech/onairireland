@@ -1338,7 +1338,23 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
-photos: []
+photos:
+- id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
+  source: pexels
+  pexels_id: 36766039
+  pexels_url: https://www.pexels.com/photo/group-of-friends-celebrating-watching-sports-indoors-36766039/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use; credit kept as a caption)
+  description: Excited friends cheering while watching a sports game on TV, holding flags and snacks.
+  scene: sport-viewing
+  people: true
+  files:
+    hero: /assets/images/posts/where-to-watch-the-champions-cup-rugby-in-ireland-hero.jpg
+    teaser: /assets/images/posts/where-to-watch-the-champions-cup-rugby-in-ireland-teaser.jpg
+    og: /assets/images/posts/where-to-watch-the-champions-cup-rugby-in-ireland-og.jpg
+  created: '2026-10-19'
+  used_in:
+  - 2026-10-19-where-to-watch-the-champions-cup-rugby-in-ireland.md
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
   reason: third-party brand logos (Netflix, Disney+, HBO Max, Prime, Apple TV+) and cash
