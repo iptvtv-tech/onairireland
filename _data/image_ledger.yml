@@ -35,22 +35,6 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
-- id: card-eir-vision-raises-prices-for-2026
-  files:
-    hero: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.webp
-    hero_small: /assets/images/posts/eir-vision-raises-prices-for-2026-hero-800.webp
-    teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.webp
-    og: /assets/images/posts/eir-vision-raises-prices-for-2026-og.jpg
-  fingerprint: trio|s|News|set-top-box,streaming-stick,universal-remote
-  layout: trio
-  palette: News
-  icons:
-  - set-top-box
-  - streaming-stick
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-25-eir-vision-raises-prices-for-2026.md
 - id: card-where-to-watch-formula-1-legally-in-ireland
   files:
     hero: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero.webp
@@ -1838,6 +1822,24 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-24-watch-the-odyssey-online-in-ireland.md
+- id: photo-eir-vision-raises-prices-for-2026
+  source: pexels
+  pexels_id: 6020432
+  pexels_url: https://www.pexels.com/photo/a-flat-screen-tv-mounted-on-wall-over-a-wooden-console-6020432/
+  photographer: yair elgazar
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Stylish minimalist living room featuring a wall-mounted flat screen TV and wooden console.
+  scene: viewing-room
+  people: false
+  palette: News
+  files:
+    hero: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.webp
+    hero_small: /assets/images/posts/eir-vision-raises-prices-for-2026-hero-800.webp
+    teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.webp
+    og: /assets/images/posts/eir-vision-raises-prices-for-2026-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-25-eir-vision-raises-prices-for-2026.md
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
   reason: third-party brand logos (Netflix, Disney+, HBO Max, Prime, Apple TV+) and cash

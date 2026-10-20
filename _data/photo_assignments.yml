@@ -3,8 +3,6 @@
 # removes the entry. Use `photo: <approved shortlist id>` or `scene: <scene>`.
 # target: static-pages applies one photo to every page using the shared header.
 assignments:
-- target: _posts/2026-09-25-eir-vision-raises-prices-for-2026.md
-  scene: viewing-room
 - target: _posts/2026-09-28-fire-tv-stick-4k-two-years-on-still-worth-it.md
   scene: remote-closeup
 - target: _posts/2026-09-30-where-to-watch-formula-1-legally-in-ireland.md
