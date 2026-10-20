@@ -7,11 +7,12 @@ excerpt: "Short updates when Irish streaming prices change, sent to your phone."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/pages/site-hero-hero.webp
+  overlay_image_small: /assets/images/pages/site-hero-hero-800.webp
+  teaser: /assets/images/pages/site-hero-teaser.webp
+  image_description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
   overlay_filter: 0.5
-  teaser: /assets/images/teasers/streaming-8.jpg
   og_image: /assets/images/social-whatsapp.jpg
-  image_description: "A living room TV showing a streaming app home screen"
 faqs:
   - question: "How often will I get messages?"
     answer: "Only when there's something worth knowing: a price change, a new service or a deal. Usually a few messages a week, plus the sport listings every Thursday and a service review every three months."

@@ -7,8 +7,11 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/teasers/streaming-4.jpg
-  teaser: /assets/images/teasers/streaming-4.jpg
+  overlay_image: /assets/images/posts/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026-hero.webp
+  overlay_image_small: /assets/images/posts/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026-hero-800.webp
+  teaser: /assets/images/posts/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026-teaser.webp
+  og_image: /assets/images/posts/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026-og.jpg
+  caption: 'Photo: [Tima Miroshnichenko](https://www.pexels.com/photo/man-and-woman-sitting-on-blue-sofa-eating-popcorn-6336665/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

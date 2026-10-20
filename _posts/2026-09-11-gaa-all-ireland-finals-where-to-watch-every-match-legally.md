@@ -7,8 +7,11 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/headers/sports-streaming.jpg
-  teaser: /assets/images/headers/sports-streaming.jpg
+  overlay_image: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-hero.webp
+  overlay_image_small: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-hero-800.webp
+  teaser: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-teaser.webp
+  og_image: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-og.jpg
+  caption: 'Photo: [Unknown User](https://www.pexels.com/photo/lighted-utility-posts-on-field-1646735/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

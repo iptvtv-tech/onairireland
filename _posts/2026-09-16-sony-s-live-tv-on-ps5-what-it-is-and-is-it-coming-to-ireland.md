@@ -7,8 +7,11 @@ categories:
 tags:
   - news
 header:
-  overlay_image: /assets/images/headers/news.jpg
-  teaser: /assets/images/headers/news.jpg
+  overlay_image: /assets/images/posts/sony-s-live-tv-on-ps5-what-it-is-and-is-it-coming-to-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/sony-s-live-tv-on-ps5-what-it-is-and-is-it-coming-to-ireland-hero-800.webp
+  teaser: /assets/images/posts/sony-s-live-tv-on-ps5-what-it-is-and-is-it-coming-to-ireland-teaser.webp
+  og_image: /assets/images/posts/sony-s-live-tv-on-ps5-what-it-is-and-is-it-coming-to-ireland-og.jpg
+  caption: 'Photo: [Lisa Anna](https://www.pexels.com/photo/modern-living-room-design-19899067/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

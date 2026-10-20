@@ -7,8 +7,11 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/headers/streaming-services.jpg
-  teaser: /assets/images/headers/streaming-services.jpg
+  overlay_image: /assets/images/posts/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for-hero.webp
+  overlay_image_small: /assets/images/posts/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for-hero-800.webp
+  teaser: /assets/images/posts/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for-teaser.webp
+  og_image: /assets/images/posts/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for-og.jpg
+  caption: 'Photo: [Ron Lach](https://www.pexels.com/photo/friends-sitting-on-the-couch-and-watching-film-9807277/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

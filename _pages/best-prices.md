@@ -6,8 +6,10 @@ layout: single
 classes: wide
 last_updated: 2026-09-24
 header:
-  overlay_image: assets/images/teasers/streaming-8.jpg
-  teaser: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/pages/site-hero-hero.webp
+  overlay_image_small: /assets/images/pages/site-hero-hero-800.webp
+  teaser: /assets/images/pages/site-hero-teaser.webp
+  image_description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
 seo:
   type: Article
 toc: false

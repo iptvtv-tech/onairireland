@@ -9,8 +9,11 @@ tags:
   - streaming devices
   - device comparison
 header:
-  overlay_image: /assets/images/headers/reviews.jpg
-  teaser: /assets/images/headers/reviews.jpg
+  overlay_image: /assets/images/posts/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers-hero.webp
+  overlay_image_small: /assets/images/posts/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers-hero-800.webp
+  teaser: /assets/images/posts/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers-teaser.webp
+  og_image: /assets/images/posts/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers-og.jpg
+  caption: 'Photo: [Max Vakhtbovych](https://www.pexels.com/photo/cozy-living-room-interior-with-wooden-furniture-and-comfy-couch-6636320/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

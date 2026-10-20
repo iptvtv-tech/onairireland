@@ -7,8 +7,11 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/headers/watch-guides.jpg
-  teaser: assets/images/teasers/watch-guide-1.jpg
+  overlay_image: /assets/images/posts/where-to-watch-the-bear-legally-in-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/where-to-watch-the-bear-legally-in-ireland-hero-800.webp
+  teaser: /assets/images/posts/where-to-watch-the-bear-legally-in-ireland-teaser.webp
+  og_image: /assets/images/posts/where-to-watch-the-bear-legally-in-ireland-og.jpg
+  caption: 'Photo: [cottonbro studio](https://www.pexels.com/photo/couple-sitting-on-blue-armchairs-8847306/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

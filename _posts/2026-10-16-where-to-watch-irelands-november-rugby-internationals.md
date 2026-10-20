@@ -7,9 +7,11 @@ categories:
 tags:
 - sports-streaming
 header:
-  overlay_image: https://images.pexels.com/photos/8054847/pexels-photo-8054847.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  teaser: https://images.pexels.com/photos/8054847/pexels-photo-8054847.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-  caption: 'Photo: Annushka  Ahuja / Pexels'
+  overlay_image: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-hero.webp
+  overlay_image_small: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-hero-800.webp
+  teaser: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-teaser.webp
+  og_image: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-og.jpg
+  caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/three-men-are-watching-a-football-game-on-a-couch-23495476/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true
