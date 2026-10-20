@@ -7,12 +7,11 @@ excerpt: "Tick what you pay for. See the monthly and yearly total, and where you
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/pages/site-hero-hero.webp
-  overlay_image_small: /assets/images/pages/site-hero-hero-800.webp
-  teaser: /assets/images/pages/site-hero-teaser.webp
-  image_description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
   og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Pick the plan you have (or are thinking about) for each service. The total updates as you go. Prices are the standard Irish rates from our [streaming prices tracker](/streaming-prices/) and don't include introductory offers.

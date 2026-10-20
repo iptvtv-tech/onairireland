@@ -9,12 +9,11 @@ excerpt: "Virgin Media TV packages, the Streaming TV box and the free Virgin Med
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/pages/site-hero-hero.webp
-  overlay_image_small: /assets/images/pages/site-hero-hero-800.webp
-  teaser: /assets/images/pages/site-hero-teaser.webp
-  image_description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
+  overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
+  teaser: /assets/images/teasers/streaming-8.jpg
   og_image: /assets/images/social-home.jpg
+  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 Virgin Media does two different things in Ireland. **Virgin Media TV** is a paid TV package from the broadband company, sold as Basic, Core and Loaded TV and now watched on its Streaming TV box (older customers may still have the 360 box). **Virgin Media Play** is the free streaming app for Virgin Media Television's channels, such as Virgin Media One, which anyone can use without being a Virgin Media customer.

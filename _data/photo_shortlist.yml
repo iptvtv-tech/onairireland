@@ -63,10 +63,7 @@ photos:
   people: false
   pexels_url: https://www.pexels.com/photo/6020432/
   added: '2026-10-16'
-  use: static-pages
-  mood: evening
-  focus: 0.35
-  note: Shared header for the static pages, with the evening grade
+  note: Was the static-page header 20 Oct 2026; pages went back to the old living-room image. Still approved for posts.
 - id: 6934172
   scene: viewing-room
   status: rejected

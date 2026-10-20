@@ -484,23 +484,6 @@ photos:
   created: '2026-10-19'
   used_in:
   - 2026-10-19-where-to-watch-the-champions-cup-rugby-in-ireland.md
-- id: photo-site-hero
-  source: pexels
-  pexels_id: 6020432
-  pexels_url: https://www.pexels.com/photo/a-flat-screen-tv-mounted-on-wall-over-a-wooden-console-6020432/
-  photographer: yair elgazar
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Stylish minimalist living room featuring a wall-mounted flat screen TV and wooden console.
-  scene: viewing-room
-  people: false
-  palette: Streaming-Services
-  files:
-    hero: /assets/images/pages/site-hero-hero.webp
-    hero_small: /assets/images/pages/site-hero-hero-800.webp
-    teaser: /assets/images/pages/site-hero-teaser.webp
-  created: '2026-10-20'
-  used_in:
-  - static pages (26)
 - id: photo-legal-streaming-services-ireland-2026
   source: pexels
   pexels_id: 20812292
