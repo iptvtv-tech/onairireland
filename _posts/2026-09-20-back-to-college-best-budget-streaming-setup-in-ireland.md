@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero-800.webp
   teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.webp
   og_image: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-og.jpg
+  caption: "Photo: [khezez  | \u062E\u0632\u0627\u0632](https://www.pexels.com/photo/hand-holding-tv-remote-control-in-focus-35730055/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true

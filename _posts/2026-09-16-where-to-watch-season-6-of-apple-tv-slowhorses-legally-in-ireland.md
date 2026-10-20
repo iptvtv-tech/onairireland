@@ -12,6 +12,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-og.jpg
+  caption: 'Photo: [Ron Lach](https://www.pexels.com/photo/three-people-discussing-and-watching-tv-9807992/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

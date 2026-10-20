@@ -3,102 +3,6 @@
 # here so nothing is reused. `retired` lists images removed from the old teaser
 # pool and why. Safe to read; edit by hand only to correct a mistake.
 cards:
-- id: card-team-ireland-at-the-world-handball-championships-in-new-york
-  files:
-    hero: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero.webp
-    hero_small: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero-800.webp
-    teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.webp
-    og: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-og.jpg
-  fingerprint: wide|m|Sports-Streaming|outdoor-aerial,satellite-receiver,speaker
-  layout: wide-mirrored
-  palette: Sports-Streaming
-  icons:
-  - speaker
-  - outdoor-aerial
-  - satellite-receiver
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-16-team-ireland-at-the-world-handball-championships-in-new-york.md
-- id: card-where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-og.jpg
-  fingerprint: trio|m|Watch-Guides|headphones,smart-tv,universal-remote
-  layout: trio-mirrored
-  palette: Watch-Guides
-  icons:
-  - universal-remote
-  - headphones
-  - smart-tv
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-16-where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland.md
-- id: card-where-to-watch-wednesday-season-2-legally-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-og.jpg
-  fingerprint: stagger|m|Watch-Guides|smart-tv,speaker,universal-remote
-  layout: stagger-mirrored
-  palette: Watch-Guides
-  icons:
-  - smart-tv
-  - speaker
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-16-where-to-watch-wednesday-season-2-legally-in-ireland.md
-- id: card-fire-tv-stick-4k-max-worth-the-upgrade
-  files:
-    hero: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.webp
-    hero_small: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero-800.webp
-    teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.webp
-    og: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-og.jpg
-  fingerprint: trio|s|Reviews|smart-tv,streaming-stick,streaming-stick-alt
-  layout: trio
-  palette: Reviews
-  icons:
-  - streaming-stick
-  - smart-tv
-  - streaming-stick-alt
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade.md
-- id: card-virgin-media-play-vs-rt-player-free-irish-streaming-compared
-  files:
-    hero: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero.webp
-    hero_small: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-teaser.webp
-    og: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-og.jpg
-  fingerprint: stagger|m|Streaming-Services|set-top-box,streaming-box,streaming-stick
-  layout: stagger-mirrored
-  palette: Streaming-Services
-  icons:
-  - set-top-box
-  - streaming-box
-  - streaming-stick
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-virgin-media-play-vs-rt-player-free-irish-streaming-compared.md
-- id: card-where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-og.jpg
-  fingerprint: trio|s|Watch-Guides|smart-tv,soundbar,universal-remote
-  layout: trio
-  palette: Watch-Guides
-  icons:
-  - smart-tv
-  - universal-remote
-  - soundbar
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland.md
 - id: card-how-to-watch-tv-show-bad-sisters
   files:
     hero: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero.webp
@@ -259,390 +163,6 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
-- id: card-where-to-watch-the-united-rugby-championship-legally-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-og.jpg
-  fingerprint: trio|s|Sports-Streaming|satellite-receiver,smart-tv,speaker
-  layout: trio
-  palette: Sports-Streaming
-  icons:
-  - satellite-receiver
-  - speaker
-  - smart-tv
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-16-where-to-watch-the-united-rugby-championship-legally-in-ireland.md
-- id: card-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app
-  files:
-    hero: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero.webp
-    hero_small: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero-800.webp
-    teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.webp
-    og: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-og.jpg
-  fingerprint: trio|m|Reviews|smart-tv,smart-tv-2,streaming-box
-  layout: trio-mirrored
-  palette: Reviews
-  icons:
-  - smart-tv
-  - streaming-box
-  - smart-tv-2
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-17-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app.md
-- id: card-where-to-watch-house-of-the-dragon-season-3-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-og.jpg
-  fingerprint: duo|m|Watch-Guides|headphones,smart-tv,speaker
-  layout: duo-mirrored
-  palette: Watch-Guides
-  icons:
-  - speaker
-  - smart-tv
-  - headphones
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-17-where-to-watch-house-of-the-dragon-season-3-in-ireland.md
-- id: card-why-does-now-keep-buffering-on-smart-tvs
-  files:
-    hero: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.webp
-    hero_small: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero-800.webp
-    teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.webp
-    og: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
-  fingerprint: wide|m|Troubleshooting|ethernet-cable,mesh-wifi,wifi-extender
-  layout: wide-mirrored
-  palette: Troubleshooting
-  icons:
-  - ethernet-cable
-  - mesh-wifi
-  - wifi-extender
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-17-why-does-now-keep-buffering-on-smart-tvs.md
-- id: card-how-to-watch-the-ryder-cup-legally-in-ireland
-  files:
-    hero: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.webp
-    hero_small: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.webp
-    og: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-og.jpg
-  fingerprint: stagger|m|Sports-Streaming|guidebook,satellite-receiver,soundbar
-  layout: stagger-mirrored
-  palette: Sports-Streaming
-  icons:
-  - guidebook
-  - soundbar
-  - satellite-receiver
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-18-how-to-watch-the-ryder-cup-legally-in-ireland.md
-- id: card-virgin-media-unveils-new-streaming-bundle-for-2026
-  files:
-    hero: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero.webp
-    hero_small: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.webp
-    og: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-og.jpg
-  fingerprint: feature|m|News|set-top-box,streaming-stick,universal-remote
-  layout: feature-mirrored
-  palette: News
-  icons:
-  - set-top-box
-  - streaming-stick
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-18-virgin-media-unveils-new-streaming-bundle-for-2026.md
-- id: card-roku-vs-fire-tv-stick-which-should-you-buy
-  files:
-    hero: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.webp
-    hero_small: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero-800.webp
-    teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.webp
-    og: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
-  fingerprint: feature|m|Devices|streaming-pebble,streaming-stick,streaming-stick-alt
-  layout: feature-mirrored
-  palette: Devices
-  icons:
-  - streaming-stick
-  - streaming-pebble
-  - streaming-stick-alt
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-19-roku-vs-fire-tv-stick-which-should-you-buy.md
-- id: card-5-netflix-features-irish-viewers-often-miss
-  files:
-    hero: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.webp
-    hero_small: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero-800.webp
-    teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.webp
-    og: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-og.jpg
-  fingerprint: trio|s|Streaming-Services|set-top-box,smart-tv,streaming-stick
-  layout: trio
-  palette: Streaming-Services
-  icons:
-  - smart-tv
-  - streaming-stick
-  - set-top-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-5-netflix-features-irish-viewers-often-miss.md
-- id: card-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs
-  files:
-    hero: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero.webp
-    hero_small: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero-800.webp
-    teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.webp
-    og: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-og.jpg
-  fingerprint: wide|m|Troubleshooting|headphones,mesh-wifi,soundbar
-  layout: wide-mirrored
-  palette: Troubleshooting
-  icons:
-  - soundbar
-  - mesh-wifi
-  - headphones
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs.md
-- id: card-back-to-college-best-budget-streaming-setup-in-ireland
-  files:
-    hero: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero.webp
-    hero_small: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.webp
-    og: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-og.jpg
-  fingerprint: wide|s|Devices|guidebook,smart-tv,streaming-box
-  layout: wide
-  palette: Devices
-  icons:
-  - guidebook
-  - streaming-box
-  - smart-tv
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-back-to-college-best-budget-streaming-setup-in-ireland.md
-- id: card-can-the-tv-show-love-hate-still-be-streamed
-  files:
-    hero: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.webp
-    hero_small: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero-800.webp
-    teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.webp
-    og: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
-  fingerprint: wide|m|Watch-Guides|headphones,smart-tv,soundbar
-  layout: wide-mirrored
-  palette: Watch-Guides
-  icons:
-  - smart-tv
-  - soundbar
-  - headphones
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-can-the-tv-show-love-hate-still-be-streamed.md
-- id: card-google-tv-streamer-review-should-you-switch-from-fire-tv
-  files:
-    hero: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.webp
-    hero_small: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero-800.webp
-    teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.webp
-    og: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-og.jpg
-  fingerprint: duo|s|Reviews|smart-tv,streaming-box,streaming-pebble
-  layout: duo
-  palette: Reviews
-  icons:
-  - streaming-pebble
-  - smart-tv
-  - streaming-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-google-tv-streamer-review-should-you-switch-from-fire-tv.md
-- id: card-is-peacock-ever-coming-to-ireland
-  files:
-    hero: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero.webp
-    hero_small: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero-800.webp
-    teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.webp
-    og: /assets/images/posts/is-peacock-ever-coming-to-ireland-og.jpg
-  fingerprint: trio|m|News|guidebook,streaming-stick,universal-remote
-  layout: trio-mirrored
-  palette: News
-  icons:
-  - guidebook
-  - universal-remote
-  - streaming-stick
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-is-peacock-ever-coming-to-ireland.md
-- id: card-is-prime-video-worth-it-just-for-sport
-  files:
-    hero: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.webp
-    hero_small: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero-800.webp
-    teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.webp
-    og: /assets/images/posts/is-prime-video-worth-it-just-for-sport-og.jpg
-  fingerprint: trio|m|Streaming-Services|smart-tv,streaming-stick,universal-remote
-  layout: trio-mirrored
-  palette: Streaming-Services
-  icons:
-  - smart-tv
-  - universal-remote
-  - streaming-stick
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-is-prime-video-worth-it-just-for-sport.md
-- id: card-netflix-keeps-freezing-try-these-fixes
-  files:
-    hero: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.webp
-    hero_small: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero-800.webp
-    teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.webp
-    og: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
-  fingerprint: duo|s|Troubleshooting|powerline,smart-tv,wifi-extender
-  layout: duo
-  palette: Troubleshooting
-  icons:
-  - smart-tv
-  - powerline
-  - wifi-extender
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-netflix-keeps-freezing-try-these-fixes.md
-- id: card-setting-up-eir-vision-on-a-new-smart-tv
-  files:
-    hero: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.webp
-    hero_small: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero-800.webp
-    teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.webp
-    og: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
-  fingerprint: trio|s|Installation-Guides|hdmi-cable,mesh-wifi,smart-tv
-  layout: trio
-  palette: Installation-Guides
-  icons:
-  - smart-tv
-  - mesh-wifi
-  - hdmi-cable
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-setting-up-eir-vision-on-a-new-smart-tv.md
-- id: card-setting-up-youtube-on-your-smart-tv
-  files:
-    hero: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero.webp
-    hero_small: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero-800.webp
-    teaser: /assets/images/posts/setting-up-youtube-on-your-smart-tv-teaser.webp
-    og: /assets/images/posts/setting-up-youtube-on-your-smart-tv-og.jpg
-  fingerprint: stagger|m|Installation-Guides|indoor-aerial,smart-tv-2,wall-mount
-  layout: stagger-mirrored
-  palette: Installation-Guides
-  icons:
-  - smart-tv-2
-  - indoor-aerial
-  - wall-mount
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-setting-up-youtube-on-your-smart-tv.md
-- id: card-sky-ireland-unveils-new-streaming-price-plan-for-2026
-  files:
-    hero: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero.webp
-    hero_small: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero-800.webp
-    teaser: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-teaser.webp
-    og: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-og.jpg
-  fingerprint: wide|m|News|satellite-receiver,streaming-stick,universal-remote
-  layout: wide-mirrored
-  palette: News
-  icons:
-  - satellite-receiver
-  - streaming-stick
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-sky-ireland-unveils-new-streaming-price-plan-for-2026.md
-- id: card-solheim-cup-2026-where-irish-fans-can-watch-live
-  files:
-    hero: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.webp
-    hero_small: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero-800.webp
-    teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.webp
-    og: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
-  fingerprint: duo|s|Sports-Streaming|projector,smart-tv,speaker
-  layout: duo
-  palette: Sports-Streaming
-  icons:
-  - projector
-  - speaker
-  - smart-tv
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-solheim-cup-2026-where-irish-fans-can-watch-live.md
-- id: card-virgin-media-360-box-review-is-it-still-worth-it
-  files:
-    hero: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.webp
-    hero_small: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.webp
-    og: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
-  fingerprint: trio|s|Reviews|headphones,set-top-box,streaming-box
-  layout: trio
-  palette: Reviews
-  icons:
-  - set-top-box
-  - headphones
-  - streaming-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-virgin-media-360-box-review-is-it-still-worth-it.md
-- id: card-where-to-watch-stranger-things-final-season-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-og.jpg
-  fingerprint: duo|s|Watch-Guides|headphones,projector,soundbar
-  layout: duo
-  palette: Watch-Guides
-  icons:
-  - projector
-  - soundbar
-  - headphones
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-20-where-to-watch-stranger-things-final-season-in-ireland.md
-- id: card-disney-not-working-try-these-fixes
-  files:
-    hero: /assets/images/posts/disney-not-working-try-these-fixes-hero.webp
-    hero_small: /assets/images/posts/disney-not-working-try-these-fixes-hero-800.webp
-    teaser: /assets/images/posts/disney-not-working-try-these-fixes-teaser.webp
-    og: /assets/images/posts/disney-not-working-try-these-fixes-og.jpg
-  fingerprint: wide|m|Troubleshooting|powerline,smart-tv,wifi-extender
-  layout: wide-mirrored
-  palette: Troubleshooting
-  icons:
-  - smart-tv
-  - powerline
-  - wifi-extender
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-21-disney-not-working-try-these-fixes.md
-- id: card-fire-tv-stick-lite-vs-standard-which-should-you-buy
-  files:
-    hero: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.webp
-    hero_small: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero-800.webp
-    teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.webp
-    og: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
-  fingerprint: trio|s|Devices|streaming-pebble,streaming-stick,streaming-stick-alt
-  layout: trio
-  palette: Devices
-  icons:
-  - streaming-stick
-  - streaming-stick-alt
-  - streaming-pebble
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-21-fire-tv-stick-lite-vs-standard-which-should-you-buy.md
-- id: card-is-hbo-max-coming-to-ireland
-  files:
-    hero: /assets/images/posts/is-hbo-max-coming-to-ireland-hero.webp
-    hero_small: /assets/images/posts/is-hbo-max-coming-to-ireland-hero-800.webp
-    teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.webp
-    og: /assets/images/posts/is-hbo-max-coming-to-ireland-og.jpg
-  fingerprint: duo|m|News|guidebook,set-top-box,universal-remote
-  layout: duo-mirrored
-  palette: News
-  icons:
-  - guidebook
-  - universal-remote
-  - set-top-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-21-is-hbo-max-coming-to-ireland.md
 - id: card-how-to-watch-tv-show-father-ted
   files:
     hero: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.webp
@@ -1755,6 +1275,546 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-16-paramount-in-ireland-is-it-worth-subscribing.md
+- id: photo-team-ireland-at-the-world-handball-championships-in-new-york
+  source: pexels
+  pexels_id: 36766083
+  pexels_url: https://www.pexels.com/photo/diverse-group-cheering-watching-tv-indoors-36766083/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Excited friends celebrate a sports event together at home, cheering enthusiastically.
+  scene: sport-viewing
+  people: true
+  palette: Sports-Streaming
+  files:
+    hero: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero.webp
+    hero_small: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero-800.webp
+    teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.webp
+    og: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-16-team-ireland-at-the-world-handball-championships-in-new-york.md
+- id: photo-where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland
+  source: pexels
+  pexels_id: 9807992
+  pexels_url: https://www.pexels.com/photo/three-people-discussing-and-watching-tv-9807992/
+  photographer: Ron Lach
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Three friends relax in a cozy room, watching TV together for a movie night.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-16-where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland.md
+- id: photo-where-to-watch-the-united-rugby-championship-legally-in-ireland
+  source: pexels
+  pexels_id: 32471037
+  pexels_url: https://www.pexels.com/photo/vibrant-rugby-match-at-sunset-in-stadium-32471037/
+  photographer: Magda Ehlers
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Exciting rugby game unfolding under stunning sunset in large stadium.
+  scene: stadium
+  people: false
+  palette: Sports-Streaming
+  files:
+    hero: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-16-where-to-watch-the-united-rugby-championship-legally-in-ireland.md
+- id: photo-where-to-watch-wednesday-season-2-legally-in-ireland
+  source: pexels
+  pexels_id: 1040160
+  pexels_url: https://www.pexels.com/photo/man-holding-remote-control-1040160/
+  photographer: JESHOOTS.com
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A couple enjoying a relaxing movie night, sitting on a sofa with popcorn and a TV remote.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-16-where-to-watch-wednesday-season-2-legally-in-ireland.md
+- id: photo-fire-tv-stick-4k-max-worth-the-upgrade
+  source: pexels
+  pexels_id: 5202959
+  pexels_url: https://www.pexels.com/photo/person-holding-a-black-remote-control-5202959/
+  photographer: https://kaboompics.com/
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up shot of a hand holding a TV remote control against a blurred background.
+  scene: remote-closeup
+  people: false
+  palette: Reviews
+  files:
+    hero: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.webp
+    hero_small: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero-800.webp
+    teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.webp
+    og: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade.md
+- id: photo-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app
+  source: pexels
+  pexels_id: 24245798
+  pexels_url: https://www.pexels.com/photo/tv-in-front-of-sofa-in-living-room-24245798/
+  photographer: Curtis Adams
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Bright and modern living room with large windows, a comfortable sofa, and a TV setup.
+  scene: viewing-room
+  people: false
+  palette: Reviews
+  files:
+    hero: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero.webp
+    hero_small: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero-800.webp
+    teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.webp
+    og: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-17-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app.md
+- id: photo-where-to-watch-house-of-the-dragon-season-3-in-ireland
+  source: pexels
+  pexels_id: 6284970
+  pexels_url: https://www.pexels.com/photo/a-couple-watching-on-a-laptop-6284970/
+  photographer: Gustavo Fring
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Young couple enjoying a cozy moment with popcorn and coffee by the computer at home.
+  scene: laptop-streaming
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-17-where-to-watch-house-of-the-dragon-season-3-in-ireland.md
+- id: photo-why-does-now-keep-buffering-on-smart-tvs
+  source: pexels
+  pexels_id: 32698507
+  pexels_url: https://www.pexels.com/photo/modern-wifi-6-router-on-wooden-desk-32698507/
+  photographer: Pascal 📷
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A sleek WiFi 6 router with antennas and cable on a wooden desk, perfect for modern home networks.
+  scene: router-network
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.webp
+    hero_small: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero-800.webp
+    teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.webp
+    og: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-17-why-does-now-keep-buffering-on-smart-tvs.md
+- id: photo-how-to-watch-the-ryder-cup-legally-in-ireland
+  source: pexels
+  pexels_id: 4833646
+  pexels_url: https://www.pexels.com/photo/men-resting-on-sofa-while-watching-tv-4833646/
+  photographer: Ketut Subiyanto
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Two men relaxing on a sofa while watching TV and enjoying snacks.
+  scene: watching-together
+  people: true
+  palette: Sports-Streaming
+  files:
+    hero: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.webp
+    og: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-18-how-to-watch-the-ryder-cup-legally-in-ireland.md
+- id: photo-virgin-media-unveils-new-streaming-bundle-for-2026
+  source: pexels
+  pexels_id: 8929268
+  pexels_url: https://www.pexels.com/photo/a-woman-wearing-jacket-using-a-laptop-while-sitting-on-the-couch-8929268/
+  photographer: SHVETS production
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Young woman wearing headphones, sitting on a couch and using a laptop, indoors.
+  scene: laptop-streaming
+  people: true
+  palette: News
+  files:
+    hero: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero.webp
+    hero_small: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.webp
+    og: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-18-virgin-media-unveils-new-streaming-bundle-for-2026.md
+- id: photo-roku-vs-fire-tv-stick-which-should-you-buy
+  source: pexels
+  pexels_id: 4065705
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-laptop-s-usb-ports-4065705/
+  photographer: Castorly Stock
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Detailed close-up of a laptop featuring backlit keyboard and various ports highlighting modern technology.
+  scene: cables-hdmi
+  people: false
+  palette: Devices
+  files:
+    hero: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.webp
+    hero_small: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero-800.webp
+    teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.webp
+    og: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-19-roku-vs-fire-tv-stick-which-should-you-buy.md
+- id: photo-5-netflix-features-irish-viewers-often-miss
+  source: pexels
+  pexels_id: 8972769
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-people-holding-popcorn-8972769/
+  photographer: SHVETS production
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Hands reach for popcorn in a glass bowl next to a laptop, set for a cozy movie night at home.
+  scene: laptop-streaming
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.webp
+    hero_small: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero-800.webp
+    teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.webp
+    og: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-5-netflix-features-irish-viewers-often-miss.md
+- id: photo-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs
+  source: pexels
+  pexels_id: 7742582
+  pexels_url: https://www.pexels.com/photo/close-up-shot-of-a-usb-port-beside-a-laptop-7742582/
+  photographer: Rann Vijay
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up view of a USB hub connected to a laptop, showcasing various ports and cables on a white surface.
+  scene: cables-hdmi
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero.webp
+    hero_small: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero-800.webp
+    teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.webp
+    og: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs.md
+- id: photo-back-to-college-best-budget-streaming-setup-in-ireland
+  source: pexels
+  pexels_id: 35730055
+  pexels_url: https://www.pexels.com/photo/hand-holding-tv-remote-control-in-focus-35730055/
+  photographer: khezez  | خزاز
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up of a hand holding a TV remote control, representing relaxation at home.
+  scene: remote-closeup
+  people: false
+  palette: Devices
+  files:
+    hero: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero.webp
+    hero_small: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.webp
+    og: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-back-to-college-best-budget-streaming-setup-in-ireland.md
+- id: photo-can-the-tv-show-love-hate-still-be-streamed
+  source: pexels
+  pexels_id: 7477710
+  pexels_url: https://www.pexels.com/photo/an-eldery-couple-watching-television-together-7477710/
+  photographer: Kampus Production
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A senior couple enjoys a quiet and happy moment watching television together on the sofa.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.webp
+    hero_small: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero-800.webp
+    teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.webp
+    og: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-can-the-tv-show-love-hate-still-be-streamed.md
+- id: photo-google-tv-streamer-review-should-you-switch-from-fire-tv
+  source: pexels
+  pexels_id: 5202954
+  pexels_url: https://www.pexels.com/photo/person-pressing-the-button-of-a-remote-control-5202954/
+  photographer: https://kaboompics.com/
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up of a person using a TV remote with a blurred background indoors.
+  scene: remote-closeup
+  people: false
+  palette: Reviews
+  files:
+    hero: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.webp
+    hero_small: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero-800.webp
+    teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.webp
+    og: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-google-tv-streamer-review-should-you-switch-from-fire-tv.md
+- id: photo-is-peacock-ever-coming-to-ireland
+  source: pexels
+  pexels_id: 9627169
+  pexels_url: https://www.pexels.com/photo/friends-watching-a-show-9627169/
+  photographer: Ron Lach
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Two friends enjoying a movie on a laptop with popcorn from a cozy couch perspective.
+  scene: laptop-streaming
+  people: true
+  palette: News
+  files:
+    hero: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero.webp
+    hero_small: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.webp
+    og: /assets/images/posts/is-peacock-ever-coming-to-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-is-peacock-ever-coming-to-ireland.md
+- id: photo-is-prime-video-worth-it-just-for-sport
+  source: pexels
+  pexels_id: 5813744
+  pexels_url: https://www.pexels.com/photo/a-couple-sitting-side-by-side-watching-tv-5813744/
+  photographer: Tima Miroshnichenko
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A joyful couple sitting on a couch indoors, watching TV together and smiling.
+  scene: watching-together
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.webp
+    hero_small: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero-800.webp
+    teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.webp
+    og: /assets/images/posts/is-prime-video-worth-it-just-for-sport-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-is-prime-video-worth-it-just-for-sport.md
+- id: photo-netflix-keeps-freezing-try-these-fixes
+  source: pexels
+  pexels_id: 5721899
+  pexels_url: https://www.pexels.com/photo/vintage-tv-set-on-floor-near-wall-5721899/
+  photographer: Anete Lusina
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Black and white of small black old fashioned television with reflection on screen placed on concrete floor near shabby wall
+  scene: tv-trouble
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.webp
+    og: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-netflix-keeps-freezing-try-these-fixes.md
+- id: photo-setting-up-eir-vision-on-a-new-smart-tv
+  source: pexels
+  pexels_id: 37717004
+  pexels_url: https://www.pexels.com/photo/close-up-of-plugged-in-ethernet-ports-with-led-37717004/
+  photographer: panumas nikhomkhai
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up view of Ethernet ports with cables and illuminated LED indicator. Modern data connection setup.
+  scene: router-network
+  people: false
+  palette: Installation-Guides
+  files:
+    hero: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.webp
+    hero_small: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.webp
+    og: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-setting-up-eir-vision-on-a-new-smart-tv.md
+- id: photo-setting-up-youtube-on-your-smart-tv
+  source: pexels
+  pexels_id: 14770620
+  pexels_url: https://www.pexels.com/photo/remote-controller-in-close-up-shot-14770620/
+  photographer: Geri Tech
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Vertical shot of a TV remote control on a dark reflective surface.
+  scene: remote-closeup
+  people: false
+  palette: Installation-Guides
+  files:
+    hero: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero.webp
+    hero_small: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/setting-up-youtube-on-your-smart-tv-teaser.webp
+    og: /assets/images/posts/setting-up-youtube-on-your-smart-tv-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-setting-up-youtube-on-your-smart-tv.md
+- id: photo-sky-ireland-unveils-new-streaming-price-plan-for-2026
+  source: pexels
+  pexels_id: 8972783
+  pexels_url: https://www.pexels.com/photo/a-couple-eating-popcorn-on-the-bed-8972783/
+  photographer: SHVETS production
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Senior couple bonding over movie night with popcorn and laptop in cozy home setting.
+  scene: laptop-streaming
+  people: true
+  palette: News
+  files:
+    hero: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero.webp
+    hero_small: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero-800.webp
+    teaser: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-teaser.webp
+    og: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-sky-ireland-unveils-new-streaming-price-plan-for-2026.md
+- id: photo-solheim-cup-2026-where-irish-fans-can-watch-live
+  source: pexels
+  pexels_id: 39219908
+  pexels_url: https://www.pexels.com/photo/couple-relaxing-on-sofa-watching-tv-39219908/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A couple comfortably sitting on a sofa, watching TV with remote control in hand.
+  scene: watching-together
+  people: true
+  palette: Sports-Streaming
+  files:
+    hero: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.webp
+    hero_small: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero-800.webp
+    teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.webp
+    og: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-solheim-cup-2026-where-irish-fans-can-watch-live.md
+- id: photo-virgin-media-360-box-review-is-it-still-worth-it
+  source: pexels
+  pexels_id: 38466607
+  pexels_url: https://www.pexels.com/photo/cozy-living-room-with-tv-remote-on-sofa-38466607/
+  photographer: Kamil Čičila
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A close-up of a TV remote on a textured sofa in a cozy living room setting.
+  scene: remote-closeup
+  people: false
+  palette: Reviews
+  files:
+    hero: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.webp
+    hero_small: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.webp
+    og: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-virgin-media-360-box-review-is-it-still-worth-it.md
+- id: photo-virgin-media-play-vs-rt-player-free-irish-streaming-compared
+  source: pexels
+  pexels_id: 19488623
+  pexels_url: https://www.pexels.com/photo/woman-relaxing-with-laptop-19488623/
+  photographer: Gülşah Aydoğan
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Smiling woman using a tablet on a cozy sofa, enjoying leisure time indoors.
+  scene: laptop-streaming
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero.webp
+    hero_small: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-teaser.webp
+    og: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-virgin-media-play-vs-rt-player-free-irish-streaming-compared.md
+- id: photo-where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland
+  source: pexels
+  pexels_id: 4009040
+  pexels_url: https://www.pexels.com/photo/man-and-woman-sitting-on-couch-4009040/
+  photographer: cottonbro studio
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A loving couple relaxing on the sofa in a cozy home interior during the evening, enjoying a peaceful moment together.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland.md
+- id: photo-where-to-watch-stranger-things-final-season-in-ireland
+  source: pexels
+  pexels_id: 36713245
+  pexels_url: https://www.pexels.com/photo/woman-relaxing-on-sofa-with-tablet-and-headphones-36713245/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Relaxed woman in casual home setting enjoying a tablet with headphones.
+  scene: laptop-streaming
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-20-where-to-watch-stranger-things-final-season-in-ireland.md
+- id: photo-disney-not-working-try-these-fixes
+  source: pexels
+  pexels_id: 6954359
+  pexels_url: https://www.pexels.com/photo/screen-monitor-of-an-old-television-set-6954359/
+  photographer: Talha Dursun Marko
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Old television showing static in a dimly lit room, evoking nostalgia.
+  scene: tv-trouble
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/disney-not-working-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/disney-not-working-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/disney-not-working-try-these-fixes-teaser.webp
+    og: /assets/images/posts/disney-not-working-try-these-fixes-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-21-disney-not-working-try-these-fixes.md
+- id: photo-fire-tv-stick-lite-vs-standard-which-should-you-buy
+  source: pexels
+  pexels_id: 14159466
+  pexels_url: https://www.pexels.com/photo/person-holding-a-remote-controller-14159466/
+  photographer: Geri Tech
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A hand holding a TV remote control with a blurred television screen in the background.
+  scene: remote-closeup
+  people: true
+  palette: Devices
+  files:
+    hero: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.webp
+    hero_small: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero-800.webp
+    teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.webp
+    og: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-21-fire-tv-stick-lite-vs-standard-which-should-you-buy.md
+- id: photo-is-hbo-max-coming-to-ireland
+  source: pexels
+  pexels_id: 17792277
+  pexels_url: https://www.pexels.com/photo/woman-during-remote-work-17792277/
+  photographer: David Kwewum
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A woman enjoying leisure time on a sofa with headphones and a tablet, embracing modern technology.
+  scene: laptop-streaming
+  people: true
+  palette: News
+  files:
+    hero: /assets/images/posts/is-hbo-max-coming-to-ireland-hero.webp
+    hero_small: /assets/images/posts/is-hbo-max-coming-to-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.webp
+    og: /assets/images/posts/is-hbo-max-coming-to-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-21-is-hbo-max-coming-to-ireland.md
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
   reason: third-party brand logos (Netflix, Disney+, HBO Max, Prime, Apple TV+) and cash

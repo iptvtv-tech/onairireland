@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero-800.webp
   teaser: /assets/images/posts/setting-up-youtube-on-your-smart-tv-teaser.webp
   og_image: /assets/images/posts/setting-up-youtube-on-your-smart-tv-og.jpg
+  caption: 'Photo: [Geri Tech](https://www.pexels.com/photo/remote-controller-in-close-up-shot-14770620/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

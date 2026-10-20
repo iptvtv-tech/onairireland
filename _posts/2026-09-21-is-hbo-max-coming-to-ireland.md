@@ -14,6 +14,7 @@ header:
   overlay_image_small: /assets/images/posts/is-hbo-max-coming-to-ireland-hero-800.webp
   teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.webp
   og_image: /assets/images/posts/is-hbo-max-coming-to-ireland-og.jpg
+  caption: 'Photo: [David Kwewum](https://www.pexels.com/photo/woman-during-remote-work-17792277/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

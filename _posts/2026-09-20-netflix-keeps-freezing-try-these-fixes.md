@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero-800.webp
   teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.webp
   og_image: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
+  caption: 'Photo: [Anete Lusina](https://www.pexels.com/photo/vintage-tv-set-on-floor-near-wall-5721899/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

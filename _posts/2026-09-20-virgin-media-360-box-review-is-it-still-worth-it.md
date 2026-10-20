@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero-800.webp
   teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.webp
   og_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
+  caption: "Photo: [Kamil \u010Ci\u010Dila](https://www.pexels.com/photo/cozy-living-room-with-tv-remote-on-sofa-38466607/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true

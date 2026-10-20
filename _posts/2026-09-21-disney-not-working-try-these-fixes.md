@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/disney-not-working-try-these-fixes-hero-800.webp
   teaser: /assets/images/posts/disney-not-working-try-these-fixes-teaser.webp
   og_image: /assets/images/posts/disney-not-working-try-these-fixes-og.jpg
+  caption: 'Photo: [Talha Dursun Marko](https://www.pexels.com/photo/screen-monitor-of-an-old-television-set-6954359/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true

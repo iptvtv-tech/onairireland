@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-og.jpg
+  caption: 'Photo: [Gustavo Fring](https://www.pexels.com/photo/a-couple-watching-on-a-laptop-6284970/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true
