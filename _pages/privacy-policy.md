@@ -6,7 +6,7 @@ description: "On Air Ireland's privacy policy — what data we collect, how it's
 excerpt: "What we collect, why, and your rights."
 seo:
   type: WebPage
-last_updated: 2026-10-10
+last_updated: 2026-10-20
 ---
 
 {% include last-updated.html %}
@@ -23,25 +23,21 @@ The data controller for personal data collected through On Air Ireland is **John
 
 **Email addresses** — if you subscribe to our newsletter, your email address is stored by our email provider, Brevo, and used solely to send you our free guides and updates about new guides. We ask you to confirm your subscription by email (double opt-in), and every email has an unsubscribe link. We never sell or share your email address with third parties for marketing purposes.
 
-**Analytics data** — we use Google Analytics to understand how visitors use the site (which pages are popular, general visitor numbers). This involves cookies — see the Cookies section below. We do not use this data to identify individual visitors personally.
-
-We also use GoatCounter, a privacy-friendly analytics service, to count page views on every page. GoatCounter sets no cookies and does not store your IP address or any personal data; it records only anonymous totals such as which pages are viewed, referring sites, and general browser, screen-size and country information.
+**Analytics data** — if you accept analytics in the consent banner, we load Google Analytics and GoatCounter to understand general site use, including which pages and links are useful. Neither analytics tool is loaded if you decline. Google Analytics uses cookies; GoatCounter is configured for cookie-free page-view and event counting. See the provider policies linked below for details.
 
 **Affiliate link clicks** — when you click a product link on this site, the retailer (e.g. Amazon) may track that click to credit us with a referral commission if you purchase. This tracking is handled by the retailer's own systems, not by us directly — see their own privacy policies for details on what they collect.
 
 ## Cookies
 
-This site uses cookies for:
-- **Analytics** (Google Analytics) — only loaded after you accept cookies via the banner shown on your first visit
-- **Affiliate tracking** — set by retailers (Amazon and others) when you click a product link, not by this site directly
+Analytics tools load only after you accept through the consent banner. Google Analytics uses cookies; GoatCounter is configured for cookie-free analytics and also stays off unless you accept. Affiliate or retailer tracking may begin when you follow a product link and is handled by the retailer, not directly by this site.
 
-You can accept or decline analytics cookies via the consent banner, and change your choice at any time using the **Cookie settings** link at the bottom of every page. You can also clear or block cookies through your browser settings.
+You can accept or decline analytics via the banner, and change your choice at any time using the **Cookie settings** link at the bottom of every page. You can also clear or block cookies through your browser settings.
 
 ## Legal Basis for Processing
 
 - **Newsletter emails** — your consent, given when you subscribe. You can withdraw it at any time.
 - **Replying to questions you email us** — our legitimate interest in answering you.
-- **Analytics cookies** — your consent, given via the cookie banner. Nothing is loaded unless you click Accept.
+- **Analytics** — your consent, given via the cookie banner. Neither Google Analytics nor GoatCounter is loaded unless you click Accept.
 - **Server logs kept by our host** — our legitimate interest in keeping the site secure and working.
 
 ## International Transfers
@@ -52,7 +48,7 @@ Some of the services we use (Google and GitHub) are based in the United States, 
 
 - **Brevo** (Sendinblue SAS, France) — stores newsletter subscribers and sends our emails. See [Brevo's privacy policy](https://www.brevo.com/legal/privacypolicy/) for how they handle data.
 - **Google Analytics** — website analytics. See [Google's privacy policy](https://policies.google.com/privacy) for details.
-- **GoatCounter** — cookie-free page-view counting. See [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy) for details.
+- **GoatCounter** — cookie-free analytics, loaded only after analytics consent. See [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy) for details.
 - **Amazon Associates and other affiliate programmes** — product links on this site are affiliate links. See the retailer's own privacy policy for their data practices.
 - **GitHub Pages** — this site is hosted on GitHub Pages, which may log standard server access data (IP address, browser type) as part of normal web hosting.
 
@@ -70,7 +66,7 @@ To exercise any of these rights, contact us at **admin@onairireland.ie**.
 
 ## Data Retention
 
-Newsletter email addresses are retained until you unsubscribe or request deletion. Analytics data is retained according to Google Analytics' standard retention settings.
+Newsletter email addresses are retained until you unsubscribe or request deletion. Analytics data is retained according to the relevant provider's retention settings.
 
 ## Changes to This Policy
 

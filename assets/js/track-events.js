@@ -1,5 +1,6 @@
-// Click tracking with GoatCounter. Cookieless and no personal data, so it
-// counts every visitor without needing cookie consent.
+// Click tracking for GoatCounter. This listener can be present on the page,
+// but GoatCounter itself is loaded only after a visitor accepts analytics
+// consent in cookie-consent.js. Before consent, track() is a no-op.
 //
 // Events show in the GoatCounter dashboard (tick "Show events" if hidden):
 //   amazon/<page>    someone clicked an Amazon link on <page>
