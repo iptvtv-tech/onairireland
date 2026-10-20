@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-hero-800.webp
   teaser: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-teaser.webp
   og_image: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-og.jpg
+  caption: 'Photo: [Nargila  Aliyeva](https://www.pexels.com/photo/elegant-modern-living-room-interior-design-39769976/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

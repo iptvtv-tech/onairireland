@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-hero-800.webp
   teaser: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-teaser.webp
   og_image: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-og.jpg
+  caption: 'Photo: [Home Decor Interiors](https://www.pexels.com/photo/flat-screen-television-1827054/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

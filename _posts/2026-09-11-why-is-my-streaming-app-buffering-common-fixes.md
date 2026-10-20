@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-hero-800.webp
   teaser: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-teaser.webp
   og_image: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-og.jpg
+  caption: 'Photo: [Jakub Zerdzicki](https://www.pexels.com/photo/modern-wireless-router-with-antennas-29711663/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

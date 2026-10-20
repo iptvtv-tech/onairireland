@@ -17,6 +17,7 @@ header:
   overlay_image_small: /assets/images/posts/best-streaming-devices-ireland-hero-800.webp
   teaser: /assets/images/posts/best-streaming-devices-ireland-teaser.webp
   og_image: /assets/images/posts/best-streaming-devices-ireland-og.jpg
+  caption: 'Photo: [Andrey Matveev](https://www.pexels.com/photo/black-hdmi-cable-on-bright-yellow-background-33693716/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

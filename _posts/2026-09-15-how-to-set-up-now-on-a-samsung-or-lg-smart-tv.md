@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero-800.webp
   teaser: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-og.jpg
+  caption: 'Photo: [Andrey Matveev](https://www.pexels.com/photo/compact-computer-with-various-ports-held-in-hand-36065601/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

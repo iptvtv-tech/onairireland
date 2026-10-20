@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-hero-800.webp
   teaser: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-teaser.webp
   og_image: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-og.jpg
+  caption: 'Photo: [Ron Lach](https://www.pexels.com/photo/young-women-sitting-under-blanket-with-laptop-9989390/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

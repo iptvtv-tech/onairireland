@@ -14,6 +14,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero-800.webp
   teaser: /assets/images/posts/how-to-set-up-rte-player-fire-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-rte-player-fire-tv-og.jpg
+  caption: 'Photo: [Sinan KRIYA](https://www.pexels.com/photo/close-up-of-multimedia-device-ports-in-tech-setup-39579091/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true

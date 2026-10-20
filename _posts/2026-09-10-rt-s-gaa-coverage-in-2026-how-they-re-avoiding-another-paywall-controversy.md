@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero-800.webp
   teaser: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-teaser.webp
   og_image: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-og.jpg
+  caption: 'Photo: [Curtis Adams](https://www.pexels.com/photo/a-flat-screen-television-on-a-wooden-rack-near-the-table-with-plant-14715808/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

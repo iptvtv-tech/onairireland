@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-hero-800.webp
   teaser: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-teaser.webp
   og_image: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-og.jpg
+  caption: 'Photo: [Ron Lach](https://www.pexels.com/photo/room-with-curtains-drawn-9902128/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-hero-800.webp
   teaser: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-og.jpg
+  caption: 'Photo: [Rann Vijay](https://www.pexels.com/photo/laptop-and-camera-charging-7952599/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-hero-800.webp
   teaser: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-teaser.webp
   og_image: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-og.jpg
+  caption: 'Photo: [Keegan Checks](https://www.pexels.com/photo/indoor-furniture-and-tv-set-12715506/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

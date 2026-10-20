@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero-800.webp
   teaser: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-teaser.webp
   og_image: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-og.jpg
+  caption: 'Photo: [https://kaboompics.com/](https://www.pexels.com/photo/person-in-denim-shorts-holding-black-remote-control-5202924/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-hero-800.webp
   teaser: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-teaser.webp
   og_image: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-og.jpg
+  caption: 'Photo: [Towfiqu barbhuiya](https://www.pexels.com/photo/a-person-wiping-the-tv-remote-11899616/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

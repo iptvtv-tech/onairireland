@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero-800.webp
   teaser: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-teaser.webp
   og_image: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-og.jpg
+  caption: 'Photo: [Max Vakhtbovych](https://www.pexels.com/photo/modern-interior-of-spacious-living-room-decorated-with-green-plant-and-framed-picture-6758234/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

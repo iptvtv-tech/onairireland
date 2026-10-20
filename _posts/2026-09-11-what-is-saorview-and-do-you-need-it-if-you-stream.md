@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero-800.webp
   teaser: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-teaser.webp
   og_image: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-og.jpg
+  caption: 'Photo: [Mathias Reding](https://www.pexels.com/photo/roof-of-residential-building-11666983/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true
