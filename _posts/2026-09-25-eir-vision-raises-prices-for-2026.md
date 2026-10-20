@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/eir-vision-raises-prices-for-2026-hero-800.webp
   teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.webp
   og_image: /assets/images/posts/eir-vision-raises-prices-for-2026-og.jpg
+  caption: 'Photo: [yair elgazar](https://www.pexels.com/photo/a-flat-screen-tv-mounted-on-wall-over-a-wooden-console-6020432/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true
