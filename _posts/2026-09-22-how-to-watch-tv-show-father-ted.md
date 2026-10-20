@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.jpg
-  teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.jpg
+  overlay_image: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-watch-tv-show-father-ted-hero-800.webp
+  teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.webp
   og_image: /assets/images/posts/how-to-watch-tv-show-father-ted-og.jpg
 seo:
   type: Article

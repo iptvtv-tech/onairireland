@@ -7,8 +7,9 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero.jpg
-  teaser: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-teaser.jpg
+  overlay_image: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero-800.webp
+  teaser: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-og.jpg
 seo:
   type: Article

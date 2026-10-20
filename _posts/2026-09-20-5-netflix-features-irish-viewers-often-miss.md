@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.jpg
-  teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.jpg
+  overlay_image: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.webp
+  overlay_image_small: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero-800.webp
+  teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.webp
   og_image: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-og.jpg
 seo:
   type: Article

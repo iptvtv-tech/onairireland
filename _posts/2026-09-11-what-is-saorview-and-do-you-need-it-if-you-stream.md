@@ -7,8 +7,9 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero.jpg
-  teaser: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-teaser.jpg
+  overlay_image: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero.webp
+  overlay_image_small: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero-800.webp
+  teaser: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-teaser.webp
   og_image: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-og.jpg
 seo:
   type: Article

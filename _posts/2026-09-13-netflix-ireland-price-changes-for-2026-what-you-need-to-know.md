@@ -9,8 +9,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero.jpg
-  teaser: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-teaser.jpg
+  overlay_image: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero.webp
+  overlay_image_small: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero-800.webp
+  teaser: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-teaser.webp
   og_image: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-og.jpg
 seo:
   type: Article

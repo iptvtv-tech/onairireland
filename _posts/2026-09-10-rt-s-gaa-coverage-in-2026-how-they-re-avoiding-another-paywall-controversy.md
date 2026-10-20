@@ -7,8 +7,9 @@ categories:
 tags:
   - news
 header:
-  overlay_image: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero.jpg
-  teaser: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-teaser.jpg
+  overlay_image: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero.webp
+  overlay_image_small: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero-800.webp
+  teaser: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-teaser.webp
   og_image: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-og.jpg
 seo:
   type: Article

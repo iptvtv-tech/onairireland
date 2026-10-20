@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.jpg
-  teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.jpg
+  overlay_image: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.webp
+  overlay_image_small: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero-800.webp
+  teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.webp
   og_image: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-og.jpg
 seo:
   type: Article

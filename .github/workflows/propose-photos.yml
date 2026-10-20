@@ -1,0 +1,42 @@
+name: Propose Photos
+
+# Monthly: tops up _data/photo_shortlist.yml with pending Pexels candidates for
+# any scene running low, and opens a PR showing thumbnails for review. Only
+# photos you mark `approved` are ever used.
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests pyyaml pillow
+      - name: Find candidates
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          python scripts/propose_photos.py
+          [ -f photo_review.md ] || echo "Nothing new to review." > photo_review.md
+      - name: Open Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Photo shortlist: new candidates to review"
+          branch: "auto-photo-shortlist/${{ github.run_number }}"
+          title: "[Photos] New shortlist candidates to approve"
+          body-path: photo_review.md
+          add-paths: |
+            _data/photo_shortlist.yml
+          labels: |
+            photos
+            needs-review

@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.jpg
-  teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.jpg
+  overlay_image: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero-800.webp
+  teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-og.jpg
 seo:
   type: Article

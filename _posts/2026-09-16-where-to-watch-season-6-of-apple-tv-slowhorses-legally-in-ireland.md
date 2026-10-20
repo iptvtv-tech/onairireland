@@ -8,8 +8,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero.jpg
-  teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.jpg
+  overlay_image: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero-800.webp
+  teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-og.jpg
 seo:
   type: Article

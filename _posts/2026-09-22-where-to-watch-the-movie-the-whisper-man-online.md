@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.jpg
-  teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.jpg
+  overlay_image: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.webp
+  overlay_image_small: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero-800.webp
+  teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.webp
   og_image: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-og.jpg
 seo:
   type: Article

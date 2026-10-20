@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/posts/tg4-player-what-you-get-for-free-hero.jpg
-  teaser: /assets/images/posts/tg4-player-what-you-get-for-free-teaser.jpg
+  overlay_image: /assets/images/posts/tg4-player-what-you-get-for-free-hero.webp
+  overlay_image_small: /assets/images/posts/tg4-player-what-you-get-for-free-hero-800.webp
+  teaser: /assets/images/posts/tg4-player-what-you-get-for-free-teaser.webp
   og_image: /assets/images/posts/tg4-player-what-you-get-for-free-og.jpg
 seo:
   type: Article

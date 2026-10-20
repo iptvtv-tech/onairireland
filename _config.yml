@@ -70,6 +70,10 @@ minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, 
 # Adds the search (magnifying glass) button to the top menu
 search: true
 search_full_content: false
+# Default darkening on post heroes (used by _includes/page__hero.html when a post
+# sets no header.overlay_filter): dark on the left where the title sits, lighter
+# on the right, so titles stay readable over any card or photo.
+hero_overlay_filter: "linear-gradient(90deg, rgba(8,15,30,0.86) 0%, rgba(8,15,30,0.68) 55%, rgba(8,15,30,0.5) 100%)"
 
 # ==============================
 # Build settings

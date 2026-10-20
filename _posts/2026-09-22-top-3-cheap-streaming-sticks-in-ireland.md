@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.jpg
-  teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.jpg
+  overlay_image: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero-800.webp
+  teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.webp
   og_image: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-og.jpg
 seo:
   type: Article

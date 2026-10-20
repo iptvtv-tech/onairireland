@@ -1,12 +1,13 @@
 # Image ledger. Written by scripts/image_system.py (and scripts/image_cards.py).
-# Every brand card and self-hosted photo created for a post is recorded here so
-# nothing is reused. `retired` lists images removed from the old teaser pool and
-# why. Safe to read; edit by hand only to correct a mistake.
+# Every brand card and self-hosted photo created for a post or page is recorded
+# here so nothing is reused. `retired` lists images removed from the old teaser
+# pool and why. Safe to read; edit by hand only to correct a mistake.
 cards:
 - id: card-best-streaming-devices-ireland
   files:
-    hero: /assets/images/posts/best-streaming-devices-ireland-hero.jpg
-    teaser: /assets/images/posts/best-streaming-devices-ireland-teaser.jpg
+    hero: /assets/images/posts/best-streaming-devices-ireland-hero.webp
+    hero_small: /assets/images/posts/best-streaming-devices-ireland-hero-800.webp
+    teaser: /assets/images/posts/best-streaming-devices-ireland-teaser.webp
     og: /assets/images/posts/best-streaming-devices-ireland-og.jpg
   fingerprint: duo|m|Devices|guidebook,streaming-box,streaming-stick-alt
   layout: duo-mirrored
@@ -20,8 +21,9 @@ cards:
   - 2026-09-04-best-streaming-devices-ireland.md
 - id: card-how-to-set-up-rte-player-fire-tv
   files:
-    hero: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero.jpg
-    teaser: /assets/images/posts/how-to-set-up-rte-player-fire-tv-teaser.jpg
+    hero: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero.webp
+    hero_small: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero-800.webp
+    teaser: /assets/images/posts/how-to-set-up-rte-player-fire-tv-teaser.webp
     og: /assets/images/posts/how-to-set-up-rte-player-fire-tv-og.jpg
   fingerprint: feature|s|Installation-Guides|hdmi-cable,set-top-box,streaming-stick
   layout: feature
@@ -35,8 +37,9 @@ cards:
   - 2026-09-04-how-to-set-up-rte-player-fire-tv.md
 - id: card-tv-licence-streaming-ireland
   files:
-    hero: /assets/images/posts/tv-licence-streaming-ireland-hero.jpg
-    teaser: /assets/images/posts/tv-licence-streaming-ireland-teaser.jpg
+    hero: /assets/images/posts/tv-licence-streaming-ireland-hero.webp
+    hero_small: /assets/images/posts/tv-licence-streaming-ireland-hero-800.webp
+    teaser: /assets/images/posts/tv-licence-streaming-ireland-teaser.webp
     og: /assets/images/posts/tv-licence-streaming-ireland-og.jpg
   fingerprint: wide|m|Streaming-Services|set-top-box,smart-tv,universal-remote
   layout: wide-mirrored
@@ -50,8 +53,9 @@ cards:
   - 2026-09-07-tv-licence-streaming-ireland.md
 - id: card-where-to-watch-gaa-legally-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-gaa-legally-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-gaa-legally-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-gaa-legally-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-gaa-legally-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-gaa-legally-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-gaa-legally-ireland-og.jpg
   fingerprint: trio|s|Streaming-Services|smart-tv-2,streaming-stick,universal-remote
   layout: trio
@@ -65,8 +69,9 @@ cards:
   - 2026-09-07-where-to-watch-gaa-legally-ireland.md
 - id: card-sky-stream-vs-now-ireland
   files:
-    hero: /assets/images/posts/sky-stream-vs-now-ireland-hero.jpg
-    teaser: /assets/images/posts/sky-stream-vs-now-ireland-teaser.jpg
+    hero: /assets/images/posts/sky-stream-vs-now-ireland-hero.webp
+    hero_small: /assets/images/posts/sky-stream-vs-now-ireland-hero-800.webp
+    teaser: /assets/images/posts/sky-stream-vs-now-ireland-teaser.webp
     og: /assets/images/posts/sky-stream-vs-now-ireland-og.jpg
   fingerprint: duo|s|Streaming-Services|satellite-receiver,streaming-box,streaming-stick
   layout: duo
@@ -80,8 +85,9 @@ cards:
   - 2026-09-08-sky-stream-vs-now-ireland.md
 - id: card-best-smart-tvs-streaming-apps-ireland
   files:
-    hero: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero.jpg
-    teaser: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-teaser.jpg
+    hero: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero.webp
+    hero_small: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero-800.webp
+    teaser: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-teaser.webp
     og: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-og.jpg
   fingerprint: feature|s|Devices|smart-tv,soundbar,streaming-pebble
   layout: feature
@@ -95,8 +101,9 @@ cards:
   - 2026-09-09-best-smart-tvs-streaming-apps-ireland.md
 - id: card-rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy
   files:
-    hero: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero.jpg
-    teaser: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-teaser.jpg
+    hero: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero.webp
+    hero_small: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero-800.webp
+    teaser: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-teaser.webp
     og: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-og.jpg
   fingerprint: feature|m|News|mesh-wifi-3,satellite-receiver,smart-tv-2
   layout: feature-mirrored
@@ -110,8 +117,9 @@ cards:
   - 2026-09-10-rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy.md
 - id: card-virgin-media-play-what-s-new-in-the-redesigned-app
   files:
-    hero: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero.jpg
-    teaser: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-teaser.jpg
+    hero: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero.webp
+    hero_small: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-teaser.webp
     og: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-og.jpg
   fingerprint: stagger|m|Streaming-Services|set-top-box,smart-tv-2,universal-remote
   layout: stagger-mirrored
@@ -125,8 +133,9 @@ cards:
   - 2026-09-10-virgin-media-play-what-s-new-in-the-redesigned-app.md
 - id: card-how-to-watch-six-nations-rugby-legally-in-ireland
   files:
-    hero: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-teaser.webp
     og: /assets/images/posts/how-to-watch-six-nations-rugby-legally-in-ireland-og.jpg
   fingerprint: wide|s|Sports-Streaming|guidebook,satellite-receiver,soundbar
   layout: wide
@@ -140,8 +149,9 @@ cards:
   - 2026-09-11-how-to-watch-six-nations-rugby-legally-in-ireland.md
 - id: card-netflix-vs-prime-video-which-do-irish-viewers-actually-use-most
   files:
-    hero: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-hero.jpg
-    teaser: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-teaser.jpg
+    hero: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-hero.webp
+    hero_small: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-hero-800.webp
+    teaser: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-teaser.webp
     og: /assets/images/posts/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most-og.jpg
   fingerprint: duo|m|Reviews|smart-tv,soundbar,streaming-pebble
   layout: duo-mirrored
@@ -155,8 +165,9 @@ cards:
   - 2026-09-11-netflix-vs-prime-video-which-do-irish-viewers-actually-use-most.md
 - id: card-rt-player-app-review-what-s-good-and-what-s-missing
   files:
-    hero: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-hero.jpg
-    teaser: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-teaser.jpg
+    hero: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-hero.webp
+    hero_small: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-hero-800.webp
+    teaser: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-teaser.webp
     og: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-og.jpg
   fingerprint: duo|s|Reviews|headphones,smart-tv,streaming-box
   layout: duo
@@ -170,8 +181,9 @@ cards:
   - 2026-09-11-rt-player-app-review-what-s-good-and-what-s-missing.md
 - id: card-sky-sports-explained-more-live-streams-at-no-extra-cost
   files:
-    hero: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero.jpg
-    teaser: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-teaser.jpg
+    hero: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero.webp
+    hero_small: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero-800.webp
+    teaser: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-teaser.webp
     og: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-og.jpg
   fingerprint: feature|s|Streaming-Services|satellite-receiver,set-top-box,universal-remote
   layout: feature
@@ -185,8 +197,9 @@ cards:
   - 2026-09-11-sky-sports-explained-more-live-streams-at-no-extra-cost.md
 - id: card-tg4-player-what-you-get-for-free
   files:
-    hero: /assets/images/posts/tg4-player-what-you-get-for-free-hero.jpg
-    teaser: /assets/images/posts/tg4-player-what-you-get-for-free-teaser.jpg
+    hero: /assets/images/posts/tg4-player-what-you-get-for-free-hero.webp
+    hero_small: /assets/images/posts/tg4-player-what-you-get-for-free-hero-800.webp
+    teaser: /assets/images/posts/tg4-player-what-you-get-for-free-teaser.webp
     og: /assets/images/posts/tg4-player-what-you-get-for-free-og.jpg
   fingerprint: stagger|m|Streaming-Services|smart-tv,streaming-stick,universal-remote
   layout: stagger-mirrored
@@ -200,8 +213,9 @@ cards:
   - 2026-09-11-tg4-player-what-you-get-for-free.md
 - id: card-virgin-media-tv-ireland-essential-vs-mix-vs-max-compared
   files:
-    hero: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-hero.jpg
-    teaser: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-teaser.jpg
+    hero: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-hero.webp
+    hero_small: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-teaser.webp
     og: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-og.jpg
   fingerprint: stagger|m|Streaming-Services|set-top-box,smart-tv,streaming-box
   layout: stagger-mirrored
@@ -215,8 +229,9 @@ cards:
   - 2026-09-11-virgin-media-tv-ireland-essential-vs-mix-vs-max-compared.md
 - id: card-what-is-saorview-and-do-you-need-it-if-you-stream
   files:
-    hero: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero.jpg
-    teaser: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-teaser.jpg
+    hero: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero.webp
+    hero_small: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-hero-800.webp
+    teaser: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-teaser.webp
     og: /assets/images/posts/what-is-saorview-and-do-you-need-it-if-you-stream-og.jpg
   fingerprint: stagger|m|Installation-Guides|hdmi-cable,indoor-aerial,mesh-wifi
   layout: stagger-mirrored
@@ -230,8 +245,9 @@ cards:
   - 2026-09-11-what-is-saorview-and-do-you-need-it-if-you-stream.md
 - id: card-where-to-watch-the-fifa-world-cup-2026-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-og.jpg
   fingerprint: wide|m|Sports-Streaming|outdoor-aerial,smart-tv,speaker
   layout: wide-mirrored
@@ -245,8 +261,9 @@ cards:
   - 2026-09-11-where-to-watch-the-fifa-world-cup-2026-legally-in-ireland.md
 - id: card-why-is-my-streaming-app-buffering-common-fixes
   files:
-    hero: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-hero.jpg
-    teaser: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-teaser.jpg
+    hero: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-hero.webp
+    hero_small: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-hero-800.webp
+    teaser: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-teaser.webp
     og: /assets/images/posts/why-is-my-streaming-app-buffering-common-fixes-og.jpg
   fingerprint: stagger|m|Troubleshooting|ethernet-cable,mesh-wifi,powerline
   layout: stagger-mirrored
@@ -260,8 +277,9 @@ cards:
   - 2026-09-11-why-is-my-streaming-app-buffering-common-fixes.md
 - id: card-how-to-set-up-gaa-on-an-apple-tv
   files:
-    hero: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero.jpg
-    teaser: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-teaser.jpg
+    hero: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero.webp
+    hero_small: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero-800.webp
+    teaser: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-teaser.webp
     og: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-og.jpg
   fingerprint: stagger|m|Installation-Guides|guidebook,streaming-box,wall-mount
   layout: stagger-mirrored
@@ -275,8 +293,9 @@ cards:
   - 2026-09-13-how-to-set-up-gaa-on-an-apple-tv.md
 - id: card-roku-streaming-devices-are-they-worth-buying-in-ireland
   files:
-    hero: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-hero.jpg
-    teaser: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-teaser.jpg
+    hero: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-hero.webp
+    hero_small: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-teaser.webp
     og: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-og.jpg
   fingerprint: trio|s|Devices|soundbar,streaming-box,streaming-stick
   layout: trio
@@ -290,8 +309,9 @@ cards:
   - 2026-09-13-roku-streaming-devices-are-they-worth-buying-in-ireland.md
 - id: card-where-to-watch-premier-league-football-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-premier-league-football-legally-in-ireland-og.jpg
   fingerprint: stagger|m|Sports-Streaming|outdoor-aerial,soundbar,speaker
   layout: stagger-mirrored
@@ -305,8 +325,9 @@ cards:
   - 2026-09-13-where-to-watch-premier-league-football-legally-in-ireland.md
 - id: card-chromecast-with-google-tv-common-setup-and-pairing-problems-solved
   files:
-    hero: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-hero.jpg
-    teaser: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-teaser.jpg
+    hero: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-hero.webp
+    hero_small: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-hero-800.webp
+    teaser: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-teaser.webp
     og: /assets/images/posts/chromecast-with-google-tv-common-setup-and-pairing-problems-solved-og.jpg
   fingerprint: trio|m|Troubleshooting|guidebook,streaming-pebble,wifi-extender
   layout: trio-mirrored
@@ -320,8 +341,9 @@ cards:
   - 2026-09-15-chromecast-with-google-tv-common-setup-and-pairing-problems-solved.md
 - id: card-fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers
   files:
-    hero: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero.jpg
-    teaser: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-teaser.jpg
+    hero: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero.webp
+    hero_small: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero-800.webp
+    teaser: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-teaser.webp
     og: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-og.jpg
   fingerprint: duo|s|Reviews|headphones,smart-tv,streaming-stick
   layout: duo
@@ -335,8 +357,9 @@ cards:
   - 2026-09-15-fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers.md
 - id: card-how-to-set-up-now-on-a-samsung-or-lg-smart-tv
   files:
-    hero: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero.jpg
-    teaser: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-teaser.jpg
+    hero: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero.webp
+    hero_small: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-teaser.webp
     og: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-og.jpg
   fingerprint: wide|m|Installation-Guides|set-top-box,smart-tv,wall-mount
   layout: wide-mirrored
@@ -350,8 +373,9 @@ cards:
   - 2026-09-15-how-to-set-up-now-on-a-samsung-or-lg-smart-tv.md
 - id: card-where-to-watch-the-uefa-champions-league-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-the-uefa-champions-league-legally-in-ireland-og.jpg
   fingerprint: trio|m|Sports-Streaming|outdoor-aerial,projector,soundbar
   layout: trio-mirrored
@@ -365,8 +389,9 @@ cards:
   - 2026-09-15-where-to-watch-the-uefa-champions-league-legally-in-ireland.md
 - id: card-eir-vision-explained-is-bundling-tv-with-broadband-worth-it
   files:
-    hero: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-hero.jpg
-    teaser: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-teaser.jpg
+    hero: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-hero.webp
+    hero_small: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-hero-800.webp
+    teaser: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-teaser.webp
     og: /assets/images/posts/eir-vision-explained-is-bundling-tv-with-broadband-worth-it-og.jpg
   fingerprint: feature|m|Streaming-Services|ethernet-cable,mesh-wifi-3,streaming-stick
   layout: feature-mirrored
@@ -380,8 +405,9 @@ cards:
   - 2026-09-16-eir-vision-explained-is-bundling-tv-with-broadband-worth-it.md
 - id: card-how-to-fix-content-not-available-in-your-country-errors-while-streaming
   files:
-    hero: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-hero.jpg
-    teaser: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-teaser.jpg
+    hero: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-hero.webp
+    hero_small: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-hero-800.webp
+    teaser: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-teaser.webp
     og: /assets/images/posts/how-to-fix-content-not-available-in-your-country-errors-while-streaming-og.jpg
   fingerprint: trio|m|Troubleshooting|guidebook,powerline,wifi-extender
   layout: trio-mirrored
@@ -395,8 +421,9 @@ cards:
   - 2026-09-16-how-to-fix-content-not-available-in-your-country-errors-while-streaming.md
 - id: card-how-to-set-up-disney-on-an-lg-smart-tv
   files:
-    hero: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-hero.jpg
-    teaser: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-teaser.jpg
+    hero: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-hero.webp
+    hero_small: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-teaser.webp
     og: /assets/images/posts/how-to-set-up-disney-on-an-lg-smart-tv-og.jpg
   fingerprint: duo|m|Installation-Guides|indoor-aerial,set-top-box,smart-tv
   layout: duo-mirrored
@@ -410,8 +437,9 @@ cards:
   - 2026-09-16-how-to-set-up-disney-on-an-lg-smart-tv.md
 - id: card-paramount-in-ireland-is-it-worth-subscribing
   files:
-    hero: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-hero.jpg
-    teaser: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-teaser.jpg
+    hero: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-hero.webp
+    hero_small: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-hero-800.webp
+    teaser: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-teaser.webp
     og: /assets/images/posts/paramount-in-ireland-is-it-worth-subscribing-og.jpg
   fingerprint: duo|m|Streaming-Services|set-top-box,streaming-box,universal-remote
   layout: duo-mirrored
@@ -425,8 +453,9 @@ cards:
   - 2026-09-16-paramount-in-ireland-is-it-worth-subscribing.md
 - id: card-team-ireland-at-the-world-handball-championships-in-new-york
   files:
-    hero: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero.jpg
-    teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.jpg
+    hero: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero.webp
+    hero_small: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero-800.webp
+    teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.webp
     og: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-og.jpg
   fingerprint: wide|m|Sports-Streaming|outdoor-aerial,satellite-receiver,speaker
   layout: wide-mirrored
@@ -440,8 +469,9 @@ cards:
   - 2026-09-16-team-ireland-at-the-world-handball-championships-in-new-york.md
 - id: card-where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland-og.jpg
   fingerprint: trio|m|Watch-Guides|headphones,smart-tv,universal-remote
   layout: trio-mirrored
@@ -455,8 +485,9 @@ cards:
   - 2026-09-16-where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland.md
 - id: card-where-to-watch-wednesday-season-2-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-og.jpg
   fingerprint: stagger|m|Watch-Guides|smart-tv,speaker,universal-remote
   layout: stagger-mirrored
@@ -470,8 +501,9 @@ cards:
   - 2026-09-16-where-to-watch-wednesday-season-2-legally-in-ireland.md
 - id: card-fire-tv-stick-4k-max-worth-the-upgrade
   files:
-    hero: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.jpg
-    teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.jpg
+    hero: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero.webp
+    hero_small: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero-800.webp
+    teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.webp
     og: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-og.jpg
   fingerprint: trio|s|Reviews|smart-tv,streaming-stick,streaming-stick-alt
   layout: trio
@@ -485,8 +517,9 @@ cards:
   - 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade.md
 - id: card-virgin-media-play-vs-rt-player-free-irish-streaming-compared
   files:
-    hero: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero.jpg
-    teaser: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-teaser.jpg
+    hero: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero.webp
+    hero_small: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-teaser.webp
     og: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-og.jpg
   fingerprint: stagger|m|Streaming-Services|set-top-box,streaming-box,streaming-stick
   layout: stagger-mirrored
@@ -500,8 +533,9 @@ cards:
   - 2026-09-20-virgin-media-play-vs-rt-player-free-irish-streaming-compared.md
 - id: card-where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-og.jpg
   fingerprint: trio|s|Watch-Guides|smart-tv,soundbar,universal-remote
   layout: trio
@@ -515,8 +549,9 @@ cards:
   - 2026-09-20-where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland.md
 - id: card-how-to-watch-tv-show-bad-sisters
   files:
-    hero: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero.jpg
-    teaser: /assets/images/posts/how-to-watch-tv-show-bad-sisters-teaser.jpg
+    hero: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-tv-show-bad-sisters-teaser.webp
     og: /assets/images/posts/how-to-watch-tv-show-bad-sisters-og.jpg
   fingerprint: duo|m|Watch-Guides|headphones,projector,universal-remote
   layout: duo-mirrored
@@ -530,8 +565,9 @@ cards:
   - 2026-09-22-how-to-watch-tv-show-bad-sisters.md
 - id: card-now-ireland-raises-prices-for-2026
   files:
-    hero: /assets/images/posts/now-ireland-raises-prices-for-2026-hero.jpg
-    teaser: /assets/images/posts/now-ireland-raises-prices-for-2026-teaser.jpg
+    hero: /assets/images/posts/now-ireland-raises-prices-for-2026-hero.webp
+    hero_small: /assets/images/posts/now-ireland-raises-prices-for-2026-hero-800.webp
+    teaser: /assets/images/posts/now-ireland-raises-prices-for-2026-teaser.webp
     og: /assets/images/posts/now-ireland-raises-prices-for-2026-og.jpg
   fingerprint: stagger|s|News|satellite-receiver,set-top-box,streaming-stick
   layout: stagger
@@ -545,8 +581,9 @@ cards:
   - 2026-09-22-now-ireland-raises-prices-for-2026.md
 - id: card-top-3-cheap-streaming-sticks-in-ireland
   files:
-    hero: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.jpg
-    teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.jpg
+    hero: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.webp
+    hero_small: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.webp
     og: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-og.jpg
   fingerprint: duo|m|Reviews|streaming-pebble,streaming-stick,streaming-stick-lite
   layout: duo-mirrored
@@ -560,8 +597,9 @@ cards:
   - 2026-09-22-top-3-cheap-streaming-sticks-in-ireland.md
 - id: card-where-to-stream-tv-show-emerdale
   files:
-    hero: /assets/images/posts/where-to-stream-tv-show-emerdale-hero.jpg
-    teaser: /assets/images/posts/where-to-stream-tv-show-emerdale-teaser.jpg
+    hero: /assets/images/posts/where-to-stream-tv-show-emerdale-hero.webp
+    hero_small: /assets/images/posts/where-to-stream-tv-show-emerdale-hero-800.webp
+    teaser: /assets/images/posts/where-to-stream-tv-show-emerdale-teaser.webp
     og: /assets/images/posts/where-to-stream-tv-show-emerdale-og.jpg
   fingerprint: feature|m|Watch-Guides|smart-tv,speaker,universal-remote
   layout: feature-mirrored
@@ -575,8 +613,9 @@ cards:
   - 2026-09-22-where-to-stream-tv-show-emerdale.md
 - id: card-where-to-watch-the-movie-the-whisper-man-online
   files:
-    hero: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.webp
     og: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-og.jpg
   fingerprint: trio|s|Watch-Guides|projector,soundbar,speaker
   layout: trio
@@ -590,8 +629,9 @@ cards:
   - 2026-09-22-where-to-watch-the-movie-the-whisper-man-online.md
 - id: card-is-britbox-available-in-ireland
   files:
-    hero: /assets/images/posts/is-britbox-available-in-ireland-hero.jpg
-    teaser: /assets/images/posts/is-britbox-available-in-ireland-teaser.jpg
+    hero: /assets/images/posts/is-britbox-available-in-ireland-hero.webp
+    hero_small: /assets/images/posts/is-britbox-available-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-britbox-available-in-ireland-teaser.webp
     og: /assets/images/posts/is-britbox-available-in-ireland-og.jpg
   fingerprint: trio|m|Streaming-Services|smart-tv-2,streaming-box,universal-remote
   layout: trio-mirrored
@@ -605,8 +645,9 @@ cards:
   - 2026-09-23-is-britbox-available-in-ireland.md
 - id: card-virgin-media-player-login-issues-explained
   files:
-    hero: /assets/images/posts/virgin-media-player-login-issues-explained-hero.jpg
-    teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.jpg
+    hero: /assets/images/posts/virgin-media-player-login-issues-explained-hero.webp
+    hero_small: /assets/images/posts/virgin-media-player-login-issues-explained-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.webp
     og: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
   fingerprint: trio|s|Troubleshooting|guidebook,mesh-wifi,set-top-box
   layout: trio
@@ -620,8 +661,9 @@ cards:
   - 2026-09-23-virgin-media-player-login-issues-explained.md
 - id: card-where-to-watch-the-traitors-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-the-traitors-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-the-traitors-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-the-traitors-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-traitors-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-traitors-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-the-traitors-ireland-og.jpg
   fingerprint: stagger|s|Watch-Guides|projector,smart-tv,universal-remote
   layout: stagger
@@ -635,8 +677,9 @@ cards:
   - 2026-09-23-where-to-watch-the-traitors-ireland.md
 - id: card-fire-tv-stick-4k-two-years-on-still-worth-it
   files:
-    hero: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero.jpg
-    teaser: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-teaser.jpg
+    hero: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero.webp
+    hero_small: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero-800.webp
+    teaser: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-teaser.webp
     og: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-og.jpg
   fingerprint: stagger|s|Reviews|soundbar,streaming-stick,streaming-stick-lite
   layout: stagger
@@ -650,8 +693,9 @@ cards:
   - 2026-09-28-fire-tv-stick-4k-two-years-on-still-worth-it.md
 - id: card-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland
   files:
-    hero: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero.jpg
-    teaser: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-teaser.jpg
+    hero: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero.webp
+    hero_small: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-teaser.webp
     og: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-og.jpg
   fingerprint: duo|m|Installation-Guides|guidebook,set-top-box,wall-mount
   layout: duo-mirrored
@@ -665,8 +709,9 @@ cards:
   - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
 - id: card-netflix-ireland-price-changes-for-2026-what-you-need-to-know
   files:
-    hero: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero.jpg
-    teaser: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-teaser.jpg
+    hero: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero.webp
+    hero_small: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero-800.webp
+    teaser: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-teaser.webp
     og: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-og.jpg
   fingerprint: feature|s|News|satellite-receiver,smart-tv,universal-remote
   layout: feature
@@ -680,8 +725,9 @@ cards:
   - 2026-09-13-netflix-ireland-price-changes-for-2026-what-you-need-to-know.md
 - id: card-best-budget-streaming-sticks-for-irish-homes-in-2026
   files:
-    hero: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero.jpg
-    teaser: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-teaser.jpg
+    hero: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero.webp
+    hero_small: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero-800.webp
+    teaser: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-teaser.webp
     og: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-og.jpg
   fingerprint: duo|s|Devices|smart-tv,streaming-pebble,streaming-stick-lite
   layout: duo
@@ -695,8 +741,9 @@ cards:
   - 2026-09-16-best-budget-streaming-sticks-for-irish-homes-in-2026.md
 - id: card-where-to-watch-the-united-rugby-championship-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-og.jpg
   fingerprint: trio|s|Sports-Streaming|satellite-receiver,smart-tv,speaker
   layout: trio
@@ -710,8 +757,9 @@ cards:
   - 2026-09-16-where-to-watch-the-united-rugby-championship-legally-in-ireland.md
 - id: card-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app
   files:
-    hero: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero.jpg
-    teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.jpg
+    hero: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero.webp
+    hero_small: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero-800.webp
+    teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.webp
     og: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-og.jpg
   fingerprint: trio|m|Reviews|smart-tv,smart-tv-2,streaming-box
   layout: trio-mirrored
@@ -725,8 +773,9 @@ cards:
   - 2026-09-17-now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app.md
 - id: card-where-to-watch-house-of-the-dragon-season-3-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-house-of-the-dragon-season-3-in-ireland-og.jpg
   fingerprint: duo|m|Watch-Guides|headphones,smart-tv,speaker
   layout: duo-mirrored
@@ -740,8 +789,9 @@ cards:
   - 2026-09-17-where-to-watch-house-of-the-dragon-season-3-in-ireland.md
 - id: card-why-does-now-keep-buffering-on-smart-tvs
   files:
-    hero: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.jpg
-    teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.jpg
+    hero: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.webp
+    hero_small: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero-800.webp
+    teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.webp
     og: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
   fingerprint: wide|m|Troubleshooting|ethernet-cable,mesh-wifi,wifi-extender
   layout: wide-mirrored
@@ -755,8 +805,9 @@ cards:
   - 2026-09-17-why-does-now-keep-buffering-on-smart-tvs.md
 - id: card-how-to-watch-the-ryder-cup-legally-in-ireland
   files:
-    hero: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.webp
     og: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-og.jpg
   fingerprint: stagger|m|Sports-Streaming|guidebook,satellite-receiver,soundbar
   layout: stagger-mirrored
@@ -770,8 +821,9 @@ cards:
   - 2026-09-18-how-to-watch-the-ryder-cup-legally-in-ireland.md
 - id: card-virgin-media-unveils-new-streaming-bundle-for-2026
   files:
-    hero: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero.jpg
-    teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.jpg
+    hero: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero.webp
+    hero_small: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.webp
     og: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-og.jpg
   fingerprint: feature|m|News|set-top-box,streaming-stick,universal-remote
   layout: feature-mirrored
@@ -785,8 +837,9 @@ cards:
   - 2026-09-18-virgin-media-unveils-new-streaming-bundle-for-2026.md
 - id: card-roku-vs-fire-tv-stick-which-should-you-buy
   files:
-    hero: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.jpg
-    teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.jpg
+    hero: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.webp
+    hero_small: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero-800.webp
+    teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.webp
     og: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
   fingerprint: feature|m|Devices|streaming-pebble,streaming-stick,streaming-stick-alt
   layout: feature-mirrored
@@ -800,8 +853,9 @@ cards:
   - 2026-09-19-roku-vs-fire-tv-stick-which-should-you-buy.md
 - id: card-5-netflix-features-irish-viewers-often-miss
   files:
-    hero: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.jpg
-    teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.jpg
+    hero: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero.webp
+    hero_small: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero-800.webp
+    teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.webp
     og: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-og.jpg
   fingerprint: trio|s|Streaming-Services|set-top-box,smart-tv,streaming-stick
   layout: trio
@@ -815,8 +869,9 @@ cards:
   - 2026-09-20-5-netflix-features-irish-viewers-often-miss.md
 - id: card-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs
   files:
-    hero: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero.jpg
-    teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.jpg
+    hero: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero.webp
+    hero_small: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero-800.webp
+    teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.webp
     og: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-og.jpg
   fingerprint: wide|m|Troubleshooting|headphones,mesh-wifi,soundbar
   layout: wide-mirrored
@@ -830,8 +885,9 @@ cards:
   - 2026-09-20-audio-out-of-sync-fixing-streaming-lag-on-smart-tvs.md
 - id: card-back-to-college-best-budget-streaming-setup-in-ireland
   files:
-    hero: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero.jpg
-    teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.jpg
+    hero: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero.webp
+    hero_small: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-teaser.webp
     og: /assets/images/posts/back-to-college-best-budget-streaming-setup-in-ireland-og.jpg
   fingerprint: wide|s|Devices|guidebook,smart-tv,streaming-box
   layout: wide
@@ -845,8 +901,9 @@ cards:
   - 2026-09-20-back-to-college-best-budget-streaming-setup-in-ireland.md
 - id: card-can-the-tv-show-love-hate-still-be-streamed
   files:
-    hero: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.jpg
-    teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.jpg
+    hero: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.webp
+    hero_small: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero-800.webp
+    teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.webp
     og: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
   fingerprint: wide|m|Watch-Guides|headphones,smart-tv,soundbar
   layout: wide-mirrored
@@ -860,8 +917,9 @@ cards:
   - 2026-09-20-can-the-tv-show-love-hate-still-be-streamed.md
 - id: card-google-tv-streamer-review-should-you-switch-from-fire-tv
   files:
-    hero: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.jpg
-    teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.jpg
+    hero: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.webp
+    hero_small: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero-800.webp
+    teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.webp
     og: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-og.jpg
   fingerprint: duo|s|Reviews|smart-tv,streaming-box,streaming-pebble
   layout: duo
@@ -875,8 +933,9 @@ cards:
   - 2026-09-20-google-tv-streamer-review-should-you-switch-from-fire-tv.md
 - id: card-is-peacock-ever-coming-to-ireland
   files:
-    hero: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero.jpg
-    teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.jpg
+    hero: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero.webp
+    hero_small: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.webp
     og: /assets/images/posts/is-peacock-ever-coming-to-ireland-og.jpg
   fingerprint: trio|m|News|guidebook,streaming-stick,universal-remote
   layout: trio-mirrored
@@ -890,8 +949,9 @@ cards:
   - 2026-09-20-is-peacock-ever-coming-to-ireland.md
 - id: card-is-prime-video-worth-it-just-for-sport
   files:
-    hero: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.jpg
-    teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.jpg
+    hero: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.webp
+    hero_small: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero-800.webp
+    teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.webp
     og: /assets/images/posts/is-prime-video-worth-it-just-for-sport-og.jpg
   fingerprint: trio|m|Streaming-Services|smart-tv,streaming-stick,universal-remote
   layout: trio-mirrored
@@ -905,8 +965,9 @@ cards:
   - 2026-09-20-is-prime-video-worth-it-just-for-sport.md
 - id: card-netflix-keeps-freezing-try-these-fixes
   files:
-    hero: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.jpg
-    teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.jpg
+    hero: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.webp
     og: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
   fingerprint: duo|s|Troubleshooting|powerline,smart-tv,wifi-extender
   layout: duo
@@ -920,8 +981,9 @@ cards:
   - 2026-09-20-netflix-keeps-freezing-try-these-fixes.md
 - id: card-setting-up-eir-vision-on-a-new-smart-tv
   files:
-    hero: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.jpg
-    teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.jpg
+    hero: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.webp
+    hero_small: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.webp
     og: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
   fingerprint: trio|s|Installation-Guides|hdmi-cable,mesh-wifi,smart-tv
   layout: trio
@@ -935,8 +997,9 @@ cards:
   - 2026-09-20-setting-up-eir-vision-on-a-new-smart-tv.md
 - id: card-setting-up-youtube-on-your-smart-tv
   files:
-    hero: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero.jpg
-    teaser: /assets/images/posts/setting-up-youtube-on-your-smart-tv-teaser.jpg
+    hero: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero.webp
+    hero_small: /assets/images/posts/setting-up-youtube-on-your-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/setting-up-youtube-on-your-smart-tv-teaser.webp
     og: /assets/images/posts/setting-up-youtube-on-your-smart-tv-og.jpg
   fingerprint: stagger|m|Installation-Guides|indoor-aerial,smart-tv-2,wall-mount
   layout: stagger-mirrored
@@ -950,8 +1013,9 @@ cards:
   - 2026-09-20-setting-up-youtube-on-your-smart-tv.md
 - id: card-sky-ireland-unveils-new-streaming-price-plan-for-2026
   files:
-    hero: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero.jpg
-    teaser: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-teaser.jpg
+    hero: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero.webp
+    hero_small: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-hero-800.webp
+    teaser: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-teaser.webp
     og: /assets/images/posts/sky-ireland-unveils-new-streaming-price-plan-for-2026-og.jpg
   fingerprint: wide|m|News|satellite-receiver,streaming-stick,universal-remote
   layout: wide-mirrored
@@ -965,8 +1029,9 @@ cards:
   - 2026-09-20-sky-ireland-unveils-new-streaming-price-plan-for-2026.md
 - id: card-solheim-cup-2026-where-irish-fans-can-watch-live
   files:
-    hero: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.jpg
-    teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.jpg
+    hero: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.webp
+    hero_small: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero-800.webp
+    teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.webp
     og: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
   fingerprint: duo|s|Sports-Streaming|projector,smart-tv,speaker
   layout: duo
@@ -980,8 +1045,9 @@ cards:
   - 2026-09-20-solheim-cup-2026-where-irish-fans-can-watch-live.md
 - id: card-virgin-media-360-box-review-is-it-still-worth-it
   files:
-    hero: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.jpg
-    teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.jpg
+    hero: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.webp
+    hero_small: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.webp
     og: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
   fingerprint: trio|s|Reviews|headphones,set-top-box,streaming-box
   layout: trio
@@ -995,8 +1061,9 @@ cards:
   - 2026-09-20-virgin-media-360-box-review-is-it-still-worth-it.md
 - id: card-where-to-watch-stranger-things-final-season-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-stranger-things-final-season-in-ireland-og.jpg
   fingerprint: duo|s|Watch-Guides|headphones,projector,soundbar
   layout: duo
@@ -1010,8 +1077,9 @@ cards:
   - 2026-09-20-where-to-watch-stranger-things-final-season-in-ireland.md
 - id: card-disney-not-working-try-these-fixes
   files:
-    hero: /assets/images/posts/disney-not-working-try-these-fixes-hero.jpg
-    teaser: /assets/images/posts/disney-not-working-try-these-fixes-teaser.jpg
+    hero: /assets/images/posts/disney-not-working-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/disney-not-working-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/disney-not-working-try-these-fixes-teaser.webp
     og: /assets/images/posts/disney-not-working-try-these-fixes-og.jpg
   fingerprint: wide|m|Troubleshooting|powerline,smart-tv,wifi-extender
   layout: wide-mirrored
@@ -1025,8 +1093,9 @@ cards:
   - 2026-09-21-disney-not-working-try-these-fixes.md
 - id: card-fire-tv-stick-lite-vs-standard-which-should-you-buy
   files:
-    hero: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.jpg
-    teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.jpg
+    hero: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.webp
+    hero_small: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero-800.webp
+    teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.webp
     og: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
   fingerprint: trio|s|Devices|streaming-pebble,streaming-stick,streaming-stick-alt
   layout: trio
@@ -1040,8 +1109,9 @@ cards:
   - 2026-09-21-fire-tv-stick-lite-vs-standard-which-should-you-buy.md
 - id: card-is-hbo-max-coming-to-ireland
   files:
-    hero: /assets/images/posts/is-hbo-max-coming-to-ireland-hero.jpg
-    teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.jpg
+    hero: /assets/images/posts/is-hbo-max-coming-to-ireland-hero.webp
+    hero_small: /assets/images/posts/is-hbo-max-coming-to-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-hbo-max-coming-to-ireland-teaser.webp
     og: /assets/images/posts/is-hbo-max-coming-to-ireland-og.jpg
   fingerprint: duo|m|News|guidebook,set-top-box,universal-remote
   layout: duo-mirrored
@@ -1055,8 +1125,9 @@ cards:
   - 2026-09-21-is-hbo-max-coming-to-ireland.md
 - id: card-how-to-watch-tv-show-father-ted
   files:
-    hero: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.jpg
-    teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.jpg
+    hero: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-tv-show-father-ted-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.webp
     og: /assets/images/posts/how-to-watch-tv-show-father-ted-og.jpg
   fingerprint: wide|m|Watch-Guides|guidebook,headphones,soundbar
   layout: wide-mirrored
@@ -1070,8 +1141,9 @@ cards:
   - 2026-09-22-how-to-watch-tv-show-father-ted.md
 - id: card-should-you-bother-with-youtube-premium-in-ireland
   files:
-    hero: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero.jpg
-    teaser: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-teaser.jpg
+    hero: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero.webp
+    hero_small: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-teaser.webp
     og: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-og.jpg
   fingerprint: duo|m|Streaming-Services|set-top-box,smart-tv-2,universal-remote
   layout: duo-mirrored
@@ -1085,8 +1157,9 @@ cards:
   - 2026-09-22-should-you-bother-with-youtube-premium-in-ireland.md
 - id: card-virgin-media-play-keeps-crashing
   files:
-    hero: /assets/images/posts/virgin-media-play-keeps-crashing-hero.jpg
-    teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.jpg
+    hero: /assets/images/posts/virgin-media-play-keeps-crashing-hero.webp
+    hero_small: /assets/images/posts/virgin-media-play-keeps-crashing-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.webp
     og: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
   fingerprint: duo|m|Troubleshooting|ethernet-cable,set-top-box,universal-remote
   layout: duo-mirrored
@@ -1100,8 +1173,9 @@ cards:
   - 2026-09-22-virgin-media-play-keeps-crashing.md
 - id: card-where-to-watch-bridgerton-season-4-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-og.jpg
   fingerprint: wide|m|Watch-Guides|projector,speaker,universal-remote
   layout: wide-mirrored
@@ -1115,8 +1189,9 @@ cards:
   - 2026-09-22-where-to-watch-bridgerton-season-4-in-ireland.md
 - id: card-5-free-irish-streaming-apps-worth-knowing
   files:
-    hero: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.jpg
-    teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.jpg
+    hero: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.webp
+    hero_small: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero-800.webp
+    teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.webp
     og: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
   fingerprint: stagger|s|Streaming-Services|set-top-box,smart-tv,streaming-box
   layout: stagger
@@ -1130,8 +1205,9 @@ cards:
   - 2026-09-23-5-free-irish-streaming-apps-worth-knowing.md
 - id: card-vodafone-tv-is-it-still-worth-using-in-2026
   files:
-    hero: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero.jpg
-    teaser: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-teaser.jpg
+    hero: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero.webp
+    hero_small: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero-800.webp
+    teaser: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-teaser.webp
     og: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-og.jpg
   fingerprint: stagger|m|Reviews|set-top-box,streaming-box,streaming-pebble
   layout: stagger-mirrored
@@ -1145,8 +1221,9 @@ cards:
   - 2026-09-23-vodafone-tv-is-it-still-worth-using-in-2026.md
 - id: card-gaa-not-working-try-these-fixes
   files:
-    hero: /assets/images/posts/gaa-not-working-try-these-fixes-hero.jpg
-    teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.jpg
+    hero: /assets/images/posts/gaa-not-working-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/gaa-not-working-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.webp
     og: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
   fingerprint: stagger|s|Troubleshooting|ethernet-cable,powerline,universal-remote
   layout: stagger
@@ -1160,8 +1237,9 @@ cards:
   - 2026-09-24-gaa-not-working-try-these-fixes.md
 - id: card-how-many-streaming-subscriptions-do-irish-households-really-need
   files:
-    hero: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero.jpg
-    teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.jpg
+    hero: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero.webp
+    hero_small: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero-800.webp
+    teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.webp
     og: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-og.jpg
   fingerprint: duo|m|News|satellite-receiver,smart-tv-2,universal-remote
   layout: duo-mirrored
@@ -1175,8 +1253,9 @@ cards:
   - 2026-09-24-how-many-streaming-subscriptions-do-irish-households-really-need.md
 - id: card-is-discovery-available-in-ireland
   files:
-    hero: /assets/images/posts/is-discovery-available-in-ireland-hero.jpg
-    teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.jpg
+    hero: /assets/images/posts/is-discovery-available-in-ireland-hero.webp
+    hero_small: /assets/images/posts/is-discovery-available-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.webp
     og: /assets/images/posts/is-discovery-available-in-ireland-og.jpg
   fingerprint: trio|m|Streaming-Services|set-top-box,smart-tv-2,streaming-box
   layout: trio-mirrored
@@ -1190,8 +1269,9 @@ cards:
   - 2026-09-24-is-discovery-available-in-ireland.md
 - id: card-lg-vs-samsung-whose-smart-tv-apps-stream-better
   files:
-    hero: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.jpg
-    teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.jpg
+    hero: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.webp
+    hero_small: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero-800.webp
+    teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.webp
     og: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
   fingerprint: duo|s|Devices|smart-tv,streaming-box,streaming-stick-alt
   layout: duo
@@ -1205,8 +1285,9 @@ cards:
   - 2026-09-24-lg-vs-samsung-whose-smart-tv-apps-stream-better.md
 - id: card-setting-up-virgin-media-play-on-android
   files:
-    hero: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.jpg
-    teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.jpg
+    hero: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.webp
+    hero_small: /assets/images/posts/setting-up-virgin-media-play-on-android-hero-800.webp
+    teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.webp
     og: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
   fingerprint: stagger|m|Installation-Guides|mesh-wifi,set-top-box,wall-mount
   layout: stagger-mirrored
@@ -1220,8 +1301,9 @@ cards:
   - 2026-09-24-setting-up-virgin-media-play-on-android.md
 - id: card-watch-the-odyssey-online-in-ireland
   files:
-    hero: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero.jpg
-    teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.jpg
+    hero: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero.webp
+    hero_small: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.webp
     og: /assets/images/posts/watch-the-odyssey-online-in-ireland-og.jpg
   fingerprint: trio|m|Watch-Guides|smart-tv,soundbar,universal-remote
   layout: trio-mirrored
@@ -1235,8 +1317,9 @@ cards:
   - 2026-09-24-watch-the-odyssey-online-in-ireland.md
 - id: card-eir-vision-raises-prices-for-2026
   files:
-    hero: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.jpg
-    teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.jpg
+    hero: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.webp
+    hero_small: /assets/images/posts/eir-vision-raises-prices-for-2026-hero-800.webp
+    teaser: /assets/images/posts/eir-vision-raises-prices-for-2026-teaser.webp
     og: /assets/images/posts/eir-vision-raises-prices-for-2026-og.jpg
   fingerprint: trio|s|News|set-top-box,streaming-stick,universal-remote
   layout: trio
@@ -1250,8 +1333,9 @@ cards:
   - 2026-09-25-eir-vision-raises-prices-for-2026.md
 - id: card-where-to-watch-formula-1-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-og.jpg
   fingerprint: stagger|s|Sports-Streaming|smart-tv,soundbar,speaker
   layout: stagger
@@ -1265,8 +1349,9 @@ cards:
   - 2026-09-30-where-to-watch-formula-1-legally-in-ireland.md
 - id: card-rte-player-not-working-on-smart-tv-common-fixes
   files:
-    hero: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.jpg
-    teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.jpg
+    hero: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.webp
+    hero_small: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero-800.webp
+    teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.webp
     og: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
   fingerprint: trio|s|Troubleshooting|smart-tv,smart-tv-2,wifi-extender
   layout: trio
@@ -1280,8 +1365,9 @@ cards:
   - 2026-10-05-rte-player-not-working-on-smart-tv-common-fixes.md
 - id: card-where-to-watch-peaky-blinders-legally-in-ireland
   files:
-    hero: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero.jpg
-    teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.jpg
+    hero: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.webp
     og: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-og.jpg
   fingerprint: stagger|s|Watch-Guides|smart-tv,speaker,universal-remote
   layout: stagger
@@ -1295,8 +1381,9 @@ cards:
   - 2026-10-05-where-to-watch-peaky-blinders-legally-in-ireland.md
 - id: card-is-apple-tv-plus-available-in-ireland
   files:
-    hero: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero.jpg
-    teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.jpg
+    hero: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero.webp
+    hero_small: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.webp
     og: /assets/images/posts/is-apple-tv-plus-available-in-ireland-og.jpg
   fingerprint: wide|s|Streaming-Services|smart-tv,smart-tv-2,universal-remote
   layout: wide
@@ -1310,8 +1397,9 @@ cards:
   - 2026-10-09-is-apple-tv-plus-available-in-ireland.md
 - id: card-apple-tv-plus-keeps-buffering-try-these-fixes
   files:
-    hero: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero.jpg
-    teaser: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-teaser.jpg
+    hero: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-teaser.webp
     og: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-og.jpg
   fingerprint: wide|s|Troubleshooting|hdmi-cable,smart-tv,universal-remote
   layout: wide
@@ -1325,8 +1413,9 @@ cards:
   - 2026-10-12-apple-tv-plus-keeps-buffering-try-these-fixes.md
 - id: card-setting-up-sky-stream-on-a-new-smart-tv
   files:
-    hero: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero.jpg
-    teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.jpg
+    hero: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero.webp
+    hero_small: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.webp
     og: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-og.jpg
   fingerprint: stagger|m|Installation-Guides|smart-tv,smart-tv-2,wall-mount
   layout: stagger-mirrored

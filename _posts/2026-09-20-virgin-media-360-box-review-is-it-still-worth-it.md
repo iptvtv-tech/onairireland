@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.jpg
-  teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.jpg
+  overlay_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero.webp
+  overlay_image_small: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero-800.webp
+  teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.webp
   og_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
 seo:
   type: Article

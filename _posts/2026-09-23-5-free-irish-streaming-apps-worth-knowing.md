@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.jpg
-  teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.jpg
+  overlay_image: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.webp
+  overlay_image_small: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero-800.webp
+  teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.webp
   og_image: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
 seo:
   type: Article

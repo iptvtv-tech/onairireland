@@ -7,9 +7,10 @@ publishes directly; the workflow opens a PR with the result so a human
 reviews and merges before anything goes live.
 
 Requires the ANTHROPIC_API_KEY secret to be set on the repo, and
-optionally PEXELS_API_KEY so posts with a clear real-world scene can get a
-self-hosted, credited Pexels photo (otherwise every post gets a unique brand card;
-see scripts/image_system.py and scripts/card_kit/README.md).
+PEXELS_API_KEY so the post can get a photo from the approved shortlist
+(_data/photo_shortlist.yml), self-hosted and credited. Without the key, or when
+no approved photo fits, the post gets a unique brand card instead (see
+scripts/image_system.py and scripts/card_kit/README.md).
 """
 import datetime
 import os
@@ -20,7 +21,7 @@ import unicodedata
 import requests
 import yaml
 
-import image_system  # scripts/image_system.py: cards first, relevant photos when a scene fits
+import image_system  # scripts/image_system.py: approved photos first, brand card as fallback
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
@@ -139,6 +140,9 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
   useful regardless of which service carries the title.
 """
 
+    scene_list = image_system.scene_list_for_prompt()
+    category_scenes = ", ".join(image_system.CATEGORY_SCENES.get(category.replace(" ", "-"), [])) or "none"
+
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
@@ -171,16 +175,11 @@ Requirements:
   first line, prefixed with "SUMMARY:", then a blank line, then the article.
 - Open the article with a one or two sentence direct answer to the title's question.
 - Immediately after the SUMMARY line (still before the blank line and article), add a
-  second line prefixed "IMAGE_QUERY:" with a short (2-4 word) generic stock-photo search
-  term that suits THIS SPECIFIC post -- describe a generic, photographable scene (people,
-  devices, settings), never a brand name, show title, or anything a stock photo site won't
-  actually have images of.
-- On the line straight after IMAGE_QUERY, add "IMAGE_SCENE:" followed by exactly one of:
-  viewing-room, remote-closeup, router-cabling, hands-hdmi, aerial-roof, sport-viewing, none.
-  Choose a scene ONLY if a plain stock photo of it would genuinely suit this post (for example
-  router-cabling for a buffering fix, hands-hdmi for a cabling guide). Use "none" for anything
-  about a specific service, show, price, review, comparison or news item -- those get a
-  brand illustration instead, so "none" is the right answer most of the time.
+  second line prefixed "IMAGE_SCENE:" followed by exactly one of these scene names (or
+  "none"), choosing the plain real-world photo that would best suit THIS post:
+{scene_list}
+  Pick from the scenes that fit the post's category: {category_scenes}.
+  Most posts fit one of them; use "none" only if none of those would look right.
 - After the article body, add a line that says exactly "FAQS:" on its own, then exactly
   4 question-and-answer pairs, each formatted as:
   Q: question text
@@ -421,6 +420,7 @@ def main():
 
     header = {
         "overlay_image": hero_image["overlay_image"],
+        "overlay_image_small": hero_image["overlay_image_small"],
         "teaser": hero_image["teaser"],
         "og_image": hero_image["og_image"],
     }

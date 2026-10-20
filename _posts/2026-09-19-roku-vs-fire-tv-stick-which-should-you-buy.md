@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.jpg
-  teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.jpg
+  overlay_image: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.webp
+  overlay_image_small: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero-800.webp
+  teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.webp
   og_image: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
 seo:
   type: Article

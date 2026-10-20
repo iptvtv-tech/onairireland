@@ -7,8 +7,9 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.jpg
-  teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.jpg
+  overlay_image: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.webp
+  overlay_image_small: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero-800.webp
+  teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.webp
   og_image: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
 seo:
   type: Article

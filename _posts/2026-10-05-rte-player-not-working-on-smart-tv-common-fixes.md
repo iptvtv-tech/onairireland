@@ -7,8 +7,9 @@ categories:
 tags:
 - troubleshooting
 header:
-  overlay_image: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.jpg
-  teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.jpg
+  overlay_image: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.webp
+  overlay_image_small: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero-800.webp
+  teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.webp
   og_image: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
 seo:
   type: HowTo

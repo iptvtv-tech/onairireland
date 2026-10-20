@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.jpg
-  teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.jpg
+  overlay_image: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.webp
+  overlay_image_small: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero-800.webp
+  teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.webp
   og_image: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
 seo:
   type: Article

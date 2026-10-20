@@ -8,8 +8,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero.jpg
-  teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.jpg
+  overlay_image: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero.webp
+  overlay_image_small: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero-800.webp
+  teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.webp
   og_image: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-og.jpg
 seo:
   type: Article

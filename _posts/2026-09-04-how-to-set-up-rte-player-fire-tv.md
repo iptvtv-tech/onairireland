@@ -10,8 +10,9 @@ tags:
   - installation guide
   - how to
 header:
-  overlay_image: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero.jpg
-  teaser: /assets/images/posts/how-to-set-up-rte-player-fire-tv-teaser.jpg
+  overlay_image: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-set-up-rte-player-fire-tv-hero-800.webp
+  teaser: /assets/images/posts/how-to-set-up-rte-player-fire-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-rte-player-fire-tv-og.jpg
 seo:
   type: HowTo

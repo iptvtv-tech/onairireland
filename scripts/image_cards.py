@@ -5,10 +5,11 @@ Builds an original, unique header image for a post from the site's own product
 icons (assets/images/products/*.svg, pre-rendered to scripts/card_kit/icons/).
 No stock photos, logos, watermarks or third-party artwork are involved.
 
-For each post it writes three files into assets/images/posts/:
-    <slug>-hero.jpg    1600x800   page hero (header.overlay_image)
-    <slug>-teaser.jpg  600x400    archive / related-post cards (header.teaser)
-    <slug>-og.jpg      1200x630   social share card (header.og_image)
+For each post it writes four files into assets/images/posts/:
+    <slug>-hero.webp      1600x800  page hero (header.overlay_image)
+    <slug>-hero-800.webp   800x400  phone-sized hero (header.overlay_image_small)
+    <slug>-teaser.webp     600x400  archive / related-post cards (header.teaser)
+    <slug>-og.jpg         1200x630  social share card with the title (header.og_image)
 
 Cards are deterministic for a given slug, and each one has a "fingerprint"
 (layout + mirrored? + palette + icon set). make_card() refuses to reuse a
@@ -30,7 +31,7 @@ FONT_PATH = os.path.join(KIT, "fonts", "Inter-Bold.otf")
 LOGO_PATH = os.path.join(ROOT, "assets", "images", "logo.png")
 POSTS_IMG_DIR = os.path.join(ROOT, "assets", "images", "posts")
 
-SIZES = {"hero": (1600, 800), "teaser": (600, 400), "og": (1200, 630)}
+SIZES = {"hero": (1600, 800), "hero_small": (800, 400), "teaser": (600, 400), "og": (1200, 630)}
 
 # Brand-navy family, nudged per category so a category page reads as a set
 # without every card looking identical.
@@ -279,6 +280,47 @@ def _wrap(draw, text, font, max_w, max_lines):
     return lines
 
 
+def draw_og_text(img, palette, title):
+    """Category pill, wrapped title and site logo on the left of a 1200x630
+    share image. Shared by brand cards and treated photos."""
+    w, h = img.size
+    d = ImageDraw.Draw(img)
+    pal = PALETTES[normalise_category(palette)]
+    pill_font = _font(24)
+    label = pal["label"].upper()
+    pw = int(d.textlength(label, font=pill_font)) + 36
+    d.rounded_rectangle((64, 70, 64 + pw, 70 + 44), radius=22, fill=_hex(pal["accent"]))
+    d.text((64 + 18, 70 + 6), label, font=pill_font, fill=_hex("#0b1626"))
+    title_font = _font(58)
+    y = 148
+    for line in _wrap(d, title, title_font, 560, 4):
+        d.text((64, y), line, font=title_font, fill=(255, 255, 255))
+        y += 72
+    if os.path.exists(LOGO_PATH):
+        logo = Image.open(LOGO_PATH).convert("RGBA").resize((44, 44), Image.LANCZOS)
+        img.alpha_composite(logo, (64, h - 44 - 52))
+    d.text((64 + 58, h - 44 - 52 + 6), "On Air Ireland", font=_font(28), fill=(226, 232, 240))
+
+
+def save_set(images, slug, out_dir=None):
+    """Write a post's image set and return {kind: site path}.
+    hero / hero_small / teaser are WebP (smaller, supported by every current
+    browser); og stays JPEG because some social apps still ignore WebP."""
+    out_dir = out_dir or POSTS_IMG_DIR
+    os.makedirs(out_dir, exist_ok=True)
+    names = {"hero": "hero.webp", "hero_small": "hero-800.webp", "teaser": "teaser.webp", "og": "og.jpg"}
+    files = {}
+    for kind, img in images.items():
+        path = os.path.join(out_dir, f"{slug}-{names[kind]}")
+        img = img.convert("RGB")
+        if names[kind].endswith(".webp"):
+            img.save(path, "WEBP", quality=80, method=6)
+        else:
+            img.save(path, "JPEG", quality=84, optimize=True, progressive=True)
+        files[kind] = "/" + os.path.relpath(path, ROOT).replace(os.sep, "/")
+    return files
+
+
 def compose(kind, layout, flip, palette, variant, icons, title, category):
     size = SIZES[kind]
     w, h = size
@@ -293,24 +335,7 @@ def compose(kind, layout, flip, palette, variant, icons, title, category):
         stage = (w * 0.50, h * 0.08, w * 0.48, h * 0.84)
     _place_tiles(img, stage, layout, flip, icons)
     if kind == "og":
-        d = ImageDraw.Draw(img)
-        pal = PALETTES[palette]
-        # Left-hand scrim so the title stays readable over the tiles' shadow.
-        pill_font = _font(24)
-        label = pal["label"].upper()
-        pw = int(d.textlength(label, font=pill_font)) + 36
-        d.rounded_rectangle((64, 70, 64 + pw, 70 + 44), radius=22, fill=_hex(pal["accent"]))
-        d.text((64 + 18, 70 + 6), label, font=pill_font, fill=_hex("#0b1626"))
-        title_font = _font(58)
-        lines = _wrap(d, title, title_font, 560, 4)
-        y = 148
-        for line in lines:
-            d.text((64, y), line, font=title_font, fill=(255, 255, 255))
-            y += 72
-        if os.path.exists(LOGO_PATH):
-            logo = Image.open(LOGO_PATH).convert("RGBA").resize((44, 44), Image.LANCZOS)
-            img.alpha_composite(logo, (64, h - 44 - 52))
-        d.text((64 + 58, h - 44 - 52 + 6), "On Air Ireland", font=_font(28), fill=(226, 232, 240))
+        draw_og_text(img, palette, title)
     return img.convert("RGB")
 
 
@@ -329,13 +354,10 @@ def make_card(slug, title, category, used_fingerprints, out_dir=POSTS_IMG_DIR, m
         if fp in used:
             continue
         variant = _seed("bg", slug, salt) % 100000
-        os.makedirs(out_dir, exist_ok=True)
-        files = {}
-        for kind in ("hero", "teaser", "og"):
-            img = compose(kind, layout, flip, pal, variant, icons, title, category)
-            path = os.path.join(out_dir, f"{slug}-{kind}.jpg")
-            img.save(path, "JPEG", quality=84, optimize=True, progressive=True)
-            files[kind] = "/" + os.path.relpath(path, ROOT).replace(os.sep, "/")
+        images = {kind: compose(kind, layout, flip, pal, variant, icons, title, category)
+                  for kind in ("hero", "teaser", "og")}
+        images["hero_small"] = images["hero"].resize(SIZES["hero_small"], Image.LANCZOS)
+        files = save_set(images, slug, out_dir)
         return {
             "kind": "card",
             "files": files,

@@ -12,6 +12,9 @@
 </nav>
 
 <p class="cookie-settings-link"><a href="/about/">About us</a> · <a href="/how-we-make-money/">How we make money</a> · <a href="/ask/">Ask us</a> · <a href="/privacy-policy/">Privacy policy</a> · <button type="button" id="cookie-settings">Cookie settings</button></p>
+{%- if site.data.image_ledger.photos and site.data.image_ledger.photos.size > 0 %}
+<p class="photo-credit-link">Photos from <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a>, credited on each post.</p>
+{%- endif %}
 
 <div class="follow-twitter">
   <a href="https://x.com/onairireland" target="_blank" rel="noopener" class="follow-twitter__btn">

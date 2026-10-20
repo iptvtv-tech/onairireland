@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.jpg
-  teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.jpg
+  overlay_image: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.webp
+  overlay_image_small: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero-800.webp
+  teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.webp
   og_image: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
 seo:
   type: Article

@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.jpg
-  teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.jpg
+  overlay_image: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero.webp
+  overlay_image_small: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero-800.webp
+  teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.webp
   og_image: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
 seo:
   type: Article

@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.jpg
-  teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.jpg
+  overlay_image: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero.webp
+  overlay_image_small: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero-800.webp
+  teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.webp
   og_image: /assets/images/posts/is-prime-video-worth-it-just-for-sport-og.jpg
 seo:
   type: Article

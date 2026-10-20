@@ -7,8 +7,9 @@ categories:
 tags:
 - installation-guides
 header:
-  overlay_image: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.jpg
-  teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.jpg
+  overlay_image: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.webp
+  overlay_image_small: /assets/images/posts/setting-up-virgin-media-play-on-android-hero-800.webp
+  teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.webp
   og_image: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
 seo:
   type: HowTo

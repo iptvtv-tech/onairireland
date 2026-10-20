@@ -1,0 +1,491 @@
+# Approved photo shortlist (Pexels). The ONLY source of photos for posts.
+#
+# status:   pending  -> found by scripts/propose_photos.py or by hand, not yet checked
+#           approved -> a person has looked at it: relevant, no logos, brands,
+#                       watermarks, readable screens or identifiable children
+#           rejected -> kept so it is never proposed again
+# scene:    which kind of post it suits (see SCENES in scripts/image_system.py)
+# focus:    optional vertical crop centre, 0 (top) to 1 (bottom); default 0.5
+#
+# Approve by changing `pending` to `approved` (in a PR, or ask Claude).
+# A photo is downloaded only when a post uses it, then recorded in image_ledger.yml.
+# Licence: Pexels licence (https://www.pexels.com/license/), free to use and
+# modify; the photographer is credited on the post anyway.
+photos:
+- id: 7546648
+  scene: viewing-room
+  status: rejected
+  description: Living room with a blue sofa and a wall-mounted TV (no people, nothing on screen)
+  people: false
+  pexels_url: https://www.pexels.com/photo/7546648/
+  photographer: Max Vakhtbovych
+  added: '2026-10-16'
+  note: Was the static-page pick; replaced 20 Oct 2026 (too bright)
+- id: 7587783
+  scene: viewing-room
+  status: rejected
+  description: Contemporary living room with a gray sectional sofa and a wall-mounted TV
+  people: false
+  pexels_url: https://www.pexels.com/photo/7587783/
+  added: '2026-10-16'
+- id: 6580225
+  scene: viewing-room
+  status: rejected
+  description: Modern apartment with a big TV on a white stand near a fireplace
+  people: false
+  pexels_url: https://www.pexels.com/photo/6580225/
+  added: '2026-10-16'
+- id: 20812292
+  scene: viewing-room
+  status: approved
+  description: Stylish living room with a wall-mounted TV, a mirror and modern decor
+  people: false
+  pexels_url: https://www.pexels.com/photo/20812292/
+  added: '2026-10-16'
+- id: 7546717
+  scene: viewing-room
+  status: approved
+  description: Cosy living room with beige walls, flat-screen TV and stylish decor
+  people: false
+  pexels_url: https://www.pexels.com/photo/7546717/
+  added: '2026-10-16'
+- id: 6636320
+  scene: viewing-room
+  status: approved
+  description: TV hanging on a wall between wooden cabinets in front of a sofa
+  people: false
+  pexels_url: https://www.pexels.com/photo/6636320/
+  added: '2026-10-16'
+- id: 6020432
+  scene: viewing-room
+  status: approved
+  description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
+  people: false
+  pexels_url: https://www.pexels.com/photo/6020432/
+  added: '2026-10-16'
+  use: static-pages
+  mood: evening
+  focus: 0.35
+  note: Shared header for the static pages, with the evening grade
+- id: 6934172
+  scene: viewing-room
+  status: rejected
+  description: Modern living room with a TV on a grey wall and a red sofa
+  people: false
+  pexels_url: https://www.pexels.com/photo/6934172/
+  added: '2026-10-16'
+- id: 6588569
+  scene: viewing-room
+  status: rejected
+  description: Modern living room with a sofa and a TV on the wall next to a table
+  people: false
+  pexels_url: https://www.pexels.com/photo/6588569/
+  added: '2026-10-16'
+- id: 7166933
+  scene: viewing-room
+  status: rejected
+  description: Beige living room with a flat-screen TV, sofa and lighting
+  people: false
+  pexels_url: https://www.pexels.com/photo/7166933/
+  added: '2026-10-16'
+- id: 7546718
+  scene: viewing-room
+  status: rejected
+  description: Living room with a beige sofa and wall-mounted TV
+  people: false
+  pexels_url: https://www.pexels.com/photo/7546718/
+  added: '2026-10-16'
+- id: 19899067
+  scene: viewing-room
+  status: approved
+  description: Bright minimal living room with a wall-mounted TV
+  people: false
+  pexels_url: https://www.pexels.com/photo/19899067/
+  added: '2026-10-16'
+- id: 7512034
+  scene: viewing-room
+  status: rejected
+  description: Grey sofa with cushions and a modern TV on a white cabinet
+  people: false
+  pexels_url: https://www.pexels.com/photo/7512034/
+  added: '2026-10-16'
+- id: 8082565
+  scene: viewing-room
+  status: rejected
+  description: Cosy living room with a sofa, wooden floor and soft lighting
+  people: false
+  pexels_url: https://www.pexels.com/photo/8082565/
+  added: '2026-10-16'
+- id: 9807277
+  scene: watching-together
+  status: approved
+  description: Three friends watching a film on a sofa, seen from behind
+  people: true
+  pexels_url: https://www.pexels.com/photo/9807277/
+  added: '2026-10-16'
+- id: 6336665
+  scene: watching-together
+  status: approved
+  description: A couple relaxing with popcorn, watching TV on a sofa
+  people: true
+  pexels_url: https://www.pexels.com/photo/6336665/
+  added: '2026-10-16'
+- id: 8847306
+  scene: watching-together
+  status: approved
+  description: Senior couple watching TV together in a cosy living room
+  people: true
+  pexels_url: https://www.pexels.com/photo/8847306/
+  added: '2026-10-16'
+- id: 12659930
+  scene: watching-together
+  status: approved
+  description: A couple relaxing on a couch holding a remote
+  people: true
+  pexels_url: https://www.pexels.com/photo/12659930/
+  added: '2026-10-16'
+- id: 7801209
+  scene: watching-together
+  status: approved
+  description: Woman on a sofa holding a remote control, snacks nearby
+  people: true
+  pexels_url: https://www.pexels.com/photo/7801209/
+  added: '2026-10-16'
+- id: 9807992
+  scene: watching-together
+  status: approved
+  description: Three friends relaxing and watching TV for a movie night
+  people: true
+  pexels_url: https://www.pexels.com/photo/9807992/
+  added: '2026-10-16'
+- id: 1040160
+  scene: watching-together
+  status: approved
+  description: A couple on a sofa with popcorn and a TV remote
+  people: true
+  pexels_url: https://www.pexels.com/photo/1040160/
+  added: '2026-10-16'
+- id: 22147572
+  scene: watching-together
+  status: rejected
+  description: Two men in a living room watching television
+  people: true
+  pexels_url: https://www.pexels.com/photo/22147572/
+  added: '2026-10-16'
+- id: 8933777
+  scene: laptop-streaming
+  status: approved
+  description: A couple sharing popcorn while watching a laptop
+  people: true
+  pexels_url: https://www.pexels.com/photo/8933777/
+  added: '2026-10-16'
+- id: 9989390
+  scene: laptop-streaming
+  status: approved
+  description: A couple on a sofa under a blanket using a laptop
+  people: true
+  pexels_url: https://www.pexels.com/photo/9989390/
+  added: '2026-10-16'
+- id: 6284970
+  scene: laptop-streaming
+  status: approved
+  description: Young couple with popcorn and coffee watching a computer at home
+  people: true
+  pexels_url: https://www.pexels.com/photo/6284970/
+  added: '2026-10-16'
+- id: 20079937
+  scene: laptop-streaming
+  status: approved
+  description: Laptop on a tray table in a relaxing bedroom, cosy night in
+  people: false
+  pexels_url: https://www.pexels.com/photo/20079937/
+  added: '2026-10-16'
+- id: 8929268
+  scene: laptop-streaming
+  status: approved
+  description: Young woman with headphones on a couch using a laptop
+  people: true
+  pexels_url: https://www.pexels.com/photo/8929268/
+  added: '2026-10-16'
+- id: 21792101
+  scene: remote-closeup
+  status: approved
+  description: Hand using a remote control to operate a television
+  people: false
+  pexels_url: https://www.pexels.com/photo/21792101/
+  added: '2026-10-16'
+- id: 11978739
+  scene: remote-closeup
+  status: approved
+  description: Hand holding a TV remote, focus on the buttons
+  people: false
+  pexels_url: https://www.pexels.com/photo/11978739/
+  added: '2026-10-16'
+- id: 11594553
+  scene: remote-closeup
+  status: approved
+  description: Person holding a remote with a blurred TV screen behind
+  people: false
+  pexels_url: https://www.pexels.com/photo/11594553/
+  added: '2026-10-16'
+- id: 5202924
+  scene: remote-closeup
+  status: approved
+  description: Hands holding a remote control indoors
+  people: false
+  pexels_url: https://www.pexels.com/photo/5202924/
+  added: '2026-10-16'
+- id: 5202957
+  scene: remote-closeup
+  status: rejected
+  description: Person using a TV remote with a blurred TV behind
+  people: false
+  pexels_url: https://www.pexels.com/photo/5202957/
+  added: '2026-10-16'
+- id: 5202959
+  scene: remote-closeup
+  status: approved
+  description: Close-up of a hand holding a TV remote
+  people: false
+  pexels_url: https://www.pexels.com/photo/5202959/
+  added: '2026-10-16'
+- id: 35730055
+  scene: remote-closeup
+  status: approved
+  description: Close-up of a hand holding a TV remote at home
+  people: false
+  pexels_url: https://www.pexels.com/photo/35730055/
+  added: '2026-10-16'
+- id: 5202954
+  scene: remote-closeup
+  status: approved
+  description: Close-up of a person using a TV remote indoors
+  people: false
+  pexels_url: https://www.pexels.com/photo/5202954/
+  added: '2026-10-16'
+- id: 11899616
+  scene: remote-closeup
+  status: approved
+  description: Hands cleaning a TV remote with a cloth
+  people: false
+  pexels_url: https://www.pexels.com/photo/11899616/
+  added: '2026-10-16'
+- id: 23495476
+  scene: sport-viewing
+  status: approved
+  description: Three friends watching a match at home with snacks
+  people: true
+  pexels_url: https://www.pexels.com/photo/23495476/
+  added: '2026-10-16'
+- id: 23495484
+  scene: sport-viewing
+  status: rejected
+  description: Group of adults cheering at a sports event on TV
+  people: true
+  pexels_url: https://www.pexels.com/photo/23495484/
+  added: '2026-10-16'
+- id: 23495473
+  scene: sport-viewing
+  status: approved
+  description: Group of friends cheering at a game in a cosy living room
+  people: true
+  pexels_url: https://www.pexels.com/photo/23495473/
+  added: '2026-10-16'
+- id: 39191583
+  scene: sport-viewing
+  status: approved
+  description: Senior men watching a match at home with snacks
+  people: true
+  pexels_url: https://www.pexels.com/photo/39191583/
+  added: '2026-10-16'
+- id: 6557551
+  scene: sport-viewing
+  status: rejected
+  description: Father and son watching a hockey game on TV
+  people: true
+  pexels_url: https://www.pexels.com/photo/6557551/
+  added: '2026-10-16'
+- id: 5581856
+  scene: stadium
+  status: rejected
+  description: Stadium floodlights against a clear blue sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/5581856/
+  added: '2026-10-16'
+- id: 10996090
+  scene: stadium
+  status: rejected
+  description: Modern outdoor stadium floodlights against a blue sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/10996090/
+  added: '2026-10-16'
+- id: 32471031
+  scene: stadium
+  status: rejected
+  description: Stadium floodlights against a colourful sunset
+  people: false
+  pexels_url: https://www.pexels.com/photo/32471031/
+  added: '2026-10-16'
+- id: 1646735
+  scene: stadium
+  status: approved
+  description: Football pitch lit by floodlights at dusk
+  people: false
+  pexels_url: https://www.pexels.com/photo/1646735/
+  added: '2026-10-16'
+- id: 12575213
+  scene: stadium
+  status: approved
+  description: Brightly lit football pitch at night
+  people: false
+  pexels_url: https://www.pexels.com/photo/12575213/
+  added: '2026-10-16'
+- id: 28827841
+  scene: stadium
+  status: approved
+  description: Empty stadium with green pitch under lights at night
+  people: false
+  pexels_url: https://www.pexels.com/photo/28827841/
+  added: '2026-10-16'
+- id: 32471032
+  scene: stadium
+  status: rejected
+  description: Stadium floodlights at twilight
+  people: false
+  pexels_url: https://www.pexels.com/photo/32471032/
+  added: '2026-10-16'
+- id: 32761357
+  scene: stadium
+  status: approved
+  description: Aerial night shot of a lit football pitch
+  people: false
+  pexels_url: https://www.pexels.com/photo/32761357/
+  added: '2026-10-16'
+- id: 29711663
+  scene: router-network
+  status: approved
+  description: White wireless router with four antennas and soft light
+  people: false
+  pexels_url: https://www.pexels.com/photo/29711663/
+  added: '2026-10-16'
+- id: 32698507
+  scene: router-network
+  status: approved
+  description: Wi-Fi router with antennas and a cable on a wooden desk
+  people: false
+  pexels_url: https://www.pexels.com/photo/32698507/
+  added: '2026-10-16'
+- id: 37717004
+  scene: router-network
+  status: approved
+  description: Ethernet ports with cables and a lit LED
+  people: false
+  pexels_url: https://www.pexels.com/photo/37717004/
+  added: '2026-10-16'
+- id: 18071864
+  scene: router-network
+  status: approved
+  description: Home setup with a router next to a television
+  people: false
+  pexels_url: https://www.pexels.com/photo/18071864/
+  added: '2026-10-16'
+- id: 4779730
+  scene: router-network
+  status: rejected
+  description: HDMI, ethernet and audio cables connected to a device
+  people: false
+  pexels_url: https://www.pexels.com/photo/4779730/
+  added: '2026-10-16'
+- id: 12997230
+  scene: cables-hdmi
+  status: approved
+  description: Black HDMI cable with gold connectors on white
+  people: false
+  pexels_url: https://www.pexels.com/photo/12997230/
+  added: '2026-10-16'
+- id: 33693716
+  scene: cables-hdmi
+  status: approved
+  description: Coiled black HDMI cable on a yellow surface
+  people: false
+  pexels_url: https://www.pexels.com/photo/33693716/
+  added: '2026-10-16'
+- id: 39579091
+  scene: cables-hdmi
+  status: approved
+  description: Ports on a media device including HDMI and USB
+  people: false
+  pexels_url: https://www.pexels.com/photo/39579091/
+  added: '2026-10-16'
+- id: 275143
+  scene: cables-hdmi
+  status: approved
+  description: Audio and video cables plugged into a wall socket
+  people: false
+  pexels_url: https://www.pexels.com/photo/275143/
+  added: '2026-10-16'
+- id: 97975
+  scene: cables-hdmi
+  status: approved
+  description: Coiled ethernet cable with a connector on teal
+  people: false
+  pexels_url: https://www.pexels.com/photo/97975/
+  added: '2026-10-16'
+- id: 11666983
+  scene: aerial-roof
+  status: approved
+  description: Rooftop with chimneys and TV aerials under a cloudy sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/11666983/
+  added: '2026-10-16'
+- id: 18895374
+  scene: aerial-roof
+  status: rejected
+  description: TV aerial on top of a white building, blue sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/18895374/
+  added: '2026-10-16'
+- id: 34578735
+  scene: aerial-roof
+  status: approved
+  description: Several TV aerials on a rooftop under a blue sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/34578735/
+  added: '2026-10-16'
+- id: 12201237
+  scene: aerial-roof
+  status: approved
+  description: Rooftop aerials and chimneys against a cloudy sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/12201237/
+  added: '2026-10-16'
+- id: 35030435
+  scene: aerial-roof
+  status: rejected
+  description: Snow-covered Yagi aerial under a cloudy sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/35030435/
+  added: '2026-10-16'
+- id: 5790645
+  scene: aerial-roof
+  status: approved
+  description: Satellite dish pointing at a blue sky
+  people: false
+  pexels_url: https://www.pexels.com/photo/5790645/
+  added: '2026-10-16'
+- id: 9902128
+  scene: tv-trouble
+  status: approved
+  description: Dim living room with static on the TV and curtains drawn
+  people: false
+  pexels_url: https://www.pexels.com/photo/9902128/
+  added: '2026-10-16'
+- id: 36766039
+  scene: sport-viewing
+  status: approved
+  description: Excited friends cheering while watching a sports game on TV, holding flags and snacks.
+  people: true
+  pexels_url: https://www.pexels.com/photo/group-of-friends-celebrating-watching-sports-indoors-36766039/
+  photographer: Vitaly Gariev
+  added: '2026-10-19'
+  note: 'Picked by the old live search for the Champions Cup post (merged in PR #107) before the shortlist existed'

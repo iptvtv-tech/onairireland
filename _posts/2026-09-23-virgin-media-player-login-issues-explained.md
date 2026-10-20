@@ -9,8 +9,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/posts/virgin-media-player-login-issues-explained-hero.jpg
-  teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.jpg
+  overlay_image: /assets/images/posts/virgin-media-player-login-issues-explained-hero.webp
+  overlay_image_small: /assets/images/posts/virgin-media-player-login-issues-explained-hero-800.webp
+  teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.webp
   og_image: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
 seo:
   type: HowTo

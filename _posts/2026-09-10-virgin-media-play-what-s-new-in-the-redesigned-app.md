@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero.jpg
-  teaser: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-teaser.jpg
+  overlay_image: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero.webp
+  overlay_image_small: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero-800.webp
+  teaser: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-teaser.webp
   og_image: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-og.jpg
 seo:
   type: Article

@@ -1,0 +1,33 @@
+# Photos to apply to existing posts or the static pages. Each entry is processed
+# by scripts/apply_photos.py (workflow "Apply photos"), which opens a PR and then
+# removes the entry. Use `photo: <approved shortlist id>` or `scene: <scene>`.
+# target: static-pages applies one photo to every page using the shared header.
+assignments:
+- target: static-pages
+  photo: 6020432
+- target: _posts/2026-09-04-legal-streaming-services-ireland-2026.md
+  scene: viewing-room
+- target: _posts/2026-09-10-chromecast-vs-fire-tv-stick-which-is-better-for-irish-viewers.md
+  scene: cables-hdmi
+- target: _posts/2026-09-10-how-to-set-up-virgin-media-player-on-a-samsung-smart-tv.md
+  scene: viewing-room
+- target: _posts/2026-09-10-is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for.md
+  scene: watching-together
+- target: _posts/2026-09-11-gaa-all-ireland-finals-where-to-watch-every-match-legally.md
+  scene: stadium
+- target: _posts/2026-09-12-apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers.md
+  scene: viewing-room
+- target: _posts/2026-09-12-disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026.md
+  scene: watching-together
+- target: _posts/2026-09-13-how-to-fix-common-sky-stream-remote-and-pairing-issues.md
+  scene: remote-closeup
+- target: _posts/2026-09-13-where-to-watch-the-bear-legally-in-ireland.md
+  scene: watching-together
+- target: _posts/2026-09-14-where-to-watch-squid-game-legally-in-ireland.md
+  scene: laptop-streaming
+- target: _posts/2026-09-16-sony-s-live-tv-on-ps5-what-it-is-and-is-it-coming-to-ireland.md
+  scene: viewing-room
+- target: _posts/2026-09-22-5-hidden-gems-on-tg4-player.md
+  scene: watching-together
+- target: _posts/2026-10-16-where-to-watch-irelands-november-rugby-internationals.md
+  scene: sport-viewing

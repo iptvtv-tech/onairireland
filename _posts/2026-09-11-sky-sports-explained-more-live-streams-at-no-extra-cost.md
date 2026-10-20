@@ -7,8 +7,9 @@ categories:
 tags:
   - streaming-services
 header:
-  overlay_image: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero.jpg
-  teaser: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-teaser.jpg
+  overlay_image: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero.webp
+  overlay_image_small: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero-800.webp
+  teaser: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-teaser.webp
   og_image: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-og.jpg
 seo:
   type: Article

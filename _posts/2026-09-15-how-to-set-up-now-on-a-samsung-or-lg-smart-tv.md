@@ -7,8 +7,9 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero.jpg
-  teaser: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-teaser.jpg
+  overlay_image: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-hero-800.webp
+  teaser: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-now-on-a-samsung-or-lg-smart-tv-og.jpg
 seo:
   type: Article

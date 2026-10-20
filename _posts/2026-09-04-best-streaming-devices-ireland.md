@@ -13,8 +13,9 @@ tags:
   - amazon fire tv
   - apple tv
 header:
-  overlay_image: /assets/images/posts/best-streaming-devices-ireland-hero.jpg
-  teaser: /assets/images/posts/best-streaming-devices-ireland-teaser.jpg
+  overlay_image: /assets/images/posts/best-streaming-devices-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/best-streaming-devices-ireland-hero-800.webp
+  teaser: /assets/images/posts/best-streaming-devices-ireland-teaser.webp
   og_image: /assets/images/posts/best-streaming-devices-ireland-og.jpg
 seo:
   type: Article

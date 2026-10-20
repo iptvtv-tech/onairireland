@@ -7,8 +7,9 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.jpg
-  teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.jpg
+  overlay_image: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero.webp
+  overlay_image_small: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero-800.webp
+  teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.webp
   og_image: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
 seo:
   type: Article

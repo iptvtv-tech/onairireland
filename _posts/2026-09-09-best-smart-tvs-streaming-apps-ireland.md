@@ -11,8 +11,9 @@ tags:
   - android tv
   - buying guide
 header:
-  overlay_image: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero.jpg
-  teaser: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-teaser.jpg
+  overlay_image: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero-800.webp
+  teaser: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-teaser.webp
   og_image: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-og.jpg
 seo:
   type: Article

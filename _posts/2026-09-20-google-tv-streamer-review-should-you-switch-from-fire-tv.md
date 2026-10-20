@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.jpg
-  teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.jpg
+  overlay_image: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero.webp
+  overlay_image_small: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero-800.webp
+  teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.webp
   og_image: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-og.jpg
 seo:
   type: Article

@@ -7,8 +7,9 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.jpg
-  teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.jpg
+  overlay_image: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero.webp
+  overlay_image_small: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero-800.webp
+  teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.webp
   og_image: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
 seo:
   type: Article

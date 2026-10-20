@@ -7,8 +7,9 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/posts/virgin-media-play-keeps-crashing-hero.jpg
-  teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.jpg
+  overlay_image: /assets/images/posts/virgin-media-play-keeps-crashing-hero.webp
+  overlay_image_small: /assets/images/posts/virgin-media-play-keeps-crashing-hero-800.webp
+  teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.webp
   og_image: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
 seo:
   type: HowTo

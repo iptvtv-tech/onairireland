@@ -1,0 +1,49 @@
+name: Apply Photos
+
+# Applies the entries in _data/photo_assignments.yml (photos from the approved
+# shortlist, or a brand card when none fits) and opens a PR for review.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_data/photo_assignments.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests pyyaml pillow
+      - name: Apply photo assignments
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python scripts/apply_photos.py
+      # PRs opened with GITHUB_TOKEN don't trigger other workflows, so check here.
+      - name: Check post front matter
+        run: python scripts/check_posts.py
+      - name: Open Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Apply photos from the approved shortlist"
+          branch: "auto-photos/${{ github.run_number }}"
+          title: "[Photos] New header images from the approved shortlist"
+          body: |
+            Photos from `_data/photo_shortlist.yml` (status: approved), downloaded once, treated
+            and self-hosted. Posts with no approved photo for their scene got a brand card.
+
+            Before merging, open the changed images in the "Files changed" tab and check:
+            - [ ] Each photo suits its post and has no readable logo, brand or app on screen
+            - [ ] The crop looks right (set `focus:` on the shortlist entry and re-run if not)
+            - [ ] Each photo post has a "Photo: … on Pexels" credit in `header.caption`
+          labels: |
+            photos
+            needs-review

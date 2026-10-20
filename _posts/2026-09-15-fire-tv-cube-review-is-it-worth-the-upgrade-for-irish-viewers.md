@@ -7,8 +7,9 @@ categories:
 tags:
   - reviews
 header:
-  overlay_image: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero.jpg
-  teaser: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-teaser.jpg
+  overlay_image: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero.webp
+  overlay_image_small: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-hero-800.webp
+  teaser: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-teaser.webp
   og_image: /assets/images/posts/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers-og.jpg
 seo:
   type: Article

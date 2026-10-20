@@ -10,7 +10,11 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POSTS = os.path.join(ROOT, "_posts")
 LEDGER = os.path.join(ROOT, "_data", "image_ledger.yml")
+SHORTLIST = os.path.join(ROOT, "_data", "photo_shortlist.yml")
 POST_IMAGES = os.path.join(ROOT, "assets", "images", "posts")
+PAGE_IMAGES = os.path.join(ROOT, "assets", "images", "pages")
+SCENES = {"viewing-room", "watching-together", "laptop-streaming", "remote-closeup", "sport-viewing",
+          "stadium", "router-network", "cables-hdmi", "aerial-roof", "tv-trouble"}
 VALID_CATEGORIES = {
     "Streaming-Services", "Devices", "Installation-Guides", "News",
     "Reviews", "Sports-Streaming", "Troubleshooting", "Watch-Guides",
@@ -54,8 +58,14 @@ for kind in ("cards", "photos"):
         for f in (entry.get("files") or {}).values():
             ledger_files[image_identity(f)] = (kind, entry)
 
+try:
+    shortlist = (yaml.safe_load(open(SHORTLIST, encoding="utf-8")) or {}).get("photos") or []
+except FileNotFoundError:
+    shortlist = []
+
 image_users = {}  # identity -> [post names]
 pexels_hotlinks = 0
+legacy_images = 0
 for name in sorted(os.listdir(POSTS)):
     if not name.endswith(".md"):
         continue
@@ -91,7 +101,7 @@ for name in sorted(os.listdir(POSTS)):
         errors.append(f"{name}: contains a placeholder (AFFILIATE_LINK_ or TODO)")
     header = fm.get("header") or {}
     seen_here = set()
-    for key in ("overlay_image", "teaser", "og_image"):
+    for key in ("overlay_image", "overlay_image_small", "teaser", "og_image"):
         url = str(header.get(key) or "").strip()
         if not url:
             continue
@@ -118,18 +128,21 @@ for name in sorted(os.listdir(POSTS)):
                 image_users.setdefault(ident, []).append(name)
     hero = str(header.get("overlay_image") or "")
     entry = ledger_files.get(image_identity(hero)) if hero else None
-    if entry and entry[0] == "photos" and not header.get("caption"):
-        errors.append(f"{name}: photo header needs a credit in header.caption")
+    if entry and entry[0] == "photos" and "Pexels" not in str(header.get("caption") or ""):
+        errors.append(f"{name}: photo header needs a 'Photo: ... on Pexels' credit in header.caption")
+    if re.search(r"/assets/images/(headers|teasers)/", hero):
+        legacy_images += 1
 
 for ident, users in sorted(image_users.items()):
     if len(users) > 1:
         errors.append(f"image used by {len(users)} posts ({', '.join(u[:10] for u in users)}): {ident}")
 
 # Ledger integrity: every generated image is recorded, and nothing recorded is missing.
-if os.path.isdir(POST_IMAGES):
-    on_disk = {"/assets/images/posts/" + f for f in os.listdir(POST_IMAGES) if not f.startswith(".")}
-    for path in sorted(on_disk - set(ledger_files)):
-        errors.append(f"{path}: in assets/images/posts but not listed in _data/image_ledger.yml")
+for folder, web in ((POST_IMAGES, "/assets/images/posts/"), (PAGE_IMAGES, "/assets/images/pages/")):
+    if os.path.isdir(folder):
+        on_disk = {web + f for f in os.listdir(folder) if not f.startswith(".")}
+        for path in sorted(on_disk - set(ledger_files)):
+            errors.append(f"{path}: in {web.strip('/')} but not listed in _data/image_ledger.yml")
 for ident in sorted(i for i in ledger_files if i.startswith("/") and not os.path.exists(os.path.join(ROOT, i.lstrip("/")))):
     errors.append(f"ledger lists a file that does not exist: {ident}")
 fingerprints = [c.get("fingerprint") for c in ledger.get("cards", []) or []]
@@ -138,6 +151,22 @@ if len(fingerprints) != len(set(fingerprints)):
 photo_ids = [p.get("pexels_id") for p in ledger.get("photos", []) or []]
 if len(photo_ids) != len(set(photo_ids)):
     errors.append("image_ledger.yml: the same Pexels photo is recorded twice")
+# Photo shortlist: only approved photos may be used, and entries must be valid.
+statuses = {}
+for e in shortlist:
+    pid = str(e.get("id"))
+    if pid in statuses:
+        errors.append(f"photo_shortlist.yml: photo {pid} is listed twice")
+    statuses[pid] = e.get("status")
+    if e.get("status") not in ("pending", "approved", "rejected"):
+        errors.append(f"photo_shortlist.yml: photo {pid} has unknown status {e.get('status')!r}")
+    if e.get("scene") not in SCENES:
+        errors.append(f"photo_shortlist.yml: photo {pid} has unknown scene {e.get('scene')!r}")
+for p in ledger.get("photos", []) or []:
+    if statuses.get(str(p.get("pexels_id"))) != "approved":
+        errors.append(f"image_ledger.yml: photo {p.get('pexels_id')} is used but not approved in photo_shortlist.yml")
+if legacy_images:
+    warnings.append(f"{legacy_images} post(s) still use old shared header/teaser images; see _data/photo_assignments.yml")
 if pexels_hotlinks:
     warnings.append(f"{pexels_hotlinks} post(s) still hotlink Pexels images (older posts; new posts self-host)")
 

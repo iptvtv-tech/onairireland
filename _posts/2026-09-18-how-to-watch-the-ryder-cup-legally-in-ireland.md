@@ -9,8 +9,9 @@ categories:
 tags:
   - sports-streaming
 header:
-  overlay_image: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.jpg
-  teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.jpg
+  overlay_image: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-hero-800.webp
+  teaser: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/how-to-watch-the-ryder-cup-legally-in-ireland-og.jpg
 seo:
   type: Article
