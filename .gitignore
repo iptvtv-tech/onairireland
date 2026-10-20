@@ -1,2 +1,10 @@
 __pycache__/
 photo_review.md
+
+# Local Jekyll build output and gem files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+.bundle/
+vendor/
