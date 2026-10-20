@@ -7,8 +7,11 @@ categories:
 tags:
   - troubleshooting
 header:
-  overlay_image: /assets/images/headers/troubleshooting.jpg
-  teaser: /assets/images/headers/troubleshooting.jpg
+  overlay_image: /assets/images/posts/how-to-fix-common-sky-stream-remote-and-pairing-issues-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-fix-common-sky-stream-remote-and-pairing-issues-hero-800.webp
+  teaser: /assets/images/posts/how-to-fix-common-sky-stream-remote-and-pairing-issues-teaser.webp
+  og_image: /assets/images/posts/how-to-fix-common-sky-stream-remote-and-pairing-issues-og.jpg
+  caption: 'Photo: [Image Hunter](https://www.pexels.com/photo/changing-tv-channels-with-the-remote-control-21792101/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

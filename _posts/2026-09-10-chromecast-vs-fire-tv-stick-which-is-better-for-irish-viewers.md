@@ -7,8 +7,11 @@ categories:
 tags:
   - devices
 header:
-  overlay_image: /assets/images/headers/devices.jpg
-  teaser: /assets/images/headers/devices.jpg
+  overlay_image: /assets/images/posts/chromecast-vs-fire-tv-stick-which-is-better-for-irish-viewers-hero.webp
+  overlay_image_small: /assets/images/posts/chromecast-vs-fire-tv-stick-which-is-better-for-irish-viewers-hero-800.webp
+  teaser: /assets/images/posts/chromecast-vs-fire-tv-stick-which-is-better-for-irish-viewers-teaser.webp
+  og_image: /assets/images/posts/chromecast-vs-fire-tv-stick-which-is-better-for-irish-viewers-og.jpg
+  caption: 'Photo: [Srattha Nualsate](https://www.pexels.com/photo/close-up-shot-of-an-hdmi-cable-12997230/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

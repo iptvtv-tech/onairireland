@@ -7,8 +7,11 @@ categories:
 tags:
   - installation-guides
 header:
-  overlay_image: /assets/images/headers/installation-guides.jpg
-  teaser: /assets/images/headers/installation-guides.jpg
+  overlay_image: /assets/images/posts/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv-hero.webp
+  overlay_image_small: /assets/images/posts/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv-hero-800.webp
+  teaser: /assets/images/posts/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv-teaser.webp
+  og_image: /assets/images/posts/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv-og.jpg
+  caption: 'Photo: [Max Vakhtbovych](https://www.pexels.com/photo/retro-style-living-room-with-patterned-curtains-and-large-tv-screen-7546717/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

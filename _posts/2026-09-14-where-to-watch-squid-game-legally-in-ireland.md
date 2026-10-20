@@ -7,8 +7,11 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: /assets/images/teasers/watch-guide-4.jpg
-  teaser: /assets/images/teasers/watch-guide-4.jpg
+  overlay_image: /assets/images/posts/where-to-watch-squid-game-legally-in-ireland-hero.webp
+  overlay_image_small: /assets/images/posts/where-to-watch-squid-game-legally-in-ireland-hero-800.webp
+  teaser: /assets/images/posts/where-to-watch-squid-game-legally-in-ireland-teaser.webp
+  og_image: /assets/images/posts/where-to-watch-squid-game-legally-in-ireland-og.jpg
+  caption: 'Photo: [Sara mazin](https://www.pexels.com/photo/a-laptop-in-a-bedroom-20079937/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

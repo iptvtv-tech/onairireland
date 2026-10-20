@@ -7,11 +7,12 @@ excerpt: "Three steps to a legal streaming setup that suits you, and costs no mo
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/pages/site-hero-hero.webp
+  overlay_image_small: /assets/images/pages/site-hero-hero-800.webp
+  teaser: /assets/images/pages/site-hero-teaser.webp
+  image_description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
   overlay_filter: 0.5
-  teaser: /assets/images/teasers/streaming-8.jpg
   og_image: /assets/images/social-home.jpg
-  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 On Air Ireland explains the legal ways to watch TV, films and sport in Ireland: what each service costs, what you need to watch it, and how to fix it when it stops working. No unofficial IPTV, no VPN tricks. If you're new here, these three steps are the quickest way to a setup that works.

@@ -15,8 +15,11 @@ tags:
   - now
   - gaa
 header:
-  overlay_image: /assets/images/teasers/streaming-1.jpg
-  teaser: /assets/images/teasers/streaming-1.jpg
+  overlay_image: /assets/images/posts/legal-streaming-services-ireland-2026-hero.webp
+  overlay_image_small: /assets/images/posts/legal-streaming-services-ireland-2026-hero-800.webp
+  teaser: /assets/images/posts/legal-streaming-services-ireland-2026-teaser.webp
+  og_image: /assets/images/posts/legal-streaming-services-ireland-2026-og.jpg
+  caption: "Photo: [Th\u1EDBi Nam Cao](https://www.pexels.com/photo/tv-on-shelf-in-room-20812292/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true

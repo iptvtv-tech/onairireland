@@ -9,11 +9,12 @@ excerpt: "Every legal way to watch GAA in Ireland, in one place."
 seo:
   type: WebPage
 header:
-  overlay_image: /assets/images/teasers/streaming-8.jpg
+  overlay_image: /assets/images/pages/site-hero-hero.webp
+  overlay_image_small: /assets/images/pages/site-hero-hero-800.webp
+  teaser: /assets/images/pages/site-hero-teaser.webp
+  image_description: Minimalist living room with a wall-mounted flat-screen TV and wooden console
   overlay_filter: 0.5
-  teaser: /assets/images/teasers/streaming-8.jpg
   og_image: /assets/images/social-home.jpg
-  image_description: "A living room TV showing a streaming app home screen"
 ---
 
 GAA championship games in Ireland are split between free-to-air TV (RTÉ and TG4) and the GAA's own paid streaming service, GAA+. Games are picked match by match, not by which county is playing, so check the fixture before you settle in.

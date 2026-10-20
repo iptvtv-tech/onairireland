@@ -7,8 +7,11 @@ categories:
 tags:
   - watch-guides
 header:
-  overlay_image: assets/images/teasers/watch-guide-7.webp
-  teaser: assets/images/teasers/watch-guide-7.webp
+  overlay_image: /assets/images/posts/5-hidden-gems-on-tg4-player-hero.webp
+  overlay_image_small: /assets/images/posts/5-hidden-gems-on-tg4-player-hero-800.webp
+  teaser: /assets/images/posts/5-hidden-gems-on-tg4-player-teaser.webp
+  og_image: /assets/images/posts/5-hidden-gems-on-tg4-player-og.jpg
+  caption: "Photo: [BOOM \U0001F4A5 Photography](https://www.pexels.com/photo/a-couple-sitting-on-a-brown-single-couch-together-12659930/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true
