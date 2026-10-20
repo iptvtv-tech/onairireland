@@ -13,6 +13,7 @@ header:
   overlay_image_small: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-hero-800.webp
   teaser: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-teaser.webp
   og_image: /assets/images/posts/netflix-ireland-price-changes-for-2026-what-you-need-to-know-og.jpg
+  caption: 'Photo: [Max Vakhtbovych](https://www.pexels.com/photo/modern-interior-of-lounge-with-tv-and-picture-in-daytime-6782360/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

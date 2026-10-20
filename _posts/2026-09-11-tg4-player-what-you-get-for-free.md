@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/tg4-player-what-you-get-for-free-hero-800.webp
   teaser: /assets/images/posts/tg4-player-what-you-get-for-free-teaser.webp
   og_image: /assets/images/posts/tg4-player-what-you-get-for-free-og.jpg
+  caption: 'Photo: [Max Vakhtbovych](https://www.pexels.com/photo/comfortable-furniture-in-contemporary-living-room-8089078/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

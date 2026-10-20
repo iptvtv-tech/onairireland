@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-hero-800.webp
   teaser: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-teaser.webp
   og_image: /assets/images/posts/roku-streaming-devices-are-they-worth-buying-in-ireland-og.jpg
+  caption: 'Photo: [Markus Spiske](https://www.pexels.com/photo/cable-lan-rj-45-ethernet-97975/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

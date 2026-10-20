@@ -15,6 +15,7 @@ header:
   overlay_image_small: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-hero-800.webp
   teaser: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-teaser.webp
   og_image: /assets/images/posts/best-smart-tvs-streaming-apps-ireland-og.jpg
+  caption: 'Photo: [Towfiqu barbhuiya](https://www.pexels.com/photo/person-holding-black-remote-control-11978739/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

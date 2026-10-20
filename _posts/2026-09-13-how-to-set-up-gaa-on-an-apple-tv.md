@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-hero-800.webp
   teaser: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-teaser.webp
   og_image: /assets/images/posts/how-to-set-up-gaa-on-an-apple-tv-og.jpg
+  caption: 'Photo: [Pixabay](https://www.pexels.com/photo/red-and-black-jack-cable-275143/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

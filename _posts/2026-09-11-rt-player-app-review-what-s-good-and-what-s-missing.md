@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-hero-800.webp
   teaser: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-teaser.webp
   og_image: /assets/images/posts/rt-player-app-review-what-s-good-and-what-s-missing-og.jpg
+  caption: 'Photo: [Towfiqu barbhuiya](https://www.pexels.com/photo/person-holding-black-remote-control-11594553/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

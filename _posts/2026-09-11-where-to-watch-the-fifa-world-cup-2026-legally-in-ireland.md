@@ -13,6 +13,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-the-fifa-world-cup-2026-legally-in-ireland-og.jpg
+  caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/two-senior-men-enjoying-a-soccer-game-in-living-room-39191583/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -15,6 +15,7 @@ header:
   overlay_image_small: /assets/images/posts/tv-licence-streaming-ireland-hero-800.webp
   teaser: /assets/images/posts/tv-licence-streaming-ireland-teaser.webp
   og_image: /assets/images/posts/tv-licence-streaming-ireland-og.jpg
+  caption: 'Photo: [Mateusz Pielech](https://www.pexels.com/photo/modern-living-room-with-wall-mounted-tv-39338464/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

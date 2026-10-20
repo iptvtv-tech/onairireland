@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero-800.webp
   teaser: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-teaser.webp
   og_image: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-og.jpg
+  caption: 'Photo: [Pixabay](https://www.pexels.com/photo/brown-fabric-sectional-sofa-275484/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true
