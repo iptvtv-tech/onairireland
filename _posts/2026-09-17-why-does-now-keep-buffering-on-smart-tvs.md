@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero-800.webp
   teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.webp
   og_image: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
+  caption: "Photo: [Pascal \U0001F4F7](https://www.pexels.com/photo/modern-wifi-6-router-on-wooden-desk-32698507/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true

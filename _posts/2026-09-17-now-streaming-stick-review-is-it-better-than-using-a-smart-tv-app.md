@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-hero-800.webp
   teaser: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-teaser.webp
   og_image: /assets/images/posts/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app-og.jpg
+  caption: 'Photo: [Curtis Adams](https://www.pexels.com/photo/tv-in-front-of-sofa-in-living-room-24245798/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-hero-800.webp
   teaser: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-teaser.webp
   og_image: /assets/images/posts/virgin-media-play-vs-rt-player-free-irish-streaming-compared-og.jpg
+  caption: "Photo: [G\xFCl\u015Fah Aydo\u011Fan](https://www.pexels.com/photo/woman-relaxing-with-laptop-19488623/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true

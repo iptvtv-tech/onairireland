@@ -12,6 +12,7 @@ header:
   overlay_image_small: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-hero-800.webp
   teaser: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-teaser.webp
   og_image: /assets/images/posts/team-ireland-at-the-world-handball-championships-in-new-york-og.jpg
+  caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/diverse-group-cheering-watching-tv-indoors-36766083/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

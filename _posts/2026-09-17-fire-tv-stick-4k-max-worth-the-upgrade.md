@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-hero-800.webp
   teaser: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-teaser.webp
   og_image: /assets/images/posts/fire-tv-stick-4k-max-worth-the-upgrade-og.jpg
+  caption: 'Photo: [https://kaboompics.com/](https://www.pexels.com/photo/person-holding-a-black-remote-control-5202959/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

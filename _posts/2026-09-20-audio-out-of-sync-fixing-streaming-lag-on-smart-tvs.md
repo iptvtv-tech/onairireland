@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-hero-800.webp
   teaser: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-teaser.webp
   og_image: /assets/images/posts/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs-og.jpg
+  caption: 'Photo: [Rann Vijay](https://www.pexels.com/photo/close-up-shot-of-a-usb-port-beside-a-laptop-7742582/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero-800.webp
   teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.webp
   og_image: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
+  caption: 'Photo: [Castorly Stock](https://www.pexels.com/photo/close-up-photo-of-laptop-s-usb-ports-4065705/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

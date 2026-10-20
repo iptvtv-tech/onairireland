@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland-og.jpg
+  caption: 'Photo: [cottonbro studio](https://www.pexels.com/photo/man-and-woman-sitting-on-couch-4009040/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

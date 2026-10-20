@@ -13,6 +13,7 @@ header:
   overlay_image_small: /assets/images/posts/is-peacock-ever-coming-to-ireland-hero-800.webp
   teaser: /assets/images/posts/is-peacock-ever-coming-to-ireland-teaser.webp
   og_image: /assets/images/posts/is-peacock-ever-coming-to-ireland-og.jpg
+  caption: 'Photo: [Ron Lach](https://www.pexels.com/photo/friends-watching-a-show-9627169/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

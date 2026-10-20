@@ -13,6 +13,7 @@ header:
   overlay_image_small: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-hero-800.webp
   teaser: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-teaser.webp
   og_image: /assets/images/posts/solheim-cup-2026-where-irish-fans-can-watch-live-og.jpg
+  caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/couple-relaxing-on-sofa-watching-tv-39219908/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

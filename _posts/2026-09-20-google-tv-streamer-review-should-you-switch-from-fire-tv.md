@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-hero-800.webp
   teaser: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-teaser.webp
   og_image: /assets/images/posts/google-tv-streamer-review-should-you-switch-from-fire-tv-og.jpg
+  caption: 'Photo: [https://kaboompics.com/](https://www.pexels.com/photo/person-pressing-the-button-of-a-remote-control-5202954/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

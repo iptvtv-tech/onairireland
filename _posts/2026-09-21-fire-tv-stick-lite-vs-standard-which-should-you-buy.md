@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero-800.webp
   teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.webp
   og_image: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
+  caption: 'Photo: [Geri Tech](https://www.pexels.com/photo/person-holding-a-remote-controller-14159466/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

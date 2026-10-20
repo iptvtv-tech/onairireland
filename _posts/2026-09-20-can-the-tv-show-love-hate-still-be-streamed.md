@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-hero-800.webp
   teaser: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-teaser.webp
   og_image: /assets/images/posts/can-the-tv-show-love-hate-still-be-streamed-og.jpg
+  caption: 'Photo: [Kampus Production](https://www.pexels.com/photo/an-eldery-couple-watching-television-together-7477710/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

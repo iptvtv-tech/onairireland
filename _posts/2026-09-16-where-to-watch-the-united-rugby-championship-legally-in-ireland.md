@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-the-united-rugby-championship-legally-in-ireland-og.jpg
+  caption: 'Photo: [Magda Ehlers](https://www.pexels.com/photo/vibrant-rugby-match-at-sunset-in-stadium-32471037/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-wednesday-season-2-legally-in-ireland-og.jpg
+  caption: 'Photo: [JESHOOTS.com](https://www.pexels.com/photo/man-holding-remote-control-1040160/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

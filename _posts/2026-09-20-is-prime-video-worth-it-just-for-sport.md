@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/is-prime-video-worth-it-just-for-sport-hero-800.webp
   teaser: /assets/images/posts/is-prime-video-worth-it-just-for-sport-teaser.webp
   og_image: /assets/images/posts/is-prime-video-worth-it-just-for-sport-og.jpg
+  caption: 'Photo: [Tima Miroshnichenko](https://www.pexels.com/photo/a-couple-sitting-side-by-side-watching-tv-5813744/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

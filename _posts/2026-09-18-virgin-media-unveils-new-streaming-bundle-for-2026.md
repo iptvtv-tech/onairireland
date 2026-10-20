@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-hero-800.webp
   teaser: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-teaser.webp
   og_image: /assets/images/posts/virgin-media-unveils-new-streaming-bundle-for-2026-og.jpg
+  caption: 'Photo: [SHVETS production](https://www.pexels.com/photo/a-woman-wearing-jacket-using-a-laptop-while-sitting-on-the-couch-8929268/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

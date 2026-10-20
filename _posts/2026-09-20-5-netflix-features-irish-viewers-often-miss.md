@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-hero-800.webp
   teaser: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-teaser.webp
   og_image: /assets/images/posts/5-netflix-features-irish-viewers-often-miss-og.jpg
+  caption: 'Photo: [SHVETS production](https://www.pexels.com/photo/close-up-photo-of-people-holding-popcorn-8972769/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

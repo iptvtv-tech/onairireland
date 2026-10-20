@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-hero-800.webp
   teaser: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-teaser.webp
   og_image: /assets/images/posts/setting-up-eir-vision-on-a-new-smart-tv-og.jpg
+  caption: 'Photo: [panumas nikhomkhai](https://www.pexels.com/photo/close-up-of-plugged-in-ethernet-ports-with-led-37717004/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true
