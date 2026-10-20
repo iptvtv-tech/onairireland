@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-watch-tv-show-father-ted-hero-800.webp
   teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.webp
   og_image: /assets/images/posts/how-to-watch-tv-show-father-ted-og.jpg
+  caption: 'Photo: [cottonbro studio](https://www.pexels.com/photo/couple-love-sitting-evening-4009758/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

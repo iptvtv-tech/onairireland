@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/is-discovery-available-in-ireland-hero-800.webp
   teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.webp
   og_image: /assets/images/posts/is-discovery-available-in-ireland-og.jpg
+  caption: 'Photo: [Thirdman](https://www.pexels.com/photo/woman-lying-on-a-couch-while-shopping-online-6238103/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-play-keeps-crashing-hero-800.webp
   teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.webp
   og_image: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
+  caption: 'Photo: [Jaycee300s](https://www.pexels.com/photo/a-router-a-monitor-and-incense-sticks-18071864/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true

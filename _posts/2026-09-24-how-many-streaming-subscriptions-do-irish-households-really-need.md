@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero-800.webp
   teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.webp
   og_image: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-og.jpg
+  caption: 'Photo: [Atlantic Ambience](https://www.pexels.com/photo/a-hand-holding-a-remote-control-12475131/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

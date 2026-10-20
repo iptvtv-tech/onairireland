@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-the-traitors-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-the-traitors-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-the-traitors-ireland-og.jpg
+  caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/woman-using-tablet-with-headphones-at-home-36713244/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

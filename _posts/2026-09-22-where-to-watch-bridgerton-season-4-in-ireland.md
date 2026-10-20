@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-og.jpg
+  caption: 'Photo: [Ivan S](https://www.pexels.com/photo/man-and-pregnant-woman-watching-television-7991781/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero-800.webp
   teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.webp
   og_image: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
+  caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/senior-man-enjoying-digital-entertainment-at-home-39191552/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

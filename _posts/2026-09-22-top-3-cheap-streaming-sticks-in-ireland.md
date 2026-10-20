@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero-800.webp
   teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.webp
   og_image: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-og.jpg
+  caption: 'Photo: [Geri Tech](https://www.pexels.com/photo/tv-remote-controller-in-close-up-shot-14770614/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

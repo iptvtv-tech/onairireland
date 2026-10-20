@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/is-britbox-available-in-ireland-hero-800.webp
   teaser: /assets/images/posts/is-britbox-available-in-ireland-teaser.webp
   og_image: /assets/images/posts/is-britbox-available-in-ireland-og.jpg
+  caption: 'Photo: [Image Hunter](https://www.pexels.com/photo/using-the-tv-remote-control-21792098/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

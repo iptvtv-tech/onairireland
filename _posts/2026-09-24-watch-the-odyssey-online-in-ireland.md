@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero-800.webp
   teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.webp
   og_image: /assets/images/posts/watch-the-odyssey-online-in-ireland-og.jpg
+  caption: 'Photo: [Polina Tankilevitch](https://www.pexels.com/photo/woman-with-afro-hair-sitting-on-sofa-while-using-a-tablet-7382352/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

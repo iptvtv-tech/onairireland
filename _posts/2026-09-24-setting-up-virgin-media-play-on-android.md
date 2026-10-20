@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/setting-up-virgin-media-play-on-android-hero-800.webp
   teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.webp
   og_image: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
+  caption: 'Photo: [Jens Mahnke](https://www.pexels.com/photo/white-google-speaker-1024697/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true
