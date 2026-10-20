@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero-800.webp
   teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.webp
   og_image: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
+  caption: 'Photo: [Nothing Ahead](https://www.pexels.com/photo/anonymous-person-with-tv-remote-7400908/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

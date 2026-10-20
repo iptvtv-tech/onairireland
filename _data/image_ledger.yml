@@ -3,134 +3,6 @@
 # here so nothing is reused. `retired` lists images removed from the old teaser
 # pool and why. Safe to read; edit by hand only to correct a mistake.
 cards:
-- id: card-how-to-watch-tv-show-bad-sisters
-  files:
-    hero: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero.webp
-    hero_small: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero-800.webp
-    teaser: /assets/images/posts/how-to-watch-tv-show-bad-sisters-teaser.webp
-    og: /assets/images/posts/how-to-watch-tv-show-bad-sisters-og.jpg
-  fingerprint: duo|m|Watch-Guides|headphones,projector,universal-remote
-  layout: duo-mirrored
-  palette: Watch-Guides
-  icons:
-  - headphones
-  - projector
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-how-to-watch-tv-show-bad-sisters.md
-- id: card-now-ireland-raises-prices-for-2026
-  files:
-    hero: /assets/images/posts/now-ireland-raises-prices-for-2026-hero.webp
-    hero_small: /assets/images/posts/now-ireland-raises-prices-for-2026-hero-800.webp
-    teaser: /assets/images/posts/now-ireland-raises-prices-for-2026-teaser.webp
-    og: /assets/images/posts/now-ireland-raises-prices-for-2026-og.jpg
-  fingerprint: stagger|s|News|satellite-receiver,set-top-box,streaming-stick
-  layout: stagger
-  palette: News
-  icons:
-  - set-top-box
-  - streaming-stick
-  - satellite-receiver
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-now-ireland-raises-prices-for-2026.md
-- id: card-top-3-cheap-streaming-sticks-in-ireland
-  files:
-    hero: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.webp
-    hero_small: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.webp
-    og: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-og.jpg
-  fingerprint: duo|m|Reviews|streaming-pebble,streaming-stick,streaming-stick-lite
-  layout: duo-mirrored
-  palette: Reviews
-  icons:
-  - streaming-stick-lite
-  - streaming-stick
-  - streaming-pebble
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-top-3-cheap-streaming-sticks-in-ireland.md
-- id: card-where-to-stream-tv-show-emerdale
-  files:
-    hero: /assets/images/posts/where-to-stream-tv-show-emerdale-hero.webp
-    hero_small: /assets/images/posts/where-to-stream-tv-show-emerdale-hero-800.webp
-    teaser: /assets/images/posts/where-to-stream-tv-show-emerdale-teaser.webp
-    og: /assets/images/posts/where-to-stream-tv-show-emerdale-og.jpg
-  fingerprint: feature|m|Watch-Guides|smart-tv,speaker,universal-remote
-  layout: feature-mirrored
-  palette: Watch-Guides
-  icons:
-  - smart-tv
-  - universal-remote
-  - speaker
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-where-to-stream-tv-show-emerdale.md
-- id: card-where-to-watch-the-movie-the-whisper-man-online
-  files:
-    hero: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.webp
-    og: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-og.jpg
-  fingerprint: trio|s|Watch-Guides|projector,soundbar,speaker
-  layout: trio
-  palette: Watch-Guides
-  icons:
-  - projector
-  - soundbar
-  - speaker
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-where-to-watch-the-movie-the-whisper-man-online.md
-- id: card-is-britbox-available-in-ireland
-  files:
-    hero: /assets/images/posts/is-britbox-available-in-ireland-hero.webp
-    hero_small: /assets/images/posts/is-britbox-available-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/is-britbox-available-in-ireland-teaser.webp
-    og: /assets/images/posts/is-britbox-available-in-ireland-og.jpg
-  fingerprint: trio|m|Streaming-Services|smart-tv-2,streaming-box,universal-remote
-  layout: trio-mirrored
-  palette: Streaming-Services
-  icons:
-  - universal-remote
-  - streaming-box
-  - smart-tv-2
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-23-is-britbox-available-in-ireland.md
-- id: card-virgin-media-player-login-issues-explained
-  files:
-    hero: /assets/images/posts/virgin-media-player-login-issues-explained-hero.webp
-    hero_small: /assets/images/posts/virgin-media-player-login-issues-explained-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.webp
-    og: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
-  fingerprint: trio|s|Troubleshooting|guidebook,mesh-wifi,set-top-box
-  layout: trio
-  palette: Troubleshooting
-  icons:
-  - guidebook
-  - set-top-box
-  - mesh-wifi
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-23-virgin-media-player-login-issues-explained.md
-- id: card-where-to-watch-the-traitors-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-the-traitors-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-the-traitors-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-the-traitors-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-the-traitors-ireland-og.jpg
-  fingerprint: stagger|s|Watch-Guides|projector,smart-tv,universal-remote
-  layout: stagger
-  palette: Watch-Guides
-  icons:
-  - smart-tv
-  - projector
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-23-where-to-watch-the-traitors-ireland.md
 - id: card-fire-tv-stick-4k-two-years-on-still-worth-it
   files:
     hero: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero.webp
@@ -163,198 +35,6 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
-- id: card-how-to-watch-tv-show-father-ted
-  files:
-    hero: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.webp
-    hero_small: /assets/images/posts/how-to-watch-tv-show-father-ted-hero-800.webp
-    teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.webp
-    og: /assets/images/posts/how-to-watch-tv-show-father-ted-og.jpg
-  fingerprint: wide|m|Watch-Guides|guidebook,headphones,soundbar
-  layout: wide-mirrored
-  palette: Watch-Guides
-  icons:
-  - guidebook
-  - headphones
-  - soundbar
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-how-to-watch-tv-show-father-ted.md
-- id: card-should-you-bother-with-youtube-premium-in-ireland
-  files:
-    hero: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero.webp
-    hero_small: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-teaser.webp
-    og: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-og.jpg
-  fingerprint: duo|m|Streaming-Services|set-top-box,smart-tv-2,universal-remote
-  layout: duo-mirrored
-  palette: Streaming-Services
-  icons:
-  - smart-tv-2
-  - set-top-box
-  - universal-remote
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-should-you-bother-with-youtube-premium-in-ireland.md
-- id: card-virgin-media-play-keeps-crashing
-  files:
-    hero: /assets/images/posts/virgin-media-play-keeps-crashing-hero.webp
-    hero_small: /assets/images/posts/virgin-media-play-keeps-crashing-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.webp
-    og: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
-  fingerprint: duo|m|Troubleshooting|ethernet-cable,set-top-box,universal-remote
-  layout: duo-mirrored
-  palette: Troubleshooting
-  icons:
-  - set-top-box
-  - universal-remote
-  - ethernet-cable
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-virgin-media-play-keeps-crashing.md
-- id: card-where-to-watch-bridgerton-season-4-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-og.jpg
-  fingerprint: wide|m|Watch-Guides|projector,speaker,universal-remote
-  layout: wide-mirrored
-  palette: Watch-Guides
-  icons:
-  - universal-remote
-  - projector
-  - speaker
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-22-where-to-watch-bridgerton-season-4-in-ireland.md
-- id: card-5-free-irish-streaming-apps-worth-knowing
-  files:
-    hero: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.webp
-    hero_small: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero-800.webp
-    teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.webp
-    og: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
-  fingerprint: stagger|s|Streaming-Services|set-top-box,smart-tv,streaming-box
-  layout: stagger
-  palette: Streaming-Services
-  icons:
-  - smart-tv
-  - set-top-box
-  - streaming-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-23-5-free-irish-streaming-apps-worth-knowing.md
-- id: card-vodafone-tv-is-it-still-worth-using-in-2026
-  files:
-    hero: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero.webp
-    hero_small: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero-800.webp
-    teaser: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-teaser.webp
-    og: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-og.jpg
-  fingerprint: stagger|m|Reviews|set-top-box,streaming-box,streaming-pebble
-  layout: stagger-mirrored
-  palette: Reviews
-  icons:
-  - set-top-box
-  - streaming-box
-  - streaming-pebble
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-23-vodafone-tv-is-it-still-worth-using-in-2026.md
-- id: card-gaa-not-working-try-these-fixes
-  files:
-    hero: /assets/images/posts/gaa-not-working-try-these-fixes-hero.webp
-    hero_small: /assets/images/posts/gaa-not-working-try-these-fixes-hero-800.webp
-    teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.webp
-    og: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
-  fingerprint: stagger|s|Troubleshooting|ethernet-cable,powerline,universal-remote
-  layout: stagger
-  palette: Troubleshooting
-  icons:
-  - universal-remote
-  - powerline
-  - ethernet-cable
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-24-gaa-not-working-try-these-fixes.md
-- id: card-how-many-streaming-subscriptions-do-irish-households-really-need
-  files:
-    hero: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero.webp
-    hero_small: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero-800.webp
-    teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.webp
-    og: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-og.jpg
-  fingerprint: duo|m|News|satellite-receiver,smart-tv-2,universal-remote
-  layout: duo-mirrored
-  palette: News
-  icons:
-  - universal-remote
-  - smart-tv-2
-  - satellite-receiver
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-24-how-many-streaming-subscriptions-do-irish-households-really-need.md
-- id: card-is-discovery-available-in-ireland
-  files:
-    hero: /assets/images/posts/is-discovery-available-in-ireland-hero.webp
-    hero_small: /assets/images/posts/is-discovery-available-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.webp
-    og: /assets/images/posts/is-discovery-available-in-ireland-og.jpg
-  fingerprint: trio|m|Streaming-Services|set-top-box,smart-tv-2,streaming-box
-  layout: trio-mirrored
-  palette: Streaming-Services
-  icons:
-  - streaming-box
-  - smart-tv-2
-  - set-top-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-24-is-discovery-available-in-ireland.md
-- id: card-lg-vs-samsung-whose-smart-tv-apps-stream-better
-  files:
-    hero: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.webp
-    hero_small: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero-800.webp
-    teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.webp
-    og: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
-  fingerprint: duo|s|Devices|smart-tv,streaming-box,streaming-stick-alt
-  layout: duo
-  palette: Devices
-  icons:
-  - smart-tv
-  - streaming-stick-alt
-  - streaming-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-24-lg-vs-samsung-whose-smart-tv-apps-stream-better.md
-- id: card-setting-up-virgin-media-play-on-android
-  files:
-    hero: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.webp
-    hero_small: /assets/images/posts/setting-up-virgin-media-play-on-android-hero-800.webp
-    teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.webp
-    og: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
-  fingerprint: stagger|m|Installation-Guides|mesh-wifi,set-top-box,wall-mount
-  layout: stagger-mirrored
-  palette: Installation-Guides
-  icons:
-  - set-top-box
-  - wall-mount
-  - mesh-wifi
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-24-setting-up-virgin-media-play-on-android.md
-- id: card-watch-the-odyssey-online-in-ireland
-  files:
-    hero: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero.webp
-    hero_small: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.webp
-    og: /assets/images/posts/watch-the-odyssey-online-in-ireland-og.jpg
-  fingerprint: trio|m|Watch-Guides|smart-tv,soundbar,universal-remote
-  layout: trio-mirrored
-  palette: Watch-Guides
-  icons:
-  - universal-remote
-  - smart-tv
-  - soundbar
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-24-watch-the-odyssey-online-in-ireland.md
 - id: card-eir-vision-raises-prices-for-2026
   files:
     hero: /assets/images/posts/eir-vision-raises-prices-for-2026-hero.webp
@@ -1798,6 +1478,366 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-21-is-hbo-max-coming-to-ireland.md
+- id: photo-how-to-watch-tv-show-bad-sisters
+  source: pexels
+  pexels_id: 6975965
+  pexels_url: https://www.pexels.com/photo/senior-couple-sitting-close-together-on-a-sofa-under-blanket-6975965/
+  photographer: T Leish
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Senior couple sitting warmly together on a sofa, embracing in a cozy living room.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-tv-show-bad-sisters-teaser.webp
+    og: /assets/images/posts/how-to-watch-tv-show-bad-sisters-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-how-to-watch-tv-show-bad-sisters.md
+- id: photo-how-to-watch-tv-show-father-ted
+  source: pexels
+  pexels_id: 4009758
+  pexels_url: https://www.pexels.com/photo/couple-love-sitting-evening-4009758/
+  photographer: cottonbro studio
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A couple sitting on a sofa at home, enjoying glasses of wine in a cozy setting.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/how-to-watch-tv-show-father-ted-hero.webp
+    hero_small: /assets/images/posts/how-to-watch-tv-show-father-ted-hero-800.webp
+    teaser: /assets/images/posts/how-to-watch-tv-show-father-ted-teaser.webp
+    og: /assets/images/posts/how-to-watch-tv-show-father-ted-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-how-to-watch-tv-show-father-ted.md
+- id: photo-now-ireland-raises-prices-for-2026
+  source: pexels
+  pexels_id: 6414642
+  pexels_url: https://www.pexels.com/photo/emotional-man-sitting-on-couch-watching-a-video-on-tablet-6414642/
+  photographer: RDNE Stock project
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: An emotional man sits on a sofa using a tablet inside a cozy room.
+  scene: laptop-streaming
+  people: true
+  palette: News
+  files:
+    hero: /assets/images/posts/now-ireland-raises-prices-for-2026-hero.webp
+    hero_small: /assets/images/posts/now-ireland-raises-prices-for-2026-hero-800.webp
+    teaser: /assets/images/posts/now-ireland-raises-prices-for-2026-teaser.webp
+    og: /assets/images/posts/now-ireland-raises-prices-for-2026-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-now-ireland-raises-prices-for-2026.md
+- id: photo-should-you-bother-with-youtube-premium-in-ireland
+  source: pexels
+  pexels_id: 17792280
+  pexels_url: https://www.pexels.com/photo/woman-in-blue-dress-watching-tablet-17792280/
+  photographer: David Kwewum
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Young woman enjoys technology, using a tablet with headphones indoors.
+  scene: laptop-streaming
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero.webp
+    hero_small: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-teaser.webp
+    og: /assets/images/posts/should-you-bother-with-youtube-premium-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-should-you-bother-with-youtube-premium-in-ireland.md
+- id: photo-top-3-cheap-streaming-sticks-in-ireland
+  source: pexels
+  pexels_id: 14770614
+  pexels_url: https://www.pexels.com/photo/tv-remote-controller-in-close-up-shot-14770614/
+  photographer: Geri Tech
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A detailed view of a TV remote control with a focus on the power button, placed on a glossy surface.
+  scene: remote-closeup
+  people: false
+  palette: Reviews
+  files:
+    hero: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.webp
+    hero_small: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.webp
+    og: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-top-3-cheap-streaming-sticks-in-ireland.md
+- id: photo-virgin-media-play-keeps-crashing
+  source: pexels
+  pexels_id: 18071864
+  pexels_url: https://www.pexels.com/photo/a-router-a-monitor-and-incense-sticks-18071864/
+  photographer: Jaycee300s
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A sleek home technology setup featuring a router, glass decoration, and television.
+  scene: router-network
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/virgin-media-play-keeps-crashing-hero.webp
+    hero_small: /assets/images/posts/virgin-media-play-keeps-crashing-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.webp
+    og: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-virgin-media-play-keeps-crashing.md
+- id: photo-where-to-stream-tv-show-emerdale
+  source: pexels
+  pexels_id: 27086463
+  pexels_url: https://www.pexels.com/photo/elderly-man-sitting-on-sofa-27086463/
+  photographer: Helena Lopes
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Elderly man enjoying leisure time using a tablet at home.
+  scene: laptop-streaming
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-stream-tv-show-emerdale-hero.webp
+    hero_small: /assets/images/posts/where-to-stream-tv-show-emerdale-hero-800.webp
+    teaser: /assets/images/posts/where-to-stream-tv-show-emerdale-teaser.webp
+    og: /assets/images/posts/where-to-stream-tv-show-emerdale-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-where-to-stream-tv-show-emerdale.md
+- id: photo-where-to-watch-bridgerton-season-4-in-ireland
+  source: pexels
+  pexels_id: 7991781
+  pexels_url: https://www.pexels.com/photo/man-and-pregnant-woman-watching-television-7991781/
+  photographer: Ivan S
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A smiling pregnant couple relaxes on a yellow sofa, enjoying movie time together.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-bridgerton-season-4-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-where-to-watch-bridgerton-season-4-in-ireland.md
+- id: photo-where-to-watch-the-movie-the-whisper-man-online
+  source: pexels
+  pexels_id: 39191073
+  pexels_url: https://www.pexels.com/photo/senior-couple-relaxing-at-home-with-popcorn-39191073/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Elderly couple enjoying time together on the couch at home watching TV.
+  scene: watching-together
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-teaser.webp
+    og: /assets/images/posts/where-to-watch-the-movie-the-whisper-man-online-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-22-where-to-watch-the-movie-the-whisper-man-online.md
+- id: photo-5-free-irish-streaming-apps-worth-knowing
+  source: pexels
+  pexels_id: 39191552
+  pexels_url: https://www.pexels.com/photo/senior-man-enjoying-digital-entertainment-at-home-39191552/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Elderly man using headphones and tablet, relaxing on couch indoors.
+  scene: laptop-streaming
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero.webp
+    hero_small: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-hero-800.webp
+    teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.webp
+    og: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-23-5-free-irish-streaming-apps-worth-knowing.md
+- id: photo-is-britbox-available-in-ireland
+  source: pexels
+  pexels_id: 21792098
+  pexels_url: https://www.pexels.com/photo/using-the-tv-remote-control-21792098/
+  photographer: Image Hunter
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up of a person using a remote control in a cozy living room setting for home entertainment.
+  scene: remote-closeup
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/is-britbox-available-in-ireland-hero.webp
+    hero_small: /assets/images/posts/is-britbox-available-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-britbox-available-in-ireland-teaser.webp
+    og: /assets/images/posts/is-britbox-available-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-23-is-britbox-available-in-ireland.md
+- id: photo-virgin-media-player-login-issues-explained
+  source: pexels
+  pexels_id: 5207535
+  pexels_url: https://www.pexels.com/photo/hand-holding-a-black-remote-control-5207535/
+  photographer: https://kaboompics.com/
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A person relaxing indoors, holding a TV remote control against a cozy blanket.
+  scene: remote-closeup
+  people: true
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/virgin-media-player-login-issues-explained-hero.webp
+    hero_small: /assets/images/posts/virgin-media-player-login-issues-explained-hero-800.webp
+    teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.webp
+    og: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-23-virgin-media-player-login-issues-explained.md
+- id: photo-vodafone-tv-is-it-still-worth-using-in-2026
+  source: pexels
+  pexels_id: 3721597
+  pexels_url: https://www.pexels.com/photo/person-holding-black-remote-control-3721597/
+  photographer: Nothing Ahead
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Close-up of a hand holding a remote control, watching TV indoors. Captures modern leisure and technology.
+  scene: remote-closeup
+  people: true
+  palette: Reviews
+  files:
+    hero: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero.webp
+    hero_small: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-hero-800.webp
+    teaser: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-teaser.webp
+    og: /assets/images/posts/vodafone-tv-is-it-still-worth-using-in-2026-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-23-vodafone-tv-is-it-still-worth-using-in-2026.md
+- id: photo-where-to-watch-the-traitors-ireland
+  source: pexels
+  pexels_id: 36713244
+  pexels_url: https://www.pexels.com/photo/woman-using-tablet-with-headphones-at-home-36713244/
+  photographer: Vitaly Gariev
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Smiling woman with headphones using a tablet indoors on a cozy couch.
+  scene: laptop-streaming
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-the-traitors-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-the-traitors-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-the-traitors-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-the-traitors-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-23-where-to-watch-the-traitors-ireland.md
+- id: photo-gaa-not-working-try-these-fixes
+  source: pexels
+  pexels_id: 28348054
+  pexels_url: https://www.pexels.com/photo/smart-home-wireless-network-router-device-28348054/
+  photographer: Jakub Zerdzicki
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A sleek wireless router enhanced by vibrant neon lights, showcasing cutting-edge technology.
+  scene: router-network
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/gaa-not-working-try-these-fixes-hero.webp
+    hero_small: /assets/images/posts/gaa-not-working-try-these-fixes-hero-800.webp
+    teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.webp
+    og: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-24-gaa-not-working-try-these-fixes.md
+- id: photo-how-many-streaming-subscriptions-do-irish-households-really-need
+  source: pexels
+  pexels_id: 12475131
+  pexels_url: https://www.pexels.com/photo/a-hand-holding-a-remote-control-12475131/
+  photographer: Atlantic Ambience
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A person holding a remote control while watching TV indoors.
+  scene: remote-closeup
+  people: true
+  palette: News
+  files:
+    hero: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero.webp
+    hero_small: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-hero-800.webp
+    teaser: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-teaser.webp
+    og: /assets/images/posts/how-many-streaming-subscriptions-do-irish-households-really-need-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-24-how-many-streaming-subscriptions-do-irish-households-really-need.md
+- id: photo-is-discovery-available-in-ireland
+  source: pexels
+  pexels_id: 6238103
+  pexels_url: https://www.pexels.com/photo/woman-lying-on-a-couch-while-shopping-online-6238103/
+  photographer: Thirdman
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Woman lying on a cozy sofa at home, engaged with a tablet screen in a serene living room.
+  scene: laptop-streaming
+  people: true
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/is-discovery-available-in-ireland-hero.webp
+    hero_small: /assets/images/posts/is-discovery-available-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-discovery-available-in-ireland-teaser.webp
+    og: /assets/images/posts/is-discovery-available-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-24-is-discovery-available-in-ireland.md
+- id: photo-lg-vs-samsung-whose-smart-tv-apps-stream-better
+  source: pexels
+  pexels_id: 7400908
+  pexels_url: https://www.pexels.com/photo/anonymous-person-with-tv-remote-7400908/
+  photographer: Nothing Ahead
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Crop unrecognizable person switching channels on remote control while watching TV on blurred background in light room during free time
+  scene: remote-closeup
+  people: true
+  palette: Devices
+  files:
+    hero: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.webp
+    hero_small: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero-800.webp
+    teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.webp
+    og: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-24-lg-vs-samsung-whose-smart-tv-apps-stream-better.md
+- id: photo-setting-up-virgin-media-play-on-android
+  source: pexels
+  pexels_id: 1024697
+  pexels_url: https://www.pexels.com/photo/white-google-speaker-1024697/
+  photographer: Jens Mahnke
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A clean and modern minimalist design of a white round electronic device with a blue light ring on a reflective glass surface.
+  scene: router-network
+  people: false
+  palette: Installation-Guides
+  files:
+    hero: /assets/images/posts/setting-up-virgin-media-play-on-android-hero.webp
+    hero_small: /assets/images/posts/setting-up-virgin-media-play-on-android-hero-800.webp
+    teaser: /assets/images/posts/setting-up-virgin-media-play-on-android-teaser.webp
+    og: /assets/images/posts/setting-up-virgin-media-play-on-android-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-24-setting-up-virgin-media-play-on-android.md
+- id: photo-watch-the-odyssey-online-in-ireland
+  source: pexels
+  pexels_id: 7382352
+  pexels_url: https://www.pexels.com/photo/woman-with-afro-hair-sitting-on-sofa-while-using-a-tablet-7382352/
+  photographer: Polina Tankilevitch
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Woman with headphones using a tablet on a white sofa, wearing casual grey attire.
+  scene: laptop-streaming
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero.webp
+    hero_small: /assets/images/posts/watch-the-odyssey-online-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/watch-the-odyssey-online-in-ireland-teaser.webp
+    og: /assets/images/posts/watch-the-odyssey-online-in-ireland-og.jpg
+  created: '2026-10-20'
+  used_in:
+  - 2026-09-24-watch-the-odyssey-online-in-ireland.md
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
   reason: third-party brand logos (Netflix, Disney+, HBO Max, Prime, Apple TV+) and cash

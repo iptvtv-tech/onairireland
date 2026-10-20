@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/now-ireland-raises-prices-for-2026-hero-800.webp
   teaser: /assets/images/posts/now-ireland-raises-prices-for-2026-teaser.webp
   og_image: /assets/images/posts/now-ireland-raises-prices-for-2026-og.jpg
+  caption: 'Photo: [RDNE Stock project](https://www.pexels.com/photo/emotional-man-sitting-on-couch-watching-a-video-on-tablet-6414642/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

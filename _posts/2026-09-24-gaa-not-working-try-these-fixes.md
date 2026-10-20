@@ -13,6 +13,7 @@ header:
   overlay_image_small: /assets/images/posts/gaa-not-working-try-these-fixes-hero-800.webp
   teaser: /assets/images/posts/gaa-not-working-try-these-fixes-teaser.webp
   og_image: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
+  caption: 'Photo: [Jakub Zerdzicki](https://www.pexels.com/photo/smart-home-wireless-network-router-device-28348054/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true

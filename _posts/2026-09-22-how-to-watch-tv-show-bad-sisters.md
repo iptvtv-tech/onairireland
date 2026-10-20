@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/how-to-watch-tv-show-bad-sisters-hero-800.webp
   teaser: /assets/images/posts/how-to-watch-tv-show-bad-sisters-teaser.webp
   og_image: /assets/images/posts/how-to-watch-tv-show-bad-sisters-og.jpg
+  caption: 'Photo: [T Leish](https://www.pexels.com/photo/senior-couple-sitting-close-together-on-a-sofa-under-blanket-6975965/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

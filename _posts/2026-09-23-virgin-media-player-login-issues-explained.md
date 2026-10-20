@@ -13,6 +13,7 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-player-login-issues-explained-hero-800.webp
   teaser: /assets/images/posts/virgin-media-player-login-issues-explained-teaser.webp
   og_image: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
+  caption: 'Photo: [https://kaboompics.com/](https://www.pexels.com/photo/hand-holding-a-black-remote-control-5207535/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true

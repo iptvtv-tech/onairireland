@@ -3,46 +3,6 @@
 # removes the entry. Use `photo: <approved shortlist id>` or `scene: <scene>`.
 # target: static-pages applies one photo to every page using the shared header.
 assignments:
-- target: _posts/2026-09-22-how-to-watch-tv-show-bad-sisters.md
-  scene: watching-together
-- target: _posts/2026-09-22-how-to-watch-tv-show-father-ted.md
-  scene: watching-together
-- target: _posts/2026-09-22-now-ireland-raises-prices-for-2026.md
-  scene: laptop-streaming
-- target: _posts/2026-09-22-should-you-bother-with-youtube-premium-in-ireland.md
-  scene: laptop-streaming
-- target: _posts/2026-09-22-top-3-cheap-streaming-sticks-in-ireland.md
-  scene: remote-closeup
-- target: _posts/2026-09-22-virgin-media-play-keeps-crashing.md
-  scene: tv-trouble
-- target: _posts/2026-09-22-where-to-stream-tv-show-emerdale.md
-  scene: laptop-streaming
-- target: _posts/2026-09-22-where-to-watch-bridgerton-season-4-in-ireland.md
-  scene: watching-together
-- target: _posts/2026-09-22-where-to-watch-the-movie-the-whisper-man-online.md
-  scene: watching-together
-- target: _posts/2026-09-23-5-free-irish-streaming-apps-worth-knowing.md
-  scene: viewing-room
-- target: _posts/2026-09-23-is-britbox-available-in-ireland.md
-  scene: viewing-room
-- target: _posts/2026-09-23-virgin-media-player-login-issues-explained.md
-  scene: remote-closeup
-- target: _posts/2026-09-23-vodafone-tv-is-it-still-worth-using-in-2026.md
-  scene: viewing-room
-- target: _posts/2026-09-23-where-to-watch-the-traitors-ireland.md
-  scene: laptop-streaming
-- target: _posts/2026-09-24-gaa-not-working-try-these-fixes.md
-  scene: tv-trouble
-- target: _posts/2026-09-24-how-many-streaming-subscriptions-do-irish-households-really-need.md
-  scene: viewing-room
-- target: _posts/2026-09-24-is-discovery-available-in-ireland.md
-  scene: laptop-streaming
-- target: _posts/2026-09-24-lg-vs-samsung-whose-smart-tv-apps-stream-better.md
-  scene: cables-hdmi
-- target: _posts/2026-09-24-setting-up-virgin-media-play-on-android.md
-  scene: cables-hdmi
-- target: _posts/2026-09-24-watch-the-odyssey-online-in-ireland.md
-  scene: watching-together
 - target: _posts/2026-09-25-eir-vision-raises-prices-for-2026.md
   scene: viewing-room
 - target: _posts/2026-09-28-fire-tv-stick-4k-two-years-on-still-worth-it.md
