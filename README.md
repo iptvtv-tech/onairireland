@@ -57,11 +57,37 @@ Back in **Settings → Pages**, tick **Enforce HTTPS** once DNS has propagated
 
 ## 4b. Checks before publishing
 
-- `scripts/check_posts.py` validates every post's front matter (YAML,
-  title, category, images, leftover `TODO`/`AFFILIATE_LINK_` placeholders).
-- `.github/workflows/check-pr.yml` runs it plus a full GitHub Pages build on
-  every pull request. The daily draft workflow runs the same check before it
-  opens its PR.
+Run these locally before opening or reviewing a publishing PR:
+
+```bash
+python scripts/check_posts.py
+python scripts/check_prices_data.py
+python scripts/check_products.py
+python scripts/check_affiliate_links.py
+python scripts/check_editorial_scope.py
+python scripts/check_price_news_links.py
+python scripts/check_price_sources.py
+```
+
+- `check_posts.py` validates post front matter, required image metadata,
+  image-ledger integrity, and leftover `TODO`/`AFFILIATE_LINK_` placeholders.
+- `check_prices_data.py` validates price data structure and warns when a row
+  has not been checked recently. It does **not** confirm prices against live
+  provider pages; that remains an editorial fact-check.
+- `check_products.py` enforces approved product categories, local product image
+  paths, HTTPS affiliate URLs, unique IDs, and `show_prices: false`.
+- `check_affiliate_links.py` checks that Amazon affiliate links in Markdown/HTML
+  declare `rel="sponsored"` and that posts containing them include the affiliate
+  disclosure. It covers source markup; still inspect rendered HTML after changes.
+- `check_editorial_scope.py` flags excluded-topic wording in public copy.
+- `check_price_news_links.py` makes price-change news posts link to the canonical
+  `/streaming-prices/` tracker.
+- `check_price_sources.py` guards the price table against unapproved domains; the
+  allowlist does not replace checking that each current rate is actually stated at
+  the source URL.
+- `.github/workflows/check-pr.yml` runs the repository's automated checks and a
+  full GitHub Pages build on every pull request. The draft workflow checks posts
+  before it opens its PR.
 
 ## 4c. Prices
 
