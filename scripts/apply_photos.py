@@ -17,7 +17,11 @@ removes the entry from the list. A post whose scene has no approved, unused
 photo gets a unique brand card instead, so it still leaves the old images.
 
 Run by .github/workflows/apply-photos.yml (needs PEXELS_API_KEY), which opens a
-PR for review. Nothing goes live until that PR is merged.
+PR for review. Nothing goes live until that PR is merged. At most MAX_ITEMS
+(default 30) entries are processed per run, so each PR stays reviewable; run
+the workflow again for the next batch. A post that already has a brand card
+keeps it (and stays in the list) when no approved photo fits its scene; when it
+does get a photo, its old card files and ledger entry are removed.
 """
 import datetime
 import io
@@ -132,7 +136,12 @@ def apply_post(item, shortlist, ledger, api_key, today):
             print(f"{item['target']}: photo {item['photo']} is not approved or already used.")
             entry = None
     elif item.get("scene") and api_key:
-        entry = s.choose_from_shortlist(item["scene"], category, ledger, shortlist, taken)
+        entry = s.choose_from_shortlist(item["scene"], category, ledger, shortlist, taken, title=title)
+    old_cards = [c for c in ledger["cards"] if os.path.basename(path) in (c.get("used_in") or [])]
+    if not entry and old_cards:
+        print(f"{item['target']}: no approved, unused photo for scene {item.get('scene')!r}; "
+              "keeps its card and stays in the list.")
+        return False
     values = None
     if entry:
         try:
@@ -146,6 +155,7 @@ def apply_post(item, shortlist, ledger, api_key, today):
             values = {"overlay_image": files["hero"], "overlay_image_small": files["hero_small"],
                       "teaser": files["teaser"], "og_image": files["og"],
                       "caption": s.credit_markdown(photo)}
+            retire_cards(old_cards, files, ledger)
     if values is None:
         card = image_cards.make_card(slug, title, category, s.card_fingerprints(ledger))
         ledger["cards"].append({"id": f"card-{slug}", "files": card["files"], "fingerprint": card["fingerprint"],
@@ -156,6 +166,20 @@ def apply_post(item, shortlist, ledger, api_key, today):
                   "teaser": f["teaser"], "og_image": f["og"]}
     set_header(path, values)
     print(f"{item['target']}: {'photo ' + str(entry['id']) if 'caption' in values else 'brand card'}")
+    return True
+
+
+def retire_cards(cards, new_files, ledger):
+    """A post that moved from a brand card to a photo: drop the card from the
+    ledger and delete its files (unless the photo reused the same file name)."""
+    keep = set(new_files.values())
+    for card in cards:
+        for f in (card.get("files") or {}).values():
+            if f not in keep:
+                full = os.path.join(s.ROOT, f.lstrip("/"))
+                if os.path.exists(full):
+                    os.remove(full)
+        ledger["cards"].remove(card)
 
 
 def main():
@@ -167,9 +191,14 @@ def main():
     shortlist = s.load_shortlist()
     ledger = s.load_ledger()
     today = datetime.date.today().isoformat()
+    limit = int(os.environ.get("MAX_ITEMS", "30"))  # keep each PR reviewable
     remaining = []
+    done = 0
     for item in items:
         target = item.get("target", "")
+        if done >= limit:
+            remaining.append(item)
+            continue
         if target == "static-pages":
             if not api_key:
                 print("static-pages needs PEXELS_API_KEY; left in the list.")
@@ -177,13 +206,18 @@ def main():
                 continue
             apply_static_pages(item, shortlist, ledger, api_key, today)
         elif target.startswith("_posts/") and os.path.isfile(os.path.join(s.ROOT, target)):
-            apply_post(item, shortlist, ledger, api_key, today)
+            if not apply_post(item, shortlist, ledger, api_key, today):
+                remaining.append(item)
+                continue
         else:
             print(f"Unknown target {target!r}; left in the list.")
             remaining.append(item)
             continue
+        done += 1
         s.save_ledger(ledger)  # after every item, so a later failure loses nothing
     save_assignments(remaining)
+    if remaining:
+        print(f"{len(remaining)} assignment(s) left for the next run.")
     return 0
 
 

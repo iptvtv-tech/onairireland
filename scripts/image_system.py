@@ -119,7 +119,7 @@ CATEGORY_SCENES = {
     "News": ["viewing-room", "laptop-streaming", "remote-closeup", "watching-together"],
     "Reviews": ["viewing-room", "remote-closeup", "cables-hdmi"],
     "Devices": ["cables-hdmi", "remote-closeup", "viewing-room"],
-    "Installation-Guides": ["cables-hdmi", "router-network", "aerial-roof", "viewing-room"],
+    "Installation-Guides": ["cables-hdmi", "router-network", "aerial-roof", "viewing-room", "remote-closeup"],
     "Troubleshooting": ["router-network", "remote-closeup", "tv-trouble", "cables-hdmi"],
     "Sports-Streaming": ["sport-viewing", "stadium", "watching-together"],
 }
@@ -135,6 +135,9 @@ PEOPLE_WORDS = {
     "man", "men", "woman", "women", "people", "person", "family", "boy", "girl", "couple",
     "friends", "teen", "teenager", "mother", "father", "group", "senior",
 }
+
+# Scenes too specific to stand in for another one: used only when asked for.
+NO_FALLBACK = {"aerial-roof", "tv-trouble", "stadium"}
 
 SCENE_COOLDOWN = 2   # when falling back to another scene, avoid the last 2 used
 PEOPLE_COOLDOWN = 2  # after a people-photo, prefer one without people next time
@@ -253,7 +256,7 @@ def _recent(ledger, n):
 # --------------------------------------------------------------------------
 # Choosing from the approved shortlist
 # --------------------------------------------------------------------------
-def choose_from_shortlist(scene, category, ledger, shortlist, taken):
+def choose_from_shortlist(scene, category, ledger, shortlist, taken, title=""):
     """An approved, unused shortlist entry for the post, or None.
 
     Relevance first: the requested scene is always used when it has a photo
@@ -270,16 +273,21 @@ def choose_from_shortlist(scene, category, ledger, shortlist, taken):
             if e.get("status") == "approved" and not e.get("use")
             and "pexels:" + str(e.get("id")) not in taken]
 
+    title_words = {w for w in _words(title) if len(w) > 3}
+
     def best_in(s_name):
         options = [e for e in pool if e.get("scene") == s_name]
-        if recent_people:
-            options.sort(key=lambda e: bool(e.get("people")))
+        # Prefer a photo whose description shares words with the title
+        # (a rugby post gets the rugby pitch), then one without people if the
+        # last photo had people.
+        options.sort(key=lambda e: (-len(title_words & _words(e.get("description"))),
+                                    bool(e.get("people")) if recent_people else False))
         return options[0] if options else None
 
     found = best_in(scene)
     if found:
         return found
-    others = [x for x in allowed if x != scene]
+    others = [x for x in allowed if x != scene and x not in NO_FALLBACK]
     for s_name in [x for x in others if x not in recent_scenes] + [x for x in others if x in recent_scenes]:
         found = best_in(s_name)
         if found:
@@ -467,7 +475,7 @@ def choose_hero(title, category, slug, scene="none", image_query="", post_file="
     entry = None
     if api_key and scene != "none":
         entry = choose_from_shortlist(scene, category, ledger, shortlist,
-                                      taken_identities(ledger, posts_dir))
+                                      taken_identities(ledger, posts_dir), title=title)
         if not entry:
             print(f"No approved, unused photo for scene '{scene}' in {category}: using a card.")
     if entry:

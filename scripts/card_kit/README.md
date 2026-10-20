@@ -44,7 +44,11 @@ served to phones. If the theme pin is updated, compare this file with the theme'
   on screen, watermark, flag or identifiable child.
 - **Apply Photos** workflow: processes `_data/photo_assignments.yml` (photos for existing posts, or
   `target: static-pages` for the shared page header) and opens a PR. It runs whenever that file
-  changes on main.
+  changes on main, at most 30 entries per run (`MAX_ITEMS`), so merging one batch's PR starts the
+  next. A post that moves from a card to a photo has its card files and ledger entry removed; a post
+  with no approved photo for its scene keeps its card and stays queued until the shortlist grows.
+  Within a scene, photos whose description shares words with the post title are picked first;
+  aerial, blank-TV and stadium photos are only used when a post asks for that scene.
 
 ## Checks
 
