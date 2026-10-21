@@ -78,4 +78,6 @@ Sky's 2026 pricing changes are still unfolding, and the full details will likely
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
+See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
+
 {% include whatsapp-cta.html %}

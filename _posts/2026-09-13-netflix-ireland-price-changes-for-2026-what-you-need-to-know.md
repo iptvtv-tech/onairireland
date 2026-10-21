@@ -92,4 +92,6 @@ If the new pricing doesn't suit your budget, consider whether a lower tier still
 
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
+See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
+
 {% include whatsapp-cta.html %}

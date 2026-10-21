@@ -82,7 +82,7 @@ These are the standard monthly prices in Ireland as of October 2026. Several ser
 | **Paramount+** | Basic with Ads €5.99 · Standard €8.99 · Premium €11.99 | US drama and comedy on a budget |
 | **NOW Entertainment** | €8.99 (€11.99 with HBO Max Basic with Ads) | Sky Originals and HBO series without a Sky contract |
 | **NOW Cinema** | €11.99 | New film releases |
-| **HBO Max** | From €5.99 (Basic with Ads) · Standard €10.99 · Premium €15.99; also included with Sky Ultimate TV and NOW | HBO, Warner Bros. and DC in one app |
+| **HBO Max** | From €6.99 (Standard with Ads) · Standard €10.99 · Premium €15.99; also included with Sky Ultimate TV and NOW | HBO, Warner Bros. and DC in one app |
 
 NOW's optional **Boost** add-on (€5 a month) adds Full HD 1080p, ad-free on-demand viewing and a second simultaneous stream.
 

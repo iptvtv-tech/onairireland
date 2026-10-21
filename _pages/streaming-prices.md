@@ -2,11 +2,11 @@
 title: "Irish Streaming Prices Tracker"
 permalink: /streaming-prices/
 layout: single
-description: "What Netflix, Disney+, NOW, HBO Max, Prime Video, Apple TV and GAA+ cost in Ireland today, with the date each price was last checked."
+description: "What Netflix, Disney+, NOW, HBO Max, Apple TV and Hayu cost in Ireland today, with the date each price was last checked."
 excerpt: "Every major streaming price in Ireland, in one table, with the date we last checked it."
 seo:
   type: WebPage
-last_updated: 2026-09-24
+last_updated: 2026-10-21
 header:
   overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
@@ -20,7 +20,7 @@ header:
 
 Standard prices for the main legal streaming services in Ireland, in euro, including VAT. Each row shows when the price last changed (where we know it) and the date we last confirmed it, with a link to the source.
 
-<p class="price-tracker__stamp">Prices last checked: <strong>{{ latest_check | date: "%-d %B %Y" }}</strong></p>
+<p class="price-tracker__stamp">Latest price check: <strong>{{ latest_check | date: "%-d %B %Y" }}</strong>. Each row shows the date that price was last confirmed.</p>
 
 Prices here are the standard rates. Many services run introductory offers for new customers, so you may pay less for the first few months. Always confirm on the provider's own site before you subscribe.
 
@@ -37,7 +37,7 @@ Want to add up your own bill? Try the [streaming cost calculator](/streaming-cos
 </ul>
 {% endif %}
 
-{% assign groups = "general|Netflix, Disney+ and Prime Video;film-tv|Film, TV and entertainment;sport|Sport;free|Free services and the TV licence" | split: ";" %}
+{% assign groups = "general|Netflix and Disney+;film-tv|Film, TV and entertainment;sport|Sport;free|Free services and the TV licence" | split: ";" %}
 {% for g in groups %}
 {% assign gparts = g | split: "|" %}
 {% assign rows = all_prices | where: "group", gparts[0] %}

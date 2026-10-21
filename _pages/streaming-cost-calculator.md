@@ -36,7 +36,7 @@ RTÃ‰ Player, Virgin Media Play and TG4 Player are free. You need a TV licence (â
 ## Ways to pay less
 
 - **Rotate, don't stack.** Keep one or two services at a time and switch when you've finished what you wanted to watch. You can cancel most monthly plans any time.
-- **Pay yearly for the ones you keep.** Disney+, Prime and Hayu cost less over a year on an annual plan.
+- **Pay yearly for the ones you keep.** Disney+ and Hayu cost less over a year on an annual plan.
 - **Check what your TV or broadband package already includes.** Some Sky and Virgin Media packages include Netflix, and many Sky packages include HBO Max.
 - **Take the ads plan.** Where there is one, it's usually the cheapest way in.
 
