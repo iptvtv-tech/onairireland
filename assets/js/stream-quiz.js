@@ -51,6 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
     steps.forEach(function (step) { step.hidden = true; });
     resultStep.hidden = false;
 
+    // Count quiz completions by answer set (track-events.js; does nothing
+    // unless the visitor accepted analytics).
+    if (window.oaiTrack) {
+      var combo = [answers.priority, answers.budget, answers.device].join("-");
+      window.oaiTrack("quiz/" + combo, "Quiz completed (" + combo + ")",
+        { quiz_priority: answers.priority, quiz_budget: answers.budget, quiz_device: answers.device });
+    }
+
     var productContainer = document.getElementById("stream-quiz-product");
     productContainer.innerHTML = "";
     fetch("/products.json")

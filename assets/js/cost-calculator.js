@@ -134,6 +134,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   root.addEventListener("change", update);
+
+  // Count the first real use of the calculator on this visit (track-events.js;
+  // does nothing unless the visitor accepted analytics).
+  var calculatorCounted = false;
+  root.addEventListener("change", function () {
+    if (calculatorCounted || !window.oaiTrack) return;
+    // Only mark as counted once it was actually sent (i.e. after consent).
+    calculatorCounted = window.oaiTrack("calculator" + (location.pathname.replace(/\/$/, "") || "/home"), "Cost calculator used");
+  });
   resetBtn.addEventListener("click", function () {
     root.querySelectorAll("input").forEach(function (input) {
       input.checked = input.type === "radio" && input.value === "";
