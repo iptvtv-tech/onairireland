@@ -48,6 +48,22 @@ def load_products():
     return data or []
 
 
+# Markdown links to Amazon that don't already carry a {: ...} attribute list.
+_AMAZON_MD_LINK = re.compile(r"(\]\(https?://(?:amzn\.to|link\.amazon)[^\s)]+\))(?!\s*\{:)")
+_SPONSORED_IAL = '{:rel="nofollow sponsored noopener"}'
+
+
+def mark_affiliate_links(markdown: str) -> str:
+    """Add rel="nofollow sponsored noopener" to every Amazon link in the body,
+    so drafts pass scripts/check_affiliate_links.py without relying on the AI."""
+    return _AMAZON_MD_LINK.sub(lambda m: m.group(1) + _SPONSORED_IAL, markdown)
+
+
+def is_price_news(category: str, title: str) -> bool:
+    """Same rule as scripts/check_price_news_links.py."""
+    return category == "News" and re.search(r"\b(?:price|prices|pricing)\b", title, re.I) is not None
+
+
 def slugify(text: str) -> str:
     """Turn a post title into a URL-safe filename slug."""
     # Transliterate accents (RTÉ -> rte), keep "+" meaningful (Disney+ ->
@@ -116,7 +132,8 @@ def call_claude(title: str, category: str, brief: str):
     still embedded -- main() splits those out)."""
     api_key = os.environ["ANTHROPIC_API_KEY"]
 
-    matching_products = [p for p in load_products() if p.get("category") == category]
+    # Products list the post types they suit in show_on (see _data/products.yml).
+    matching_products = [p for p in load_products() if category in (p.get("show_on") or [])]
     product_links_text = ""
     if matching_products:
         lines = [f"- [{p['name']}]({p['affiliate_link']})" for p in matching_products]
@@ -462,8 +479,16 @@ def main():
         "\n### Related\n\n"
         "Read our [full guide to legal streaming services in Ireland]"
         "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
-        "\n{% include whatsapp-cta.html %}\n"
+        + (
+            "\nSee every current Irish streaming price in one place on our "
+            "[streaming prices tracker](/streaming-prices/), or add up your own bill "
+            "with the [streaming cost calculator](/streaming-cost-calculator/).\n"
+            if is_price_news(category, title) else ""
+        )
+        + "\n{% include whatsapp-cta.html %}\n"
     )
+
+    body = mark_affiliate_links(body)
 
     with open(filepath, "w") as f:
         f.write(front_matter + body + showcase_block + related_block)

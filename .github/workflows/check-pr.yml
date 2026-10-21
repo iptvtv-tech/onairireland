@@ -33,6 +33,18 @@ jobs:
       - name: Check editorial scope (legal services only)
         run: python scripts/check_editorial_scope.py
 
+      - name: Check price sources are provider pages
+        run: python scripts/check_price_sources.py
+
+      - name: Check price-news posts link to the tracker
+        run: python scripts/check_price_news_links.py
+
+      - name: Check product catalogue (approved categories, show_on)
+        run: python scripts/check_products.py
+
+      - name: Check affiliate links are marked and disclosed
+        run: python scripts/check_affiliate_links.py
+
       - name: Build site exactly like GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:
