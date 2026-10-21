@@ -56,13 +56,13 @@ Streaming problems are very often down to Wi-Fi signal strength rather than the 
 A few options worth considering:
 
 - Move the router closer to the TV, if practical.
-- Use a [Wi-Fi Range Extender](https://amzn.to/3SZDvjo) to boost signal in a room that's struggling.
-- Switch to a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh) if multiple rooms in the house have patchy coverage.
-- Run a [Long Ethernet Cable](https://amzn.to/4imUjuU) directly from the router to the TV for the most stable connection, especially if you're in an older house with thick walls.
+- Use a [Wi-Fi Range Extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} to boost signal in a room that's struggling.
+- Switch to a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} if multiple rooms in the house have patchy coverage.
+- Run a [Long Ethernet Cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} directly from the router to the TV for the most stable connection, especially if you're in an older house with thick walls.
 
-For streaming sticks or boxes without a built-in Ethernet port, an [Amazon Ethernet Adapter for Fire TV](https://amzn.to/3Ti7NOw) lets you connect by cable instead of relying on Wi-Fi, which can noticeably reduce buffering.
+For streaming sticks or boxes without a built-in Ethernet port, an [Amazon Ethernet Adapter for Fire TV](https://amzn.to/3Ti7NOw){:rel="nofollow sponsored noopener"} lets you connect by cable instead of relying on Wi-Fi, which can noticeably reduce buffering.
 
-If running a cable isn't practical, a [Powerline Adapter Kit](https://amzn.to/4xEEuDX) uses your home's electrical wiring to carry a network signal between rooms, which is a reasonable middle ground between Wi-Fi and a full Ethernet run.
+If running a cable isn't practical, a [Powerline Adapter Kit](https://amzn.to/4xEEuDX){:rel="nofollow sponsored noopener"} uses your home's electrical wiring to carry a network signal between rooms, which is a reasonable middle ground between Wi-Fi and a full Ethernet run.
 
 ## Sign-In and Account Issues
 
@@ -76,7 +76,7 @@ Occasionally you might see a message saying a programme isn't available. This is
 
 ## Check the Remote and Screen Too
 
-It sounds basic, but a remote with weak batteries can cause missed button presses that look like the app is freezing or not responding. Swapping in a fresh set, or using [Rechargeable Remote Batteries](https://amzn.to/4h8jsHi), is a quick thing to rule out. Likewise, a dusty or smudged screen can make picture issues seem worse than they are, so a proper [TV Screen Cleaning Kit](https://amzn.to/4xyXx2o) is worth having for general maintenance.
+It sounds basic, but a remote with weak batteries can cause missed button presses that look like the app is freezing or not responding. Swapping in a fresh set, or using [Rechargeable Remote Batteries](https://amzn.to/4h8jsHi){:rel="nofollow sponsored noopener"}, is a quick thing to rule out. Likewise, a dusty or smudged screen can make picture issues seem worse than they are, so a proper [TV Screen Cleaning Kit](https://amzn.to/4xyXx2o){:rel="nofollow sponsored noopener"} is worth having for general maintenance.
 
 ## When All Else Fails
 

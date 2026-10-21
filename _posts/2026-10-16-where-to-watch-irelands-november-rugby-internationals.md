@@ -60,9 +60,9 @@ Virgin Media Player works similarly for any fixtures under its rights, and exist
 
 ## Getting a Reliable Signal at Home
 
-A surprising number of "match not loading" complaints on test days come down to ordinary connectivity or hardware issues rather than rights or app problems. If you're relying on standard Saorview or cable for the free-to-air broadcast, a weak aerial signal can cause pixelation exactly when a match kicks off and demand spikes. Homes in fringe reception areas sometimes benefit from upgrading to a dedicated [outdoor digital TV aerial](https://amzn.to/3T7hgI6) rather than troubleshooting an ageing indoor unit mid-match.
+A surprising number of "match not loading" complaints on test days come down to ordinary connectivity or hardware issues rather than rights or app problems. If you're relying on standard Saorview or cable for the free-to-air broadcast, a weak aerial signal can cause pixelation exactly when a match kicks off and demand spikes. Homes in fringe reception areas sometimes benefit from upgrading to a dedicated [outdoor digital TV aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} rather than troubleshooting an ageing indoor unit mid-match.
 
-For households juggling multiple devices into one television — a set-top box, a streaming stick, and a games console, for example — a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA) can save you from crawling behind the TV to swap cables before kick-off.
+For households juggling multiple devices into one television — a set-top box, a streaming stick, and a games console, for example — a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} can save you from crawling behind the TV to swap cables before kick-off.
 
 ## If You See a "Not Available in Your Region" Message
 

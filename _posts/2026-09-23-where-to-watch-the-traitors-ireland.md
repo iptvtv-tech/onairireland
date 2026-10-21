@@ -59,11 +59,11 @@ If you're prompted to sign in and hit an error suggesting the content isn't avai
 
 RTÉ Player works well across most modern streaming devices and smart TVs, so you don't need anything too fancy to enjoy The Traitors Ireland in good picture quality.
 
-If you're setting up a TV for the first time or replacing an older box, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid, affordable option that plugs straight into your TV's HDMI port and gives you access to the RTÉ Player app alongside all the other major streaming apps you might use. It's simple to set up and works over your home Wi-Fi.
+If you're setting up a TV for the first time or replacing an older box, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a solid, affordable option that plugs straight into your TV's HDMI port and gives you access to the RTÉ Player app alongside all the other major streaming apps you might use. It's simple to set up and works over your home Wi-Fi.
 
-Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another well-regarded choice, particularly if you like Roku's straightforward menu system and want a device that's easy for less tech-confident family members to navigate. Both options support RTÉ Player natively, so it really comes down to personal preference on interface.
+Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is another well-regarded choice, particularly if you like Roku's straightforward menu system and want a device that's easy for less tech-confident family members to navigate. Both options support RTÉ Player natively, so it really comes down to personal preference on interface.
 
-If your household relies more on a traditional satellite setup and you're less interested in streaming apps generally, an [HD Satellite Receiver](https://amzn.to/4hibfjU) can still let you watch RTÉ One as it broadcasts, though you'd miss out on the on-demand flexibility that RTÉ Player offers for catching up on missed episodes.
+If your household relies more on a traditional satellite setup and you're less interested in streaming apps generally, an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} can still let you watch RTÉ One as it broadcasts, though you'd miss out on the on-demand flexibility that RTÉ Player offers for catching up on missed episodes.
 
 ### A Quick Note on Smart TVs
 

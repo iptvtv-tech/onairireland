@@ -50,15 +50,15 @@ Irish viewers needed a Sky subscription that includes Sky Sports, or access via 
 
 ## Streaming Without a Satellite Dish
 
-You don't need a satellite dish to watch Sky Sports coverage. Streaming through NOW works on smart TVs, laptops, phones, and dedicated streaming devices. If you're setting up a TV for the first time or replacing an old box, a [Fire TV Stick](https://amzn.to/4h6LS4B) is a straightforward way to get the NOW app and other Irish streaming services running on a television that doesn't have smart features built in. Alternatively, a Roku device or Google TV Streamer will also run the relevant apps, so the choice mostly comes down to which interface you prefer and what's compatible with your TV.
+You don't need a satellite dish to watch Sky Sports coverage. Streaming through NOW works on smart TVs, laptops, phones, and dedicated streaming devices. If you're setting up a TV for the first time or replacing an old box, a [Fire TV Stick](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a straightforward way to get the NOW app and other Irish streaming services running on a television that doesn't have smart features built in. Alternatively, a Roku device or Google TV Streamer will also run the relevant apps, so the choice mostly comes down to which interface you prefer and what's compatible with your TV.
 
-For households that still rely on traditional TV reception for RTÉ, Virgin Media, or other free-to-air coverage that might run analysis and highlights, it's worth checking that your reception is solid before tournament week. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6) can make a real difference if you're currently relying on an indoor one and getting patchy signal, particularly for high-definition broadcasts.
+For households that still rely on traditional TV reception for RTÉ, Virgin Media, or other free-to-air coverage that might run analysis and highlights, it's worth checking that your reception is solid before tournament week. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} can make a real difference if you're currently relying on an indoor one and getting patchy signal, particularly for high-definition broadcasts.
 
 ## Getting Your Home Setup Ready
 
 Live sport is one of those occasions where a smooth streaming setup really matters, especially with early tee times that might have you watching before work. A few practical checks can save you frustration on the morning of the first session.
 
-If you've got multiple devices competing for one HDMI port on an older TV, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA) lets you connect a streaming stick, games console, and set-top box without constantly swapping cables behind the television. It's a small purchase that removes a common source of last-minute stress before a big match.
+If you've got multiple devices competing for one HDMI port on an older TV, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} lets you connect a streaming stick, games console, and set-top box without constantly swapping cables behind the television. It's a small purchase that removes a common source of last-minute stress before a big match.
 
 It's also worth double-checking that your streaming device or smart TV has a stable internet connection well before the tournament starts. A wired connection via ethernet, where possible, tends to be more reliable than Wi-Fi for sustained live streaming, particularly in houses with multiple people online at once.
 

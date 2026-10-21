@@ -41,7 +41,7 @@ Champions Cup broadcast rights in Ireland have, in recent seasons, been shared b
 
 ### Free-to-Air Coverage
 
-Where a free-to-air deal is in place, Virgin Media Television has historically shown a selection of Leinster, Munster, Ulster and Connacht fixtures on its main channels, available to anyone with a standard television setup and no subscription required. If you rely on an aerial rather than a Virgin Media or Sky box, a well-positioned [Outdoor Digital TV Aerial](https://amzn.to/3T7hgI6) can help ensure a clean Saorview signal for these broadcasts, particularly in areas with weaker reception.
+Where a free-to-air deal is in place, Virgin Media Television has historically shown a selection of Leinster, Munster, Ulster and Connacht fixtures on its main channels, available to anyone with a standard television setup and no subscription required. If you rely on an aerial rather than a Virgin Media or Sky box, a well-positioned [Outdoor Digital TV Aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} can help ensure a clean Saorview signal for these broadcasts, particularly in areas with weaker reception.
 
 Free-to-air coverage is usually limited to a handful of games per round rather than the full fixture list, so supporters wanting to watch every match involving their province, or other ties across the tournament, will likely need a subscription service as well.
 
@@ -57,7 +57,7 @@ Most official broadcasters now pair their television channels with a streaming a
 
 ## Getting the Best Picture on Match Day
 
-For households juggling multiple streaming boxes, a games console and a set-top box on one television, a [3-in-1 HDMI Switch](https://amzn.to/4h8t3OA) can make it easier to flick between a Virgin Media box, a Premier Sports streaming stick, and a smart TV app without constantly swapping cables behind the television. This is a particularly handy fix for households without enough HDMI ports for everything connected to one screen.
+For households juggling multiple streaming boxes, a games console and a set-top box on one television, a [3-in-1 HDMI Switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} can make it easier to flick between a Virgin Media box, a Premier Sports streaming stick, and a smart TV app without constantly swapping cables behind the television. This is a particularly handy fix for households without enough HDMI ports for everything connected to one screen.
 
 ## Confirming Fixtures and Kick-Off Times
 

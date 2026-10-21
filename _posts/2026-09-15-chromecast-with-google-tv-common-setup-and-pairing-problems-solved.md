@@ -48,9 +48,9 @@ Irish homes are often built with thick stone or concrete walls, which play havoc
 
 Before assuming the Chromecast itself is faulty, try moving your router closer to the TV, or temporarily test the Chromecast in the same room as the router. If performance improves dramatically, signal strength is your issue rather than a software fault.
 
-A [Wi-Fi range extender](https://amzn.to/3SZDvjo) is often the simplest fix here - plug it in roughly halfway between the router and the TV, and it will rebroadcast the signal into the room where your Chromecast lives. For larger or multi-storey homes, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh) tends to give more consistent coverage throughout the house, since it uses multiple access points rather than a single extended signal.
+A [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} is often the simplest fix here - plug it in roughly halfway between the router and the TV, and it will rebroadcast the signal into the room where your Chromecast lives. For larger or multi-storey homes, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} tends to give more consistent coverage throughout the house, since it uses multiple access points rather than a single extended signal.
 
-If your router is anywhere near the TV, running a [long Ethernet cable](https://amzn.to/4imUjuU) to a compatible adapter can eliminate Wi-Fi issues altogether, since a wired connection doesn't suffer from interference or distance the way wireless does.
+If your router is anywhere near the TV, running a [long Ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} to a compatible adapter can eliminate Wi-Fi issues altogether, since a wired connection doesn't suffer from interference or distance the way wireless does.
 
 ## Fixing Remote Pairing Problems
 

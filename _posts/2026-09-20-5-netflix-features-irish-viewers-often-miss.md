@@ -36,7 +36,7 @@ faqs:
  
 ## 5 Netflix Features Irish Viewers Often Miss
 
-Most of us have had a Netflix account for years at this point, yet plenty of useful tools hiding in the app go unnoticed. Whether you're watching on a smart TV, a laptop, or a [Fire TV Stick](https://amzn.to/4xmJyfY) plugged into the back of the telly, these features are worth a look.
+Most of us have had a Netflix account for years at this point, yet plenty of useful tools hiding in the app go unnoticed. Whether you're watching on a smart TV, a laptop, or a [Fire TV Stick](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} plugged into the back of the telly, these features are worth a look.
 
 ### 1. Profile Transfer
 
@@ -52,7 +52,7 @@ Beyond simply turning subtitles on or off, Netflix lets you adjust subtitle text
 
 ### 4. Skip Recap and Skip Intro Controls
 
-The "Skip Intro" button is well known at this stage, but fewer people know you can also skip the "Previously On" recap segments on many series, and on some shows there's an option to auto-skip intros permanently rather than tapping every episode. Look for this under playback settings on supported devices. If you're watching through a [Roku](https://amzn.to/4xmJyfY) or similar streaming device, these buttons should appear directly in the player, but placement can vary slightly by app version.
+The "Skip Intro" button is well known at this stage, but fewer people know you can also skip the "Previously On" recap segments on many series, and on some shows there's an option to auto-skip intros permanently rather than tapping every episode. Look for this under playback settings on supported devices. If you're watching through a [Roku](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} or similar streaming device, these buttons should appear directly in the player, but placement can vary slightly by app version.
 
 ### 5. Household and Location Settings
 
@@ -60,9 +60,9 @@ Netflix uses a "Netflix Household" system tied to your home network to determine
 
 ## Getting the Most From Your Setup
 
-None of these features require anything more than exploring the settings menus you already have access to. That said, if you're finding dialogue hard to hear or subtitles awkward to read from the couch, pairing your TV with a decent [soundbar](https://amzn.to/4xmJyfY) can make a bigger difference than most people expect, especially in older Irish homes where TV speakers tend to be an afterthought.
+None of these features require anything more than exploring the settings menus you already have access to. That said, if you're finding dialogue hard to hear or subtitles awkward to read from the couch, pairing your TV with a decent [soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} can make a bigger difference than most people expect, especially in older Irish homes where TV speakers tend to be an afterthought.
 
-If your household juggles a games console, a streaming stick, and the TV's own inputs, a [universal remote](https://amzn.to/4im1tzz) can also cut down on the usual scramble for three different remotes just to watch one episode in peace.
+If your household juggles a games console, a streaming stick, and the TV's own inputs, a [universal remote](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} can also cut down on the usual scramble for three different remotes just to watch one episode in peace.
 
 Small adjustments like these won't change what's available to stream, but they can make the experience considerably smoother — and most of them take less than a minute to set up once you know where to look.
 

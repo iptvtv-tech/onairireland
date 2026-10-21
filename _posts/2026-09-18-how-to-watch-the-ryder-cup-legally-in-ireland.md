@@ -52,7 +52,7 @@ You'll need a Sky subscription that includes Sky Sports, or a [NOW](/streaming-s
 
 ### Setting Up NOW or Sky Go on a Streaming Device
 
-If you're going the NOW route, you'll want a streaming device that supports the app cleanly. A [Fire TV Stick](https://amzn.to/4h6LS4B) is one of the more affordable options and generally has good app support for Irish and UK streaming services, though it's always sensible to check the NOW app is listed as compatible with your specific device model before buying anything.
+If you're going the NOW route, you'll want a streaming device that supports the app cleanly. A [Fire TV Stick](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is one of the more affordable options and generally has good app support for Irish and UK streaming services, though it's always sensible to check the NOW app is listed as compatible with your specific device model before buying anything.
 
 Roku devices and the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) are the other realistic options if you're building out a smart TV setup from scratch. Whichever route you go, make sure your home broadband can handle sustained HD streaming for several hours at a time, particularly across the Friday and Saturday sessions when coverage can run long.
 
@@ -62,11 +62,11 @@ One thing worth flagging: streaming apps tie your account to the region your bil
 
 ### If You're Relying on an Aerial Signal
 
-Some free-to-air highlights packages occasionally pop up around major golf events, though the bulk of live Ryder Cup coverage tends to sit behind Sky's paywall. If you're chasing any terrestrial coverage or just want a more reliable overall TV signal in a rural spot, an [outdoor digital TV aerial](https://amzn.to/3T7hgI6) can make a noticeable difference to reception quality, particularly in areas where an indoor aerial struggles.
+Some free-to-air highlights packages occasionally pop up around major golf events, though the bulk of live Ryder Cup coverage tends to sit behind Sky's paywall. If you're chasing any terrestrial coverage or just want a more reliable overall TV signal in a rural spot, an [outdoor digital TV aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} can make a noticeable difference to reception quality, particularly in areas where an indoor aerial struggles.
 
 ### Tidying Up Your Viewing Setup
 
-With a Ryder Cup weekend often meaning long hours in front of the television, it's worth having your setup sorted in advance. If you've got a games console, a streaming stick, and a soundbar all fighting for one HDMI port, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA) is a handy, cheap fix that saves you crawling behind the TV mid-tournament to swap cables around.
+With a Ryder Cup weekend often meaning long hours in front of the television, it's worth having your setup sorted in advance. If you've got a games console, a streaming stick, and a soundbar all fighting for one HDMI port, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} is a handy, cheap fix that saves you crawling behind the TV mid-tournament to swap cables around.
 
 ### Final Check Before Tee-Off
 

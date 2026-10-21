@@ -49,13 +49,13 @@ Irish broadband, particularly on older DSL or fixed wireless connections, can sl
 
 A weak Wi-Fi signal is one of the most common causes of buffering, especially if your router is on a different floor or at the far end of the house from your TV. Smart TVs and streaming boxes often have less sensitive Wi-Fi antennas than phones or laptops, so a connection that feels fine on your mobile might still struggle on the television.
 
-Moving the router closer, or adding a [Wi-Fi Range Extender](https://amzn.to/3SZDvjo) near the TV, can noticeably improve reliability. For larger or multi-storey homes, a [Mesh Wi-Fi System (2-pack)](https://amzn.to/4xqgJzh) tends to give more consistent coverage throughout the house than a single router pushing a signal through thick walls.
+Moving the router closer, or adding a [Wi-Fi Range Extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} near the TV, can noticeably improve reliability. For larger or multi-storey homes, a [Mesh Wi-Fi System (2-pack)](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} tends to give more consistent coverage throughout the house than a single router pushing a signal through thick walls.
 
 ## Consider a Wired Connection
 
-Where possible, connecting your streaming device directly to your router with an Ethernet cable removes Wi-Fi interference from the equation entirely. A [Long Ethernet Cable](https://amzn.to/4imUjuU) is an inexpensive way to run a stable wired connection to a TV that isn't near the router, and many smart TVs and streaming boxes have a built-in Ethernet port for exactly this purpose.
+Where possible, connecting your streaming device directly to your router with an Ethernet cable removes Wi-Fi interference from the equation entirely. A [Long Ethernet Cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} is an inexpensive way to run a stable wired connection to a TV that isn't near the router, and many smart TVs and streaming boxes have a built-in Ethernet port for exactly this purpose.
 
-If your device only supports Wi-Fi, a [Powerline Adapter Kit](https://amzn.to/4xEEuDX) can carry a wired connection through your home's electrical wiring instead, which is often more reliable than extending Wi-Fi in older houses with thick walls.
+If your device only supports Wi-Fi, a [Powerline Adapter Kit](https://amzn.to/4xEEuDX){:rel="nofollow sponsored noopener"} can carry a wired connection through your home's electrical wiring instead, which is often more reliable than extending Wi-Fi in older houses with thick walls.
 
 ## Restart and Update Everything
 
@@ -71,9 +71,9 @@ If you're using a smart TV app rather than an Apple TV box, make sure it was dow
 
 ## Other Small Things Worth Checking
 
-A dirty or obstructed screen sensor can occasionally interfere with smart TV performance, so a gentle clean with a proper [TV Screen Cleaning Kit](https://amzn.to/4xyXx2o) is worth doing as routine maintenance anyway. Weak remote batteries can also cause lag or missed inputs that feel like buffering but aren't; swapping in a set of [Rechargeable Remote Batteries (4-pack)](https://amzn.to/4h8jsHi) is a cheap way to rule this out.
+A dirty or obstructed screen sensor can occasionally interfere with smart TV performance, so a gentle clean with a proper [TV Screen Cleaning Kit](https://amzn.to/4xyXx2o){:rel="nofollow sponsored noopener"} is worth doing as routine maintenance anyway. Weak remote batteries can also cause lag or missed inputs that feel like buffering but aren't; swapping in a set of [Rechargeable Remote Batteries (4-pack)](https://amzn.to/4h8jsHi){:rel="nofollow sponsored noopener"} is a cheap way to rule this out.
 
-For Fire TV users specifically, the [Amazon Ethernet Adapter for Fire TV](https://amzn.to/3Ti7NOw) is a simple way to add a wired connection to a device that's normally Wi-Fi only.
+For Fire TV users specifically, the [Amazon Ethernet Adapter for Fire TV](https://amzn.to/3Ti7NOw){:rel="nofollow sponsored noopener"} is a simple way to add a wired connection to a device that's normally Wi-Fi only.
 
 ## When to Contact Your Provider or Apple
 

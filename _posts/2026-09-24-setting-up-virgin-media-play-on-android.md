@@ -40,7 +40,7 @@ To set up Virgin Media Play on Android, download it from the Google Play Store, 
 
 Virgin Media Play is the broadcaster's official streaming app, giving Virgin Media TV customers access to live channels and on-demand content on compatible Android devices. Before installing, it's worth checking a few basics.
 
-Make sure your Android phone or tablet is running a reasonably recent version of Android, as very old operating systems may not be supported. You'll also need an active Virgin Media TV subscription, since the app authenticates against your account rather than offering standalone access. A stable Wi-Fi connection is recommended for setup and for streaming without interruptions — if your home broadband has trouble reaching every room, a [Mesh Wi-Fi System](https://amzn.to/3UGxqJd) can help even out coverage between devices.
+Make sure your Android phone or tablet is running a reasonably recent version of Android, as very old operating systems may not be supported. You'll also need an active Virgin Media TV subscription, since the app authenticates against your account rather than offering standalone access. A stable Wi-Fi connection is recommended for setup and for streaming without interruptions — if your home broadband has trouble reaching every room, a [Mesh Wi-Fi System](https://amzn.to/3UGxqJd){:rel="nofollow sponsored noopener"} can help even out coverage between devices.
 
 ## Step 1: Download the App
 
@@ -66,7 +66,7 @@ Take a moment to browse the settings menu within the app itself. Here you may fi
 
 ## Step 5: Casting to a Bigger Screen
 
-Many Android users like to send content from their phone or tablet to a television. Virgin Media Play may support casting depending on your device and TV setup. If you're connecting your Android device directly to a television using a cable instead, a reliable [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx) helps ensure a stable picture and sound without dropouts, particularly for longer runs behind furniture.
+Many Android users like to send content from their phone or tablet to a television. Virgin Media Play may support casting depending on your device and TV setup. If you're connecting your Android device directly to a television using a cable instead, a reliable [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx){:rel="nofollow sponsored noopener"} helps ensure a stable picture and sound without dropouts, particularly for longer runs behind furniture.
 
 ## Troubleshooting Common Issues
 

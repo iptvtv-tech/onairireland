@@ -39,7 +39,7 @@ Setting up Sky Stream on a new smart TV mostly involves connecting the puck via 
 
 Sky Stream relies on a small streaming device (often called a "puck") that connects to your television rather than a traditional satellite dish. Before unboxing anything, it's worth checking a few basics.
 
-Make sure your home broadband is active and that you know your Wi-Fi network name and password, as these will be needed during setup. If your router sits far from the TV, a [Mesh Wi-Fi System](https://amzn.to/3UGxqJd) can help maintain a stable connection throughout the house, which is particularly useful if the television is in a room with thick walls or sits a good distance from the hub.
+Make sure your home broadband is active and that you know your Wi-Fi network name and password, as these will be needed during setup. If your router sits far from the TV, a [Mesh Wi-Fi System](https://amzn.to/3UGxqJd){:rel="nofollow sponsored noopener"} can help maintain a stable connection throughout the house, which is particularly useful if the television is in a room with thick walls or sits a good distance from the hub.
 
 You'll also need a free HDMI port on your new TV. Most modern sets have at least three, but if yours is limited, consider which other devices might compete for that connection.
 
@@ -47,17 +47,17 @@ You'll also need a free HDMI port on your new TV. Most modern sets have at least
 
 Decide where the Sky Stream puck will sit. It needs to be within reach of the TV via an HDMI cable and near a power socket. Many households find it convenient to position the puck on a shelf below the television or tucked beside it.
 
-If you're mounting your new television on the wall, a [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr) can make cable routing considerably tidier, and it allows you to angle the screen for the best viewing position before you start running leads.
+If you're mounting your new television on the wall, a [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr){:rel="nofollow sponsored noopener"} can make cable routing considerably tidier, and it allows you to angle the screen for the best viewing position before you start running leads.
 
-Since the puck, TV, and possibly a soundbar or set-top box will all need power, plugging everything into a [Surge-Protected Extension Lead](https://amzn.to/4y9wjjX) is a sensible way to protect your new equipment from power surges while keeping sockets organised.
+Since the puck, TV, and possibly a soundbar or set-top box will all need power, plugging everything into a [Surge-Protected Extension Lead](https://amzn.to/4y9wjjX){:rel="nofollow sponsored noopener"} is a sensible way to protect your new equipment from power surges while keeping sockets organised.
 
 ## Step 2: Connecting the Cables
 
-Connect one end of an HDMI cable to the Sky Stream puck and the other to an available HDMI input on your TV. If your existing cable looks worn or came bundled with older equipment, it may be worth upgrading to a [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx) to ensure full support for 4K and HDR picture quality, assuming your TV and Sky subscription support those formats.
+Connect one end of an HDMI cable to the Sky Stream puck and the other to an available HDMI input on your TV. If your existing cable looks worn or came bundled with older equipment, it may be worth upgrading to a [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx){:rel="nofollow sponsored noopener"} to ensure full support for 4K and HDR picture quality, assuming your TV and Sky subscription support those formats.
 
-For TVs mounted on the wall with limited clearance behind them, an [HDMI Extender Adapter](https://amzn.to/4An8hDF) can make awkward connections easier to reach, particularly where ports are recessed or tightly spaced.
+For TVs mounted on the wall with limited clearance behind them, an [HDMI Extender Adapter](https://amzn.to/4An8hDF){:rel="nofollow sponsored noopener"} can make awkward connections easier to reach, particularly where ports are recessed or tightly spaced.
 
-Once cables are connected, use [Cable Management Clips](https://amzn.to/4ApzPIu) to keep leads tidy along the wall or furniture edge, reducing strain on the ports over time.
+Once cables are connected, use [Cable Management Clips](https://amzn.to/4ApzPIu){:rel="nofollow sponsored noopener"} to keep leads tidy along the wall or furniture edge, reducing strain on the ports over time.
 
 ## Step 3: Powering On and Pairing
 
@@ -79,7 +79,7 @@ Once setup is complete, test a few channels and on-demand options to confirm eve
 
 ## A Note on Free-to-Air Backup
 
-Some households like having a free-to-air option as a backup during broadband outages or for channels not included in their package. A [Saorview Set-Top Box](https://amzn.to/4hcu2yx) connected to a separate HDMI input can provide this without interfering with your Sky Stream setup.
+Some households like having a free-to-air option as a backup during broadband outages or for channels not included in their package. A [Saorview Set-Top Box](https://amzn.to/4hcu2yx){:rel="nofollow sponsored noopener"} connected to a separate HDMI input can provide this without interfering with your Sky Stream setup.
 
 {% include product-showcase.html category="Installation Guides" %}
 

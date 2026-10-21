@@ -69,11 +69,11 @@ If you've recently added new smart home devices, or if your remote issues starte
 
 Sometimes what looks like a remote problem is actually a connectivity problem with the Sky Stream puck itself. If your puck is struggling to maintain a stable internet connection, the whole system can behave sluggishly, including how it responds to remote inputs.
 
-If your puck is located far from your router, or in a part of the house with historically patchy Wi-Fi, it may be worth improving that connection first. A [Wi-Fi range extender](https://amzn.to/3SZDvjo) can help boost signal strength in rooms that sit at the edge of your router's coverage, which is a common issue in older Irish homes with thick walls.
+If your puck is located far from your router, or in a part of the house with historically patchy Wi-Fi, it may be worth improving that connection first. A [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can help boost signal strength in rooms that sit at the edge of your router's coverage, which is a common issue in older Irish homes with thick walls.
 
-Alternatively, if you'd prefer a more permanent and reliable fix, running a [long Ethernet cable](https://amzn.to/4imUjuU) directly from your router to the Sky Stream puck removes Wi-Fi variability from the equation entirely. This is often the most stable option if your setup allows for it.
+Alternatively, if you'd prefer a more permanent and reliable fix, running a [long Ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} directly from your router to the Sky Stream puck removes Wi-Fi variability from the equation entirely. This is often the most stable option if your setup allows for it.
 
-For larger homes with multiple dead spots, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh) can provide more consistent coverage throughout the house, which may indirectly improve how responsive your Sky Stream system feels overall.
+For larger homes with multiple dead spots, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} can provide more consistent coverage throughout the house, which may indirectly improve how responsive your Sky Stream system feels overall.
 
 ## Still Having Issues?
 

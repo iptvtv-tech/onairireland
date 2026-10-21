@@ -43,7 +43,7 @@ Sky Sports remains the primary home of Formula 1 broadcasting in Ireland, typica
 
 To access this, you'll generally need a Sky subscription that includes the Sky Sports package, or a NOW subscription if you prefer a streaming-only approach without a satellite dish. NOW is Sky's streaming service and is worth checking directly for current pricing and what's included, as packages do change from season to season.
 
-If you're relying on a satellite connection for Sky rather than streaming, signal quality matters. A poorly positioned or ageing aerial can lead to dropouts during a race, which is the last thing you want during a tense final lap. An [Outdoor Digital TV Aerial](https://amzn.to/3T7hgI6) can help ensure a stable signal if you're in an area with reception issues, though anyone on Sky's satellite service specifically should check compatibility before buying anything new.
+If you're relying on a satellite connection for Sky rather than streaming, signal quality matters. A poorly positioned or ageing aerial can lead to dropouts during a race, which is the last thing you want during a tense final lap. An [Outdoor Digital TV Aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} can help ensure a stable signal if you're in an area with reception issues, though anyone on Sky's satellite service specifically should check compatibility before buying anything new.
 
 ### RTÉ's Free-to-Air Coverage
 
@@ -61,7 +61,7 @@ For fans who want the most comprehensive coverage, including multi-camera angles
 
 However you access your F1 coverage, whether through a Sky box, NOW, RTÉ Player, or F1 TV Pro, the viewing setup at home makes a real difference. Many households now juggle multiple boxes and sticks: a satellite receiver, a streaming device, perhaps a games console, all fighting for the same HDMI port on the television.
 
-A [3-in-1 HDMI Switch](https://amzn.to/4h8t3OA) can simplify this by letting you connect several devices to one TV input and switch between them with a remote, rather than crawling behind the television to swap cables every race weekend. It's a small, practical fix for a common annoyance.
+A [3-in-1 HDMI Switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} can simplify this by letting you connect several devices to one TV input and switch between them with a remote, rather than crawling behind the television to swap cables every race weekend. It's a small, practical fix for a common annoyance.
 
 ### Checking Your Account Region
 

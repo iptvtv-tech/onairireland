@@ -68,15 +68,15 @@ If problems persist, a full uninstall and reinstall of the app is worth doing. T
 
 ### Check Your Network Connection
 
-A shaky Wi-Fi signal is one of the most common hidden causes of crashing apps, particularly on devices located far from the router or in rooms with thick walls. If your streaming device is in a different room to your router, a [Wi-Fi Range Extender](https://amzn.to/3SZDvjo) can make a noticeable difference by boosting signal strength to that part of the house.
+A shaky Wi-Fi signal is one of the most common hidden causes of crashing apps, particularly on devices located far from the router or in rooms with thick walls. If your streaming device is in a different room to your router, a [Wi-Fi Range Extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can make a noticeable difference by boosting signal strength to that part of the house.
 
-For a more permanent fix, especially in larger homes, upgrading to a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh) spreads a stronger, more consistent signal across multiple rooms rather than relying on a single router.
+For a more permanent fix, especially in larger homes, upgrading to a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} spreads a stronger, more consistent signal across multiple rooms rather than relying on a single router.
 
-If your streaming device is near the router anyway, running a [Long Ethernet Cable](https://amzn.to/4imUjuU) directly from the router to the device removes Wi-Fi variability from the equation entirely. Wired connections tend to be far more stable for streaming than wireless ones.
+If your streaming device is near the router anyway, running a [Long Ethernet Cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} directly from the router to the device removes Wi-Fi variability from the equation entirely. Wired connections tend to be far more stable for streaming than wireless ones.
 
 ### Check the Remote and Inputs
 
-Occasionally what looks like an app crash is actually a remote control losing responsiveness, causing button presses to register oddly or apps to seem frozen when they're not. If your remote has been acting sluggish, it might simply be low on battery. Switching to [Rechargeable Remote Batteries](https://amzn.to/4h8jsHi) is a handy way to keep a spare set topped up and ready.
+Occasionally what looks like an app crash is actually a remote control losing responsiveness, causing button presses to register oddly or apps to seem frozen when they're not. If your remote has been acting sluggish, it might simply be low on battery. Switching to [Rechargeable Remote Batteries](https://amzn.to/4h8jsHi){:rel="nofollow sponsored noopener"} is a handy way to keep a spare set topped up and ready.
 
 ### When It's Not Your Setup at All
 

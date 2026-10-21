@@ -44,7 +44,7 @@ Champions League nights are appointment viewing for a lot of Irish football fans
 
 Until the end of the 2026/27 season, free-to-air games are on **RTÉ** (first pick of Wednesday games, on RTÉ2 and the [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) app) and **Virgin Media Television** (most of the other games, on Virgin Media Two and Virgin Media Play). From 2027/28 Virgin drops out, and RTÉ keeps its free Wednesday games plus the final until 2031.
 
-If you're relying on an aerial for free-to-air channels, especially in rural areas or homes with a weak signal, upgrading your setup can make a noticeable difference. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6) is a sensible option for households that struggle with dropouts during big matches, since a stronger signal reduces the risk of your feed cutting out at the worst possible moment.
+If you're relying on an aerial for free-to-air channels, especially in rural areas or homes with a weak signal, upgrading your setup can make a noticeable difference. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} is a sensible option for households that struggle with dropouts during big matches, since a stronger signal reduces the risk of your feed cutting out at the worst possible moment.
 
 ### Subscription Broadcasters
 
@@ -60,7 +60,7 @@ It's worth checking the app store on whichever device you own before subscribing
 
 ### Juggling Multiple Devices and Sources
 
-If your Champions League viewing is split across a satellite box, a streaming stick, and perhaps a games console or laptop for the RTÉ Player, switching between HDMI inputs on your television can get tedious. A [3-in-1 HDMI switch](https://amzn.to/4h8t3OA) is a handy way to connect several devices to one TV input and flick between them with a single button, which is particularly useful on a night when you're jumping between a free-to-air match and a subscription channel's coverage of a different fixture.
+If your Champions League viewing is split across a satellite box, a streaming stick, and perhaps a games console or laptop for the RTÉ Player, switching between HDMI inputs on your television can get tedious. A [3-in-1 HDMI switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} is a handy way to connect several devices to one TV input and flick between them with a single button, which is particularly useful on a night when you're jumping between a free-to-air match and a subscription channel's coverage of a different fixture.
 
 ### A Few Things Worth Checking Before Matchday
 

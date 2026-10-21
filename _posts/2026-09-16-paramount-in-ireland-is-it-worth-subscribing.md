@@ -65,13 +65,13 @@ Realistically, most Irish households end up juggling two or three of these subsc
 
 ## Getting Paramount+ on Your TV
 
-Paramount+ is generally available as an app on major smart TV platforms, plus streaming devices like the [Fire TV Stick](https://amzn.to/4h6LS4B) and Chromecast. If your TV is a few years old and doesn't have the app pre-installed, a streaming stick is usually the simplest fix rather than replacing the whole television.
+Paramount+ is generally available as an app on major smart TV platforms, plus streaming devices like the [Fire TV Stick](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} and Chromecast. If your TV is a few years old and doesn't have the app pre-installed, a streaming stick is usually the simplest fix rather than replacing the whole television.
 
-For households that jump between several streaming apps regularly, a [universal remote control](https://amzn.to/4im1tzz) can save a lot of hassle, especially if you've got a separate box for Sky, Virgin, or a games console alongside your streaming stick.
+For households that jump between several streaming apps regularly, a [universal remote control](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} can save a lot of hassle, especially if you've got a separate box for Sky, Virgin, or a games console alongside your streaming stick.
 
 ## Is the Sound Worth Upgrading Too?
 
-Streaming quality is only half the picture — audio matters just as much for dialogue-heavy dramas and Trek's dense sound design. If you're watching mostly through built-in TV speakers, a [compact soundbar](https://amzn.to/4xmJyfY) makes a noticeable difference without needing a full surround setup. And if you want to catch a match or documentary in another room, a [portable Bluetooth speaker](https://amzn.to/3VbjBT4) is a handy way to bring the sound with you.
+Streaming quality is only half the picture — audio matters just as much for dialogue-heavy dramas and Trek's dense sound design. If you're watching mostly through built-in TV speakers, a [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} makes a noticeable difference without needing a full surround setup. And if you want to catch a match or documentary in another room, a [portable Bluetooth speaker](https://amzn.to/3VbjBT4){:rel="nofollow sponsored noopener"} is a handy way to bring the sound with you.
 
 ## Final Verdict
 

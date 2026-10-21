@@ -64,9 +64,9 @@ Apps store temporary data to load faster, but this cache can become corrupted ov
 
 ### Network Connectivity Issues
 
-A weak or unstable Wi-Fi connection can interrupt the authentication process, even if the rest of your internet seems fine. If your streaming device sits far from your router, signal strength may be the real culprit rather than anything wrong with your account. A [Wi-Fi Range Extender](https://amzn.to/3SZDvjo) can help boost coverage to a TV in a tricky spot, or if you'd rather eliminate wireless interference entirely, running a [Long Ethernet Cable](https://amzn.to/4imUjuU) directly to your streaming device tends to give the most reliable connection for login and playback alike.
+A weak or unstable Wi-Fi connection can interrupt the authentication process, even if the rest of your internet seems fine. If your streaming device sits far from your router, signal strength may be the real culprit rather than anything wrong with your account. A [Wi-Fi Range Extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can help boost coverage to a TV in a tricky spot, or if you'd rather eliminate wireless interference entirely, running a [Long Ethernet Cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} directly to your streaming device tends to give the most reliable connection for login and playback alike.
 
-For homes with multiple dead zones, a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh) is worth considering as a longer-term fix, since it spreads consistent coverage across the house rather than relying on a single router.
+For homes with multiple dead zones, a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} is worth considering as a longer-term fix, since it spreads consistent coverage across the house rather than relying on a single router.
 
 ## Device-Specific Login Issues
 
@@ -84,7 +84,7 @@ If credentials seem correct but login still fails, a password reset through Virg
 
 ### Remote and Accessory Issues
 
-Occasionally what looks like a login freeze is actually a lagging or unresponsive remote failing to register button presses properly. Weak batteries are a common hidden cause here, so it's worth keeping a set of [Rechargeable Remote Batteries](https://amzn.to/4h8jsHi) on hand for streaming devices that rely on a separate remote control.
+Occasionally what looks like a login freeze is actually a lagging or unresponsive remote failing to register button presses properly. Weak batteries are a common hidden cause here, so it's worth keeping a set of [Rechargeable Remote Batteries](https://amzn.to/4h8jsHi){:rel="nofollow sponsored noopener"} on hand for streaming devices that rely on a separate remote control.
 
 ## Still Not Working?
 

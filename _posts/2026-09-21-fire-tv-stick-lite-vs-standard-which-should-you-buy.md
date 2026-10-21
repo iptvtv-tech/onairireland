@@ -46,11 +46,11 @@ The standard Fire TV Stick comes with the Alexa Voice Remote, which includes ded
 
 The Lite version drops those TV control buttons. You still get voice search and navigation, but you'll need your television's own remote for power and volume. It's a small saving in hardware that Amazon passes on as a lower price, but it's worth considering if you'd like one remote to rule them all.
 
-If you're the sort of household that loses remotes on a weekly basis, a bit of visual help doesn't hurt — something like a [glow-in-the-dark remote cover case](https://amzn.to/3UXJaXL) can make late-night fumbling for the right buttons a lot easier, regardless of which stick you end up with.
+If you're the sort of household that loses remotes on a weekly basis, a bit of visual help doesn't hurt — something like a [glow-in-the-dark remote cover case](https://amzn.to/3UXJaXL){:rel="nofollow sponsored noopener"} can make late-night fumbling for the right buttons a lot easier, regardless of which stick you end up with.
 
 ### Performance and Resolution
 
-Both the Lite and standard Fire TV Stick typically support Full HD streaming rather than 4K. If your telly is a 4K set and you want to make full use of it, neither of these entry-level sticks will get you there — that's where the [Fire TV Stick 4K](https://amzn.to/4h6LS4B) comes in, offering sharper picture quality and support for HDR content on services that provide it. Processing speed and app-loading times between the Lite and standard versions are generally very similar, since the internal hardware is much the same.
+Both the Lite and standard Fire TV Stick typically support Full HD streaming rather than 4K. If your telly is a 4K set and you want to make full use of it, neither of these entry-level sticks will get you there — that's where the [Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} comes in, offering sharper picture quality and support for HDR content on services that provide it. Processing speed and app-loading times between the Lite and standard versions are generally very similar, since the internal hardware is much the same.
 
 ### Price Gap in Ireland
 
@@ -64,9 +64,9 @@ If this is your first streaming stick and your TV remote already works fine for 
 
 ### If You Want More Power
 
-If you'd like one remote for everything, or you're setting up a main living room TV, the standard Fire TV Stick's added remote functions are a worthwhile upgrade for a small price difference. And if your main TV is 4K, it's worth stepping up to the [Fire TV Stick 4K](https://amzn.to/4h6LS4B) instead of either Lite or standard model.
+If you'd like one remote for everything, or you're setting up a main living room TV, the standard Fire TV Stick's added remote functions are a worthwhile upgrade for a small price difference. And if your main TV is 4K, it's worth stepping up to the [Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} instead of either Lite or standard model.
 
-It's also fair to shop around device brands rather than assuming Fire TV is automatically the right fit. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) offers a similarly straightforward interface with its own remote finder feature, while Chromecast options suit households already leaning on Google services for search and casting. None of these are objectively "better" across the board — it depends on which ecosystem and remote habits suit your home.
+It's also fair to shop around device brands rather than assuming Fire TV is automatically the right fit. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} offers a similarly straightforward interface with its own remote finder feature, while Chromecast options suit households already leaning on Google services for search and casting. None of these are objectively "better" across the board — it depends on which ecosystem and remote habits suit your home.
 
 Whichever stick you choose, make sure your home broadband can comfortably handle streaming in the room you're watching in — a weak signal causes far more buffering complaints than any device choice does.
 

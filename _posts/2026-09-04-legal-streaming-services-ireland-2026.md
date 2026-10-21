@@ -120,9 +120,9 @@ The TV licence costs **€160 a year**. According to Citizens Information, you d
 
 Most smart TVs from the last few years already have RTÉ Player, Virgin Media Play, Netflix and the other big apps built in. If yours is older or missing apps, a plug-in streaming stick is the cheapest fix:
 
-- **Amazon Fire TV Stick** — wide app support, including Virgin Media Play, TG4 Player, NOW and GAA+. [Check price on Amazon](https://amzn.to/4y4CYvF)
-- **A new smart TV** — worth it if your current set is slow or no longer gets app updates. [Check smart TV prices](https://amzn.to/3Tdso6z)
-- **A soundbar** — the single biggest upgrade for TV speakers. [Check soundbar prices](https://amzn.to/4AqggzP)
+- **Amazon Fire TV Stick** — wide app support, including Virgin Media Play, TG4 Player, NOW and GAA+. [Check price on Amazon](https://amzn.to/4y4CYvF){:rel="nofollow sponsored noopener"}
+- **A new smart TV** — worth it if your current set is slow or no longer gets app updates. [Check smart TV prices](https://amzn.to/3Tdso6z){:rel="nofollow sponsored noopener"}
+- **A soundbar** — the single biggest upgrade for TV speakers. [Check soundbar prices](https://amzn.to/4AqggzP){:rel="nofollow sponsored noopener"}
 
 See our [best streaming devices for Irish homes](/devices/best-streaming-devices-ireland/) and [best budget streaming sticks](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) for full comparisons.
 

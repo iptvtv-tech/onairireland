@@ -52,7 +52,7 @@ It's designed to sit near your TV rather than hide behind it, since it needs a b
 
 In everyday use, the Cube does feel quicker than a base Fire TV Stick, particularly when jumping between apps like RTÉ Player, Virgin Media Play, Netflix, and Disney+. Menus load a touch faster, and there's less of the stutter you sometimes get when a Stick is juggling several background processes.
 
-That said, if you've already got a [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc), much of that performance gap narrows considerably. The 4K Max was built to address exactly the kind of sluggishness that made the Cube feel necessary in the first place, and for a lot of Irish viewers, it may deliver enough speed without the added bulk or price.
+That said, if you've already got a [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"}, much of that performance gap narrows considerably. The 4K Max was built to address exactly the kind of sluggishness that made the Cube feel necessary in the first place, and for a lot of Irish viewers, it may deliver enough speed without the added bulk or price.
 
 ### Hands-Free Alexa: Genuinely Useful or Just a Gimmick?
 
@@ -68,7 +68,7 @@ We won't quote an exact price here, as Amazon pricing and occasional sale discou
 
 ### How It Compares to Other Options
 
-If voice control isn't a priority and you mainly want strong 4K performance, the [Roku Ultra](https://amzn.to/4hbNJFw) is another device worth comparing, offering a dedicated remote finder feature and a straightforward, ad-light interface that some viewers find less cluttered than Fire TV's homepage.
+If voice control isn't a priority and you mainly want strong 4K performance, the [Roku Ultra](https://amzn.to/4hbNJFw){:rel="nofollow sponsored noopener"} is another device worth comparing, offering a dedicated remote finder feature and a straightforward, ad-light interface that some viewers find less cluttered than Fire TV's homepage.
 
 A basic Chromecast remains a solid budget-friendly option too, particularly for those who mostly cast from a phone or tablet rather than navigating a traditional on-screen menu.
 

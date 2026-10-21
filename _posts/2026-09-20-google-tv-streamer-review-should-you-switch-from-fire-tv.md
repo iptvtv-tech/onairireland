@@ -52,7 +52,7 @@ One thing worth flagging: your Google Play Store region should match your actual
 
 ### How It Compares to Fire TV
 
-Amazon's Fire TV Stick range is still the most common streaming device in Irish homes, largely because it's cheap, widely stocked, and dead simple to set up. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc) in particular is a strong performer for the price, with quick app loading and support for all the major Irish streaming apps.
+Amazon's Fire TV Stick range is still the most common streaming device in Irish homes, largely because it's cheap, widely stocked, and dead simple to set up. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"} in particular is a strong performer for the price, with quick app loading and support for all the major Irish streaming apps.
 
 The core difference is the operating system. Fire TV's interface leans heavily on promoting Amazon's own Prime Video content, while Google TV's homepage feels a little more neutral, pulling recommendations from whichever apps you actually use. Neither is objectively "better" for RTÉ Player or [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), since both platforms support these apps fully.
 
@@ -60,7 +60,7 @@ Remote controls are broadly similar too, both include voice search, a mic button
 
 ### Where Roku Fits In
 
-It's also worth mentioning Roku as a third option, since it's gained a bit more of a foothold in Ireland recently. The [Roku Ultra](https://amzn.to/4hbNJFw) has a reputation for a clean, ad-light home screen compared to Fire TV, along with solid remote range and a headphone jack on the remote itself for private listening. If you find Fire TV's advertising tiles a bit much and don't fancy Google TV's ecosystem, Roku is a genuine third path.
+It's also worth mentioning Roku as a third option, since it's gained a bit more of a foothold in Ireland recently. The [Roku Ultra](https://amzn.to/4hbNJFw){:rel="nofollow sponsored noopener"} has a reputation for a clean, ad-light home screen compared to Fire TV, along with solid remote range and a headphone jack on the remote itself for private listening. If you find Fire TV's advertising tiles a bit much and don't fancy Google TV's ecosystem, Roku is a genuine third path.
 
 ### Should You Switch?
 

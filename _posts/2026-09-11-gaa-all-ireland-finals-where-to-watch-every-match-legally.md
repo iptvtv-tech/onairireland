@@ -56,13 +56,13 @@ Commentary is primarily as Gaeilge, though English-language radio or match-track
 
 Not every game across Finals weekend gets a slot on terrestrial television — provincial deciders, minor finals, and some lower-tier Championship fixtures often end up exclusively on GAA+, the GAA's own streaming platform. This is where a lot of fans get caught out, assuming every fixture is on RTÉ when in fact it's been streamed separately.
 
-If you're following more than just the headline Finals — say you want to catch a curtain-raiser or a replay — it's worth having access sorted in advance rather than scrambling on the morning of the match. A [GAA+ Season Pass](https://amzn.to/4cDMihv) covers you for the full year of streamed fixtures rather than paying piecemeal, which tends to work out better value if you're a regular follower of multiple codes.
+If you're following more than just the headline Finals — say you want to catch a curtain-raiser or a replay — it's worth having access sorted in advance rather than scrambling on the morning of the match. A [GAA+ Season Pass](https://amzn.to/4cDMihv){:rel="nofollow sponsored noopener"} covers you for the full year of streamed fixtures rather than paying piecemeal, which tends to work out better value if you're a regular follower of multiple codes.
 
 GAA+ streams work through a browser or app on most smart TVs, tablets, and phones. As always with subscription platforms, double-check current pricing and exact plan details on the official site before committing, since these do get updated seasonally.
 
 ### Don't Forget Other Sport That Weekend
 
-Finals weekend often overlaps with other live sport — rugby fixtures, GAA club coverage, or international games — and for households that follow multiple sports, a broader subscription can make sense. [Premier Sports](https://amzn.to/4h0LKnf) is a common addition for Irish sports fans who want rugby and other coverage alongside their GAA viewing, and it's available through most major streaming boxes and smart TV platforms.
+Finals weekend often overlaps with other live sport — rugby fixtures, GAA club coverage, or international games — and for households that follow multiple sports, a broader subscription can make sense. [Premier Sports](https://amzn.to/4h0LKnf){:rel="nofollow sponsored noopener"} is a common addition for Irish sports fans who want rugby and other coverage alongside their GAA viewing, and it's available through most major streaming boxes and smart TV platforms.
 
 ### Getting Set Up Before the Day
 

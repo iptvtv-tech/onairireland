@@ -61,9 +61,9 @@ If something still looks wrong after checking these, it's best to contact GAA+ s
 Buffering is almost always a network issue rather than an app issue. A few things to try, in order:
 
 1. **Restart your router.** Unplug it for about 30 seconds and let it fully reboot. This clears temporary congestion and refreshes your connection.
-2. **Move closer to your router**, or better yet, connect via ethernet if your device supports it. A [long ethernet cable](https://amzn.to/4imUjuU) is a cheap fix if your streaming device sits far from the router and you want a rock-solid wired connection for match day.
-3. **Check for Wi-Fi dead spots.** If your living room is at the far end of the house from the router, a [Wi-Fi range extender](https://amzn.to/3SZDvjo) can make a real difference to stream stability without any complicated setup.
-4. **Consider a mesh system** if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) is a recurring problem throughout the house, not just in one room. A [mesh Wi-Fi system](https://amzn.to/4xqgJzh) spreads coverage more evenly than a single router, which helps when multiple people are streaming at once.
+2. **Move closer to your router**, or better yet, connect via ethernet if your device supports it. A [long ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} is a cheap fix if your streaming device sits far from the router and you want a rock-solid wired connection for match day.
+3. **Check for Wi-Fi dead spots.** If your living room is at the far end of the house from the router, a [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can make a real difference to stream stability without any complicated setup.
+4. **Consider a mesh system** if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) is a recurring problem throughout the house, not just in one room. A [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} spreads coverage more evenly than a single router, which helps when multiple people are streaming at once.
 
 ## Device-Specific Checks
 
@@ -87,8 +87,8 @@ Mobile data limits and background app restrictions can interfere with smooth pla
 
 A few low-tech culprits are easy to miss:
 
-- **Remote control issues** can make it seem like the app has frozen when it hasn't. If your remote is sluggish, [rechargeable batteries](https://amzn.to/4h8jsHi) are a handy long-term fix, especially for households going through disposables during a busy GAA season.
-- **A dirty or glare-covered screen** won't cause playback issues, but it does make picture quality problems harder to diagnose. A proper [screen cleaning kit](https://amzn.to/4xyXx2o) is worth having if you're trying to judge whether a picture issue is your screen or your stream.
+- **Remote control issues** can make it seem like the app has frozen when it hasn't. If your remote is sluggish, [rechargeable batteries](https://amzn.to/4h8jsHi){:rel="nofollow sponsored noopener"} are a handy long-term fix, especially for households going through disposables during a busy GAA season.
+- **A dirty or glare-covered screen** won't cause playback issues, but it does make picture quality problems harder to diagnose. A proper [screen cleaning kit](https://amzn.to/4xyXx2o){:rel="nofollow sponsored noopener"} is worth having if you're trying to judge whether a picture issue is your screen or your stream.
 - **Low battery on a tablet or phone** used as a secondary screen can cause the device to throttle performance to save power. Keeping it plugged in or charged up avoids this during a long championship weekend.
 
 ## When All Else Fails

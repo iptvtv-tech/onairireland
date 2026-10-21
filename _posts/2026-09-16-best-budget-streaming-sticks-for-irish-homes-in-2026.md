@@ -48,7 +48,7 @@ We're focusing on devices that typically sit at the lower end of pricing for the
 
 Amazon's Fire TV range dominates budget streaming in Ireland, largely because it's easy to find, well supported, and works nicely with voice remotes. The entry-level Fire TV Stick Lite is aimed squarely at cost-conscious buyers who don't need every bell and whistle.
 
-If you're happy to spend a little more for noticeably smoother performance, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is worth a look. It supports 4K and HDR content where your broadband and subscription allow for it, and the extra processing power makes scrolling through menus feel less sluggish than on the cheapest models.
+If you're happy to spend a little more for noticeably smoother performance, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is worth a look. It supports 4K and HDR content where your broadband and subscription allow for it, and the extra processing power makes scrolling through menus feel less sluggish than on the cheapest models.
 
 For households that want one device to handle everything, including some smart home control, the Amazon Fire TV Cube sits a step above stick territory. It costs more than a basic stick, so it's not strictly "budget," but it's worth knowing about if you're weighing up whether to spend a bit extra.
 
@@ -56,7 +56,7 @@ For households that want one device to handle everything, including some smart h
 
 [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) has a smaller footprint in Ireland compared to the UK or US, but its devices are still available here and worth considering. The Roku Express is generally the cheaper entry point, with a simpler interface that some viewers find easier to navigate than Fire TV's more ad-heavy home screen.
 
-Stepping up, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) adds sharper picture support and a better remote. Roku's interface tends to be less cluttered with promotional tiles, which some readers may prefer, though app availability for Irish-specific services should always be double-checked before buying, as this can vary and change over time.
+Stepping up, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} adds sharper picture support and a better remote. Roku's interface tends to be less cluttered with promotional tiles, which some readers may prefer, though app availability for Irish-specific services should always be double-checked before buying, as this can vary and change over time.
 
 ### Google TV Options
 

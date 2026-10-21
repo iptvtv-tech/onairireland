@@ -56,9 +56,9 @@ Another frequent cause of login trouble is simply having an outdated app. Check 
 
 Buffering is almost always a network issue rather than a Disney+ problem. A few things worth checking:
 
-- **Wi-Fi signal strength**: If your streaming device is far from the router, or there are walls and floors in between, signal can weaken considerably. A [Wi-Fi Range Extender](https://amzn.to/3SZDvjo) can help push a stronger signal into rooms where streaming quality tends to drop.
-- **Wired connections**: For the most stable connection, especially with 4K content, running a [Long Ethernet Cable](https://amzn.to/4imUjuU) directly from your router to your streaming device removes Wi-Fi interference from the equation entirely.
-- **Whole-home coverage**: If buffering happens in multiple rooms or on multiple devices, your home might benefit from a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh), which spreads consistent coverage across a larger area rather than relying on a single router.
+- **Wi-Fi signal strength**: If your streaming device is far from the router, or there are walls and floors in between, signal can weaken considerably. A [Wi-Fi Range Extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can help push a stronger signal into rooms where streaming quality tends to drop.
+- **Wired connections**: For the most stable connection, especially with 4K content, running a [Long Ethernet Cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} directly from your router to your streaming device removes Wi-Fi interference from the equation entirely.
+- **Whole-home coverage**: If buffering happens in multiple rooms or on multiple devices, your home might benefit from a [Mesh Wi-Fi System](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"}, which spreads consistent coverage across a larger area rather than relying on a single router.
 
 It's also worth checking how many devices are streaming simultaneously on your account and network, as this can affect quality depending on your broadband plan's speed.
 
@@ -66,7 +66,7 @@ It's also worth checking how many devices are streaming simultaneously on your a
 
 If you're streaming through a Fire TV Stick, Fire TV Cube, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), or Chromecast, a good first step for any persistent issue is to fully restart the device rather than just closing the app. On Fire TV and Roku devices, this can usually be done through the settings menu; for Chromecast, unplugging it from power for 30 seconds often does the trick.
 
-Remote responsiveness issues can sometimes masquerade as app problems, when in fact it's simply weak batteries causing missed button presses. Switching to a set of [rechargeable remote batteries](https://amzn.to/4h8jsHi) is a handy long-term fix and saves you from constantly buying disposables.
+Remote responsiveness issues can sometimes masquerade as app problems, when in fact it's simply weak batteries causing missed button presses. Switching to a set of [rechargeable remote batteries](https://amzn.to/4h8jsHi){:rel="nofollow sponsored noopener"} is a handy long-term fix and saves you from constantly buying disposables.
 
 It's also worth clearing the Disney+ app's cache (available in most device settings menus under "apps") or, failing that, uninstalling and reinstalling the app entirely. This resolves a surprising number of persistent glitches.
 

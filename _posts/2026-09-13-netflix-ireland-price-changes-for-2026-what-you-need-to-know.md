@@ -70,9 +70,9 @@ Premium went from €23.99 to €25.99 a month. With 4K streaming and support fo
 
 ## Getting the Most From Your Subscription
 
-With prices creeping up, it's worth making sure you're actually getting good value from your setup at home. A shaky signal or poor picture quality can make a premium subscription feel like a waste of money. If your TV struggles with a weak aerial signal alongside your streaming apps, a [TV aerial signal booster](https://amzn.to/3VrktTE) can help clean up reception for the free-to-air channels you might still watch alongside Netflix, so you're not paying for streaming while also fighting with a fuzzy picture on RTÉ or Virgin Media channels.
+With prices creeping up, it's worth making sure you're actually getting good value from your setup at home. A shaky signal or poor picture quality can make a premium subscription feel like a waste of money. If your TV struggles with a weak aerial signal alongside your streaming apps, a [TV aerial signal booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} can help clean up reception for the free-to-air channels you might still watch alongside Netflix, so you're not paying for streaming while also fighting with a fuzzy picture on RTÉ or Virgin Media channels.
 
-It's also worth checking that your streaming hardware itself isn't holding you back. Older remotes or set-top boxes can feel sluggish, especially with more demanding apps and higher bitrate 4K content. If you're on a Fire TV device and your current remote is unresponsive or missing buttons, a replacement [Fire TV remote](https://amzn.to/4AbmIKM) is a simple fix that can make navigating Netflix and other legal streaming apps noticeably smoother.
+It's also worth checking that your streaming hardware itself isn't holding you back. Older remotes or set-top boxes can feel sluggish, especially with more demanding apps and higher bitrate 4K content. If you're on a Fire TV device and your current remote is unresponsive or missing buttons, a replacement [Fire TV remote](https://amzn.to/4AbmIKM){:rel="nofollow sponsored noopener"} is a simple fix that can make navigating Netflix and other legal streaming apps noticeably smoother.
 
 ## What Irish Subscribers Should Do Now
 

@@ -62,7 +62,7 @@ If you're chasing one specific series, the simplest approach is to search for th
 
 A common source of frustration for Irish viewers isn't actually about Peacock at all, it's app store confusion. If you're on a Fire TV Stick, Fire TV Cube, Roku, or Chromecast, make sure your device's regional settings match your actual location and that you're signed into the correct Irish (or UK, where relevant) version of the app store. Mismatched regions can cause certain apps to disappear entirely or show incorrect content libraries, which sometimes gets mistaken for a Peacock-related issue.
 
-If you're using a Fire TV device and find yourself constantly digging through menus to fix app or account settings, a dedicated [Fire TV Remote](https://amzn.to/4AbmIKM) can make navigation a lot less fiddly than relying on a phone app substitute.
+If you're using a Fire TV device and find yourself constantly digging through menus to fix app or account settings, a dedicated [Fire TV Remote](https://amzn.to/4AbmIKM){:rel="nofollow sponsored noopener"} can make navigation a lot less fiddly than relying on a phone app substitute.
 
 ### When "Not Available in Your Region" Pops Up
 
@@ -74,7 +74,7 @@ If you ever see a message saying a show or app "isn't available in your country,
 
 ### Don't Overlook Basic Signal Issues
 
-Sometimes what looks like a streaming problem is actually a broadband or reception issue, especially if you're mixing streaming with saved digital TV channels. If you're experiencing patchy picture quality on the TV side of things, it's worth ruling out your aerial setup with something like a [TV Aerial Signal Booster](https://amzn.to/3VrktTE) before assuming an app or service is broken.
+Sometimes what looks like a streaming problem is actually a broadband or reception issue, especially if you're mixing streaming with saved digital TV channels. If you're experiencing patchy picture quality on the TV side of things, it's worth ruling out your aerial setup with something like a [TV Aerial Signal Booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} before assuming an app or service is broken.
 
 ### The Bottom Line
 

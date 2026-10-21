@@ -56,11 +56,11 @@ Rather than trying to work around this, the simplest and most reliable route for
 
 However you end up accessing Emmerdale, having the right streaming setup at home makes a big difference to picture quality and ease of use.
 
-A [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a solid choice for Irish households, since it supports a wide range of apps, has straightforward regional settings, and doesn't require a particularly powerful TV to get sharp picture quality. It plugs into any spare HDMI port and works over your home Wi-Fi.
+A [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is a solid choice for Irish households, since it supports a wide range of apps, has straightforward regional settings, and doesn't require a particularly powerful TV to get sharp picture quality. It plugs into any spare HDMI port and works over your home Wi-Fi.
 
-Alternatively, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is another dependable option, particularly if you already use other Amazon services. It supports the major broadcaster apps used in Ireland and is simple to set up, with clear on-screen prompts for connecting to your home network and signing into your existing TV provider accounts.
+Alternatively, the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is another dependable option, particularly if you already use other Amazon services. It supports the major broadcaster apps used in Ireland and is simple to set up, with clear on-screen prompts for connecting to your home network and signing into your existing TV provider accounts.
 
-If your household relies on satellite for most of its viewing, an [HD Satellite Receiver](https://amzn.to/4hibfjU) can also be worth considering, especially in areas where broadband speeds aren't consistent enough for smooth streaming. It's a good backup for reliable reception regardless of your internet connection.
+If your household relies on satellite for most of its viewing, an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} can also be worth considering, especially in areas where broadband speeds aren't consistent enough for smooth streaming. It's a good backup for reliable reception regardless of your internet connection.
 
 Chromecast and Fire TV Cube are also reasonable choices if you're comparing devices, particularly the Cube if you'd like hands-free voice control built in.
 

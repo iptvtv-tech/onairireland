@@ -42,7 +42,7 @@ This guide walks through the process on the main smart TV operating systems and 
 
 ## Before You Start
 
-Make sure your television or streaming device is connected to the internet, either via Wi-Fi or a wired connection. If you're setting up a new TV, this is also a good moment to check your cabling — a decent [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx) helps avoid dropouts or resolution issues, particularly if you're running 4K content or a soundbar through the same connection.
+Make sure your television or streaming device is connected to the internet, either via Wi-Fi or a wired connection. If you're setting up a new TV, this is also a good moment to check your cabling — a decent [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx){:rel="nofollow sponsored noopener"} helps avoid dropouts or resolution issues, particularly if you're running 4K content or a soundbar through the same connection.
 
 It's also worth having your Google account details handy, or your phone nearby, since several platforms let you sign in by scanning a QR code rather than typing a password with a remote.
 
@@ -64,13 +64,13 @@ If your television doesn't have a modern smart platform, a streaming stick is us
 
 **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) or Chromecast with Google TV:** YouTube comes pre-loaded, and if you signed into your Google account during initial setup, it should already be linked. Otherwise, install it from the built-in app store and follow the same activation code process.
 
-If you're mounting a new TV alongside setting up these devices, an [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr) makes it easier to angle the screen correctly and tidy away cabling from streaming sticks and cubes sitting behind the panel.
+If you're mounting a new TV alongside setting up these devices, an [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr){:rel="nofollow sponsored noopener"} makes it easier to angle the screen correctly and tidy away cabling from streaming sticks and cubes sitting behind the panel.
 
 ## Fixing Common Sign-In and Playback Issues
 
 **"Something went wrong" or endless loading:** This is usually a connectivity issue rather than an account problem. Restart your router and the streaming device, and confirm other apps are working normally.
 
-**Buffering during peak evening hours:** If multiple devices in the house are streaming simultaneously, your Wi-Fi may be struggling to keep up. A [Mesh Wi-Fi System (2-pack)](https://amzn.to/3UGxqJd) can improve coverage and stability throughout the house, particularly if your TV is in a room far from the router.
+**Buffering during peak evening hours:** If multiple devices in the house are streaming simultaneously, your Wi-Fi may be struggling to keep up. A [Mesh Wi-Fi System (2-pack)](https://amzn.to/3UGxqJd){:rel="nofollow sponsored noopener"} can improve coverage and stability throughout the house, particularly if your TV is in a room far from the router.
 
 **Wrong account signed in:** Go to your account icon within the YouTube app and select "Switch Account" or "Sign Out," then repeat the activation process with the correct Google account.
 

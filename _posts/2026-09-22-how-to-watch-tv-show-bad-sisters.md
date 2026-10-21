@@ -52,13 +52,13 @@ One thing worth noting: Apple TV+ is a subscription service you sign up for and 
 
 The good news is that Apple TV+ has a genuinely broad reach when it comes to device support in Ireland. You don't need any particular brand of TV or streaming box — the app is available on most of the popular options.
 
-If you're using a **Fire TV Stick**, Apple TV+ is available directly from the Amazon Appstore on the device. The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a solid, affordable option if you're setting up a spare room TV or replacing an older streaming device, and it handles the Apple TV+ app smoothly alongside everything else you'd expect, like Netflix and Prime Video.
+If you're using a **Fire TV Stick**, Apple TV+ is available directly from the Amazon Appstore on the device. The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a solid, affordable option if you're setting up a spare room TV or replacing an older streaming device, and it handles the Apple TV+ app smoothly alongside everything else you'd expect, like Netflix and Prime Video.
 
-[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices also support Apple TV+ natively through the Roku Channel Store. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
+[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices also support Apple TV+ natively through the Roku Channel Store. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
 
 Google TV devices, including the Google TV Streamer and older Chromecast with Google TV models, also support the Apple TV app directly, with a similar setup process — download from the on-device store, sign in, and you're ready to go.
 
-If your main viewing setup involves a satellite or digital TV box rather than a dedicated streaming stick, it's worth checking whether smart apps are supported on that hardware, or whether you'll need to run a separate streaming device alongside it. Some households pair an [HD Satellite Receiver](https://amzn.to/4hibfjU) for regular channels with a separate streaming stick for on-demand apps like Apple TV+, which keeps things simple without needing a full smart TV upgrade.
+If your main viewing setup involves a satellite or digital TV box rather than a dedicated streaming stick, it's worth checking whether smart apps are supported on that hardware, or whether you'll need to run a separate streaming device alongside it. Some households pair an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} for regular channels with a separate streaming stick for on-demand apps like Apple TV+, which keeps things simple without needing a full smart TV upgrade.
 
 Most modern smart TVs — LG, Samsung, and Sony among them — also have the Apple TV+ app built into their own app stores, so it's worth checking your TV's native app menu before buying any additional hardware.
 

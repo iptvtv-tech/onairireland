@@ -48,13 +48,13 @@ It's worth checking a few things before you even turn on the television:
 - You have your Eir account login details (username/email and password) to hand.
 - Your broadband router is set up and within reasonable range of the TV, or you have a stable Ethernet connection available.
 
-If your new TV is going on a wall rather than a stand, it's much easier to run cables and test everything *before* final mounting. An [adjustable TV wall mount](https://amzn.to/4cKGEdr) can make this step easier, since many allow the screen to tilt forward slightly, giving you access to the ports at the back without fully dismounting the television later.
+If your new TV is going on a wall rather than a stand, it's much easier to run cables and test everything *before* final mounting. An [adjustable TV wall mount](https://amzn.to/4cKGEdr){:rel="nofollow sponsored noopener"} can make this step easier, since many allow the screen to tilt forward slightly, giving you access to the ports at the back without fully dismounting the television later.
 
 ## Step 1: Connect Your TV to the Internet
 
 Eir Vision is a streaming service, so a stable internet connection matters more than almost anything else in this setup. Go into your TV's network settings and connect either via Wi-Fi or a wired Ethernet connection if your TV and router are close enough.
 
-If your home has a few dead zones or the TV is in a room far from the router, a [mesh Wi-Fi system](https://amzn.to/3UGxqJd) can help maintain a steadier signal throughout the house, which reduces [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) and login issues during streaming.
+If your home has a few dead zones or the TV is in a room far from the router, a [mesh Wi-Fi system](https://amzn.to/3UGxqJd){:rel="nofollow sponsored noopener"} can help maintain a steadier signal throughout the house, which reduces [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) and login issues during streaming.
 
 ## Step 2: Find and Install the Eir Vision App
 
@@ -72,7 +72,7 @@ If you run into a message saying content isn't available, double check that your
 
 With the app running, it's worth spending a few minutes in the TV's picture menu. Streaming apps often default to settings that aren't ideal for every room, so adjusting brightness and disabling overly aggressive motion smoothing can noticeably improve the picture.
 
-If you're using an external streaming device rather than the TV's built-in app, make sure it's connected with a cable capable of handling higher resolutions and frame rates. A [high-speed HDMI 2.1 cable](https://amzn.to/4A3puSx) is a sensible choice if your TV and streaming device both support 4K, since older or cheaper cables can sometimes cause dropouts or prevent higher resolutions from working at all.
+If you're using an external streaming device rather than the TV's built-in app, make sure it's connected with a cable capable of handling higher resolutions and frame rates. A [high-speed HDMI 2.1 cable](https://amzn.to/4A3puSx){:rel="nofollow sponsored noopener"} is a sensible choice if your TV and streaming device both support 4K, since older or cheaper cables can sometimes cause dropouts or prevent higher resolutions from working at all.
 
 ## Step 5: Organise Your Home Screen
 

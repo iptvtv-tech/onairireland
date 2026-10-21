@@ -49,13 +49,13 @@ None of this makes the device unusable. It's more that the gap between "fine" an
 
 ## How It Compares to Amazon's Newer Options
 
-Amazon now sells the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc), which uses a quicker chip, supports Wi-Fi 6 for a more stable connection in busier homes, and generally feels snappier navigating menus and launching apps. For anyone doing a fresh purchase today rather than holding onto an older device, the Max is the more sensible pick if budget allows, since the price difference has typically been small.
+Amazon now sells the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"}, which uses a quicker chip, supports Wi-Fi 6 for a more stable connection in busier homes, and generally feels snappier navigating menus and launching apps. For anyone doing a fresh purchase today rather than holding onto an older device, the Max is the more sensible pick if budget allows, since the price difference has typically been small.
 
 If you already own the standard 4K stick and it's working fine for your needs, there's no pressing reason to upgrade purely for speed. But if you're shopping fresh, or your current stick is genuinely struggling, the newer model is worth the modest extra cost.
 
 ## Is a Non-Amazon Device Worth Considering Instead?
 
-Not everyone wants to stay inside Amazon's ecosystem, and that's a fair position. The [Roku Ultra](https://amzn.to/4hbNJFw) is a strong alternative for Irish households, offering a simpler, less ad-heavy home screen and solid app support for the main Irish and UK streaming services. It's a good option for anyone who finds Amazon's Fire TV interface too pushy about its own content, or who just prefers Roku's more neutral menu layout.
+Not everyone wants to stay inside Amazon's ecosystem, and that's a fair position. The [Roku Ultra](https://amzn.to/4hbNJFw){:rel="nofollow sponsored noopener"} is a strong alternative for Irish households, offering a simpler, less ad-heavy home screen and solid app support for the main Irish and UK streaming services. It's a good option for anyone who finds Amazon's Fire TV interface too pushy about its own content, or who just prefers Roku's more neutral menu layout.
 
 There's no universally "right" answer here — it comes down to whether you want tight integration with Prime Video and Alexa (Fire TV) or a cleaner, more app-agnostic interface (Roku).
 

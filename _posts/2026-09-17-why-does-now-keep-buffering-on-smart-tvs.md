@@ -48,11 +48,11 @@ Run a speed test on a device connected to the same network as your TV. If your s
 
 Smart TVs are often tucked into media units, behind other electronics, or on the far side of the room from the router. All of this weakens the Wi-Fi signal reaching the TV, even if your broadband itself is fine.
 
-If your TV is more than one or two rooms away from your router, a [Wi-Fi range extender](https://amzn.to/3SZDvjo) can make a real difference by boosting the signal directly in the room where you're watching. For larger or older houses with thick walls, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh) tends to give more consistent coverage throughout the whole house rather than just patching one weak spot.
+If your TV is more than one or two rooms away from your router, a [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can make a real difference by boosting the signal directly in the room where you're watching. For larger or older houses with thick walls, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} tends to give more consistent coverage throughout the whole house rather than just patching one weak spot.
 
 ### Consider a Wired Connection
 
-Wherever possible, a wired connection will always be more stable than Wi-Fi for streaming. Most smart TVs and streaming devices have an Ethernet port, and running a [long Ethernet cable](https://amzn.to/4imUjuU) from your router to your TV removes Wi-Fi interference from the equation entirely. This is particularly worth trying if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) happens at the same time every evening, which often points to network congestion rather than a NOW-specific issue.
+Wherever possible, a wired connection will always be more stable than Wi-Fi for streaming. Most smart TVs and streaming devices have an Ethernet port, and running a [long Ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} from your router to your TV removes Wi-Fi interference from the equation entirely. This is particularly worth trying if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) happens at the same time every evening, which often points to network congestion rather than a NOW-specific issue.
 
 ### Update the NOW App and Your TV's Software
 

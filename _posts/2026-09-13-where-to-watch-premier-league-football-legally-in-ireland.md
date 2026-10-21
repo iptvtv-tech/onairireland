@@ -66,9 +66,9 @@ Prices were checked in October 2026 and do shift fairly often, so I'd recommend 
 
 Once you've picked a legal streaming or broadcast option, the quality of your actual viewing experience often comes down to your home setup rather than the subscription itself.
 
-If you're relying on Saorview or a standard aerial for other channels alongside your streaming box, a solid rooftop aerial makes a noticeable difference to signal reliability, especially in rural areas or homes with older wiring. Many households upgrading their setup for football season opt for an [outdoor digital TV aerial](https://amzn.to/3T7hgI6) rather than relying on an ageing indoor unit, particularly if reception has been patchy during big matches.
+If you're relying on Saorview or a standard aerial for other channels alongside your streaming box, a solid rooftop aerial makes a noticeable difference to signal reliability, especially in rural areas or homes with older wiring. Many households upgrading their setup for football season opt for an [outdoor digital TV aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} rather than relying on an ageing indoor unit, particularly if reception has been patchy during big matches.
 
-On the streaming side, if you've got a smart TV, a streaming stick, a games console, and maybe a set-top box all competing for the same HDMI ports, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA) is a simple way to avoid constantly crawling behind the telly to swap cables before kick-off. It's a small, inexpensive fix that makes match day noticeably less stressful.
+On the streaming side, if you've got a smart TV, a streaming stick, a games console, and maybe a set-top box all competing for the same HDMI ports, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} is a simple way to avoid constantly crawling behind the telly to swap cables before kick-off. It's a small, inexpensive fix that makes match day noticeably less stressful.
 
 ### A Note on Staying Legal
 

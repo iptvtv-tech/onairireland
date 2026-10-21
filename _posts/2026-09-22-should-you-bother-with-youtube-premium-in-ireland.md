@@ -54,7 +54,7 @@ We'd recommend checking the official YouTube Premium page for the current Irish 
 
 If you only dip into YouTube a few times a week to watch a recipe video or a music clip, Premium is probably overkill. The free, ad-supported version does the job fine for occasional use, and the odd advert is a small price to pay for not spending money.
 
-Where it starts to make more sense is for households where YouTube is on in the background a lot, whether that's music playlists, podcasts, or kids' content. If you're regularly listening to YouTube through a [portable Bluetooth speaker](https://amzn.to/3VbjBT4) while doing chores or working, background play alone could justify the cost, since it stops the audio cutting out every time you switch apps.
+Where it starts to make more sense is for households where YouTube is on in the background a lot, whether that's music playlists, podcasts, or kids' content. If you're regularly listening to YouTube through a [portable Bluetooth speaker](https://amzn.to/3VbjBT4){:rel="nofollow sponsored noopener"} while doing chores or working, background play alone could justify the cost, since it stops the audio cutting out every time you switch apps.
 
 ## The Family Angle
 
@@ -66,11 +66,11 @@ If your household already juggles several streaming subscriptions, it's worth si
 
 A lot of the appeal of going ad-free comes down to how you watch. If YouTube is mostly a phone-in-hand activity, ad breaks are annoying but brief. If you've got YouTube set up on a smart TV or through a streaming box like a Fire TV Cube or Roku device, ads can feel more disruptive, especially with longer-form content like tutorials or documentaries.
 
-For anyone streaming YouTube regularly on a television setup, pairing it with a [universal remote control](https://amzn.to/4im1tzz) can also make the whole experience smoother, cutting down on the number of remotes needed to switch between your TV, streaming box, and soundbar.
+For anyone streaming YouTube regularly on a television setup, pairing it with a [universal remote control](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} can also make the whole experience smoother, cutting down on the number of remotes needed to switch between your TV, streaming box, and soundbar.
 
 ## What About Sound Quality?
 
-Premium doesn't change audio quality, but if you've noticed YouTube sounding thin through your TV's built-in speakers, that's a separate issue worth solving regardless of whether you subscribe. A [compact soundbar](https://amzn.to/4xmJyfY) can make a noticeable difference to dialogue clarity and music playback, particularly for anyone using YouTube as a de facto music service.
+Premium doesn't change audio quality, but if you've noticed YouTube sounding thin through your TV's built-in speakers, that's a separate issue worth solving regardless of whether you subscribe. A [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} can make a noticeable difference to dialogue clarity and music playback, particularly for anyone using YouTube as a de facto music service.
 
 ## Dealing With Access Issues
 

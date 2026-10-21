@@ -60,11 +60,11 @@ If you've confirmed your account details are correct and the title still isn't s
 
 Once you know which service has The Whisper Man, having the right streaming device makes a real difference to picture quality and ease of use. A few solid options for Irish households:
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B) is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/). Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
+The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/). Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
 
-If you'd rather avoid Amazon's ecosystem, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41) is another excellent option. Roku's interface is famously straightforward, laying out all your installed apps on one home screen without pushing its own content too aggressively. It supports 4K and HDR playback too, so picture quality won't be a letdown on a modern television.
+If you'd rather avoid Amazon's ecosystem, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is another excellent option. Roku's interface is famously straightforward, laying out all your installed apps on one home screen without pushing its own content too aggressively. It supports 4K and HDR playback too, so picture quality won't be a letdown on a modern television.
 
-For households still relying on satellite for some channels while dipping into streaming apps, an [HD Satellite Receiver](https://amzn.to/4hibfjU) can help bridge the gap, letting you keep traditional viewing habits alongside newer on-demand options.
+For households still relying on satellite for some channels while dipping into streaming apps, an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} can help bridge the gap, letting you keep traditional viewing habits alongside newer on-demand options.
 
 Whichever device you choose, make sure its software is fully updated before settling in to watch — outdated app versions are a common cause of playback hiccups or missing titles.
 

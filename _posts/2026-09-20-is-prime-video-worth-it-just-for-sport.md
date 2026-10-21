@@ -52,9 +52,9 @@ A more sensible way to think about it: treat Prime Video as a general entertainm
 
 ## Getting the Setup Right for Match Days
 
-If you do decide to keep Prime Video for its mix of sport and general viewing, getting your home setup sorted makes a real difference on match day. A [compact soundbar](https://amzn.to/4xmJyfY) can make a big difference to commentary clarity and crowd atmosphere compared to relying on a TV's built-in speakers, which often struggle with the dynamic range of a live sports broadcast.
+If you do decide to keep Prime Video for its mix of sport and general viewing, getting your home setup sorted makes a real difference on match day. A [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} can make a big difference to commentary clarity and crowd atmosphere compared to relying on a TV's built-in speakers, which often struggle with the dynamic range of a live sports broadcast.
 
-Streaming apps also behave a little differently depending on your device. Prime Video runs well on Fire TV Stick and Fire TV Cube devices (unsurprising, given both are Amazon products), and also works on Roku and Chromecast, as well as most modern smart TV platforms. If you're juggling multiple streaming apps and cable inputs for different sports and shows, a [universal remote control](https://amzn.to/4im1tzz) can save a lot of hassle switching between devices during a busy sporting weekend.
+Streaming apps also behave a little differently depending on your device. Prime Video runs well on Fire TV Stick and Fire TV Cube devices (unsurprising, given both are Amazon products), and also works on Roku and Chromecast, as well as most modern smart TV platforms. If you're juggling multiple streaming apps and cable inputs for different sports and shows, a [universal remote control](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} can save a lot of hassle switching between devices during a busy sporting weekend.
 
 ## Final Thoughts
 

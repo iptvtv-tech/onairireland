@@ -36,7 +36,7 @@ faqs:
 
 ## Fire TV Stick 4K Max: Worth The Upgrade?
 
-If you've had a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) plugged into your telly for a few years, you've probably noticed things aren't quite as snappy as they used to be. Menus load slower, apps take a moment to open, and switching between services feels more sluggish than it should. That's usually the point where the question comes up: is it time to upgrade to the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc)?
+If you've had a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) plugged into your telly for a few years, you've probably noticed things aren't quite as snappy as they used to be. Menus load slower, apps take a moment to open, and switching between services feels more sluggish than it should. That's usually the point where the question comes up: is it time to upgrade to the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"}?
 
 Here's what the upgrade gets you for a fairly typical Irish household setup — [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Virgin Media Play, Netflix, Disney+ and a few sports apps.
 
@@ -56,7 +56,7 @@ Wi-Fi 6 is another consideration. If your broadband router supports Wi-Fi 6 and 
 
 ### How It Compares To Other Options
 
-It's not the only device worth considering. The [Roku Ultra](https://amzn.to/4hbNJFw) is a solid alternative, particularly if you want a device-agnostic interface that doesn't push Amazon's own services quite as heavily. Roku's menu system tends to be simpler and less cluttered with promotional tiles, which some users prefer.
+It's not the only device worth considering. The [Roku Ultra](https://amzn.to/4hbNJFw){:rel="nofollow sponsored noopener"} is a solid alternative, particularly if you want a device-agnostic interface that doesn't push Amazon's own services quite as heavily. Roku's menu system tends to be simpler and less cluttered with promotional tiles, which some users prefer.
 
 The Fire TV Cube is worth a mention too, if you want hands-free voice control and slightly more processing power again, though it's a bigger investment and requires more space near your TV.
 
