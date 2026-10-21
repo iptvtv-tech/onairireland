@@ -2,6 +2,7 @@
 title: Where to Watch the World Darts Championship in Ireland
 excerpt: A guide to the broadcaster, dates and legal streaming options for watching the PDC World Darts Championship in Ireland this winter.
 description: A guide to the broadcaster, dates and legal streaming options for watching the PDC World Darts Championship in Ireland this winter.
+last_updated: 2026-10-21
 categories:
 - Sports-Streaming
 tags:
@@ -33,7 +34,7 @@ faqs:
 
 {% include share-buttons.html %}
 
-The PDC World Darts Championship has traditionally been shown in Ireland via Sky Sports, with NOW offering a no-contract streaming pass as the legal alternative to a full satellite subscription. As ever, exact rights for the 2026-27 edition should be checked with the broadcaster closer to the tournament before you commit to any subscription.
+The PDC World Darts Championship has traditionally been shown in Ireland via Sky Sports, with NOW offering a no-contract streaming pass as the legal alternative to a full satellite subscription. Check Sky's schedule closer to the tournament for exact dates and channels.
 
 ## When Is the Tournament On
 
@@ -41,7 +42,7 @@ The World Darts Championship typically runs from mid-December through to New Yea
 
 ## Confirmed Broadcaster in Ireland
 
-Sky Sports has held the broadcast rights to the PDC World Darts Championship in Ireland for many years, and this has generally extended into multi-year rights deals. Based on that pattern, Sky Sports is the strong favourite to broadcast the 2026-27 edition, but rights agreements can change between seasons. Before subscribing, check Sky's own website or the PDC's official broadcaster listings for final confirmation, since this article cannot guarantee rights that haven't been formally announced for this specific tournament yet.
+Sky Sports has shown the PDC World Darts Championship in Ireland for many years, and was reported in January 2025 to have agreed a new five-year deal with the PDC starting in 2026. Expect this year's championship on Sky Sports, and check Sky's own schedule or the PDC's broadcaster listings before you subscribe.
 
 ## Watching Without a Sky Dish
 

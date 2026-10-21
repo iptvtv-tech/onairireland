@@ -2,6 +2,7 @@
 title: "How to Watch Six Nations Rugby Legally in Ireland"
 excerpt: "RTÉ and Virgin Media share Six Nations coverage in Ireland, and every match is free-to-air. Here's how to watch live and on the apps."
 description: "RTÉ and Virgin Media share Six Nations coverage in Ireland, and every match is free-to-air. Here's how to watch live and on the apps."
+last_updated: 2026-10-21
 categories:
   - Sports-Streaming
 tags:
@@ -33,7 +34,7 @@ That means anyone with a television licence and a standard aerial, saorview box,
 
 ### How Coverage Is Split
 
-RTÉ and Virgin Media Television have historically divided Six Nations broadcasting rights between them, with each broadcaster showing a portion of the rounds across the tournament. In practice, this has meant that Ireland's matches appear on one or the other depending on the round and kick-off time, along with a selection of matches involving other nations.
+RTÉ and Virgin Media Television share the Six Nations rights in Ireland under a deal running to 2029, with the fixtures alternating between them each year. In practice, this has meant that Ireland's matches appear on one or the other depending on the round and kick-off time, along with a selection of matches involving other nations.
 
 Because the exact split can change from year to year depending on the broadcasting deal in place, it's worth checking the official schedules published by RTÉ and Virgin Media Television at the start of each Six Nations campaign to see exactly which channel is showing which match. Neither broadcaster tends to show every single game in the tournament — some fixtures not involving Ireland may only be available on other channels, including UK broadcasters, depending on rights arrangements.
 
