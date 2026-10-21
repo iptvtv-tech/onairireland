@@ -48,15 +48,31 @@ def load_products():
     return data or []
 
 
-# Markdown links to Amazon that don't already carry a {: ...} attribute list.
-_AMAZON_MD_LINK = re.compile(r"(\]\(https?://(?:amzn\.to|link\.amazon)[^\s)]+\))(?!\s*\{:)")
-_SPONSORED_IAL = '{:rel="nofollow sponsored noopener"}'
+# Markdown links to Amazon, with or without a {: ...} attribute list after them.
+_AMAZON_MD_LINK = re.compile(
+    r"\[([^\]\n]+)\]\((https?://(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.[a-z.]+)[^\s)]*)\)(?:\{:[^}]*\})?"
+)
 
 
-def mark_affiliate_links(markdown: str) -> str:
-    """Add rel="nofollow sponsored noopener" to every Amazon link in the body,
-    so drafts pass scripts/check_affiliate_links.py without relying on the AI."""
-    return _AMAZON_MD_LINK.sub(lambda m: m.group(1) + _SPONSORED_IAL, markdown)
+def convert_affiliate_links(markdown: str, products) -> str:
+    """Turn every Amazon link the AI wrote into the product-link include, which
+    reads the address from _data/products.yml and adds rel="sponsored". Links to
+    products not in the catalogue are unlinked (text kept), so drafts always
+    pass scripts/check_affiliate_links.py."""
+    link_to_id = {}
+    for p in products:
+        if p.get("affiliate_link") and p.get("id"):
+            link_to_id.setdefault(p["affiliate_link"], p["id"])
+
+    def replace(match):
+        text, url = match.group(1), match.group(2)
+        product_id = link_to_id.get(url)
+        if not product_id:
+            return text
+        safe_text = text.replace('"', "'")
+        return '{% include product-link.html id="' + product_id + '" text="' + safe_text + '" %}'
+
+    return _AMAZON_MD_LINK.sub(replace, markdown)
 
 
 def is_price_news(category: str, title: str) -> bool:
@@ -488,7 +504,7 @@ def main():
         + "\n{% include whatsapp-cta.html %}\n"
     )
 
-    body = mark_affiliate_links(body)
+    body = convert_affiliate_links(body, load_products())
 
     with open(filepath, "w") as f:
         f.write(front_matter + body + showcase_block + related_block)

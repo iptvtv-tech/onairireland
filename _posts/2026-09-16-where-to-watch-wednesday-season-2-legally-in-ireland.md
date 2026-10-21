@@ -52,9 +52,9 @@ Netflix has released the new season in Ireland at the same time as the rest of t
 
 Netflix is about as widely supported as any streaming app gets, so chances are your existing telly, games console, or streaming box already has it built in. But if you're setting up a new room, replacing an older device, or just want a smoother, faster experience, a dedicated streaming stick makes a noticeable difference.
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a solid, affordable choice for most households. It plugs straight into an HDMI port, connects to your Wi-Fi, and gives you the Netflix app along with all the other major Irish streaming services in one place. It also supports 4K and HDR playback, so if your broadband connection and TV can handle it, Wednesday will look as sharp and moody as intended.
+The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable choice for most households. It plugs straight into an HDMI port, connects to your Wi-Fi, and gives you the Netflix app along with all the other major Irish streaming services in one place. It also supports 4K and HDR playback, so if your broadband connection and TV can handle it, Wednesday will look as sharp and moody as intended.
 
-If you'd prefer a different ecosystem, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is another reliable option. Roku's interface is straightforward and app-focused, which some people find easier to navigate than other platforms, and it supports Netflix in 4K as well.
+If you'd prefer a different ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another reliable option. Roku's interface is straightforward and app-focused, which some people find easier to navigate than other platforms, and it supports Netflix in 4K as well.
 
 Beyond streaming sticks, Netflix also works on smart TVs with the app pre-installed, games consoles, and devices like the Fire TV Cube for a more hands-free, voice-controlled setup, or Chromecast if you'd rather cast from your phone or tablet. Whichever device you choose, make sure it's connected to a decent broadband connection if you want to watch in higher resolutions without buffering.
 

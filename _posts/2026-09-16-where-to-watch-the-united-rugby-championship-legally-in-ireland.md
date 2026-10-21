@@ -54,11 +54,11 @@ We'd recommend double-checking current subscription pricing directly with Premie
 
 If your main television is older and doesn't run smart apps well, a streaming device is the easiest fix. A Fire TV Stick or Fire TV Cube will run both the RTÉ Player and Premier Sports apps smoothly, and setup is usually just a matter of plugging in, connecting to Wi-Fi, and downloading the relevant apps. Roku devices and Chromecast are also solid options if you already have one lying around or prefer that ecosystem.
 
-For households juggling multiple boxes and consoles on one television, a [3-in-1 HDMI Switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} can save you from constantly unplugging cables behind the TV when swapping between your streaming stick, games console, and set-top box.
+For households juggling multiple boxes and consoles on one television, a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI Switch" %} can save you from constantly unplugging cables behind the TV when swapping between your streaming stick, games console, and set-top box.
 
 ### Don't Forget Your Free-to-Air Reception
 
-It's easy to overlook, but a stable aerial signal still matters for anyone relying on RTÉ's URC coverage over the airwaves rather than through the player app, particularly in rural areas where reception can be patchy. If you've been having dropouts or pixelation during big matches, upgrading to a decent [Outdoor Digital TV Aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} can make a noticeable difference to picture stability, especially during poor weather when signal quality tends to suffer most.
+It's easy to overlook, but a stable aerial signal still matters for anyone relying on RTÉ's URC coverage over the airwaves rather than through the player app, particularly in rural areas where reception can be patchy. If you've been having dropouts or pixelation during big matches, upgrading to a decent {% include product-link.html id="outdoor-digital-tv-aerial" text="Outdoor Digital TV Aerial" %} can make a noticeable difference to picture stability, especially during poor weather when signal quality tends to suffer most.
 
 ### Mobile and Tablet Viewing
 

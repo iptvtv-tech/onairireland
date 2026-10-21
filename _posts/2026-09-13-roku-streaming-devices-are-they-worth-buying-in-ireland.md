@@ -38,7 +38,7 @@ faqs:
 
 Roku has built a strong reputation in the US and UK as a simple, no-fuss way to get streaming apps onto any television. For Irish viewers, though, the picture is a little more complicated. Roku devices are not officially sold through Irish retailers in the same way Amazon's Fire TV range is, and availability can depend on importing through UK sellers or third-party marketplaces. Before buying, it's worth checking current stock and seller location carefully, as pricing and warranty support may differ from a straightforward Irish purchase.
 
-If you do manage to get your hands on one, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is generally considered the best entry point, offering 4K HDR playback and a compact form factor similar to Amazon's own stick.
+If you do manage to get your hands on one, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is generally considered the best entry point, offering 4K HDR playback and a compact form factor similar to Amazon's own stick.
 
 ### Setting Up and Region Considerations
 
@@ -52,7 +52,7 @@ Where things get less certain is with Irish broadcaster apps. Support for [RTÉ 
 
 ### Comparing to Fire TV and Google TV
 
-For Irish buyers, the two most straightforward alternatives are the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} and Google's [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), which replaced the discontinued Chromecast with Google TV in 2024. Both are sold officially in Ireland, come with Irish pricing, and have a longer track record of supporting local broadcaster apps reliably.
+For Irish buyers, the two most straightforward alternatives are the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} and Google's [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), which replaced the discontinued Chromecast with Google TV in 2024. Both are sold officially in Ireland, come with Irish pricing, and have a longer track record of supporting local broadcaster apps reliably.
 
 Fire TV in particular has become something of a default choice here, partly because Amazon Ireland sells it directly with local pricing and partly because app developers tend to prioritise it given Amazon's market presence. The Google TV Streamer offers a similarly polished experience with tight integration into the Google and Android ecosystem, which may suit households already using Android phones.
 

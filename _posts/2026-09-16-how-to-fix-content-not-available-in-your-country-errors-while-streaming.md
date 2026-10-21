@@ -70,11 +70,11 @@ Outdated streaming apps sometimes contain bugs affecting region detection. Check
 
 ### 5. Check Your Network Signal
 
-Weak or unstable Wi-Fi can sometimes cause apps to misbehave in unexpected ways, including throwing up incorrect error messages. If your streaming device sits far from your router, a [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can help maintain a consistent connection. For a more permanent fix in larger homes, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} spreads reliable coverage across multiple rooms, which is particularly useful if your smart TV or streaming stick is in a different part of the house from your router.
+Weak or unstable Wi-Fi can sometimes cause apps to misbehave in unexpected ways, including throwing up incorrect error messages. If your streaming device sits far from your router, a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi range extender" %} can help maintain a consistent connection. For a more permanent fix in larger homes, a {% include product-link.html id="mesh-wifi-troubleshoot" text="mesh Wi-Fi system" %} spreads reliable coverage across multiple rooms, which is particularly useful if your smart TV or streaming stick is in a different part of the house from your router.
 
 ### 6. Try a Wired Connection
 
-If Wi-Fi issues persist, connecting your streaming device directly to your router with a [long Ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} removes wireless interference from the equation entirely and can resolve odd app behaviour, including region-detection glitches.
+If Wi-Fi issues persist, connecting your streaming device directly to your router with a {% include product-link.html id="ethernet-cable-troubleshoot" text="long Ethernet cable" %} removes wireless interference from the equation entirely and can resolve odd app behaviour, including region-detection glitches.
 
 ## When It's Genuinely Not Available
 

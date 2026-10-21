@@ -50,13 +50,13 @@ It sounds obvious, but a simple restart clears temporary glitches in both your r
 
 ### 3. Move Closer to the Router (or Extend Your Wi-Fi)
 
-Freezing is often a Wi-Fi signal problem rather than a broadband speed problem. If your TV is in a different room to your router, or there are thick walls in between, the signal may be dropping out intermittently. A [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} placed halfway between your router and TV can noticeably improve signal strength without needing to rewire anything.
+Freezing is often a Wi-Fi signal problem rather than a broadband speed problem. If your TV is in a different room to your router, or there are thick walls in between, the signal may be dropping out intermittently. A {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi range extender" %} placed halfway between your router and TV can noticeably improve signal strength without needing to rewire anything.
 
-For larger or older homes where one extender isn't enough, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} replaces patchy single-router coverage with multiple access points that hand off seamlessly as you move around the house. This tends to be the more reliable long-term fix if you've got recurring dead spots.
+For larger or older homes where one extender isn't enough, a {% include product-link.html id="mesh-wifi-troubleshoot" text="mesh Wi-Fi system" %} replaces patchy single-router coverage with multiple access points that hand off seamlessly as you move around the house. This tends to be the more reliable long-term fix if you've got recurring dead spots.
 
 ### 4. Use a Wired Connection Where Possible
 
-Wi-Fi is convenient, but a wired Ethernet connection is far more stable for streaming, especially in 4K. If your router and TV are in reasonably close rooms, running a [long Ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} between them can eliminate freezing caused by wireless interference entirely. Many smart TVs, Fire TV Cubes, and some Roku models have an Ethernet port for exactly this reason.
+Wi-Fi is convenient, but a wired Ethernet connection is far more stable for streaming, especially in 4K. If your router and TV are in reasonably close rooms, running a {% include product-link.html id="ethernet-cable-troubleshoot" text="long Ethernet cable" %} between them can eliminate freezing caused by wireless interference entirely. Many smart TVs, Fire TV Cubes, and some Roku models have an Ethernet port for exactly this reason.
 
 ### 5. Update or Reinstall the Netflix App
 

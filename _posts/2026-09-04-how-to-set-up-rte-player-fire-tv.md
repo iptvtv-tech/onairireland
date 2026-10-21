@@ -31,7 +31,7 @@ quick_facts:
 
 ## What you need
 
-- A [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) connected to your TV and Wi-Fi — [don't have one yet? Check price](https://amzn.to/46bV2aZ){:rel="nofollow sponsored noopener"}
+- A [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) connected to your TV and Wi-Fi — {% include product-link.html id="fire-tv-stick-4k" text="don't have one yet? Check price" %}
 - An Amazon account signed in on the device
 
 ## Steps

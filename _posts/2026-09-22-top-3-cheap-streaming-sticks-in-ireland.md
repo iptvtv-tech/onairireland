@@ -46,7 +46,7 @@ It's also a handy fix for anyone who's had trouble finding a particular app on t
 
 ## 1. Fire TV Stick 4K Max
 
-Amazon's higher-end stick is one of the most consistently recommended options for Irish streaming setups, and it's easy to see why. The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"} supports 4K Ultra HD and HDR, has enough processing power to feel snappy when switching between apps, and includes WiFi 6 support, which helps if you've got a newer router and a busy household with lots of connected devices.
+Amazon's higher-end stick is one of the most consistently recommended options for Irish streaming setups, and it's easy to see why. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} supports 4K Ultra HD and HDR, has enough processing power to feel snappy when switching between apps, and includes WiFi 6 support, which helps if you've got a newer router and a busy household with lots of connected devices.
 
 Setup is straightforward: plug it into an HDMI port, connect the included power cable, and follow the on-screen prompts to sign in with an Amazon account and connect to your home WiFi. From there, you can download RTÉ Player, Netflix, [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/), Apple TV+, and most other major Irish and international apps directly from the on-screen app store.
 
@@ -54,7 +54,7 @@ One thing worth checking after setup is that your Amazon account's country setti
 
 ## 2. Roku Ultra
 
-The [Roku Ultra](https://amzn.to/4hbNJFw){:rel="nofollow sponsored noopener"} is a strong choice for anyone who wants a simple, no-fuss interface that doesn't push one particular streaming service over another. Unlike some competitors, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s home screen is fairly neutral, just a grid of app icons, which some users find easier to navigate.
+The {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is a strong choice for anyone who wants a simple, no-fuss interface that doesn't push one particular streaming service over another. Unlike some competitors, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s home screen is fairly neutral, just a grid of app icons, which some users find easier to navigate.
 
 The Ultra model supports 4K and HDR playback and typically includes a more premium remote with a headphone jack for private listening, along with better WiFi hardware than Roku's cheaper models. It's a good pick for larger homes where the streaming device might sit a bit further from the router.
 

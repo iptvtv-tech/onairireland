@@ -58,17 +58,17 @@ If you ever hit a "content not available" message on either app, it's worth chec
 
 ## Which Devices Handle Them Best
 
-Both apps are available on smart TVs directly, but a lot of households prefer running them through a dedicated streaming device instead, especially on older TVs. A [Fire TV Stick](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} type device (note: that particular link is actually for a soundbar — see below) tends to handle both apps smoothly, and a Fire TV Cube is a good option if you want a bit more power for multitasking between apps.
+Both apps are available on smart TVs directly, but a lot of households prefer running them through a dedicated streaming device instead, especially on older TVs. A {% include product-link.html id="soundbar-budget" text="Fire TV Stick" %} type device (note: that particular link is actually for a soundbar — see below) tends to handle both apps smoothly, and a Fire TV Cube is a good option if you want a bit more power for multitasking between apps.
 
 Roku devices also run both Irish apps well and have a reputation for a clean, simple interface that's easy for less tech-confident family members to navigate. Chromecast is another solid budget option, particularly if you're already used to casting from your phone.
 
-Whichever device you choose, sound quality is worth thinking about separately from the streaming box itself. A lot of built-in TV speakers are thin-sounding, and pairing your setup with a [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} makes a noticeable difference for dialogue-heavy Irish dramas and news broadcasts alike.
+Whichever device you choose, sound quality is worth thinking about separately from the streaming box itself. A lot of built-in TV speakers are thin-sounding, and pairing your setup with a {% include product-link.html id="soundbar-budget" text="compact soundbar" %} makes a noticeable difference for dialogue-heavy Irish dramas and news broadcasts alike.
 
 ## Remote Control Chaos
 
-One underrated annoyance of running two or three apps across different devices is remote control clutter. If you've got a TV remote, a streaming device remote, and a soundbar remote all living on the arm of the couch, a [universal remote control](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} can consolidate the lot into one, which is a small but genuinely useful upgrade for anyone flicking between RTÉ Player and Virgin Media Play regularly.
+One underrated annoyance of running two or three apps across different devices is remote control clutter. If you've got a TV remote, a streaming device remote, and a soundbar remote all living on the arm of the couch, a {% include product-link.html id="universal-remote" text="universal remote control" %} can consolidate the lot into one, which is a small but genuinely useful upgrade for anyone flicking between RTÉ Player and Virgin Media Play regularly.
 
-For portable listening, say catching up on a match commentary in the kitchen, a [portable Bluetooth speaker](https://amzn.to/3VbjBT4){:rel="nofollow sponsored noopener"} paired to your phone or tablet is a handy alternative to hauling the whole setup around the house.
+For portable listening, say catching up on a match commentary in the kitchen, a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} paired to your phone or tablet is a handy alternative to hauling the whole setup around the house.
 
 ## The Bottom Line
 

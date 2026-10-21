@@ -70,9 +70,9 @@ Not every household needs the same mix. A few common patterns:
 
 It's not only about which services you pay for — how reliably you can watch them matters as well. A shaky home network or weak broadcast signal can make even a single subscription feel like poor value if programmes keep buffering or picture quality drops.
 
-If poor terrestrial reception is affecting the channels you get through your aerial, a [TV aerial signal booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} can sometimes help stabilise things, particularly in homes further from a transmitter or with multiple TVs sharing one aerial line.
+If poor terrestrial reception is affecting the channels you get through your aerial, a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} can sometimes help stabilise things, particularly in homes further from a transmitter or with multiple TVs sharing one aerial line.
 
-On the streaming side, the device you use matters more than people expect. A dated smart TV app can be slow, laggy, or missing features compared to a proper streaming device. Fire TV Stick, Fire TV Cube, Roku, and Chromecast are the main options widely available in Ireland, and any of them will generally give a smoother experience than an ageing built-in TV app. If you already use a Fire TV device and find yourself constantly losing the remote or dealing with unresponsive buttons, a [replacement Fire TV remote](https://amzn.to/4AbmIKM){:rel="nofollow sponsored noopener"} is a cheap fix that's easy to overlook.
+On the streaming side, the device you use matters more than people expect. A dated smart TV app can be slow, laggy, or missing features compared to a proper streaming device. Fire TV Stick, Fire TV Cube, Roku, and Chromecast are the main options widely available in Ireland, and any of them will generally give a smoother experience than an ageing built-in TV app. If you already use a Fire TV device and find yourself constantly losing the remote or dealing with unresponsive buttons, a {% include product-link.html id="fire-tv-remote" text="replacement Fire TV remote" %} is a cheap fix that's easy to overlook.
 
 ### A Realistic Number
 

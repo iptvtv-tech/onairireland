@@ -17,6 +17,8 @@
 #                   ["Troubleshooting", "Installation Guides"]. Allowed values: Devices,
 #                   Installation Guides, News, Reviews, Sports Streaming,
 #                   Streaming Services, Troubleshooting, Watch Guides
+#                   Use [] for a product that is only linked inline in posts
+#                   (it then stays out of the rotating product cards).
 #   image         - path to a product image (add real images under assets/images/products/)
 #   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
 #   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
@@ -395,3 +397,27 @@
   badge: "Handy Extra"
   blurb: "Enough sockets for the TV, soundbar, router and streaming stick behind one cabinet, with surge protection for the lot."
   affiliate_link: "https://amzn.to/4y9wjjX"
+
+- id: fire-tv-remote
+  name: "Replacement Fire TV Remote"
+  category: "Devices"
+  show_on: ["Troubleshooting"]
+  image: "/assets/images/products/universal-remote.svg"
+  blurb: "A spare or replacement remote for Fire TV sticks and boxes — a cheap fix when buttons stop responding or the original goes missing."
+  affiliate_link: "https://amzn.to/4AbmIKM"
+
+- id: fire-tv-stick
+  name: "Amazon Fire TV Stick"
+  category: "Devices"
+  show_on: ["Devices"]
+  image: "/assets/images/products/streaming-stick-alt.svg"
+  blurb: "Amazon's standard streaming stick — a low-cost way to add the main streaming apps to any TV with an HDMI port."
+  affiliate_link: "https://amzn.to/4y4CYvF"
+
+- id: xiaomi-tv-f32
+  name: "Xiaomi TV F 32 (32-inch)"
+  category: "Devices"
+  show_on: []
+  image: "/assets/images/products/smart-tv.svg"
+  blurb: "A 32-inch Xiaomi smart TV with the main streaming apps built in — a simple option for a bedroom or kitchen."
+  affiliate_link: "https://amzn.to/3Tdso6z"

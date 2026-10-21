@@ -120,6 +120,8 @@ grep -n "AFFILIATE_LINK_" _data/products.yml
 
 **To add the showcase to a new post:** just add `{% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}` anywhere in the post body — it renders nothing if there are no matching products yet.
 
+**To link a product inside a sentence:** never paste an Amazon link into a post. Use `{% raw %}{% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %}{% endraw %}` — the address comes from `_data/products.yml` (so changing it there updates every post) and the link is always marked `rel="nofollow sponsored noopener"`. If the product isn't in the catalogue yet, add it first. `scripts/check_affiliate_links.py` fails on raw Amazon links in posts and on unknown ids, and the draft generator converts links automatically.
+
 ## 6. Plain affiliate link placeholders (older/simpler pattern)
 
 The sample posts already include placeholder affiliate links and a

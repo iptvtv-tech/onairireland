@@ -54,9 +54,9 @@ If you're on a rolling monthly membership, you'll typically see the new price re
 
 Price rises are a good moment to double-check that you're actually getting a proper viewing experience for what you're paying. If you're streaming NOW through a smart TV app, make sure it's updated to the latest version, since older TV software can sometimes cause buffering or missing menu options that have nothing to do with your subscription itself.
 
-For anyone streaming via a dongle rather than a built-in smart TV app, a [Fire TV Remote](https://amzn.to/4AbmIKM){:rel="nofollow sponsored noopener"} is a handy backup to have around if your original one goes missing or stops responding — a surprisingly common source of "why isn't this working" frustration that has nothing to do with your NOW account at all.
+For anyone streaming via a dongle rather than a built-in smart TV app, a {% include product-link.html id="fire-tv-remote" text="Fire TV Remote" %} is a handy backup to have around if your original one goes missing or stops responding — a surprisingly common source of "why isn't this working" frustration that has nothing to do with your NOW account at all.
 
-It's also worth ruling out basic connectivity issues before assuming a billing or app problem. Weak broadband signal or a poor aerial connection (if you're also relying on saorview or cable alongside streaming) can cause dropouts that look like a subscription fault. A [TV Aerial Signal Booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} can help if you're mixing streaming with traditional broadcast channels and noticing inconsistent picture quality on the non-streaming side of things.
+It's also worth ruling out basic connectivity issues before assuming a billing or app problem. Weak broadband signal or a poor aerial connection (if you're also relying on saorview or cable alongside streaming) can cause dropouts that look like a subscription fault. A {% include product-link.html id="tv-aerial-signal-booster" text="TV Aerial Signal Booster" %} can help if you're mixing streaming with traditional broadcast channels and noticing inconsistent picture quality on the non-streaming side of things.
 
 ### Checking Your Billing Details
 

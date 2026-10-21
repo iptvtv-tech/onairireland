@@ -59,9 +59,9 @@ All of the above are also Netflix titles, so if you already have a subscription 
 
 Netflix's app is about as widely supported as streaming apps get, but the experience can vary depending on what you're using to watch. Smart TVs from the last few years usually have Netflix built in, but if your television is older or the app feels slow and clunky, a dedicated streaming device can make a noticeable difference.
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a popular choice for Irish households because it's inexpensive, simple to set up, and supports 4K and HDR playback where your internet connection and Netflix plan allow for it. It plugs directly into an HDMI port and gets you into the Netflix app in a couple of minutes.
+The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice for Irish households because it's inexpensive, simple to set up, and supports 4K and HDR playback where your internet connection and Netflix plan allow for it. It plugs directly into an HDMI port and gets you into the Netflix app in a couple of minutes.
 
-Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is another solid option, particularly if you prefer a simpler, less cluttered interface. Roku devices are known for being straightforward, with quick access to Netflix and other major apps without a lot of extra menus to navigate.
+Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another solid option, particularly if you prefer a simpler, less cluttered interface. Roku devices are known for being straightforward, with quick access to Netflix and other major apps without a lot of extra menus to navigate.
 
 Beyond dedicated streaming sticks, Netflix also works on most modern smart TVs, games consoles, and mobile devices through the official app, so there's a good chance you already own something capable of playing it without buying anything new.
 

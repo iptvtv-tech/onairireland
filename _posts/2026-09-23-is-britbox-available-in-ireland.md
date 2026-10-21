@@ -52,7 +52,7 @@ Pricing has changed over the years, so rather than quote a figure that might be 
 
 BritBox apps are generally available on smart TVs, as well as popular streaming devices like the Fire TV Stick, Fire TV Cube, Roku, and Chromecast. Availability can vary slightly depending on the exact model and software version of your device, so if you can't find the app, check for a software update first before assuming it isn't supported.
 
-If you're setting up a streaming stick or box for the first time, it's worth using an [updated universal remote](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} so you're not juggling multiple remotes for your TV, soundbar, and streaming device. It's a small thing, but it makes browsing menus and searching for shows a lot less fiddly, especially for other members of the household.
+If you're setting up a streaming stick or box for the first time, it's worth using an {% include product-link.html id="universal-remote" text="updated universal remote" %} so you're not juggling multiple remotes for your TV, soundbar, and streaming device. It's a small thing, but it makes browsing menus and searching for shows a lot less fiddly, especially for other members of the household.
 
 ### What Content Does BritBox Offer?
 
@@ -62,9 +62,9 @@ It's worth noting BritBox isn't trying to be a general entertainment platform li
 
 ### Getting the Most Out of Your Subscription
 
-Since BritBox is often watched for dialogue-heavy dramas, audio clarity matters more than flashy surround sound. If your TV's built-in speakers struggle with quieter dialogue scenes, a [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} can make a noticeable difference without taking up much space under the TV.
+Since BritBox is often watched for dialogue-heavy dramas, audio clarity matters more than flashy surround sound. If your TV's built-in speakers struggle with quieter dialogue scenes, a {% include product-link.html id="soundbar-budget" text="compact soundbar" %} can make a noticeable difference without taking up much space under the TV.
 
-For anyone who splits their viewing between the living room and other parts of the house, a [portable Bluetooth speaker](https://amzn.to/3VbjBT4){:rel="nofollow sponsored noopener"} paired with a phone or tablet can also be handy for casual catch-up viewing, though for the full experience most people will still want the big screen.
+For anyone who splits their viewing between the living room and other parts of the house, a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} paired with a phone or tablet can also be handy for casual catch-up viewing, though for the full experience most people will still want the big screen.
 
 ### Final Thoughts
 

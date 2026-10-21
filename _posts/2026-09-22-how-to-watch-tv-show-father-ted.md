@@ -57,11 +57,11 @@ If none of your existing subscriptions carry it, keep an eye on release calendar
 
 Once you've confirmed which service carries Father Ted, the next question is what to actually watch it on. Most Irish households now stream through a dedicated device connected to the TV, rather than relying solely on a smart TV's built-in apps, since dedicated streamers tend to get app updates faster and offer smoother navigation.
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a popular choice here, mainly because it supports the major Irish and UK streaming apps, is simple to set up, and is small enough to travel with if you're watching at a relative's house over the holidays. It plugs directly into an HDMI port and works over your existing WiFi.
+The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice here, mainly because it supports the major Irish and UK streaming apps, is simple to set up, and is small enough to travel with if you're watching at a relative's house over the holidays. It plugs directly into an HDMI port and works over your existing WiFi.
 
-The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is another solid option, particularly if you find its interface more straightforward. Roku's channel store tends to carry the same major apps you'd need for a sitcom like this, and its menus are generally considered a bit less cluttered than some competitors.
+The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another solid option, particularly if you find its interface more straightforward. Roku's channel store tends to carry the same major apps you'd need for a sitcom like this, and its menus are generally considered a bit less cluttered than some competitors.
 
-If you're relying on satellite TV rather than internet streaming, an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} can be useful for picking up channels that occasionally rerun classic Irish comedy programming, particularly if your household already has a satellite dish installed.
+If you're relying on satellite TV rather than internet streaming, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} can be useful for picking up channels that occasionally rerun classic Irish comedy programming, particularly if your household already has a satellite dish installed.
 
 Whichever device you choose, make sure its software is fully updated before settling in for a viewing session — outdated firmware is a common cause of apps crashing or failing to load content properly, and it's a much more likely culprit than any account issue.
 

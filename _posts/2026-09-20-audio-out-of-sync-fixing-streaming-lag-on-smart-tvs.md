@@ -85,9 +85,9 @@ Signs your network might be the culprit:
 - Picture quality also drops or the stream buffers frequently
 - The problem is worse in one room than another
 
-If your Wi-Fi signal is weak in the room where you stream, a [Wi-Fi range extender](https://amzn.to/3SZDvjo){:rel="nofollow sponsored noopener"} can help boost coverage to that area. For a more permanent fix, especially in larger homes, a [mesh Wi-Fi system](https://amzn.to/4xqgJzh){:rel="nofollow sponsored noopener"} spreads a stronger, more consistent signal across multiple rooms.
+If your Wi-Fi signal is weak in the room where you stream, a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi range extender" %} can help boost coverage to that area. For a more permanent fix, especially in larger homes, a {% include product-link.html id="mesh-wifi-troubleshoot" text="mesh Wi-Fi system" %} spreads a stronger, more consistent signal across multiple rooms.
 
-Where possible, a wired connection is the most reliable option. Running a [long Ethernet cable](https://amzn.to/4imUjuU){:rel="nofollow sponsored noopener"} from your router to your TV or streaming device removes Wi-Fi variability from the equation entirely, which can resolve both buffering and the knock-on sync issues it sometimes causes.
+Where possible, a wired connection is the most reliable option. Running a {% include product-link.html id="ethernet-cable-troubleshoot" text="long Ethernet cable" %} from your router to your TV or streaming device removes Wi-Fi variability from the equation entirely, which can resolve both buffering and the knock-on sync issues it sometimes causes.
 
 ## Still Not Fixed?
 

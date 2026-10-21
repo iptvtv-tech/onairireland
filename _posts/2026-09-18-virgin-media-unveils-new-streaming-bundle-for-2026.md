@@ -56,11 +56,11 @@ Customers on older set-top boxes may also want to check whether their hardware s
 
 Not every household in Ireland gets its TV signal through Virgin Media, and plenty of people rely on standalone streaming devices instead. If you're considering skipping the cable bundle altogether, options like a Fire TV Stick, Fire TV Cube, Roku player, or Chromecast remain solid ways to access licensed streaming apps directly on any HDMI-equipped television.
 
-One small but genuinely useful upgrade for anyone using a streaming stick day-to-day is a dedicated [Fire TV remote](https://amzn.to/4AbmIKM){:rel="nofollow sponsored noopener"}, particularly if your existing one has started missing button presses or you've misplaced the original that came in the box.
+One small but genuinely useful upgrade for anyone using a streaming stick day-to-day is a dedicated {% include product-link.html id="fire-tv-remote" text="Fire TV remote" %}, particularly if your existing one has started missing button presses or you've misplaced the original that came in the box.
 
 ### A Reminder About Reception Basics
 
-Streaming bundles are only as good as the connection behind them, and for households that still rely on a mix of aerial-based TV and streaming apps, weak signal can be a genuine source of frustration - pixelation, dropouts, or channels that won't tune at all. If you're noticing inconsistent reception on the traditional TV side of things, it may be worth checking whether a [TV aerial signal booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} improves things before assuming the fault lies with your streaming setup.
+Streaming bundles are only as good as the connection behind them, and for households that still rely on a mix of aerial-based TV and streaming apps, weak signal can be a genuine source of frustration - pixelation, dropouts, or channels that won't tune at all. If you're noticing inconsistent reception on the traditional TV side of things, it may be worth checking whether a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} improves things before assuming the fault lies with your streaming setup.
 
 ### Should You Wait or Switch Now?
 

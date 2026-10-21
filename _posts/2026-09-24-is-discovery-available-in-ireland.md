@@ -52,11 +52,11 @@ If you're an existing Sky or Virgin Media customer, check your on-demand menu fo
 
 ### Making Sure Your Setup Is Ready
 
-Regardless of which legal service ends up carrying the shows you want, having reliable playback at home makes a big difference. Older smart TVs sometimes struggle to keep their built-in apps updated, which is part of the reason so many households add a dedicated streaming device instead. Something like a [Fire TV Stick](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} is a straightforward way to get a consistently updated app store, and it also puts services like Prime Video, Sky's apps, and others in one place without depending on your television's ageing software.
+Regardless of which legal service ends up carrying the shows you want, having reliable playback at home makes a big difference. Older smart TVs sometimes struggle to keep their built-in apps updated, which is part of the reason so many households add a dedicated streaming device instead. Something like a {% include product-link.html id="universal-remote" text="Fire TV Stick" %} is a straightforward way to get a consistently updated app store, and it also puts services like Prime Video, Sky's apps, and others in one place without depending on your television's ageing software.
 
-If you're setting up a new room from scratch, pairing a budget-friendly [LG LED AI, 32 inch HD Smart TV](https://amzn.to/3TO6jeZ){:rel="nofollow sponsored noopener"} with an external streaming device is a common approach, since built-in smart TV platforms don't always receive the same long-term app support as a purpose-built streaming box.
+If you're setting up a new room from scratch, pairing a budget-friendly {% include product-link.html id="smart_tvs_2" text="LG LED AI, 32 inch HD Smart TV" %} with an external streaming device is a common approach, since built-in smart TV platforms don't always receive the same long-term app support as a purpose-built streaming box.
 
-Sound is worth thinking about too, particularly for documentary-style content where narration and ambient audio matter. A [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} can make a noticeable difference over a TV's built-in speakers without taking up much space in a living room.
+Sound is worth thinking about too, particularly for documentary-style content where narration and ambient audio matter. A {% include product-link.html id="soundbar-budget" text="compact soundbar" %} can make a noticeable difference over a TV's built-in speakers without taking up much space in a living room.
 
 ### The Bottom Line
 

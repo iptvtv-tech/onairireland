@@ -50,7 +50,7 @@ I'd recommend not taking exact channel lists or pricing at face value here, as e
 
 If your household already has eir broadband, adding Vision can feel like a natural next step rather than a big new expense. You avoid buying a separate streaming device, and everything sits under one login and one remote.
 
-For people who mostly watch scheduled TV, sport, or Irish channels, this bundled approach can genuinely simplify things. There's less hopping between apps, and one [universal remote control](https://amzn.to/4im1tzz){:rel="nofollow sponsored noopener"} can often replace the multiple remotes that come with a mixed setup of set-top box, soundbar, and TV.
+For people who mostly watch scheduled TV, sport, or Irish channels, this bundled approach can genuinely simplify things. There's less hopping between apps, and one {% include product-link.html id="universal-remote" text="universal remote control" %} can often replace the multiple remotes that come with a mixed setup of set-top box, soundbar, and TV.
 
 It can also suit less tech-confident members of the household. Not everyone wants to learn how to navigate five different streaming apps, and a single guide-style interface can lower that friction considerably.
 
@@ -64,9 +64,9 @@ This flexibility matters more than it seems. Broadband deals in Ireland come and
 
 ## Weighing Up the Sound and Viewing Experience
 
-Whichever route you take, the box or stick is only half the picture. A lot of households underestimate how much a decent sound setup improves the everyday experience of streaming, especially with dialogue-heavy shows or sport commentary. A [compact soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} is a straightforward upgrade that works with either an eir Vision box or a standalone streaming device, and doesn't require any complicated setup.
+Whichever route you take, the box or stick is only half the picture. A lot of households underestimate how much a decent sound setup improves the everyday experience of streaming, especially with dialogue-heavy shows or sport commentary. A {% include product-link.html id="soundbar-budget" text="compact soundbar" %} is a straightforward upgrade that works with either an eir Vision box or a standalone streaming device, and doesn't require any complicated setup.
 
-If you like watching sport or catching up on shows outside the sitting room too — in the kitchen, garden, or a home office — a [portable Bluetooth speaker](https://amzn.to/3VbjBT4){:rel="nofollow sponsored noopener"} is a handy companion for casting audio from your phone or a streaming app when you're not near the main TV setup.
+If you like watching sport or catching up on shows outside the sitting room too — in the kitchen, garden, or a home office — a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} is a handy companion for casting audio from your phone or a streaming app when you're not near the main TV setup.
 
 ## So, Is It Worth It?
 

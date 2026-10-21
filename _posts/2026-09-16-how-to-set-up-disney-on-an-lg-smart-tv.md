@@ -42,9 +42,9 @@ Here's how to get everything set up properly.
 
 ### Step 1: Check Your Internet Connection
 
-Before touching the app store, make sure your LG TV has a stable internet connection, either via Wi-Fi or a wired connection through the settings menu. Disney+ in HD or 4K can be demanding on your bandwidth, especially if multiple devices are streaming in the house at once. If you've noticed buffering or dropouts in the past, upgrading to a [Mesh Wi-Fi System](https://amzn.to/3UGxqJd){:rel="nofollow sponsored noopener"} can make a real difference in larger Irish homes with thick walls, where a single router often struggles to reach the sitting room.
+Before touching the app store, make sure your LG TV has a stable internet connection, either via Wi-Fi or a wired connection through the settings menu. Disney+ in HD or 4K can be demanding on your bandwidth, especially if multiple devices are streaming in the house at once. If you've noticed buffering or dropouts in the past, upgrading to a {% include product-link.html id="mesh-wifi-system" text="Mesh Wi-Fi System" %} can make a real difference in larger Irish homes with thick walls, where a single router often struggles to reach the sitting room.
 
-If your TV is positioned far from your router and you'd rather use a wired connection for rock-solid streaming, a good quality [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx){:rel="nofollow sponsored noopener"} is also worth having on hand, particularly if you're connecting an external streaming device or games console alongside your smart TV apps.
+If your TV is positioned far from your router and you'd rather use a wired connection for rock-solid streaming, a good quality {% include product-link.html id="hdmi-cable-4k" text="High-Speed HDMI 2.1 Cable" %} is also worth having on hand, particularly if you're connecting an external streaming device or games console alongside your smart TV apps.
 
 ### Step 2: Find the Disney+ App
 
@@ -71,7 +71,7 @@ Once logged in, head into your account settings within the app to set your prefe
 
 ## Mounting and Placement Tips
 
-If you're setting up Disney+ as part of a wider TV upgrade or room refresh, it's a good moment to think about where your television actually sits. A well-positioned [Adjustable TV Wall Mount](https://amzn.to/4cKGEdr){:rel="nofollow sponsored noopener"} can improve viewing angles and free up space compared to a bulky TV stand, particularly in smaller Irish sitting rooms.
+If you're setting up Disney+ as part of a wider TV upgrade or room refresh, it's a good moment to think about where your television actually sits. A well-positioned {% include product-link.html id="tv-wall-mount" text="Adjustable TV Wall Mount" %} can improve viewing angles and free up space compared to a bulky TV stand, particularly in smaller Irish sitting rooms.
 
 ## Troubleshooting Common Issues
 

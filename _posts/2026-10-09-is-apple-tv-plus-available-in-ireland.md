@@ -67,7 +67,7 @@ Apple TV+ has broad device support, which is one of its advantages over some com
 - PlayStation and Xbox consoles
 - Web browsers at tv.apple.com
 
-If your current television is older and doesn't support modern streaming apps, an [LG LED AI, 32 inch HD Smart TV](https://amzn.to/3TO6jeZ){:rel="nofollow sponsored noopener"} is one practical way to get built-in access to Apple TV+ without needing a separate streaming box, since LG's smart TV platform includes the Apple TV app.
+If your current television is older and doesn't support modern streaming apps, an {% include product-link.html id="smart_tvs_2" text="LG LED AI, 32 inch HD Smart TV" %} is one practical way to get built-in access to Apple TV+ without needing a separate streaming box, since LG's smart TV platform includes the Apple TV app.
 
 ## What's in the Library
 
@@ -77,7 +77,7 @@ There's no ad-supported tier at the time of writing — Apple TV+ has historical
 
 ## Getting More From Your Subscription
 
-Since Apple TV+ is often watched on a television rather than a phone screen, sound quality can be a limiting factor on built-in TV speakers. A [Compact Soundbar](https://amzn.to/4xmJyfY){:rel="nofollow sponsored noopener"} is a reasonably simple upgrade for dialogue-heavy dramas and documentaries without needing a full surround system. For households where one person wants to watch without disturbing others, [Wireless TV Headphones](https://amzn.to/4iGoVrs){:rel="nofollow sponsored noopener"} are another option worth considering.
+Since Apple TV+ is often watched on a television rather than a phone screen, sound quality can be a limiting factor on built-in TV speakers. A {% include product-link.html id="soundbar-budget" text="Compact Soundbar" %} is a reasonably simple upgrade for dialogue-heavy dramas and documentaries without needing a full surround system. For households where one person wants to watch without disturbing others, {% include product-link.html id="wireless-tv-headphones" text="Wireless TV Headphones" %} are another option worth considering.
 
 {% include product-showcase.html category="Streaming Services" %}
 

@@ -58,9 +58,9 @@ There's also the question of hardware speed. The processor inside the 360 Box si
 
 This is where things get interesting. A dedicated streaming device bought separately can often outperform the 360 Box for pure streaming purposes, even if it means juggling a second remote.
 
-The [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"} is a good example. It's compact, supports 4K where your broadband and content allow, and generally feels snappier navigating between apps than the 360 Box does. For anyone who mostly watches via streaming apps rather than live TV, it's a noticeably smoother experience.
+The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} is a good example. It's compact, supports 4K where your broadband and content allow, and generally feels snappier navigating between apps than the 360 Box does. For anyone who mostly watches via streaming apps rather than live TV, it's a noticeably smoother experience.
 
-If you'd prefer a platform with a simpler, less cluttered interface, the [Roku Ultra](https://amzn.to/4hbNJFw){:rel="nofollow sponsored noopener"} is worth considering too. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
+If you'd prefer a platform with a simpler, less cluttered interface, the {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is worth considering too. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
 
 Other options worth a mention for completeness include the Fire TV Cube for those who want more power and voice control, or Chromecast if you mostly prefer casting from a phone or tablet rather than using an on-box interface directly.
 

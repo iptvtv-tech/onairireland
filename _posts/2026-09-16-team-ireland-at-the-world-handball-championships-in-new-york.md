@@ -57,9 +57,9 @@ If you do track down a legal stream, whether that's through a browser, a smart T
 
 A **Google TV Streamer** (or any Google Cast device) is worth considering too, particularly if the official stream is only available through a website rather than a dedicated app, since casting from a laptop or phone browser is often the easiest workaround for niche sporting events.
 
-If your household relies on an aerial for standard broadcast channels alongside streaming apps, and reception has been patchy, it might be time to look at upgrading. An [outdoor digital TV aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} can make a noticeable difference if you're in an area with weaker signal, ensuring you don't miss other sports coverage while you wait on handball-specific streams.
+If your household relies on an aerial for standard broadcast channels alongside streaming apps, and reception has been patchy, it might be time to look at upgrading. An {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} can make a noticeable difference if you're in an area with weaker signal, ensuring you don't miss other sports coverage while you wait on handball-specific streams.
 
-For those juggling several devices on one television, whether that's a streaming stick, a games console, and a set-top box, a [3-in-1 HDMI switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} is a handy way to avoid constantly unplugging cables every time you want to switch inputs.
+For those juggling several devices on one television, whether that's a streaming stick, a games console, and a set-top box, a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} is a handy way to avoid constantly unplugging cables every time you want to switch inputs.
 
 ## What We Don't Know Yet
 

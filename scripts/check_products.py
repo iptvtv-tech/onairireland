@@ -48,8 +48,10 @@ for row in products:
         )
 
     show_on = row.get("show_on")
-    if not isinstance(show_on, list) or not show_on:
-        errors.append(f"{product_id}: show_on must be a non-empty list of post types")
+    # An empty list is allowed: the product is only linked inline in posts
+    # (product-link include) and on Best Prices, not in the rotating cards.
+    if not isinstance(show_on, list):
+        errors.append(f"{product_id}: show_on must be a list of post types ([] for inline-only products)")
     else:
         for context in show_on:
             if context not in SHOWCASE_CONTEXTS:

@@ -44,7 +44,7 @@ In Ireland, HBO content typically reaches us through Sky, and that's the case he
 
 If you're going the NOW route, you'll need at least a **NOW Entertainment Membership** to access it, since this is where Sky Atlantic's on-demand content lives on the platform. If you already have a broader NOW package that includes Entertainment, you're covered. It's always worth double-checking your specific membership tier in the NOW app or on the NOW website before you settle in, as package names and what they include can shift over time.
 
-If you're a longtime Sky customer with a satellite setup, an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} is still a solid way to make sure you're getting the full high-definition Sky Atlantic feed, particularly if your existing box is getting on in years.
+If you're a longtime Sky customer with a satellite setup, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} is still a solid way to make sure you're getting the full high-definition Sky Atlantic feed, particularly if your existing box is getting on in years.
 
 ### Confirming Availability
 
@@ -54,9 +54,9 @@ Streaming rights and channel line-ups can change, so if you go looking for *A Kn
 
 The NOW app is broadly available across most modern streaming devices and smart TVs, but if you're setting up a streaming box specifically for shows like this, a couple of options stand out for reliability and app support.
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a popular choice in Irish households, plugging directly into your TV's HDMI port and giving you fast access to the NOW app alongside everything else you're likely already using, from other streaming services to catch-up TV apps. It supports 4K and HDR playback, which is handy if your broadband speeds and TV can make use of it.
+The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice in Irish households, plugging directly into your TV's HDMI port and giving you fast access to the NOW app alongside everything else you're likely already using, from other streaming services to catch-up TV apps. It supports 4K and HDR playback, which is handy if your broadband speeds and TV can make use of it.
 
-Alternatively, the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
+Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
 
 [Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) and Chromecast are also worth considering if you're comparing devices, particularly if you already use other products in either ecosystem, since app support for NOW should be consistent across these mainstream streaming devices. Whichever you choose, just make sure the NOW app is downloaded from your device's own app store while your account and device are both set to the correct region.
 

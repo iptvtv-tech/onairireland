@@ -44,15 +44,15 @@ Most student rooms and shared houses already have a TV with an HDMI port, so the
 
 You don't need the most expensive box on the shelf. For most students, a compact stick that plugs straight into the HDMI port is the simplest option, since there's no extra box taking up space on a shared shelf or desk.
 
-The [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} is a solid all-rounder and tends to come up as a popular choice because it covers the major Irish streaming apps, including [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Netflix, and Disney+. If you'd rather stick with a Google-based interface, the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) does a similar job with a slightly different menu layout, which might suit you better if you're already using Android apps day to day.
+The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid all-rounder and tends to come up as a popular choice because it covers the major Irish streaming apps, including [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Netflix, and Disney+. If you'd rather stick with a Google-based interface, the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) does a similar job with a slightly different menu layout, which might suit you better if you're already using Android apps day to day.
 
-[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices, such as the [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"}, are another option worth considering. Roku's interface is generally considered straightforward for anyone sharing a device with housemates, since app icons are laid out simply on the home screen.
+[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices, such as the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %}, are another option worth considering. Roku's interface is generally considered straightforward for anyone sharing a device with housemates, since app icons are laid out simply on the home screen.
 
 If you're setting up in a shared common room rather than a bedroom, a slightly more powerful option like the Amazon Fire TV Cube Simplified might be worth the extra cost, as it's built to handle a household TV used by multiple people rather than a single small screen.
 
 ### Small Extras That Actually Help in Shared Houses
 
-Remote controls have a habit of disappearing in shared accommodation, especially in the dark during a Netflix session with the main lights off. A [glow-in-the-dark remote cover](https://amzn.to/3UXJaXL){:rel="nofollow sponsored noopener"} sounds like a gimmick, but in a house with four or five people sharing one remote, it genuinely cuts down on the "where's the remote" hunt.
+Remote controls have a habit of disappearing in shared accommodation, especially in the dark during a Netflix session with the main lights off. A {% include product-link.html id="2-Pack-Pinowu-Remote-Cover-Case" text="glow-in-the-dark remote cover" %} sounds like a gimmick, but in a house with four or five people sharing one remote, it genuinely cuts down on the "where's the remote" hunt.
 
 If your room doesn't have a TV at all, a compact projector such as the AKIYO O2 Projector can be a workable budget alternative for a bedroom setup, though we'd recommend checking current reviews and specs carefully before buying, since projector quality and pricing vary a good bit.
 

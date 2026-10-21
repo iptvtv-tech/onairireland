@@ -57,15 +57,15 @@ Occasionally you might see an error suggesting a title isn't available in your r
 
 Whenever The Odyssey does become available to rent, buy, or stream, having the right device makes a big difference to picture quality and ease of use. A few solid options for Irish homes:
 
-**Fire TV Stick 4K** — a compact and affordable way to add all the major streaming apps to any HDMI-equipped television. It's worth having a browse of the [Amazon Fire TV Stick 4K](https://amzn.to/4h6LS4B){:rel="nofollow sponsored noopener"} if you want a simple upgrade that supports 4K and HDR playback on supported titles.
+**Fire TV Stick 4K** — a compact and affordable way to add all the major streaming apps to any HDMI-equipped television. It's worth having a browse of the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} if you want a simple upgrade that supports 4K and HDR playback on supported titles.
 
-**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The [Roku Streaming Stick 4K](https://amzn.to/4r8Xo41){:rel="nofollow sponsored noopener"} is a popular choice for exactly this reason.
+**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is a popular choice for exactly this reason.
 
 **Fire TV Cube** — for anyone who wants a more powerful, hands-free option with built-in voice control, this sits a notch above the standard Stick.
 
 **Google TV Streamer** — Google's replacement for the discontinued Chromecast, handy if you use an Android phone and like casting as well as a remote-driven menu.
 
-If you're setting up a new television rather than adding a streaming device to an old one, something like the [Xiaomi 32 Inch Smart TV](https://amzn.to/4rydeFK){:rel="nofollow sponsored noopener"} comes with popular apps built in, which can simplify things considerably. And for households that still rely on satellite for some channels alongside streaming, an [HD Satellite Receiver](https://amzn.to/4hibfjU){:rel="nofollow sponsored noopener"} can help keep everything running through the one television setup.
+If you're setting up a new television rather than adding a streaming device to an old one, something like the {% include product-link.html id="smart_tvs_1" text="Xiaomi 32 Inch Smart TV" %} comes with popular apps built in, which can simplify things considerably. And for households that still rely on satellite for some channels alongside streaming, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} can help keep everything running through the one television setup.
 
 ### Keeping an eye on release news
 

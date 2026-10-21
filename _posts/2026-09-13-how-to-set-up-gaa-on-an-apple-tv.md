@@ -48,7 +48,7 @@ Before you start, make sure you have the following:
 - A GAA+ subscription, or at least an account set up ready to subscribe
 - A good quality HDMI cable running from the Apple TV to your TV
 
-On that last point, if your Apple TV came with an older or budget cable, it's worth upgrading, particularly if you're watching in 4K or want to avoid dropouts during a tense final. A [High-Speed HDMI 2.1 Cable](https://amzn.to/4A3puSx){:rel="nofollow sponsored noopener"} is a sensible, inexpensive way to make sure the picture keeps up with the action, especially for fast-paced hurling coverage.
+On that last point, if your Apple TV came with an older or budget cable, it's worth upgrading, particularly if you're watching in 4K or want to avoid dropouts during a tense final. A {% include product-link.html id="hdmi-cable-4k" text="High-Speed HDMI 2.1 Cable" %} is a sensible, inexpensive way to make sure the picture keeps up with the action, especially for fast-paced hurling coverage.
 
 ## Step 1: Download the GAA+ App
 

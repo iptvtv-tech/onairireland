@@ -40,8 +40,8 @@ quick_facts:
 
 ## Popular options
 
-- **Amazon Fire TV Stick** — wide app support, affordable. The newest models run Amazon's Vega OS, which has fewer apps, so check your apps are available before you buy. [Check price on Amazon](https://amzn.to/46bV2aZ){:rel="nofollow sponsored noopener"}
-- **Fire TV Cube** — the premium, hands-free option with built-in Alexa voice control. *Not currently sold on Amazon.ie — see our [Fire TV Cube review](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) for details, and the [Fire TV Stick 4K Max](https://amzn.to/4j6UWJc){:rel="nofollow sponsored noopener"} as the closest in-stock alternative.*
+- **Amazon Fire TV Stick** — wide app support, affordable. The newest models run Amazon's Vega OS, which has fewer apps, so check your apps are available before you buy. {% include product-link.html id="fire-tv-stick-4k" text="Check price on Amazon" %}
+- **Fire TV Cube** — the premium, hands-free option with built-in Alexa voice control. *Not currently sold on Amazon.ie — see our [Fire TV Cube review](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) for details, and the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} as the closest in-stock alternative.*
 - **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/)** — Google's current box (€119 from the Google Store), which replaced the Chromecast with Google TV (announced 2024, sold out early 2025).
 - **Smart TVs with built-in platforms** (LG webOS, Samsung Tizen, Google TV / Android TV) — no extra device needed
 

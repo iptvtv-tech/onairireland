@@ -1,0 +1,12 @@
+{%- comment -%}
+  Inline affiliate link to a product in _data/products.yml, so every Amazon link
+  on the site reads its address from one place. Usage, inside a sentence:
+    {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %}
+  `text` is the visible link text (defaults to the product name). If the id is
+  not in products.yml, only the text is shown; scripts/check_affiliate_links.py
+  flags unknown ids. Keep this file free of line breaks outside the comment so
+  the link stays inline in Markdown paragraphs, lists and tables.
+{%- endcomment -%}
+{%- assign oai_product = site.data.products | where: "id", include.id | first -%}
+{%- assign oai_text = include.text | default: oai_product.name -%}
+{%- if oai_product -%}<a href="{{ oai_product.affiliate_link }}" rel="nofollow sponsored noopener" target="_blank">{{ oai_text }}</a>{%- else -%}{{ oai_text }}{%- endif -%}

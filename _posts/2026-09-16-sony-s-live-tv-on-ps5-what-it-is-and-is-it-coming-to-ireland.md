@@ -62,13 +62,13 @@ While we wait to see if Sony brings this to Ireland, there's no shortage of **le
 
 RTÉ Player remains the obvious starting point for Irish content, and it's genuinely free. Virgin Media Play and TG4's own player are also worth having installed if you haven't already. For UK channels, apps like the BBC iPlayer, ITVX and Channel 4's streaming service are widely used in Ireland, though picture quality and access can depend on your setup.
 
-If your issue is less about apps and more about your actual reception — say, patchy signal for Saorview or aerial-based channels feeding into a smart TV setup — a [TV aerial signal booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} can make a noticeable difference before you even get to the streaming side of things.
+If your issue is less about apps and more about your actual reception — say, patchy signal for Saorview or aerial-based channels feeding into a smart TV setup — a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} can make a noticeable difference before you even get to the streaming side of things.
 
 ### Getting the Most from Your Existing Streaming Setup
 
 For households without a PS5, a simple streaming device is still the easiest route into free ad-supported TV. Fire TV Stick, Fire TV Cube, Roku and Chromecast all support various FAST services already, and they're widely available in Ireland through retailers.
 
-If you're already on Fire TV and find yourself constantly hunting for the remote, a spare [Fire TV remote](https://amzn.to/4AbmIKM){:rel="nofollow sponsored noopener"} is a handy backup rather than tearing the couch apart every evening.
+If you're already on Fire TV and find yourself constantly hunting for the remote, a spare {% include product-link.html id="fire-tv-remote" text="Fire TV remote" %} is a handy backup rather than tearing the couch apart every evening.
 
 ## The Bottom Line
 
