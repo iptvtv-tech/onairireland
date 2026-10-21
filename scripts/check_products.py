@@ -8,8 +8,14 @@ ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = ROOT / "_data" / "products.yml"
 CONFIG = ROOT / "_config.yml"
 APPROVED_CATEGORIES = {"Streaming Services", "Devices", "Installation Guides"}
+# Post types a showcase can ask for: {% include product-showcase.html category="..." %}
+SHOWCASE_CONTEXTS = {
+    "Devices", "Installation Guides", "News", "Reviews", "Sports Streaming",
+    "Streaming Services", "Troubleshooting", "Watch Guides",
+}
 REQUIRED_FIELDS = ("id", "name", "category", "image", "affiliate_link")
 errors = []
+products_per_context = {context: 0 for context in SHOWCASE_CONTEXTS}
 
 try:
     products = yaml.safe_load(PRODUCTS.read_text(encoding="utf-8")) or []
@@ -41,6 +47,19 @@ for row in products:
             f"use one of {', '.join(sorted(APPROVED_CATEGORIES))}"
         )
 
+    show_on = row.get("show_on")
+    if not isinstance(show_on, list) or not show_on:
+        errors.append(f"{product_id}: show_on must be a non-empty list of post types")
+    else:
+        for context in show_on:
+            if context not in SHOWCASE_CONTEXTS:
+                errors.append(
+                    f"{product_id}: show_on value {context!r} is not a post type; "
+                    f"use one of {', '.join(sorted(SHOWCASE_CONTEXTS))}"
+                )
+            else:
+                products_per_context[context] += 1
+
     image = str(row.get("image", ""))
     if image and not image.startswith("/assets/images/products/"):
         errors.append(f"{product_id}: product image must be a local /assets/images/products/ path")
@@ -56,6 +75,19 @@ for row in products:
 config_text = CONFIG.read_text(encoding="utf-8") if CONFIG.is_file() else ""
 if not __import__("re").search(r"(?m)^show_prices:\s*false\s*(?:#.*)?$", config_text):
     errors.append("_config.yml must keep show_prices: false")
+
+# Every post type that posts ask for must have at least one product, or its
+# showcase silently disappears.
+import re as _re
+requested = set()
+for folder in (ROOT / "_posts", ROOT / "_pages"):
+    for path in folder.glob("*.md") if folder.is_dir() else []:
+        requested.update(_re.findall(r'include product-showcase\.html[^%]*?category="([^"]+)"', path.read_text(encoding="utf-8")))
+for context in sorted(requested):
+    if context not in SHOWCASE_CONTEXTS:
+        errors.append(f"a post asks for showcase category {context!r}, which is not a known post type")
+    elif products_per_context[context] == 0:
+        errors.append(f"no product has {context!r} in show_on, so those posts show no product cards")
 
 for error in errors:
     print(f"ERROR: {error}")

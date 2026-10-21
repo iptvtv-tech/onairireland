@@ -56,8 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("/products.json")
       .then(function (r) { return r.json(); })
       .then(function (products) {
-        var matches = products.filter(function (p) { return p.category === productCategory; });
-        if (matches.length === 0) matches = products.filter(function (p) { return p.category === "Streaming Services"; });
+        // productCategory is a post type; products list the post types they suit in show_on.
+        function suits(p, postType) { return (p.show_on || []).indexOf(postType) !== -1; }
+        var matches = products.filter(function (p) { return suits(p, productCategory); });
+        if (matches.length === 0) matches = products.filter(function (p) { return suits(p, "Devices"); });
         if (matches.length === 0) return;
         var pick = matches[Math.floor(Math.random() * matches.length)];
         productContainer.innerHTML =

@@ -108,7 +108,7 @@ Posts now show a **colorful product card grid** ("Recommended for This Guide") t
   ```
 - **Update a link, price, or image in `_data/products.yml` and it updates on every post that shows that category — no need to touch individual posts.**
 - Product images are generic SVG illustrations in `assets/images/products/` (one per product type, made to match the site). To use your own photo of a device you own, save it as e.g. `assets/images/products/fire-tv-stick-4k.jpg` (4:3, about 800x600) and point that product's `image:` at it. Don't download Amazon's product photos: the Associates licence doesn't allow storing them on your site.
-- Card order is lightly shuffled client-side on each page load (`assets/js/product-shuffle.js`) so the same product isn't always shown first
+- The `category="..."` in a showcase is the **post type** asking for products. Every product whose `show_on` list includes that post type is placed in the page, and `assets/js/product-shuffle.js` shows a random three on each load, so all matching products rotate. Without JavaScript the first three in file order show.
 - The disclosure line under each product grid is required by Ireland's CCPC/ASAI advertising rules — don't remove it
 
 **To find every affiliate link that still needs a real URL:**
@@ -116,7 +116,7 @@ Posts now show a **colorful product card grid** ("Recommended for This Guide") t
 grep -n "AFFILIATE_LINK_" _data/products.yml
 ```
 
-**To add a new product:** copy an existing entry in `_data/products.yml`, give it a unique `id`, set its `category` to one of `Streaming Services`, `Devices`, or `Installation Guides`, and it'll automatically start appearing in that category's showcases.
+**To add a new product:** copy an existing entry in `_data/products.yml`, give it a unique `id`, set its `category` to one of `Streaming Services`, `Devices`, or `Installation Guides` (what the product is), and set `show_on` to the post types it suits, e.g. `show_on: ["Troubleshooting", "Installation Guides"]`. It then joins the rotation on those posts, the quiz and the Best Prices page. Run `python scripts/check_products.py` to catch typos.
 
 **To add the showcase to a new post:** just add `{% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}` anywhere in the post body — it renders nothing if there are no matching products yet.
 

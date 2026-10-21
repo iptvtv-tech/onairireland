@@ -156,6 +156,11 @@
   margin-bottom: 0;
 }
 
+// Cards beyond the visible three start hidden; product-shuffle.js rotates them.
+.product-card[hidden] {
+  display: none;
+}
+
 .product-card {
   position: relative;
   background: #fff;

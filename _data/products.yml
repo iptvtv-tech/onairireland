@@ -1,8 +1,10 @@
 # Product catalog for the affiliate "product showcase" cards.
 #
 # HOW THIS WORKS:
-# Posts pull products automatically by category using:
+# Posts pull products automatically by post type using:
 #   {% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}
+# That shows every product whose show_on list includes "Devices", three at a
+# time in random order, so all matching products rotate across visits.
 # Update a product's link, price, or image here ONCE and it updates
 # everywhere that category is shown across the whole site — you never
 # need to hunt through individual post files to change a link.
@@ -10,7 +12,11 @@
 # Fields:
 #   id            - unique short slug, used internally
 #   name          - product name shown on the card
-#   category      - must match a post category: Streaming Services | Devices | Installation Guides
+#   category      - product type, one of: Streaming Services | Devices | Installation Guides
+#   show_on       - list of post types whose showcase includes this product, e.g.
+#                   ["Troubleshooting", "Installation Guides"]. Allowed values: Devices,
+#                   Installation Guides, News, Reviews, Sports Streaming,
+#                   Streaming Services, Troubleshooting, Watch Guides
 #   image         - path to a product image (add real images under assets/images/products/)
 #   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
 #   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
@@ -20,6 +26,7 @@
 - id: fire-tv-stick-4k
   name: "Amazon Fire TV Stick 4K"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/streaming-stick.svg"
   price: "€46.99"
   badge: "Best Seller"
@@ -29,6 +36,7 @@
 - id: hdmi-cable-4k
   name: "High-Speed HDMI 2.1 Cable"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/hdmi-cable.svg"
   price: "€5.99"
   badge: "Handy Extra"
@@ -37,7 +45,8 @@
 
 - id: wifi-extender-troubleshoot
   name: "Wi-Fi Range Extender"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/wifi-extender.svg"
   price: "€31.99"
   badge: "Fixes Buffering"
@@ -46,7 +55,8 @@
 
 - id: ethernet-cable-troubleshoot
   name: "Long Ethernet Cable"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/ethernet-cable.svg"
   price: "€18.99"
   badge: "Most Reliable Fix"
@@ -55,7 +65,8 @@
 
 - id: mesh-wifi-troubleshoot
   name: "Mesh Wi-Fi System (2-pack)"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/mesh-wifi.svg"
   price: "€109.99"
   badge: "Whole-Home Fix"
@@ -64,7 +75,8 @@
   
 - id: tv-aerial-signal-booster
   name: "TV Aerial Signal Booster"
-  category: "News"
+  category: "Installation Guides"
+  show_on: ["News"]
   image: "/assets/images/products/indoor-aerial.svg"
   price: "€19.99"
   badge: "Handy Extra"
@@ -73,7 +85,8 @@
 
 - id: fire-tv-stick-lite
   name: "Fire TV Stick Lite"
-  category: "News"
+  category: "Devices"
+  show_on: ["News"]
   image: "/assets/images/products/streaming-stick-lite.svg"
   price: "€29.99"
   badge: "Budget Pick"
@@ -82,7 +95,8 @@
 
 - id: fire-tv-stick-4k-max-review
   name: "Fire TV Stick 4K Max"
-  category: "Reviews"
+  category: "Devices"
+  show_on: ["Reviews"]
   image: "/assets/images/products/streaming-stick.svg"
   price: "€114.99"
   badge: "Reviewer's Pick"
@@ -91,7 +105,8 @@
 
 - id: roku-ultra-review
   name: "Roku Ultra"
-  category: "Reviews"
+  category: "Devices"
+  show_on: ["Reviews"]
   image: "/assets/images/products/streaming-box.svg"
   price: "€49.99"
   badge: "Premium Pick"
@@ -100,7 +115,8 @@
 
 - id: soundbar-budget
   name: "Compact Soundbar"
-  category: "Streaming Services"
+  category: "Devices"
+  show_on: ["Streaming Services"]
   image: "/assets/images/products/soundbar.svg"
   price: "€20.99"
   badge: "Popular Add-on"
@@ -110,6 +126,7 @@
 - id: roku-streaming-stick-4k
   name: "Roku Streaming Stick 4K"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/streaming-stick-alt.svg"
   price: "€88.99"
   badge: "Simple Interface"
@@ -119,6 +136,7 @@
 - id: akiyo-02-projector
   name: "AKIYO O2 Projector"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/projector.svg"
   price: "€53.99"
   badge: "Big-Screen Extra"
@@ -128,6 +146,7 @@
 - id: 2-Pack-Pinowu-Remote-Cover-Case
   name: "Glow in the Dark Remote Cover Case"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/remote-cover.svg"
   price: "€8.99"
   badge: "Handy Extra"
@@ -137,6 +156,7 @@
 - id: tv-wall-mount
   name: "Adjustable TV Wall Mount"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/wall-mount.svg"
   price: "€16.99"
   badge: "Popular Add-on"
@@ -145,7 +165,8 @@
 
 - id: fire-tv-cube-guidebook
   name: "Fire TV Cube Simplified (setup guidebook)"
-  category: "Guides"
+  category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/guidebook.svg"
   price: "€11.99"
   badge: "Book"
@@ -155,6 +176,7 @@
 - id: mesh-wifi-system
   name: "Mesh Wi-Fi System (2-pack)"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/mesh-wifi-3.svg"
   price: "€193.99"
   badge: "Best Fix for Buffering"
@@ -163,7 +185,8 @@
 
 - id: outdoor-digital-tv-aerial
   name: "Outdoor Digital TV Aerial"
-  category: "Sports Streaming"
+  category: "Installation Guides"
+  show_on: ["Sports Streaming"]
   image: "/assets/images/products/outdoor-aerial.svg"
   price: "€52.99"
   badge: "Reliable Reception"
@@ -172,7 +195,8 @@
 
 - id: hdmi-switch-3in1
   name: "3-in-1 HDMI Switch"
-  category: "Sports Streaming"
+  category: "Installation Guides"
+  show_on: ["Sports Streaming"]
   image: "/assets/images/products/hdmi-switch.svg"
   price: "€21.99"
   badge: "Handy Extra"
@@ -181,7 +205,8 @@
 
 - id: universal-remote
   name: "Universal Remote Control"
-  category: "Streaming Services"
+  category: "Devices"
+  show_on: ["Streaming Services"]
   image: "/assets/images/products/universal-remote.svg"
   price: "€10.99"
   badge: "Popular Add-on"
@@ -190,7 +215,8 @@
 
 - id: bluetooth-speaker
   name: "Portable Bluetooth Speaker"
-  category: "Streaming Services"
+  category: "Devices"
+  show_on: ["Streaming Services"]
   image: "/assets/images/products/speaker.svg"
   price: "€49.99"
   badge: "Popular Add-on"
@@ -199,7 +225,8 @@
 
 - id: fire-tv-stick-4k-watchguide
   name: "Amazon Fire TV Stick 4K"
-  category: "Watch Guides"
+  category: "Devices"
+  show_on: ["Watch Guides"]
   image: "/assets/images/products/streaming-stick.svg"
   price: "€46.99"
   badge: "Best Seller"
@@ -208,7 +235,8 @@
 
 - id: roku-streaming-stick-4k-watchguide
   name: "Roku Streaming Stick 4K"
-  category: "Watch Guides"
+  category: "Devices"
+  show_on: ["Watch Guides"]
   image: "/assets/images/products/streaming-stick-alt.svg"
   price: "€88.99"
   badge: "Simple Interface"
@@ -217,7 +245,8 @@
    
 - id: satellite_receiver
   name: "HD Satellite Receiver"
-  category: "Watch Guides"
+  category: "Installation Guides"
+  show_on: ["Watch Guides"]
   image: "/assets/images/products/satellite-receiver.svg"
   price: "€22.99"
   badge: "Budget Pick"
@@ -227,6 +256,7 @@
 - id: hdmi-extender-adapter
   name: "HDMI Extender Adapter"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/hdmi-adapter.svg"
   price: "€6.99"
   badge: "Handy Extra"
@@ -235,7 +265,8 @@
 
 - id: screen-cleaning-kit
   name: "TV Screen Cleaning Kit"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/screen-cleaning.svg"
   price: "€19.50"
   badge: "Popular Add-on"
@@ -244,7 +275,8 @@
 
 - id: rechargeable-remote-batteries
   name: "Rechargeable Remote Batteries (4-pack)"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/batteries.svg"
   price: "€7.69"
   badge: "Budget Pick"
@@ -254,6 +286,7 @@
 - id: cable-management-clips
   name: "Cable Management Clips"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/cable-clips.svg"
   price: "€6.59"
   badge: "Budget Pick"
@@ -263,6 +296,7 @@
 - id: travel-router
   name: "Compact Travel Router"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/travel-router.svg"
   price: "€49.35"
   badge: "Handy Extra"
@@ -272,6 +306,7 @@
 - id: amazon_echo_dot
   name: "Amazon Echo Dot Alexa"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/smart-speaker.svg"
   price: "€70.59"
   badge: "Simple Interface"
@@ -280,7 +315,8 @@
 
 - id: smart_tvs_1
   name: "Xiaomi TV,32 Inch Smart TV"
-  category: "Watch Guides"
+  category: "Devices"
+  show_on: ["Watch Guides"]
   image: "/assets/images/products/smart-tv.svg"
   price: "€147.83"
   badge: "Handy Extra"
@@ -289,7 +325,8 @@
 
 - id: smart_tvs_2
   name: "LG LED AI,32 inch HD Smart TV"
-  category: "Streaming Services"
+  category: "Devices"
+  show_on: ["Streaming Services"]
   image: "/assets/images/products/smart-tv-2.svg"
   price: "€173.26"
   badge: "Handy Extra"
@@ -298,7 +335,8 @@
 
 - id: fire-tv-ethernet-adapter
   name: "Amazon Ethernet Adapter for Fire TV"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/ethernet-adapter.svg"
   badge: "Fixes Buffering"
   blurb: "Plugs into your Fire TV Stick's power port and gives it a wired connection — the most reliable fix for buffering during live sport."
@@ -306,7 +344,8 @@
 
 - id: powerline-adapters
   name: "Powerline Adapter Kit"
-  category: "Troubleshooting"
+  category: "Installation Guides"
+  show_on: ["Troubleshooting"]
   image: "/assets/images/products/powerline.svg"
   badge: "No Cables Needed"
   blurb: "Sends your broadband through the home's electrical wiring, so a TV far from the router gets a wired-style connection without drilling."
@@ -315,6 +354,7 @@
 - id: google-tv-streamer
   name: "Google TV Streamer"
   category: "Devices"
+  show_on: ["Devices"]
   image: "/assets/images/products/streaming-pebble.svg"
   badge: "Editor's Pick"
   blurb: "Google's current streaming box — 4K HDR, Dolby Vision, 32 GB storage, built-in Ethernet port and Google Cast. Replaced the discontinued Chromecast with Google TV."
@@ -323,6 +363,7 @@
 - id: saorview-set-top-box
   name: "Saorview Set-Top Box"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/set-top-box.svg"
   badge: "Free-to-Air"
   blurb: "Adds free Saorview channels to any TV with an aerial — a simple backup for news and sport when broadband drops. Check it's Saorview-approved before buying."
@@ -330,7 +371,8 @@
 
 - id: wireless-tv-headphones
   name: "Wireless TV Headphones"
-  category: "Streaming Services"
+  category: "Devices"
+  show_on: ["Streaming Services"]
   image: "/assets/images/products/headphones.svg"
   badge: "Popular Add-on"
   blurb: "Lets one person turn the volume up without disturbing the rest of the house — a favourite for late-night viewing and anyone hard of hearing."
@@ -338,7 +380,8 @@
 
 - id: soundbar-mid-range
   name: "Soundbar with Wireless Subwoofer"
-  category: "Streaming Services"
+  category: "Devices"
+  show_on: ["Streaming Services"]
   image: "/assets/images/products/soundbar-sub.svg"
   badge: "Step-Up Pick"
   blurb: "A bigger upgrade than a compact soundbar — the separate subwoofer adds the depth that films and match-day crowds need."
@@ -347,6 +390,7 @@
 - id: surge-protected-extension
   name: "Surge-Protected Extension Lead"
   category: "Installation Guides"
+  show_on: ["Installation Guides"]
   image: "/assets/images/products/extension-lead.svg"
   badge: "Handy Extra"
   blurb: "Enough sockets for the TV, soundbar, router and streaming stick behind one cabinet, with surge protection for the lot."

@@ -1,16 +1,24 @@
-// Shuffles the order of product cards within each showcase on every page
-// load, so returning visitors (and different visitors) don't always see
-// the same product first. Purely presentational -- the underlying data
-// still comes from one place (_data/products.yml).
+// Product showcase rotation. Each showcase contains every product whose
+// show_on list matches the post type; on each page load this picks a random
+// set of `data-show` cards (default 3) to display and hides the rest, so all
+// matching products rotate across visits. Purely presentational -- the
+// underlying data still comes from one place (_data/products.yml).
 document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll('.product-showcase[data-shuffle="true"] .product-showcase__grid').forEach(function (grid) {
-    var cards = Array.prototype.slice.call(grid.children);
+  document.querySelectorAll('.product-showcase[data-shuffle="true"]').forEach(function (showcase) {
+    var grid = showcase.querySelector(".product-showcase__grid");
+    if (!grid) return;
+    var show = parseInt(showcase.getAttribute("data-show"), 10);
+    if (!(show > 0)) show = 3;
+    var cards = Array.prototype.slice.call(grid.querySelectorAll(".product-card"));
+    // Fisher-Yates shuffle, then re-append in the new order.
     for (var i = cards.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
-      grid.appendChild(cards[j]);
-      cards.splice(j, 1);
+      var tmp = cards[i]; cards[i] = cards[j]; cards[j] = tmp;
     }
-    cards.forEach(function (c) { grid.appendChild(c); });
+    cards.forEach(function (card, index) {
+      grid.appendChild(card);
+      card.hidden = index >= show;
+    });
   });
 
   // Sitewide image fallback: if ANY image on the site fails to load

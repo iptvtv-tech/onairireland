@@ -8,6 +8,7 @@ permalink: /products.json
     "id": {{ product.id | jsonify }},
     "name": {{ product.name | jsonify }},
     "category": {{ product.category | jsonify }},
+    "show_on": {{ product.show_on | jsonify }},
     "image": {{ product.image | jsonify }},
     "price": {% if site.show_prices %}{{ product.price | jsonify }}{% else %}""{% endif %},
     "affiliate_link": {{ product.affiliate_link | jsonify }},

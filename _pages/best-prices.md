@@ -21,13 +21,22 @@ toc: false
 
 <div class="shop-catalog">
 {% assign grouped = site.data.products | group_by: "category" %}
+{% assign listed_links = "" %}
 {% for group in grouped %}
   {% assign anchor = group.name | slugify %}
+  {% case group.name %}
+    {% when "Devices" %}{% assign heading = "Streaming devices, TVs and audio" %}
+    {% when "Installation Guides" %}{% assign heading = "Setup, cables and Wi-Fi" %}
+    {% else %}{% assign heading = group.name %}
+  {% endcase %}
   <div class="shop-catalog__category" id="{{ anchor }}">
-    <h2 class="shop-catalog__category-title">{{ group.name }}</h2>
+    <h2 class="shop-catalog__category-title">{{ heading }}</h2>
     <div class="shop-catalog__grid">
       {% for product in group.items %}
-        {% unless product.affiliate_link contains "AFFILIATE_LINK" %}
+        {% comment %}Some products have two catalogue entries (one per post type); list each once.{% endcomment %}
+        {% assign link_key = "|" | append: product.affiliate_link | append: "|" %}
+        {% unless product.affiliate_link contains "AFFILIATE_LINK" or listed_links contains link_key %}
+        {% assign listed_links = listed_links | append: link_key %}
         <div class="shop-card">
           {% if product.badge %}<span class="shop-card__badge">{{ product.badge }}</span>{% endif %}
           <a href="{{ product.affiliate_link }}" target="_blank" rel="nofollow sponsored noopener" class="shop-card__image-link">
