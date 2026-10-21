@@ -5,6 +5,8 @@ main:
     url: /start-here/
   - title: "Streaming Services"
     url: /streaming-services/
+  - title: "Prices"
+    url: /streaming-prices/
   - title: "Devices"
     url: /devices/
   - title: "Sport"

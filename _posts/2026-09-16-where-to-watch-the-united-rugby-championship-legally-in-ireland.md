@@ -81,6 +81,8 @@ Between TG4's free coverage and Premier Sports' coverage of every Irish province
 
 ### Related
 
+For every rugby competition in one place, see our [rugby guide](/rugby/).
+
 Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

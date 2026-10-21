@@ -52,6 +52,8 @@ faqs:
 
 This guide covers every major licensed streaming service available in Ireland in 2026, what each costs, and who it suits. Prices were checked in October 2026; providers change them often, so always confirm on the provider's own site before paying.
 
+**Jump to:** [streaming prices tracker](/streaming-prices/) · [cost calculator](/streaming-cost-calculator/) · [GAA](/gaa/) · [rugby](/rugby/) · [devices](/devices/) · [free Irish apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
+
 ## Why "legal" matters
 
 Every service on this page is licensed to show its content in Ireland. That means official apps, Irish consumer protection, customer support you can actually reach, and no risk of a service vanishing overnight. Pay for the ones you want, or watch the free ones, knowing exactly what you're getting.
@@ -107,10 +109,11 @@ Sport is split across several services, so the cheapest route depends on what yo
 | **GAA** | RTÉ (35 live championship games in 2026) and TG4 (free); **GAA+** for 40 exclusive games — the 2026 Season Pass cost €95, or €15 per match |
 | **Premier League football** | Sky Sports (most games), TNT Sports, and Premier Sports, which has an exclusive Saturday 3pm game every round in Ireland. On NOW: Sports (Sky Sports, €38.99 a month) plus Sports Extra (TNT and Premier Sports, €33.99), or both for €27 a month on the 12-month Sports Saver |
 | **Champions League football** | Free games on RTÉ (first pick of Wednesdays) and Virgin Media until 2027; Premier Sports has first pick of Tuesday games. From 2027–28 Virgin drops out: RTÉ keeps free Wednesday games and the final, Premier Sports keeps Tuesdays and Sky Sports gets the rest |
-| **Rugby** | Six Nations free on RTÉ and Virgin Media; URC free on TG4 (selected games) and every Irish province match on Premier Sports |
+| **Rugby** | Six Nations free on RTÉ and Virgin Media; Ireland's November internationals free on Virgin Media; URC free on TG4 (selected games) and every Irish province match on Premier Sports; Champions Cup on Premier Sports |
+| **Formula 1** | Sky Sports only (exclusive in Ireland until 2034), or NOW with no contract |
 | **Golf and other events** | Mostly Sky Sports, with some free coverage on RTÉ |
 
-Our sport guides go into detail: [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/), [Premier League football](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/), [the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/), [Six Nations rugby](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/) and [the URC](/sports-streaming/where-to-watch-the-united-rugby-championship-legally-in-ireland/).
+Our sport guides go into detail: the [GAA guide](/gaa/) and [rugby guide](/rugby/) hubs, [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/), [Premier League football](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/), [the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/), [Six Nations rugby](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/), [the URC](/sports-streaming/where-to-watch-the-united-rugby-championship-legally-in-ireland/) and [Formula 1](/sports-streaming/where-to-watch-formula-1-legally-in-ireland/).
 
 ## Do you need a TV licence to stream?
 

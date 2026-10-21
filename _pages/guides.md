@@ -17,6 +17,7 @@ header:
 ## Popular topics
 
 - [GAA on TV and streaming](/gaa/)
+- [Rugby on TV and streaming](/rugby/)
 - [Netflix in Ireland](/netflix/)
 - [NOW and Sky](/now-and-sky/)
 - [Virgin Media TV and Virgin Media Play](/virgin-media/)
