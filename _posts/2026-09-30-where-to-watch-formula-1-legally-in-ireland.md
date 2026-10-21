@@ -35,7 +35,7 @@ faqs:
 
 ## Where to Watch Formula 1 Legally in Ireland
 
-Irish fans can watch Formula 1 legally through Sky Sports, which holds the main broadcast rights, alongside free-to-air highlights and selected races on RTÉ, plus F1's own subscription service, F1 TV, for those who want extra coverage. Between these options, most fans should be able to follow the championship without resorting to anything dodgy.
+Irish fans can watch Formula 1 legally through Sky Sports, which holds the main broadcast rights, alongside free-to-air highlights and selected races on RTÉ, plus F1's own subscription service, F1 TV, for those who want extra coverage. Between these options, most fans should be able to follow the whole championship.
 
 ### Sky Sports: The Main Home of F1 in Ireland
 

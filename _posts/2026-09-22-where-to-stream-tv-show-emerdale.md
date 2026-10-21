@@ -36,7 +36,7 @@ faqs:
  
 ## Where to Stream Emmerdale in Ireland
 
-Emmerdale (sometimes typed as "Emerdale") is one of the longest-running soaps on British television, and it has a loyal following here in Ireland too. If you're trying to figure out the proper, legal way to keep up with the Dales without messing around with dodgy apps or unofficial boxes, this guide walks through your options.
+Emmerdale (sometimes typed as "Emerdale") is one of the longest-running soaps on British television, and it has a loyal following here in Ireland too. If you're trying to figure out the proper, legal way to keep up with the Dales, this guide walks through your options.
 
 ### Who Actually Broadcasts Emmerdale in Ireland?
 

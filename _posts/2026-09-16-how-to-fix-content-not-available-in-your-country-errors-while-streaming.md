@@ -22,8 +22,8 @@ faqs:
     answer: "This is almost always due to regional licensing agreements that determine which content a service is permitted to show in each country, not a technical fault."
   - question: "Will restarting my router actually fix a region error?"
     answer: "In many cases yes, since it refreshes your IP address and clears temporary glitches that can confuse an app's location detection."
-  - question: "Is it safe to use a VPN to unlock other countries' streaming catalogues?"
-    answer: "No, this typically breaches the streaming service's terms of use and can lead to account restrictions, so it's not recommended."
+  - question: "Do my Irish subscriptions work when I'm on holiday in the EU?"
+    answer: "Yes. Under EU rules, paid streaming subscriptions you take out in Ireland keep working when you're temporarily in another EU country, with the same Irish catalogue."
   - question: "Does my choice of streaming device affect these errors?"
     answer: "Not directly, though keeping devices like a Fire TV Stick, Fire TV Cube, Roku, or Chromecast updated and on a strong connection reduces the chance of misdetection issues."
 ---
@@ -45,7 +45,7 @@ Streaming services buy the rights to show certain films, series, or sports event
 There are a few typical reasons this pops up on a fully legitimate streaming setup:
 
 - **Your account is registered in a different country** than where you're currently connecting from.
-- **A VPN or proxy is active** on your router or device, even unintentionally, making the service think you're abroad.
+- **Another app or a network setting is changing your connection's location**, even unintentionally, making the service think you're abroad.
 - **App or firmware is out of date**, causing incorrect region detection.
 - **Temporary licensing changes**, where content is pulled or added on short notice.
 - **Payment method mismatch**, where your card is registered to a different country than your account settings.
@@ -56,9 +56,9 @@ There are a few typical reasons this pops up on a fully legitimate streaming set
 
 Log into your streaming service's website (rather than the app) and check your account or profile settings. Most platforms let you view your registered country. If it's wrong, you may need to update your billing address and payment method to match your actual location.
 
-### 2. Turn Off Any VPN or Proxy Software
+### 2. Check Apps and Network Settings That Change Your Location
 
-If you or someone in your household has a VPN app installed on a phone, router, or smart TV box, switch it off before streaming. Even background VPN apps on a phone can sometimes affect shared network settings. Legal streaming apps are designed to detect your real location, and VPNs often trigger false region-mismatch errors.
+Some security, privacy or work apps, and some router settings, send your connection through another country. If anything like that is running on your phone, router or streaming device, switch it off and try again. Legal streaming apps check your real location, so anything that changes it can trigger a region error.
 
 ### 3. Restart Your Router and Device
 
@@ -80,9 +80,9 @@ If Wi-Fi issues persist, connecting your streaming device directly to your route
 
 Sometimes the message is accurate: the content simply isn't licensed for Ireland yet, or the licensing window has ended. In these cases, there's no legitimate fix, and the right approach is to check whether the title is available on another authorised Irish service, or simply wait, as catalogues change regularly.
 
-## A Note on Workarounds
+## Watching From Outside Ireland
 
-You may see suggestions online for using VPNs or DNS tricks to access other countries' catalogues. Doing this typically breaches the terms of service of the streaming platform and can result in account suspension. It's best avoided, both for account safety and because it doesn't support the licensing system that allows Irish audiences to get local content and pricing in the first place.
+If you're travelling in the EU, your paid Irish subscriptions keep working with the Irish catalogue. Outside the EU, what you can watch depends on each service's licensing for that country, so check the service's own help pages before you travel.
 
 **Related guides:** [Audio Out of Sync? Fixing Streaming Lag on Smart TVs](/troubleshooting/audio-out-of-sync-fixing-streaming-lag-on-smart-tvs/) · [Disney+ Not Working? Try These Fixes](/troubleshooting/disney-not-working-try-these-fixes/)
 

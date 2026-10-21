@@ -36,7 +36,7 @@ faqs:
 
 ## Finals Weekend Is Here — Let's Talk Coverage
 
-All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for the rest of the Championship. Between RTÉ's free-to-air coverage, TG4's dedicated slots, and [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) filling in the gaps, most fans in Ireland can catch the big games without any grey-area streaming nonsense. Here's how it typically breaks down.
+All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for the rest of the Championship. Between RTÉ's free-to-air coverage, TG4's dedicated slots, and [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) filling in the gaps, most fans in Ireland can catch the big games without much fuss. Here's how it typically breaks down.
 
 ### RTÉ: Your First Port of Call
 

@@ -14,7 +14,7 @@ header:
   image_description: "A living room TV showing a streaming app home screen"
 ---
 
-On Air Ireland explains the legal ways to watch TV, films and sport in Ireland: what each service costs, what you need to watch it, and how to fix it when it stops working. No unofficial IPTV, no VPN tricks. If you're new here, these three steps are the quickest way to a setup that works.
+On Air Ireland explains the legal ways to watch TV, films and sport in Ireland: what each service costs, what you need to watch it, and how to fix it when it stops working. Licensed services only. If you're new here, these three steps are the quickest way to a setup that works.
 
 ## Step 1: Start with what's free
 

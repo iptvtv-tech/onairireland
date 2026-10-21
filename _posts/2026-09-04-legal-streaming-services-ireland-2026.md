@@ -32,8 +32,8 @@ quick_facts:
 faqs:
   - question: "What is the cheapest legal way to stream TV in Ireland?"
     answer: "The free apps: RTÉ Player, Virgin Media Play and TG4 Player cost nothing and cover all the main Irish channels live and on catch-up. Of the paid services, NOW Entertainment and Paramount+ are among the cheapest."
-  - question: "Is IPTV legal in Ireland?"
-    answer: "IPTV just means TV delivered over the internet, and licensed services like NOW, Sky Stream and Virgin Media TV use it legally. What's illegal is buying unlicensed 'IPTV subscriptions' or 'fully loaded' boxes that resell channels without permission."
+  - question: "How can I tell if a streaming service is legal in Ireland?"
+    answer: "Legal services are sold by the broadcaster or an established provider such as RTÉ, Virgin Media, TG4, NOW, Sky, Netflix or Disney+, and you install them from your TV's or device's own app store. If you're not sure about a service, check the provider's own website before you pay."
   - question: "Is there a Netflix plan with ads in Ireland?"
     answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). Netflix has confirmed ads will start on its Irish service from 1 March 2027, but hasn't announced the price."
   - question: "Do I need a TV licence if I only stream?"
@@ -54,7 +54,7 @@ This guide covers every major licensed streaming service available in Ireland in
 
 ## Why "legal" matters
 
-Unauthorised IPTV resellers and "fully loaded" boxes are illegal in Ireland. They get shut down without warning, often carry malware, and give you no refund or consumer protection when they stop working. Everything on this page is a licensed service you can pay for — or watch for free — without any of those risks.
+Every service on this page is licensed to show its content in Ireland. That means official apps, Irish consumer protection, customer support you can actually reach, and no risk of a service vanishing overnight. Pay for the ones you want, or watch the free ones, knowing exactly what you're getting.
 
 ## Free Irish streaming apps
 

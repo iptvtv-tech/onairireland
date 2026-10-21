@@ -72,7 +72,7 @@ On the streaming side, if you've got a smart TV, a streaming stick, a games cons
 
 ### A Note on Staying Legal
 
-It can be tempting to look for shortcuts, especially with subscription costs adding up across multiple services. However, unauthorised streaming setups carry real legal and security risks, and they undermine the funding model that keeps grassroots and domestic football running. Sticking with official broadcasters also means better reliability, proper customer support, and no nasty surprises if a service suddenly disappears mid-season.
+Subscription costs can add up across several services, so it's worth planning: pick the package that covers the games you care about most, and check for bundle or annual deals. Sticking with official broadcasters means better reliability, proper customer support and no nasty surprises mid-season, and your subscription helps fund the game itself.
 
 ### Planning Your Season
 

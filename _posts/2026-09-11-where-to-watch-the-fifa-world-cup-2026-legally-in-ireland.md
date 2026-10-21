@@ -45,19 +45,15 @@ RTÉ Player is the official, free streaming service for RTÉ's television output
 - **Apps:** RTÉ Player has apps for major smart TV platforms and streaming devices, including Android TV, Apple TV, and select smart TV operating systems. If you're unsure whether your specific device is supported, check the app store on your device or RTÉ's own help pages closer to the tournament, as supported device lists can change.
 - **Registration:** RTÉ Player typically requires a free account for some content. Signing up costs nothing and does not require a television licence to access streamed content, though a TV licence is still legally required if you watch or record programmes as they are being broadcast on a television set in Ireland.
 
-Because RTÉ Player is free and legal, there's no need to consider any third-party app, device, or subscription claiming to offer "cheaper" or "unofficial" access to the World Cup. If a service isn't RTÉ, or isn't a broadcaster that has separately confirmed official Irish rights, it isn't a legitimate way to watch.
+Because RTÉ Player is free and legal, it's the simplest way to watch every match RTÉ shows. If another service says it has the World Cup in Ireland, check that the broadcaster has confirmed Irish rights before you pay.
 
 ## What About Other Irish Broadcasters or Streaming Services?
 
 As things stand, RTÉ is the broadcaster with confirmed rights to the tournament in Ireland. Irish viewers should be cautious of any other Irish app, box, or streaming platform claiming to offer World Cup 2026 coverage, since no other domestic service has been confirmed to hold legal broadcast rights.
 
-This matters for a few reasons:
+Sticking with RTÉ, or any broadcaster that has officially confirmed Irish rights, means coverage that's legal, comes with proper support, and installs from your device's own app store.
 
-1. **Legality:** Streaming a broadcast without the proper licensing rights is a breach of copyright law, and services offering this are operating outside the law regardless of how legitimate they may appear.
-2. **Reliability:** Unlicensed streams are frequently unstable, low quality, or disappear entirely during major tournaments when demand spikes.
-3. **Security:** Devices and apps promising "all the sport" for a flat fee are commonly associated with malware, data harvesting, or fraudulent payment schemes.
-
-If you want to be certain a service is legal, a good rule of thumb is to check whether the broadcaster has issued an official press statement confirming rights, or whether the service is a well-known, established platform such as RTÉ, or an official FIFA digital channel. Independent boxes, generic "IPTV" apps, or resellers offering World Cup access are not legitimate ways to watch, no matter how the tournament is marketed to you.
+If you want to be certain a service is legal, a good rule of thumb is to check whether the broadcaster has issued an official press statement confirming rights, or whether the service is a well-known, established platform such as RTÉ, or an official FIFA digital channel.
 
 ## Watching Abroad or Outside RTÉ's Coverage
 

@@ -38,7 +38,7 @@ Eir has confirmed that Eir Vision and related broadband and TV bundle prices wil
 
 ## What We Know So Far
 
-Irish telecoms providers, including Eir, typically issue annual price change notices to broadband and TV bundle customers in the final months of the year, with new pricing taking effect from January. Eir Vision, the operator's IPTV-style television service bundled with home broadband, has been included in past rounds of these adjustments, and reports point to a similar pattern for 2026.
+Irish telecoms providers, including Eir, typically issue annual price change notices to broadband and TV bundle customers in the final months of the year, with new pricing taking effect from January. Eir Vision, the operator's TV service delivered over home broadband, has been included in past rounds of these adjustments, and reports point to a similar pattern for 2026.
 
 Because the precise new monthly charges vary depending on your existing plan, contract length, and whether you're on a legacy or current package, the safest way to find out exactly what you'll be paying is to log into your Eir account or check the notification letter or email that the company is required to send before any price change takes effect.
 
@@ -62,7 +62,7 @@ Some households respond to a bundle price rise by reviewing whether they need th
 
 If you go this route, a budget streaming stick such as the [Fire TV Stick Lite](https://amzn.to/46Ivy5j){:rel="nofollow sponsored noopener"} is a cheap way to add the main streaming apps to a second TV, or to run them alongside your main Eir Vision box.
 
-It's also worth remembering that a TV bundle price rise doesn't necessarily reflect anything about the quality of your terrestrial reception. Homes that still rely partly on an aerial for local channels alongside their IPTV package sometimes find picture quality drops are actually down to a weak or aging aerial signal rather than the streaming service itself. In that case, a [TV Aerial Signal Booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} can sometimes resolve intermittent dropouts on free-to-air channels, separate from any broadband-delivered TV issues.
+It's also worth remembering that a TV bundle price rise doesn't necessarily reflect anything about the quality of your terrestrial reception. Homes that still rely partly on an aerial for local channels alongside their broadband TV package sometimes find picture quality drops are actually down to a weak or aging aerial signal rather than the streaming service itself. In that case, a [TV Aerial Signal Booster](https://amzn.to/3VrktTE){:rel="nofollow sponsored noopener"} can sometimes resolve intermittent dropouts on free-to-air channels, separate from any broadband-delivered TV issues.
 
 ## The Bottom Line for Now
 

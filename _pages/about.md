@@ -3,7 +3,7 @@ title: "About On Air Ireland"
 permalink: /about/
 layout: single
 description: "On Air Ireland is an independent guide to legal streaming services, devices, and setup instructions for viewers in Ireland."
-excerpt: "Independent guides to legal streaming in Ireland — no unauthorized services, ever."
+excerpt: "Independent guides to legal streaming in Ireland — licensed services only."
 seo:
   type: AboutPage
 header:
@@ -23,7 +23,7 @@ We cover:
 - **Where to buy** — official and reputable retailers
 - **Installation instructions** — step-by-step setup for each device and service
 
-We do not promote, link to, or provide instructions for unauthorized or unlicensed IPTV services.
+We only cover services that are licensed to show their content in Ireland, and we only link to official providers and reputable retailers.
 
 ## Who We Are
 

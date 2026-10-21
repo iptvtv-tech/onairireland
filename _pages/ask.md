@@ -16,7 +16,7 @@ header:
 
 Can't find the answer in our guides? Ask us. We read every question, reply by email when we can, and turn the most common ones into new guides (without your name).
 
-We only help with legal services. We can't help with unofficial IPTV boxes, "loaded" sticks or VPNs.
+We only help with licensed services, official apps and mainstream devices from reputable retailers.
 
 <form id="ask-form" class="ask-form" novalidate>
   <label for="ask-topic">What's it about?</label>

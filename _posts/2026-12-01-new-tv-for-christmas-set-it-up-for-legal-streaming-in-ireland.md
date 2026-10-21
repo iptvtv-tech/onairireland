@@ -38,9 +38,9 @@ Our [streaming prices tracker](/streaming-prices/) lists every major service in 
 
 Christmas is busy for football and rugby. Check our [Sport on TV this week](/sport-on-tv/) page, updated every Thursday, to see which games are free on RTÉ, TG4 and Virgin Media and which need a paid service.
 
-## Step 5: A word on "fully loaded" boxes
+## Step 5: Stick to official apps
 
-If someone gave you an Android box "with every channel", it's almost certainly selling pirated streams. They're illegal in Ireland, often carry malware, and stop working without warning. Every service above is licensed and works on mainstream devices.
+Install streaming apps only from your TV's or streaming device's own app store. Every service above is licensed, works on mainstream devices and updates automatically through that store.
 
 ## Want the full picture?
 

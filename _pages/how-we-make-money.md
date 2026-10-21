@@ -27,7 +27,7 @@ We don't show prices next to Amazon products, because Amazon's rules only allow 
 
 ## What we never take money for
 
-- **Unofficial IPTV, "fully loaded" boxes or VPN workarounds.** We don't cover them, link to them or accept money from anyone selling them.
+- **Anything that isn't licensed in Ireland.** We only cover, link to and work with licensed services, official apps and reputable retailers.
 - **Rankings or verdicts.** No company can pay to be recommended, ranked higher or reviewed more kindly.
 
 If we ever publish sponsored content, it will be clearly labelled as sponsored at the top of the page.

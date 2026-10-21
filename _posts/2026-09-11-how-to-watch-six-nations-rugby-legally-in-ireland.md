@@ -65,7 +65,7 @@ At the time of writing, both RTÉ Player and Virgin Media Play are free to acces
 
 ### Keeping It Simple
 
-The bottom line for Irish rugby fans is reassuring: you don't need a complicated setup, a foreign subscription, or any unofficial workaround to watch Ireland's Six Nations matches. RTÉ and Virgin Media Television between them ensure that live coverage remains accessible, free, and legal for anyone in the country with a TV, an aerial or saorview box, or an internet connection. Checking each broadcaster's published schedule ahead of the tournament is the simplest way to know exactly where and when to tune in.
+The bottom line for Irish rugby fans is reassuring: you don't need a complicated setup or a foreign subscription to watch Ireland's Six Nations matches. RTÉ and Virgin Media Television between them ensure that live coverage remains accessible, free, and legal for anyone in the country with a TV, an aerial or saorview box, or an internet connection. Checking each broadcaster's published schedule ahead of the tournament is the simplest way to know exactly where and when to tune in.
 
 {% include product-showcase.html category="Sports Streaming" %}
 

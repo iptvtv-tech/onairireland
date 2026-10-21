@@ -36,7 +36,7 @@ faqs:
 
 ## Following the URC Legally This Season
 
-The United Rugby Championship has become one of the most exciting competitions on the Irish sporting calendar, with all four provinces battling it out against sides from Wales, Scotland, Italy, and South Africa. If you're trying to work out where you can actually watch the games without falling foul of copyright rules or dodgy streams, this guide covers the licensed options available to Irish viewers.
+The United Rugby Championship has become one of the most exciting competitions on the Irish sporting calendar, with all four provinces battling it out against sides from Wales, Scotland, Italy, and South Africa. If you're trying to work out where you can actually watch the games, this guide covers the licensed options available to Irish viewers.
 
 ### RTÉ's Free Coverage
 

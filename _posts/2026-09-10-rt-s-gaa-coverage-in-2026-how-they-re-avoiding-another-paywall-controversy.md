@@ -55,7 +55,7 @@ Most modern smart TVs come with the RTÉ Player app pre-installed or available t
 
 ### GAA+ App
 
-For games designated as GAA+ exclusives, the official GAA+ app or website will be the only legitimate access point. We'd recommend subscribing directly through the GAA's own channels rather than any reseller, both for security reasons and because unofficial resale of streaming credentials is against GAA+'s terms of service.
+For games designated as GAA+ exclusives, the official GAA+ app or website will be the only legitimate access point. We'd recommend subscribing directly through the GAA's own app or website, which keeps your account secure and within GAA+'s terms of service.
 
 ## The Bigger Picture
 

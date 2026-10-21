@@ -12,8 +12,15 @@ PATTERNS = [
     re.compile(r"\bunlicensed\b", re.I),
     re.compile(r"\bunauthori[sz]ed\b", re.I),
     re.compile(r"\bpiracy\b", re.I),
-    re.compile(r"\bdodgy[ -]?box(?:es)?\b", re.I),
-    re.compile(r"\bfully[ -]loaded\s+(?:box|stick)s?\b", re.I),
+    re.compile(r"\bdodgy\b", re.I),
+    re.compile(r"\bfully[ -]loaded\b", re.I),
+    re.compile(r"\bloaded\s+(?:box|stick)s?\b", re.I),
+    re.compile(r"\bunofficial\b", re.I),
+    re.compile(r"\bpirat(?:e|ed|es|ing)\b", re.I),
+    re.compile(r"\billegal(?:ly)?\b", re.I),
+    re.compile(r"\bgrey[ -]area\b", re.I),
+    re.compile(r"\bsideload\w*\b", re.I),
+    re.compile(r"\bkodi\b", re.I),
 ]
 errors = []
 for target in PUBLIC_PATHS:

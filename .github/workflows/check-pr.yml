@@ -30,6 +30,9 @@ jobs:
       - name: Check prices data
         run: python scripts/check_prices_data.py
 
+      - name: Check editorial scope (legal services only)
+        run: python scripts/check_editorial_scope.py
+
       - name: Build site exactly like GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:
