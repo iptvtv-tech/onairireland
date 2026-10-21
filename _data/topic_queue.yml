@@ -17,11 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: Where to Watch the World Darts Championship in Ireland
-  category: Sports Streaming
-  brief: Name the confirmed broadcaster for the 2026-27 PDC World Darts Championship in Ireland, dates, and streaming options such as NOW passes. Confirm rights before publishing.
-  pillar: Where to Watch
-  publish_by: '2026-12-10'
 - title: Where to Watch Horse Racing Legally in Ireland
   category: Sports Streaming
   brief: Explain how Irish racing is shown on RTÉ, Racing TV and other licensed services, including the Leopardstown Christmas Festival. Confirm current rights before publishing.

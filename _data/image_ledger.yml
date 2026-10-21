@@ -131,6 +131,22 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
+- id: card-where-to-watch-the-world-darts-championship-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-the-world-darts-championship-in-ireland-hero.webp
+    teaser: /assets/images/posts/where-to-watch-the-world-darts-championship-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-the-world-darts-championship-in-ireland-og.jpg
+    hero_small: /assets/images/posts/where-to-watch-the-world-darts-championship-in-ireland-hero-800.webp
+  fingerprint: feature|m|Sports-Streaming|projector,soundbar,speaker
+  layout: feature-mirrored
+  palette: Sports-Streaming
+  icons:
+  - speaker
+  - soundbar
+  - projector
+  created: '2026-10-21'
+  used_in:
+  - 2026-10-21-where-to-watch-the-world-darts-championship-in-ireland.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
