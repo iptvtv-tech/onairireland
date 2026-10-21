@@ -51,7 +51,7 @@ NOW is available on smart TVs, streaming sticks, games consoles, and via a web b
 
 ## Setting Up Your TV for Streaming
 
-If you're streaming the darts through a set-top box, streaming stick, or games console rather than a built-in smart TV app, you may find yourself swapping HDMI cables between devices during a busy sporting weekend. A [3-in-1 HDMI Switch](https://amzn.to/4h8t3OA){:rel="nofollow sponsored noopener"} lets you keep multiple devices, such as a streaming stick, a games console, and a Sky box, connected to the same TV input without constantly unplugging cables, which is handy if your TV has limited HDMI ports.
+If you're streaming the darts through a set-top box, streaming stick, or games console rather than a built-in smart TV app, you may find yourself swapping HDMI cables between devices during a busy sporting weekend. A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI Switch" %} lets you keep multiple devices, such as a streaming stick, a games console, and a Sky box, connected to the same TV input without constantly unplugging cables, which is handy if your TV has limited HDMI ports.
 
 ## Picture Quality and Buffering
 
@@ -63,7 +63,7 @@ If a streaming app shows an error suggesting the content isn't available, the mo
 
 ## Free-to-Air Alternatives
 
-Darts has occasionally featured on free-to-air schedules in other markets, but in Ireland the World Championship has historically sat behind Sky's paywall rather than being shown on RTÉ or other free channels. If you rely on an [Outdoor Digital TV Aerial](https://amzn.to/3T7hgI6){:rel="nofollow sponsored noopener"} for Saorview channels, it's worth checking RTÉ's own sports schedule separately, as free-to-air darts coverage in Ireland has generally been limited to occasional highlights rather than live tournament coverage.
+Darts has occasionally featured on free-to-air schedules in other markets, but in Ireland the World Championship has historically sat behind Sky's paywall rather than being shown on RTÉ or other free channels. If you rely on an {% include product-link.html id="outdoor-digital-tv-aerial" text="Outdoor Digital TV Aerial" %} for Saorview channels, it's worth checking RTÉ's own sports schedule separately, as free-to-air darts coverage in Ireland has generally been limited to occasional highlights rather than live tournament coverage.
 
 {% include product-showcase.html category="Sports Streaming" %}
 
