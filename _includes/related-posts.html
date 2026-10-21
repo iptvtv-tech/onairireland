@@ -1,9 +1,33 @@
 <!--
-  Shows up to 3 other posts from the current post's first category.
+  Shows up to site.related_posts_count (default 3, set in _config.yml) other
+  posts from the current post's first category: the posts that come next
+  (older) in that category, wrapping round to the newest. This spreads links
+  evenly, so every post is linked from the posts published just after it.
+  (The previous version used "| limit: 3", which isn't a Liquid filter, so it
+  showed every post in the category.)
   See README.md for usage.
 -->
 {% assign related_category = page.categories[0] %}
-{% assign related_posts = site.categories[related_category] | where_exp: "post", "post.url != page.url" | limit: 3 %}
+{% assign related_pool = site.categories[related_category] %}
+{% assign related_total = related_pool.size %}
+{% assign related_posts = "" | split: "" %}
+{% if related_total > 1 %}
+  {% assign related_index = -1 %}
+  {% for candidate in related_pool %}
+    {% if candidate.url == page.url %}{% assign related_index = forloop.index0 %}{% endif %}
+  {% endfor %}
+  {% assign related_max = site.related_posts_count | default: 3 %}
+  {% assign related_want = related_total | minus: 1 %}
+  {% if related_want > related_max %}{% assign related_want = related_max %}{% endif %}
+  {% if related_index == -1 %}
+    {% assign related_posts = related_pool | where_exp: "post", "post.url != page.url" | slice: 0, related_want %}
+  {% else %}
+    {% for step in (1..related_want) %}
+      {% assign related_pick = related_index | plus: step | modulo: related_total %}
+      {% assign related_posts = related_posts | push: related_pool[related_pick] %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
 {% if related_posts.size > 0 %}
 <div class="related-posts">
   <h3 class="related-posts__title">You Might Also Like</h3>

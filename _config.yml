@@ -84,6 +84,10 @@ sass:
   style: compressed
 permalink: /:categories/:title/
 paginate: 10
+
+# How many cards the "You Might Also Like" box shows under each post
+# (_includes/related-posts.html). Each post links to the next posts in its category.
+related_posts_count: 6
 paginate_path: /page:num/
 timezone: Europe/Dublin
 
