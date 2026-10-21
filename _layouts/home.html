@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% comment %}
+  Local copy of the theme's "home" layout (minimal-mistakes, pinned commit
+  7c68402), merged with the archive wrapper it inherits from. The only change:
+  the theme's automatic <h1 id="page-title"> is left out, because the homepage
+  hero (index.html) already provides the page's single H1. The body class
+  (layout--home) and the .archive wrapper are unchanged, so existing CSS still
+  applies.
+{% endcomment %}
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+
+<div id="main" role="main">
+  {% include sidebar.html locale=locale %}
+
+  <div class="archive">
+    {{ content }}
+
+    <h2 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Recent Posts" }}</h2>
+
+    {% if paginator %}
+      {% assign posts = paginator.posts %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+
+    {% assign entries_layout = page.entries_layout | default: 'list' %}
+    <div class="entries-{{ entries_layout }}">
+      {% include documents-collection.html locale=locale entries=posts type=entries_layout %}
+    </div>
+
+    {% include paginator.html locale=locale %}
+  </div>
+</div>
