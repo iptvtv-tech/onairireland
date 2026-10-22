@@ -5,6 +5,24 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0f172a">
 
+{% comment %}
+  Load the big header image first (PageSpeed: "LCP request discovery"). The
+  hero is a CSS background, so the browser wouldn't otherwise find it until
+  the stylesheet has loaded. Phones (up to 47.9375em, the same breakpoint as
+  the --hero-sm rule in main.scss) get the small version when there is one.
+{% endcomment %}
+{% if page.url == "/" %}
+<link rel="preload" as="image" href="{{ '/assets/images/teasers/streaming-8-hero-800.webp' | relative_url }}" media="(max-width: 47.9375em)" fetchpriority="high">
+<link rel="preload" as="image" href="{{ '/assets/images/teasers/streaming-8-hero.webp' | relative_url }}" media="(min-width: 48em)" fetchpriority="high">
+{% elsif page.header.overlay_image %}
+{% if page.header.overlay_image_small %}
+<link rel="preload" as="image" href="{{ page.header.overlay_image_small | relative_url }}" media="(max-width: 47.9375em)" fetchpriority="high">
+<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" media="(min-width: 48em)" fetchpriority="high">
+{% else %}
+<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" fetchpriority="high">
+{% endif %}
+{% endif %}
+
 <!-- Ownership verification tags (must be inside <head> to be detected) -->
 <meta name="impact-site-verification" value="b480fada-6aca-4064-b835-c824086f97a2">
 <meta name="influencerrate-verification" content="21a3e1d6f5b4bfbf5b07c275a2d57093" />

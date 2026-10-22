@@ -36,10 +36,20 @@
   padding: 5em 2em;
   background:
     linear-gradient(135deg, rgba(15, 23, 42, 0.88) 0%, rgba(30, 58, 95, 0.62) 100%),
-    url("/assets/images/teasers/streaming-8.jpg") center / cover no-repeat;
+    url("/assets/images/teasers/streaming-8-hero.webp") center / cover no-repeat;
   background-color: #0f172a;
   color: #fff;
   text-align: center;
+}
+
+/* Phones get the 800px hero (preloaded in _includes/head/custom.html). */
+@media (max-width: 47.9375em) {
+  .oai-hero {
+    background:
+      linear-gradient(135deg, rgba(15, 23, 42, 0.88) 0%, rgba(30, 58, 95, 0.62) 100%),
+      url("/assets/images/teasers/streaming-8-hero-800.webp") center / cover no-repeat;
+    background-color: #0f172a;
+  }
 }
 
 .oai-hero h1 {
@@ -481,6 +491,9 @@
   margin: 0;
   font-size: 0.85em;
   color: #cbd5e1;
+  /* Same as the banner; set here too so contrast checkers read the right
+     background for this fixed banner instead of the footer behind it. */
+  background-color: #0f172a;
   flex: 1 1 300px;
 }
 
@@ -524,7 +537,6 @@
   text-align: center;
   font-size: 0.75em;
   margin: -0.5em 0 1em;
-  opacity: 0.8;
 }
 
 .cookie-settings-link button {
@@ -626,7 +638,7 @@
 .last-updated {
   display: inline-block;
   font-size: 0.75em;
-  color: #64748b;
+  color: #475569; /* contrast 6.9:1 on the badge (was #64748b, 4.3:1) */
   background: #f1f5f9;
   padding: 0.2em 0.7em;
   border-radius: 999px;
@@ -1283,7 +1295,12 @@ html {
 .newsletter-inline__small {
   margin: 0.8em 0 0;
   font-size: 0.75em;
-  color: #64748b;
+  color: #475569; /* contrast 7.1:1 (was #64748b, 4.5:1) */
+}
+
+/* Links in the inline signup box: contrast 5.7:1 (theme blue was 4.4:1). */
+.newsletter-inline a {
+  color: #1e6b82;
 }
 
 /* ---------- Byline: facts checked ---------- */
@@ -1534,3 +1551,16 @@ html {
 .whatsapp-follow__qr img { background: #fff; padding: 0.4em; border-radius: 8px; }
 .whatsapp-follow__qr p { color: #cbd5e1; font-size: 0.85em; margin: 0.5em 0 0; }
 @media (min-width: 48em) { .whatsapp-follow__qr { display: block; } }
+
+/* ---------- Accessibility (PageSpeed, Oct 2026) ---------- */
+/* Links in the blue info box (affiliate disclosure): contrast 5.8:1 on the
+   box (theme blue was 2.9:1). */
+.notice--info a {
+  color: #1e5f74;
+}
+
+/* Sidebar name is now a <p> (see _includes/author-profile.html); keep it bold
+   like the old <h3>. */
+.author__name {
+  font-weight: bold;
+}
