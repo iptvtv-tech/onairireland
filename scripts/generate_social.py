@@ -30,7 +30,8 @@ def _call_claude(prompt: str, max_tokens: int = 600) -> str:
         },
         json={
             "model": MODEL,
-            "max_tokens": max_tokens,
+            # Room for any thinking the model does before it writes the copy.
+            "max_tokens": max(max_tokens, 2000),
             "messages": [{"role": "user", "content": prompt}],
         },
         timeout=120,
@@ -38,7 +39,14 @@ def _call_claude(prompt: str, max_tokens: int = 600) -> str:
     if not resp.ok:
         print(f"Anthropic API error (social) {resp.status_code}: {resp.text}")
         resp.raise_for_status()
-    return resp.json()["content"][0]["text"]
+    data = resp.json()
+    # The reply can hold several blocks (e.g. a thinking block before the
+    # text), so join every text block instead of assuming the first one.
+    text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+    if not text:
+        kinds = [b.get("type") for b in data.get("content", [])]
+        raise RuntimeError(f"no text in reply (stop_reason={data.get('stop_reason')}, blocks={kinds})")
+    return text
 
 
 def _parse_block(text: str, open_tag: str, close_tag: str) -> str:
