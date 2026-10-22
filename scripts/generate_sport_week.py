@@ -5,9 +5,10 @@ services for the next seven days (Friday to Thursday).
 Run by .github/workflows/weekly-sport-guide.yml every Thursday. It opens a pull
 request, so nothing goes live until you've checked it and merged.
 
-Uses Claude with web search so every listing comes from a current source
-(broadcaster schedules, GAA/IRFU/FAI fixture lists, RTÉ/Virgin Media/Sky/TNT
-listings). Needs the ANTHROPIC_API_KEY repo secret (already used by the daily
+Uses Claude with web search and web fetch. The main source is the Irish Times
+weekly TV guide (published Sundays, Monday to Sunday), which covers Friday to
+Sunday; the days after that come from broadcaster schedules, GAA/IRFU/FAI
+fixture lists and club announcements. Needs the ANTHROPIC_API_KEY repo secret (already used by the daily
 post workflow).
 
 Usage:
@@ -47,11 +48,47 @@ def week_range(argv):
     return start, start + dt.timedelta(days=6)
 
 
+IRISH_TIMES_GUIDE = ("https://www.irishtimes.com/sport/{d:%Y/%m/%d}/three-sporting-events-"
+                     "to-watch-this-week-your-handy-guide-to-sport-on-television/")
+
+
+def irish_times_guides(start):
+    """URLs of the Irish Times weekly TV guides that can cover this week.
+
+    The guide is published each Sunday and lists Monday to Sunday. The one
+    from the Sunday before `start` covers Friday to Sunday; the next one
+    (Monday onwards) usually isn't published yet when this runs on Thursday."""
+    sunday = start - dt.timedelta(days=(start.weekday() + 1) % 7)
+    return [IRISH_TIMES_GUIDE.format(d=sunday),
+            IRISH_TIMES_GUIDE.format(d=sunday + dt.timedelta(days=7))]
+
+
 def build_prompt(start, end):
+    guide_now, guide_next = irish_times_guides(start)
     return f"""You are compiling a weekly "Sport on TV" listing for an Irish website
-about LEGAL streaming. Research, with web search, the notable live sport that
-viewers in the Republic of Ireland can watch between {start:%A %d %B %Y} and
-{end:%A %d %B %Y} inclusive, and where to watch each one legally.
+about LEGAL streaming. Find the notable live sport that viewers in the Republic
+of Ireland can watch between {start:%A %d %B %Y} and {end:%A %d %B %Y}
+inclusive, and where to watch each one legally.
+
+MAIN SOURCE: the Irish Times weekly guide "Three sporting events to watch this
+week: Your handy guide to sport on television". It lists every day's live sport
+with Irish times and the channels Irish viewers get.
+1. First, use web_fetch on this week's guide: {guide_now}
+   Also try next week's guide, which may not be published yet: {guide_next}
+   If a URL fails, web_search for the guide's title on irishtimes.com and fetch
+   the right week's article.
+2. For every day the guide covers, take each event's date, time and channel
+   from the guide, and use the guide's URL as its "source". Only change a
+   detail if an official source fetched in this run (the broadcaster, the
+   governing body or the club) says otherwise.
+3. Pick the events Irish viewers care most about from the guide. Leave out
+   minor items (highlights shows, snooker sessions, US sports, lower-league
+   English football) unless the week is quiet.
+4. For days the guide doesn't cover (usually Monday onwards), research with web
+   search and web fetch: broadcaster schedules (RTÉ, Virgin Media Television,
+   TG4, Premier Sports, Sky Sports, TNT Sports), GAA/IRFU/FAI fixture lists,
+   club announcements for cup and European games. Midweek cup and European
+   matches are easy to miss, so check them.
 
 Cover, where there is anything on: GAA (football, hurling, camogie, ladies
 football, club championships), Ireland rugby internationals, URC games with
@@ -85,36 +122,55 @@ Return ONLY a JSON object between <json> and </json> tags, no commentary:
 
 
 def call_claude(prompt):
-    resp = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": "claude-sonnet-5",
-            "max_tokens": 16000,
-            "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 20}],
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=600,
-    )
-    if not resp.ok:
-        print(f"Anthropic API error {resp.status_code}: {resp.text}")
-    resp.raise_for_status()
-    data = resp.json()
- 
-    stop_reason = data.get("stop_reason")
-    if stop_reason == "max_tokens":
-        print(
-            "WARNING: response hit max_tokens before finishing -- the model "
-            "likely got cut off mid-research, before writing the final JSON. "
-            "If this keeps happening, raise max_tokens further or reduce "
-            "web_search max_uses."
+    """Run the research conversation (following pause_turn) and return all its text."""
+    tools = [
+        {"type": "web_search_20250305", "name": "web_search", "max_uses": 15},
+        {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": 10,
+         "max_content_tokens": 30000},
+    ]
+    messages = [{"role": "user", "content": prompt}]
+    text = []
+    for _ in range(5):
+        resp = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": os.environ["ANTHROPIC_API_KEY"],
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": "claude-sonnet-5",
+                "max_tokens": 16000,
+                "tools": tools,
+                "messages": messages,
+            },
+            timeout=600,
         )
- 
-    return "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+        if not resp.ok:
+            print(f"Anthropic API error {resp.status_code}: {resp.text}")
+        resp.raise_for_status()
+        data = resp.json()
+        content = data.get("content", [])
+        text += [b.get("text", "") for b in content if b.get("type") == "text"]
+        for b in content:
+            if b.get("type") == "web_fetch_tool_result":
+                url = ((b.get("content") or {}).get("url")) or "?"
+                print(f"Fetched: {url}")
+
+        stop_reason = data.get("stop_reason")
+        if stop_reason == "max_tokens":
+            print(
+                "WARNING: response hit max_tokens before finishing -- the model "
+                "likely got cut off mid-research, before writing the final JSON. "
+                "If this keeps happening, raise max_tokens further or reduce "
+                "web_search / web_fetch max_uses."
+            )
+        if stop_reason != "pause_turn":
+            break
+        # Long research turns pause; send the reply back so it can carry on.
+        messages.append({"role": "assistant", "content": content})
+
+    return "".join(text)
  
 
 def parse_events(raw, start, end):
