@@ -2,7 +2,7 @@
 title: Where to Watch Ireland's November Rugby Internationals
 excerpt: Every Ireland rugby international this November is free on Virgin Media Television. The fixtures, channels and how to stream them at home.
 description: Every Ireland rugby international this November is free on Virgin Media Television. The fixtures, channels and how to stream them at home.
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 categories:
 - Sports-Streaming
 tags:
@@ -39,7 +39,17 @@ Ireland's November 2026 internationals are part of World Rugby's new Nations Cha
 
 ## Ireland's November Fixtures
 
-Ireland play three home games at the Aviva Stadium in November, against Argentina, Fiji and South Africa, followed by a Finals Weekend match in London. Check IRFU.ie and Virgin Media Television's schedule for dates and kick-off times.
+Ireland play three home games at the Aviva Stadium in November, all live and free on Virgin Media Television and Virgin Media Play:
+
+| Date | Match | Kick-off (Irish time) |
+|---|---|---|
+| Friday 6 November | Ireland v Argentina | 8.10pm |
+| Saturday 14 November | Ireland v Fiji | 8.10pm |
+| Saturday 21 November | Ireland v South Africa | 4.40pm |
+
+Ireland then play once more on Finals Weekend at Allianz Stadium in London (27 to 29 November). Their opponent and kick-off depend on where they finish in the Northern Hemisphere table.
+
+Dates are from the [IRFU's fixture announcement](https://www.irishrugby.ie/2026/03/11/ireland-set-for-thrilling-nations-championship-fixtures-in-november/), and kick-off times are as [published in May](https://www.irishtimes.com/sport/rugby/2026/05/15/irelands-fixture-dates-and-times-for-nations-championship-revealed/). Check Virgin Media Television's schedule on the day in case a time changes.
 
 Virgin Media's deal covers the Nations Championship in 2026 and 2028, and the Summer and Autumn Nations Series in the years between, so every major Ireland international in the summer and autumn is free-to-air on Virgin Media Television until 2029.
 
