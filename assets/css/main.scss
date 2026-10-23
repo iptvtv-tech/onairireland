@@ -1564,3 +1564,35 @@ html {
 .author__name {
   font-weight: bold;
 }
+
+/* ---------- Product cards (PageSpeed, Oct 2026) ---------- */
+/* The highlighted-affiliate-link rule above (.initial-content a[rel*="sponsored"])
+   is more specific than .product-card__cta, so card buttons got blue text on a
+   blue background. Restore white text, drop the underline, and darken the
+   button so white text passes contrast (5.9:1; was 4.1:1). */
+.initial-content a.product-card__cta,
+a.product-card__cta {
+  background: #0369a1;
+  color: #fff !important;
+  border-bottom: 0;
+}
+
+.initial-content a.product-card__cta:hover,
+a.product-card__cta:hover {
+  background: var(--oai-accent);
+  color: #0f172a !important;
+}
+
+/* Badge: white on the warm orange was 2.3:1; a deeper orange gives 5.2:1. */
+.product-card__badge {
+  background: #c2410c;
+}
+
+/* Showcase disclosure under the cards: darker grey and link (7.2:1, 5.8:1). */
+.product-showcase__disclosure {
+  color: #475569;
+}
+
+.product-showcase__disclosure a {
+  color: #1e6b82;
+}
