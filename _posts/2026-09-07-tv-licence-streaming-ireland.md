@@ -2,8 +2,8 @@
 title: "Do You Need a TV Licence to Stream in Ireland?"
 excerpt: "The short answer: if you have any TV set, even a smart TV used only for apps, you need one. Phones, laptops and tablets on their own don't."
 description: "A clear explainer on Ireland's TV licence rules for streaming-only households, based on the Broadcasting Act 2009."
-last_updated: 2026-10-07
-last_checked: 2026-10-07
+last_updated: 2026-10-23
+last_checked: 2026-10-23
 categories:
   - Streaming-Services
 tags:
@@ -22,18 +22,16 @@ toc: true
 quick_facts:
   - Phones, laptops and tablets don't need a TV licence, but any TV set does, even a smart TV used only for streaming
   - A TV set counts even if no aerial or dish is connected
-  - Current fee is €160 a year, one licence per premises
+  - The fee is €160 a year, one licence per premises (checked with An Post and Citizens Information, 23 October 2026)
 faqs:
   - question: "Do I need a TV licence if I only use streaming apps like Netflix or RTÉ Player?"
     answer: "Only if you have no TV set. Watching on a phone, laptop or tablet doesn't need a licence, but any TV set does, including a smart TV used only for apps."
   - question: "What if my smart TV has an aerial socket but I don't use it?"
     answer: "You still need a licence. Citizens Information says a smart TV needs one even if you only use it for streaming, because it is capable of receiving TV signals."
-  - question: "How much is the TV licence fee in Ireland?"
-    answer: "€160 a year, correct at time of writing — always double-check the current figure directly with An Post, since fees can change."
   - question: "Does the licence apply per person or per household?"
     answer: "Per address, not per person. One licence covers a whole house, however many TVs are in it. Each separate flat or apartment needs its own licence."
   - question: "Who enforces the TV licence in Ireland?"
-    answer: "An Post currently administers TV licensing in Ireland — they're the authoritative source to confirm your specific situation."
+    answer: "An Post collects the TV licence fee. You can buy or renew a licence on its official site, tvlicence.ie, or at any post office."
 ---
 
 {% include quick-facts.html %}
@@ -51,15 +49,15 @@ Under Ireland's Broadcasting Act 2009, a **TV licence is required for any premis
 
 The licence applies **per address, not per person** — one licence covers a whole house, however many TVs are in it, while each separate flat or apartment needs its own. If you rent and there's a TV, you need a licence whether you or the landlord owns it.
 
-## The current fee
+## Where to buy or check a licence
 
-The annual TV licence fee is **€160** (correct at time of writing — always worth double-checking the current figure directly with An Post, who currently administer TV licensing in Ireland, since fees can change).
+An Post collects the fee. Buy or renew online at [tvlicence.ie](https://tvlicence.ie/), An Post's official TV licence site, or at any post office. [An Post's TV licence page](https://www.anpost.com/Government-Services/TV-Licence) has the current fee and the ways to pay.
 
 ## Why this trips people up
 
 Streaming apps like RTÉ Player don't ask you to prove you have a licence, and a smart TV *can* receive a broadcast signal if you plug an aerial into it — which is why it counts, whether or not you ever connect one. The practical takeaway: if there's a TV set in the home, smart or not, you need a licence. Only homes with no TV set, watching on phones, laptops and tablets, are exempt.
 
-If you're at all unsure about your specific setup, An Post's TV licence service and [Citizens Information](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/) are the authoritative sources to confirm — this guide is a starting point, not a legal ruling on your situation.
+If you're at all unsure about your specific setup, [An Post's TV licence page](https://www.anpost.com/Government-Services/TV-Licence) and [Citizens Information](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/) are the authoritative sources to confirm — this guide is a starting point, not a legal ruling on your situation.
 
 {% include faq-section.html %}
 
