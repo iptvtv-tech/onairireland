@@ -185,17 +185,64 @@ Write each section exactly as labelled:
 # Sport-guide social content
 # ---------------------------------------------------------------------------
 
+FREE_TO_AIR = re.compile(r"\b(RT[ÉE]|TG4|Virgin Media)\b", re.I)
+
+
+def _irish_time(hhmm: str) -> str:
+    """'20:10' -> '8.10pm', '15:00' -> '3pm', 'TBC' -> 'time TBC'."""
+    m = re.fullmatch(r"(\d{2}):(\d{2})", str(hhmm))
+    if not m:
+        return "time TBC"
+    h, mins = int(m.group(1)), m.group(2)
+    suffix = "am" if h < 12 else "pm"
+    h12 = h % 12 or 12
+    return f"{h12}{suffix}" if mins == "00" else f"{h12}.{mins}{suffix}"
+
+
+def _free_channels(watch: str) -> str:
+    """The free-to-air part of a 'watch' line, e.g. 'TG4 and Premier Sports 1' -> 'TG4'."""
+    parts = [p.strip() for p in re.split(r"\s*(?:/|,|\band\b|\bor\b)\s*", watch) if p.strip()]
+    free = [p for p in parts if FREE_TO_AIR.search(p)]
+    return " and ".join(free) if free else watch
+
+
+def build_matchday_alert(event: dict) -> dict:
+    """
+    Build the match-day alert for one event straight from the checked listing,
+    so the time and channel always match _data/sport_week.yml.
+
+    Returns dict with keys: matchday_msg, matchday_day (e.g. 'Saturday 31 Oct').
+    """
+    d = event["date"]
+    if isinstance(d, str):
+        import datetime as _dt
+        d = _dt.date.fromisoformat(d)
+    if event.get("free"):
+        access = f"✅ Free on {_free_channels(event['watch'])}"
+    else:
+        access = f"💶 Needs {event['watch']}"
+    msg = (
+        f"🔴 *TODAY: {event['event']}*\n"
+        f"⏰ {_irish_time(event['time'])} | 📺 {event['watch']}\n"
+        f"{access}\n\n"
+        f"This week's full list → onairireland.ie/sport-on-tv/"
+    )
+    return {"matchday_msg": msg, "matchday_day": f"{d:%A} {d.day} {d:%b}"}
+
+
 def generate_sport_social(week_label: str, events: list) -> dict:
     """
-    Generate X post and WhatsApp message for the weekly sport guide.
+    Generate X post, WhatsApp message and a match-day alert for the weekly
+    sport guide.
 
-    Returns dict with keys: x_post, whatsapp_msg.
+    Returns dict with keys: x_post, whatsapp_msg, matchday_msg, matchday_day.
     """
-    # Build a short listing for the prompt (top 10 events)
-    top = events[:10]
+    # Number every event: the model sees the whole week (not just the first
+    # few days) and picks the match-day game by number.
     lines = "\n".join(
-        f"- {e['event']} ({e['competition']}) — {e['watch']} — {e['date']} {e['time']}"
-        for e in top
+        f"{i}. {e['event']} ({e['competition']}) — {e['watch']}"
+        f"{' (free)' if e.get('free') else ''} — {e['date']} {e['time']}"
+        for i, e in enumerate(events, 1)
     )
 
     prompt = f"""You are writing social copy for On Air Ireland (onairireland.ie), an independent
@@ -220,7 +267,14 @@ Write:
    Then list the 5-7 biggest events, one per line:
      Event name — Channel — Date Time
    Final line: Full listings → onairireland.ie/sport-on-tv/
-   <whatsapp>...</whatsapp>"""
+   <whatsapp>...</whatsapp>
+
+3. MATCH-DAY PICK between <pick> and </pick>:
+   The number of the single game Irish viewers care most about this week
+   (an Ireland international first, then a big GAA, provincial rugby or
+   Premier League game). Prefer a free-to-air game when two are close.
+   Just the number.
+   <pick>...</pick>"""
 
     raw = _call_claude(prompt, 600)
 
@@ -232,5 +286,16 @@ Write:
     for key, val in result.items():
         if not val:
             print(f"WARNING: sport social generation returned empty {key}. Raw:\n{raw[:400]}")
+
+    # Match-day alert: the model only chooses the game; the text is built from
+    # the listing itself. Falls back to the first free game, then the first game.
+    pick = _parse_block(raw, "<pick>", "</pick>")
+    m = re.search(r"\d+", pick)
+    idx = int(m.group()) - 1 if m else -1
+    if not 0 <= idx < len(events):
+        print(f"WARNING: no usable match-day pick ({pick!r}); using a fallback.")
+        idx = next((i for i, e in enumerate(events) if e.get("free")), 0)
+    if events:
+        result.update(build_matchday_alert(events[idx]))
 
     return result

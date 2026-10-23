@@ -255,6 +255,8 @@ def main():
         social = generate_sport_social(week_label, events)
         write_multiline_output(gh_out, "x_post", social.get("x_post", ""))
         write_multiline_output(gh_out, "whatsapp_msg", social.get("whatsapp_msg", ""))
+        write_multiline_output(gh_out, "matchday_msg", social.get("matchday_msg", ""))
+        write_multiline_output(gh_out, "matchday_day", social.get("matchday_day", ""))
         print("Sport social content generated.")
     except Exception as exc:
         print(f"Sport social generation skipped: {exc}")
