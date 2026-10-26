@@ -3,12 +3,15 @@ name: Inject Seasonal Topics
 # Runs every Monday (and on demand from the Actions tab). Checks today's date
 # against _data/seasonal_topics.yml and, if any topic is in season, opens a PR
 # adding it to the front of _data/topic_queue.yml. Nothing reaches the queue
-# until that PR is merged. Merge it before the next Mon/Wed/Fri draft run if
-# you want the topic drafted next.
+# until that PR is merged. While it is open, the Mon/Wed/Fri draft run waits
+# (one automation PR at a time), so merge or close it promptly; the next draft
+# run then drafts the first topic.
 
 on:
   schedule:
-    - cron: "0 7 * * 1"
+    # Off the hour on purpose: GitHub queues scheduled runs and often starts
+    # them late (by hours lately), most of all at :00. Times are UTC.
+    - cron: "17 7 * * 1"
   workflow_dispatch: {}
 
 permissions:
@@ -51,7 +54,7 @@ jobs:
 
             ${{ steps.inject.outputs.added }}
 
-            Merging this PR changes the queue only; nothing is published. The next Mon/Wed/Fri run drafts the first topic as its own PR.
+            Merging this PR changes the queue only; nothing is published. The next Mon/Wed/Fri run drafts the first topic as its own PR. Draft runs wait while this PR is open, so merge or close it soon.
 
             Before merging:
             - [ ] Each brief still makes sense this year (edit it in this PR if not)

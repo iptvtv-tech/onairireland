@@ -5,7 +5,9 @@ name: Weekly Sport Guide
 # check the listings and merge.
 on:
   schedule:
-    - cron: "0 7 * * 4"
+    # Off the hour on purpose: GitHub queues scheduled runs and often starts
+    # them late (by hours lately), most of all at :00. Times are UTC.
+    - cron: "23 7 * * 4"
   workflow_dispatch:
     inputs:
       week_start:

@@ -57,6 +57,21 @@ def _parse_block(text: str, open_tag: str, close_tag: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+def _link_post(text: str, post_url: str) -> str:
+    """Make sure the copy ends with the post's own link. If the model fell back
+    to the bare domain on the last line, swap it for the post link; if no link
+    is there at all, add it on its own line."""
+    if not text or post_url in text:
+        return text
+    lines = text.rstrip().split("\n")
+    bare = re.compile(r"(?:https?://)?(?:www\.)?onairireland\.ie/?(?=\s*$)")
+    if bare.search(lines[-1]):
+        lines[-1] = bare.sub(post_url, lines[-1])
+    else:
+        lines.append(post_url)
+    return "\n".join(lines)
+
+
 def write_multiline_output(gh_out_path: str, key: str, value: str) -> None:
     """Write a (possibly multiline) value to GITHUB_OUTPUT using heredoc syntax."""
     if not gh_out_path or not value:
@@ -78,9 +93,11 @@ def generate_post_social(
     pillar: str = "",
     video_angle: str = None,
     want_whatsapp: bool = True,
+    post_url: str = "https://onairireland.ie/",
 ) -> dict:
     """
-    Generate social copy for a blog post.
+    Generate social copy for a blog post. post_url is the post's live address,
+    so the X and WhatsApp copy link straight to it, not the homepage.
 
     Returns a dict with:
       x_post        — tweet, under 280 chars (always)
@@ -102,7 +119,7 @@ def generate_post_social(
      💡 tips or how-to guides
      📱 device content
    Then 1-3 short factual lines.
-   Final line: Full guide → onairireland.ie
+   Final line: Full guide → """ + post_url + """
    No extra emojis beyond the first line.
    <whatsapp>...</whatsapp>"""
 
@@ -159,17 +176,18 @@ Blog post excerpt:
 Write each section exactly as labelled:
 
 1. X POST between <xpost> and </xpost>:
-   One tweet, under 280 characters total. Factual, no fluff, no hashtags.
-   Must end with: onairireland.ie
+   One tweet, under 280 characters total (X counts the link as 23 characters).
+   Factual, no fluff, no hashtags.
+   Must end with the post's link: {post_url}
    <xpost>...</xpost>{whatsapp_section}{youtube_section}"""
 
     raw = _call_claude(prompt, max_tokens)
 
     result = {
-        "x_post": _parse_block(raw, "<xpost>", "</xpost>"),
+        "x_post": _link_post(_parse_block(raw, "<xpost>", "</xpost>"), post_url),
     }
     if want_whatsapp:
-        result["whatsapp_msg"] = _parse_block(raw, "<whatsapp>", "</whatsapp>")
+        result["whatsapp_msg"] = _link_post(_parse_block(raw, "<whatsapp>", "</whatsapp>"), post_url)
     if video_angle:
         result["youtube_script"] = _parse_block(raw, "<youtube>", "</youtube>")
 

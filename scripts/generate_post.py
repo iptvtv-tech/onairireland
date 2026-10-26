@@ -527,11 +527,15 @@ def main():
         pillar = topic.get("pillar", "")
         # whatsapp: false suppresses WhatsApp copy for minor/niche posts
         want_whatsapp = topic.get("whatsapp", True)
+        # Live address, from permalink /:categories/:title/ in _config.yml
+        # (Jekyll lowercases the category; the slug comes from the filename).
+        post_url = f"https://onairireland.ie/{category_slug_name.lower()}/{slug}/"
         social = generate_post_social(
             title, category, brief, body,
             pillar=pillar,
             video_angle=video_angle,
             want_whatsapp=want_whatsapp,
+            post_url=post_url,
         )
 
         if not want_whatsapp:

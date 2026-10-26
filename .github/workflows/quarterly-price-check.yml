@@ -1,6 +1,6 @@
 name: Quarterly Price Check
 
-# Runs at 07:00 UTC on 1 Jan, 1 Apr, 1 Jul and 1 Oct (and on demand from the
+# Runs at 07:13 UTC on 1 Jan, 1 Apr, 1 Jul and 1 Oct (and on demand from the
 # Actions tab). Reads each provider's own website, confirms or updates
 # _data/prices.yml, and opens a PR. Nothing changes on the site until you
 # review and merge it. If no price can be confirmed, the run fails and GitHub
@@ -8,7 +8,9 @@ name: Quarterly Price Check
 
 on:
   schedule:
-    - cron: "0 7 1 1,4,7,10 *"
+    # Off the hour on purpose: GitHub queues scheduled runs and often starts
+    # them late (by hours lately), most of all at :00. Times are UTC.
+    - cron: "13 7 1 1,4,7,10 *"
   workflow_dispatch: {}
 
 permissions:

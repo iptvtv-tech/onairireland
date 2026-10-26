@@ -5,7 +5,9 @@ name: Propose Photos
 # photos you mark `approved` are ever used.
 on:
   schedule:
-    - cron: "0 9 1 * *"
+    # Off the hour on purpose: GitHub queues scheduled runs and often starts
+    # them late (by hours lately), most of all at :00. Times are UTC.
+    - cron: "43 9 1 * *"
   workflow_dispatch: {}
 
 permissions:
