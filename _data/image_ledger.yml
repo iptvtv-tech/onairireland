@@ -163,6 +163,22 @@ cards:
   created: '2026-10-23'
   used_in:
   - 2026-10-23-where-to-watch-horse-racing-legally-in-ireland.md
+- id: card-where-to-watch-severance-season-2-in-ireland
+  files:
+    hero: /assets/images/posts/where-to-watch-severance-season-2-in-ireland-hero.webp
+    teaser: /assets/images/posts/where-to-watch-severance-season-2-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-severance-season-2-in-ireland-og.jpg
+    hero_small: /assets/images/posts/where-to-watch-severance-season-2-in-ireland-hero-800.webp
+  fingerprint: trio|m|Watch-Guides|headphones,smart-tv,universal-remote
+  layout: trio-mirrored
+  palette: Watch-Guides
+  icons:
+  - smart-tv
+  - universal-remote
+  - headphones
+  created: '2026-10-26'
+  used_in:
+  - 2026-10-26-where-to-watch-severance-season-2-in-ireland.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
