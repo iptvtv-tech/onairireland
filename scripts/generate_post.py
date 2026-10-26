@@ -534,6 +534,9 @@ def main():
             want_whatsapp=want_whatsapp,
         )
 
+        if not want_whatsapp:
+            social["whatsapp_msg"] = "No WhatsApp post for this topic (whatsapp: false in the queue)."
+
         gh_out = os.environ.get("GITHUB_OUTPUT")
         write_multiline_output(gh_out, "x_post", social.get("x_post", ""))
         write_multiline_output(gh_out, "whatsapp_msg", social.get("whatsapp_msg", ""))
@@ -556,8 +559,15 @@ def main():
             print(f"YouTube script written to {yt_path}")
             set_output("youtube_script_path", yt_path)
 
-        set_output("has_social", "true")
-        print("Social content generated.")
+        # An empty box means the model's reply didn't contain that section, so
+        # flag it in the PR instead of showing a blank box as if all was well.
+        missing = [k for k in ("x_post", "whatsapp_msg") if not social.get(k)]
+        if missing:
+            print(f"Social generation incomplete: empty {', '.join(missing)}")
+            set_output("has_social", "false")
+        else:
+            set_output("has_social", "true")
+            print("Social content generated.")
     except Exception as exc:
         print(f"Social generation skipped: {exc}")
         set_output("has_social", "false")

@@ -17,15 +17,41 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # One draft at a time. Draft, photo and seasonal-topic PRs all edit
+      # _data/topic_queue.yml or _data/image_ledger.yml. A new draft opened
+      # while one of them is still waiting re-drafts the same topic (PRs #97
+      # and #98) or conflicts with it on merge, so skip this run instead.
+      - name: Wait for open automation PRs
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          open=$(gh pr list --state open --limit 100 --json number,headRefName,title \
+            --jq '.[] | select(.headRefName | test("^(auto-post/|auto-photos/|auto/seasonal-topics$)")) | "#\(.number) \(.title)"')
+          if [ -n "$open" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "### No draft this run"
+              echo "These PRs change the topic queue or image ledger and are still open."
+              echo "Merge or close them; the next Mon/Wed/Fri run (or Run workflow) then drafts the next topic."
+              echo
+              echo "$open"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::notice title=Draft skipped::Still open: $(echo "$open" | tr '\n' ' ')"
+          fi
+
       - name: Set up Python
+        if: steps.gate.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
+        if: steps.gate.outputs.skip != 'true'
         run: pip install requests pyyaml pillow
 
       - name: Generate draft post
+        if: steps.gate.outputs.skip != 'true'
         id: generate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -35,10 +61,11 @@ jobs:
       # PRs opened with GITHUB_TOKEN don't trigger other workflows, so the
       # front-matter check from check-pr.yml runs here too.
       - name: Check post front matter
+        if: steps.gate.outputs.skip != 'true'
         run: python scripts/check_posts.py
 
       - name: Open Pull Request
-        if: success()
+        if: success() && steps.gate.outputs.skip != 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
