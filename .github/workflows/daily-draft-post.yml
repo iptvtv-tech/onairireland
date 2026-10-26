@@ -61,13 +61,20 @@ jobs:
 
             ## 📣 Social drafts — copy, edit and schedule after merging
 
-            ${{ steps.generate.outputs.has_social == 'true' && '### X post' || '> ⚠️ Social generation failed — check the Actions log for this run.' }}
-            ${{ steps.generate.outputs.has_social == 'true' && format('```\n{0}\n```', steps.generate.outputs.x_post) || '' }}
+            ${{ steps.generate.outputs.has_social != 'true' && '> ⚠️ Social generation failed — check the Actions log for this run.' || '' }}
 
-            ${{ steps.generate.outputs.has_social == 'true' && '### WhatsApp' || '' }}
-            ${{ steps.generate.outputs.has_social == 'true' && format('```\n{0}\n```', steps.generate.outputs.whatsapp_msg) || '' }}
+            ### X post
+            ```
+            ${{ steps.generate.outputs.x_post }}
+            ```
 
-            ${{ steps.generate.outputs.youtube_script_path && format('### YouTube script\nSee `{0}` in this PR.', steps.generate.outputs.youtube_script_path) || '' }}
+            ### WhatsApp
+            ```
+            ${{ steps.generate.outputs.whatsapp_msg }}
+            ```
+
+            ${{ steps.generate.outputs.youtube_script_path && '### YouTube script' || '' }}
+            ${{ steps.generate.outputs.youtube_script_path && format('See `{0}` in this PR.', steps.generate.outputs.youtube_script_path) || '' }}
           labels: |
             auto-draft
             needs-review
