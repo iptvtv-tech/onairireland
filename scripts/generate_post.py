@@ -22,6 +22,7 @@ import requests
 import yaml
 
 import image_system  # scripts/image_system.py: approved photos first, brand card as fallback
+import site_facts  # scripts/site_facts.py: checked facts and prices for the prompt
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
@@ -176,6 +177,14 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
     scene_list = image_system.scene_list_for_prompt()
     category_scenes = ", ".join(image_system.CATEGORY_SCENES.get(category.replace(" ", "-"), [])) or "none"
 
+    # The writer has no web access, and its memory of Irish rights and prices is
+    # out of date or mixed up with the UK's (PR #118 said Premier Sports doesn't
+    # show the Premier League). So it gets the facts and prices the site has
+    # checked, and may only state those. A broken facts file raises here: no
+    # draft is better than one written from memory.
+    facts_text = site_facts.facts_for_prompt()
+    prices_text = site_facts.prices_for_prompt()
+
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
 unauthorized/unlicensed IPTV or streaming resale services.
@@ -194,6 +203,23 @@ experience"). Write as a researched guide, not a review diary.
 Recommend whatever genuinely suits the reader, even when no product link is
 available for it. Only link products that are directly relevant to this
 post's topic -- it is fine to include no product links at all.
+
+FACTS WE HAVE CHECKED for Ireland (they override anything you remember):
+
+{facts_text}
+
+PRICES WE HAVE CHECKED, in euro, from each provider's own Irish page:
+{prices_text}
+
+Rules for facts and prices:
+- When you say which service, channel or broadcaster shows a competition, or what
+  a membership, package or app includes, use ONLY the checked facts above.
+- If the post needs a fact that isn't above, don't rely on memory: say plainly
+  that readers should check with the provider, and name the provider.
+- Never say a service does NOT show or include something unless the checked
+  facts say so.
+- Only give a price that is in the checked prices above, and say prices can change.
+- Use only the facts that matter for this post's topic.
 
 Title: {title}
 Category: {category}
@@ -219,9 +245,9 @@ Requirements:
   A: answer text
   with nothing else on those lines, and nothing after the last answer.
 - 500-800 words for the article body (not counting the FAQ section).
-- Be factually cautious: where you are not certain of a current price or exact app menu
-  wording, say so explicitly rather than inventing specifics, since a human will fact-check
-  before publishing.
+- Be factually cautious: where you are not certain of an exact detail (a date, app menu
+  wording, a device feature), say so explicitly rather than inventing specifics. Every draft
+  gets an automatic fact check against the facts above and the providers' own pages.
 """
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -406,6 +432,7 @@ def main():
         save_queue(queue)
         print(f"Added {len(queue)} new topics to the queue for review.")
         set_output("post_title", "New topic ideas for review (edit or delete before merging)")
+        set_output("fact_check", "No article in this PR, so there's no fact check.")
         return
 
     queue = prioritise_queue(queue)
@@ -519,8 +546,9 @@ def main():
     # --- Social content generation ---
     # Runs after the post is written. Failure here is non-fatal: the post PR
     # still opens, just without social drafts in the body.
+    social = {}
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     try:
-        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         from generate_social import generate_post_social, write_multiline_output
 
         video_angle = topic.get("video_angle") if topic.get("video") else None
@@ -561,7 +589,9 @@ def main():
                 fh.write(yt_script)
                 fh.write("\n")
             print(f"YouTube script written to {yt_path}")
-            set_output("youtube_script_path", yt_path)
+            # Repo-relative, so the PR body names the file in the PR
+            # (not /home/runner/work/... on the Actions runner).
+            set_output("youtube_script_path", os.path.relpath(yt_path, REPO_ROOT))
 
         # An empty box means the model's reply didn't contain that section, so
         # flag it in the PR instead of showing a blank box as if all was well.
@@ -575,6 +605,24 @@ def main():
     except Exception as exc:
         print(f"Social generation skipped: {exc}")
         set_output("has_social", "false")
+
+    # --- Claims list for the PR ---
+    # Checks the article, its FAQ and the social drafts against the checked
+    # facts and the providers' own pages. Never blocks the PR: if it fails, the
+    # PR says so and the review falls back on checking everything by hand.
+    try:
+        from fact_check import check_post, write_fact_check_output
+
+        with open(filepath, encoding="utf-8") as fh:
+            post_text = fh.read()
+        result = check_post(post_text, social)
+        write_fact_check_output(os.environ.get("GITHUB_OUTPUT"), result)
+        print(result["summary"])
+    except Exception as exc:
+        print(f"Fact check skipped: {exc}")
+        reason = " ".join(str(exc).split())[:150]
+        set_output("fact_check", f"> ⚠️ **The fact check didn't run** ({reason}). "
+                                 "Check every service, price, date and channel by hand.")
 
 
 if __name__ == "__main__":

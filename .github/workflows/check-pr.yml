@@ -30,6 +30,9 @@ jobs:
       - name: Check prices data
         run: python scripts/check_prices_data.py
 
+      - name: Check site facts (sources and checked dates)
+        run: python scripts/check_site_facts.py
+
       - name: Check editorial scope (legal services only)
         run: python scripts/check_editorial_scope.py
 

@@ -161,6 +161,9 @@ Irish site about LEGAL streaming services and devices.
 Tone: practical, factual, plain Irish English. Not salesy. No exclamation marks.
 Never mention VPNs, unofficial IPTV or unlicensed streaming.
 Links only to onairireland.ie pages — never to external sites.
+Use only facts stated in the blog post below. Don't add services, channels,
+prices, dates or claims that aren't in it, and don't generalise about what
+"most fans" do or need.
 
 Blog post details
 Title: {title}
@@ -168,8 +171,8 @@ Category: {category}
 {pillar_line}
 Brief: {brief}
 
-Blog post excerpt:
-{post_body[:900]}
+Blog post:
+{post_body[:8000]}
 
 ---
 

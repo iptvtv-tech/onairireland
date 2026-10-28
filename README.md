@@ -62,6 +62,7 @@ Run these locally before opening or reviewing a publishing PR:
 ```bash
 python scripts/check_posts.py
 python scripts/check_prices_data.py
+python scripts/check_site_facts.py
 python scripts/check_products.py
 python scripts/check_affiliate_links.py
 python scripts/check_editorial_scope.py
@@ -74,6 +75,9 @@ python scripts/check_price_sources.py
 - `check_prices_data.py` validates price data structure and warns when a row
   has not been checked recently. It does **not** confirm prices against live
   provider pages; that remains an editorial fact-check.
+- `check_site_facts.py` validates `_data/site_facts.yml` (every entry needs
+  facts, https sources and a checked date) and warns when an entry hasn't been
+  confirmed for 100 days.
 - `check_products.py` enforces approved product categories, local product image
   paths, HTTPS affiliate URLs, unique IDs, and `show_prices: false`.
 - `check_affiliate_links.py` checks that Amazon affiliate links in Markdown/HTML
@@ -173,6 +177,18 @@ accuracy (prices, app steps, current availability), then merge to publish.
    queue is empty, the workflow opens a PR with AI-suggested topics instead
    of a post — edit or delete them before merging.
 4. To run it on demand instead of waiting for the daily schedule: **Actions tab → Daily Draft Post → Run workflow**
+
+**Checked facts and the fact check:** the writer has no web access, so it gets
+the facts in `_data/site_facts.yml` (who shows each competition in Ireland,
+what the NOW sport memberships include) and the prices in `_data/prices.yml`,
+and may only state those. After the draft and its social posts are written,
+`scripts/fact_check.py` lists every service, channel, price and date claim with
+a source, checking our facts first and then the providers' own pages (web
+search and fetch). The PR shows the list at the top, with ❌ wrong and
+⚠️ unconfirmed lines first. It never blocks a merge. To check any post by hand:
+`python scripts/fact_check.py _posts/<post>.md` (needs `ANTHROPIC_API_KEY`).
+When a deal changes or a guide is re-checked, update its entry and `checked`
+date in `_data/site_facts.yml`; it's part of the quarterly fact check.
 
 ## Local preview
 

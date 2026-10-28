@@ -78,13 +78,17 @@ jobs:
             Auto-generated draft. Merging this PR publishes it live.
             ${{ steps.generate.outputs.publish_by && format('> ⚠️ **Time-sensitive** — publish by {0}', steps.generate.outputs.publish_by) || '' }}
 
+            ${{ steps.generate.outputs.fact_check || '> ⚠️ **The fact check didn''t run** — see the Actions log for this run, and check every service, price, date and channel by hand.' }}
+
             Before merging, check:
-            - [ ] Every service, price, date and channel named is correct today (check the provider's own site)
+            - [ ] Every ❌ and ⚠️ line in the fact check is fixed, or confirmed on the provider's own site
+            - [ ] Every other service, price, date and channel named is still correct today
             - [ ] Watch guides name the actual service and date, not just "check your apps"
             - [ ] No claims of first-hand testing or experience
             - [ ] Product links are relevant to this post (delete any that aren't)
             - [ ] Title and description read naturally; description under 160 characters
             - [ ] Add 1-2 links to related posts on this site
+            - [ ] Click Approve and run, and wait for the check's green tick before merging
 
             ---
 
