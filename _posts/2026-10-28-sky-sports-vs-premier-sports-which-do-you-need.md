@@ -56,7 +56,9 @@ Premier Sports has two channels, Premier Sports 1 and 2. For Irish viewers, the 
 - **Champions League:** first pick of Tuesday night games, until 2031. RTÉ has first pick of Wednesday games, free.
 - **Champions Cup rugby:** all 63 matches this season, under a deal that runs to the end of 2026/27. There's no free TV coverage.
 - **URC:** every Leinster, Munster, Ulster and Connacht game. TG4 also shows at least 26 URC games a season free, in Irish.
-- **Other rugby and football:** French Top 14 and Challenge Cup games, and Spanish LaLiga games such as Barcelona v Real Madrid.
+- **Scottish football:** 22 Scottish Premiership games a season, plus the Scottish Cup and the Scottish League Cup, which are both exclusive to Premier Sports in Ireland.
+- **LaLiga:** over 340 live games a season, such as Barcelona v Real Madrid.
+- **Other rugby:** French Top 14 and Challenge Cup games.
 
 ## How to Get Each One
 
@@ -74,6 +76,7 @@ If you'd rather have a TV package, Sky, Virgin Media and Vodafone carry Sky Spor
 
 - **Every live Premier League game:** you need both, plus TNT Sports, which has a smaller package of games. NOW's Sports Extra includes TNT Sports and Premier Sports together.
 - **Formula 1, golf or darts:** Sky Sports.
+- **Scottish football or LaLiga:** Premier Sports.
 - **Champions Cup or URC rugby:** Premier Sports. The Six Nations is free on RTÉ and Virgin Media, and Ireland's November Tests are free on Virgin Media.
 - **Champions League:** Premier Sports for Tuesday's first pick. Wednesday's first pick is free on RTÉ, and Virgin Media shows most of the other games free until the end of the 2026/27 season.
 
