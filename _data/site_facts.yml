@@ -1,5 +1,5 @@
-# Facts On Air Ireland has checked against Irish primary sources: who shows
-# each competition in Ireland, and what the NOW sport memberships include.
+# Facts On Air Ireland has checked: who shows each competition in Ireland, and
+# what the NOW sport memberships include.
 #
 # Used by:
 #   scripts/generate_post.py  The Mon/Wed/Fri draft writer may only say who
@@ -13,20 +13,29 @@
 #   topic    - what it covers
 #   facts    - one plain sentence each, true for Ireland
 #   guide    - our page that covers it (optional)
-#   source   - the primary page(s) it was checked against
-#   checked  - date WE last confirmed the entry (YYYY-MM-DD)
+#   source   - the page(s) it was checked against: the provider's, league's or
+#              governing body's own page where possible
+#   checked  - date WE last confirmed the whole entry (YYYY-MM-DD)
+#
+# A fact marked "# from our guide" isn't stated on the listed sources: it comes
+# from the topic's guide, as last checked on the entry's date. Find a primary
+# source for those at the next quarterly fact check.
 #
 # When a deal changes or a guide is re-checked, update the entry here too.
 # Part of the quarterly fact check.
 
 - topic: Premier League
   facts:
-    - Sky Sports, TNT Sports and Premier Sports share the live Premier League rights in Ireland from 2025/26 to 2030/31.
+    - Sky Sports, TNT Sports and Premier Sports have the live Premier League rights in Ireland for six seasons, 2025/26 to 2030/31.
+    # from our guide
     - Sky Sports shows most of the live games, and TNT Sports has a smaller package.
-    - Premier Sports has an exclusive live game every Saturday in every round, which is only shown in Ireland. Coverage starts at 2:30pm on Premier Sports 1.
+    - Premier Sports has an exclusive live game every Saturday in every round, with coverage from 2:30pm on Premier Sports 1.
+    # from our guide
+    - That Saturday game is only shown in Ireland.
     - Virgin Media Television, the free-to-air channels, has no live Premier League rights in Ireland.
   guide: /sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/
   source:
+    - https://www.premierleague.com/en/news/3703577
     - https://premiersportsireland.com/uk-football
   checked: 2026-10-07
 
@@ -48,31 +57,36 @@
 
 - topic: Champions League
   facts:
-    - Until the end of 2026/27, RTÉ has first pick of Wednesday games free on RTÉ2 and RTÉ Player, and Virgin Media Television shows most of the other games free on Virgin Media Two and Virgin Media Play.
+    - Until the end of 2026/27, Virgin Media Television shows most Champions League games free, with live games on Tuesday and Wednesday nights.
+    # from our guide
+    - Until the end of 2026/27, RTÉ has first pick of Wednesday games, free on RTÉ2 and RTÉ Player.
     - Premier Sports has first pick of Tuesday games, and keeps it until 2031.
     - From 2027/28 to 2031, RTÉ has first pick of Wednesday games free, plus the final, Wednesday highlights and the UEFA Super Cup.
     - From 2027/28, Sky Sports shows the remaining Champions League games, plus the Europa League and Conference League.
   guide: /sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/
   source:
+    - https://www.sportcal.com/media/virgin-media-retains-ucl-rights-in-ireland-through-2026-27/
     - https://about.rte.ie/2026/05/01/rte-secures-uefa-champions-league-rights-from-2027-2031/
     - https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/
   checked: 2026-10-07
 
 - topic: Champions Cup rugby
   facts:
-    - Premier Sports shows all 63 matches of the 2026-27 Investec Champions Cup in Ireland, under a deal that runs to the end of the 2026/27 season.
+    - Premier Sports shows all 63 Investec Champions Cup matches in Ireland, under a three-year deal that runs to the end of the 2026/27 season.
+    # from our guide
     - There's no free TV coverage of the Champions Cup in Ireland. RTÉ Radio 1 has commentary of selected games.
     - Premier Sports also shows selected EPCR Challenge Cup games.
   guide: /sports-streaming/where-to-watch-the-champions-cup-rugby-in-ireland/
   source:
+    - https://www.advanced-television.com/2025/07/15/premier-sports-to-show-every-investec-champions-cup-fixture/
     - https://premiersportsireland.com/rugby
   checked: 2026-10-21
 
 - topic: URC rugby
   facts:
-    - TG4 is the URC's exclusive free-to-air broadcaster in Ireland, showing at least 26 games a season in Irish on TG4 and TG4 Player, until 2029.
+    - TG4 is the URC's exclusive free-to-air broadcaster in Ireland, showing at least 26 games a season in Irish, until 2029.
     - Premier Sports shows every Leinster, Munster, Ulster and Connacht game live, all play-off games and every final, until 2029.
-    - Premier Sports is available in Ireland through Sky, Virgin Media, Vodafone and NOW's Sports Extra membership.
+    - Premier Sports is available in Ireland through Sky, Virgin Media, Vodafone and NOW, as part of a Sports Extra pack.
   guide: /sports-streaming/where-to-watch-the-united-rugby-championship-legally-in-ireland/
   source:
     - https://www.irishrugby.ie/2025/04/17/tg4-become-exclusive-free-to-air-broadcaster-of-bkt-united-rugby-championship-in-ireland
@@ -91,7 +105,7 @@
 - topic: Ireland's November rugby internationals (Nations Championship)
   facts:
     - Virgin Media Television is the exclusive free-to-air broadcaster in Ireland of the Nations Championship in 2026 and 2028, including all of Ireland's November games.
-    - Ireland's November 2026 games are against Argentina (Fri 6 Nov), Fiji (Sat 14 Nov) and South Africa (Sat 21 Nov), all at the Aviva Stadium.
+    - In November 2026 Ireland play Argentina (Fri 6 Nov), Fiji (Sat 14 Nov) and South Africa (Sat 21 Nov) at the Aviva Stadium, then Finals Weekend at the Allianz Stadium in London (27 to 29 November), where the opponent depends on the table.
   guide: /sports-streaming/where-to-watch-irelands-november-rugby-internationals/
   source:
     - https://www.virginmedia.ie/about-us/press/2026/virgin-media-televisions-home-for-the-nations-championship/
@@ -108,18 +122,20 @@
 
 - topic: Golf
   facts:
-    - Sky Sports shows most live golf in Ireland, with some free coverage on RTÉ.
-    - Sky Sports has exclusive live coverage of the Ryder Cup in Ireland, including the 2027 Ryder Cup at Adare Manor (17 to 19 September 2027), and of the DP World Tour, until 2029.
-    - RTÉ has the TV highlights rights for the 2027 Ryder Cup.
+    - Sky Sports shows all four men's majors and all five women's majors live in Ireland and the UK.
+    - Sky Sports has exclusive live coverage of the Ryder Cup in Ireland, including the 2027 Ryder Cup at Adare Manor, until at least the end of 2029. RTÉ has the TV highlights of the 2027 Ryder Cup.
+    - Sky Sports shows the DP World Tour live until 2029, but RTÉ has live coverage of the Irish Open.
   guide: /sports-streaming/how-to-watch-the-ryder-cup-legally-in-ireland/
   source:
     - https://www.skysports.com/golf/news/12176/13469780/sky-sports-to-remain-home-of-ryder-cup-and-dp-world-tour-until-2029-under-new-rights-extension
     - https://www.irishexaminer.com/sport/golf/arid-41908933.html
-  checked: 2026-10-15
+  checked: 2026-10-28
 
 - topic: Darts
   facts:
-    - Sky Sports shows the PDC World Darts Championship, the Premier League, the World Matchplay, the Grand Slam, the World Grand Prix and the World Cup of Darts, under a deal until 2030.
+    - Sky Sports is the home of PDC darts until 2030, including the PDC World Darts Championship, the Premier League, the World Matchplay, the Grand Slam, the World Grand Prix and the World Cup of Darts.
+    # from our guide
+    - Sky Sports shows the PDC World Darts Championship in Ireland.
   guide: /sports-streaming/where-to-watch-the-world-darts-championship-in-ireland/
   source:
     - https://www.svgeurope.org/blog/headlines/sky-extends-partnership-with-the-pdc-to-remain-the-home-of-darts-until-2030/
@@ -129,14 +145,17 @@
   facts:
     - GAA games in Ireland are on RTÉ and TG4, free, and on GAA+, the GAA's own paid streaming service.
     - In 2026 RTÉ showed 35 live championship games, including the All-Ireland semi-finals in football, hurling and camogie, and it showed the All-Ireland finals live.
-    - TG4 and TG4 Player show Allianz League games, the minor and U20 championships and the Ladies football championships, plus highlights.
     - GAA+ had 40 exclusive games in 2026. The 2026 season pass was €95 for Irish users, or €15 a game.
-    - The 2027 GAA+ price and RTÉ's 2027 games aren't announced yet.
+    - TG4 showed over 45 live Allianz League games in 2026, on TG4 and TG4 Player, and a weekly GAA highlights programme.
+    - TG4 shows every senior Ladies football championship game in the All-Ireland series, under a deal until 2032.
+    - The 2027 GAA+ price and RTÉ's 2027 games weren't announced when this was checked.
   guide: /gaa/
   source:
     - https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte
     - https://www.gaa.ie/article/gaa-launches-2026-season-pass
-  checked: 2026-10-07
+    - https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-unveils-extensive-allianz-leagues-coverage/
+    - https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/
+  checked: 2026-10-28
 
 - topic: MotoGP
   facts:
@@ -151,7 +170,6 @@
     - NOW's Sports membership streams all 12 Sky Sports channels and every Sky Sports+ stream, with no contract.
     - NOW's Sports Extra membership streams Premier Sports 1 and 2 and TNT Sports 1 to 4, with no contract.
     - Both have a 24-hour day pass, and NOW's Sports Saver bundle includes both on a 12-month minimum term.
-    - Sky, Virgin Media and Vodafone TV packages also carry Sky Sports, Premier Sports and TNT Sports.
   guide: /now-and-sky/
   source:
     - https://www.nowtv.com/ie/membership/sports/watch-sky-sports
