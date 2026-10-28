@@ -17,14 +17,16 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-- question: Can I get Sky Sports without a full Sky TV package?
-  answer: Yes, Sky Sports is also available as a standalone streaming subscription through NOW, though exact packages and pricing should be checked on NOW's official site.
-- question: Does Premier Sports show Premier League football?
-  answer: No, Premier Sports focuses on competitions like the Scottish Premiership, rugby, and select boxing rather than English Premier League football.
-- question: Can I watch Sky Sports and Premier Sports on the same TV?
-  answer: Yes, provided your TV or streaming device supports both apps, which can usually be confirmed on each service's official device compatibility page.
-- question: What should I do if an app says content isn't available in my region?
-  answer: Check that your account address and app store region are correctly set to Ireland, and contact the broadcaster's support team if the issue continues.
+- question: "Do Sky Sports and Premier Sports both show the Premier League?"
+  answer: "Yes. Sky Sports shows most live Premier League games in Ireland, and Premier Sports has an exclusive Saturday 3pm game every round, which is only shown in Ireland. TNT Sports has a smaller package of games."
+- question: "Can I get Sky Sports without a full Sky TV package?"
+  answer: "Yes. NOW's Sports membership streams the Sky Sports channels with no contract, and there's a €14.99 day pass. Check NOW's Irish site for current prices."
+- question: "Can I watch Sky Sports and Premier Sports on the same TV?"
+  answer: "Yes. On NOW, both stream in the same NOW app: Sky Sports with the Sports membership and Premier Sports with Sports Extra. Sky, Virgin Media and Vodafone also carry both channels on their TV packages."
+- question: "Which one shows the Champions Cup and the URC?"
+  answer: "Premier Sports. It shows every Champions Cup match this season and every Irish province's URC game. TG4 shows at least 26 URC games a season free, in Irish."
+- question: "What should I do if an app says content isn't available in my region?"
+  answer: "Check that your account address and app store region are correctly set to Ireland, and contact the broadcaster's support team if the issue continues."
 ---
 
 {% include last-updated.html %}
@@ -33,39 +35,59 @@ faqs:
 
 {% include share-buttons.html %}
 
-If you want the widest range of top-tier football, GAA highlights shows, and multi-sport coverage, Sky Sports is the broader package, while Premier Sports is the leaner, cheaper option built around specific competitions like the Scottish Premiership, rugby, and some boxing. Many Irish sports fans end up weighing both rather than picking just one, since they rarely overlap completely.
+Sky Sports and Premier Sports overlap in one big way: both show live Premier League football in Ireland. Sky Sports has most of the games, and Premier Sports has an exclusive Saturday 3pm match every round. Outside the Premier League, they split neatly. Sky Sports is the home of Formula 1, most big golf and the PDC World Darts Championship. Premier Sports is the channel for Irish provincial rugby in the Champions Cup and the URC, and it has first pick of Tuesday night Champions League games.
 
-## What Sky Sports Actually Covers
+## What Sky Sports Covers
 
-Sky Sports is less a single channel and more a collection of them, typically split across Premier League, Football, Golf, Cricket, Racing, Action, and Arena (naming may vary slightly depending on your package and region, so it's worth checking the current channel list on Sky's own website before subscribing).
+Sky Sports is 12 channels plus extra Sky Sports+ streams. For Irish viewers, the main draws are:
 
-For Irish viewers, the headline draw is usually live Premier League football, along with golf majors, cricket tours, darts, and a steady stream of Formula 1 coverage shared across its sports tier. If you already have Sky Glass, Sky Stream, or a Sky Q box, adding Sky Sports is generally a case of upgrading your existing subscription through the Sky app or account portal rather than installing anything new.
+- **Premier League:** most of the live games, under a deal that runs to 2030/31.
+- **Formula 1:** every live session, exclusively, until 2034.
+- **Golf:** most of the big events, including the 2027 Ryder Cup at Adare Manor live (RTÉ has the highlights).
+- **Darts:** the PDC World Darts Championship, which Sky Sports has shown for many years.
 
-Pricing for Sky Sports changes fairly often and varies depending on whether you're bundling it with Sky TV, Sky Stream, or taking it as a standalone NOW subscription. Because of that, it's best to check Sky's or NOW's current pricing pages directly rather than relying on a figure that may be out of date by the time you read this.
+From the 2027/28 season, Sky Sports also gets the Champions League games that RTÉ and Premier Sports don't pick, plus the Europa League and Conference League.
 
 ## What Premier Sports Covers
 
-Premier Sports has built its identity around rights that Sky and other broadcasters don't hold. That typically includes Scottish Premiership football, Top 14 and United Rugby Championship fixtures, some MotoGP coverage, and selected boxing cards. It also carries other competitions from time to time, so checking the current schedule before subscribing is sensible if there's a specific fixture you're chasing.
+Premier Sports has two channels, Premier Sports 1 and 2. For Irish viewers, the main draws are:
 
-Premier Sports is generally available as a standalone streaming subscription through its own app, as well as via some third-party TV platforms. Because availability by device can change, it's worth confirming that your smart TV, streaming stick, or set-top box is listed as supported on Premier Sports' official site before paying for a subscription.
+- **Premier League:** an exclusive Saturday 3pm game every round, which is only shown in Ireland.
+- **Champions League:** first pick of Tuesday night games, until 2031. RTÉ has first pick of Wednesday games, free.
+- **Champions Cup rugby:** all 63 matches this season, under a deal that runs to the end of 2026/27. There's no free TV coverage.
+- **URC:** every Leinster, Munster, Ulster and Connacht game. TG4 also shows at least 26 URC games a season free, in Irish.
+- **Other rugby and football:** French Top 14 and Challenge Cup games, and Spanish LaLiga games such as Barcelona v Real Madrid.
 
-## Price and Value Comparison
+## How to Get Each One
 
-On value alone, Premier Sports tends to be the cheaper monthly outlay, but that's largely because its content library is narrower. Sky Sports costs more but spreads that cost across a much wider range of fixtures and sports.
+If you don't want a contract, NOW streams both:
 
-The right choice really depends on what you watch regularly. A rugby-focused household following the URC might get excellent value from Premier Sports alone. A Premier League-obsessed household, on the other hand, will likely find Sky Sports unavoidable no matter what else they add on top.
+- **Sky Sports** is in NOW's Sports membership: €38.99 a month, or €14.99 for a day pass.
+- **Premier Sports** is in NOW's Sports Extra membership, along with TNT Sports 1 to 4: €33.99 a month, or €14.99 for a day pass.
+- **Both together** are €27 a month on NOW's Sports Saver bundle, which has a 12-month minimum term.
 
-Some fans do subscribe to both for a season, particularly around autumn and winter when rugby, football, and racing calendars overlap heavily. If you're doing this, it's worth reviewing your subscriptions every few months rather than letting both renew indefinitely out of habit.
+These are the prices on NOW's Irish site on 28 October 2026. NOW often has limited-time offers below the monthly prices, so check its own pages before you sign up. Our [streaming prices tracker](/streaming-prices/) shows when each price was last checked.
+
+If you'd rather have a TV package, Sky, Virgin Media and Vodafone carry Sky Sports, Premier Sports and TNT Sports, so the cost depends on the package you're on. See our [NOW and Sky guides](/now-and-sky/) for more.
+
+## Which One Do You Need?
+
+- **Every live Premier League game:** you need both, plus TNT Sports, which has a smaller package of games. NOW's Sports Extra includes TNT Sports and Premier Sports together.
+- **Formula 1, golf or darts:** Sky Sports.
+- **Champions Cup or URC rugby:** Premier Sports. The Six Nations is free on RTÉ and Virgin Media, and Ireland's November Tests are free on Virgin Media.
+- **Champions League:** Premier Sports for Tuesday's first pick. Wednesday's first pick is free on RTÉ, and Virgin Media shows most of the other games free until the end of the 2026/27 season.
+
+If you only follow one or two of these, pick the service that carries them. If you follow several, compare the cost of both memberships with the Sports Saver bundle, and review your subscriptions every few months so you're not paying for one you've stopped using.
 
 ## Making Sure Your Setup Can Handle Both
 
-If you're planning to run both services, perhaps through a mix of a smart TV app, a streaming stick, and a set-top box, it helps to have your hardware sorted rather than juggling inputs mid-match. A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} can let you connect multiple streaming devices to a single HDMI port on an older TV without constantly swapping cables, which is handy if your sports setup has grown over the years.
+If you're planning to run both services, perhaps through a mix of a smart TV app, a streaming stick and a set-top box, it helps to have your hardware sorted rather than juggling inputs mid-match. A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} can let you connect multiple streaming devices to a single HDMI port on an older TV without constantly swapping cables, which is handy if your sports setup has grown over the years.
 
-It's also worth remembering that none of this replaces your free-to-air channels. If your household still relies on standard Irish and UK terrestrial coverage for some sport and general viewing, a reliable {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} ensures that side of your setup stays solid, separate from whatever streaming subscriptions you're paying for.
+Free-to-air TV still matters for sport too: RTÉ, Virgin Media and TG4 all show big games free on Saorview. If your household relies on those channels, a reliable {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} keeps that side of your setup solid, separate from whatever subscriptions you pay for.
 
 ## Checking Regional Availability Properly
 
-Occasionally viewers run into messages saying content isn't available in their region. In almost every legitimate case, this comes down to account settings rather than anything sinister. Make sure your Sky or Premier Sports account address and billing details reflect that you're in Ireland, and that you've downloaded the app from the correct regional app store listing for your device. If a mismatch persists, contacting the broadcaster's support team directly is the quickest way to get it corrected, since they can see account-level details you can't adjust yourself.
+If an app says content isn't available in your region, it usually comes down to account settings. Make sure your Sky, NOW or TV provider account address and billing details show that you're in Ireland, and that you've downloaded the app from the correct regional app store listing for your device. If a mismatch persists, contacting the provider's support team directly is the quickest way to get it corrected, since they can see account-level details you can't adjust yourself.
 
 {% include product-showcase.html category="Sports Streaming" %}
 
@@ -75,6 +97,10 @@ Occasionally viewers run into messages saying content isn't available in their r
 
 ### Related
 
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
+- [Where to watch the Premier League in Ireland](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/)
+- [Where to watch the Champions League in Ireland](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/)
+- [Where to watch the Champions Cup in Ireland](/sports-streaming/where-to-watch-the-champions-cup-rugby-in-ireland/)
+- [Rugby on TV in Ireland](/rugby/)
+- [Full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/)
 
 {% include whatsapp-cta.html %}

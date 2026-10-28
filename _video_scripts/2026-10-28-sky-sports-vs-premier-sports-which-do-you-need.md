@@ -1,6 +1,6 @@
 # YouTube Script: Sky Sports vs Premier Sports: Which Do You Need?
 
-_Generated 2026-10-28. Edit before recording._
+_Generated 2026-10-28, corrected the same day to match the article. Edit before recording._
 
 **Pillar:** Service Guide  
 **Angle:** Head-to-head comparison: sport-by-sport breakdown of what each service carries in Ireland, who each suits and which (if either) you can drop.
@@ -8,27 +8,25 @@ _Generated 2026-10-28. Edit before recording._
 ---
 
 [Hook]
-If you're an Irish sports fan trying to decide between Sky Sports and Premier Sports, you've probably noticed neither one covers everything you want.
+Sky Sports or Premier Sports? If you watch the Premier League in Ireland, the answer might be both.
 
 [Intro]
-In this video, we're going sport by sport through what Sky Sports and Premier Sports actually carry here in Ireland. We'll look at football, rugby, golf, cricket, boxing, and a few other bits. By the end, you'll know which service fits your viewing habits, and whether you genuinely need both or can get away with just one.
+In this video, we're going through what Sky Sports and Premier Sports actually show here in Ireland: football, rugby, Formula 1, golf and darts. By the end, you'll know which one fits what you watch, and how to get it without a contract.
 
 [Section: What Sky Sports Covers]
-Sky Sports isn't really one channel. It's a group of them. Think Premier League, Football, Golf, Cricket, Racing, Action, and Arena. The names can shift slightly depending on your package, so it's worth checking the current line-up before you sign up for anything.
-
-For most Irish viewers, the big draw is live Premier League football. Beyond that, you're getting golf majors, cricket tours, darts, and regular Formula 1 coverage. It's the wider net.
+Sky Sports is 12 channels, plus Sky Sports+. It has most of the live Premier League games. It's the only place to watch Formula 1 live, and that runs until 2034. It has most of the big golf, including the 2027 Ryder Cup at Adare Manor. And it has the PDC World Darts Championship.
 
 [Section: What Premier Sports Covers]
-Premier Sports is built differently. It's a smaller, more focused service. The headline content is usually the Scottish Premiership, a solid chunk of rugby, and some boxing events. It's not trying to cover everything. It's picking specific competitions and sticking to them.
+Premier Sports has two channels. It has an exclusive Saturday 3pm Premier League game every round, and that game is only shown in Ireland. It has first pick of Tuesday night Champions League games. And it's the home of provincial rugby: every Champions Cup match this season, and every Leinster, Munster, Ulster and Connacht game in the URC.
 
 [Section: Where They Overlap and Where They Don't]
-Here's the thing most people miss. These two services barely overlap. Sky is strong where Premier Sports is thin, and vice versa. So if you're a Premier League fan who also follows Scottish football or rugby, you might find yourself needing both rather than picking a side.
+The overlap is the Premier League. Sky has most of the games, Premier Sports has the Saturday 3pm match, and TNT Sports has a smaller package too. So if you want every live game, you need all three. Outside football, they barely overlap: F1, golf and darts are on Sky, and the provinces' rugby is on Premier Sports.
 
-[Section: Who Each Service Actually Suits]
-If your viewing is mostly Premier League, golf, cricket, or F1, Sky Sports covers that ground on its own. If you're after Scottish Premiership football, rugby fixtures, or specific boxing cards, Premier Sports does that job for less money.
+[Section: How to Get Them]
+If you don't want a contract, NOW is the simplest way. The Sports membership has Sky Sports. Sports Extra has Premier Sports and TNT Sports. You can also get all of them through Sky, Virgin Media or Vodafone TV packages. Prices change, so check the guide linked below for today's figures.
 
 [Verdict / recommendation]
-So which do you need? If you only follow one or two sports, work out which service actually shows them and go with that one. If your interests span both football leagues and rugby, you're likely better off checking pricing for both rather than assuming one will cover it all. Check the current channel lists before committing, since coverage can shift season to season.
+So which do you need? Formula 1, golf or darts: Sky Sports. Champions Cup or URC rugby: Premier Sports. Every Premier League game: both, plus TNT Sports. And don't forget what's free: the Six Nations on RTÉ and Virgin Media, Ireland's November Tests on Virgin Media, and Wednesday's first-pick Champions League game on RTÉ.
 
 [Sign-off]
 For more on legal streaming in Ireland, see onairireland.ie — link in the description.
