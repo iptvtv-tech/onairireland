@@ -17,12 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: 'Sky Sports vs Premier Sports: Which Do You Need?'
-  category: Sports Streaming
-  brief: Compare the sports coverage offered by each service to help Irish fans choose the right subscription.
-  pillar: Service Guide
-  video: true
-  video_angle: 'Head-to-head comparison: sport-by-sport breakdown of what each service carries in Ireland, who each suits and which (if either) you can drop.'
 - title: Best Streaming Setup for Small Irish Apartments
   category: Devices
   brief: Recommend compact, budget-friendly streaming devices and subscriptions suited to smaller living spaces.
