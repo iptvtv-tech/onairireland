@@ -179,6 +179,22 @@ cards:
   created: '2026-10-26'
   used_in:
   - 2026-10-26-where-to-watch-severance-season-2-in-ireland.md
+- id: card-sky-sports-vs-premier-sports-which-do-you-need
+  files:
+    hero: /assets/images/posts/sky-sports-vs-premier-sports-which-do-you-need-hero.webp
+    teaser: /assets/images/posts/sky-sports-vs-premier-sports-which-do-you-need-teaser.webp
+    og: /assets/images/posts/sky-sports-vs-premier-sports-which-do-you-need-og.jpg
+    hero_small: /assets/images/posts/sky-sports-vs-premier-sports-which-do-you-need-hero-800.webp
+  fingerprint: wide|m|Sports-Streaming|projector,satellite-receiver,soundbar
+  layout: wide-mirrored
+  palette: Sports-Streaming
+  icons:
+  - satellite-receiver
+  - soundbar
+  - projector
+  created: '2026-10-28'
+  used_in:
+  - 2026-10-28-sky-sports-vs-premier-sports-which-do-you-need.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
