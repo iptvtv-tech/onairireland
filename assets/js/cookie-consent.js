@@ -25,6 +25,19 @@ document.addEventListener("DOMContentLoaded", function () {
   function loadGoatCounter() {
     if (document.querySelector("script[data-oai-goatcounter]")) return;
 
+    // GoatCounter records a page under its canonical link. The 404 page's
+    // canonical is /404.html, so every broken address was counted as
+    // /404.html and the real address was lost. On the 404 page, record the
+    // address that was actually requested as /404/<path> instead, so broken
+    // links show up in the Pages list with their referrer.
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical && /\/404\.html$/.test(canonical.href)) {
+      window.goatcounter = window.goatcounter || {};
+      window.goatcounter.path = function () {
+        return "/404" + window.location.pathname + window.location.search;
+      };
+    }
+
     var script = document.createElement("script");
     script.async = true;
     script.src = "https://gc.zgo.at/count.js";
