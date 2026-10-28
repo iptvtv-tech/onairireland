@@ -47,8 +47,20 @@ document.addEventListener("DOMContentLoaded", function () {
     window.gtag = function () {
       window.dataLayer.push(arguments);
     };
+    // The site runs no ads, so Google's advertising storage stays off: accepting
+    // analytics sets only the _ga cookies, not the _gcl_au ad cookie.
+    window.gtag("consent", "default", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "granted"
+    });
     window.gtag("js", new Date());
-    window.gtag("config", gaId, { anonymize_ip: true });
+    window.gtag("config", gaId, {
+      anonymize_ip: true,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
   }
 
   function loadAnalytics() {
@@ -74,13 +86,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Remove Google Analytics cookies (_ga, _ga_<id>) when consent is withdrawn.
+  // Remove Google cookies (_ga, _ga_<id>, and any _gcl_ ad cookie set before
+  // ad storage was turned off) when consent is withdrawn.
   function clearAnalyticsCookies() {
     var host = window.location.hostname;
     var domains = ["", host, "." + host.replace(/^www\./, "")];
     document.cookie.split(";").forEach(function (cookie) {
       var name = cookie.split("=")[0].trim();
-      if (!/^_ga(_|$)/.test(name)) return;
+      if (!/^(_ga(_|$)|_gcl_)/.test(name)) return;
       domains.forEach(function (domain) {
         document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/" +
           (domain ? "; domain=" + domain : "");
