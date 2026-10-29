@@ -76,7 +76,7 @@ If you'd rather have a TV package, Sky, Virgin Media and Vodafone carry Sky Spor
 
 - **Every live Premier League game:** you need both, plus TNT Sports, which has a smaller package of games. NOW's Sports Extra includes TNT Sports and Premier Sports together.
 - **Formula 1, golf or darts:** Sky Sports.
-- **Scottish football or LaLiga:** Premier Sports.
+- **Scottish football or LaLiga:** mostly Premier Sports, though Sky Sports also shows some Scottish Premiership games and Disney+ has LaLiga's Saturday evening kick-offs.
 - **Champions Cup or URC rugby:** Premier Sports. The Six Nations is free on RTÉ and Virgin Media, and Ireland's November Tests are free on Virgin Media.
 - **Champions League:** Premier Sports for Tuesday's first pick. Wednesday's first pick is free on RTÉ, and Virgin Media shows most of the other games free until the end of the 2026/27 season.
 
