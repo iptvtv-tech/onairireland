@@ -4,7 +4,7 @@ permalink: /how-we-make-money/
 layout: single
 description: "How On Air Ireland is funded: Amazon affiliate links, what we never take money for, and how we choose the products and services we cover."
 excerpt: "How On Air Ireland is funded, and what we never take money for."
-last_updated: 2026-10-15
+last_updated: 2026-10-29
 seo:
   type: WebPage
 header:
@@ -20,6 +20,8 @@ On Air Ireland is free to read. This page explains how the site pays for itself,
 ## Affiliate links
 
 Our only income today is the **Amazon Associates Programme**. When a guide links to a product on Amazon and you buy through that link, we may earn a small commission. You pay the same price either way. As an Amazon Associate we earn from qualifying purchases.
+
+We've also applied to join the Awin and Tradedoubler affiliate networks, so we can link to Irish retailers and TV and streaming providers as well as Amazon. We'll name any partner on this page once it's active. Our Tradedoubler site ID is 3503842.
 
 Posts that contain affiliate links say so at the top, and product cards carry a short disclosure line. Affiliate links are marked so search engines know they are paid links.
 
