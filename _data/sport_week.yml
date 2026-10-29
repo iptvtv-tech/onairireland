@@ -2,191 +2,167 @@
 # Written every Thursday by scripts/generate_sport_week.py (GitHub Action
 # "Weekly Sport Guide"), which opens a pull request for you to check.
 # Leave events empty to show the "coming soon" message.
-week_start: 2026-10-23
-week_end: 2026-10-29
-generated: 2026-10-22
+week_start: 2026-10-30
+week_end: 2026-11-05
+generated: 2026-10-29
 events:
-- date: 2026-10-23
+- date: 2026-10-30
+  time: 02:00
+  sport: Rugby
+  event: Ireland v USA
+  competition: Rugby League Wheelchair World Cup
+  watch: Premier Sports 1
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-30
+  time: '19:45'
+  sport: Football
+  event: Dundalk v Shamrock Rovers
+  competition: League of Ireland Premier Division
+  watch: Virgin Media Two
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-30
   time: '19:45'
   sport: Rugby
-  event: Connacht v Zebre Parma
+  event: Connacht v Leinster
   competition: United Rugby Championship
   watch: TG4 and Premier Sports 1
   free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-23
-  time: '20:00'
-  sport: Football
-  event: Shamrock Rovers v Sligo Rovers
-  competition: League of Ireland Premier Division
-  watch: LOITV
-  free: false
-  source: https://www.live-footballontv.com/live-irish-football-on-tv.html
-- date: 2026-10-23
-  time: '20:00'
-  sport: Football
-  event: Ipswich Town v Nottingham Forest
-  competition: Premier League
-  watch: Sky Sports Main Event (via Sky/NOW)
-  free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
   time: '12:30'
   sport: Football
-  event: Aston Villa v Manchester City
+  event: Chelsea v Manchester United
   competition: Premier League
-  watch: TNT Sports 1 (via Sky, NOW, Virgin Media)
+  watch: TNT Sports 1
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '12:45'
-  sport: Rugby
-  event: Bulls v Ulster
-  competition: United Rugby Championship
-  watch: Premier Sports 2
-  free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
   time: '12:45'
   sport: Racing
-  event: Cheltenham, Doncaster and Newbury
-  competition: Saturday racing
+  event: Wetherby, Ascot & Down Royal
+  competition: National Hunt racing
   watch: UTV and Virgin Media One
   free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '14:00'
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
+  time: '13:00'
   sport: Rugby
-  event: South Africa v Ireland
-  competition: Women's Test
+  event: South Africa v Ireland (Women)
+  competition: Women's Rugby International
   watch: TG4 YouTube and RugbyPass
   free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
   time: '15:00'
   sport: Football
-  event: Arsenal v Everton
+  event: Manchester City v Brighton
   competition: Premier League
   watch: Premier Sports 1
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '16:00'
-  sport: GAA
-  event: Ireland v Scotland (women's)
-  competition: Shinty-Camogie International
-  watch: TG4 YouTube
-  free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '16:35'
-  sport: Football
-  event: Galway United v Shelbourne
-  competition: League of Ireland Women's Premier Division
-  watch: TG4 and TG4 Player
-  free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
   time: '17:30'
-  sport: Football
-  event: Chelsea v Tottenham Hotspur
-  competition: Premier League
-  watch: Sky Sports Main Event (via Sky/NOW)
-  free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '18:00'
   sport: Rugby
-  event: Leinster v Munster
+  event: Munster v Sharks
   competition: United Rugby Championship
   watch: Premier Sports 1
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '18:00'
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
+  time: '18:15'
   sport: GAA
-  event: Ireland v Scotland (men's)
-  competition: Hurling-Shinty International
-  watch: TG4 YouTube
-  free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-24
-  time: '19:15'
-  sport: GAA
-  event: Cuala v Kilmacud Crokes
-  competition: Dublin Senior Hurling Championship Final
+  event: Clonduff v Edendork
+  competition: Ulster Club Senior Football Championship
   watch: RTÉ 2
   free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: 08:00
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-10-31
+  time: '20:00'
+  sport: Racing
+  event: Breeders' Cup (Kentucky)
+  competition: Breeders' Cup
+  watch: ITV4 and Virgin Media Two
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
+  time: '13:00'
+  sport: Football
+  event: Falkirk v Celtic
+  competition: Scottish Premiership
+  watch: Sky Sports Football
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
+  time: '13:15'
+  sport: GAA
+  event: Glen Rovers v Inagh Kilnamona
+  competition: Munster Senior Club Hurling Championship
+  watch: TG4
+  free: true
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
+  time: '13:30'
   sport: Athletics
-  event: Dublin Marathon
-  competition: Dublin Marathon
-  watch: TG4 and TG4 Player
-  free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: '13:45'
+  event: New York City Marathon
+  competition: World Marathon Major
+  watch: TNT Sports 2
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
+  time: '15:00'
   sport: GAA
-  event: Ballyhale Shamrocks v Tullaroan
-  competition: Kilkenny Senior Hurling Championship Final
+  event: Tommy Larkins v Loughrea
+  competition: Galway Senior Hurling Championship Final
   watch: TG4
   free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: '14:00'
-  sport: Football
-  event: Liverpool v Brighton & Hove Albion
-  competition: Premier League
-  watch: Sky Sports Premier League (via Sky/NOW)
-  free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: '14:00'
-  sport: Football
-  event: Manchester United v AFC Bournemouth
-  competition: Premier League
-  watch: Sky Sports Main Event (via Sky/NOW)
-  free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: '15:45'
-  sport: GAA
-  event: Kilmallock v Na Piarsaigh
-  competition: Limerick Senior Hurling Championship Final
-  watch: TG4
-  free: true
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
   time: '16:30'
   sport: Football
-  event: Sunderland v Leeds United
+  event: Liverpool v Arsenal
   competition: Premier League
-  watch: Sky Sports Premier League (via Sky/NOW)
+  watch: Sky Sports Premier League
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: '18:30'
-  sport: Motorsport
-  event: United States Grand Prix (coverage from 18:30)
-  competition: Formula 1
-  watch: Sky Sports F1 (via Sky/NOW)
-  free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-25
-  time: '20:30'
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
+  time: '18:00'
   sport: Football
-  event: Barcelona v Real Madrid
-  competition: La Liga
+  event: Boca Juniors v River Plate
+  competition: Argentine Primera División (Superclásico)
   watch: Premier Sports 1
   free: false
-  source: https://www.irishtimes.com/sport/2026/10/18/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-10-28
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-01
+  time: '18:30'
+  sport: Motorsport
+  event: Mexico City Grand Prix
+  competition: Formula 1
+  watch: Sky Sports F1
+  free: false
+  source: https://www.irishtimes.com/sport/2026/10/25/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-03
   time: '20:00'
   sport: Football
-  event: Liverpool v Chelsea
-  competition: Carabao Cup, fourth round
-  watch: Sky Sports (via Sky/NOW)
+  event: Manchester United v Roma
+  competition: UEFA Champions League (Matchday 4)
+  watch: Premier Sports 1
   free: false
-  source: https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-fixture-details-confirmed
+  source: https://premiersportsireland.com/
+- date: 2026-11-04
+  time: '17:45'
+  sport: Football
+  event: Fenerbahçe v Liverpool
+  competition: UEFA Champions League (Matchday 4)
+  watch: RTÉ 2 and RTÉ Player
+  free: true
+  source: https://www.rte.ie/sport/results/soccer/champions-league/47760/fixtures/
+- date: 2026-11-05
+  time: '20:00'
+  sport: Football
+  event: Celtic v Beşiktaş
+  competition: UEFA Europa League (Matchday 4)
+  watch: Premier Sports
+  free: false
+  source: https://www.livesoccertv.com/competitions/international/uefa-europa-league/watch/ireland-republic/
