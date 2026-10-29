@@ -7,3 +7,7 @@ Each file is created by the [Daily Draft Post](.github/workflows/daily-draft-pos
 **Jekyll ignores this directory** (starts with `_`) so nothing here is published to the site.
 
 File naming: `YYYY-MM-DD-post-slug.md` — matches the corresponding post in `_posts/`.
+
+`YYYY-MM-DD-post-slug.short.yml` — the YouTube Short for the same post: scenes, voiceover and the
+YouTube title, description and tags. The [YouTube Short](../.github/workflows/youtube-short.yml)
+workflow renders the MP4 when one of these lands on main. Format: `scripts/video/short_spec.py`.

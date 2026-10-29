@@ -68,6 +68,7 @@ python scripts/check_affiliate_links.py
 python scripts/check_editorial_scope.py
 python scripts/check_price_news_links.py
 python scripts/check_price_sources.py
+python scripts/check_shorts.py
 ```
 
 - `check_posts.py` validates post front matter, required image metadata,
@@ -89,6 +90,9 @@ python scripts/check_price_sources.py
 - `check_price_sources.py` guards the price table against unapproved domains; the
   allowlist does not replace checking that each current rate is actually stated at
   the source URL.
+- `check_shorts.py` checks the YouTube Short specs (`_video_scripts/*.short.yml`):
+  the shape the renderer needs, YouTube's title, description and tag limits, the
+  article link in the description, and excluded-topic wording.
 - `.github/workflows/check-pr.yml` runs the repository's automated checks and a
   full GitHub Pages build on every pull request. The draft workflow checks posts
   before it opens its PR.
@@ -189,6 +193,23 @@ search and fetch). The PR shows the list at the top, with ❌ wrong and
 `python scripts/fact_check.py _posts/<post>.md` (needs `ANTHROPIC_API_KEY`).
 When a deal changes or a guide is re-checked, update its entry and `checked`
 date in `_data/site_facts.yml`; it's part of the quarterly fact check.
+
+**YouTube Shorts:** for topics with `video: true`, the draft PR also gets
+`_video_scripts/<date>-<slug>.short.yml` (written by `scripts/generate_short.py`):
+the scenes and voiceover of a 40–55 second vertical Short, and its YouTube
+title, description and tags. Review it with the article; the claims list checks
+its words too. When it reaches main (on merge, or after a later correction),
+`.github/workflows/youtube-short.yml` renders the MP4 with
+`scripts/video/render_short.py` (computer voice, word-by-word captions, the
+channel's look and end card) and comments on the merged PR with a link to a zip
+holding the MP4 and `<slug>.youtube.md` (paste-ready title, description, tags
+and settings). Nothing is uploaded to YouTube. To re-render: **Actions → YouTube
+Short → Run workflow** with the spec's path. To render locally: run
+`bash scripts/video/fetch_assets.sh` once (about 350 MB of voice files), then
+`python scripts/video/render_short.py <spec> --out video-out` (needs ffmpeg,
+the Inter fonts, and `pip install onnxruntime numpy pillow pyyaml`). If the run
+log or PR comment lists words that were spelled out letter by letter, add them
+to `FIXED` in `scripts/video/tts.py`.
 
 ## Local preview
 

@@ -8,3 +8,6 @@ _site/
 Gemfile.lock
 .bundle/
 vendor/
+
+# Rendered YouTube Shorts (scripts/video/render_short.py)
+video-out/

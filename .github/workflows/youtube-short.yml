@@ -1,0 +1,120 @@
+name: YouTube Short
+
+# Renders the vertical YouTube Short for a post once its spec
+# (_video_scripts/<date>-<slug>.short.yml) is on main, i.e. after the draft PR
+# is reviewed and merged, or after the spec is corrected later.
+# Output: the MP4 and <slug>.youtube.md (title, description, tags, settings)
+# as a download on the run, the upload text in the run summary, and a comment
+# on the merged PR linking to both. Nothing is uploaded to YouTube.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_video_scripts/*.short.yml"
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Spec to render, e.g. _video_scripts/2026-10-28-sky-sports-vs-premier-sports-which-do-you-need.short.yml"
+        required: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find specs to render
+        id: specs
+        env:
+          INPUT_SPEC: ${{ github.event.inputs.spec }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -n "$INPUT_SPEC" ]; then
+            files="$INPUT_SPEC"
+          elif [ -n "$BEFORE" ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            files=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" -- '_video_scripts/*.short.yml')
+          else
+            files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- '_video_scripts/*.short.yml')
+          fi
+          files=$(for f in $files; do [ -f "$f" ] && echo "$f"; done)
+          if [ -z "$files" ]; then
+            echo "No spec to render." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "files=$(echo $files)" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        if: steps.specs.outputs.files != ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install tools
+        if: steps.specs.outputs.files != ''
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-inter espeak-ng
+          pip install onnxruntime numpy pillow pyyaml
+
+      - name: Cache the voice files
+        if: steps.specs.outputs.files != ''
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/onair-video
+          key: onair-video-kokoro-v1.0-cmu-7479086
+
+      - name: Download the voice files
+        if: steps.specs.outputs.files != ''
+        run: bash scripts/video/fetch_assets.sh
+
+      - name: Render
+        if: steps.specs.outputs.files != ''
+        run: python scripts/video/render_short.py ${{ steps.specs.outputs.files }} --out video-out 2>&1 | tee render.log
+
+      - name: Upload the video
+        if: steps.specs.outputs.files != ''
+        id: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: youtube-short-${{ github.run_number }}
+          path: video-out/
+          retention-days: 30
+
+      - name: Summary and PR comment
+        if: steps.specs.outputs.files != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            echo "## 🎬 YouTube Short ready"
+            echo
+            echo "Download the MP4 and the upload text: [youtube-short-${{ github.run_number }}]($ARTIFACT_URL) (a zip, kept 30 days)."
+            if grep -q "Spelled out" render.log; then
+              echo
+              echo "> ⚠️ $(grep 'Spelled out' render.log). Listen to those words before uploading."
+            fi
+            for f in video-out/*.youtube.md; do
+              echo
+              echo "---"
+              echo
+              cat "$f"
+            done
+          } > comment.md
+          cat comment.md >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            pr=$(gh api "repos/${{ github.repository }}/commits/$GITHUB_SHA/pulls" --jq '.[0].number // empty')
+            if [ -n "$pr" ]; then
+              gh pr comment "$pr" --body-file comment.md
+            else
+              echo "No PR found for $GITHUB_SHA; the video is on the run: $RUN_URL"
+            fi
+          fi

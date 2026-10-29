@@ -593,6 +593,23 @@ def main():
             # (not /home/runner/work/... on the Actions runner).
             set_output("youtube_script_path", os.path.relpath(yt_path, REPO_ROOT))
 
+            # The YouTube Short: scenes, voiceover and upload text, reviewed in
+            # this PR. After merge, youtube-short.yml renders the MP4 from it.
+            try:
+                from generate_short import generate_short_spec, short_text_for_fact_check, write_spec
+
+                spec = generate_short_spec(title, body, yt_script, post_url,
+                                           os.path.relpath(filepath, REPO_ROOT))
+                short_path = os.path.join(scripts_dir, f"{today}-{slug}.short.yml")
+                write_spec(spec, short_path, today)
+                set_output("short_path", os.path.relpath(short_path, REPO_ROOT))
+                # The claims list checks the Short's words too.
+                social["youtube_script"] = yt_script + "\n\n" + short_text_for_fact_check(spec)
+                print(f"YouTube Short spec written to {short_path}")
+            except Exception as exc:
+                print(f"YouTube Short spec skipped: {exc}")
+                set_output("short_failed", " ".join(str(exc).split())[:200])
+
         # An empty box means the model's reply didn't contain that section, so
         # flag it in the PR instead of showing a blank box as if all was well.
         missing = [k for k in ("x_post", "whatsapp_msg") if not social.get(k)]

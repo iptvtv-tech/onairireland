@@ -108,6 +108,10 @@ jobs:
 
             ${{ steps.generate.outputs.youtube_script_path && '### YouTube script' || '' }}
             ${{ steps.generate.outputs.youtube_script_path && format('See `{0}` in this PR.', steps.generate.outputs.youtube_script_path) || '' }}
+
+            ${{ steps.generate.outputs.short_path && '### 🎬 YouTube Short' || '' }}
+            ${{ steps.generate.outputs.short_path && format('The Short''s scenes, voiceover, title, description and tags are in `{0}`. Check them against the article (the claims list above covers them too). After merging, the **YouTube Short** workflow renders the video and comments here with a link to download the MP4 and the ready-to-paste upload text.', steps.generate.outputs.short_path) || '' }}
+            ${{ steps.generate.outputs.short_failed && format('> ⚠️ The YouTube Short wasn''t written ({0}). After merging, run `python scripts/generate_short.py <post>` or ask Claude.', steps.generate.outputs.short_failed) || '' }}
           labels: |
             auto-draft
             needs-review

@@ -1,0 +1,76 @@
+# YouTube Short for _posts/2026-10-28-sky-sports-vs-premier-sports-which-do-you-need.md
+# Rendered by scripts/video/render_short.py (the YouTube Short workflow runs it when this file
+# changes on main). Every fact here comes from the corrected article (ca389d7, 35f9647).
+# Scenes: kicker (small green label), head (big text), optional sub, pills, badge; vo is spoken.
+# Captions show the vo as written; the voice reads names like RTÉ and TNT letter by letter.
+
+post: _posts/2026-10-28-sky-sports-vs-premier-sports-which-do-you-need.md
+post_url: https://onairireland.ie/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/
+
+scenes:
+  - kicker: HEAD TO HEAD
+    head: Sky Sports or Premier Sports?
+    vo: Sky Sports or Premier Sports? If you follow the Premier League in Ireland, you might need both.
+  - kicker: SKY SPORTS
+    head: Sky Sports
+    pills: [Most Premier League games, Formula 1, Golf, PDC darts]
+    vo: Sky Sports has most of the live Premier League, Formula 1 exclusively, most of the big golf, and PDC darts.
+  - kicker: PREMIER SPORTS
+    head: Premier Sports
+    pills: [Saturday 3pm Premier League, Tuesday Champions League, Champions Cup & URC, LaLiga, Scottish football]
+    vo: Premier Sports has an exclusive Saturday 3pm Premier League game, first pick on Tuesday Champions League nights, the provinces in the Champions Cup and URC, LaLiga and Scottish football.
+  - kicker: THE OVERLAP
+    head: Every Premier League game?
+    sub: You need both, plus TNT Sports
+    vo: Want every live Premier League game? You need both, plus TNT Sports.
+  - kicker: NO CONTRACT
+    head: Both on NOW
+    pills: [Sports · Sky Sports, Sports Extra · Premier Sports & TNT]
+    vo: No contract? NOW's Sports membership has Sky Sports, and Sports Extra has Premier Sports and TNT Sports.
+  - kicker: DON'T FORGET
+    head: Free on TV
+    pills: [Six Nations · RTÉ & Virgin Media, November Tests · Virgin Media]
+    vo: And the Six Nations is free on RTÉ and Virgin Media, with Ireland's November Tests free on Virgin Media.
+
+end_vo: Prices and the full guide are at onairireland.ie.
+
+youtube:
+  title: "Sky Sports vs Premier Sports in Ireland — Which Do You Need?"
+  description: |
+    Sky Sports or Premier Sports? Both show the Premier League in Ireland, but outside football they split neatly.
+
+    📺 Sky Sports — most live Premier League games, every Formula 1 session exclusively until 2034, most of the big golf (including the 2027 Ryder Cup at Adare Manor) and PDC darts.
+
+    📺 Premier Sports — an exclusive Saturday 3pm Premier League game every round, first pick of Tuesday Champions League games, all 63 Champions Cup matches this season, every province's URC games, over 340 LaLiga games a season and Scottish football.
+
+    Want every live Premier League game? You need both, plus TNT Sports.
+
+    💶 No contract, on NOW:
+    • Sports (Sky Sports) — €38.99 a month
+    • Sports Extra (Premier Sports and TNT Sports) — €33.99 a month
+    • Day passes €14.99 · both together €27 a month on the 12-month Sports Saver
+
+    🆓 Free: the Six Nations on RTÉ and Virgin Media, and Ireland's November Tests on Virgin Media.
+
+    ⚽ Full comparison: https://onairireland.ie/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/
+    💶 Every Irish streaming price: https://onairireland.ie/streaming-prices/
+
+    NOW prices as shown on NOW's Irish site on 28 October 2026. NOW often runs offers below these, so check before you sign up.
+
+    📲 Get alerts when Irish streaming prices change — free WhatsApp channel:
+    https://whatsapp.com/channel/0029VbDvKAaEawdv3YeHxu2E
+
+    📘 Free PDF guides: https://onairireland.ie/free-guides/
+    Only legal services available in Ireland.
+  tags:
+    - sky sports vs premier sports
+    - premier sports ireland
+    - sky sports ireland
+    - premier league ireland
+    - champions cup ireland
+    - urc ireland
+    - now sports ireland
+    - now sports extra
+    - watch sport ireland
+    - on air ireland
+    - ireland streaming 2026

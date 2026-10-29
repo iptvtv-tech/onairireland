@@ -48,6 +48,9 @@ jobs:
       - name: Check affiliate links are marked and disclosed
         run: python scripts/check_affiliate_links.py
 
+      - name: Check YouTube Short specs
+        run: python scripts/check_shorts.py
+
       - name: Build site exactly like GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:
