@@ -17,10 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: Best Streaming Setup for Small Irish Apartments
-  category: Devices
-  brief: Recommend compact, budget-friendly streaming devices and subscriptions suited to smaller living spaces.
-  pillar: Device Setup
 - title: 'RTÉ Player vs BBC iPlayer: What Can You Actually Access in Ireland?'
   category: Streaming Services
   brief: Clarify what Irish viewers can legally watch on each platform and why some BBC content is restricted.

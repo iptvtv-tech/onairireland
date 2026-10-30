@@ -195,6 +195,22 @@ cards:
   created: '2026-10-28'
   used_in:
   - 2026-10-28-sky-sports-vs-premier-sports-which-do-you-need.md
+- id: card-best-streaming-setup-for-small-irish-apartments
+  files:
+    hero: /assets/images/posts/best-streaming-setup-for-small-irish-apartments-hero.webp
+    teaser: /assets/images/posts/best-streaming-setup-for-small-irish-apartments-teaser.webp
+    og: /assets/images/posts/best-streaming-setup-for-small-irish-apartments-og.jpg
+    hero_small: /assets/images/posts/best-streaming-setup-for-small-irish-apartments-hero-800.webp
+  fingerprint: duo|s|Devices|guidebook,smart-tv,streaming-stick
+  layout: duo
+  palette: Devices
+  icons:
+  - guidebook
+  - streaming-stick
+  - smart-tv
+  created: '2026-10-30'
+  used_in:
+  - 2026-10-30-best-streaming-setup-for-small-irish-apartments.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
