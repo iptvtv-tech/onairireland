@@ -1137,3 +1137,411 @@ photos:
   people: false
   pexels_url: https://www.pexels.com/photo/6954359/
   added: '2026-10-20'
+- id: 3990542
+  scene: viewing-room
+  status: pending
+  description: Sunlit living room in Kotdwar, India featuring modern wall-mounted TV and wooden furniture.
+  people: false
+  pexels_url: https://www.pexels.com/photo/black-flat-screen-tv-turned-on-near-green-plastic-armchair-3990542/
+  photographer: Sammy Singh
+  added: '2026-11-01'
+- id: 7166934
+  scene: viewing-room
+  status: pending
+  description: Sleek and stylish living room design with TV and wooden textures.
+  people: false
+  pexels_url: https://www.pexels.com/photo/hotel-room-with-tv-7166934/
+  photographer: Max Vakhtbovych
+  added: '2026-11-01'
+- id: 11295836
+  scene: viewing-room
+  status: pending
+  description: A contemporary living room featuring a sleek TV setup, comfortable sofa, and elegant decor, perfect for relaxing at home.
+  people: false
+  pexels_url: https://www.pexels.com/photo/photo-of-a-living-room-11295836/
+  photographer: Vidal Balielo Jr.
+  added: '2026-11-01'
+- id: 7512038
+  scene: viewing-room
+  status: pending
+  description: Interior of contemporary spacious living room with beige walls light curtains TV set and sofa with pillows
+  people: false
+  pexels_url: https://www.pexels.com/photo/modern-spacious-living-room-with-tv-and-sofa-7512038/
+  photographer: Max Vakhtbovych
+  added: '2026-11-01'
+- id: 11295832
+  scene: viewing-room
+  status: pending
+  description: Bright and cozy minimalist living room with light decor and elegant furniture, featuring a wall-mounted TV and lush plants.
+  people: false
+  pexels_url: https://www.pexels.com/photo/beige-couch-in-the-living-room-11295832/
+  photographer: Vidal Balielo Jr.
+  added: '2026-11-01'
+- id: 5353886
+  scene: viewing-room
+  status: pending
+  description: Spacious modern living room with dark wood flooring and a mounted TV, highlighting minimalist design.
+  people: false
+  pexels_url: https://www.pexels.com/photo/empty-room-in-luxurious-house-5353886/
+  photographer: Curtis Adams
+  added: '2026-11-01'
+- id: 7155738
+  scene: watching-together
+  status: pending
+  description: Bearded man in casual wear relaxing on a sofa, enjoying coffee while watching TV indoors.
+  people: true
+  pexels_url: https://www.pexels.com/photo/man-sitting-on-couch-holding-a-remote-control-7155738/
+  photographer: Gustavo Fring
+  added: '2026-11-01'
+- id: 6579065
+  scene: watching-together
+  status: pending
+  description: Concentrated young African American female owner with curly hair in casual clothes cuddling adorable dog while resting on sofa and watching TV
+  people: false
+  pexels_url: https://www.pexels.com/photo/young-ethnic-woman-watching-tv-while-resting-on-couch-with-dog-6579065/
+  photographer: Andres  Ayrton
+  added: '2026-11-01'
+- id: 3853993
+  scene: watching-together
+  status: pending
+  description: Concentrated male teenage with long hair in casual wear and eyeglasses sitting on couch with bowl of popcorn and watching interesting movie while resting in cozy living room at home
+  people: false
+  pexels_url: https://www.pexels.com/photo/interested-teenager-watching-tv-with-popcorn-3853993/
+  photographer: Andrea Piacquadio
+  added: '2026-11-01'
+- id: 13005067
+  scene: watching-together
+  status: pending
+  description: Person holding a bowl of popcorn and remote, capturing a cozy movie night vibe.
+  people: true
+  pexels_url: https://www.pexels.com/photo/person-in-gray-crew-neck-t-shirt-holding-a-bowl-of-popcorn-13005067/
+  photographer: Srattha Nualsate
+  added: '2026-11-01'
+- id: 4009398
+  scene: watching-together
+  status: pending
+  description: A couple watches TV together in a cozy brick-walled living room on a sofa.
+  people: true
+  pexels_url: https://www.pexels.com/photo/people-watching-on-a-television-4009398/
+  photographer: cottonbro studio
+  added: '2026-11-01'
+- id: 5202915
+  scene: watching-together
+  status: pending
+  description: Two remote controls placed on a soft pink sofa surrounded by cozy pillows. Perfect for home comfort themes.
+  people: false
+  pexels_url: https://www.pexels.com/photo/black-remote-controls-near-the-throw-pillows-5202915/
+  photographer: https://kaboompics.com/
+  added: '2026-11-01'
+- id: 4545951
+  scene: laptop-streaming
+  status: pending
+  description: Cheerful ethnic brothers in nightwear lying on stomachs on bed blanket while watching video on laptop together in light room
+  people: false
+  pexels_url: https://www.pexels.com/photo/smiley-black-boys-watching-funny-video-on-laptop-on-bed-4545951/
+  photographer: Ketut Subiyanto
+  added: '2026-11-01'
+- id: 6284950
+  scene: laptop-streaming
+  status: pending
+  description: A couple relaxing on the kitchen floor, enjoying drinks and watching a laptop.
+  people: true
+  pexels_url: https://www.pexels.com/photo/man-and-woman-sitting-on-the-floor-6284950/
+  photographer: Gustavo Fring
+  added: '2026-11-01'
+- id: 6625385
+  scene: laptop-streaming
+  status: pending
+  description: Two women lying on bed using a laptop, enjoying a movie during the day, showcasing friendship.
+  people: true
+  pexels_url: https://www.pexels.com/photo/women-watching-a-movie-on-the-bed-6625385/
+  photographer: Polina Tankilevitch
+  added: '2026-11-01'
+- id: 6284954
+  scene: laptop-streaming
+  status: pending
+  description: Young couple sitting on kitchen floor, watching a movie with coffee and popcorn.
+  people: true
+  pexels_url: https://www.pexels.com/photo/a-couple-watching-together-on-a-laptop-6284954/
+  photographer: Gustavo Fring
+  added: '2026-11-01'
+- id: 3767402
+  scene: laptop-streaming
+  status: pending
+  description: Young couple enjoying a cozy moment streaming a movie on a laptop in a modern bedroom.
+  people: true
+  pexels_url: https://www.pexels.com/photo/woman-in-white-tank-top-beside-man-in-white-tank-top-3767402/
+  photographer: Andrea Piacquadio
+  added: '2026-11-01'
+- id: 9999340
+  scene: laptop-streaming
+  status: pending
+  description: Two friends sitting on a sofa, watching something on a laptop, looking intrigued and cozy with blankets.
+  people: true
+  pexels_url: https://www.pexels.com/photo/friends-getting-scared-while-watching-a-movie-on-a-laptop-9999340/
+  photographer: Ron Lach
+  added: '2026-11-01'
+- id: 11970615
+  scene: remote-closeup
+  status: pending
+  description: Close-up of a person's hand holding a TV remote control in Berlin, Germany.
+  people: true
+  pexels_url: https://www.pexels.com/photo/person-holding-black-remote-control-in-close-up-photography-11970615/
+  photographer: Leon Kohle
+  added: '2026-11-01'
+- id: 5207541
+  scene: remote-closeup
+  status: pending
+  description: A woman in a blue dress relaxes with a remote control indoors, enjoying a cozy atmosphere.
+  people: true
+  pexels_url: https://www.pexels.com/photo/person-wearing-sleeveless-dress-using-a-remote-control-5207541/
+  photographer: https://kaboompics.com/
+  added: '2026-11-01'
+- id: 5207534
+  scene: remote-closeup
+  status: pending
+  description: Close-up of a woman holding a remote control while lounging indoors.
+  people: true
+  pexels_url: https://www.pexels.com/photo/person-sitting-on-couch-holding-a-black-remote-control-5207534/
+  photographer: https://kaboompics.com/
+  added: '2026-11-01'
+- id: 4777979
+  scene: remote-closeup
+  status: pending
+  description: Close-up of a hand holding a remote control in front of a TV showing a football match.
+  people: false
+  pexels_url: https://www.pexels.com/photo/photo-of-a-person-s-hand-holding-a-remote-control-4777979/
+  photographer: Soumith Soman
+  added: '2026-11-01'
+- id: 35730062
+  scene: remote-closeup
+  status: pending
+  description: Close-up of an adult hand holding a TV remote control, relaxing indoors.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-of-hand-holding-tv-remote-control-35730062/
+  photographer: khezez  | خزاز
+  added: '2026-11-01'
+- id: 5427105
+  scene: remote-closeup
+  status: pending
+  description: Close-up of a woman's hand holding a TV remote while relaxing indoors.
+  people: true
+  pexels_url: https://www.pexels.com/photo/a-person-holding-a-black-remote-control-5427105/
+  photographer: https://kaboompics.com/
+  added: '2026-11-01'
+- id: 36766043
+  scene: sport-viewing
+  status: pending
+  description: Group of friends excitedly watching a sports game at home with snacks and drinks.
+  people: true
+  pexels_url: https://www.pexels.com/photo/diverse-friends-watching-game-at-home-36766043/
+  photographer: Vitaly Gariev
+  added: '2026-11-01'
+- id: 36766071
+  scene: sport-viewing
+  status: pending
+  description: Group of friends cheering while watching a sports game on TV indoors.
+  people: true
+  pexels_url: https://www.pexels.com/photo/excited-friends-watching-sports-game-indoors-36766071/
+  photographer: Vitaly Gariev
+  added: '2026-11-01'
+- id: 36766063
+  scene: sport-viewing
+  status: pending
+  description: Group of friends celebrating while watching a live soccer match indoors.
+  people: true
+  pexels_url: https://www.pexels.com/photo/friends-cheer-watching-live-soccer-match-at-home-36766063/
+  photographer: Vitaly Gariev
+  added: '2026-11-01'
+- id: 36766081
+  scene: sport-viewing
+  status: pending
+  description: Group of friends watching soccer indoors, celebrating excitement.
+  people: true
+  pexels_url: https://www.pexels.com/photo/diverse-group-enjoying-soccer-in-living-room-36766081/
+  photographer: Vitaly Gariev
+  added: '2026-11-01'
+- id: 36766034
+  scene: sport-viewing
+  status: pending
+  description: Group of friends cheering while watching sports on TV with pizza and drinks.
+  people: true
+  pexels_url: https://www.pexels.com/photo/friends-watching-sports-and-celebrating-at-home-36766034/
+  photographer: Vitaly Gariev
+  added: '2026-11-01'
+- id: 36766084
+  scene: sport-viewing
+  status: pending
+  description: Group of friends cheering and celebrating victory while watching TV indoors.
+  people: true
+  pexels_url: https://www.pexels.com/photo/friends-celebrating-victory-while-watching-tv-36766084/
+  photographer: Vitaly Gariev
+  added: '2026-11-01'
+- id: 159304
+  scene: router-network
+  status: pending
+  description: Detailed close-up of ethernet cables and network connections on a router, showcasing modern technology.
+  people: false
+  pexels_url: https://www.pexels.com/photo/white-switch-hub-turned-on-159304/
+  photographer: Pixabay
+  added: '2026-11-01'
+- id: 442150
+  scene: router-network
+  status: pending
+  description: An IT professional configuring network cables in a server rack, focusing on Ethernet connections.
+  people: false
+  pexels_url: https://www.pexels.com/photo/electronics-engineer-fixing-cables-on-server-442150/
+  photographer: Field Engineer
+  added: '2026-11-01'
+- id: 2881224
+  scene: router-network
+  status: pending
+  description: Close-up image of ethernet cables plugged into a network switch, showcasing IT infrastructure.
+  people: false
+  pexels_url: https://www.pexels.com/photo/ethernet-cables-plugged-in-network-switch-2881224/
+  photographer: Brett Sayles
+  added: '2026-11-01'
+- id: 6466143
+  scene: router-network
+  status: pending
+  description: Close-up of ethernet cables connected to a network switch panel in a data center.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-ethernet-cables-on-network-switch-6466143/
+  photographer: Sergei Starostin
+  added: '2026-11-01'
+- id: 2881227
+  scene: router-network
+  status: pending
+  description: Detailed view of a network switch featuring multiple ethernet ports and LED indicators.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-network-switch-2881227/
+  photographer: Brett Sayles
+  added: '2026-11-01'
+- id: 7015293
+  scene: router-network
+  status: pending
+  description: Detailed image of Ethernet cables and connectors, ideal for tech themes.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-electronic-cords-7015293/
+  photographer: Dmitry Sidorov
+  added: '2026-11-01'
+- id: 4065718
+  scene: cables-hdmi
+  status: pending
+  description: Detailed view of laptop ports including HDMI, USB, and Ethernet, showcasing connectivity options.
+  people: false
+  pexels_url: https://www.pexels.com/photo/laptop-computer-on-white-table-4065718/
+  photographer: Castorly Stock
+  added: '2026-11-01'
+- id: 3921713
+  scene: cables-hdmi
+  status: pending
+  description: High-quality USB-C cable with connector displayed on elegant marble background for tech enthusiasts.
+  people: false
+  pexels_url: https://www.pexels.com/photo/usb-c-cable-on-white-surface-3921713/
+  photographer: ready made
+  added: '2026-11-01'
+- id: 415043
+  scene: cables-hdmi
+  status: pending
+  description: High-quality image of a blue Ethernet cable plug on a white background, ideal for tech themes.
+  people: false
+  pexels_url: https://www.pexels.com/photo/blue-ethernet-cable-415043/
+  photographer: Pixabay
+  added: '2026-11-01'
+- id: 2881233
+  scene: cables-hdmi
+  status: pending
+  description: Detailed shot of Ethernet cables connected to server ports highlighting technology infrastructure.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-cables-plugged-into-the-server-2881233/
+  photographer: Brett Sayles
+  added: '2026-11-01'
+- id: 4779729
+  scene: cables-hdmi
+  status: pending
+  description: Vibrant close-up of green SDI cables connected to yellow device with visible USB port.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-of-an-electric-device-4779729/
+  photographer: Markus Erichsen
+  added: '2026-11-01'
+- id: 1624895
+  scene: cables-hdmi
+  status: pending
+  description: Detailed view of fiber optic cables and ports in a server room, showcasing connectivity.
+  people: false
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-plugged-cables-1624895/
+  photographer: Brett Sayles
+  added: '2026-11-01'
+- id: 35429830
+  scene: aerial-roof
+  status: pending
+  description: A silhouette of a bird on a rooftop with vivid sunset sky and TV antenna in the background.
+  people: false
+  pexels_url: https://www.pexels.com/photo/bird-silhouette-on-roof-during-vibrant-sunset-35429830/
+  photographer: Rino Adamo
+  added: '2026-11-01'
+- id: 29801059
+  scene: aerial-roof
+  status: pending
+  description: Two rusty satellite dishes on a rooftop against a vibrant rainbow in Tunisia.
+  people: false
+  pexels_url: https://www.pexels.com/photo/rusty-satellite-dishes-against-rainbow-in-tunisia-29801059/
+  photographer: Mahmoud Yahyaoui
+  added: '2026-11-01'
+- id: 35429827
+  scene: aerial-roof
+  status: pending
+  description: A captivating rooftop silhouette with antenna and bird against a dramatic sunset sky.
+  people: false
+  pexels_url: https://www.pexels.com/photo/silhouette-of-rooftop-with-antenna-at-sunset-35429827/
+  photographer: Rino Adamo
+  added: '2026-11-01'
+- id: 9902130
+  scene: tv-trouble
+  status: pending
+  description: A man stands by curtains in a dimly lit room, television displaying static.
+  people: true
+  pexels_url: https://www.pexels.com/photo/a-man-looking-outside-the-window-9902130/
+  photographer: Ron Lach
+  added: '2026-11-01'
+- id: 15573679
+  scene: tv-trouble
+  status: pending
+  description: A vintage CRT television displaying static noise in a minimalist room setting.
+  people: false
+  pexels_url: https://www.pexels.com/photo/tv-on-chair-in-corner-15573679/
+  photographer: Quang Lự Đỗ
+  added: '2026-11-01'
+- id: 12686203
+  scene: tv-trouble
+  status: pending
+  description: Young woman in casual attire posing with vintage television on table in dimly lit room.
+  people: true
+  pexels_url: https://www.pexels.com/photo/woman-lying-on-table-with-leg-up-on-tv-12686203/
+  photographer: Monica Griffin
+  added: '2026-11-01'
+- id: 13024378
+  scene: tv-trouble
+  status: pending
+  description: A close-up of a blindfolded man facing a static television screen in a dark room.
+  people: true
+  pexels_url: https://www.pexels.com/photo/close-up-shot-of-a-man-with-blindfold-13024378/
+  photographer: Renan Almeida
+  added: '2026-11-01'
+- id: 3571503
+  scene: tv-trouble
+  status: pending
+  description: A young man engaged in watching TV static with popcorn in a dark room, creating a mysterious atmosphere.
+  people: true
+  pexels_url: https://www.pexels.com/photo/man-eating-chips-while-watching-tv-3571503/
+  photographer: Amateur  Hub
+  added: '2026-11-01'
+- id: 6794847
+  scene: tv-trouble
+  status: pending
+  description: Old CRT television set with a blue screen in front of a rustic brick wall, evoking nostalgia.
+  people: false
+  pexels_url: https://www.pexels.com/photo/retro-tv-with-vhs-6794847/
+  photographer: Zachary Vessels
+  added: '2026-11-01'
