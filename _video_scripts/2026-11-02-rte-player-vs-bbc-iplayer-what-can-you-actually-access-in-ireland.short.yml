@@ -1,0 +1,73 @@
+# YouTube Short for _posts/2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
+# Generated 2026-11-02. Review it with the article: every fact must match the post.
+# After merging, the YouTube Short workflow renders the MP4 and comments on the PR.
+# Scenes: kicker (small green label), head (big text), optional sub, pills, badge;
+# vo is spoken and shown as captions. Format: scripts/video/short_spec.py
+
+post: _posts/2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
+post_url: https://onairireland.ie/streaming-services/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland/
+scenes:
+- kicker: HEAD TO HEAD
+  head: RTÉ Player or iPlayer?
+  vo: RTÉ Player or BBC iPlayer, what can you actually watch in Ireland? One is free and open to everyone here. The other isn't built for Irish accounts at all.
+- kicker: RTÉ PLAYER
+  head: RTÉ Player
+  pills:
+  - Free in Ireland
+  - On-demand library
+  - Six Nations
+  - Champions League Wed
+  vo: RTÉ Player is free in Ireland. It has RTÉ's own channels, a full on-demand library, and live sport like the Six Nations and Wednesday Champions League games.
+- kicker: TV LICENCE
+  head: Still need a licence
+  pills:
+  - €160 a year
+  - Per premises
+  vo: Remember, owning a TV in Ireland normally needs a TV licence, €160 a year per premises, even if you only use it for streaming apps.
+- kicker: BBC IPLAYER
+  head: Why iPlayer won't work
+  pills:
+  - UK licence fee only
+  - Not an Irish account
+  - No account fix
+  vo: BBC iPlayer is funded by the UK licence fee and built for UK accounts. It isn't offered in Ireland, and there's no account fix that changes that.
+- kicker: ALTERNATIVES
+  head: Free Irish options
+  pills:
+  - RTÉ Player
+  - Virgin Media Play
+  - TG4 Player
+  vo: For free Irish content, RTÉ Player, Virgin Media Play and TG4 Player cover news, drama, documentaries and sport, including the Six Nations and the Nations Championship.
+end_vo: Full details are at onairireland.ie.
+youtube:
+  title: 'RTÉ Player vs BBC iPlayer: What You Can Watch in Ireland'
+  description: |
+    RTÉ Player or BBC iPlayer, what's actually available in Ireland? One is a free Irish service, the other is built for UK accounts only.
+
+    📺 RTÉ Player is free in Ireland, with RTÉ's own channels, a full on-demand library, and live sport including the Six Nations and Wednesday Champions League games.
+
+    🆓 Other free Irish options: Virgin Media Play and TG4 Player, covering news, drama, documentaries and sport, including the Six Nations and the Nations Championship.
+
+    📡 BBC iPlayer is funded by the UK licence fee and isn't offered as an Irish service, there's no account fix from Ireland that changes that.
+
+    💶 A reminder: owning a TV in Ireland normally needs a TV licence, €160 a year per premises, even if it's only used for streaming apps.
+
+    🔗 Full guide: https://onairireland.ie/streaming-services/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland/
+    💶 Every Irish streaming price: https://onairireland.ie/streaming-prices/
+
+    📲 Get alerts when Irish streaming prices change — free WhatsApp channel:
+    https://whatsapp.com/channel/0029VbDvKAaEawdv3YeHxu2E
+
+    📘 Free PDF guides: https://onairireland.ie/free-guides/
+    Only legal services available in Ireland.
+  tags:
+  - rte player ireland
+  - bbc iplayer ireland
+  - tv licence ireland
+  - virgin media play ireland
+  - tg4 player ireland
+  - streaming ireland
+  - free to air ireland
+  - six nations ireland
+  - champions league ireland
+  - on air ireland

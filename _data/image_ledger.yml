@@ -211,6 +211,22 @@ cards:
   created: '2026-10-30'
   used_in:
   - 2026-10-30-best-streaming-setup-for-small-irish-apartments.md
+- id: card-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland
+  files:
+    hero: /assets/images/posts/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland-hero.webp
+    teaser: /assets/images/posts/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland-teaser.webp
+    og: /assets/images/posts/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland-og.jpg
+    hero_small: /assets/images/posts/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland-hero-800.webp
+  fingerprint: duo|m|Streaming-Services|set-top-box,smart-tv,universal-remote
+  layout: duo-mirrored
+  palette: Streaming-Services
+  icons:
+  - smart-tv
+  - universal-remote
+  - set-top-box
+  created: '2026-11-02'
+  used_in:
+  - 2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
