@@ -17,12 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: 'RTÉ Player vs BBC iPlayer: What Can You Actually Access in Ireland?'
-  category: Streaming Services
-  brief: Clarify what Irish viewers can legally watch on each platform and why some BBC content is restricted.
-  pillar: Service Guide
-  video: true
-  video_angle: 'Explainer comparing both free services: what''s on each, what''s geo-blocked for Irish viewers, and whether BBC iPlayer is worth trying to access legally.'
 - title: 'RTÉ Player Error Codes Explained: 6006, 6008, 3016 and More'
   category: Troubleshooting
   brief: Explain what each RTÉ Player error code people search for means and the official fix, citing RTÉ's own help pages. Only include codes and fixes that RTÉ documents.
