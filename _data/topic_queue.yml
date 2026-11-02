@@ -17,11 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: 'RTÉ Player Error Codes Explained: 6006, 6008, 3016 and More'
-  category: Troubleshooting
-  brief: Explain what each RTÉ Player error code people search for means and the official fix, citing RTÉ's own help pages. Only include codes and fixes that RTÉ documents.
-  pillar: Service Guide
-  whatsapp: false
 - title: How to Get TG4 Player on Your TV
   category: Installation Guides
   brief: Step-by-step setup of TG4 Player on smart TVs, Fire TV, Android/Google TV, Apple TV and casting, and whether TG4 is also on RTÉ Player. Check TG4's own supported-device list.

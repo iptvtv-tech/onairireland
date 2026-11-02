@@ -227,6 +227,22 @@ cards:
   created: '2026-11-02'
   used_in:
   - 2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
+- id: card-rte-player-error-codes-explained-6006-6008-3016-and-more
+  files:
+    hero: /assets/images/posts/rte-player-error-codes-explained-6006-6008-3016-and-more-hero.webp
+    teaser: /assets/images/posts/rte-player-error-codes-explained-6006-6008-3016-and-more-teaser.webp
+    og: /assets/images/posts/rte-player-error-codes-explained-6006-6008-3016-and-more-og.jpg
+    hero_small: /assets/images/posts/rte-player-error-codes-explained-6006-6008-3016-and-more-hero-800.webp
+  fingerprint: wide|s|Troubleshooting|hdmi-cable,smart-tv,wifi-extender
+  layout: wide
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - hdmi-cable
+  - wifi-extender
+  created: '2026-11-02'
+  used_in:
+  - 2026-11-02-rte-player-error-codes-explained-6006-6008-3016-and-more.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
