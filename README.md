@@ -193,6 +193,10 @@ search and fetch). The PR shows the list at the top, with ❌ wrong and
 `python scripts/fact_check.py _posts/<post>.md` (needs `ANTHROPIC_API_KEY`).
 When a deal changes or a guide is re-checked, update its entry and `checked`
 date in `_data/site_facts.yml`; it's part of the quarterly fact check.
+After the GAA entry changes, rebuild the one-page GAA sheet for county boards
+(`assets/downloads/gaa-county-sheet.pdf`) with `python scripts/make_gaa_sheet.py`
+and look over the PDF before committing it. Its text comes word for word from
+that entry.
 
 **YouTube Shorts:** for topics with `video: true`, the draft PR also gets
 `_video_scripts/<date>-<slug>.short.yml` (written by `scripts/generate_short.py`):

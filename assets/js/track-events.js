@@ -10,11 +10,14 @@
 //   signup/<form>/<page>   -> newsletter_signup   Brevo accepted a signup (newsletter.js)
 //   calculator/<page>      -> calculator_use      first change in the cost calculator
 //   quiz/<result>          -> quiz_complete       reached the quiz result (stream-quiz.js)
+//   notfound/<path>        -> page_not_found      someone reached the 404 page; records the
+//                                                 missing address and where they came from
 // GoatCounter: tick "Show events" in the dashboard. GA4: Reports > Engagement > Events.
 (function () {
   var GA4_EVENTS = {
     amazon: "affiliate_click", whatsapp: "whatsapp_follow", download: "guide_download",
-    signup: "newsletter_signup", calculator: "calculator_use", quiz: "quiz_complete"
+    signup: "newsletter_signup", calculator: "calculator_use", quiz: "quiz_complete",
+    notfound: "page_not_found"
   };
 
   // Returns true if the event was sent to at least one tool.
@@ -54,6 +57,34 @@
       var file = href.split(/[?#]/)[0].split("/").pop();
       track("download/" + file, file);
     }
+  }
+
+  // On the 404 page (404.html carries #oai-not-found), record the address that
+  // wasn't found and the site that linked to it, so broken links elsewhere can
+  // be fixed. Only after consent: before it, neither tool exists and nothing is
+  // sent. GoatCounter loads a moment after the page, so retry for a few seconds.
+  if (document.getElementById("oai-not-found")) {
+    var missing = (location.pathname + location.search).slice(0, 200);
+    var from = "no referrer";
+    try {
+      if (document.referrer) {
+        var ref = new URL(document.referrer);
+        from = (ref.host + ref.pathname).slice(0, 120); // no query string
+      }
+    } catch (err) { /* keep "no referrer" */ }
+    var gaSent = false, gcSent = false, tries = 0;
+    (function sendNotFound() {
+      var gc = window.goatcounter;
+      if (!gcSent && gc && typeof gc.count === "function") {
+        gc.count({ path: "notfound" + missing, title: "404 from " + from, event: true });
+        gcSent = true;
+      }
+      if (!gaSent && typeof window.gtag === "function") {
+        window.gtag("event", "page_not_found", { missing_path: missing, referrer_page: from, page_path: location.pathname });
+        gaSent = true;
+      }
+      if ((!gaSent || !gcSent) && ++tries < 20) setTimeout(sendNotFound, 500);
+    })();
   }
 
   // "click" covers normal clicks and keyboard Enter; "auxclick" covers
