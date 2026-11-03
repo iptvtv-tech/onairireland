@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml pypdf
 
       - name: Check post front matter
         run: python scripts/check_posts.py

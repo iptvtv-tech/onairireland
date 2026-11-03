@@ -22,7 +22,28 @@ PATTERNS = [
     re.compile(r"\bsideload\w*\b", re.I),
     re.compile(r"\bkodi\b", re.I),
 ]
+DOWNLOADS = ROOT / "assets" / "downloads"
+
+
+def pdf_lines(path):
+    """Text lines of a PDF, page by page (needs pypdf: pip install pypdf)."""
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        sys.exit("check_editorial_scope.py needs pypdf to read the PDFs in assets/downloads: pip install pypdf")
+    for page_no, page in enumerate(PdfReader(str(path)).pages, 1):
+        for line in (page.extract_text() or "").splitlines():
+            yield page_no, line
+
+
 errors = []
+# The free PDF guides are public copy too.
+for path in sorted(DOWNLOADS.glob("*.pdf")):
+    for page_no, line in pdf_lines(path):
+        for pattern in PATTERNS:
+            match = pattern.search(line)
+            if match:
+                errors.append(f"{path.relative_to(ROOT)} page {page_no}: excluded-topic wording: {match.group(0)!r}")
 for target in PUBLIC_PATHS:
     files = [target] if target.is_file() else target.rglob("*") if target.is_dir() else []
     for path in files:
