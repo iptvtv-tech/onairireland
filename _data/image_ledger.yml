@@ -227,6 +227,22 @@ cards:
   created: '2026-11-02'
   used_in:
   - 2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
+- id: card-rte-player-not-working-common-problems-and-where-to-get-help
+  files:
+    hero: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-hero.webp
+    teaser: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-teaser.webp
+    og: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-og.jpg
+    hero_small: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-hero-800.webp
+  fingerprint: trio|m|Troubleshooting|ethernet-cable,smart-tv,universal-remote
+  layout: trio-mirrored
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - ethernet-cable
+  - universal-remote
+  created: '2026-11-04'
+  used_in:
+  - 2026-11-04-rte-player-not-working-common-problems-and-where-to-get-help.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
