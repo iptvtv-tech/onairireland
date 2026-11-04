@@ -41,6 +41,34 @@ STATUS_WORDS = {
 WHERE_LABELS = {"article": "Article", "faq": "FAQ", "x": "X post",
                 "whatsapp": "WhatsApp", "video": "Video script"}
 
+# A claim stays ✅ only when its source is our facts file, our price tracker, or
+# one of these primary sources: the service, broadcaster, league, governing body,
+# app store or regulator itself (a subdomain counts too). Anything else, such as a
+# news report, comparison site, forum or "watch abroad" page, can't confirm a
+# claim: it becomes ⚠️ with a note naming the site. In #122 two BBC iPlayer claims
+# were "confirmed" from a watch-abroad page and a 2015 article about VPNs.
+# Add a host only with evidence that it is the organisation's own site.
+PRIMARY_HOSTS = {
+    # Streaming services and pay-TV providers
+    "netflix.com", "disneyplus.com", "primevideo.com", "amazon.ie", "aboutamazon.eu",
+    "apple.com", "hbomax.com", "paramountplus.com", "hayu.com", "nowtv.com", "sky.com",
+    "virginmedia.ie", "eir.ie", "vodafone.ie", "three.ie", "premiersports.com",
+    "premiersports.ie", "dazn.com", "britbox.com", "youtube.com",
+    # Irish and UK broadcasters
+    "rte.ie", "virginmediatelevision.ie", "tg4.ie", "bbc.co.uk", "bbc.com",
+    "channel4.com", "itv.com", "itvx.com", "saorview.ie",
+    # Leagues, governing bodies and competitions
+    "gaa.ie", "irishrugby.ie", "fai.ie", "uefa.com", "premierleague.com",
+    "sixnationsrugby.com", "epcrugby.com", "unitedrugby.com", "formula1.com",
+    "rydercup.com", "pdc.tv", "motogp.com", "laliga.com", "spfl.co.uk",
+    # Devices, app stores and platform help pages
+    "google.com", "roku.com", "samsung.com", "lg.com", "amazon.co.uk",
+    # Irish public bodies
+    "citizensinformation.ie", "tvlicence.ie", "anpost.com", "anpost.ie",
+    "comreg.ie", "cnam.ie", "gov.ie",
+}
+OUR_SOURCE_WORDS = ("our checked facts", "our facts", "our price", "our tracker", "checked prices")
+
 PROMPT = """You are fact-checking a draft for On Air Ireland (onairireland.ie), an
 independent site about LEGAL streaming in Ireland. Readers are in the Republic of
 Ireland, so every rights holder, channel and price must be the Irish one, which
@@ -57,8 +85,12 @@ often differs from the UK.
      checked on the providers' own pages, and they win over anything else.
    - Otherwise, on the provider's or rights holder's own page for Ireland, using
      web search and web fetch. Use primary sources only: the broadcaster, the
-     service, the league or governing body, An Post or Citizens Information.
-     Never use comparison sites, forums, or sites about VPNs or IPTV.
+     service, the league or governing body, the app store listing, An Post,
+     Citizens Information or another Irish public body.
+   - News reports, comparison sites, forums, blogs and pages about watching
+     from abroad, VPNs or IPTV can never confirm a claim. If one of those is the
+     only place you find it, mark the claim "unconfirmed" and name that site in
+     the note.
 
 3. Give each claim one status:
    - "ok": it matches our checked facts or prices, or you confirmed it on a
@@ -196,6 +228,28 @@ def parse_claims(raw: str) -> list:
     return claims
 
 
+def _is_ours(source: str) -> bool:
+    return any(word in source.lower() for word in OUR_SOURCE_WORDS)
+
+
+def _is_primary(source: str) -> bool:
+    host = (urlparse(source).hostname or "").lower() if source.startswith(("http://", "https://")) else ""
+    return bool(host) and any(host == h or host.endswith("." + h) for h in PRIMARY_HOSTS)
+
+
+def enforce_sources(claims: list) -> list:
+    """Turn a ✅ whose source isn't ours or a primary page into ⚠️, naming the site."""
+    for c in claims:
+        if c["status"] != "ok" or _is_ours(c["source"]) or _is_primary(c["source"]):
+            continue
+        host = urlparse(c["source"]).hostname if c["source"].startswith(("http://", "https://")) else ""
+        where = host[4:] if host and host.startswith("www.") else host
+        c["status"] = "unconfirmed"
+        c["note"] = (f"Only confirmed on {where}, which isn't the provider's own page."
+                     if where else "No primary source given.")
+    return claims
+
+
 def _cell(text: str, limit: int) -> str:
     """Make text safe for one Markdown table cell."""
     text = " ".join(str(text).split()).replace("|", "/")
@@ -274,7 +328,7 @@ def wrong_lines(claims: list) -> list:
 def check_post(post_text: str, social: dict = None, pr_note: str = None) -> dict:
     """Check one post and its social drafts. Returns the claims, their counts, the
     PR body section (markdown), a one-line summary and the number of flagged claims."""
-    claims = parse_claims(call_claude(build_prompt(post_text, social)))
+    claims = enforce_sources(parse_claims(call_claude(build_prompt(post_text, social))))
     counts = count_claims(claims)
     return {
         "claims": claims,

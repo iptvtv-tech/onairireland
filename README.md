@@ -192,7 +192,10 @@ what the NOW sport memberships include) and the prices in `_data/prices.yml`,
 and may only state those. After the draft and its social posts are written,
 `scripts/fact_check.py` lists every service, channel, price and date claim with
 a source, checking our facts first and then the providers' own pages (web
-search and fetch). Any ❌ wrong or ⚠️ unconfirmed claims go back to the writer
+search and fetch). A claim is only ✅ when its source is our facts, our price
+tracker or a host on `PRIMARY_HOSTS` in `fact_check.py` (services, broadcasters,
+leagues, app stores, Irish public bodies); a claim "confirmed" anywhere else,
+such as a news report, forum or watch-abroad page, is shown as ⚠️ naming that site. Any ❌ wrong or ⚠️ unconfirmed claims go back to the writer
 once, to be removed or reworded as "check with the provider", and the draft and
 its social posts are checked again. The PR shows that second list at the top,
 flagged lines first. A ❌ claim still left is written into the post's front
