@@ -17,9 +17,9 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: 'RTÉ Player Error Codes Explained: 6006, 6008, 3016 and More'
+- title: 'RTÉ Player Not Working? Common Problems and Where to Get Help'
   category: Troubleshooting
-  brief: Explain what each RTÉ Player error code people search for means and the official fix, citing RTÉ's own help pages. Only include codes and fixes that RTÉ documents.
+  brief: 'Common RTÉ Player problems (won''t load, sign-in trouble, buffering, app missing from a device, a programme not available) and general steps that work for any streaming app: restart the app and device, update the app, check the connection. Do not list or explain numbered error codes. Do not say RTÉ recommends a step, and do not give an RTÉ email address or phone number; tell readers to use the help and contact pages in RTÉ Player itself.'
   pillar: Service Guide
   whatsapp: false
 - title: How to Get TG4 Player on Your TV
