@@ -37,7 +37,7 @@ RTÉ Player is fully available to anyone in Ireland, free of charge, while BBC i
 
 ## What RTÉ Player Actually Gives You
 
-RTÉ Player is free to use in Ireland. It carries RTÉ's own channels and on-demand library, along with a growing amount of live sport. For example, RTÉ shows a share of the Six Nations and the Nations Championship live and free, and it has first pick of Wednesday Champions League games on RTÉ2 and RTÉ Player, a arrangement that runs until the end of the 2026/27 season.
+RTÉ Player is free to use in Ireland. It carries RTÉ's own channels and on-demand library, along with a growing amount of live sport. For example, RTÉ shows a share of the Six Nations live and free, and it has first pick of Wednesday Champions League games on RTÉ2 and RTÉ Player, an arrangement that runs until the end of the 2026/27 season.
 
 RTÉ Player works through apps on most modern smart TVs, as well as phones, tablets and browsers. If you're setting up a new television specifically to get the most out of Irish streaming apps, something like the {% include product-link.html id="smart_tvs_2" text="LG LED AI, 32 inch HD Smart TV" %} comes with the main apps built in, which saves messing about with separate streaming boxes.
 
