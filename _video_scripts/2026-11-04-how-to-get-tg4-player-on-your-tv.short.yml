@@ -1,0 +1,75 @@
+# YouTube Short for _posts/2026-11-04-how-to-get-tg4-player-on-your-tv.md
+# Generated 2026-11-04. Review it with the article: every fact must match the post.
+# After merging, the YouTube Short workflow renders the MP4 and comments on the PR.
+# Scenes: kicker (small green label), head (big text), optional sub, pills, badge;
+# vo is spoken and shown as captions. Format: scripts/video/short_spec.py
+
+post: _posts/2026-11-04-how-to-get-tg4-player-on-your-tv.md
+post_url: https://onairireland.ie/installation-guides/how-to-get-tg4-player-on-your-tv/
+scenes:
+- kicker: TG4 PLAYER
+  head: TG4 Player on your TV?
+  vo: Trying to get TG4 Player on your TV and not sure where to start?
+- kicker: FREE TO USE
+  head: Free, but licence applies
+  pills:
+  - Free app
+  - No subscription
+  - TV licence €160/year
+  vo: TG4 Player is free, just like RTÉ Player and Virgin Media Play. But any TV in Ireland needs a TV licence, €160 a year, no matter which free app you use.
+- kicker: SMART TVS
+  head: Samsung, LG and more
+  pills:
+  - Search app store
+  - Update software if missing
+  vo: On Samsung, LG and other smart TVs, search TG4 Player in the built-in app store. If it's missing, try a software update first.
+- kicker: STREAMING DEVICES
+  head: Fire TV, Android, Apple TV
+  pills:
+  - Fire TV · search and install
+  - Google Play · Android/Google TV
+  - App Store · Apple TV
+  vo: On Fire TV, search and install from the search icon. On Android TV or Google TV, use the Google Play Store. On Apple TV, use the App Store.
+- kicker: NO APP?
+  head: Cast from your phone
+  pills:
+  - Same Wi-Fi network
+  - Works with Chromecast
+  - Works with AirPlay
+  vo: No native app on your TV? Cast from your phone using the cast icon, on the same Wi-Fi network. This works with Chromecast and AirPlay.
+end_vo: Full setup steps for every device are at onairireland.ie.
+youtube:
+  title: How to Get TG4 Player on Your TV in Ireland
+  description: |
+    📺 TG4 Player is free to use, like RTÉ Player and Virgin Media Play, with no subscription or sign-up fee.
+
+    💶 A TV licence (€160 a year per premises) applies to any TV in Ireland, including smart TVs used only for streaming apps.
+
+    Setup varies by device:
+    • Smart TVs (Samsung, LG) — search TG4 Player in the built-in app store
+    • Fire TV — search and install from the Fire TV search icon
+    • Android TV / Google TV — install via Google Play Store
+    • Apple TV — install via the App Store
+    • No app? Cast from your phone or tablet over Wi-Fi using Chromecast or AirPlay
+
+    Check TG4's own supported-device list before you start, as app store listings can change.
+
+    🔗 Full guide: https://onairireland.ie/installation-guides/how-to-get-tg4-player-on-your-tv/
+    💶 Every Irish streaming price: https://onairireland.ie/streaming-prices/
+
+    📲 Get alerts when Irish streaming prices change — free WhatsApp channel:
+    https://whatsapp.com/channel/0029VbDvKAaEawdv3YeHxu2E
+
+    📘 Free PDF guides: https://onairireland.ie/free-guides/
+    Only legal services available in Ireland.
+  tags:
+  - tg4 player ireland
+  - tg4 player smart tv
+  - tg4 player fire tv
+  - tg4 player android tv
+  - tg4 player apple tv
+  - tv licence ireland
+  - free streaming apps ireland
+  - rté player ireland
+  - cast tg4 player
+  - on air ireland

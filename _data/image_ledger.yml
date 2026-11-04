@@ -243,6 +243,22 @@ cards:
   created: '2026-11-04'
   used_in:
   - 2026-11-04-rte-player-not-working-common-problems-and-where-to-get-help.md
+- id: card-how-to-get-tg4-player-on-your-tv
+  files:
+    hero: /assets/images/posts/how-to-get-tg4-player-on-your-tv-hero.webp
+    teaser: /assets/images/posts/how-to-get-tg4-player-on-your-tv-teaser.webp
+    og: /assets/images/posts/how-to-get-tg4-player-on-your-tv-og.jpg
+    hero_small: /assets/images/posts/how-to-get-tg4-player-on-your-tv-hero-800.webp
+  fingerprint: trio|m|Installation-Guides|indoor-aerial,mesh-wifi,smart-tv
+  layout: trio-mirrored
+  palette: Installation-Guides
+  icons:
+  - smart-tv
+  - mesh-wifi
+  - indoor-aerial
+  created: '2026-11-04'
+  used_in:
+  - 2026-11-04-how-to-get-tg4-player-on-your-tv.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
