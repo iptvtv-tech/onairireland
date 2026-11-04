@@ -147,7 +147,6 @@ def parse_faqs(text: str):
 def call_claude(title: str, category: str, brief: str):
     """Returns raw article text (with SUMMARY:/IMAGE_QUERY:/FAQS: markers
     still embedded -- main() splits those out)."""
-    api_key = os.environ["ANTHROPIC_API_KEY"]
 
     # Products list the post types they suit in show_on (see _data/products.yml).
     matching_products = [p for p in load_products() if category in (p.get("show_on") or [])]
@@ -249,19 +248,24 @@ Requirements:
   wording, a device feature), say so explicitly rather than inventing specifics. Every draft
   gets an automatic fact check against the facts above and the providers' own pages.
 """
+    return ask_writer(prompt)
+
+
+def ask_writer(prompt: str, max_tokens: int = 3500) -> str:
+    """One call to the writer model (no tools, no web access)."""
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
-            "x-api-key": api_key,
+            "x-api-key": os.environ["ANTHROPIC_API_KEY"],
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
         },
         json={
             "model": "claude-sonnet-5",
-            "max_tokens": 3500,
+            "max_tokens": max_tokens,
             "messages": [{"role": "user", "content": prompt}],
         },
-        timeout=120,
+        timeout=180,
     )
     if not resp.ok:
         print(f"Anthropic API error {resp.status_code}: {resp.text}")
@@ -274,6 +278,99 @@ Requirements:
         print(data)
 
     return raw
+
+
+# The writer can't look anything up, so a topic outside the checked facts gets
+# written from memory (PR #123 explained RTÉ Player error codes no RTÉ page
+# lists). The claims list catches those; this sends them back to the writer
+# once, before the PR opens, so they're removed or turned into "check with the
+# provider" instead of waiting for someone to spot them in review.
+REVISE_PROMPT = """You wrote the draft below for On Air Ireland (onairireland.ie), an
+independent Irish site about LEGAL streaming. An automatic fact check, using our
+checked facts and the providers' own pages, flagged the claims listed under
+FLAGGED CLAIMS. Revise the draft so that none of them stays as it is:
+
+- ❌ wrong: correct it only if the note gives the right fact AND that fact is in
+  our checked facts or prices below. Otherwise remove the claim.
+- ⚠️ unconfirmed: remove it, or replace it with a plain line telling readers to
+  check with the provider (name the provider). Never swap in a different
+  specific detail (a number, code, date, price, menu name or quote) instead.
+- Claims flagged in the X, WhatsApp or video drafts came from the article, so
+  make sure the article doesn't state them either.
+- If a heading, list or FAQ answer only existed for a removed claim, rewrite it
+  or drop it, but keep exactly 4 FAQ pairs.
+- Change nothing else: keep the structure, wording, links and product links.
+- The usual rules still apply: licensed services only; never mention VPNs,
+  proxies or unofficial IPTV; no first-hand testing claims; prices only from
+  our checked prices.
+
+Reply in exactly this shape, with nothing before or after it:
+SUMMARY: the one-sentence summary (max 155 characters), corrected if needed
+
+the article body in Markdown
+
+FAQS:
+Q: question
+A: answer
+
+OUR CHECKED FACTS:
+<<FACTS>>
+
+OUR CHECKED PRICES (euro):
+<<PRICES>>
+
+Title: <<TITLE>>
+
+FLAGGED CLAIMS:
+<<FLAGGED>>
+
+=== DRAFT ===
+SUMMARY: <<SUMMARY>>
+
+<<BODY>>
+
+FAQS:
+<<FAQS>>
+"""
+
+
+def revise_draft(title: str, summary: str, body: str, faqs: list, flagged: list):
+    """Send the flagged claims back to the writer once. Returns the new
+    (summary, body, faqs), or raises ValueError if the reply isn't usable."""
+    where = {"article": "article", "faq": "FAQ", "x": "X post",
+             "whatsapp": "WhatsApp", "video": "video script"}
+    flagged_text = "\n".join(
+        f"- {'❌ wrong' if c['status'] == 'wrong' else '⚠️ unconfirmed'} "
+        f"({where.get(c['where'], 'article')}): {c['claim']}"
+        + (f" -- note: {c['note']}" if c.get("note") else "")
+        for c in flagged)
+    parts = {
+        "<<FACTS>>": site_facts.facts_for_prompt(),
+        "<<PRICES>>": site_facts.prices_for_prompt(),
+        "<<TITLE>>": title,
+        "<<FLAGGED>>": flagged_text,
+        "<<SUMMARY>>": summary,
+        "<<BODY>>": body.strip(),
+        "<<FAQS>>": "\n".join(f"Q: {q}\nA: {a}" for q, a in faqs) or "(none)",
+    }
+    prompt = REVISE_PROMPT
+    for key, value in parts.items():
+        prompt = prompt.replace(key, value)
+
+    raw = ask_writer(prompt, max_tokens=4000).strip()
+    new_summary = summary
+    if raw.startswith("SUMMARY:"):
+        first_line, _, raw = raw.partition("\n")
+        new_summary = first_line.replace("SUMMARY:", "").strip() or summary
+        raw = raw.strip()
+    new_body, new_faqs = parse_faqs(raw)
+    # A reply that lost most of the article or its FAQ is worse than the
+    # original with its flags, so keep the original.
+    if len(new_faqs) < 3:
+        raise ValueError(f"the revised draft has {len(new_faqs)} FAQ pairs")
+    if len(new_body) < 0.5 * len(body):
+        raise ValueError("the revised draft lost more than half the article")
+    return new_summary, new_body, new_faqs
 
 
 def prioritise_queue(queue: list) -> list:
@@ -475,9 +572,6 @@ def main():
 
     seo_type = "HowTo" if category in ("Installation Guides", "Troubleshooting") else "Article"
 
-    if len(summary) > 160:
-        summary = summary[:155].rsplit(" ", 1)[0].rstrip(",;:") + "…"
-
     header = {
         "overlay_image": hero_image["overlay_image"],
         "overlay_image_small": hero_image["overlay_image_small"],
@@ -487,24 +581,34 @@ def main():
     if hero_image.get("caption"):
         header["caption"] = hero_image["caption"]
 
-    fm = {
-        "title": title,
-        "excerpt": summary,
-        "description": summary,
-        "categories": [category_slug_name],
-        "tags": [CATEGORY_SLUGS.get(category, slugify(category))],
-        "header": header,
-        "seo": {"type": seo_type},
-        "toc": True,
-        "draft_generated": True,
-        "affiliate_links": True,
-    }
-    if faqs:
-        fm["faqs"] = [{"question": q, "answer": a} for q, a in faqs]
+    products = load_products()
 
-    # yaml.safe_dump quotes/escapes AI-generated text properly, so colons,
-    # quotes or '#' in a title can never break the front matter again.
-    front_matter = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + f"""---
+    def write_post(summary: str, body: str, faqs: list, wrong: list = None) -> None:
+        """Write the post file. Called again if the draft is revised, and with
+        wrong set when ❌ claims are left after the recheck."""
+        if len(summary) > 160:
+            summary = summary[:155].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+        fm = {
+            "title": title,
+            "excerpt": summary,
+            "description": summary,
+            "categories": [category_slug_name],
+            "tags": [CATEGORY_SLUGS.get(category, slugify(category))],
+            "header": header,
+            "seo": {"type": seo_type},
+            "toc": True,
+            "draft_generated": True,
+            "affiliate_links": True,
+        }
+        if faqs:
+            fm["faqs"] = [{"question": q, "answer": a} for q, a in faqs]
+        if wrong:
+            # check_fact_flags.py fails the PR check while this list is here.
+            fm["fact_check_wrong"] = list(wrong)
+
+        # yaml.safe_dump quotes/escapes AI-generated text properly, so colons,
+        # quotes or '#' in a title can never break the front matter again.
+        front_matter = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + f"""---
 
 {{% include last-updated.html %}}
 
@@ -514,28 +618,31 @@ def main():
 
 """
 
-    showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
-    faq_block = "\n{% include faq-section.html %}\n" if faqs else ""
-    related_block = (
-        f"{faq_block}"
-        "\n{% include related-posts.html %}\n"
-        "\n### Related\n\n"
-        "Read our [full guide to legal streaming services in Ireland]"
-        "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
-        + (
-            "\nSee every current Irish streaming price in one place on our "
-            "[streaming prices tracker](/streaming-prices/), or add up your own bill "
-            "with the [streaming cost calculator](/streaming-cost-calculator/).\n"
-            if is_price_news(category, title) else ""
+        showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
+        faq_block = "\n{% include faq-section.html %}\n" if faqs else ""
+        related_block = (
+            f"{faq_block}"
+            "\n{% include related-posts.html %}\n"
+            "\n### Related\n\n"
+            "Read our [full guide to legal streaming services in Ireland]"
+            "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
+            + (
+                "\nSee every current Irish streaming price in one place on our "
+                "[streaming prices tracker](/streaming-prices/), or add up your own bill "
+                "with the [streaming cost calculator](/streaming-cost-calculator/).\n"
+                if is_price_news(category, title) else ""
+            )
+            + "\n{% include whatsapp-cta.html %}\n"
         )
-        + "\n{% include whatsapp-cta.html %}\n"
-    )
 
-    body = convert_affiliate_links(body, load_products())
+        with open(filepath, "w") as f:
+            f.write(front_matter + convert_affiliate_links(body, products) + showcase_block + related_block)
 
-    with open(filepath, "w") as f:
-        f.write(front_matter + body + showcase_block + related_block)
+    def read_post() -> str:
+        with open(filepath, encoding="utf-8") as fh:
+            return fh.read()
 
+    write_post(summary, body, faqs)
     save_queue(queue)
 
     print(f"Draft written to {filepath}")
@@ -543,21 +650,85 @@ def main():
     set_output("post_title", title.replace("\n", " "))
     set_output("publish_by", str(topic.get("publish_by", "")))
 
-    # --- Social content generation ---
-    # Runs after the post is written. Failure here is non-fatal: the post PR
-    # still opens, just without social drafts in the body.
-    social = {}
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    # Live address, from permalink /:categories/:title/ in _config.yml
+    # (Jekyll lowercases the category; the slug comes from the filename).
+    post_url = f"https://onairireland.ie/{category_slug_name.lower()}/{slug}/"
+    social_args = dict(title=title, category=category, brief=brief, topic=topic,
+                       slug=slug, today=today, filepath=filepath, post_url=post_url)
+    social, social_out = build_social(body=body, **social_args)
+
+    # --- Claims list for the PR, with one send-back pass ---
+    # Checks the article, its FAQ and the social drafts against the checked
+    # facts and the providers' own pages. Flagged claims go back to the writer
+    # once and the draft is checked again. ❌ claims still left go into the
+    # front matter, where check_fact_flags.py fails the PR check. If the fact
+    # check itself fails, the PR says so and the review checks everything by hand.
     try:
-        from generate_social import generate_post_social, write_multiline_output
+        from fact_check import check_post, format_markdown, wrong_lines, write_fact_check_output
+
+        result = check_post(read_post(), social, pr_note="")
+        print(f"First pass: {result['summary']}")
+        flagged = [c for c in result["claims"] if c["status"] != "ok"]
+        if flagged:
+            first = result["counts"]
+            try:
+                summary, body, faqs = revise_draft(title, summary, body, faqs, flagged)
+            except Exception as exc:
+                print(f"Send-back skipped: {exc}")
+                reason = " ".join(str(exc).split())[:150]
+                result["markdown"] = format_markdown(
+                    result["claims"],
+                    f"The flagged claims couldn't go back to the writer ({reason}), so this "
+                    "list is the first pass and the draft is unchanged.")
+            else:
+                write_post(summary, body, faqs)
+                print("Flagged claims sent back to the writer; draft revised.")
+                # The social drafts came from the old article, so write them again.
+                social, social_out = build_social(body=body, **social_args)
+                result = check_post(
+                    read_post(), social,
+                    pr_note=(f"The first pass found {first['wrong']} wrong and "
+                             f"{first['unconfirmed']} unconfirmed; those went back to the "
+                             "writer once, and this list is the recheck."))
+                print(f"Recheck: {result['summary']}")
+        wrong = wrong_lines(result["claims"])
+        if wrong:
+            write_post(summary, body, faqs, wrong)
+            print(f"{len(wrong)} wrong claim(s) left; listed as fact_check_wrong in the front matter.")
+        write_fact_check_output(os.environ.get("GITHUB_OUTPUT"), result)
+        print(result["summary"])
+    except Exception as exc:
+        print(f"Fact check skipped: {exc}")
+        reason = " ".join(str(exc).split())[:150]
+        set_output("fact_check", f"> ⚠️ **The fact check didn't run** ({reason}). "
+                                 "Check every service, price, date and channel by hand.")
+
+    # Social outputs go out once, after any rewrite, so the PR shows the final drafts.
+    from generate_social import write_multiline_output
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    for kind, name, value in social_out:
+        if kind == "multi":
+            write_multiline_output(gh_out, name, value)
+        else:
+            set_output(name, value)
+
+
+def build_social(title, category, brief, body, topic, slug, today, filepath, post_url):
+    """Social drafts for the post: X, WhatsApp, and for video topics the YouTube
+    script and Short spec (written as files in the PR). Failure here is
+    non-fatal: the post PR still opens, just without social drafts in the body.
+    Returns (social, outputs), where outputs is a list of (kind, name, value)
+    step outputs for main() to write once, after any rewrite."""
+    social = {}
+    outputs = []
+    try:
+        from generate_social import generate_post_social
 
         video_angle = topic.get("video_angle") if topic.get("video") else None
         pillar = topic.get("pillar", "")
         # whatsapp: false suppresses WhatsApp copy for minor/niche posts
         want_whatsapp = topic.get("whatsapp", True)
-        # Live address, from permalink /:categories/:title/ in _config.yml
-        # (Jekyll lowercases the category; the slug comes from the filename).
-        post_url = f"https://onairireland.ie/{category_slug_name.lower()}/{slug}/"
         social = generate_post_social(
             title, category, brief, body,
             pillar=pillar,
@@ -569,9 +740,8 @@ def main():
         if not want_whatsapp:
             social["whatsapp_msg"] = "No WhatsApp post for this topic (whatsapp: false in the queue)."
 
-        gh_out = os.environ.get("GITHUB_OUTPUT")
-        write_multiline_output(gh_out, "x_post", social.get("x_post", ""))
-        write_multiline_output(gh_out, "whatsapp_msg", social.get("whatsapp_msg", ""))
+        outputs.append(("multi", "x_post", social.get("x_post", "")))
+        outputs.append(("multi", "whatsapp_msg", social.get("whatsapp_msg", "")))
 
         # YouTube script → committed as a separate file in the same PR.
         # _video_scripts/ starts with _ so Jekyll ignores it.
@@ -591,7 +761,7 @@ def main():
             print(f"YouTube script written to {yt_path}")
             # Repo-relative, so the PR body names the file in the PR
             # (not /home/runner/work/... on the Actions runner).
-            set_output("youtube_script_path", os.path.relpath(yt_path, REPO_ROOT))
+            outputs.append(("single", "youtube_script_path", os.path.relpath(yt_path, REPO_ROOT)))
 
             # The YouTube Short: scenes, voiceover and upload text, reviewed in
             # this PR. After merge, youtube-short.yml renders the MP4 from it.
@@ -602,44 +772,27 @@ def main():
                                            os.path.relpath(filepath, REPO_ROOT))
                 short_path = os.path.join(scripts_dir, f"{today}-{slug}.short.yml")
                 write_spec(spec, short_path, today)
-                set_output("short_path", os.path.relpath(short_path, REPO_ROOT))
+                outputs.append(("single", "short_path", os.path.relpath(short_path, REPO_ROOT)))
                 # The claims list checks the Short's words too.
                 social["youtube_script"] = yt_script + "\n\n" + short_text_for_fact_check(spec)
                 print(f"YouTube Short spec written to {short_path}")
             except Exception as exc:
                 print(f"YouTube Short spec skipped: {exc}")
-                set_output("short_failed", " ".join(str(exc).split())[:200])
+                outputs.append(("single", "short_failed", " ".join(str(exc).split())[:200]))
 
         # An empty box means the model's reply didn't contain that section, so
         # flag it in the PR instead of showing a blank box as if all was well.
         missing = [k for k in ("x_post", "whatsapp_msg") if not social.get(k)]
         if missing:
             print(f"Social generation incomplete: empty {', '.join(missing)}")
-            set_output("has_social", "false")
+            outputs.append(("single", "has_social", "false"))
         else:
-            set_output("has_social", "true")
+            outputs.append(("single", "has_social", "true"))
             print("Social content generated.")
     except Exception as exc:
         print(f"Social generation skipped: {exc}")
-        set_output("has_social", "false")
-
-    # --- Claims list for the PR ---
-    # Checks the article, its FAQ and the social drafts against the checked
-    # facts and the providers' own pages. Never blocks the PR: if it fails, the
-    # PR says so and the review falls back on checking everything by hand.
-    try:
-        from fact_check import check_post, write_fact_check_output
-
-        with open(filepath, encoding="utf-8") as fh:
-            post_text = fh.read()
-        result = check_post(post_text, social)
-        write_fact_check_output(os.environ.get("GITHUB_OUTPUT"), result)
-        print(result["summary"])
-    except Exception as exc:
-        print(f"Fact check skipped: {exc}")
-        reason = " ".join(str(exc).split())[:150]
-        set_output("fact_check", f"> ⚠️ **The fact check didn't run** ({reason}). "
-                                 "Check every service, price, date and channel by hand.")
+        outputs = [("single", "has_social", "false")]
+    return social, outputs
 
 
 if __name__ == "__main__":

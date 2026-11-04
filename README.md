@@ -69,6 +69,7 @@ python scripts/check_editorial_scope.py
 python scripts/check_price_news_links.py
 python scripts/check_price_sources.py
 python scripts/check_shorts.py
+python scripts/check_fact_flags.py
 ```
 
 - `check_posts.py` validates post front matter, required image metadata,
@@ -93,6 +94,9 @@ python scripts/check_shorts.py
 - `check_shorts.py` checks the YouTube Short specs (`_video_scripts/*.short.yml`):
   the shape the renderer needs, YouTube's title, description and tag limits, the
   article link in the description, and excluded-topic wording.
+- `check_fact_flags.py` fails while any post still has a `fact_check_wrong`
+  list in its front matter (❌ claims left after the draft run's fact check).
+  Fix each claim, then delete the list.
 - `.github/workflows/check-pr.yml` runs the repository's automated checks and a
   full GitHub Pages build on every pull request. The draft workflow checks posts
   before it opens its PR.
@@ -188,8 +192,13 @@ what the NOW sport memberships include) and the prices in `_data/prices.yml`,
 and may only state those. After the draft and its social posts are written,
 `scripts/fact_check.py` lists every service, channel, price and date claim with
 a source, checking our facts first and then the providers' own pages (web
-search and fetch). The PR shows the list at the top, with ❌ wrong and
-⚠️ unconfirmed lines first. It never blocks a merge. To check any post by hand:
+search and fetch). Any ❌ wrong or ⚠️ unconfirmed claims go back to the writer
+once, to be removed or reworded as "check with the provider", and the draft and
+its social posts are checked again. The PR shows that second list at the top,
+flagged lines first. A ❌ claim still left is written into the post's front
+matter as `fact_check_wrong`, and `check_fact_flags.py` fails the PR check (so
+the merge lock holds the PR) until the line is fixed and the list deleted.
+⚠️ lines don't block: fix or confirm them before merging. To check any post by hand:
 `python scripts/fact_check.py _posts/<post>.md` (needs `ANTHROPIC_API_KEY`).
 When a deal changes or a guide is re-checked, update its entry and `checked`
 date in `_data/site_facts.yml`; it's part of the quarterly fact check.

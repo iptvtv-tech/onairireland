@@ -81,7 +81,8 @@ jobs:
             ${{ steps.generate.outputs.fact_check || '> ⚠️ **The fact check didn''t run** — see the Actions log for this run, and check every service, price, date and channel by hand.' }}
 
             Before merging, check:
-            - [ ] Every ❌ and ⚠️ line in the fact check is fixed, or confirmed on the provider's own site
+            - [ ] Every ⚠️ line in the fact check is fixed, or confirmed on the provider's own site
+            - [ ] Every ❌ line is fixed and `fact_check_wrong` deleted from the post's front matter (the check fails until then)
             - [ ] Every other service, price, date and channel named is still correct today
             - [ ] Watch guides name the actual service and date, not just "check your apps"
             - [ ] No claims of first-hand testing or experience

@@ -51,6 +51,9 @@ jobs:
       - name: Check YouTube Short specs
         run: python scripts/check_shorts.py
 
+      - name: Check no wrong claims are left (fact_check_wrong)
+        run: python scripts/check_fact_flags.py
+
       - name: Build site exactly like GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:

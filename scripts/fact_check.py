@@ -4,8 +4,10 @@ Claims list for a draft post: every service, channel, price, date and rights
 claim in the article, its FAQ and its social drafts, each with a source or a flag.
 
 Runs at the end of scripts/generate_post.py, and the Mon/Wed/Fri draft PR shows
-the result at the top. It points the review at the right lines: it never edits
-the draft and never blocks a merge.
+the result at the top. It never edits the draft itself. In the draft run, any
+flagged claims go back to the writer once (generate_post.py) and the draft is
+checked again; a ❌ claim still left is written into the post's front matter as
+fact_check_wrong, and check_fact_flags.py fails the PR check until it's fixed.
 
 It uses the model with web search and web fetch (as generate_sport_week.py
 does), plus the checked facts in _data/site_facts.yml and the prices in
@@ -22,6 +24,7 @@ import sys
 from urllib.parse import urlparse
 
 import requests
+import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import site_facts  # noqa: E402
@@ -99,8 +102,23 @@ OUR CHECKED PRICES (euro):
 """
 
 
+def _without_flags(post_text: str) -> str:
+    """The post without its fact_check_wrong list, so a recheck doesn't check
+    the list of wrong claims as if it were the article."""
+    m = re.match(r"---\n(.*?)\n---\n", post_text, re.S)
+    if not m:
+        return post_text
+    fm = yaml.safe_load(m.group(1)) or {}
+    if not isinstance(fm, dict) or "fact_check_wrong" not in fm:
+        return post_text
+    fm.pop("fact_check_wrong")
+    return ("---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000)
+            + "---\n" + post_text[m.end():])
+
+
 def build_prompt(post_text: str, social: dict = None) -> str:
     social = social or {}
+    post_text = _without_flags(post_text)
     parts = {
         "<<MAX>>": str(MAX_CLAIMS),
         "<<FACTS>>": site_facts.facts_for_prompt(),
@@ -200,29 +218,43 @@ def _claims(n: int) -> str:
     return f"{n} claim" if n == 1 else f"{n} claims"
 
 
-def format_markdown(claims: list) -> str:
-    """The claims list as the PR body section: problems first, the rest folded away."""
-    counts = {s: sum(1 for c in claims if c["status"] == s) for s in ICONS}
+def count_claims(claims: list) -> dict:
+    return {s: sum(1 for c in claims if c["status"] == s) for s in ICONS}
+
+
+def format_markdown(claims: list, pr_note: str = None) -> str:
+    """The claims list as the PR body section: problems first, the rest folded away.
+    pr_note is None for a check run by hand; in the draft run it's a sentence
+    about the send-back pass ("" if there was none)."""
+    counts = count_claims(claims)
     flagged = [c for c in claims if c["status"] != "ok"]
     flagged.sort(key=lambda c: 0 if c["status"] == "wrong" else 1)
     confirmed = [c for c in claims if c["status"] == "ok"]
 
     lines = ["### 🔎 Fact check", ""]
-    basis = ("Checked against our facts file, our price tracker and the providers' own pages. "
-             "It doesn't block the merge")
+    basis = "Checked against our facts file, our price tracker and the providers' own pages."
+    note = f" {pr_note}" if pr_note else ""
     if not claims:
         lines.append("> ⚠️ **No checkable claims came back.** Check every service, price, date and "
                      "channel by hand.")
         return "\n".join(lines)
     if flagged:
+        if pr_note is None:
+            todo = "Fix or confirm every ❌ and ⚠️ line."
+        elif counts["wrong"]:
+            todo = ("**Each ❌ line fails the PR check until it's fixed:** correct it, then delete "
+                    "`fact_check_wrong` from the post's front matter. Fix or confirm every ⚠️ line "
+                    "before merging.")
+        else:
+            todo = "Fix or confirm every ⚠️ line before merging."
         lines.append(f"**{counts['wrong']} wrong · {counts['unconfirmed']} unconfirmed · "
-                     f"{counts['ok']} confirmed.** {basis}, so fix or confirm every ❌ and ⚠️ line first.")
+                     f"{counts['ok']} confirmed.** {basis}{note} {todo}")
         lines += ["", "| | Claim | Where | Note | Source |", "|---|---|---|---|---|"]
         for c in flagged:
             lines.append(f"| {ICONS[c['status']]} | {_cell(c['claim'], 180)} | {WHERE_LABELS[c['where']]} "
                          f"| {_cell(c['note'], 220)} | {_source(c['source'])} |")
     else:
-        lines.append(f"**No problems found in {_claims(counts['ok'])}.** {basis}, and anything it "
+        lines.append(f"**No problems found in {_claims(counts['ok'])}.** {basis}{note} Anything it "
                      "missed still needs your check.")
     if confirmed:
         lines += ["", "<details>", f"<summary>{len(confirmed)} confirmed {_claims(len(confirmed)).split(' ', 1)[1]}</summary>", "",
@@ -233,14 +265,21 @@ def format_markdown(claims: list) -> str:
     return "\n".join(lines)
 
 
-def check_post(post_text: str, social: dict = None) -> dict:
-    """Check one post and its social drafts. Returns the claims, the PR body
-    section (markdown), a one-line summary and the number of flagged claims."""
+def wrong_lines(claims: list) -> list:
+    """The ❌ claims as one line each, for the post's fact_check_wrong list."""
+    return [f"{WHERE_LABELS[c['where']]}: {c['claim']}" + (f" ({c['note']})" if c["note"] else "")
+            for c in claims if c["status"] == "wrong"]
+
+
+def check_post(post_text: str, social: dict = None, pr_note: str = None) -> dict:
+    """Check one post and its social drafts. Returns the claims, their counts, the
+    PR body section (markdown), a one-line summary and the number of flagged claims."""
     claims = parse_claims(call_claude(build_prompt(post_text, social)))
-    counts = {s: sum(1 for c in claims if c["status"] == s) for s in ICONS}
+    counts = count_claims(claims)
     return {
         "claims": claims,
-        "markdown": format_markdown(claims),
+        "counts": counts,
+        "markdown": format_markdown(claims, pr_note),
         "summary": (f"Fact check: {counts['wrong']} wrong, {counts['unconfirmed']} unconfirmed, "
                     f"{counts['ok']} confirmed."),
         "flagged": counts["wrong"] + counts["unconfirmed"],
