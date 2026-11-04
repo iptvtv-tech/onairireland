@@ -35,6 +35,8 @@ faqs:
 
 Most RTÉ Player problems come down to a handful of causes: a poor connection, an outdated app, a sign-in hiccup, or a programme that simply isn't available to stream. Working through a few basic checks usually clears things up.
 
+If it's a smart TV giving trouble, our [seven fixes for RTÉ Player on a smart TV](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) go through it step by step.
+
 ## RTÉ Player won't load or open
 
 If the app won't open at all, or gets stuck on a loading screen, start with the simplest fix: close the app fully and reopen it. On a phone or tablet, this means removing it from your list of recently used apps rather than just pressing the home button. On a smart TV or streaming device, try turning the device off at the plug for about 30 seconds, then turning it back on.

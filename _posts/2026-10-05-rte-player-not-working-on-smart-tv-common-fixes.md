@@ -35,6 +35,8 @@ faqs:
 
 RTÉ Player usually stops working on a smart TV because of an outdated app, a shaky internet connection, or a temporary server issue on RTÉ's end. Working through a few basic checks in order will solve the problem in most cases.
 
+Using RTÉ Player on a phone, tablet or laptop instead, or stuck on sign-in or a programme you can't find? Our guide to [common RTÉ Player problems](/troubleshooting/rte-player-not-working-common-problems-and-where-to-get-help/) covers those too.
+
 ## Start With the Basics
 
 Before digging into settings, rule out the simple stuff. Restart the TV fully by switching it off at the wall for about 30 seconds rather than just using standby. This clears temporary glitches in the TV's memory and is often enough on its own.
