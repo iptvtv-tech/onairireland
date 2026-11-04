@@ -17,11 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: 'RTÉ Player Not Working? Common Problems and Where to Get Help'
-  category: Troubleshooting
-  brief: 'Common RTÉ Player problems (won''t load, sign-in trouble, buffering, app missing from a device, a programme not available) and general steps that work for any streaming app: restart the app and device, update the app, check the connection. Do not list or explain numbered error codes. Do not say RTÉ recommends a step, and do not give an RTÉ email address or phone number; tell readers to use the help and contact pages in RTÉ Player itself.'
-  pillar: Service Guide
-  whatsapp: false
 - title: How to Get TG4 Player on Your TV
   category: Installation Guides
   brief: Step-by-step setup of TG4 Player on smart TVs, Fire TV, Android/Google TV, Apple TV and casting, and whether TG4 is also on RTÉ Player. Check TG4's own supported-device list.
@@ -38,12 +33,6 @@
   pillar: Service Guide
   video: true
   video_angle: 'Side-by-side comparison of the four main Irish pay-TV packages: channel counts, contract lengths, whether you need their broadband. Verdict: which suits sport fans vs casual viewers.'
-- title: 'Fire TV Stick 4K Select: Is It Worth Buying in Ireland?'
-  category: Devices
-  brief: 'Research-based look at the Fire TV Stick 4K Select and its Vega OS: confirm it is sold in Ireland and whether RTÉ Player, Virgin Media Play, TG4 Player and NOW are available on it. No claims of first-hand testing.'
-  pillar: Device Setup
-  video: true
-  video_angle: 'Based on the blog post: cover the specs, Irish app support and who the Fire Stick 4K Select suits versus cheaper or pricier options.'
 - title: Best Mesh Wi-Fi for Streaming in Irish Homes
   category: Devices
   brief: Explain when mesh Wi-Fi, a range extender, powerline adapters or an Ethernet cable is the right fix for buffering in Irish houses, with product picks from the site's catalogue.
@@ -75,7 +64,7 @@
   whatsapp: false
 - title: Where to Watch Republic of Ireland Football Matches Legally
   category: Sports Streaming
-  brief: Evergreen guide to which Irish broadcasters show the men's and women's national team games and how to stream them. Link to the Sport on TV page for this week's fixtures. Confirm rights before publishing.
+  brief: 'Evergreen guide to watching the men''s and women''s national team games legally. Name a broadcaster only if our checked facts cover it; otherwise say coverage is confirmed before each international window and point readers to the FAI and the Sport on TV page.'
   pillar: Where to Watch
   video: true
   video_angle: 'Evergreen video based on the blog post: which channels show ROI men''s and women''s games, free-to-air vs subscription, and how to get set up to stream them.'
@@ -99,43 +88,19 @@
   video_angle: 'Setup walkthrough based on the blog post: Apple ID, App Store, which Irish apps are available. Callout: anything missing from the Irish App Store. Target: 6-10 min.'
 - title: 'RTÉ Player: The Complete Guide for Irish Viewers'
   category: Streaming Services
-  brief: 'Evergreen guide to RTÉ Player: what''s free, live TV channels, the RTÉ+ paid tier, supported devices in Ireland, sign-up process and known limitations. Check RTÉ''s own site before publishing.'
+  brief: 'Evergreen guide to RTÉ Player: what it is, live channels and catch-up, signing up, and the kinds of devices it runs on. Name a paid tier, device model or channel only if our checked facts cover it; otherwise tell readers to check RTÉ''s own pages.'
   pillar: Service Guide
   video: true
   video_angle: 'Based on the blog post: cover what RTÉ Player includes, the RTÉ+ tier, supported devices and a plain verdict on whether RTÉ+ is worth paying for. Target: 8-12 min.'
-- title: Is NOW TV Worth It in Ireland? (2026 Review)
-  category: Reviews
-  brief: 'Review of NOW TV (Sky''s streaming service) in Ireland: plans, what sport and entertainment each includes, device support, picture quality and value versus a full Sky package. Check NOW''s Irish pricing page before publishing.'
+- title: Is NOW Worth It in Ireland?
+  category: Streaming Services
+  brief: 'Who NOW (Sky''s streaming service, no longer called NOW TV) suits in Ireland: its memberships, what the sport memberships include, and when a full Sky package makes more sense. Membership contents only from our checked facts; prices only from the tracker; no picture-quality or first-hand claims.'
   pillar: Service Guide
   video: true
   video_angle: 'Based on the blog review: cover the passes, pricing, device support and a straight verdict on value versus a full Sky subscription. Target: 8-12 min.'
-- title: 'How to Watch GAA Online in Ireland: GAA+, RTÉ and TG4 Explained'
-  category: Sports Streaming
-  brief: Explain how GAA championship coverage is split between RTÉ Player, TG4 Player and GAA+, what each costs, which games are free and how to subscribe to GAA+. Confirm current rights and GAA+ pricing before publishing.
-  pillar: Where to Watch
-  video: true
-  video_angle: 'Based on the blog post: which games are free-to-air vs GAA+, how to subscribe, and how to get it on a TV. Target: 6-9 min.'
-- title: 'Streaming on a Budget in Ireland: What You Can Watch for Free'
+- title: 'Sky Glass in Ireland: What It Is and Who It Suits'
   category: Streaming Services
-  brief: 'Guide to free legal streaming in Ireland: RTÉ Player, TG4 Player, Virgin Media Play (free tier), All4 and any other free-to-access services. Cover sign-up, device support and content breadth. Confirm free-tier access for each service before publishing.'
-  pillar: Service Guide
-  video: true
-  video_angle: 'Based on the blog post: run through each free service, what''s actually on them and what device you need. Target: 8-10 min.'
-- title: 'Amazon Fire Stick vs Google Chromecast with Google TV: Which Is Better for Ireland?'
-  category: Devices
-  brief: 'Compare the Fire TV Stick and Chromecast with Google TV for Irish users: Irish app support, price, remote, ease of use. Confirm app availability on both platforms before publishing.'
-  pillar: Device Setup
-  video: true
-  video_angle: 'Based on the blog comparison: cover Irish app support, price difference, interface and a clear verdict on which to buy. Target: 8-12 min.'
-- title: 'Sky Glass Review Ireland: Is It Worth It Without a Dish?'
-  category: Reviews
-  brief: 'Review of Sky Glass for Irish homes: what it includes, pricing, whether a dish or broadband contract is required, picture quality and value vs a Sky Q dish. Check Sky Ireland''s own site for current pricing and terms before publishing.'
+  brief: 'What Sky Glass is (a TV with Sky built in, streamed over broadband instead of a dish) and who it suits compared with Sky Stream and a Sky Q dish. No prices, contract terms or picture-quality claims; tell readers to check Sky Ireland''s own pages for those and for whether it''s sold in Ireland.'
   pillar: Service Guide
   video: true
   video_angle: 'Based on the blog review: what Sky Glass includes, what you save versus a dish and a straight answer on whether it makes sense for Irish homes. Target: 10-14 min.'
-- title: How to Fix Buffering on RTÉ Player and Other Irish Streaming Apps
-  category: Troubleshooting
-  brief: 'Practical guide to diagnosing and fixing buffering on Irish streaming apps: broadband speed thresholds, Wi-Fi vs Ethernet, DNS settings, device restarts, app cache clears. No device-specific fixes without confirming they apply.'
-  pillar: Device Setup
-  video: true
-  video_angle: 'Based on the blog post: talk through each fix - speed check, Wi-Fi vs Ethernet, cache clear, router restart - in order of what to try first. Target: 6-9 min.'
