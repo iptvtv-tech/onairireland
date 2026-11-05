@@ -60,7 +60,7 @@ This is where things get interesting. A dedicated streaming device bought separa
 
 The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} is a good example. It's compact, supports 4K where your broadband and content allow, and generally feels snappier navigating between apps than the 360 Box does. For anyone who mostly watches via streaming apps rather than live TV, it's a noticeably smoother experience.
 
-If you'd prefer a platform with a simpler, less cluttered interface, the {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is worth considering too. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
+If you'd prefer a platform with a simpler, less cluttered interface, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is worth considering too. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
 
 Other options worth a mention for completeness include the Fire TV Cube for those who want more power and voice control, or Chromecast if you mostly prefer casting from a phone or tablet rather than using an on-box interface directly.
 
@@ -68,7 +68,7 @@ Other options worth a mention for completeness include the Fire TV Cube for thos
 
 If your household relies heavily on live TV, recording, and Virgin Media's bundled features, the 360 Box still does a reasonable job holding everything together in one place. The convenience factor shouldn't be dismissed, especially for less tech-savvy users in the house.
 
-However, if streaming apps are your primary use case and you're finding menus slow or app support patchy, pairing your existing TV package with a separate streaming device makes sense. You don't need to give up the 360 Box entirely, just plug in a Fire TV Stick or Roku Ultra to a spare HDMI input and switch over when you want a quicker streaming experience.
+However, if streaming apps are your primary use case and you're finding menus slow or app support patchy, pairing your existing TV package with a separate streaming device makes sense. You don't need to give up the 360 Box entirely, just plug in a Fire TV Stick or Roku Streaming Stick Plus to a spare HDMI input and switch over when you want a quicker streaming experience.
 
 ### Final Verdict
 

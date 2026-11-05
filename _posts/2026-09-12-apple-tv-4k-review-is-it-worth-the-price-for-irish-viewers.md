@@ -20,17 +20,17 @@ toc: true
 affiliate_links: true
 quick_facts:
   - Apple TV 4K has the smoothest interface of any streaming box, but costs noticeably more than the alternatives
-  - Fire TV Cube and Roku Ultra offer nearly all the same functionality at a lower price
+  - Fire TV Cube and Roku Streaming Stick Plus offer nearly all the same functionality at a lower price
   - Apple TV 4K makes the most sense if you're already deep into the Apple ecosystem (AirPlay, HomeKit, iPhone integration)
 faqs:
   - question: "Is Apple TV 4K worth the extra cost over a Fire TV Stick or Roku?"
-    answer: "Mainly if you're already using other Apple devices and want tight integration (AirPlay, HomeKit, Handoff). For most households, a Fire TV Cube or Roku Ultra covers the same streaming apps for significantly less money."
+    answer: "Mainly if you're already using other Apple devices and want tight integration (AirPlay, HomeKit, Handoff). For most households, a Fire TV Cube or Roku Streaming Stick Plus covers the same streaming apps for significantly less money."
   - question: "Does Apple TV 4K support RTÉ Player and Irish streaming apps?"
     answer: "Yes — RTÉ Player and all the major Irish streaming services run on Apple TV 4K the same as on other major streaming boxes."
   - question: "What's the main downside of Apple TV 4K?"
     answer: "Price. It costs considerably more than comparable devices from Amazon and Roku, without a proportionally bigger jump in day-to-day streaming capability for non-Apple households."
   - question: "What would you actually recommend instead?"
-    answer: "For most Irish households, the Fire TV Cube offers hands-free voice control and strong performance at a lower price, while the Roku Ultra is the pick for the simplest, most straightforward interface."
+    answer: "For most Irish households, the Fire TV Cube offers hands-free voice control and strong performance at a lower price, while the Roku Streaming Stick Plus is the pick for the simplest, most straightforward interface."
 ---
 
 {% include last-updated.html %}
@@ -61,11 +61,11 @@ For everyone else, two alternatives cover nearly identical ground for less money
 
 {% include product-showcase.html category="Reviews" title="Better Value Alternatives" %}
 
-The **[Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/)** adds hands-free voice control and strong performance at a noticeably lower price point, while the **Roku Ultra** is the pick if you want the simplest possible remote and menu system — both run every app an Apple TV 4K does.
+The **[Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/)** adds hands-free voice control and strong performance at a noticeably lower price point, while the **Roku Streaming Stick Plus** is the pick if you want the simplest possible remote and menu system — both run every app an Apple TV 4K does.
 
 ## The Bottom Line
 
-Apple TV 4K isn't overpriced for what it is — it's a premium device priced like one. Whether that premium is worth it comes down to whether you're already invested in Apple's ecosystem. If you're not, a Fire TV Cube or Roku Ultra gets you the same streaming apps for meaningfully less.
+Apple TV 4K isn't overpriced for what it is — it's a premium device priced like one. Whether that premium is worth it comes down to whether you're already invested in Apple's ecosystem. If you're not, a Fire TV Cube or Roku Streaming Stick Plus gets you the same streaming apps for meaningfully less.
 
 {% include related-posts.html %}
 

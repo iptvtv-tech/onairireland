@@ -58,7 +58,7 @@ If you're using a **Fire TV Stick**, Apple TV+ is available directly from the Am
 
 Google TV devices, including the Google TV Streamer and older Chromecast with Google TV models, also support the Apple TV app directly, with a similar setup process — download from the on-device store, sign in, and you're ready to go.
 
-If your main viewing setup involves a satellite or digital TV box rather than a dedicated streaming stick, it's worth checking whether smart apps are supported on that hardware, or whether you'll need to run a separate streaming device alongside it. Some households pair an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} for regular channels with a separate streaming stick for on-demand apps like Apple TV+, which keeps things simple without needing a full smart TV upgrade.
+If your main viewing setup involves a satellite or digital TV box rather than a dedicated streaming stick, it's worth checking whether smart apps are supported on that hardware, or whether you'll need to run a separate streaming device alongside it. Some households pair an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} for free-to-air UK channels with a separate streaming stick for on-demand apps like Apple TV+, which keeps things simple without needing a full smart TV upgrade.
 
 Most modern smart TVs — LG, Samsung, and Sony among them — also have the Apple TV+ app built into their own app stores, so it's worth checking your TV's native app menu before buying any additional hardware.
 

@@ -68,7 +68,7 @@ We won't quote an exact price here, as Amazon pricing and occasional sale discou
 
 ### How It Compares to Other Options
 
-If voice control isn't a priority and you mainly want strong 4K performance, the {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is another device worth comparing, offering a dedicated remote finder feature and a straightforward, ad-light interface that some viewers find less cluttered than Fire TV's homepage.
+If voice control isn't a priority and you mainly want strong 4K performance, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is another device worth comparing, offering a straightforward, ad-light interface that some viewers find less cluttered than Fire TV's homepage.
 
 A basic Chromecast remains a solid budget-friendly option too, particularly for those who mostly cast from a phone or tablet rather than navigating a traditional on-screen menu.
 
@@ -76,7 +76,7 @@ A basic Chromecast remains a solid budget-friendly option too, particularly for 
 
 The Fire TV Cube is a genuinely well-built device, and the hands-free Alexa functionality is its standout feature rather than an afterthought. But for many Irish viewers, especially those who already own a Fire TV Stick 4K Max, the practical day-to-day streaming experience won't feel dramatically different.
 
-If voice convenience matters a lot to you, or you've grown tired of hunting for remotes, the Cube is a worthwhile upgrade. If you mainly want smooth, reliable access to Irish and international streaming apps, a Stick or the Roku Ultra will likely serve you just as well for less money.
+If voice convenience matters a lot to you, or you've grown tired of hunting for remotes, the Cube is a worthwhile upgrade. If you mainly want smooth, reliable access to Irish and international streaming apps, a Stick or the Roku Streaming Stick Plus will likely serve you just as well for less money.
 
 {% include product-showcase.html category="Reviews" %}
 

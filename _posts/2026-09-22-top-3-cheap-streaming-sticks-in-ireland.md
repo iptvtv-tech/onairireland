@@ -52,11 +52,11 @@ Setup is straightforward: plug it into an HDMI port, connect the included power 
 
 One thing worth checking after setup is that your Amazon account's country setting matches Ireland, as this affects which apps and content rows appear on the home screen by default. This can usually be checked or corrected in the account settings menu on the device itself, or via Amazon's own help pages if something looks off.
 
-## 2. Roku Ultra
+## 2. Roku Streaming Stick Plus
 
-The {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is a strong choice for anyone who wants a simple, no-fuss interface that doesn't push one particular streaming service over another. Unlike some competitors, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s home screen is fairly neutral, just a grid of app icons, which some users find easier to navigate.
+The {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is a strong choice for anyone who wants a simple, no-fuss interface that doesn't push one particular streaming service over another. Unlike some competitors, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s home screen is fairly neutral, just a grid of app icons, which some users find easier to navigate.
 
-The Ultra model supports 4K and HDR playback and typically includes a more premium remote with a headphone jack for private listening, along with better WiFi hardware than Roku's cheaper models. It's a good pick for larger homes where the streaming device might sit a bit further from the router.
+The Streaming Stick Plus supports 4K and HDR playback and plugs straight into a spare HDMI port, so there's no separate box to find a place for.
 
 Setup involves connecting it to power and HDMI, then creating or signing into a Roku account through your phone or computer, as the on-screen setup often asks you to visit a short web link to finish account linking. Once done, Irish apps like RTÉ Player and Virgin Media Play (availability may vary, so it's worth checking the Roku Channel Store directly) can be added from the channel store.
 
@@ -76,7 +76,7 @@ Regardless of which stick you choose, a few basics make a noticeable difference:
 
 ## Which One Should You Choose?
 
-If you want the most powerful all-rounder with strong app support, the Fire TV Stick 4K Max is hard to beat. If you prefer a clean, brand-neutral interface, the Roku Ultra is a great alternative. And if you live in Google's ecosystem, the Google TV Streamer is worth a look — or use your TV's built-in casting if it has it.
+If you want the most powerful all-rounder with strong app support, the Fire TV Stick 4K Max is hard to beat. If you prefer a clean, brand-neutral interface, the Roku Streaming Stick Plus is a great alternative. And if you live in Google's ecosystem, the Google TV Streamer is worth a look — or use your TV's built-in casting if it has it.
 
 Prices and exact specs can shift over time, so it's worth double-checking current pricing and features on the retailer's page before buying.
 

@@ -23,7 +23,7 @@ faqs:
   - question: "Can I use Netflix and Disney+ through the Vodafone TV box?"
     answer: "Yes, Vodafone TV generally integrates popular streaming apps into its main interface, though exact app availability should be confirmed with Vodafone as it can change."
   - question: "Is a separate streaming device better than a bundled TV box?"
-    answer: "It depends on your viewing habits; if you mainly use on-demand apps rather than live TV, a standalone device like a Fire TV Stick or Roku Ultra can offer a simpler, often cheaper setup."
+    answer: "It depends on your viewing habits; if you mainly use on-demand apps rather than live TV, a standalone device like a Fire TV Stick or Roku Streaming Stick Plus can offer a simpler, often cheaper setup."
   - question: "Why does my streaming app say content isn't available in my region?"
     answer: "This is usually due to your account's registered region or the app store region on your device, so check your account settings or contact the streaming service's support team for help."
 ---
@@ -56,7 +56,7 @@ This is the bigger question for a lot of households in 2026. If most of your vie
 
 For example, a {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} plugs into any TV's HDMI port and gives you a single home screen for most Irish streaming apps, along with reasonably fast navigation and voice search. It won't give you live linear channels the way a Vodafone or Virgin box does, but for on-demand-first households it's a much cheaper way to get a modern interface.
 
-If you'd rather avoid Amazon's ecosystem, the {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is another solid option, with a simple menu structure and support for the main Irish streaming apps, plus decent remote-finding features if that's ever been an issue in your house. A Chromecast or Fire TV Cube are also worth a look if you specifically want voice control or a hands-free setup, though for most people a straightforward stick covers the basics fine.
+If you'd rather avoid Amazon's ecosystem, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is another solid option, with a simple menu structure and support for the main Irish streaming apps. A Chromecast or Fire TV Cube are also worth a look if you specifically want voice control or a hands-free setup, though for most people a straightforward stick covers the basics fine.
 
 ### Who Vodafone TV Still Suits
 

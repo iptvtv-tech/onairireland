@@ -63,7 +63,7 @@ If you're setting up a TV for the first time or replacing an older box, the {% i
 
 Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another well-regarded choice, particularly if you like Roku's straightforward menu system and want a device that's easy for less tech-confident family members to navigate. Both options support RTÉ Player natively, so it really comes down to personal preference on interface.
 
-If your household relies more on a traditional satellite setup and you're less interested in streaming apps generally, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} can still let you watch RTÉ One as it broadcasts, though you'd miss out on the on-demand flexibility that RTÉ Player offers for catching up on missed episodes.
+If your household prefers traditional live TV and you're less interested in streaming apps generally, RTÉ One is free with an aerial and a Saorview box (see [2RN's Saorview page](https://www.2rn.ie/broadcast/saorview-digital-tv/)), though you'd miss out on the on-demand flexibility that RTÉ Player offers for catching up on missed episodes.
 
 ### A Quick Note on Smart TVs
 

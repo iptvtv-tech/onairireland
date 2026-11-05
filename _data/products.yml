@@ -103,13 +103,12 @@
   affiliate_link: "https://amzn.to/4j6UWJc"
 
 - id: roku-ultra-review
-  name: "Roku Ultra"
+  name: "Roku Streaming Stick Plus (4K)"
   category: "Devices"
   show_on: ["Reviews"]
-  image: "/assets/images/products/streaming-box.svg"
-  price: "€49.99"
-  badge: "Premium Pick"
-  blurb: "Roku's top-tier model — faster processor, Dolby Vision/Atmos support, and a lost-remote finder button, reviewed as the best of the Roku lineup."
+  image: "/assets/images/products/streaming-stick-alt.svg"
+  badge: "Simple Interface"
+  blurb: "Roku's 4K streaming stick, with a simple home screen that doesn't push one service over another."
   affiliate_link: "https://amzn.to/4hbNJFw"
 
 - id: soundbar-budget
@@ -210,7 +209,7 @@
   affiliate_link: "https://www.amazon.ie/dp/B07R7WNJH7?tag=onairireland-21"
 
 - id: bluetooth-speaker
-  name: "Portable Bluetooth Speaker"
+  name: "JBL Go 5 Portable Bluetooth Speaker"
   category: "Devices"
   show_on: ["Streaming Services"]
   image: "/assets/images/products/speaker.svg"
@@ -238,13 +237,12 @@
   affiliate_link: "https://www.amazon.ie/dp/B0F9B2NRTN?tag=onairireland-21"
    
 - id: satellite_receiver
-  name: "HD Satellite Receiver"
+  name: "Edision Proton S2 Plus Satellite Receiver"
   category: "Installation Guides"
   show_on: ["Watch Guides"]
   image: "/assets/images/products/satellite-receiver.svg"
-  price: "€22.99"
-  badge: "Budget Pick"
-  blurb: "A free-to-air HD satellite receiver. It ships tuned to Astra 19.2E, and after a factory reset it can be retuned to Astra 28.2E for free-to-air Irish and UK channels."
+  badge: "Free-to-Air"
+  blurb: "A free-to-air HD satellite receiver. With a dish pointed at Astra 28.2E it picks up free UK channels such as BBC and ITV. It doesn't receive RTÉ, TG4 or Sky's paid channels."
   affiliate_link: "https://amzn.to/4hibfjU" 
 
 - id: hdmi-extender-adapter

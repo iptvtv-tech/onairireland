@@ -56,7 +56,7 @@ Wi-Fi 6 is another consideration. If your broadband router supports Wi-Fi 6 and 
 
 ### How It Compares To Other Options
 
-It's not the only device worth considering. The {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is a solid alternative, particularly if you want a device-agnostic interface that doesn't push Amazon's own services quite as heavily. Roku's menu system tends to be simpler and less cluttered with promotional tiles, which some users prefer.
+It's not the only device worth considering. The {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is a solid alternative, particularly if you want a device-agnostic interface that doesn't push Amazon's own services quite as heavily. Roku's menu system tends to be simpler and less cluttered with promotional tiles, which some users prefer.
 
 The Fire TV Cube is worth a mention too, if you want hands-free voice control and slightly more processing power again, though it's a bigger investment and requires more space near your TV.
 

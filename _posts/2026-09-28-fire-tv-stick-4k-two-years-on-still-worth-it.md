@@ -55,7 +55,7 @@ If you already own the standard 4K stick and it's working fine for your needs, t
 
 ## Is a Non-Amazon Device Worth Considering Instead?
 
-Not everyone wants to stay inside Amazon's ecosystem, and that's a fair position. The {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is a strong alternative for Irish households, offering a simpler, less ad-heavy home screen and solid app support for the main Irish and UK streaming services. It's a good option for anyone who finds Amazon's Fire TV interface too pushy about its own content, or who just prefers Roku's more neutral menu layout.
+Not everyone wants to stay inside Amazon's ecosystem, and that's a fair position. The {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is a strong alternative for Irish households, offering a simpler, less ad-heavy home screen and solid app support for the main Irish and UK streaming services. It's a good option for anyone who finds Amazon's Fire TV interface too pushy about its own content, or who just prefers Roku's more neutral menu layout.
 
 There's no universally "right" answer here — it comes down to whether you want tight integration with Prime Video and Alexa (Fire TV) or a cleaner, more app-agnostic interface (Roku).
 
@@ -63,7 +63,7 @@ There's no universally "right" answer here — it comes down to whether you want
 
 For most casual viewers — people streaming a few hours an evening, using a handful of apps, not fussed about ultra-fast menu navigation — the two-year-old Fire TV Stick 4K remains perfectly serviceable. It supports the same picture and sound quality standards as before, and Amazon continues to push software updates to it.
 
-Where an upgrade makes more sense is if you've noticed real slowdown, if you're a heavier multitasker switching apps constantly, or if you're setting up a second TV and buying new anyway. In those cases, spending a little more for the Max version, or considering a Roku Ultra, will likely feel like a worthwhile improvement.
+Where an upgrade makes more sense is if you've noticed real slowdown, if you're a heavier multitasker switching apps constantly, or if you're setting up a second TV and buying new anyway. In those cases, spending a little more for the Max version, or considering a Roku Streaming Stick Plus, will likely feel like a worthwhile improvement.
 
 ## A Quick Note on Region and App Availability
 

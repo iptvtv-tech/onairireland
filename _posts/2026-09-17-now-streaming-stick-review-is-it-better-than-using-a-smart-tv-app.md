@@ -60,7 +60,7 @@ The usual reason is that purpose-built streaming devices tend to get software up
 
 It's worth putting the NOW stick in context against other well-known streaming devices on the Irish market. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} is a strong all-rounder if you want one device to handle NOW alongside other streaming apps, and its interface is generally quicker than most built-in smart TV menus.
 
-If you'd rather have a remote with a simpler, less cluttered menu, the {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} is another solid option - [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s platform tends to be less pushy about promoting its own content over what you actually want to watch. Fire TV Cube and the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) are also worth a look if you're shopping around.
+If you'd rather have a remote with a simpler, less cluttered menu, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is another solid option - [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s platform tends to be less pushy about promoting its own content over what you actually want to watch. Fire TV Cube and the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) are also worth a look if you're shopping around.
 
 ## Remote Control and Usability
 
@@ -74,7 +74,7 @@ We'd rather not quote a specific price here, as promotional pricing and bundle d
 
 If your smart TV is a few years old, or you've noticed the built-in NOW app feeling slow, the dedicated stick is a worthwhile upgrade - it's a small outlay for noticeably smoother viewing. If your TV is fairly new and its apps already run well, you probably won't see enough of a difference to justify buying extra hardware.
 
-For households wanting one device to handle NOW plus a broader range of Irish and UK streaming apps, a general-purpose device like Fire TV Stick or Roku Ultra is worth comparing before you commit.
+For households wanting one device to handle NOW plus a broader range of Irish and UK streaming apps, a general-purpose device like Fire TV Stick or Roku Streaming Stick Plus is worth comparing before you commit.
 
 {% include product-showcase.html category="Reviews" %}
 

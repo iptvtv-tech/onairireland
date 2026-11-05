@@ -44,7 +44,7 @@ In Ireland, HBO content typically reaches us through Sky, and that's the case he
 
 If you're going the NOW route, you'll need at least a **NOW Entertainment Membership** to access it, since this is where Sky Atlantic's on-demand content lives on the platform. If you already have a broader NOW package that includes Entertainment, you're covered. It's always worth double-checking your specific membership tier in the NOW app or on the NOW website before you settle in, as package names and what they include can shift over time.
 
-If you're a longtime Sky customer with a satellite setup, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} is still a solid way to make sure you're getting the full high-definition Sky Atlantic feed, particularly if your existing box is getting on in years.
+If you're a longtime Sky customer with a satellite setup, Sky Atlantic comes through your Sky box. A standard free-to-air satellite receiver can't show Sky's channels, so if your box is getting on in years, ask Sky about an upgrade.
 
 ### Confirming Availability
 

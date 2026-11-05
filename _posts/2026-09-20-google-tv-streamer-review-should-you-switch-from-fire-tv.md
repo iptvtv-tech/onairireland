@@ -60,7 +60,7 @@ Remote controls are broadly similar too, both include voice search, a mic button
 
 ### Where Roku Fits In
 
-It's also worth mentioning Roku as a third option, since it's gained a bit more of a foothold in Ireland recently. The {% include product-link.html id="roku-ultra-review" text="Roku Ultra" %} has a reputation for a clean, ad-light home screen compared to Fire TV, along with solid remote range and a headphone jack on the remote itself for private listening. If you find Fire TV's advertising tiles a bit much and don't fancy Google TV's ecosystem, Roku is a genuine third path.
+It's also worth mentioning Roku as a third option, since it's gained a bit more of a foothold in Ireland recently. The {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} has a reputation for a clean, ad-light home screen compared to Fire TV. If you find Fire TV's advertising tiles a bit much and don't fancy Google TV's ecosystem, Roku is a genuine third path.
 
 ### Should You Switch?
 
