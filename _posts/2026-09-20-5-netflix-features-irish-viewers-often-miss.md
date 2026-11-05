@@ -36,7 +36,7 @@ faqs:
  
 ## 5 Netflix Features Irish Viewers Often Miss
 
-Most of us have had a Netflix account for years at this point, yet plenty of useful tools hiding in the app go unnoticed. Whether you're watching on a smart TV, a laptop, or a {% include product-link.html id="soundbar-budget" text="Fire TV Stick" %} plugged into the back of the telly, these features are worth a look.
+Most of us have had a Netflix account for years at this point, yet plenty of useful tools hiding in the app go unnoticed. Whether you're watching on a smart TV, a laptop, or a {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} plugged into the back of the telly, these features are worth a look.
 
 ### 1. Profile Transfer
 
@@ -52,7 +52,7 @@ Beyond simply turning subtitles on or off, Netflix lets you adjust subtitle text
 
 ### 4. Skip Recap and Skip Intro Controls
 
-The "Skip Intro" button is well known at this stage, but fewer people know you can also skip the "Previously On" recap segments on many series, and on some shows there's an option to auto-skip intros permanently rather than tapping every episode. Look for this under playback settings on supported devices. If you're watching through a {% include product-link.html id="soundbar-budget" text="Roku" %} or similar streaming device, these buttons should appear directly in the player, but placement can vary slightly by app version.
+The "Skip Intro" button is well known at this stage, but fewer people know you can also skip the "Previously On" recap segments on many series, and on some shows there's an option to auto-skip intros permanently rather than tapping every episode. Look for this under playback settings on supported devices. If you're watching through a {% include product-link.html id="roku-streaming-stick-4k" text="Roku" %} or similar streaming device, these buttons should appear directly in the player, but placement can vary slightly by app version.
 
 ### 5. Household and Location Settings
 

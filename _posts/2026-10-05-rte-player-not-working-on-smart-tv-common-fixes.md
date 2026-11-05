@@ -62,7 +62,7 @@ A few options worth considering:
 - Switch to a {% include product-link.html id="mesh-wifi-troubleshoot" text="Mesh Wi-Fi System" %} if multiple rooms in the house have patchy coverage.
 - Run a {% include product-link.html id="ethernet-cable-troubleshoot" text="Long Ethernet Cable" %} directly from the router to the TV for the most stable connection, especially if you're in an older house with thick walls.
 
-For streaming sticks or boxes without a built-in Ethernet port, an {% include product-link.html id="fire-tv-ethernet-adapter" text="Amazon Ethernet Adapter for Fire TV" %} lets you connect by cable instead of relying on Wi-Fi, which can noticeably reduce buffering.
+For streaming sticks or boxes without a built-in Ethernet port, an {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %} lets you connect by cable instead of relying on Wi-Fi, which can noticeably reduce buffering.
 
 If running a cable isn't practical, a {% include product-link.html id="powerline-adapters" text="Powerline Adapter Kit" %} uses your home's electrical wiring to carry a network signal between rooms, which is a reasonable middle ground between Wi-Fi and a full Ethernet run.
 

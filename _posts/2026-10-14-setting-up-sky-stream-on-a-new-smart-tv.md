@@ -79,7 +79,7 @@ Once setup is complete, test a few channels and on-demand options to confirm eve
 
 ## A Note on Free-to-Air Backup
 
-Some households like having a free-to-air option as a backup during broadband outages or for channels not included in their package. A {% include product-link.html id="saorview-set-top-box" text="Saorview Set-Top Box" %} connected to a separate HDMI input can provide this without interfering with your Sky Stream setup.
+Some households like having a free-to-air option as a backup during broadband outages or for channels not included in their package. A Saorview-approved set-top box (see [2RN's Saorview page](https://www.2rn.ie/broadcast/saorview-digital-tv/)) connected to a separate HDMI input can provide this without interfering with your Sky Stream setup.
 
 {% include product-showcase.html category="Installation Guides" %}
 

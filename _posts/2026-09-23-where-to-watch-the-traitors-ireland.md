@@ -61,7 +61,7 @@ RTÉ Player works well across most modern streaming devices and smart TVs, so yo
 
 If you're setting up a TV for the first time or replacing an older box, the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option that plugs straight into your TV's HDMI port and gives you access to the RTÉ Player app alongside all the other major streaming apps you might use. It's simple to set up and works over your home Wi-Fi.
 
-Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another well-regarded choice, particularly if you like Roku's straightforward menu system and want a device that's easy for less tech-confident family members to navigate. Both options support RTÉ Player natively, so it really comes down to personal preference on interface.
+Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another well-regarded choice, particularly if you like Roku's straightforward menu system and want a device that's easy for less tech-confident family members to navigate. Both options support RTÉ Player natively, so it really comes down to personal preference on interface.
 
 If your household relies more on a traditional satellite setup and you're less interested in streaming apps generally, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} can still let you watch RTÉ One as it broadcasts, though you'd miss out on the on-demand flexibility that RTÉ Player offers for catching up on missed episodes.
 

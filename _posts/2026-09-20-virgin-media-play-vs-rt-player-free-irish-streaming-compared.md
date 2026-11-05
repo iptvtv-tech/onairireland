@@ -58,7 +58,7 @@ If you ever hit a "content not available" message on either app, it's worth chec
 
 ## Which Devices Handle Them Best
 
-Both apps are available on smart TVs directly, but a lot of households prefer running them through a dedicated streaming device instead, especially on older TVs. A {% include product-link.html id="soundbar-budget" text="Fire TV Stick" %} type device (note: that particular link is actually for a soundbar — see below) tends to handle both apps smoothly, and a Fire TV Cube is a good option if you want a bit more power for multitasking between apps.
+Both apps are available on smart TVs directly, but a lot of households prefer running them through a dedicated streaming device instead, especially on older TVs. A {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} or similar device tends to handle both apps smoothly, and a Fire TV Cube is a good option if you want a bit more power for multitasking between apps.
 
 Roku devices also run both Irish apps well and have a reputation for a clean, simple interface that's easy for less tech-confident family members to navigate. Chromecast is another solid budget option, particularly if you're already used to casting from your phone.
 

@@ -25,7 +25,7 @@ faqs:
   - question: "Why does my Netflix account show different content than expected?"
     answer: "This is usually due to your account's country or billing settings not matching your actual location, which can be checked and corrected in Netflix's Account settings."
   - question: "What's the best device for streaming Netflix if my smart TV is slow?"
-    answer: "A dedicated streaming device like the Amazon Fire TV Stick 4K or Roku Streaming Stick 4K can significantly improve app speed and reliability compared to an older smart TV's built-in apps."
+    answer: "A dedicated streaming device like the Amazon Fire TV Stick 4K or Roku Streaming Stick Plus can significantly improve app speed and reliability compared to an older smart TV's built-in apps."
 ---
  
 {% include last-updated.html %}
@@ -57,7 +57,7 @@ Netflix works across almost every modern streaming device, smart TV, games conso
 
 The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option that plugs straight into an HDMI port and gives you fast access to the Netflix app, along with support for 4K and HDR if your broadband and TV can handle it. It's a popular choice for Irish households upgrading an older television without replacing the whole set.
 
-If you'd rather go with a different ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another dependable pick. Roku's interface is straightforward, the Netflix app is well supported, and it's a good option for anyone who wants a simple, no-fuss menu system rather than one built around a specific voice assistant or shopping platform.
+If you'd rather go with a different ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another dependable pick. Roku's interface is straightforward, the Netflix app is well supported, and it's a good option for anyone who wants a simple, no-fuss menu system rather than one built around a specific voice assistant or shopping platform.
 
 Other solid options include the Fire TV Cube for a more powerful, voice-controlled experience, or a Chromecast if you mostly want to cast Netflix from your phone or tablet rather than navigate a separate on-screen interface. Whichever device you choose, make sure it's running the latest software update, as this can resolve playback hiccups or missing app features.
 

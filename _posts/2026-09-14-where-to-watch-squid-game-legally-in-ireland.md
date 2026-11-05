@@ -61,7 +61,7 @@ Netflix's app is about as widely supported as streaming apps get, but the experi
 
 The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice for Irish households because it's inexpensive, simple to set up, and supports 4K and HDR playback where your internet connection and Netflix plan allow for it. It plugs directly into an HDMI port and gets you into the Netflix app in a couple of minutes.
 
-Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another solid option, particularly if you prefer a simpler, less cluttered interface. Roku devices are known for being straightforward, with quick access to Netflix and other major apps without a lot of extra menus to navigate.
+Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another solid option, particularly if you prefer a simpler, less cluttered interface. Roku devices are known for being straightforward, with quick access to Netflix and other major apps without a lot of extra menus to navigate.
 
 Beyond dedicated streaming sticks, Netflix also works on most modern smart TVs, games consoles, and mobile devices through the official app, so there's a good chance you already own something capable of playing it without buying anything new.
 

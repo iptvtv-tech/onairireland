@@ -23,7 +23,7 @@ faqs:
   - question: "Why does a movie sometimes show as unavailable in my region even after release?"
     answer: "This is usually due to account region settings, app store region mismatches, or outdated cached data, rather than anything being wrong with the film's licensing."
   - question: "What's the easiest device for streaming movies in Ireland?"
-    answer: "A simple plug-in device like the Fire TV Stick 4K or Roku Streaming Stick 4K works well for most homes and supports all the major Irish streaming apps."
+    answer: "A simple plug-in device like the Fire TV Stick 4K or Roku Streaming Stick Plus works well for most homes and supports all the major Irish streaming apps."
   - question: "Can I buy or rent The Odyssey digitally before it hits a subscription service?"
     answer: "Many big releases appear as a paid rental or purchase option on platforms like Prime Video or Sky Store before joining a subscription library, so it's worth checking those listings."
 ---
@@ -59,7 +59,7 @@ Whenever The Odyssey does become available to rent, buy, or stream, having the r
 
 **Fire TV Stick 4K** — a compact and affordable way to add all the major streaming apps to any HDMI-equipped television. It's worth having a browse of the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} if you want a simple upgrade that supports 4K and HDR playback on supported titles.
 
-**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is a popular choice for exactly this reason.
+**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a popular choice for exactly this reason.
 
 **Fire TV Cube** — for anyone who wants a more powerful, hands-free option with built-in voice control, this sits a notch above the standard Stick.
 

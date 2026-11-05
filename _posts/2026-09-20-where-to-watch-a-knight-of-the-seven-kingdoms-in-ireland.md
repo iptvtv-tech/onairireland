@@ -25,7 +25,7 @@ faqs:
   - question: "What should I do if the show isn't showing up in my NOW app?"
     answer: "Check that your membership includes Entertainment content, make sure the app is updated, and contact NOW's customer support if the issue persists."
   - question: "Which streaming device is best for watching NOW in Ireland?"
-    answer: "Both the Fire TV Stick 4K and Roku Streaming Stick 4K support the NOW app reliably and are popular choices among Irish viewers."
+    answer: "Both the Fire TV Stick 4K and Roku Streaming Stick Plus support the NOW app reliably and are popular choices among Irish viewers."
 ---
  
 {% include last-updated.html %}
@@ -56,7 +56,7 @@ The NOW app is broadly available across most modern streaming devices and smart 
 
 The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice in Irish households, plugging directly into your TV's HDMI port and giving you fast access to the NOW app alongside everything else you're likely already using, from other streaming services to catch-up TV apps. It supports 4K and HDR playback, which is handy if your broadband speeds and TV can make use of it.
 
-Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
+Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
 
 [Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) and Chromecast are also worth considering if you're comparing devices, particularly if you already use other products in either ecosystem, since app support for NOW should be consistent across these mainstream streaming devices. Whichever you choose, just make sure the NOW app is downloaded from your device's own app store while your account and device are both set to the correct region.
 

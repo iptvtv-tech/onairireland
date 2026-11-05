@@ -54,7 +54,7 @@ The good news is that Apple TV+ has a genuinely broad reach when it comes to dev
 
 If you're using a **Fire TV Stick**, Apple TV+ is available directly from the Amazon Appstore on the device. The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option if you're setting up a spare room TV or replacing an older streaming device, and it handles the Apple TV+ app smoothly alongside everything else you'd expect, like Netflix and Prime Video.
 
-[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices also support Apple TV+ natively through the Roku Channel Store. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
+[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices also support Apple TV+ natively through the Roku Channel Store. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
 
 Google TV devices, including the Google TV Streamer and older Chromecast with Google TV models, also support the Apple TV app directly, with a similar setup process — download from the on-device store, sign in, and you're ready to go.
 

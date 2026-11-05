@@ -42,7 +42,7 @@ If you're setting up a telly for streaming and don't fancy the built-in smart TV
 
 [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/)s tend to be widely stocked in Ireland through Amazon and most major electronics retailers, with frequent sales around events like Black Friday. The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is generally the mid-range option in the lineup, sitting between the cheaper HD-only stick and the pricier Fire TV Cube.
 
-Roku devices, including the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %}, are also available to Irish shoppers, though historically Roku has had a smaller retail footprint in Ireland compared to the UK or US. It's worth checking current stock and pricing directly, as availability can shift more than it does with Amazon's own hardware.
+Roku devices, including the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %}, are also available to Irish shoppers, though historically Roku has had a smaller retail footprint in Ireland compared to the UK or US. It's worth checking current stock and pricing directly, as availability can shift more than it does with Amazon's own hardware.
 
 We won't quote exact euro prices here since they change regularly with sales and stock levels — always check the current listing before buying.
 

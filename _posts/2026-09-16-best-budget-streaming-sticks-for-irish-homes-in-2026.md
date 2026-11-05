@@ -52,11 +52,11 @@ If you're happy to spend a little more for noticeably smoother performance, the 
 
 For households that want one device to handle everything, including some smart home control, the Amazon Fire TV Cube sits a step above stick territory. It costs more than a basic stick, so it's not strictly "budget," but it's worth knowing about if you're weighing up whether to spend a bit extra.
 
-### Roku Express and Roku Streaming Stick 4K
+### Roku Express and Roku Streaming Stick Plus
 
 [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) has a smaller footprint in Ireland compared to the UK or US, but its devices are still available here and worth considering. The Roku Express is generally the cheaper entry point, with a simpler interface that some viewers find easier to navigate than Fire TV's more ad-heavy home screen.
 
-Stepping up, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} adds sharper picture support and a better remote. Roku's interface tends to be less cluttered with promotional tiles, which some readers may prefer, though app availability for Irish-specific services should always be double-checked before buying, as this can vary and change over time.
+Stepping up, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} adds sharper picture support and a better remote. Roku's interface tends to be less cluttered with promotional tiles, which some readers may prefer, though app availability for Irish-specific services should always be double-checked before buying, as this can vary and change over time.
 
 ### Google TV Options
 

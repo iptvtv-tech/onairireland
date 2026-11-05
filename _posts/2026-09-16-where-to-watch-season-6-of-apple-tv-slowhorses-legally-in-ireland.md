@@ -40,7 +40,7 @@ Once you have an Apple TV subscription, having the right hardware makes a real d
 
 The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option that plugs straight into your TV's HDMI port and gives you access to all the major streaming apps in one place, with regular software updates and support for 4K and HDR where your subscription and broadband allow it. It's a popular choice for Irish homes precisely because it's simple to set up and doesn't require any technical know-how.
 
-If you'd prefer an alternative, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another well-regarded option, known for its clean, straightforward interface and broad app support. Roku devices tend to be praised for how easy they make it to search across multiple services at once, which is handy when you're juggling several subscriptions.
+If you'd prefer an alternative, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another well-regarded option, known for its clean, straightforward interface and broad app support. Roku devices tend to be praised for how easy they make it to search across multiple services at once, which is handy when you're juggling several subscriptions.
 
 Fire TV Cube is worth a look too if you want a more powerful, voice-controlled option with faster processing, while the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced Chromecast) suits Android households. Whichever device you choose, make sure its app store is up to date, as streaming apps are updated frequently and an outdated version can cause playback issues or missing content.
 

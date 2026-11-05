@@ -23,7 +23,7 @@ faqs:
   - question: "Why does an app say The Whisper Man isn't available in my region?"
     answer: "This is usually due to account region settings, an app store registered to a different country, or the title simply not being licensed for Ireland yet."
   - question: "What's the best streaming device for watching new movie releases?"
-    answer: "Both the Amazon Fire TV Stick 4K and Roku Streaming Stick 4K are reliable, affordable options with easy access to all major streaming apps."
+    answer: "Both the Amazon Fire TV Stick 4K and Roku Streaming Stick Plus are reliable, affordable options with easy access to all major streaming apps."
   - question: "Can I rent The Whisper Man instead of waiting for a subscription service?"
     answer: "Possibly — digital storefronts like Prime Video sometimes offer newer films for rental or purchase before they appear on subscription platforms, so it's worth checking there too."
 ---
@@ -62,7 +62,7 @@ Once you know which service has The Whisper Man, having the right streaming devi
 
 The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/). Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
 
-If you'd rather avoid Amazon's ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another excellent option. Roku's interface is famously straightforward, laying out all your installed apps on one home screen without pushing its own content too aggressively. It supports 4K and HDR playback too, so picture quality won't be a letdown on a modern television.
+If you'd rather avoid Amazon's ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another excellent option. Roku's interface is famously straightforward, laying out all your installed apps on one home screen without pushing its own content too aggressively. It supports 4K and HDR playback too, so picture quality won't be a letdown on a modern television.
 
 For households still relying on satellite for some channels while dipping into streaming apps, an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} can help bridge the gap, letting you keep traditional viewing habits alongside newer on-demand options.
 

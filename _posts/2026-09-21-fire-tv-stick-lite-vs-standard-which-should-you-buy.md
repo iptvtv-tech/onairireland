@@ -66,7 +66,7 @@ If this is your first streaming stick and your TV remote already works fine for 
 
 If you'd like one remote for everything, or you're setting up a main living room TV, the standard Fire TV Stick's added remote functions are a worthwhile upgrade for a small price difference. And if your main TV is 4K, it's worth stepping up to the {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} instead of either Lite or standard model.
 
-It's also fair to shop around device brands rather than assuming Fire TV is automatically the right fit. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} offers a similarly straightforward interface with its own remote finder feature, while Chromecast options suit households already leaning on Google services for search and casting. None of these are objectively "better" across the board — it depends on which ecosystem and remote habits suit your home.
+It's also fair to shop around device brands rather than assuming Fire TV is automatically the right fit. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} offers a similarly straightforward interface with its own remote finder feature, while Chromecast options suit households already leaning on Google services for search and casting. None of these are objectively "better" across the board — it depends on which ecosystem and remote habits suit your home.
 
 Whichever stick you choose, make sure your home broadband can comfortably handle streaming in the room you're watching in — a weak signal causes far more buffering complaints than any device choice does.
 

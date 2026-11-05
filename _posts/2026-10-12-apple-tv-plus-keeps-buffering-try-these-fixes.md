@@ -49,7 +49,7 @@ Irish broadband, particularly on older DSL or fixed wireless connections, can sl
 
 A weak Wi-Fi signal is one of the most common causes of buffering, especially if your router is on a different floor or at the far end of the house from your TV. Smart TVs and streaming boxes often have less sensitive Wi-Fi antennas than phones or laptops, so a connection that feels fine on your mobile might still struggle on the television.
 
-Moving the router closer, or adding a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi Range Extender" %} near the TV, can noticeably improve reliability. For larger or multi-storey homes, a {% include product-link.html id="mesh-wifi-troubleshoot" text="Mesh Wi-Fi System (2-pack)" %} tends to give more consistent coverage throughout the house than a single router pushing a signal through thick walls.
+Moving the router closer, or adding a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi Range Extender" %} near the TV, can noticeably improve reliability. For larger or multi-storey homes, a {% include product-link.html id="mesh-wifi-troubleshoot" text="Mesh Wi-Fi System" %} tends to give more consistent coverage throughout the house than a single router pushing a signal through thick walls.
 
 ## Consider a Wired Connection
 
@@ -73,7 +73,7 @@ If you're using a smart TV app rather than an Apple TV box, make sure it was dow
 
 A dirty or obstructed screen sensor can occasionally interfere with smart TV performance, so a gentle clean with a proper {% include product-link.html id="screen-cleaning-kit" text="TV Screen Cleaning Kit" %} is worth doing as routine maintenance anyway. Weak remote batteries can also cause lag or missed inputs that feel like buffering but aren't; swapping in a set of {% include product-link.html id="rechargeable-remote-batteries" text="Rechargeable Remote Batteries (4-pack)" %} is a cheap way to rule this out.
 
-For Fire TV users specifically, the {% include product-link.html id="fire-tv-ethernet-adapter" text="Amazon Ethernet Adapter for Fire TV" %} is a simple way to add a wired connection to a device that's normally Wi-Fi only.
+For Fire TV users specifically, the {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %} is a simple way to add a wired connection to a device that's normally Wi-Fi only.
 
 ## When to Contact Your Provider or Apple
 

@@ -50,7 +50,7 @@ Broadly speaking, both platforms carry the major Irish and UK-facing apps you'd 
 
 In day-to-day use, the biggest differentiator isn't really the brand — it's the age and hardware spec of the TV itself. A mid-range LG or Samsung from the last two or three years will generally load apps and switch between them briskly. Budget models, or TVs that are five-plus years old, tend to slow down over time as apps get more demanding and the TV's processor and storage stay the same.
 
-This is one of the main reasons a lot of Irish households end up plugging in a separate streaming device rather than relying purely on the TV's built-in smarts, even on a fairly new set. A {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} or a {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} gets its own dedicated updates independent of your TV manufacturer, so it tends to stay snappier for longer, and the app selection is refreshed more frequently than some built-in TV platforms manage.
+This is one of the main reasons a lot of Irish households end up plugging in a separate streaming device rather than relying purely on the TV's built-in smarts, even on a fairly new set. A {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} or a {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} gets its own dedicated updates independent of your TV manufacturer, so it tends to stay snappier for longer, and the app selection is refreshed more frequently than some built-in TV platforms manage.
 
 ### Software updates: an underrated factor
 

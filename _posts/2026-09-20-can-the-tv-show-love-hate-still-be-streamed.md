@@ -54,7 +54,7 @@ The RTÉ Player works through a web browser, but most people find it far more co
 
 If you're using a {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %}, you'll find the RTÉ Player app in the Amazon app store, and it installs in much the same way as Netflix or any other streaming app. Fire TV devices are a popular choice in Irish households because they're affordable and simple to set up with just an HDMI port and a WiFi connection.
 
-A {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is another solid option, and [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s channel store also carries the RTÉ Player app, along with the other main Irish and UK broadcaster apps. Roku devices are known for a straightforward, no-fuss interface, which suits anyone who just wants to find their shows quickly without digging through menus.
+A {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another solid option, and [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s channel store also carries the RTÉ Player app, along with the other main Irish and UK broadcaster apps. Roku devices are known for a straightforward, no-fuss interface, which suits anyone who just wants to find their shows quickly without digging through menus.
 
 Chromecast and many modern smart TVs also support RTÉ Player, either as a built-in app or through casting from a phone or tablet. If you're watching on a smart TV directly, it's worth checking that the software is up to date, since older TV operating systems sometimes stop receiving app updates and can lose access to certain streaming apps over time.
 

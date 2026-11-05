@@ -30,20 +30,18 @@
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/streaming-stick.svg"
-  price: "€46.99"
   badge: "Best Seller"
   blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
-  affiliate_link: "https://amzn.to/4h6LS4B"
+  affiliate_link: "https://www.amazon.ie/dp/B0GSH6FCBN?tag=onairireland-21"
 
 - id: hdmi-cable-4k
-  name: "High-Speed HDMI 2.1 Cable"
+  name: "UGREEN Certified HDMI 2.1 Cable (2 m)"
   category: "Installation Guides"
   show_on: ["Installation Guides"]
   image: "/assets/images/products/hdmi-cable.svg"
-  price: "€5.99"
   badge: "Handy Extra"
   blurb: "Worth having a spare on hand — older bundled cables often bottleneck 4K/HDR playback."
-  affiliate_link: "https://amzn.to/4A3puSx"
+  affiliate_link: "https://www.amazon.ie/dp/B08TM8TW1R?tag=onairireland-21"
 
 - id: wifi-extender-troubleshoot
   name: "Wi-Fi Range Extender"
@@ -66,7 +64,7 @@
   affiliate_link: "https://amzn.to/4imUjuU"
 
 - id: mesh-wifi-troubleshoot
-  name: "Mesh Wi-Fi System (2-pack)"
+  name: "TP-Link Deco M4 Mesh Wi-Fi System (3-pack)"
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/mesh-wifi.svg"
@@ -86,14 +84,13 @@
   affiliate_link: "https://amzn.to/3VrktTE"
 
 - id: fire-tv-stick-lite
-  name: "Fire TV Stick Lite"
+  name: "Amazon Fire TV Stick HD"
   category: "Devices"
   show_on: ["News"]
   image: "/assets/images/products/streaming-stick-lite.svg"
-  price: "€29.99"
   badge: "Budget Pick"
-  blurb: "A no-frills starting point if a service or pricing change has you reconsidering your current setup."
-  affiliate_link: "https://amzn.to/46Ivy5j"
+  blurb: "Amazon's entry-level stick: a no-frills way to add the main streaming apps to a second TV or an older set."
+  affiliate_link: "https://amzn.to/4h6LS4B"
 
 - id: fire-tv-stick-4k-max-review
   name: "Fire TV Stick 4K Max"
@@ -116,24 +113,22 @@
   affiliate_link: "https://amzn.to/4hbNJFw"
 
 - id: soundbar-budget
-  name: "Compact Soundbar"
+  name: "Sharp HT-SB121 Compact Soundbar"
   category: "Devices"
   show_on: ["Streaming Services"]
   image: "/assets/images/products/soundbar.svg"
-  price: "€20.99"
   badge: "Popular Add-on"
-  blurb: "TV speakers rarely do streaming audio justice — a simple soundbar is the most-requested upgrade."
-  affiliate_link: "https://amzn.to/4xmJyfY"
+  blurb: "TV speakers rarely do streaming audio justice. This 55 cm soundbar connects by HDMI ARC, so the TV remote can control the volume."
+  affiliate_link: "https://www.amazon.ie/dp/B0FB3YSH7Q?tag=onairireland-21"
 
 - id: roku-streaming-stick-4k
-  name: "Roku Streaming Stick 4K"
+  name: "Roku Streaming Stick Plus (4K)"
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/streaming-stick-alt.svg"
-  price: "€88.99"
   badge: "Simple Interface"
   blurb: "One of the most straightforward remotes and menus of any streaming device — good pick for less tech-confident households."
-  affiliate_link: "https://amzn.to/4r8Xo41"
+  affiliate_link: "https://www.amazon.ie/dp/B0F9B2NRTN?tag=onairireland-21"
 
 - id: akiyo-02-projector
   name: "AKIYO O2 Projector"
@@ -206,14 +201,13 @@
   affiliate_link: "https://amzn.to/4h8t3OA"
 
 - id: universal-remote
-  name: "Universal Remote Control"
+  name: "One For All Streamer Remote"
   category: "Devices"
   show_on: ["Streaming Services"]
   image: "/assets/images/products/universal-remote.svg"
-  price: "€10.99"
   badge: "Popular Add-on"
   blurb: "Cuts down on juggling three remotes to switch between your TV, streaming box, and soundbar."
-  affiliate_link: "https://amzn.to/4im1tzz"
+  affiliate_link: "https://www.amazon.ie/dp/B07R7WNJH7?tag=onairireland-21"
 
 - id: bluetooth-speaker
   name: "Portable Bluetooth Speaker"
@@ -230,20 +224,18 @@
   category: "Devices"
   show_on: ["Watch Guides"]
   image: "/assets/images/products/streaming-stick.svg"
-  price: "€46.99"
   badge: "Best Seller"
   blurb: "The easiest way to get every major streaming app — RTÉ Player, Netflix, Sky Stream — on one remote."
-  affiliate_link: "https://amzn.to/4h6LS4B"
+  affiliate_link: "https://www.amazon.ie/dp/B0GSH6FCBN?tag=onairireland-21"
 
 - id: roku-streaming-stick-4k-watchguide
-  name: "Roku Streaming Stick 4K"
+  name: "Roku Streaming Stick Plus (4K)"
   category: "Devices"
   show_on: ["Watch Guides"]
   image: "/assets/images/products/streaming-stick-alt.svg"
-  price: "€88.99"
   badge: "Simple Interface"
   blurb: "A straightforward remote and menu system if you just want to find your show and start watching."
-  affiliate_link: "https://amzn.to/4r8Xo41"
+  affiliate_link: "https://www.amazon.ie/dp/B0F9B2NRTN?tag=onairireland-21"
    
 - id: satellite_receiver
   name: "HD Satellite Receiver"
@@ -276,14 +268,13 @@
   affiliate_link: "https://amzn.to/4xyXx2o"
 
 - id: rechargeable-remote-batteries
-  name: "Rechargeable Remote Batteries (4-pack)"
+  name: "Energizer Rechargeable AAA Batteries (4-pack)"
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/batteries.svg"
-  price: "€7.69"
   badge: "Budget Pick"
-  blurb: "Dead remote batteries are one of the most common 'my streaming device isn't working' calls — a rechargeable set fixes it for good."
-  affiliate_link: "https://amzn.to/4h8jsHi"
+  blurb: "Dead remote batteries are one of the most common 'my streaming device isn't working' calls — a rechargeable set fixes it for good. Most streaming remotes take AAA; check yours first."
+  affiliate_link: "https://www.amazon.ie/dp/B01DJ2QBAI?tag=onairireland-21"
 
 - id: cable-management-clips
   name: "Cable Management Clips"
@@ -296,13 +287,13 @@
   affiliate_link: "https://amzn.to/4ApzPIu"
 
 - id: travel-router
-  name: "Compact Travel Router"
+  name: "Portable 4G Wi-Fi Router"
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/travel-router.svg"
   price: "€49.35"
   badge: "Handy Extra"
-  blurb: "Useful for streaming reliably on holidays or in a second home, without depending on unfamiliar hotel Wi-Fi."
+  blurb: "A pocket router that takes a mobile SIM, so a streaming stick can get online on holidays or in a second home without relying on unfamiliar Wi-Fi."
   affiliate_link: "https://amzn.to/4rkI7xj"
 
 - id: amazon_echo_dot
@@ -336,12 +327,12 @@
   affiliate_link: "https://amzn.to/3TO6jeZ"
 
 - id: fire-tv-ethernet-adapter
-  name: "Amazon Ethernet Adapter for Fire TV"
+  name: "USB-C Ethernet Adapter for Fire TV Sticks"
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/ethernet-adapter.svg"
   badge: "Fixes Buffering"
-  blurb: "Plugs into your Fire TV Stick's power port and gives it a wired connection — the most reliable fix for buffering during live sport."
+  blurb: "Gives a Fire TV Stick with a USB-C port a wired connection, the most reliable fix for buffering during live sport. Check your stick has USB-C before buying."
   affiliate_link: "https://link.amazon/B0ceZVweP"
 
 - id: powerline-adapters
@@ -361,15 +352,6 @@
   badge: "Editor's Pick"
   blurb: "Google's current streaming box — 4K HDR, Dolby Vision, 32 GB storage, built-in Ethernet port and Google Cast. Replaced the discontinued Chromecast with Google TV."
   affiliate_link: "https://link.amazon/B0b3PaIgQ"
-
-- id: saorview-set-top-box
-  name: "Saorview Set-Top Box"
-  category: "Installation Guides"
-  show_on: ["Installation Guides"]
-  image: "/assets/images/products/set-top-box.svg"
-  badge: "Free-to-Air"
-  blurb: "Adds free Saorview channels to any TV with an aerial — a simple backup for news and sport when broadband drops. Check it's Saorview-approved before buying."
-  affiliate_link: "https://amzn.to/4hcu2yx"
 
 - id: wireless-tv-headphones
   name: "Wireless TV Headphones"

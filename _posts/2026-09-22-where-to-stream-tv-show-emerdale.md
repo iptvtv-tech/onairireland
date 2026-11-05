@@ -23,7 +23,7 @@ faqs:
   - question: "Can I watch older Emmerdale episodes on demand?"
     answer: "The Virgin Media Play app typically offers a catch-up window for recent episodes, though availability of older archive episodes can vary, so it's best to check within the app."
   - question: "Do I need a special device to watch Emmerdale in Ireland?"
-    answer: "No special device is required, but a streaming stick such as a Fire TV Stick 4K or Roku Streaming Stick 4K makes accessing broadcaster apps simpler and improves picture quality."
+    answer: "No special device is required, but a streaming stick such as a Fire TV Stick 4K or Roku Streaming Stick Plus makes accessing broadcaster apps simpler and improves picture quality."
   - question: "Why does an app say Emmerdale isn't available in my region?"
     answer: "This is usually due to account region settings or using an app store version meant for another country, and can typically be resolved by checking your account details or contacting the service's support team."
 ---
@@ -56,7 +56,7 @@ Rather than trying to work around this, the simplest and most reliable route for
 
 However you end up accessing Emmerdale, having the right streaming setup at home makes a big difference to picture quality and ease of use.
 
-A {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is a solid choice for Irish households, since it supports a wide range of apps, has straightforward regional settings, and doesn't require a particularly powerful TV to get sharp picture quality. It plugs into any spare HDMI port and works over your home Wi-Fi.
+A {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a solid choice for Irish households, since it supports a wide range of apps, has straightforward regional settings, and doesn't require a particularly powerful TV to get sharp picture quality. It plugs into any spare HDMI port and works over your home Wi-Fi.
 
 Alternatively, the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is another dependable option, particularly if you already use other Amazon services. It supports the major broadcaster apps used in Ireland and is simple to set up, with clear on-screen prompts for connecting to your home network and signing into your existing TV provider accounts.
 
