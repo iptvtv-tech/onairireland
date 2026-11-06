@@ -66,8 +66,12 @@ jobs:
         if: steps.gate.outputs.skip != 'true'
         run: python scripts/check_posts.py
 
+      # A draft PR only opens once the claims list flags nothing: generate_post.py
+      # rewrites and rechecks the draft until it does, or parks the topic and
+      # tries the next one. If the fact check itself can't run, that step fails
+      # and no PR opens.
       - name: Open Pull Request
-        if: success() && steps.gate.outputs.skip != 'true'
+        if: success() && steps.gate.outputs.skip != 'true' && steps.generate.outputs.parked_only != 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -78,17 +82,11 @@ jobs:
             Auto-generated draft. Merging this PR publishes it live.
             ${{ steps.generate.outputs.publish_by && format('> ⚠️ **Time-sensitive** — publish by {0}', steps.generate.outputs.publish_by) || '' }}
 
-            ${{ steps.generate.outputs.fact_check || '> ⚠️ **The fact check didn''t run** — see the Actions log for this run, and check every service, price, date and channel by hand.' }}
+            ${{ steps.generate.outputs.fact_check }}
 
-            Before merging, check:
-            - [ ] Every ⚠️ line in the fact check is fixed, or confirmed on the provider's own site
-            - [ ] Every ❌ line is fixed and `fact_check_wrong` deleted from the post's front matter (the check fails until then)
-            - [ ] Every other service, price, date and channel named is still correct today
-            - [ ] Watch guides name the actual service and date, not just "check your apps"
-            - [ ] No claims of first-hand testing or experience
-            - [ ] Product links are relevant to this post (delete any that aren't)
-            - [ ] Title and description read naturally; description under 160 characters
-            - [ ] Add 1-2 links to related posts on this site
+            Every claim in the article, FAQ and social drafts passed the fact check, so there's nothing to confirm. Before merging:
+            - [ ] Read it through: it makes sense, and the title and description read naturally
+            - [ ] Product links fit this post (delete any that don't)
             - [ ] Click Approve and run, and wait for the check's green tick before merging
 
             ---
@@ -116,3 +114,18 @@ jobs:
           labels: |
             auto-draft
             needs-review
+
+      # No topic passed the fact check: this PR only moves them from the queue to
+      # _data/topic_parked.yml. auto-post/ branch, so draft runs wait for it.
+      - name: Open Pull Request (topics parked, no draft)
+        if: success() && steps.gate.outputs.skip != 'true' && steps.generate.outputs.parked_only == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Topic queue: park topics that couldn't pass the fact check"
+          branch: "auto-post/${{ github.run_number }}"
+          title: "[Queue] ${{ steps.generate.outputs.post_title }}"
+          body: |
+            ${{ steps.generate.outputs.parked_summary }}
+          labels: |
+            auto-draft

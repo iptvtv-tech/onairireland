@@ -15,6 +15,7 @@ scripts/image_system.py and scripts/card_kit/README.md).
 import datetime
 import os
 import re
+import subprocess
 import sys
 import unicodedata
 
@@ -217,6 +218,10 @@ Rules for facts and prices:
   that readers should check with the provider, and name the provider.
 - Never say a service does NOT show or include something unless the checked
   facts say so.
+- Which devices, TVs, platforms or app stores an app is on, and what features it
+  has (casting, downloads, live channels, sign-in), are facts too: state them
+  only from the checked facts above. Otherwise tell readers to check the
+  provider's own list of supported devices or its help pages.
 - Only give a price that is in the checked prices above, and say prices can change.
 - Use only the facts that matter for this post's topic.
 
@@ -288,19 +293,23 @@ def ask_writer(prompt: str, max_tokens: int = 3500) -> str:
 REVISE_PROMPT = """You wrote the draft below for On Air Ireland (onairireland.ie), an
 independent Irish site about LEGAL streaming. An automatic fact check, using our
 checked facts and the providers' own pages, flagged the claims listed under
-FLAGGED CLAIMS. Revise the draft so that none of them stays as it is:
+FLAGGED CLAIMS. Nothing is published until a check flags nothing, so revise the
+draft so that none of them stays as it is:
 
 - ❌ wrong: correct it only if the note gives the right fact AND that fact is in
   our checked facts or prices below. Otherwise remove the claim.
 - ⚠️ unconfirmed: remove it, or replace it with a plain line telling readers to
-  check with the provider (name the provider). Never swap in a different
-  specific detail (a number, code, date, price, menu name or quote) instead.
+  check with the provider (name the provider). If the note says official
+  sources disagree, tell readers to check the provider's own list or help
+  pages. Never swap in a different specific detail (a number, code, date,
+  price, device, menu name or quote) instead.
+- Don't bring back anything listed under EARLIER FLAGGED CLAIMS, in any wording.
 - Claims flagged in the X, WhatsApp or video drafts came from the article, so
   make sure the article doesn't state them either.
 - If a heading, list or FAQ answer only existed for a removed claim, rewrite it
   or drop it, but keep exactly 4 FAQ pairs.
-- Change nothing else: keep the structure, wording, links and product links.
-- The usual rules still apply: licensed services only; never mention VPNs,
+- Otherwise keep the structure, wording, links and product links.
+<<STRICT>>- The usual rules still apply: licensed services only; never mention VPNs,
   proxies or unofficial IPTV; no first-hand testing claims; prices only from
   our checked prices.
 
@@ -324,6 +333,9 @@ Title: <<TITLE>>
 FLAGGED CLAIMS:
 <<FLAGGED>>
 
+EARLIER FLAGGED CLAIMS (already removed; don't bring them back):
+<<EARLIER>>
+
 === DRAFT ===
 SUMMARY: <<SUMMARY>>
 
@@ -334,21 +346,39 @@ FAQS:
 """
 
 
-def revise_draft(title: str, summary: str, body: str, faqs: list, flagged: list):
-    """Send the flagged claims back to the writer once. Returns the new
-    (summary, body, faqs), or raises ValueError if the reply isn't usable."""
+# The last rewrite, when earlier ones haven't produced a clean check.
+STRICT_RULES = """- THIS IS THE LAST REWRITE. Besides the flagged claims, go through every
+  sentence and FAQ answer: anything specific about a service, app, device,
+  channel, broadcaster or provider (what it shows, includes, costs, supports or
+  runs on, and any date) must come from our checked facts or prices below. Turn
+  anything else into a plain line telling readers to check with the provider,
+  without stating the detail. General advice (restart, update the app, check
+  the connection, sign out and back in) can stay. A shorter article is fine.
+"""
+
+
+def _claim_lines(claims: list) -> str:
     where = {"article": "article", "faq": "FAQ", "x": "X post",
              "whatsapp": "WhatsApp", "video": "video script"}
-    flagged_text = "\n".join(
+    return "\n".join(
         f"- {'❌ wrong' if c['status'] == 'wrong' else '⚠️ unconfirmed'} "
         f"({where.get(c['where'], 'article')}): {c['claim']}"
         + (f" -- note: {c['note']}" if c.get("note") else "")
-        for c in flagged)
+        for c in claims) or "(none)"
+
+
+def revise_draft(title: str, summary: str, body: str, faqs: list, flagged: list,
+                 earlier: list = (), strict: bool = False):
+    """Send the flagged claims back to the writer. earlier holds claims flagged
+    by previous checks; strict is the last rewrite. Returns the new
+    (summary, body, faqs), or raises ValueError if the reply isn't usable."""
     parts = {
+        "<<STRICT>>": STRICT_RULES if strict else "",
         "<<FACTS>>": site_facts.facts_for_prompt(),
         "<<PRICES>>": site_facts.prices_for_prompt(),
         "<<TITLE>>": title,
-        "<<FLAGGED>>": flagged_text,
+        "<<FLAGGED>>": _claim_lines(flagged),
+        "<<EARLIER>>": _claim_lines(list(earlier)),
         "<<SUMMARY>>": summary,
         "<<BODY>>": body.strip(),
         "<<FAQS>>": "\n".join(f"Q: {q}\nA: {a}" for q, a in faqs) or "(none)",
@@ -368,8 +398,8 @@ def revise_draft(title: str, summary: str, body: str, faqs: list, flagged: list)
     # original with its flags, so keep the original.
     if len(new_faqs) < 3:
         raise ValueError(f"the revised draft has {len(new_faqs)} FAQ pairs")
-    if len(new_body) < 0.5 * len(body):
-        raise ValueError("the revised draft lost more than half the article")
+    if len(new_body) < (0.3 if strict else 0.4) * len(body):
+        raise ValueError("the revised draft lost too much of the article")
     return new_summary, new_body, new_faqs
 
 
@@ -516,7 +546,101 @@ def set_output(name: str, value: str):
         print(f"{name}={value}")
 
 
+# --- The draft run: write, check, rewrite until nothing is flagged ---
+# John doesn't confirm facts on draft PRs, so a PR opens only when the claims
+# list flags nothing. After each check, the flagged claims go back to the writer
+# (corrected from our facts, removed, or turned into "check with <provider>"),
+# and the last rewrite keeps only what our facts support. A topic that still
+# can't pass is parked in _data/topic_parked.yml, and the run tries the next one.
+MAX_CHECKS = 5           # checks per topic; a rewrite follows every failed check but the last
+MAX_TOPICS_PER_RUN = 2   # topics tried before the run parks them and opens a queue-only PR
+PARKED_PATH = os.path.join(REPO_ROOT, "_data", "topic_parked.yml")
+PARKED_HEADER = (
+    "# Topics the draft run couldn't get past the fact check (scripts/generate_post.py).\n"
+    "# Each lists the claims still flagged after the last rewrite. To retry one, add the\n"
+    "# missing facts to _data/site_facts.yml or reword its brief, remove parked_on and\n"
+    "# parked_because, and move it back to _data/topic_queue.yml.\n"
+)
+
+
+class FactCheckUnavailable(RuntimeError):
+    """The claims check couldn't run (API error, or no claims list came back)."""
+
+
+def _git(*args) -> list:
+    out = subprocess.run(["git", "-C", REPO_ROOT, *args],
+                         capture_output=True, text=True, check=True).stdout
+    return [p for p in out.split("\0") if p]
+
+
+def files_snapshot():
+    """New and changed files right now, so a parked topic's files can be undone."""
+    try:
+        return (set(_git("ls-files", "--others", "--exclude-standard", "-z")),
+                set(_git("diff", "--name-only", "-z")))
+    except (OSError, subprocess.CalledProcessError):
+        return None
+
+
+def undo_files_since(snapshot) -> None:
+    """Remove what one topic wrote (post, images, video files, ledger changes)."""
+    now = files_snapshot()
+    if snapshot is None or now is None:
+        print("WARNING: not a git checkout, so the parked topic's files were left in place.")
+        return
+    for path in sorted(now[0] - snapshot[0]):
+        os.remove(os.path.join(REPO_ROOT, path))
+    keep = {os.path.relpath(QUEUE_PATH, REPO_ROOT), os.path.relpath(PARKED_PATH, REPO_ROOT)}
+    restore = sorted(now[1] - snapshot[1] - keep)
+    if restore:
+        _git("checkout", "--", *restore)
+
+
+def run_check(post_text: str, social: dict) -> dict:
+    """One claims check, tried twice. Raises FactCheckUnavailable if both fail,
+    so the run stops without a PR and the topic stays first in the queue."""
+    from fact_check import check_post
+    reason = ""
+    for attempt in (1, 2):
+        try:
+            result = check_post(post_text, social, pr_note="")
+            if result["claims"]:
+                return result
+            reason = "no claims came back"
+        except Exception as exc:
+            reason = " ".join(str(exc).split())[:150]
+        print(f"Fact check attempt {attempt} failed: {reason}")
+    raise FactCheckUnavailable(reason)
+
+
+def load_parked() -> list:
+    if not os.path.exists(PARKED_PATH):
+        return []
+    with open(PARKED_PATH, encoding="utf-8") as fh:
+        return yaml.safe_load(fh) or []
+
+
+def save_parked(entries: list) -> None:
+    with open(PARKED_PATH, "w", encoding="utf-8") as fh:
+        fh.write(PARKED_HEADER + "\n")
+        yaml.safe_dump(entries, fh, sort_keys=False, allow_unicode=True, width=1000)
+
+
+def write_outputs(outputs: list) -> None:
+    from generate_social import write_multiline_output
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    for kind, name, value in outputs:
+        if kind == "multi":
+            if gh_out:
+                write_multiline_output(gh_out, name, value)
+            else:
+                print(f"{name}:\n{value}")
+        else:
+            set_output(name, value)
+
+
 def main():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     queue = load_queue()
     if not queue:
         # New AI-suggested topics go into a PR for a human to review and edit
@@ -533,7 +657,60 @@ def main():
         return
 
     queue = prioritise_queue(queue)
-    topic = queue.pop(0)
+    parked_now = []
+    try:
+        for _ in range(MAX_TOPICS_PER_RUN):
+            if not queue:
+                break
+            topic = queue.pop(0)
+            snapshot = files_snapshot()
+            outcome = draft_topic(topic)
+            if outcome["passed"]:
+                save_queue(queue)
+                if parked_now:
+                    save_parked(load_parked() + parked_now)
+                write_outputs(outcome["outputs"])
+                return
+            undo_files_since(snapshot)
+            entry = dict(topic)
+            entry["parked_on"] = datetime.date.today().isoformat()
+            entry["parked_because"] = [
+                " ".join((c["claim"] + (f" ({c['note']})" if c["note"] else "")).split())[:240]
+                for c in outcome["left"]]
+            parked_now.append(entry)
+            print(f"Parked after {MAX_CHECKS} checks: {topic['title']}")
+    except FactCheckUnavailable as exc:
+        print(f"The fact check couldn't run ({exc}), so no PR opens; the next run tries again.")
+        sys.exit(1)
+
+    if not parked_now:
+        print("Nothing left in the queue to draft.")
+        return
+    # No topic passed: a PR that only moves the parked topics out of the queue.
+    save_queue(queue)
+    save_parked(load_parked() + parked_now)
+    lines = ["### No draft this run", "",
+             f"{len(parked_now)} topic{'s' if len(parked_now) > 1 else ''} couldn't pass the fact check "
+             f"after {MAX_CHECKS} checks and rewrites each, so no post was written. Merging this PR only "
+             "moves them from `_data/topic_queue.yml` to `_data/topic_parked.yml`; there's nothing to "
+             "check. To retry one, add the missing facts to `_data/site_facts.yml` (or reword its brief) "
+             "and move it back to the queue.", ""]
+    for entry in parked_now:
+        lines.append(f"**{entry['title']}**, still flagged:")
+        lines += [f"- {why}" for why in entry["parked_because"]] or ["- (rewrite failed)"]
+        lines.append("")
+    titles = "; ".join(e["title"] for e in parked_now)
+    write_outputs([("single", "parked_only", "true"),
+                   ("single", "post_title", f"Parked: {titles}"[:200]),
+                   ("multi", "parked_summary", "\n".join(lines))])
+
+
+def draft_topic(topic: dict) -> dict:
+    """Write one topic, then check and rewrite it until a check flags nothing.
+    Returns {"passed": True, "outputs": [...]} with the step outputs for the PR,
+    or {"passed": False, "left": [...]} with the claims still flagged."""
+    from fact_check import format_markdown
+
     title = topic["title"]
     category = topic["category"]
     brief = topic.get("brief", "")
@@ -583,9 +760,8 @@ def main():
 
     products = load_products()
 
-    def write_post(summary: str, body: str, faqs: list, wrong: list = None) -> None:
-        """Write the post file. Called again if the draft is revised, and with
-        wrong set when ❌ claims are left after the recheck."""
+    def write_post(summary: str, body: str, faqs: list) -> None:
+        """Write the post file. Called again after each rewrite."""
         if len(summary) > 160:
             summary = summary[:155].rsplit(" ", 1)[0].rstrip(",;:") + "…"
         fm = {
@@ -602,10 +778,6 @@ def main():
         }
         if faqs:
             fm["faqs"] = [{"question": q, "answer": a} for q, a in faqs]
-        if wrong:
-            # check_fact_flags.py fails the PR check while this list is here.
-            fm["fact_check_wrong"] = list(wrong)
-
         # yaml.safe_dump quotes/escapes AI-generated text properly, so colons,
         # quotes or '#' in a title can never break the front matter again.
         front_matter = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + f"""---
@@ -643,14 +815,8 @@ def main():
             return fh.read()
 
     write_post(summary, body, faqs)
-    save_queue(queue)
-
     print(f"Draft written to {filepath}")
-    set_output("post_path", filepath)
-    set_output("post_title", title.replace("\n", " "))
-    set_output("publish_by", str(topic.get("publish_by", "")))
 
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     # Live address, from permalink /:categories/:title/ in _config.yml
     # (Jekyll lowercases the category; the slug comes from the filename).
     post_url = f"https://onairireland.ie/{category_slug_name.lower()}/{slug}/"
@@ -658,60 +824,47 @@ def main():
                        slug=slug, today=today, filepath=filepath, post_url=post_url)
     social, social_out = build_social(body=body, **social_args)
 
-    # --- Claims list for the PR, with one send-back pass ---
-    # Checks the article, its FAQ and the social drafts against the checked
-    # facts and the providers' own pages. Flagged claims go back to the writer
-    # once and the draft is checked again. ❌ claims still left go into the
-    # front matter, where check_fact_flags.py fails the PR check. If the fact
-    # check itself fails, the PR says so and the review checks everything by hand.
-    try:
-        from fact_check import check_post, format_markdown, wrong_lines, write_fact_check_output
-
-        result = check_post(read_post(), social, pr_note="")
-        print(f"First pass: {result['summary']}")
+    earlier = []   # every claim flagged so far, so a rewrite doesn't bring one back
+    first = None
+    flagged = []
+    for check_no in range(1, MAX_CHECKS + 1):
+        result = run_check(read_post(), social)
+        first = first or result["counts"]
+        print(f"Check {check_no}: {result['summary']}")
         flagged = [c for c in result["claims"] if c["status"] != "ok"]
-        if flagged:
-            first = result["counts"]
+        if not flagged:
+            rewrites = check_no - 1
+            note = ("It passed the first check." if not rewrites else
+                    f"It passed on check {check_no}, after {rewrites} rewrite{'s' if rewrites > 1 else ''} "
+                    f"(the first check found {first['wrong']} wrong and {first['unconfirmed']} unconfirmed).")
+            return {"passed": True, "outputs": [
+                ("single", "post_path", filepath),
+                ("single", "post_title", title.replace("\n", " ")),
+                ("single", "publish_by", str(topic.get("publish_by", ""))),
+                ("multi", "fact_check", format_markdown(result["claims"], note)),
+            ] + social_out}
+        if check_no == MAX_CHECKS:
+            break
+        strict = check_no == MAX_CHECKS - 1
+        revised = None
+        for attempt in (1, 2):
             try:
-                summary, body, faqs = revise_draft(title, summary, body, faqs, flagged)
+                revised = revise_draft(title, summary, body, faqs, flagged, earlier, strict)
+                break
             except Exception as exc:
-                print(f"Send-back skipped: {exc}")
-                reason = " ".join(str(exc).split())[:150]
-                result["markdown"] = format_markdown(
-                    result["claims"],
-                    f"The flagged claims couldn't go back to the writer ({reason}), so this "
-                    "list is the first pass and the draft is unchanged.")
-            else:
-                write_post(summary, body, faqs)
-                print("Flagged claims sent back to the writer; draft revised.")
-                # The social drafts came from the old article, so write them again.
-                social, social_out = build_social(body=body, **social_args)
-                result = check_post(
-                    read_post(), social,
-                    pr_note=(f"The first pass found {first['wrong']} wrong and "
-                             f"{first['unconfirmed']} unconfirmed; those went back to the "
-                             "writer once, and this list is the recheck."))
-                print(f"Recheck: {result['summary']}")
-        wrong = wrong_lines(result["claims"])
-        if wrong:
-            write_post(summary, body, faqs, wrong)
-            print(f"{len(wrong)} wrong claim(s) left; listed as fact_check_wrong in the front matter.")
-        write_fact_check_output(os.environ.get("GITHUB_OUTPUT"), result)
-        print(result["summary"])
-    except Exception as exc:
-        print(f"Fact check skipped: {exc}")
-        reason = " ".join(str(exc).split())[:150]
-        set_output("fact_check", f"> ⚠️ **The fact check didn't run** ({reason}). "
-                                 "Check every service, price, date and channel by hand.")
-
-    # Social outputs go out once, after any rewrite, so the PR shows the final drafts.
-    from generate_social import write_multiline_output
-    gh_out = os.environ.get("GITHUB_OUTPUT")
-    for kind, name, value in social_out:
-        if kind == "multi":
-            write_multiline_output(gh_out, name, value)
-        else:
-            set_output(name, value)
+                print(f"Rewrite attempt {attempt} failed: {exc}")
+        earlier += flagged
+        if revised is None:
+            continue
+        summary, body, faqs = revised
+        write_post(summary, body, faqs)
+        print(f"Rewrite {check_no}{' (last, strict)' if strict else ''} done.")
+        # The social drafts came from the old article, so write them again, and
+        # tell them which claims the check couldn't confirm.
+        avoid = "\nDon't state any of these (the fact check couldn't confirm them):\n" + "\n".join(
+            f"- {c['claim']}" for c in earlier)
+        social, social_out = build_social(body=body, **dict(social_args, brief=brief + avoid))
+    return {"passed": False, "left": flagged}
 
 
 def build_social(title, category, brief, body, topic, slug, today, filepath, post_url):

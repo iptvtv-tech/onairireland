@@ -2,11 +2,10 @@
 """
 Fail the PR check while a post still lists wrong claims. Run by check-pr.yml.
 
-In the Mon/Wed/Fri draft run, the claims list (scripts/fact_check.py) checks the
-draft, sends any flagged claims back to the writer once and checks it again. A
-claim still marked ❌ wrong after that is written into the post's front matter
-as fact_check_wrong. With the merge lock (the `check` status is required), that
-post can't be merged until someone fixes each line and deletes the list.
+Since 6 Nov the Mon/Wed/Fri draft run only opens a PR once its claims list
+flags nothing (scripts/generate_post.py), so it never writes fact_check_wrong.
+This stays as a safety net: a post with a fact_check_wrong list in its front
+matter can't be merged (the `check` status is required) until it's cleared.
 
 To clear it: correct or remove each claim in the post (or in the social draft
 before posting it), then delete fact_check_wrong from the front matter.

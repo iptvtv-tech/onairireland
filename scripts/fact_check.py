@@ -3,11 +3,10 @@
 Claims list for a draft post: every service, channel, price, date and rights
 claim in the article, its FAQ and its social drafts, each with a source or a flag.
 
-Runs at the end of scripts/generate_post.py, and the Mon/Wed/Fri draft PR shows
-the result at the top. It never edits the draft itself. In the draft run, any
-flagged claims go back to the writer once (generate_post.py) and the draft is
-checked again; a ❌ claim still left is written into the post's front matter as
-fact_check_wrong, and check_fact_flags.py fails the PR check until it's fixed.
+Runs inside scripts/generate_post.py. The Mon/Wed/Fri draft run checks the draft,
+sends any flagged claims back to the writer and checks again, until a check
+flags nothing (or the topic is parked). A draft PR only opens with a clean list,
+which the PR shows at the top. This script never edits the draft itself.
 
 It uses the model with web search and web fetch (as generate_sport_week.py
 does), plus the checked facts in _data/site_facts.yml and the prices in
@@ -77,8 +76,10 @@ often differs from the UK.
 1. List the factual claims a reader could act on: which service, channel, app or
    broadcaster shows something; what a membership, package or app includes;
    prices; dates and deadlines; which devices and features are available in
-   Ireland. Skip general advice, opinions and how-to steps. Merge near-duplicates
-   and list at most <<MAX>>, most important first.
+   Ireland. Skip general advice, opinions and how-to steps, and skip lines that
+   only tell readers to check with a provider or say that something varies, may
+   change or depends on the device. Merge near-duplicates and list at most
+   <<MAX>>, most important first.
 
 2. Check each claim:
    - First against OUR CHECKED FACTS and OUR CHECKED PRICES below. They were
@@ -95,9 +96,12 @@ often differs from the UK.
 3. Give each claim one status:
    - "ok": it matches our checked facts or prices, or you confirmed it on a
      primary source.
-   - "wrong": it contradicts our checked facts, our checked prices or a primary
-     source.
+   - "wrong": it contradicts our checked facts, our checked prices, or every
+     primary source you found.
    - "unconfirmed": you couldn't confirm it on a primary source.
+   If primary sources disagree with each other (for example a provider's FAQ
+   and its app store listing), the claim is "unconfirmed", never "wrong", and
+   the note says "Official sources disagree:" and what each one says.
    A claim that a service does NOT show or include something is "unconfirmed"
    unless our checked facts or a primary source say so.
 
@@ -307,9 +311,12 @@ def format_markdown(claims: list, pr_note: str = None) -> str:
         for c in flagged:
             lines.append(f"| {ICONS[c['status']]} | {_cell(c['claim'], 180)} | {WHERE_LABELS[c['where']]} "
                          f"| {_cell(c['note'], 220)} | {_source(c['source'])} |")
-    else:
-        lines.append(f"**No problems found in {_claims(counts['ok'])}.** {basis}{note} Anything it "
+    elif pr_note is None:
+        lines.append(f"**No problems found in {_claims(counts['ok'])}.** {basis} Anything it "
                      "missed still needs your check.")
+    else:
+        n = counts["ok"]
+        lines.append(f"**{'All ' + str(n) + ' claims were' if n > 1 else 'The one claim was'} confirmed.** {basis}{note}")
     if confirmed:
         lines += ["", "<details>", f"<summary>{len(confirmed)} confirmed {_claims(len(confirmed)).split(' ', 1)[1]}</summary>", "",
                   "| | Claim | Where | Source |", "|---|---|---|---|"]

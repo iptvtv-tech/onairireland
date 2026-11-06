@@ -95,8 +95,8 @@ python scripts/check_fact_flags.py
   the shape the renderer needs, YouTube's title, description and tag limits, the
   article link in the description, and excluded-topic wording.
 - `check_fact_flags.py` fails while any post still has a `fact_check_wrong`
-  list in its front matter (❌ claims left after the draft run's fact check).
-  Fix each claim, then delete the list.
+  list in its front matter. The draft run no longer writes one (a draft PR only
+  opens with a clean claims list), so this is a safety net.
 - `.github/workflows/check-pr.yml` runs the repository's automated checks and a
   full GitHub Pages build on every pull request. The draft workflow checks posts
   before it opens its PR.
@@ -195,13 +195,17 @@ a source, checking our facts first and then the providers' own pages (web
 search and fetch). A claim is only ✅ when its source is our facts, our price
 tracker or a host on `PRIMARY_HOSTS` in `fact_check.py` (services, broadcasters,
 leagues, app stores, Irish public bodies); a claim "confirmed" anywhere else,
-such as a news report, forum or watch-abroad page, is shown as ⚠️ naming that site. Any ❌ wrong or ⚠️ unconfirmed claims go back to the writer
-once, to be removed or reworded as "check with the provider", and the draft and
-its social posts are checked again. The PR shows that second list at the top,
-flagged lines first. A ❌ claim still left is written into the post's front
-matter as `fact_check_wrong`, and `check_fact_flags.py` fails the PR check (so
-the merge lock holds the PR) until the line is fixed and the list deleted.
-⚠️ lines don't block: fix or confirm them before merging. To check any post by hand:
+such as a news report, forum or watch-abroad page, is shown as ⚠️ naming that site. Any ❌ wrong or ⚠️ unconfirmed claim goes back to the
+writer, to be corrected from our facts, removed, or reworded as "check with the
+provider", and the draft and its social posts are checked again. This repeats up
+to 5 checks; the last rewrite keeps only what our facts support. A draft PR
+opens only when a check flags nothing. A topic that still can't pass is moved to
+`_data/topic_parked.yml` with the claims that stopped it, and the run tries the
+next topic (2 per run); if neither passes, the PR only parks them. If the fact
+check itself can't run, the run fails without a PR and the topic stays first in
+the queue. When official sources disagree (say, a provider's FAQ and its app
+store listing), the claim counts as ⚠️, so the post tells readers to check the
+provider's own list. To check any post by hand:
 `python scripts/fact_check.py _posts/<post>.md` (needs `ANTHROPIC_API_KEY`).
 When a deal changes or a guide is re-checked, update its entry and `checked`
 date in `_data/site_facts.yml`; it's part of the quarterly fact check.
