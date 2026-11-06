@@ -2,7 +2,6 @@
 title: Black Friday and Christmas Streaming Device Guide for Ireland
 excerpt: Which streaming stick or box suits your house, what to check before you buy, how to spot a real Black Friday deal, and your return rights over Christmas.
 description: Which streaming device suits your home, what to check before buying, how to spot a real Black Friday deal, and your Christmas return rights in Ireland.
-published: false
 last_checked: 2026-11-05
 categories:
 - Devices
