@@ -25,7 +25,7 @@ affiliate_links: true
 
 ## Getting Started with Virgin Media Play on Samsung TVs
 
-[Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) is the official app that lets Virgin Media Ireland broadband and TV customers stream live channels, catch-up content, and on-demand shows directly through supported smart TVs. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
+[Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) is Virgin Media Television's free streaming app. Anyone in Ireland can use it to watch Virgin Media's live channels, catch-up and on-demand shows. You don't need to be a Virgin Media broadband or TV customer, but you do need to register a free account. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
 
 This guide walks through the process from checking compatibility to signing in and fixing common issues. For more on the app, see our [Virgin Media guides](/virgin-media/).
 
@@ -59,7 +59,7 @@ Select **Install** and wait for the download to complete. This should only take 
 
 ### Step 6: Sign In
 
-Open the Virgin Media Play app and you'll be prompted to sign in. You'll typically need your Virgin Media account credentials, the same ones used for My Virgin Media online or the mobile app. If you've never set up online account access, you may need to register first via Virgin Media's website before you can log in on the TV.
+Open the Virgin Media Play app and you'll be prompted to sign in. Use your Virgin Media Play account details. If you haven't used Virgin Media Play before, register a free account first. You don't need to be a Virgin Media broadband or TV customer.
 
 Some Samsung TV apps also support a "sign in on another device" option, where you visit a short web address on your phone or computer and enter a code shown on the TV screen. Whether Virgin Media Play offers this exact method isn't something we can confirm with certainty, so treat the on-screen instructions as the authoritative guide during setup.
 
@@ -76,7 +76,7 @@ Once signed in, you should see your available channels and on-demand content. Br
 
 ## Final Thoughts
 
-Setting up Virgin Media Play on a Samsung Smart TV is generally straightforward, provided your TV model is supported and your subscription is active. If you run into persistent problems, Virgin Media's customer support team is the best point of contact, as they can check account-specific issues that go beyond general setup steps.
+Setting up Virgin Media Play on a Samsung Smart TV is generally straightforward, provided your TV model is supported. If you run into persistent problems, Virgin Media Play's support team is the best point of contact: Virgin Media Television's FAQ asks you to email PlaySupport@virginmedia.ie.
 
 **Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/)
 

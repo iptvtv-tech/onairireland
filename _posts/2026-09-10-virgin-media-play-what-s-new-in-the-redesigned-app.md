@@ -25,7 +25,7 @@ affiliate_links: true
 
 ## Virgin Media Play Gets a Fresh Look
 
-Virgin Media customers have been getting used to a redesigned Virgin Media Play app in recent months. If you've opened it lately and found things in different places, you're not imagining it — the app has had a proper overhaul, both in how it looks and in what it can do.
+Viewers have been getting used to a redesigned Virgin Media Play app in recent months. If you've opened it lately and found things in different places, you're not imagining it — the app has had a proper overhaul, both in how it looks and in what it can do.
 
 For anyone who relies on [Virgin Media TV](/virgin-media/) while out and about, or who prefers streaming to flicking through a traditional set-top box guide, here's what's changed.
 
@@ -66,9 +66,9 @@ It's worth noting that smart TV app support can vary by manufacturer and model, 
 
 ## Do You Need a New Login?
 
-Existing Virgin Media broadband and TV customers should generally be able to sign in with their existing Virgin Media account details. If you run into login issues after the redesign, it may be worth checking for an app update in your device's app store, as older versions may not work correctly with the new backend.
+Virgin Media Play is free for anyone in Ireland, with a free account. You don't need Virgin Media broadband or TV. If you run into login issues after the redesign, it may be worth checking for an app update in your device's app store, as older versions may not work correctly with the new backend.
 
-We'd recommend checking Virgin Media's official website or contacting their customer support directly for definitive, up-to-date guidance on setup, supported devices, or package-specific channel availability, since these details can change over time.
+For anything else, Virgin Media Television's [Virgin Media Play FAQ](https://www.virginmediatelevision.ie/player-faq) covers setup and supported devices, and its support team is at PlaySupport@virginmedia.ie.
 
 ## The Bottom Line
 

@@ -21,7 +21,7 @@ faqs:
   - question: "Is Stranger Things' final season available on any Irish streaming service other than Netflix?"
     answer: "No, Netflix is the only legal home for Stranger Things in Ireland, including its final season."
   - question: "Do I need the most expensive Netflix plan to watch it?"
-    answer: "No, even the ad-supported Standard with ads plan gives you full access to the show; higher tiers mainly add better picture quality and more simultaneous streams."
+    answer: "No. Every Netflix plan in Ireland, including the cheapest, Basic, has the full show. Standard and Premium mainly add better picture quality and more screens at once."
   - question: "Why does my Netflix account show different content than expected?"
     answer: "This is usually due to your account's country or billing settings not matching your actual location, which can be checked and corrected in Netflix's Account settings."
   - question: "What's the best device for streaming Netflix if my smart TV is slow?"
@@ -44,10 +44,10 @@ Netflix remains the only legal source for Stranger Things in Ireland. There's no
 
 [Netflix Ireland](/netflix/) offers a few different subscription tiers, and pricing does change from time to time, so it's best to check the current plans directly on Netflix's own website or app before signing up. Generally speaking:
 
-- The **Standard with ads** plan is the cheapest way to get full access to Netflix's catalogue, including new releases like Stranger Things.
-- The **Standard** and **Premium** plans remove ads and add extras like higher resolution streaming (up to Ultra HD on Premium) and support for more simultaneous screens.
+- **Basic** is the cheapest plan in Ireland and has the full catalogue, including Stranger Things. Ireland doesn't have a Netflix plan with ads at the time of writing.
+- **Standard** and **Premium** add extras like higher resolution streaming (up to Ultra HD on Premium) and support for more simultaneous screens.
 
-If you're only signing up to watch the final season, the ad-supported tier will get the job done. If you care about 4K picture quality or want multiple people in the house streaming on different devices at once, one of the higher tiers makes more sense.
+If you're only signing up to watch the final season, Basic will get the job done. See the current prices on our [streaming prices tracker](/streaming-prices/). If you care about 4K picture quality or want multiple people in the house streaming on different devices at once, one of the higher tiers makes more sense.
 
 One thing worth checking is that your account's country setting matches where you actually live. Netflix determines what's available to you based on your account's home country and billing details, so if your address or payment details are set to somewhere other than Ireland, you may see a different version of the catalogue than expected. This is easily fixed in your Account settings — under "Membership & Billing" — where you can confirm your country matches your actual location.
 

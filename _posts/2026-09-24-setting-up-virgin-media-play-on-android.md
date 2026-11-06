@@ -19,11 +19,11 @@ draft_generated: true
 affiliate_links: true
 faqs:
 - question: Is Virgin Media Play free to use?
-  answer: Access requires an active Virgin Media TV subscription; the app itself doesn't offer standalone free access to Virgin Media's channels.
+  answer: Yes. Virgin Media Play is free for anyone in Ireland. You need to register a free account, but you don't need a Virgin Media broadband or TV subscription.
 - question: Can I use Virgin Media Play on a tablet?
   answer: Yes, the app is designed to work on both Android phones and tablets, provided the device meets the minimum operating system requirements.
 - question: Why can't I find Virgin Media Play in the Play Store?
-  answer: This is often related to your Google Play Store account region setting rather than the app being unavailable, so check that setting first.
+  answer: Check your Google Play account's country is set to Ireland, and that your phone or tablet meets the app's minimum Android version.
 - question: What should I do if the app keeps crashing?
   answer: Try clearing the app's cache or reinstalling it, and ensure your Android software and the app itself are both fully updated.
 ---
@@ -34,11 +34,11 @@ faqs:
 
 {% include share-buttons.html %}
 
-To set up Virgin Media Play on Android, download it from the Google Play Store, sign in with your Virgin Media account details, and follow the on-screen prompts to link your subscription. The rest of this guide walks through each step in more detail, along with some common snags and how to sort them.
+To set up Virgin Media Play on Android, download it from the Google Play Store, sign in or register a free Virgin Media Play account, and follow the on-screen prompts. You don't need a Virgin Media subscription. The rest of this guide walks through each step in more detail, along with some common snags and how to sort them.
 
 ## Before You Start
 
-Virgin Media Play is the broadcaster's official streaming app, giving [Virgin Media TV](/virgin-media/) customers access to live channels and on-demand content on compatible Android devices. Before installing, it's worth checking a few basics.
+Virgin Media Play is the broadcaster's official streaming app, free for anyone in Ireland, with [Virgin Media Television](/virgin-media/)'s live channels and on-demand shows on compatible Android devices. You don't need to be a Virgin Media broadband or TV customer. Before installing, it's worth checking a few basics.
 
 Make sure your Android phone or tablet is running a reasonably recent version of Android, as very old operating systems may not be supported. You'll also need an active Virgin Media TV subscription, since the app authenticates against your account rather than offering standalone access. A stable Wi-Fi connection is recommended for setup and for streaming without interruptions — if your home broadband has trouble reaching every room, a {% include product-link.html id="mesh-wifi-system" text="Mesh Wi-Fi System" %} can help even out coverage between devices.
 
@@ -50,7 +50,7 @@ If the app doesn't appear in your search results, double-check that your Google 
 
 ## Step 2: Sign In
 
-Once installed, open the app and select **Sign In**. You'll be asked for the same username and password you use for Virgin Media's website or My Virgin Media account. If you've forgotten these details, Virgin Media's own support pages or customer service line can help you reset them rather than guessing.
+Once installed, open the app and select **Sign In**. Virgin Media Play needs a free account, so sign in, or register if you haven't used it before. If you've forgotten your details, use the app's password reset rather than guessing.
 
 After signing in, the app may prompt you to accept terms of use or confirm your account details. This step can occasionally take a moment to sync, especially on a first login, so give it a little time before assuming something has gone wrong.
 
@@ -72,7 +72,7 @@ Many Android users like to send content from their phone or tablet to a televisi
 
 If the app crashes or won't load content, try closing it fully and reopening it, or restarting your device. Clearing the app's cache through Android's Settings > Apps menu can also resolve minor glitches without needing to reinstall.
 
-Should you see an error suggesting content isn't available, check that your account details and subscription are active and correctly set up through your My Virgin Media account. In some cases, this kind of message relates to account permissions or subscription tier rather than a technical fault, and Virgin Media's customer support team is the right place to confirm what's included and resolve any account-side issues.
+Should you see an error suggesting content isn't available, remember that most programmes can only be watched in the Republic of Ireland, so the message often appears when you're abroad or your connection looks like it's outside Ireland. If you're at home and it keeps happening, email Virgin Media Play's support team at PlaySupport@virginmedia.ie.
 
 If streaming is slow or buffers frequently, confirm your home Wi-Fi signal is strong where you're watching. Weak signal in bedrooms or extensions is a common culprit, and a mesh system or Wi-Fi extender can make a noticeable difference for consistent streaming quality.
 
