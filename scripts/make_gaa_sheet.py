@@ -90,11 +90,13 @@ def main():
     everything = " ".join(facts)
 
     overview = [f for f in facts if f.startswith("GAA games in Ireland")]
+    # Who holds the TV rights, and for how long: shown with the overview
+    rights = [f for f in facts if f.startswith("The GAA's current TV deals")]
     rte = [f for f in facts if f.startswith("In ") and "RTÉ showed" in f]
     tg4 = [f for f in facts if f.startswith("TG4")]
-    gaaplus = [f for f in facts if f.startswith("GAA+")]
+    gaaplus = [f for f in facts if f.startswith("GAA+") or f.startswith("In Ireland, GAA+")]
     later = [f for f in facts if "weren't announced" in f or "not announced" in f]
-    used = set(overview + rte + tg4 + gaaplus + later)
+    used = set(overview + rights + tg4 + rte + gaaplus + later)
     unused = [f for f in facts if f not in used]
     if unused:
         sys.exit("These GAA facts don't fit a section on the sheet yet:\n- " + "\n- ".join(unused))
@@ -156,8 +158,8 @@ def main():
 
     # Overview line
     y -= 26
-    for f in overview:
-        p, h = para(f, size=11.5)
+    for f in overview + rights:
+        p, h = para(f, size=10.5)
         p.drawOn(c, margin, y - h + 11)
         y -= h + 4
 
@@ -165,39 +167,39 @@ def main():
     y -= 8
     gap = 8
     box_w = (W - 2 * margin - 3 * gap) / 4
-    box_h = 74
+    box_h = 64
     for i, (num, label) in enumerate(stats):
         x = margin + i * (box_w + gap)
         c.setFillColor(PANEL)
         c.setStrokeColor(LINE)
         c.roundRect(x, y - box_h, box_w, box_h, 6, stroke=1, fill=1)
         c.setFillColor(ACCENT)
-        c.setFont(bold_font, 22)
-        c.drawCentredString(x + box_w / 2, y - 30, num)
-        p, h = para(label, size=8.5, color=MUTED, width=box_w - 14)
-        p.drawOn(c, x + 7, y - 40 - h)
-    y -= box_h + 24
+        c.setFont(bold_font, 20)
+        c.drawCentredString(x + box_w / 2, y - 26, num)
+        p, h = para(label, size=8, color=MUTED, width=box_w - 14)
+        p.drawOn(c, x + 7, y - 34 - h)
+    y -= box_h + 18
 
     def section(title, items, label_color=ACCENT):
         nonlocal y
-        y -= 6
+        y -= 2
         c.setFillColor(label_color)
         c.setFont(bold_font, 13)
         c.drawString(margin, y, title)
-        y -= 8
+        y -= 7
         c.setStrokeColor(LINE)
         c.line(margin, y, W - margin, y)
-        y -= 18
+        y -= 16
         for name, lines in items:
             c.setFillColor(INK)
             c.setFont(bold_font, 11.5)
             c.drawString(margin, y, name)
             y -= 5
             for line in lines:
-                p, h = para(line, size=11, width=W - 2 * margin - 4, bullet=True)
+                p, h = para(line, size=10, width=W - 2 * margin - 4, bullet=True)
                 p.drawOn(c, margin + 4, y - h)
-                y -= h + 4
-            y -= 14
+                y -= h + 2
+            y -= 8
 
     section("Free to watch", [("RTÉ", rte), ("TG4", tg4)])
     section("Paid", [("GAA+, the GAA's own streaming service", gaaplus)], label_color=WARM)

@@ -47,15 +47,15 @@ We don't list prices on this page because they change from day to day over the s
 
 ### A budget stick for an HD TV
 
-If the TV is HD rather than 4K (a bedroom, kitchen or older living room set), you don't need to pay for 4K. A basic stick such as the {% include product-link.html id="fire-tv-stick" text="Amazon Fire TV Stick" %} adds the main streaming apps to any TV with an HDMI port. Our [budget streaming sticks guide]({% post_url 2026-09-16-best-budget-streaming-sticks-for-irish-homes-in-2026 %}) compares the cheaper options.
+If the TV is HD rather than 4K (a bedroom, kitchen or older living room set), you don't need to pay for 4K. A basic stick such as the {% include product-link.html id="fire-tv-stick" text="Amazon Fire TV Stick" %} adds the main streaming apps to any TV with an HDMI port. Check the listing says it runs Fire OS, because Amazon's newest HD stick runs Vega OS, which has fewer apps. Our [budget streaming sticks guide]({% post_url 2026-09-16-best-budget-streaming-sticks-for-irish-homes-in-2026 %}) compares the cheaper options.
 
 ### A 4K stick for a 4K TV
 
-For a 4K TV, a 4K stick such as the {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} is the usual step up. One thing to check: Amazon's newest Fire TV Stick 4K runs Amazon's Vega operating system rather than the older Fire OS, and Vega has fewer apps (more on that below). Read the product listing carefully to see which version you're getting.
+For a 4K TV, the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} is the safe Fire TV pick, because it runs Fire OS, which has the full range of apps. Amazon's newest Fire TV Stick 4K runs its Vega operating system instead, and Vega has fewer apps (more on that below), so read the product listing carefully to see which version you're getting.
 
 ### A premium stick or box
 
-If you want a higher-spec model, the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} sits above the standard Fire TV sticks. See our [Fire TV Stick 4K Max guide]({% post_url 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade %}) for whether the upgrade is worth it.
+The 4K Max is also Amazon's highest-spec Fire TV stick, with Wi-Fi 6E support. See our [Fire TV Stick 4K Max guide]({% post_url 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade %}) for whether the upgrade is worth it.
 
 ### Google TV Streamer for Android and Google homes
 
@@ -69,7 +69,7 @@ The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streami
 
 The Apple TV 4K makes most sense if the house already uses iPhones, iPads and an Apple Account. Apple's Irish page lists Gigabit Ethernet built in, works with HD and 4K TVs, and needs an HDMI cable, sold separately. We don't have an affiliate link for it, so buy it wherever suits you. See our [Apple TV 4K guide]({% post_url 2026-09-12-apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers %}).
 
-{% include product-showcase.html products="fire-tv-stick,fire-tv-stick-4k,google-tv-streamer,roku-streaming-stick-4k" title="Streaming devices by household" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k,fire-tv-stick" title="Streaming devices by household" %}
 
 ## The Irish apps on each device
 
