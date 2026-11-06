@@ -1,7 +1,7 @@
 ---
-title: "Roku Streaming Devices: Are They Worth Buying in Ireland?"
-excerpt: "Are Roku devices worth buying in Ireland? Availability, Irish app support and pricing compared with Fire TV and Google TV."
-description: "Are Roku devices worth buying in Ireland? Availability, Irish app support and pricing compared with Fire TV and Google TV."
+title: "Roku in Ireland: Is It Worth Buying, and Does It Have RTÉ Player?"
+excerpt: "Roku is sold in Ireland and has RTÉ Player and Virgin Media Play. Which Irish apps it runs, how to set it up, and how it compares with Fire TV."
+description: "Roku is sold in Ireland and has RTÉ Player and Virgin Media Play. Which Irish apps it runs, how to set it up, and how it compares with Fire TV."
 categories:
   - Devices
 tags:

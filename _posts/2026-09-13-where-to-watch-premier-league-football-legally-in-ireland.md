@@ -46,7 +46,7 @@ This post runs through the main legal options available to Irish viewers, along 
 
 Premier League rights for the Republic of Ireland are shared between **Sky Sports**, **TNT Sports** (formerly BT Sport) and **Premier Sports**, under a deal running from 2025/26 to 2030/31. Sky shows most live games, TNT Sports has a smaller package, and Premier Sports has an exclusive Saturday 3pm game every round, which is only shown in Ireland.
 
-Exact fixture allocations change from season to season based on rights negotiations, so it's worth double-checking the broadcaster's own fixture list at the start of each campaign rather than assuming last year's pattern still applies.
+Exact fixture allocations change from season to season based on rights negotiations, so it's worth double-checking the broadcaster's own fixture list at the start of each campaign rather than assuming last year's pattern still applies. For this week's games, see [sport on TV this week](/sport-on-tv/).
 
 **Virgin Media Television** (the free-to-air channels) does not hold Premier League rights in Ireland.
 

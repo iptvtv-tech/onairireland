@@ -36,7 +36,7 @@ faqs:
 
 ## Finals Weekend Is Here — Let's Talk Coverage
 
-All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for the rest of the Championship. Between RTÉ's free-to-air coverage, TG4's dedicated slots, and [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) filling in the gaps, most fans in Ireland can catch the big games without much fuss. Here's how it typically breaks down.
+All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for [the rest of the Championship](/gaa/). Between RTÉ's free-to-air coverage, TG4's dedicated slots, and [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) filling in the gaps, most fans in Ireland can catch the big games without much fuss. Here's how it typically breaks down.
 
 ### RTÉ: Your First Port of Call
 
@@ -44,7 +44,7 @@ RTÉ has held broadcast rights to the marquee Finals — the Hurling and Footbal
 
 If you're at home, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) is the easiest way to stream live, either through a smart TV app, a browser, or a streaming stick like a Chromecast or Fire TV Stick. It's free with a valid TV licence, and no subscription is needed on top. The Player app also lets you catch up afterwards if you miss throw-in, though obviously nothing beats watching the Final live.
 
-One thing worth double-checking closer to the day: RTÉ occasionally simulcasts or splits coverage between channels when there are scheduling clashes (for example, if a minor or club fixture overlaps). It's always worth glancing at the official RTÉ GAA schedule in the days beforehand rather than assuming a fixed channel.
+One thing worth double-checking closer to the day: RTÉ occasionally simulcasts or splits coverage between channels when there are scheduling clashes (for example, if a minor or club fixture overlaps). It's always worth glancing at the official RTÉ GAA schedule in the days beforehand rather than assuming a fixed channel. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 ### TG4: Camogie, Ladies Football, and More
 

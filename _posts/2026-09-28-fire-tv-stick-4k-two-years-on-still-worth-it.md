@@ -36,7 +36,7 @@ review_basis: research
 
 {% include share-buttons.html %}
 
-Yes, the standard Fire TV Stick 4K is still a reasonable buy for most casual streamers in Ireland, though it's starting to show its age against newer, faster devices.
+Yes, the standard Fire TV Stick 4K is still a reasonable buy for most casual streamers in Ireland, though it's starting to show its age against newer, faster devices. Our [Fire TV hub](/fire-tv/) compares the current models.
 
 ## What the Fire TV Stick 4K Still Gets Right
 

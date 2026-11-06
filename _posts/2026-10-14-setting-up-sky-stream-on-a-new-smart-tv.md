@@ -37,7 +37,7 @@ Setting up Sky Stream on a new smart TV mostly involves connecting the puck via 
 
 ## Before You Start
 
-Sky Stream relies on a small streaming device (often called a "puck") that connects to your television rather than a traditional satellite dish. Before unboxing anything, it's worth checking a few basics.
+[Sky Stream](/now-and-sky/) relies on a small streaming device (often called a "puck") that connects to your television rather than a traditional satellite dish. Before unboxing anything, it's worth checking a few basics.
 
 Make sure your home broadband is active and that you know your Wi-Fi network name and password, as these will be needed during setup. If your router sits far from the TV, a {% include product-link.html id="mesh-wifi-system" text="Mesh Wi-Fi System" %} can help maintain a stable connection throughout the house, which is particularly useful if the television is in a room with thick walls or sits a good distance from the hub.
 

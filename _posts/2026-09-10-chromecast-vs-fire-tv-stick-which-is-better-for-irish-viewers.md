@@ -59,7 +59,7 @@ If you're already inside the Amazon ecosystem — Prime Video, Alexa smart speak
 
 For core Irish apps like RTÉ Player, neither device has a clear, well-documented advantage — both are generally supported. Virgin Media Play and specific sports apps are the area most likely to affect your decision, so it's worth checking the current official app listings for both platforms, and even asking in Irish tech forums or on the RTÉ and Virgin Media support pages, before making a final call.
 
-Ultimately, both are solid, legal, affordable ways to bring streaming apps to an older TV, and the "better" choice comes down to which ecosystem you're already using and which specific Irish apps you rely on most.
+Ultimately, both are solid, legal, affordable ways to bring streaming apps to an older TV, and the "better" choice comes down to which ecosystem you're already using and which specific Irish apps you rely on most. For every Fire TV model and set-up guide, see our [Fire TV hub](/fire-tv/).
 
 {% include product-showcase.html products="google-tv-streamer,fire-tv-stick-4k,fire-tv-stick" %}
 {% include related-posts.html %}

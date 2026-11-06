@@ -1,7 +1,7 @@
 ---
-title: "Do You Need a TV Licence to Stream in Ireland?"
-excerpt: "The short answer: if you have any TV set, even a smart TV used only for apps, you need one. Phones, laptops and tablets on their own don't."
-description: "A clear explainer on Ireland's TV licence rules for streaming-only households, based on the Broadcasting Act 2009."
+title: "TV Licence and Streaming in Ireland: Who Needs One?"
+excerpt: "Streaming on a smart TV still needs a TV licence in Ireland. Phones, laptops and tablets on their own don't. What counts as a TV set, and how to check."
+description: "Streaming on a smart TV still needs a TV licence in Ireland. Phones, laptops and tablets on their own don't. What counts as a TV set, and how to check."
 last_updated: 2026-10-23
 last_checked: 2026-10-23
 categories:

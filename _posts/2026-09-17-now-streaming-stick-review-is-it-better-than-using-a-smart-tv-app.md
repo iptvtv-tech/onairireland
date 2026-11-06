@@ -77,7 +77,7 @@ We'd rather not quote a specific price here, as promotional pricing and bundle d
 
 If your smart TV is a few years old, or you've noticed the built-in NOW app feeling slow, the dedicated stick is a worthwhile upgrade - it's a small outlay for noticeably smoother viewing. If your TV is fairly new and its apps already run well, you probably won't see enough of a difference to justify buying extra hardware.
 
-For households wanting one device to handle NOW plus a broader range of Irish and UK streaming apps, a general-purpose device like Fire TV Stick or Roku Streaming Stick Plus is worth comparing before you commit.
+For households wanting one device to handle NOW plus a broader range of Irish and UK streaming apps, a general-purpose device like Fire TV Stick or Roku Streaming Stick Plus is worth comparing before you commit. For more NOW guides, see our [NOW and Sky hub](/now-and-sky/).
 
 {% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
 

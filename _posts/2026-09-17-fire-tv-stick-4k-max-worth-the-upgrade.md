@@ -77,7 +77,7 @@ One thing worth flagging for any new device: make sure your Amazon account regio
 
 ### The Verdict
 
-The Fire TV Stick 4K Max is a solid piece of kit and a clear improvement over older Fire TV Sticks. Whether it's worth the upgrade really depends on what you currently own and how demanding your streaming habits are. Heavy multi-app households will feel the benefit most; casual users of one or two apps may not notice enough difference to justify the cost.
+The Fire TV Stick 4K Max is a solid piece of kit and a clear improvement over [older Fire TV Sticks](/fire-tv/). Whether it's worth the upgrade really depends on what you currently own and how demanding your streaming habits are. Heavy multi-app households will feel the benefit most; casual users of one or two apps may not notice enough difference to justify the cost.
 
 {% include product-showcase.html products="fire-tv-stick-4k-max-review,fire-tv-stick-4k,roku-ultra-review" %}
 

@@ -42,7 +42,7 @@ faqs:
 
 If you're staring at an error message instead of your favourite programme, you're not alone. Login and authentication issues with the [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) app are among the most common complaints we hear from readers, and they usually come down to a handful of predictable causes: outdated app versions, account sync issues, or a shaky home network connection.
 
-The good news is that most of these problems can be sorted at home without needing to contact support, though we'll cover when that step is genuinely necessary too.
+The good news is that most of these problems can be sorted at home without needing to contact support, though we'll cover when that step is genuinely necessary too. For more Virgin Media Play help, see our [Virgin Media guides](/virgin-media/).
 
 ### Check the Basics First
 

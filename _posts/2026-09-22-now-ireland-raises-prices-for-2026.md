@@ -66,7 +66,7 @@ It's also worth confirming that your account region is set correctly and that yo
 
 ### The Bottom Line
 
-Price increases are rarely welcome news, but they're becoming a routine part of subscribing to any streaming service. The best defence is simply staying informed — read the emails NOW sends about your plan, check your account dashboard periodically, and don't hesitate to reach out to their support if a charge doesn't match what you expected. We'll update this post with confirmed pricing figures once NOW makes them official.
+Price increases are rarely welcome news, but they're becoming a routine part of subscribing to any streaming service. The best defence is simply staying informed — read the emails [NOW](/now-and-sky/) sends about your plan, check your account dashboard periodically, and don't hesitate to reach out to their support if a charge doesn't match what you expected. We'll update this post with confirmed pricing figures once NOW makes them official.
 
 **Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
 

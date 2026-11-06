@@ -106,7 +106,7 @@ HBO Max's help centre also lists Prime Video Channels for Ireland. You subscribe
 
 ### Already paying for one of these?
 
-Check what your current Sky or NOW package includes before paying for HBO Max directly. You may already have Basic with Ads, and an upgrade could cost less than a second subscription.
+Check what your current [Sky or NOW package](/now-and-sky/) includes before paying for HBO Max directly. You may already have Basic with Ads, and an upgrade could cost less than a second subscription.
 
 ## What you can watch on HBO Max
 

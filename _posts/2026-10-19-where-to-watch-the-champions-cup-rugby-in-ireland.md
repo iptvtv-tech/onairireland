@@ -38,7 +38,7 @@ Irish rugby fans can watch every match of the 2026-27 Investec Champions Cup on 
 
 ## Who Holds the Rights in Ireland
 
-Premier Sports is the lead broadcaster of the Investec Champions Cup in the UK and Ireland under a three-year deal that runs to the end of the 2026/27 season. It shows all 63 Champions Cup matches live, plus selected EPCR Challenge Cup games. Check EPCR's fixture list and Premier Sports' schedule each week for kick-off times.
+Premier Sports is the lead broadcaster of the Investec Champions Cup in the UK and Ireland under a three-year deal that runs to the end of the 2026/27 season. It shows all 63 Champions Cup matches live, plus selected EPCR Challenge Cup games. Check EPCR's fixture list and Premier Sports' schedule each week for kick-off times. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 ### Is Any of It Free?
 

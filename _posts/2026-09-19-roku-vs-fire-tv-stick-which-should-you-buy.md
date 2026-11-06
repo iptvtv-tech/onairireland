@@ -36,7 +36,7 @@ faqs:
 
 ## Roku vs Fire TV Stick: Which Should You Buy?
 
-If you're setting up a telly for streaming and don't fancy the built-in smart TV apps, a small streaming stick is usually the easiest fix. In Ireland, the two most talked-about budget options are [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) and Amazon's Fire TV Stick range. Both do a similar job, but there are real differences worth knowing before you spend your money.
+If you're setting up a telly for streaming and don't fancy the built-in smart TV apps, a small streaming stick is usually the easiest fix. In Ireland, the two most talked-about budget options are [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) and Amazon's [Fire TV Stick range](/fire-tv/). Both do a similar job, but there are real differences worth knowing before you spend your money.
 
 ### Price and Availability
 

@@ -67,7 +67,7 @@ Both TG4 Player and the Premier Sports app support viewing on phones and tablets
 
 ### Planning Around Fixture Changes
 
-URC kick-off times and broadcast allocations can shift week to week, particularly when Irish provinces are involved in European competition the same weekend. It's always worth checking the official URC website or the Premier Sports schedule a few days ahead rather than assuming a fixture will be shown at the time you expect.
+URC kick-off times and broadcast allocations can shift week to week, particularly when Irish provinces are involved in European competition the same weekend. It's always worth checking the official URC website or the Premier Sports schedule a few days ahead rather than assuming a fixture will be shown at the time you expect. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 ### The Bottom Line
 

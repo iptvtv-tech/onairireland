@@ -36,7 +36,7 @@ faqs:
 
 ## Virgin Media's 2026 Streaming Bundle: What We Know So Far
 
-Virgin Media Ireland has confirmed plans to roll out a refreshed streaming bundle in 2026, aimed at customers who want their broadband, TV and streaming subscriptions managed under one roof. While full pricing and launch dates haven't been locked down publicly yet, the broad strokes of the announcement give us a decent idea of what's coming.
+[Virgin Media Ireland](/virgin-media/) has confirmed plans to roll out a refreshed streaming bundle in 2026, aimed at customers who want their broadband, TV and streaming subscriptions managed under one roof. While full pricing and launch dates haven't been locked down publicly yet, the broad strokes of the announcement give us a decent idea of what's coming.
 
 We'd recommend treating specific figures with caution until Virgin Media publishes an official pricing page, as these details tend to shift between initial announcement and actual rollout.
 

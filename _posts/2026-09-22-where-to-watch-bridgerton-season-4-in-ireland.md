@@ -36,7 +36,7 @@ faqs:
  
 ## Bridgerton Season 4 Has Landed in Ireland
 
-Irish fans of the Bridgerton universe can breathe easy: the new season is available to stream on Netflix here in Ireland, included as part of a standard Netflix subscription. There's no need to hunt around for alternative platforms — this is a Netflix original production, and it has consistently rolled out simultaneously across all Irish Netflix accounts with previous seasons, so this one follows the same pattern.
+Irish fans of the Bridgerton universe can breathe easy: the new season is available to stream on Netflix here in Ireland, included as part of a [standard Netflix subscription](/netflix/). There's no need to hunt around for alternative platforms — this is a Netflix original production, and it has consistently rolled out simultaneously across all Irish Netflix accounts with previous seasons, so this one follows the same pattern.
 
 If you already have a Netflix account registered with an Irish billing address, the season should simply appear in your "New Releases" row or under the Bridgerton title page once you search for it. As always with a big returning series, it's worth double-checking that your app is updated to the latest version, since older versions of the Netflix app on some smart TVs and streaming devices can be slow to refresh their catalogue listings.
 

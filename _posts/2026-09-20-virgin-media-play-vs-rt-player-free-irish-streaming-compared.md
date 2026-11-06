@@ -1,7 +1,7 @@
 ---
-title: "Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared"
-excerpt: "Virgin Media Play vs RTÉ Player: Ireland's two main free streaming apps compared on content, ease of use and devices."
-description: "Virgin Media Play vs RTÉ Player: Ireland's two main free streaming apps compared on content, ease of use and devices."
+title: "Virgin Media Play vs RTÉ Player: Which Free Irish App Is Better?"
+excerpt: "RTÉ Player and Virgin Media Play compared: what's on each, which devices have the apps, and which free Irish app suits what you watch."
+description: "RTÉ Player and Virgin Media Play compared: what's on each, which devices have the apps, and which free Irish app suits what you watch."
 categories:
   - Streaming-Services
 tags:
@@ -72,7 +72,7 @@ For portable listening, say catching up on a match commentary in the kitchen, a 
 
 ## The Bottom Line
 
-If Irish content, news, and homegrown drama are your priority, RTÉ Player earns its place. If you want a broader entertainment mix with imported shows, Virgin Media Play fills that gap nicely. Realistically, most Irish households end up with both installed, and there's no real downside to that since neither costs anything to use.
+If Irish content, news, and homegrown drama are your priority, RTÉ Player earns its place. If you want a broader entertainment mix with imported shows, [Virgin Media Play](/virgin-media/) fills that gap nicely. Realistically, most Irish households end up with both installed, and there's no real downside to that since neither costs anything to use.
 
 {% include product-showcase.html category="Streaming Services" %}
 

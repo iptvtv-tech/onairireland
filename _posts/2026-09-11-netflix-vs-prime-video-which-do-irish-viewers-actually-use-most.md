@@ -40,7 +40,7 @@ The broader point stands regardless of the exact split: this is not a Netflix la
 
 Prime Video benefits from a bundling effect that Netflix simply doesn't have. If you're already paying for Prime for parcel delivery, the video service arrives as a bonus rather than a separate line item on your bank statement. That changes the psychology of "which service do we use tonight" — people default to what feels free.
 
-Netflix, by contrast, has to justify its subscription cost entirely on its own merits: originals, library depth, and ease of use. It still does that well for a lot of households, but it no longer has the built-in advantage of being the only credible option.
+Netflix, by contrast, has to justify [its subscription cost](/netflix/) entirely on its own merits: originals, library depth, and ease of use. It still does that well for a lot of households, but it no longer has the built-in advantage of being the only credible option.
 
 ## What Irish Viewers Are Actually Comparing
 

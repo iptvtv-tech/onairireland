@@ -35,6 +35,8 @@ from reportlab.graphics.shapes import Drawing
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(ROOT, "_data", "site_facts.yml")
 OUT = os.path.join(ROOT, "assets", "downloads", "gaa-county-sheet.pdf")
+# Every printed "onairireland.ie/gaa" (and the QR code) links here
+GUIDE_URL = "https://onairireland.ie/gaa/"
 
 NAVY = HexColor("#0f172a")
 INK = HexColor("#1e293b")
@@ -200,7 +202,8 @@ def main():
     section("Free to watch", [("RTÉ", rte), ("TG4", tg4)])
     section("Paid", [("GAA+, the GAA's own streaming service", gaaplus)], label_color=WARM)
     section("Next season", [("Not announced yet", later +
-             ["We update this sheet when they're announced. The latest is always at onairireland.ie/gaa/"])],
+             ["We update this sheet when they're announced. The latest is always at "
+              f'<a href="{GUIDE_URL}">onairireland.ie/gaa/</a>'])],
             label_color=MUTED)
 
     # QR code panel: points to the always-current GAA guide
@@ -210,15 +213,18 @@ def main():
     c.setFillColor(PANEL)
     c.setStrokeColor(LINE)
     c.roundRect(margin, panel_y, W - 2 * margin, panel_h, 8, stroke=1, fill=1)
-    widget = QrCodeWidget("https://onairireland.ie/gaa/")
+    widget = QrCodeWidget(GUIDE_URL)
     x0, y0, x1, y1 = widget.getBounds()
     d = Drawing(qr_size, qr_size, transform=[qr_size / (x1 - x0), 0, 0, qr_size / (y1 - y0), 0, 0])
     d.add(widget)
-    renderPDF.draw(d, c, W - margin - qr_size - 10, panel_y + 10)
+    qr_x, qr_y = W - margin - qr_size - 10, panel_y + 10
+    renderPDF.draw(d, c, qr_x, qr_y)
+    # The QR code is clickable too, for people reading the PDF on screen
+    c.linkURL(GUIDE_URL, (qr_x, qr_y, qr_x + qr_size, qr_y + qr_size), relative=0, thickness=0)
     c.setFillColor(INK)
     c.setFont(bold_font, 14)
     c.drawString(margin + 16, panel_y + panel_h - 34, "The latest GAA TV guide")
-    p, h = para("Scan the code or visit <b>onairireland.ie/gaa</b> for who shows GAA this season, "
+    p, h = para(f'Scan the code or visit <a href="{GUIDE_URL}"><b>onairireland.ie/gaa</b></a> for who shows GAA this season, '
                 "GAA+ prices once they're announced, and help with RTÉ, TG4 and GAA+.",
                 size=10.5, color=MUTED, width=W - 2 * margin - qr_size - 50)
     p.drawOn(c, margin + 16, panel_y + panel_h - 44 - h)
@@ -229,9 +235,14 @@ def main():
     # Footer
     c.setStrokeColor(LINE)
     c.line(margin, 92, W - margin, 92)
-    sources = ", ".join(re.sub(r"^https?://(www\.)?([^/]+)/.*$", r"\2", s) for s in entry.get("source", []))
-    sources = ", ".join(dict.fromkeys(sources.split(", ")))
-    foot = (f"<b>onairireland.ie/gaa</b> · Independent guides to legal streaming in Ireland, by the On Air Ireland team. "
+    # Each printed source domain links to that site's home page (first source URL wins)
+    domains = {}
+    for s in entry.get("source", []):
+        m = re.match(r"^(https?://(?:www\.)?([^/]+))/", s)
+        if m:
+            domains.setdefault(m.group(2), m.group(1) + "/")
+    sources = ", ".join(f'<a href="{home}">{name}</a>' for name, home in domains.items())
+    foot = (f'<a href="{GUIDE_URL}"><b>onairireland.ie/gaa</b></a> · Independent guides to legal streaming in Ireland, by the On Air Ireland team. '
             f"Not connected to the GAA, RTÉ or TG4. Checked against {sources} on "
             f"{checked.day} {checked:%B %Y}. Fixtures and channels can change, so check the "
             f"broadcaster's own listings on the day.")

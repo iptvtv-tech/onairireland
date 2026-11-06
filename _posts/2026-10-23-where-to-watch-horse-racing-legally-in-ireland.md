@@ -69,7 +69,7 @@ If you encounter a message saying content isn't available in your account's regi
 
 For most Irish racing fans, a sensible approach is to rely on RTÉ for the big free-to-air fixtures like the Leopardstown Christmas Festival, and consider a Racing TV subscription if you follow racing closely throughout the year. Checking your existing pay-TV package for Sky Sports Racing before subscribing elsewhere can also save an unnecessary extra cost.
 
-Because racing schedules and broadcaster deals can shift from one season to the next, always double-check the current lineup close to race day rather than assuming last year's arrangement still applies.
+Because racing schedules and broadcaster deals can shift from one season to the next, always double-check the current lineup close to race day rather than assuming last year's arrangement still applies. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 {% include product-showcase.html category="Sports Streaming" %}
 

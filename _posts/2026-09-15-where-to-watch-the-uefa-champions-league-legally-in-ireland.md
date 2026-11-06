@@ -71,7 +71,7 @@ Broadcast rights for the Champions League are typically negotiated in multi-year
 - Whether the broadcaster's app supports your streaming device
 - Whether a short-term or match-day pass exists if you don't want a long subscription
 
-Because these details shift regularly, treat any specific pricing or app names mentioned here as a general guide rather than gospel, and check directly with the broadcaster nearer to kick-off.
+Because these details shift regularly, treat any specific pricing or app names mentioned here as a general guide rather than gospel, and check directly with the broadcaster nearer to kick-off. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 ### Final Thought
 

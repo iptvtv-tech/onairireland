@@ -38,7 +38,7 @@ The PDC World Darts Championship has traditionally been shown in Ireland via Sky
 
 ## When Is the Tournament On
 
-The World Darts Championship typically runs from mid-December through to New Year's Day, with the final usually taking place on 1 January or 2 January. Precise dates for 2026-27 had not been locked in at the time of writing, so it's worth checking the official PDC website or your broadcaster's listings once the draw and schedule are confirmed, usually a few months ahead of the event.
+The World Darts Championship typically runs from mid-December through to New Year's Day, with the final usually taking place on 1 January or 2 January. Precise dates for 2026-27 had not been locked in at the time of writing, so it's worth checking the official PDC website or your broadcaster's listings once the draw and schedule are confirmed, usually a few months ahead of the event. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 ## Confirmed Broadcaster in Ireland
 
@@ -46,7 +46,7 @@ Sky Sports has shown the PDC World Darts Championship in Ireland for many years,
 
 ## Watching Without a Sky Dish
 
-For households without a satellite dish or a long-term Sky contract, NOW (formerly NOW TV) offers a Sky Sports pass that can be purchased on a day, month, or rolling basis depending on current pricing tiers. This is the most practical legal route for darts fans in Ireland who want to watch without signing up to a full Sky package. Pricing and pass names do change from time to time, so it's worth checking the NOW website directly for the current Sky Sports membership options and costs before the tournament begins.
+For households without a satellite dish or a long-term Sky contract, [NOW](/now-and-sky/) (formerly NOW TV) offers a Sky Sports pass that can be purchased on a day, month, or rolling basis depending on current pricing tiers. This is the most practical legal route for darts fans in Ireland who want to watch without signing up to a full Sky package. Pricing and pass names do change from time to time, so it's worth checking the NOW website directly for the current Sky Sports membership options and costs before the tournament begins.
 
 NOW is available on smart TVs, streaming sticks, games consoles, and via a web browser or app on phones and tablets. If you're watching on a smart TV app, make sure the app itself is up to date and that your account's billing address matches your actual home address in Ireland, as this is sometimes a source of account or regional mismatches with subscription services.
 

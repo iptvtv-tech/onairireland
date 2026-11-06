@@ -38,7 +38,7 @@ faqs:
 
 If [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) has been freezing mid-programme, closing itself without warning, or refusing to load at all, you're not imagining it. This is one of the more common complaints from streaming customers in Ireland, and thankfully most causes are things you can fix yourself without waiting on a callback.
 
-Below we've broken down the usual culprits and the practical steps that tend to sort them out, whether you're using the app on a smart TV, a streaming stick, or a phone.
+Below we've broken down the usual culprits and the practical steps that tend to sort them out, whether you're using the app on a smart TV, a streaming stick, or a phone. For more Virgin Media Play help, see our [Virgin Media guides](/virgin-media/).
 
 ### Why Streaming Apps Crash in the First Place
 

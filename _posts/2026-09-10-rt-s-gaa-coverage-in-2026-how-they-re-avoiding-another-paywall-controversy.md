@@ -34,7 +34,7 @@ RTÉ's announcement of 19 weeks of championship coverage for 2026 appears to be 
 
 It's worth being clear about what this figure represents: it refers to the span of the championship calendar that RTÉ's free-to-air coverage will run across, from early rounds through to All-Ireland finals weekends, rather than a guarantee that every single game in that window will be shown live and uninterrupted on RTÉ2 or RTÉ One.
 
-**Update:** On 7 April 2026 RTÉ confirmed 35 live Championship games on RTÉ2 and RTÉ Player, including the provincial finals, the All-Ireland semi-finals in football, hurling and camogie, and the All-Ireland finals. GAA+ showed 40 exclusive games in 2026. See our [GAA guide](/gaa/) for how the coverage splits.
+**Update:** On 7 April 2026 RTÉ confirmed 35 live Championship games on RTÉ2 and RTÉ Player, including the provincial finals, the All-Ireland semi-finals in football, hurling and camogie, and the All-Ireland finals. GAA+ showed 40 exclusive games in 2026. See our [GAA guide](/gaa/) for how the coverage splits, and [sport on TV this week](/sport-on-tv/) for the next games.
 
 ## Where GAA+ Fits In
 

@@ -25,7 +25,7 @@ Irish rugby is split between free-to-air TV and Premier Sports, and which one yo
 - **United Rugby Championship (URC):** at least 26 games a season free on TG4, in Irish. Every game involving Leinster, Munster, Ulster and Connacht is on Premier Sports, in English.
 - **Investec Champions Cup:** every match on Premier Sports until the end of the 2026/27 season. There's no free TV coverage; RTÉ Radio 1 has commentary of selected games.
 
-Premier Sports is part of the Sports Extra pack on Sky, NOW, Virgin Media and Vodafone, and NOW sells it with no contract. See the [streaming prices tracker](/streaming-prices/) for NOW's current price.
+Premier Sports is part of the Sports Extra pack on Sky, NOW, Virgin Media and Vodafone, and NOW sells it with no contract. See the [streaming prices tracker](/streaming-prices/) for NOW's current price, and [Sky Sports vs Premier Sports]({% post_url 2026-10-28-sky-sports-vs-premier-sports-which-do-you-need %}) for what each one shows.
 
 For this week's games, see [sport on TV this week](/sport-on-tv/).
 

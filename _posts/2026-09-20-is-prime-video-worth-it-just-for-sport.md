@@ -58,7 +58,7 @@ Streaming apps also behave a little differently depending on your device. Prime 
 
 ## Final Thoughts
 
-For Irish viewers, Prime Video's sport offering is a nice bonus rather than a headline feature. If live sport is genuinely the only reason you're considering the subscription, it's worth checking exactly what's confirmed for Ireland this season before you commit, since availability can and does change. For most households, Prime Video makes more sense as part of a broader entertainment mix — films, series, and the odd live event — rather than a standalone sports subscription.
+For Irish viewers, Prime Video's sport offering is a nice bonus rather than a headline feature. If live sport is genuinely the only reason you're considering the subscription, it's worth checking exactly what's confirmed for Ireland this season before you commit, since availability can and does change. For the week's big games and where they're shown, see [sport on TV this week](/sport-on-tv/). For most households, Prime Video makes more sense as part of a broader entertainment mix — films, series, and the odd live event — rather than a standalone sports subscription.
 
 **Related guides:** [Where to Watch Premier League Football Legally in Ireland](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/) · [Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/)
 

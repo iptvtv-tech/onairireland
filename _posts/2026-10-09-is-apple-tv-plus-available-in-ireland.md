@@ -41,7 +41,7 @@ Apple TV+ is Apple's subscription streaming service, distinct from the Apple TV 
 
 ### Pricing for Irish Subscribers
 
-Apple TV+ is billed monthly in euro to Irish customers. Exact pricing changes from time to time, so rather than quote a figure that may be out of date, it's best to check the current price directly in the App Store listing or on Apple's website before signing up. Apple has also, in the past, bundled Apple TV+ for free for a limited period with the purchase of certain new Apple devices — if you've recently bought an iPhone, iPad, or Mac, it's worth checking your eligibility in the Settings app rather than assuming you need to pay straight away.
+Apple TV+ is billed monthly in euro to Irish customers. Exact pricing changes from time to time, so rather than quote a figure that may be out of date, it's best to check the current price directly in the App Store listing or on Apple's website before signing up. Our [streaming prices tracker](/streaming-prices/) lists the Irish price we last checked. Apple has also, in the past, bundled Apple TV+ for free for a limited period with the purchase of certain new Apple devices — if you've recently bought an iPhone, iPad, or Mac, it's worth checking your eligibility in the Settings app rather than assuming you need to pay straight away.
 
 Apple also offers Apple One, a bundle that combines Apple TV+ with other services like Apple Music and iCloud storage. For households already paying for several Apple subscriptions separately, this can work out cheaper, though it's only worth it if you'd use the other services anyway.
 

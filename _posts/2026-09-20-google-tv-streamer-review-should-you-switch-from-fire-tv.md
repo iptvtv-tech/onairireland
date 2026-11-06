@@ -39,7 +39,7 @@ review_basis: research
 
 ## Google TV Streamer Review: Should You Switch From Fire TV?
 
-Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/), you might be wondering whether it's worth the switch. We've put it through its paces with the Irish app landscape in mind.
+Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/), you might be wondering whether it's worth the switch. This review looks at it with the Irish apps in mind.
 
 ### What Is the Google TV Streamer?
 

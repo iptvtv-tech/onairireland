@@ -42,7 +42,7 @@ George R.R. Martin's Dunk & Egg novellas have finally made it to screen with *A 
 
 In Ireland, HBO content typically reaches us through Sky, and that's the case here too. *A Knight of the Seven Kingdoms* is available on **Sky Atlantic** for those with a Sky subscription that includes the channel, and it's also streaming on **[NOW](/streaming-services/sky-stream-vs-now-ireland/)**, Sky's standalone streaming platform that doesn't require a satellite dish or a Sky Q box.
 
-If you're going the NOW route, you'll need at least a **NOW Entertainment Membership** to access it, since this is where Sky Atlantic's on-demand content lives on the platform. If you already have a broader NOW package that includes Entertainment, you're covered. It's always worth double-checking your specific membership tier in the NOW app or on the NOW website before you settle in, as package names and what they include can shift over time.
+If you're going the NOW route, you'll need at least a **[NOW Entertainment Membership](/now-and-sky/)** to access it, since this is where Sky Atlantic's on-demand content lives on the platform. If you already have a broader NOW package that includes Entertainment, you're covered. It's always worth double-checking your specific membership tier in the NOW app or on the NOW website before you settle in, as package names and what they include can shift over time.
 
 If you're a longtime Sky customer with a satellite setup, Sky Atlantic comes through your Sky box. A standard free-to-air satellite receiver can't show Sky's channels, so if your box is getting on in years, ask Sky about an upgrade.
 

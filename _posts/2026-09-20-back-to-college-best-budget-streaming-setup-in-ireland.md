@@ -38,7 +38,7 @@ faqs:
 
 Moving into student digs for the year usually means a long list of things to buy, and a working telly setup often gets left until last. The good news is that getting legal streaming sorted in Irish accommodation doesn't need to cost much, and it's one of the easier jobs on the list once you know what to look for.
 
-Most student rooms and shared houses already have a TV with an HDMI port, so the real decision is which streaming device to plug into it and which subscriptions are actually worth paying for on a student budget.
+Most student rooms and shared houses already have a TV with an HDMI port, so the real decision is which streaming device to plug into it and which subscriptions are actually worth paying for on a student budget. The [streaming cost calculator](/streaming-cost-calculator/) shows what a mix of services adds up to each month.
 
 ### Picking a Streaming Device
 

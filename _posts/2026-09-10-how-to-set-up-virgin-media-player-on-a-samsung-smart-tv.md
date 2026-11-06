@@ -27,7 +27,7 @@ affiliate_links: true
 
 [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) is the official app that lets Virgin Media Ireland broadband and TV customers stream live channels, catch-up content, and on-demand shows directly through supported smart TVs. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
 
-This guide walks through the process from checking compatibility to signing in and fixing common issues.
+This guide walks through the process from checking compatibility to signing in and fixing common issues. For more on the app, see our [Virgin Media guides](/virgin-media/).
 
 ### Before You Begin
 

@@ -75,7 +75,7 @@ If you're connecting any external streaming device, it's worth using a decent {%
 
 Once NOW is installed and you're signed in, take a moment to check your video quality settings within the app itself, these are sometimes found under an account or playback settings menu, though exact wording can vary depending on app updates. If you're mounting or repositioning your TV to get a better view for movie nights, an {% include product-link.html id="tv-wall-mount" text="Adjustable TV Wall Mount" %} can help you angle the screen properly and tidy away cables at the same time.
 
-Finally, remember that NOW operates on a membership basis covering different content passes (such as entertainment, sport, or cinema), so make sure you've selected and are paying for the correct pass for the content you actually want to watch. Pricing and available passes change from time to time, so it's best to check the official NOW website or app directly for current details rather than relying on older information.
+Finally, remember that [NOW operates on a membership basis](/now-and-sky/) covering different content passes (such as entertainment, sport, or cinema), so make sure you've selected and are paying for the correct pass for the content you actually want to watch. Pricing and available passes change from time to time, so it's best to check the official NOW website or app directly for current details rather than relying on older information.
 
 **Related guides:** [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/) · [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/)
 

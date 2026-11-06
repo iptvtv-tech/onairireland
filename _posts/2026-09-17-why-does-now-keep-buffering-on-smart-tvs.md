@@ -70,7 +70,7 @@ If your smart TV is a few years old, its built-in processor and apps may simply 
 
 ### Rule Out Peak-Time Congestion
 
-Finally, if buffering only happens in the evenings between roughly 6pm and 10pm, this could simply be peak-time congestion on your broadband network rather than anything wrong with your setup. Contacting your internet provider to ask about traffic management during these hours can clarify whether this is a widespread issue in your area.
+Finally, if buffering only happens in the evenings between roughly 6pm and 10pm, this could simply be peak-time congestion on your broadband network rather than anything wrong with your setup. Contacting your internet provider to ask about traffic management during these hours can clarify whether this is a widespread issue in your area. For more NOW fixes and guides, see our [NOW and Sky hub](/now-and-sky/).
 
 {% include product-showcase.html category="Troubleshooting" %}
 

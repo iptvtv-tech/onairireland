@@ -27,7 +27,7 @@ affiliate_links: true
 
 Virgin Media customers have been getting used to a redesigned Virgin Media Play app in recent months. If you've opened it lately and found things in different places, you're not imagining it — the app has had a proper overhaul, both in how it looks and in what it can do.
 
-For anyone who relies on Virgin Media TV while out and about, or who prefers streaming to flicking through a traditional set-top box guide, here's what's changed.
+For anyone who relies on [Virgin Media TV](/virgin-media/) while out and about, or who prefers streaming to flicking through a traditional set-top box guide, here's what's changed.
 
 ## A Cleaner, Simpler Interface
 

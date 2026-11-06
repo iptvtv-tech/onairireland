@@ -38,7 +38,7 @@ To set up Virgin Media Play on Android, download it from the Google Play Store, 
 
 ## Before You Start
 
-Virgin Media Play is the broadcaster's official streaming app, giving Virgin Media TV customers access to live channels and on-demand content on compatible Android devices. Before installing, it's worth checking a few basics.
+Virgin Media Play is the broadcaster's official streaming app, giving [Virgin Media TV](/virgin-media/) customers access to live channels and on-demand content on compatible Android devices. Before installing, it's worth checking a few basics.
 
 Make sure your Android phone or tablet is running a reasonably recent version of Android, as very old operating systems may not be supported. You'll also need an active Virgin Media TV subscription, since the app authenticates against your account rather than offering standalone access. A stable Wi-Fi connection is recommended for setup and for streaming without interruptions — if your home broadband has trouble reaching every room, a {% include product-link.html id="mesh-wifi-system" text="Mesh Wi-Fi System" %} can help even out coverage between devices.
 

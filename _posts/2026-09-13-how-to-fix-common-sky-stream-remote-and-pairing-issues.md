@@ -77,7 +77,7 @@ For larger homes with multiple dead spots, a {% include product-link.html id="me
 
 ## Still Having Issues?
 
-If you've tried re-pairing, replaced the batteries, ruled out interference, and improved your Wi-Fi setup but the remote still isn't working properly, the remote itself may be faulty. In that case, it's best to check Sky's official support channels for guidance on repair or replacement options, as exact processes and any associated costs can change over time and are best confirmed directly with Sky.
+If you've tried re-pairing, replaced the batteries, ruled out interference, and improved your Wi-Fi setup but the remote still isn't working properly, the remote itself may be faulty. In that case, it's best to check Sky's official support channels for guidance on repair or replacement options, as exact processes and any associated costs can change over time and are best confirmed directly with Sky. Our [NOW and Sky hub](/now-and-sky/) has more Sky Stream guides.
 
 **Related guides:** [Sky Stream vs NOW: Which Is Right for You in Ireland?](/streaming-services/sky-stream-vs-now-ireland/) · [Why Is My Streaming App Buffering? Common Fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/)
 

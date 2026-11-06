@@ -77,7 +77,7 @@ A few practical tips can help Irish subscribers stretch their subscription furth
 
 ## A Final Word on Pricing Accuracy
 
-Streaming prices across Ireland have been prone to change with little warning, often tied to currency shifts, content licensing costs, or company-wide restructuring of tiers. Always check Disney+'s official Irish website or app for the current euro pricing before making a decision, rather than relying on older articles or forum posts that may be out of date.
+Streaming prices across Ireland have been prone to change with little warning, often tied to currency shifts, content licensing costs, or company-wide restructuring of tiers. Always check Disney+'s official Irish website or app for the current euro pricing before making a decision, rather than relying on older articles or forum posts that may be out of date. Our [streaming prices tracker](/streaming-prices/) shows the Disney+ prices we last checked, and the [streaming cost calculator](/streaming-cost-calculator/) adds up your monthly bill.
 
 **Related guides:** [Virgin Media Play: What's New in the Redesigned App](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) · [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/)
 

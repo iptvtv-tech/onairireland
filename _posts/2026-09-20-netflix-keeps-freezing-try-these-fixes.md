@@ -72,7 +72,7 @@ If several people in the house are streaming, gaming, or downloading large files
 
 ### 8. Contact Your ISP or Netflix Support
 
-If none of the above helps, the fault may sit with your broadband provider's network or with Netflix's servers rather than your home setup. Irish ISPs typically have support lines or live chat that can check for area-wide issues. Netflix's own help centre can also confirm if there's a known service disruption.
+If none of the above helps, the fault may sit with your broadband provider's network or with Netflix's servers rather than your home setup. Irish ISPs typically have support lines or live chat that can check for area-wide issues. Netflix's own help centre can also confirm if there's a known service disruption. For more Netflix help and prices, see our [Netflix hub](/netflix/).
 
 {% include product-showcase.html category="Troubleshooting" %}
 

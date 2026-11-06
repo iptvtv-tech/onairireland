@@ -42,7 +42,7 @@ It's worth stepping back and asking a simple question: how many subscriptions do
 
 ### The Creeping Cost of "Just One More"
 
-Streaming pricing in Ireland has shifted a good deal over the past couple of years, with several services introducing tiered plans, ad-supported options, and periodic price increases. We won't quote exact current prices here since they change fairly often and vary depending on the plan and any promotional offers running at the time — it's always worth checking the official pricing page for each service directly before signing up.
+Streaming pricing in Ireland has shifted a good deal over the past couple of years, with several services introducing tiered plans, ad-supported options, and periodic price increases. We won't quote exact current prices here since they change fairly often and vary depending on the plan and any promotional offers running at the time — it's always worth checking the official pricing page for each service directly before signing up. Our [streaming prices tracker](/streaming-prices/) lists the standard Irish prices we've checked.
 
 What we can say with confidence is the pattern: most households don't sit down and decide "we'll pay for five services." Instead, they add one for a specific show, forget to cancel it, then add another a few months later for a different reason. Multiply that across a household with different viewing tastes, and the monthly total creeps up without anyone consciously choosing it.
 
@@ -78,7 +78,7 @@ On the streaming side, the device you use matters more than people expect. A dat
 
 So, how many subscriptions do you actually need? For most Irish households, two to three well-chosen services covering general entertainment, plus perhaps a seasonal add for sport or a specific interest, tends to cover genuine viewing habits without excess. Beyond that, it's worth asking whether each additional subscription is earning its place — or simply carried over from a decision made months ago and never revisited.
 
-Doing a quick subscription audit every few months, rather than letting it run on autopilot, is probably the single easiest way to keep streaming costs sensible in an Irish household.
+Doing a quick subscription audit every few months, rather than letting it run on autopilot, is probably the single easiest way to keep streaming costs sensible in an Irish household. The [streaming cost calculator](/streaming-cost-calculator/) adds up what you're paying now.
 
 **Related guides:** [Netflix Ireland Price Changes for 2026: What You Need to Know](/news/netflix-ireland-price-changes-for-2026-what-you-need-to-know/) · [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/)
 

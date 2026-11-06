@@ -93,7 +93,7 @@ A few low-tech culprits are easy to miss:
 
 ## When All Else Fails
 
-If you've worked through connectivity, app updates, and account settings and GAA+ still isn't playing ball, check the service's official social media channels or support page for outage notices. Streaming services occasionally experience server-side problems during high-traffic matches, and in those cases, the fix is simply patience rather than anything on your end.
+If you've worked through connectivity, app updates, and account settings and GAA+ still isn't playing ball, check the service's official social media channels or support page for outage notices. Streaming services occasionally experience server-side problems during high-traffic matches, and in those cases, the fix is simply patience rather than anything on your end. To check whether a game is on GAA+, RTÉ or TG4, see our [GAA hub](/gaa/).
 
 {% include product-showcase.html category="Troubleshooting" %}
 

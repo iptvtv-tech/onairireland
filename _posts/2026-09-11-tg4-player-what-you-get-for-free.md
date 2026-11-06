@@ -1,7 +1,7 @@
 ---
-title: "TG4 Player: What You Get for Free"
-excerpt: "TG4 Player is free and legal: TG4 live, catch-up, Irish-language shows, documentaries and GAA, on the web and in apps."
-description: "TG4 Player is free and legal: TG4 live, catch-up, Irish-language shows, documentaries and GAA, on the web and in apps."
+title: "TG4 Player: Watch TG4 Live and On Demand for Free"
+excerpt: "TG4 Player is free: watch TG4 live and catch up on Irish-language shows, GAA and documentaries on your phone, laptop or TV. What's on and how to start."
+description: "TG4 Player is free: watch TG4 live and catch up on Irish-language shows, GAA and documentaries on your phone, laptop or TV. What's on and how to start."
 categories:
   - Streaming-Services
 tags:

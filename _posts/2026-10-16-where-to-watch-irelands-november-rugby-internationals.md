@@ -84,7 +84,7 @@ The fix in each case is to check your account's registered country in the app se
 
 ## Before You Settle In
 
-Given how often rights deals get finalised late, check Virgin Media Television and IRFU.ie in the days before each fixture for the final confirmed broadcaster, date, and kick-off time, rather than relying on last year's pattern.
+Given how often rights deals get finalised late, check Virgin Media Television and IRFU.ie in the days before each fixture for the final confirmed broadcaster, date, and kick-off time, rather than relying on last year's pattern. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 {% include product-showcase.html category="Sports Streaming" %}
 

@@ -38,7 +38,7 @@ Choosing a streaming stick shouldn't take longer than deciding what to watch on 
 
 ## What's the Difference Between the Fire TV Stick Lite and Standard?
 
-Both sticks run the same Fire TV software, give you access to RTÉ Player, Virgin Media Play, Netflix, Disney+, Prime Video and the rest of the usual suspects, and plug into the same HDMI port. The core streaming experience is largely identical. Where they part ways is the remote control and a couple of hardware extras.
+Both sticks run the same [Fire TV software](/fire-tv/), give you access to RTÉ Player, Virgin Media Play, Netflix, Disney+, Prime Video and the rest of the usual suspects, and plug into the same HDMI port. The core streaming experience is largely identical. Where they part ways is the remote control and a couple of hardware extras.
 
 ### Remote Control Differences
 

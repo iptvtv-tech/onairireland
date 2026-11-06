@@ -88,7 +88,7 @@ If you'd rather start playback on your phone and send it to the television, GAA+
 
 If the app is slow to load or buffers frequently, first check your broadband speed, since live sport streaming benefits from a stable, reasonably fast connection. Restarting the Apple TV by unplugging it briefly can also resolve minor glitches. If sign-in issues persist, try resetting your password through the official GAA+ website rather than repeatedly guessing in the app.
 
-With everything set up, you should be ready to enjoy league and championship coverage in full HD from the comfort of your sofa.
+With everything set up, you should be ready to enjoy [league and championship coverage](/gaa/) in full HD from the comfort of your sofa.
 
 **Related guides:** [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/) · [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/)
 

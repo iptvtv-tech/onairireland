@@ -43,11 +43,11 @@ review_basis: research
 
 ## Fire TV Cube Review: Is It Worth the Upgrade for Irish Viewers?
 
-If you've been happily streaming on a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) for years, you might be wondering whether Amazon's pricier Fire TV Cube actually earns its keep. It promises more power, hands-free Alexa voice control, and the ability to switch on your telly without touching a remote. But is that worth the extra cost for the average Irish household? We put it through its paces to find out.
+If you've been happily streaming on a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) for years, you might be wondering whether Amazon's pricier Fire TV Cube actually earns its keep. It promises more power, hands-free Alexa voice control, and the ability to switch on your telly without touching a remote. But is that worth the extra cost for the average Irish household? We looked at what it offers, what it costs and which Irish apps it runs to find out.
 
 ### What the Fire TV Cube Actually Offers
 
-The Fire TV Cube is essentially a beefed-up version of the standard Fire TV Stick line, built around a faster processor designed to handle 4K streaming and app-switching with less lag. It also includes built-in far-field microphones, meaning you can say "Alexa" from across the room without pressing anything, unlike the Stick models which rely on the remote's mic button.
+The Fire TV Cube is essentially a beefed-up version of the standard [Fire TV Stick line](/fire-tv/), built around a faster processor designed to handle 4K streaming and app-switching with less lag. It also includes built-in far-field microphones, meaning you can say "Alexa" from across the room without pressing anything, unlike the Stick models which rely on the remote's mic button.
 
 It's designed to sit near your TV rather than hide behind it, since it needs a bit more space and its own power adapter rather than pulling power from the telly's USB port. That alone makes it a slightly less tidy setup than a Stick.
 

@@ -36,7 +36,7 @@ That means anyone with a television licence and a standard aerial, saorview box,
 
 RTÉ and Virgin Media Television share the Six Nations rights in Ireland under a deal running to 2029, with the fixtures alternating between them each year. In practice, this has meant that Ireland's matches appear on one or the other depending on the round and kick-off time, along with a selection of matches involving other nations.
 
-Because the exact split can change from year to year depending on the broadcasting deal in place, it's worth checking the official schedules published by RTÉ and Virgin Media Television at the start of each Six Nations campaign to see exactly which channel is showing which match. Neither broadcaster tends to show every single game in the tournament — some fixtures not involving Ireland may only be available on other channels, including UK broadcasters, depending on rights arrangements.
+Because the exact split can change from year to year depending on the broadcasting deal in place, it's worth checking the official schedules published by RTÉ and Virgin Media Television at the start of each Six Nations campaign to see exactly which channel is showing which match. During the tournament, our [sport on TV this week](/sport-on-tv/) page lists each weekend's games and channels. Neither broadcaster tends to show every single game in the tournament — some fixtures not involving Ireland may only be available on other channels, including UK broadcasters, depending on rights arrangements.
 
 ### Watching on RTÉ
 

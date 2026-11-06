@@ -39,7 +39,7 @@ Sky Sports+ is designed to solve that problem by widening the number of simultan
 
 As far as we understand, Sky Sports+ is included for customers who already subscribe to Sky Sports — it isn't sold as a standalone add-on with its own separate fee. That said, pricing and packaging details can change, and Sky occasionally adjusts what's bundled into which tier.
 
-Because of that, we'd recommend checking the current Sky Sports pricing page or your Sky account directly before assuming exactly what's included, especially if you're on an older package or a bundle inherited from a previous contract.
+Because of that, we'd recommend checking the current Sky Sports pricing page or your Sky account directly before assuming exactly what's included, especially if you're on an older package or a bundle inherited from a previous contract. Our [NOW and Sky guides](/now-and-sky/) explain the packages.
 
 ## What Devices Support It?
 

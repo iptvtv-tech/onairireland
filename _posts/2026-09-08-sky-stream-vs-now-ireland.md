@@ -1,7 +1,7 @@
 ---
-title: "Sky Stream vs NOW in Ireland: Cost, Contracts and Which to Pick"
-excerpt: "Sky Stream Essential TV is €31 a month on standard pricing; NOW Entertainment is €8.99 with no contract. What each gets you, and which suits you."
-description: "Sky Stream Essential TV is €31 a month on standard pricing; NOW Entertainment is €8.99 with no contract. What each gets you, and which suits you."
+title: "Sky Stream vs NOW in Ireland: Which Is Better Value?"
+excerpt: "Sky Stream or NOW? Contracts, what each includes, the box and the apps, and NOW Entertainment from €8.99 a month with no contract. Which suits your home."
+description: "Sky Stream or NOW? Contracts, what each includes, the box and the apps, and NOW Entertainment from €8.99 a month with no contract. Which suits your home."
 last_updated: 2026-10-07
 last_checked: 2026-10-07
 categories:
@@ -52,9 +52,9 @@ Sky Stream in Ireland includes RTÉ, Virgin Media One/Two/Three, and TG4 in HD a
 
 ## NOW pricing in Ireland
 
-NOW is officially available in Ireland at nowtv.com/ie, with separate Memberships for Entertainment, Cinema, Sports and (in Ireland only) Sports Extra, each cancellable anytime with no contract.
+NOW is officially available in Ireland at nowtv.com/ie, with separate Memberships for Entertainment, Cinema, Sports and (in Ireland only) Sports Extra, each cancellable anytime with no contract. Our [NOW and Sky hub](/now-and-sky/) has set-up guides and fixes for both.
 
-Standard Irish NOW prices (checked 7 October 2026):
+Standard Irish NOW prices (checked 7 October 2026; the [streaming prices tracker](/streaming-prices/) has the latest):
 
 - **Entertainment:** €8.99 a month
 - **Entertainment & HBO Max:** €11.99 a month

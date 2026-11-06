@@ -42,7 +42,7 @@ Netflix remains the only legal source for Stranger Things in Ireland. There's no
 
 ### What Netflix Plan Do You Need?
 
-Netflix Ireland offers a few different subscription tiers, and pricing does change from time to time, so it's best to check the current plans directly on Netflix's own website or app before signing up. Generally speaking:
+[Netflix Ireland](/netflix/) offers a few different subscription tiers, and pricing does change from time to time, so it's best to check the current plans directly on Netflix's own website or app before signing up. Generally speaking:
 
 - The **Standard with ads** plan is the cheapest way to get full access to Netflix's catalogue, including new releases like Stranger Things.
 - The **Standard** and **Premium** plans remove ads and add extras like higher resolution streaming (up to Ultra HD on Premium) and support for more simultaneous screens.

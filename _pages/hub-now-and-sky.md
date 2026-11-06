@@ -18,7 +18,7 @@ header:
 
 Sky and NOW are run by the same company. Sky is the full TV package with a box (the dish-free Sky Stream or a Sky Glass TV; Sky Q is no longer sold to new customers) and usually a contract. NOW is the contract-free streaming version: you pay month to month for "memberships" like Entertainment, Cinema, Sports and Sports Extra, and watch in an app.
 
-Not sure which suits you? Start with [Sky Stream vs NOW]({% post_url 2026-09-08-sky-stream-vs-now-ireland %}). For current NOW membership prices, see the [streaming prices tracker](/streaming-prices/).
+Not sure which suits you? Start with [Sky Stream vs NOW]({% post_url 2026-09-08-sky-stream-vs-now-ireland %}). For current NOW membership prices, see the [streaming prices tracker](/streaming-prices/). HBO Max comes with some Sky and NOW packages: see [HBO Max in Ireland]({% post_url 2026-09-21-is-hbo-max-coming-to-ireland %}).
 
 ## All our NOW and Sky guides
 

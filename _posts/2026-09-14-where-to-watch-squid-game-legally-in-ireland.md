@@ -42,7 +42,7 @@ This makes things fairly straightforward for Irish viewers. There's no need to j
 
 ### Checking Your Netflix Plan
 
-Netflix Ireland offers a few different subscription tiers, and pricing does shift from time to time, so it's worth checking the official Netflix website or app for the most current costs before signing up. Generally speaking, the ad-supported tier tends to be the cheapest entry point, while ad-free standard and premium plans cost more and add features like higher streaming quality or multiple simultaneous streams. Since exact euro pricing changes periodically, we'd recommend confirming the current rates directly on Netflix's own site rather than relying on older figures floating around online.
+[Netflix Ireland](/netflix/) offers a few different subscription tiers, and pricing does shift from time to time, so it's worth checking the official Netflix website or app for the most current costs before signing up. Generally speaking, the ad-supported tier tends to be the cheapest entry point, while ad-free standard and premium plans cost more and add features like higher streaming quality or multiple simultaneous streams. Since exact euro pricing changes periodically, we'd recommend confirming the current rates directly on Netflix's own site rather than relying on older figures floating around online.
 
 ## Related Netflix Originals Worth Watching
 

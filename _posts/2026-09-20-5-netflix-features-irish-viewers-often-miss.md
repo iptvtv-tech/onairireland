@@ -36,7 +36,7 @@ faqs:
  
 ## 5 Netflix Features Irish Viewers Often Miss
 
-Most of us have had a Netflix account for years at this point, yet plenty of useful tools hiding in the app go unnoticed. Whether you're watching on a smart TV, a laptop, or a {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} plugged into the back of the telly, these features are worth a look.
+Most of us have had a [Netflix account](/netflix/) for years at this point, yet plenty of useful tools hiding in the app go unnoticed. Whether you're watching on a smart TV, a laptop, or a {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} plugged into the back of the telly, these features are worth a look.
 
 ### 1. Profile Transfer
 

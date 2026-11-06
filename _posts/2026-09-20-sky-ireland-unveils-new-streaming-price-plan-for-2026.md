@@ -36,7 +36,7 @@ faqs:
 
 ## Sky Ireland's 2026 Pricing Shake-Up
 
-Sky Ireland has confirmed that changes are coming to its streaming price plans from 2026. As with most annual pricing reviews, the update affects both [Sky Stream](/streaming-services/sky-stream-vs-now-ireland/) customers and those accessing Sky content through the Sky Go and Sky+ apps. We don't yet have official confirmation of the exact euro figures involved, so treat any specific numbers circulating online with caution until Sky publishes its formal pricing page.
+[Sky Ireland](/now-and-sky/) has confirmed that changes are coming to its streaming price plans from 2026. As with most annual pricing reviews, the update affects both [Sky Stream](/streaming-services/sky-stream-vs-now-ireland/) customers and those accessing Sky content through the Sky Go and Sky+ apps. We don't yet have official confirmation of the exact euro figures involved, so treat any specific numbers circulating online with caution until Sky publishes its formal pricing page.
 
 What we do know is that Sky has a pattern of adjusting prices annually to reflect content licensing costs, sports rights renewals, and general inflation across its entertainment, sports, and cinema packages. Irish subscribers should expect a similar approach this time around, likely with tiered increases depending on which bundle you're subscribed to.
 

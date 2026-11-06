@@ -75,7 +75,7 @@ However, if streaming apps are your primary use case and you're finding menus sl
 
 ### Final Verdict
 
-The 360 Box isn't bad, but it's not keeping pace with dedicated streaming hardware anymore. For live TV and bundled simplicity, it still has a role. For streaming specifically, a modern device will likely feel faster and more future-proof. Many Irish households end up running both side by side, which is a perfectly reasonable compromise rather than an all-or-nothing decision.
+The 360 Box isn't bad, but it's not keeping pace with dedicated streaming hardware anymore. For live TV and bundled simplicity, it still has a role. For streaming specifically, a modern device will likely feel faster and more future-proof. Many Irish households end up running both side by side, which is a perfectly reasonable compromise rather than an all-or-nothing decision. For Virgin Media's current TV packages and its Streaming TV box, see our [Virgin Media hub](/virgin-media/).
 
 **Related guides:** [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/) · [Virgin Media Unveils New Streaming Bundle for 2026](/news/virgin-media-unveils-new-streaming-bundle-for-2026/)
 

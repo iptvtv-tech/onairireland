@@ -42,7 +42,7 @@ Sky Sports is the exclusive home of Formula 1 in Ireland and the UK, under a dea
 
 Sky Sports is the exclusive home of Formula 1 broadcasting in Ireland, typically showing every session of every race weekend across its dedicated Sky Sports F1 channel. This includes practice sessions, qualifying, and the race itself, usually with build-up and analysis from a regular pundit lineup.
 
-To access this, you'll generally need a Sky subscription that includes the Sky Sports package, or a NOW subscription if you prefer a streaming-only approach without a satellite dish. NOW is Sky's streaming service and is worth checking directly for current pricing and what's included, as packages do change from season to season.
+To access this, you'll generally need a Sky subscription that includes the Sky Sports package, or a [NOW](/now-and-sky/) subscription if you prefer a streaming-only approach without a satellite dish. NOW is Sky's streaming service and is worth checking directly for current pricing and what's included, as packages do change from season to season.
 
 ### Is There Any Free Coverage?
 
@@ -68,7 +68,7 @@ If you see this kind of message, the right step is to check your account's regis
 
 ### Planning Ahead for Race Weekends
 
-Because F1 calendars and broadcast deals shift year to year, it's worth checking Sky Sports and F1 TV's official channels ahead of each new season to confirm what's covered and where. A little planning before the season starts saves any last-minute scrambling once lights out approaches.
+Because F1 calendars and broadcast deals shift year to year, it's worth checking Sky Sports and F1 TV's official channels ahead of each new season to confirm what's covered and where. A little planning before the season starts saves any last-minute scrambling once lights out approaches. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 {% include product-showcase.html category="Sports Streaming" %}
 
