@@ -69,7 +69,7 @@ The real story isn't that one service has "won" the Irish market — it's that t
 
 **Related guides:** [Is Netflix Legal to Use in Ireland? What You're Actually Paying For](/streaming-services/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for/) · [5 Netflix Features Irish Viewers Often Miss](/streaming-services/5-netflix-features-irish-viewers-often-miss/)
 
-{% include product-showcase.html products="fire-tv-stick-4k,google-tv-streamer,roku-streaming-stick-4k" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k" %}
 
 {% include related-posts.html %}
 

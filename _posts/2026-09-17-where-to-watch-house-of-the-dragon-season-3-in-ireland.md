@@ -1,7 +1,7 @@
 ---
 title: "Where to Watch House of the Dragon Season 3 in Ireland"
-excerpt: "House of the Dragon Season 3 will be available in Ireland through Sky and NOW, and here's what it costs and which devices support it."
-description: "House of the Dragon Season 3 will be available in Ireland through Sky and NOW, and here's what it costs and which devices support it."
+excerpt: "House of the Dragon Season 3 is streaming in Ireland on HBO Max and NOW. Which plan you need, the Sky route, and the devices that run each app."
+description: "House of the Dragon Season 3 is streaming in Ireland on HBO Max and NOW. Which plan you need, the Sky route, and the devices that run each app."
 categories:
   - Watch-Guides
 tags:
@@ -17,15 +17,17 @@ seo:
 toc: true
 draft_generated: true
 affiliate_links: true
+last_updated: 2026-11-06
+last_checked: 2026-11-06
 faqs:
-  - question: "Is House of the Dragon Season 3 confirmed for NOW in Ireland?"
-    answer: "Previous seasons aired via Sky Atlantic and NOW in Ireland, and this is expected to continue, but you should confirm the exact release date on NOW's official site closer to launch."
+  - question: "Where can I watch House of the Dragon Season 3 in Ireland?"
+    answer: "On HBO Max, which launched in Ireland in March 2026, and on NOW. NOW's Entertainment Membership includes Seasons 2 and 3, and its Entertainment & HBO Max Membership includes all three seasons."
   - question: "Do I need a Sky subscription to watch it?"
-    answer: "No, you can watch through a NOW Entertainment Membership without any Sky contract or satellite dish required."
-  - question: "Can I cancel my NOW membership after the season ends?"
-    answer: "Yes, NOW memberships are billed monthly with no long-term contract, so you can cancel anytime after you've finished watching."
-  - question: "What device do I need to stream NOW?"
-    answer: "NOW works on most smart TVs and popular streaming devices, including the Fire TV Stick 4K and Roku Streaming Stick Plus, so check your TV's app store first before buying extra hardware."
+    answer: "No. You can sign up to HBO Max directly, or get it through NOW, without a Sky contract or a satellite dish. Sky customers on Ultimate TV get HBO Max Basic with Ads included."
+  - question: "Which NOW membership do I need?"
+    answer: "NOW's Entertainment Membership covers Seasons 2 and 3. For Season 1 as well, you need the Entertainment & HBO Max Membership, which includes HBO Max Basic with Ads."
+  - question: "What device do I need?"
+    answer: "HBO Max and NOW both have apps for most smart TVs and streaming sticks, including Fire TV, Roku and Apple TV. Check your TV's app store first before buying anything extra."
 ---
 
 {% include last-updated.html %}
@@ -34,41 +36,34 @@ faqs:
 
 {% include share-buttons.html %}
 
-## House of the Dragon Season 3: The Irish Lowdown
+## House of the Dragon Season 3: where it's streaming in Ireland
 
-House of the Dragon has landed on Irish screens via Sky Atlantic and the [NOW](/streaming-services/sky-stream-vs-now-ireland/) streaming service for its previous two seasons, and all signs point to Season 3 following the same path when it arrives. Since HBO content in Ireland is distributed through Sky's platforms rather than a standalone HBO app, this is the licensed route Irish viewers should plan around.
+All eight episodes of House of the Dragon Season 3 are now streaming in Ireland. There are two main ways to watch:
 
-That said, exact premiere dates and any last-minute distribution changes should always be double-checked on the NOW website or app closer to release. Streaming rights can shift, and broadcasters don't always confirm scheduling far in advance, so treat any date you see online as provisional until NOW or Sky officially confirm it.
+- **HBO Max**, which launched in Ireland on 26 March 2026. HBO Max's Irish site lists all three seasons.
+- **NOW**, with no contract. The Entertainment Membership includes Seasons 2 and 3, and the Entertainment & HBO Max Membership includes all three.
 
-### How to Watch: Sky and NOW
+Sky customers have a third route: Sky's Ultimate TV package includes HBO Max Basic with Ads, which you open through the HBO Max app on your Sky box. See our [HBO Max in Ireland guide](/news/is-hbo-max-coming-to-ireland/) for the plans, and how getting it directly compares with getting it through Sky, NOW or Prime Video.
 
-If you're already a Sky customer with Sky Atlantic as part of your package, you'll be able to watch new episodes as they air, plus catch up through Sky Go or Sky Q on demand.
+## Which option suits you?
 
-For everyone else, NOW is the more flexible option. NOW offers an Entertainment Membership that includes Sky Atlantic content, including HBO dramas like House of the Dragon, without requiring a satellite dish or long-term contract. Membership is billed monthly and can be cancelled anytime, which makes it a sensible choice if you only want to watch for the duration of the season.
+- **You only want House of the Dragon:** NOW's Entertainment Membership is the simplest. It covers Seasons 2 and 3 and you can stop it when you've finished.
+- **You want to start from Season 1, or watch other HBO shows:** HBO Max directly, or NOW's Entertainment & HBO Max Membership.
+- **You already have Sky Ultimate TV:** you have HBO Max Basic with Ads already. Check the HBO Max app on your Sky box before paying for anything else.
 
-Pricing for NOW memberships does change periodically, so it's worth checking the current rate directly on the NOW site before signing up rather than relying on a figure that might already be out of date by the time you read this.
+Prices change, so check the current price on HBO Max's or NOW's own Irish site before you sign up. Our [streaming prices tracker](/streaming-prices/) lists the HBO Max and NOW plans we've checked.
 
-### Do You Need a Contract?
+## Which devices work best
 
-No. One of the main appeals of NOW is that it's a no-contract streaming membership. You pay monthly, watch what you want, and can pause or cancel whenever the season wraps up if you don't plan on using it year-round. This makes it a popular choice for viewers who just want to follow one show without committing to a long-term Sky package.
+The HBO Max and NOW apps are on most modern smart TVs and streaming devices. Check your TV's app store first, because you may not need anything extra.
 
-### Which Devices Work Best
+If your TV is older, a streaming stick is the easiest fix. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} runs both apps and supports 4K and HDR where your plan and broadband allow. Amazon's newest standard Fire TV sticks run its Vega OS, which has fewer apps, so check the listing if you buy a different model.
 
-NOW's app is widely supported across most modern streaming devices and smart TVs, but if you're setting up a household for the first time or replacing an older device, a couple of options stand out for reliability and ease of use.
+The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another option, with a simpler home screen. HBO Max lists Roku among its supported devices, and NOW supports most Roku players. See [is Roku worth buying in Ireland?](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) for more.
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable choice that plugs straight into your TV's HDMI port and gives you the NOW app along with all the other major Irish streaming services in one place. It supports 4K and HDR playback, which is worth having for a visually heavy series like House of the Dragon, provided your NOW membership tier and internet connection support that quality.
+## The bottom line
 
-Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another dependable option, particularly if you prefer [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s simpler, ad-light home screen over Amazon's more algorithm-driven interface. Roku devices have long supported NOW in Ireland and the UK, and the remote and menu system tend to be very straightforward for anyone who isn't especially tech-savvy.
-
-If you already have a smart TV, there's a good chance NOW's app is built in natively, so you may not need any extra hardware at all. It's worth checking your TV's app store first before buying a separate streaming device, since many Irish households already have everything they need.
-
-### What About Sky Q or Sky Glass?
-
-If you're a longer-term Sky customer using Sky Q or Sky Glass hardware, House of the Dragon will simply appear in your Sky Atlantic listings and on-demand library once new episodes are released, with no additional setup needed. This is generally the smoothest experience if you're already paying for a Sky package, since everything is bundled into the one interface.
-
-### The Bottom Line
-
-For Irish viewers, NOW's Entertainment Membership is the most realistic and flexible way to watch House of the Dragon Season 3 without a long-term contract, while existing Sky customers already have access built into their package. Keep an eye on NOW's official announcements for the confirmed release date, and make sure whatever device you're using is fully updated before the premiere to avoid any last-minute app issues.
+House of the Dragon Season 3 is streaming in Ireland now. NOW's Entertainment Membership is the simplest no-contract way to watch Seasons 2 and 3, HBO Max gives you all three seasons and the wider HBO library, and Sky Ultimate TV customers already have HBO Max included.
 
 {% include product-showcase.html category="Watch Guides" %}
 

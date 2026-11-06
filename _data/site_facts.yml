@@ -1,5 +1,6 @@
-# Facts On Air Ireland has checked: who shows each competition in Ireland, and
-# what the NOW sport memberships include.
+# Facts On Air Ireland has checked: who shows each competition in Ireland,
+# what the NOW sport memberships include, and which Irish apps run on which
+# streaming devices.
 #
 # Used by:
 #   scripts/generate_post.py  The Mon/Wed/Fri draft writer may only say who
@@ -149,13 +150,19 @@
     - TG4 showed over 45 live Allianz League games in 2026, on TG4 and TG4 Player, and a weekly GAA highlights programme.
     - TG4 shows every senior Ladies football championship game in the All-Ireland series, under a deal until 2032.
     - The 2027 GAA+ price and RTÉ's 2027 games weren't announced when this was checked.
+    - The GAA's current TV deals run from 2023 to 2027. RTÉ, TG4 and the BBC (Ulster football championship) hold the TV rights, and Sky Sports no longer shows GAA games.
+    - GAA+ replaced GAAGO ahead of the 2025 championship. GAAGO was run jointly by the GAA and RTÉ; GAA+ is wholly owned by the GAA.
+    - In Ireland, GAA+ doesn't carry the games shown on RTÉ, TG4 or BBC NI. Outside Ireland and Britain, GAA+ shows senior club and inter-county games, including the All-Ireland games.
   guide: /gaa/
   source:
+    - https://www.gaa.ie/news/gaa-broadcast-statement-2023-2027
+    - https://help.gaaplus.ie/support/solutions/articles/77000578937-gaago-to-gaa-transition
+    - https://help.gaaplus.ie/support/solutions/articles/77000577628-what-countries-is-gaa-available-in-
     - https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte
     - https://www.gaa.ie/article/gaa-launches-2026-season-pass
     - https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-unveils-extensive-allianz-leagues-coverage/
     - https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/
-  checked: 2026-10-28
+  checked: 2026-11-06
 
 - topic: MotoGP
   facts:
@@ -175,3 +182,30 @@
     - https://www.nowtv.com/ie/membership/sports/watch-sky-sports
     - https://www.nowtv.com/ie/membership/sports/watch-sports-extra
   checked: 2026-10-28
+
+- topic: Streaming devices and Irish apps
+  facts:
+    # from our guide
+    - Roku devices are sold in Ireland.
+    - Roku says RTÉ Player is officially available on Roku streaming devices in Ireland, and Virgin Media Play is in the Roku Channel Store.
+    - Amazon's Fire TV Stick 4K (3rd gen, 2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select (2025) run Amazon's Vega OS, not Fire OS.
+    # from our guide
+    - Vega OS has fewer apps than Fire OS.
+    - It wasn't confirmed, when this was checked, whether RTÉ Player, Virgin Media Play or TG4 Player are available on Vega OS Fire TV models. Don't say they are.
+    - The Fire TV Stick 4K Plus (2025) runs Fire OS 8.
+    - RTÉ Player, Virgin Media Play and TG4 Player all have Apple TV apps in the App Store.
+    - RTÉ Player has an Android TV and Google TV app in Google Play.
+    - The Google TV Streamer is sold in Ireland on the Google Store.
+    # from our guide
+    - The Google TV Streamer replaced the Chromecast with Google TV, which is discontinued.
+  guide: /devices/best-streaming-devices-ireland/
+  source:
+    - https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland
+    - https://channelstore.roku.com/details/bf33320850b76363ffa4f36a0df887ef/virgin-media-play
+    - https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html
+    - https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073
+    - https://apps.apple.com/ie/app/id602597705
+    - https://apps.apple.com/gb/app/tg4-player/id598591024
+    - https://play.google.com/store/apps/details?id=com.twentyfouri.tvbridge.rte
+    - https://store.google.com/ie/product/google_tv_streamer_specs
+  checked: 2026-11-06

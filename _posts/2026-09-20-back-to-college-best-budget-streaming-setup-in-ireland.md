@@ -44,7 +44,7 @@ Most student rooms and shared houses already have a TV with an HDMI port, so the
 
 You don't need the most expensive box on the shelf. For most students, a compact stick that plugs straight into the HDMI port is the simplest option, since there's no extra box taking up space on a shared shelf or desk.
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid all-rounder and tends to come up as a popular choice because it covers the major Irish streaming apps, including [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Netflix, and Disney+. If you'd rather stick with a Google-based interface, the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) does a similar job with a slightly different menu layout, which might suit you better if you're already using Android apps day to day.
+The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} is a solid all-rounder and tends to come up as a popular choice because it covers the major Irish streaming apps, including [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Netflix, and Disney+. If you'd rather stick with a Google-based interface, the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) does a similar job with a slightly different menu layout, which might suit you better if you're already using Android apps day to day.
 
 [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices, such as the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %}, are another option worth considering. Roku's interface is generally considered straightforward for anyone sharing a device with housemates, since app icons are laid out simply on the home screen.
 
@@ -74,7 +74,7 @@ Keep an eye out for student discounts directly through the streaming services th
 
 The easiest approach is one solid streaming stick, one or two paid subscriptions, and RTÉ Player for Irish content. Keep receipts and account logins somewhere memorable, since you'll likely be sharing devices and passwords with housemates throughout the year.
 
-{% include product-showcase.html products="fire-tv-stick-4k,roku-streaming-stick-4k,2-Pack-Pinowu-Remote-Cover-Case" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-streaming-stick-4k,2-Pack-Pinowu-Remote-Cover-Case" %}
 
 {% include faq-section.html %}
 

@@ -31,7 +31,7 @@
   show_on: ["Devices"]
   image: "/assets/images/products/streaming-stick.svg"
   badge: "Best Seller"
-  blurb: "Wide app support and easy setup — the most common starting point for Irish streaming households."
+  blurb: "Amazon's newest 4K stick (2026), which runs Amazon's Vega OS. Vega has fewer apps than older Fire TV models, so check RTÉ Player and your other apps are listed before you buy."
   affiliate_link: "https://www.amazon.ie/dp/B0GSH6FCBN?tag=onairireland-21"
 
 - id: hdmi-cable-4k
@@ -89,7 +89,7 @@
   show_on: ["News"]
   image: "/assets/images/products/streaming-stick-lite.svg"
   badge: "Budget Pick"
-  blurb: "Amazon's entry-level stick: a no-frills way to add the main streaming apps to a second TV or an older set."
+  blurb: "Amazon's entry-level HD stick for a second TV or an older set. The 2026 model runs Vega OS, which has fewer apps, so check the apps you need are listed before you buy."
   affiliate_link: "https://amzn.to/4h6LS4B"
 
 - id: fire-tv-stick-4k-max-review
@@ -224,7 +224,7 @@
   show_on: ["Watch Guides"]
   image: "/assets/images/products/streaming-stick.svg"
   badge: "Best Seller"
-  blurb: "The easiest way to get every major streaming app — RTÉ Player, Netflix, Sky Stream — on one remote."
+  blurb: "Amazon's newest 4K stick (2026), on Amazon's Vega OS. Vega has fewer apps than older Fire TV models, so check the apps you need are listed before you buy."
   affiliate_link: "https://www.amazon.ie/dp/B0GSH6FCBN?tag=onairireland-21"
 
 - id: roku-streaming-stick-4k-watchguide

@@ -57,7 +57,7 @@ Occasionally you might see an error suggesting a title isn't available in your r
 
 Whenever The Odyssey does become available to rent, buy, or stream, having the right device makes a big difference to picture quality and ease of use. A few solid options for Irish homes:
 
-**Fire TV Stick 4K** — a compact and affordable way to add all the major streaming apps to any HDMI-equipped television. It's worth having a browse of the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} if you want a simple upgrade that supports 4K and HDR playback on supported titles.
+**Fire TV Stick 4K Max** — a compact way to add all the major streaming apps to any HDMI-equipped television. It's worth having a browse of the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} if you want a simple upgrade that supports 4K and HDR playback on supported titles.
 
 **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) Streaming Stick 4K** — a great alternative if you prefer Roku's straightforward interface, which makes it easy to jump between apps like Prime Video, Disney+, and Sky's streaming apps without much fuss. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a popular choice for exactly this reason.
 

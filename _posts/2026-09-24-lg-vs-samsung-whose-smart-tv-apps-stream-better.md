@@ -68,7 +68,7 @@ Occasionally a streaming app on either platform will throw up a message saying c
 
 Honestly, for the core Irish streaming apps, both LG and Samsung perform similarly well on recent, mid-to-high-spec models. The real differences show up at the budget end, or as TVs age. If app speed and long-term freshness matter more to you than brand loyalty, pairing either TV with a separate streaming stick or box, like a {% include product-link.html id="google-tv-streamer" text="Google TV Streamer" %}, is often the more future-proof choice.
 
-{% include product-showcase.html products="fire-tv-stick-4k,google-tv-streamer,roku-streaming-stick-4k" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k" %}
 
 {% include faq-section.html %}
 

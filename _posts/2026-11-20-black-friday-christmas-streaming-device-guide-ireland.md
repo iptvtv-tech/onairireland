@@ -55,7 +55,7 @@ For a 4K TV, a 4K stick such as the {% include product-link.html id="fire-tv-sti
 
 ### A premium stick or box
 
-If you want a higher-spec model, the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} sits above the standard Fire TV sticks. On the Roku side, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is another 4K option. See our [Fire TV Stick 4K Max guide]({% post_url 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade %}) for whether the upgrade is worth it.
+If you want a higher-spec model, the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} sits above the standard Fire TV sticks. See our [Fire TV Stick 4K Max guide]({% post_url 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade %}) for whether the upgrade is worth it.
 
 ### Google TV Streamer for Android and Google homes
 
@@ -63,7 +63,7 @@ The {% include product-link.html id="google-tv-streamer" text="Google TV Streame
 
 ### Roku for a simple menu
 
-The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} has a plain, simple menu that suits less confident users. Irish broadcaster apps are the thing to check on Roku, so look each one up in Roku's Channel Store before you buy. Our [Roku guide]({% post_url 2026-09-13-roku-streaming-devices-are-they-worth-buying-in-ireland %}) explains more.
+The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} has a plain, simple menu that suits less confident users. Roku says RTÉ Player is officially available on Roku in Ireland, and Virgin Media Play is in the Roku Channel Store. Check any other app you need there before you buy. Our [Roku guide]({% post_url 2026-09-13-roku-streaming-devices-are-they-worth-buying-in-ireland %}) explains more.
 
 ### Apple TV for Apple homes
 

@@ -64,7 +64,7 @@ As with all TG4 Player content, availability of individual archive episodes can 
 
 ## Watching TG4 Player on Your TV
 
-TG4 Player works through a standard web browser, but for a proper living-room experience most people prefer using a dedicated streaming device. An {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a straightforward option, plugging into an HDMI port and giving access to TG4's own app alongside everything else. A {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} works similarly and is a solid alternative if you already use Roku's interface for other services.
+TG4 Player works through a standard web browser, but for a proper living-room experience most people prefer using a dedicated streaming device. An {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} is a straightforward option, plugging into an HDMI port and giving access to TG4's own app alongside everything else. A {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} works similarly and is a solid alternative if you already use Roku's interface for other services.
 
 If you're someone who prefers watching TG4 the traditional way, through a regular broadcast signal rather than an app, TG4 is free with an aerial and a Saorview box (see [2RN's Saorview page](https://www.2rn.ie/broadcast/saorview-digital-tv/)) along with the other main Irish channels. That's handy in areas where broadband streaming isn't always reliable.
 

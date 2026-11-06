@@ -60,7 +60,7 @@ If you've confirmed your account details are correct and the title still isn't s
 
 Once you know which service has The Whisper Man, having the right streaming device makes a real difference to picture quality and ease of use. A few solid options for Irish households:
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/). Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
+The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} is a popular choice for good reason — it's compact, plugs straight into your telly's HDMI port, and gives you quick access to all the major apps including Netflix, Prime Video, and [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/). Voice search through the included remote also makes finding a specific film faster than scrolling through menus.
 
 If you'd rather avoid Amazon's ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another excellent option. Roku's interface is famously straightforward, laying out all your installed apps on one home screen without pushing its own content too aggressively. It supports 4K and HDR playback too, so picture quality won't be a letdown on a modern television.
 

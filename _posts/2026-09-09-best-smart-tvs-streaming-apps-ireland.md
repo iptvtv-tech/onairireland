@@ -150,7 +150,7 @@ A new TV makes more sense when you want a bigger or better screen, the old set h
 
 Our [streaming devices guide](/devices/best-streaming-devices-ireland/) covers which Irish apps are on Fire TV, Google TV, Roku and Apple TV.
 
-{% include product-showcase.html products="fire-tv-stick-4k,google-tv-streamer,roku-streaming-stick-4k" title="Streaming Devices That Work on Any TV" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k" title="Streaming Devices That Work on Any TV" %}
 
 If you're after a small second TV with apps built in, the {% include product-link.html id="smart_tvs_2" text="LG 32-inch webOS smart TV" %} and the Xiaomi TV F 32 above are two options. Check the current price on Amazon.
 

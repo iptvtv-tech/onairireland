@@ -59,7 +59,7 @@ If you're prompted to sign in and hit an error suggesting the content isn't avai
 
 RTÉ Player works well across most modern streaming devices and smart TVs, so you don't need anything too fancy to enjoy The Traitors Ireland in good picture quality.
 
-If you're setting up a TV for the first time or replacing an older box, the {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option that plugs straight into your TV's HDMI port and gives you access to the RTÉ Player app alongside all the other major streaming apps you might use. It's simple to set up and works over your home Wi-Fi.
+If you're setting up a TV for the first time or replacing an older box, the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} is a solid option that plugs straight into your TV's HDMI port and gives you access to the RTÉ Player app alongside all the other major streaming apps you might use. It's simple to set up and works over your home Wi-Fi.
 
 Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another well-regarded choice, particularly if you like Roku's straightforward menu system and want a device that's easy for less tech-confident family members to navigate. Both options support RTÉ Player natively, so it really comes down to personal preference on interface.
 

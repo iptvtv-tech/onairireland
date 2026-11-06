@@ -72,7 +72,7 @@ Work through these in order and most people end up with a clear answer:
 5. **Remember Saorview is separate.** No streaming device picks up Saorview. If you want the free aerial channels as well, you need an aerial and a TV with a Saorview tuner or a Saorview box. See [What Is Saorview and Do You Need It If You Stream?](/installation-guides/what-is-saorview-and-do-you-need-it-if-you-stream/)
 6. **Check the current price.** Prices change often, especially around sales, so check the current price on the product cards below rather than relying on old figures.
 
-{% include product-showcase.html products="fire-tv-stick-4k,google-tv-streamer,roku-streaming-stick-4k" title="Our Picks: Streaming Devices" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k" title="Our Picks: Streaming Devices" %}
 
 ## Which Irish apps are on each device
 
@@ -130,7 +130,7 @@ Read more in our [Google TV Streamer review](/reviews/google-tv-streamer-review-
 
 Roku devices are sold in Ireland, and Roku's Irish channel store lists both **RTÉ Player** and **Virgin Media Play**. Roku also announced on its own blog that RTÉ Player is officially available on Roku devices in Ireland. NOW's Irish help page says NOW works on most Roku players, except the old Roku XS and Roku LT boxes. Netflix, Prime Video and Disney+ are all on Roku. We couldn't confirm TG4 Player on Roku, so check the Roku Channel Store if you need it.
 
-The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} is the main 4K stick, and the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is another 4K stick in the range. For a side-by-side look, see [Roku vs Fire TV Stick: Which Should You Buy?](/devices/roku-vs-fire-tv-stick-which-should-you-buy/) and [Roku Streaming Devices: Are They Worth Buying in Ireland?](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)
+The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is Roku's 4K stick. For a side-by-side look, see [Roku vs Fire TV Stick: Which Should You Buy?](/devices/roku-vs-fire-tv-stick-which-should-you-buy/) and [Roku Streaming Devices: Are They Worth Buying in Ireland?](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)
 
 ### Apple TV 4K
 

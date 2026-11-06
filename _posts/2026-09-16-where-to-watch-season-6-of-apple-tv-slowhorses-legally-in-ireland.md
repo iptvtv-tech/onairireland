@@ -38,7 +38,7 @@ The Apple TV app is available on Apple devices, most recent smart TVs (including
 
 Once you have an Apple TV subscription, having the right hardware makes a real difference to picture quality and ease of use. For most Irish households, a dedicated streaming device is far more reliable than trying to cast from a phone or rely on an older smart TV's built-in apps, which can be slow to update.
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option that plugs straight into your TV's HDMI port and gives you access to all the major streaming apps in one place, with regular software updates and support for 4K and HDR where your subscription and broadband allow it. It's a popular choice for Irish homes precisely because it's simple to set up and doesn't require any technical know-how.
+The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} is a solid option that plugs straight into your TV's HDMI port and gives you access to all the major streaming apps in one place, with regular software updates and support for 4K and HDR where your subscription and broadband allow it. It's a popular choice for Irish homes precisely because it's simple to set up and doesn't require any technical know-how.
 
 If you'd prefer an alternative, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another well-regarded option, known for its clean, straightforward interface and broad app support. Roku devices tend to be praised for how easy they make it to search across multiple services at once, which is handy when you're juggling several subscriptions.
 

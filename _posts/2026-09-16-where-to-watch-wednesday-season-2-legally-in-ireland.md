@@ -52,7 +52,7 @@ Netflix has released the new season in Ireland at the same time as the rest of t
 
 Netflix is about as widely supported as any streaming app gets, so chances are your existing telly, games console, or streaming box already has it built in. But if you're setting up a new room, replacing an older device, or just want a smoother, faster experience, a dedicated streaming stick makes a noticeable difference.
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable choice for most households. It plugs straight into an HDMI port, connects to your Wi-Fi, and gives you the Netflix app along with all the other major Irish streaming services in one place. It also supports 4K and HDR playback, so if your broadband connection and TV can handle it, Wednesday will look as sharp and moody as intended.
+The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} is a solid choice for most households. It plugs straight into an HDMI port, connects to your Wi-Fi, and gives you the Netflix app along with all the other major Irish streaming services in one place. It also supports 4K and HDR playback, so if your broadband connection and TV can handle it, Wednesday will look as sharp and moody as intended.
 
 If you'd prefer a different ecosystem, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another reliable option. Roku's interface is straightforward and app-focused, which some people find easier to navigate than other platforms, and it supports Netflix in 4K as well.
 

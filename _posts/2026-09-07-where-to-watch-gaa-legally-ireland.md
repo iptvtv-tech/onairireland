@@ -129,7 +129,7 @@ GAA+ lists these as supported:
 - **Computers:** the gaaplus.ie website
 - **Casting:** from the phone app to a TV with Chromecast or AirPlay
 
-Browsers on smart TVs and games consoles aren't officially supported. If your TV is too old for the app, a streaming stick such as the {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} or {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick 4K" %} adds it.
+Browsers on smart TVs and games consoles aren't officially supported. If your TV is too old for the app, a streaming stick such as the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} or {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} adds it.
 
 RTÉ Player and TG4 Player are free and are on most streaming sticks, smart TVs, phones and computers, so one device usually covers all three services.
 
