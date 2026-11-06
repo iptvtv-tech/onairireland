@@ -275,6 +275,22 @@ cards:
   created: '2026-11-05'
   used_in:
   - 2026-11-06-black-friday-christmas-streaming-device-guide-ireland.md
+- id: card-is-virgin-media-play-free-in-ireland
+  files:
+    hero: /assets/images/posts/is-virgin-media-play-free-in-ireland-hero.webp
+    teaser: /assets/images/posts/is-virgin-media-play-free-in-ireland-teaser.webp
+    og: /assets/images/posts/is-virgin-media-play-free-in-ireland-og.jpg
+    hero_small: /assets/images/posts/is-virgin-media-play-free-in-ireland-hero-800.webp
+  fingerprint: stagger|s|Streaming-Services|set-top-box,smart-tv-2,universal-remote
+  layout: stagger
+  palette: Streaming-Services
+  icons:
+  - set-top-box
+  - smart-tv-2
+  - universal-remote
+  created: '2026-11-06'
+  used_in:
+  - 2026-11-06-is-virgin-media-play-free-in-ireland.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels
