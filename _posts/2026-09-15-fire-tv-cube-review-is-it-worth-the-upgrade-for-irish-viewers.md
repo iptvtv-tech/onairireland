@@ -26,11 +26,14 @@ faqs:
     answer: "Yes, it's a standalone box rather than a small stick that plugs directly into your TV's HDMI port, so it needs its own space near the television and a separate power adapter."
   - question: "Is the Fire TV Cube worth it if I already have a Fire TV Stick 4K Max?"
     answer: "For most people, probably not, since the performance difference is modest; the upgrade mainly makes sense if hands-free voice control is a genuine priority for your household."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -78,7 +81,7 @@ The Fire TV Cube is a genuinely well-built device, and the hands-free Alexa func
 
 If voice convenience matters a lot to you, or you've grown tired of hunting for remotes, the Cube is a worthwhile upgrade. If you mainly want smooth, reliable access to Irish and international streaming apps, a Stick or the Roku Streaming Stick Plus will likely serve you just as well for less money.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
 
 {% include faq-section.html %}
 

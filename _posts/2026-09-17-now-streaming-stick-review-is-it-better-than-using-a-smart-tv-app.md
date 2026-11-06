@@ -26,11 +26,14 @@ faqs:
     answer: "No, a streaming stick can only work as well as your broadband and WiFi allow, so a poor connection will limit performance on any device."
   - question: "Is the NOW stick a good option for someone with an older smart TV?"
     answer: "Generally yes, since older smart TVs often receive fewer app updates, and a dedicated stick tends to offer more consistent performance in that scenario."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -76,7 +79,7 @@ If your smart TV is a few years old, or you've noticed the built-in NOW app feel
 
 For households wanting one device to handle NOW plus a broader range of Irish and UK streaming apps, a general-purpose device like Fire TV Stick or Roku Streaming Stick Plus is worth comparing before you commit.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
 
 {% include faq-section.html %}
 

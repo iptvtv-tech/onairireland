@@ -26,11 +26,14 @@ faqs:
     answer: "It depends on your viewing habits; if you mainly use on-demand apps rather than live TV, a standalone device like a Fire TV Stick or Roku Streaming Stick Plus can offer a simpler, often cheaper setup."
   - question: "Why does my streaming app say content isn't available in my region?"
     answer: "This is usually due to your account's registered region or the app store region on your device, so check your account settings or contact the streaming service's support team for help."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -68,7 +71,7 @@ For anyone whose viewing habits have shifted almost entirely to streaming apps, 
 
 Vodafone TV in 2026 isn't a bad service, but it's not obviously ahead of Virgin Media or Eir Vision either. It remains a fine choice for existing Vodafone customers who value simplicity over the newest interface, while more streaming-focused households might get better value and a snappier experience from a dedicated device paired with the apps they actually use.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
 
 {% include faq-section.html %}
 

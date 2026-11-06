@@ -97,6 +97,12 @@ for name in sorted(os.listdir(POSTS)):
         warnings.append(f"{name}: no description")
     elif len(desc) > 160:
         warnings.append(f"{name}: description is {len(desc)} chars (aim for <= 155)")
+    if cats and cats[0] == "Reviews":
+        # Reviews say how they were put together; we never claim hands-on testing.
+        if fm.get("review_basis") != "research":
+            errors.append(f"{name}: review needs 'review_basis: research' in its front matter")
+        if "{% include review-basis.html %}" not in body:
+            errors.append(f"{name}: review needs {{% include review-basis.html %}} after the affiliate disclosure")
     if "AFFILIATE_LINK_" in body or "TODO" in body:
         errors.append(f"{name}: contains a placeholder (AFFILIATE_LINK_ or TODO)")
     header = fm.get("header") or {}

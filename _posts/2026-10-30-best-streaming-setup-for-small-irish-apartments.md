@@ -71,7 +71,7 @@ Remember that a TV licence, at €160 a year per premises, is required for any t
 
 The easiest way to avoid clutter, both physical and financial, is to review subscriptions every few months and cancel anything that's gone unwatched. In a small apartment, where simplicity is the whole point, a tidy stick behind the TV and one or two well-chosen subscriptions will usually beat a drawer full of old boxes and forgotten logins.
 
-{% include product-showcase.html category="Devices" %}
+{% include product-showcase.html products="fire-tv-stick-4k,amazon_echo_dot,akiyo-02-projector" %}
 
 {% include faq-section.html %}
 

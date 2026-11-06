@@ -26,11 +26,14 @@ faqs:
     answer: "It's available on most major smart TV platforms, but support can vary by brand and software version, so it's worth checking your specific TV's app store."
   - question: "Can I download shows to watch offline?"
     answer: "Offline downloads may be available on some devices but not universally, so check within the app itself to confirm what's supported on your device."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -77,7 +80,7 @@ For most Irish viewers, it's a worthwhile addition alongside other legal streami
 
 **Related guides:** [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/) · [How to Set Up RTÉ Player on an Amazon Fire TV Stick](/installation-guides/how-to-set-up-rte-player-fire-tv/)
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k,google-tv-streamer,roku-streaming-stick-4k" %}
 
 {% include faq-section.html %}
 

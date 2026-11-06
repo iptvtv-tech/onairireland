@@ -26,11 +26,14 @@ faqs:
     answer: "Yes, it will work with older routers, but you won't see the full benefit of its Wi-Fi 6 support unless your router also supports that standard."
   - question: "What should I do if an app shows content as unavailable in my region?"
     answer: "Check that your account address and app store region are correctly set to Ireland, and if the issue persists, contact the streaming service's customer support directly."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -76,7 +79,7 @@ One thing worth flagging for any new device: make sure your Amazon account regio
 
 The Fire TV Stick 4K Max is a solid piece of kit and a clear improvement over older Fire TV Sticks. Whether it's worth the upgrade really depends on what you currently own and how demanding your streaming habits are. Heavy multi-app households will feel the benefit most; casual users of one or two apps may not notice enough difference to justify the cost.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,fire-tv-stick-4k,roku-ultra-review" %}
 
 {% include faq-section.html %}
 

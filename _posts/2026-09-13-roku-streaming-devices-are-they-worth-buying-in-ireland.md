@@ -66,7 +66,7 @@ Because Roku isn't sold through official Irish retail channels, pricing tends to
 
 Roku remains a solid streaming platform on its technical merits, but for Irish buyers the lack of official local sales and uncertain support for national broadcaster apps are real considerations. If your household relies heavily on RTÉ Player or [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), it's worth confirming compatibility first. If your viewing is mostly built around Netflix, Prime Video, and Disney+, Roku can work well, but Fire TV or the Google TV Streamer currently offer a simpler, better-supported path for most Irish homes.
 
-{% include product-showcase.html category="Devices" %}
+{% include product-showcase.html products="roku-streaming-stick-4k,roku-ultra-review,fire-tv-stick-4k" %}
 
 {% include faq-section.html %}
 

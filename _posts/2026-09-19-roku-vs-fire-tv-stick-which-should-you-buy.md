@@ -72,7 +72,7 @@ For those wanting more power for gaming-adjacent features or hands-free voice co
 
 If you're already deep into Amazon Prime and want tight integration with Alexa, the Fire TV Stick is the sensible pick. If you'd prefer a simpler, less sales-driven interface and don't mind a smaller retail footprint in Ireland, Roku is a solid alternative. Either way, check current app support for your must-have Irish services before buying, since app libraries and menu names can change over time.
 
-{% include product-showcase.html category="Devices" %}
+{% include product-showcase.html products="roku-streaming-stick-4k,fire-tv-stick-4k,2-Pack-Pinowu-Remote-Cover-Case" %}
 
 {% include faq-section.html %}
 

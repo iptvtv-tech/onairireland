@@ -1,0 +1,12 @@
+{%- comment -%}
+  How a review was put together. Every post in the Reviews category sets
+  `review_basis: research` in its front matter and includes this file just
+  after the affiliate disclosure. scripts/check_posts.py fails a review
+  without both. We don't claim first-hand testing in posts, so "research" is
+  the only value for now.
+{%- endcomment -%}
+{%- if page.review_basis == "research" -%}
+<div class="notice review-basis" markdown="1">
+**How we put this review together:** this is a research-based review. We haven't tested it ourselves. It draws on the maker's or provider's published details, which Irish apps and services it supports, and current Irish availability.
+</div>
+{%- endif -%}

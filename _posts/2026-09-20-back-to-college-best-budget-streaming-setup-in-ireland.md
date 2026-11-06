@@ -74,7 +74,7 @@ Keep an eye out for student discounts directly through the streaming services th
 
 The easiest approach is one solid streaming stick, one or two paid subscriptions, and RTÉ Player for Irish content. Keep receipts and account logins somewhere memorable, since you'll likely be sharing devices and passwords with housemates throughout the year.
 
-{% include product-showcase.html category="Devices" %}
+{% include product-showcase.html products="fire-tv-stick-4k,roku-streaming-stick-4k,2-Pack-Pinowu-Remote-Cover-Case" %}
 
 {% include faq-section.html %}
 

@@ -259,6 +259,22 @@ cards:
   created: '2026-11-06'
   used_in:
   - 2026-11-06-how-to-get-tg4-player-on-your-tv.md
+- id: card-black-friday-christmas-streaming-device-guide-ireland
+  files:
+    hero: /assets/images/posts/black-friday-christmas-streaming-device-guide-ireland-hero.webp
+    teaser: /assets/images/posts/black-friday-christmas-streaming-device-guide-ireland-teaser.webp
+    og: /assets/images/posts/black-friday-christmas-streaming-device-guide-ireland-og.jpg
+    hero_small: /assets/images/posts/black-friday-christmas-streaming-device-guide-ireland-hero-800.webp
+  fingerprint: duo|m|Devices|guidebook,streaming-box,streaming-stick
+  layout: duo-mirrored
+  palette: Devices
+  icons:
+  - guidebook
+  - streaming-stick
+  - streaming-box
+  created: '2026-11-05'
+  used_in:
+  - 2026-11-20-black-friday-christmas-streaming-device-guide-ireland.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels

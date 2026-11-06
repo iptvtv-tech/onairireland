@@ -84,7 +84,18 @@ import re as _re
 requested = set()
 for folder in (ROOT / "_posts", ROOT / "_pages"):
     for path in folder.glob("*.md") if folder.is_dir() else []:
-        requested.update(_re.findall(r'include product-showcase\.html[^%]*?category="([^"]+)"', path.read_text(encoding="utf-8")))
+        text = path.read_text(encoding="utf-8")
+        requested.update(_re.findall(r'include product-showcase\.html[^%]*?category="([^"]+)"', text))
+        # A fixed list: {% include product-showcase.html products="id-one,id-two" %}
+        for id_list in _re.findall(r'include product-showcase\.html[^%]*?products="([^"]*)"', text):
+            ids = [i.strip() for i in id_list.split(",") if i.strip()]
+            if not ids:
+                errors.append(f"{path.name}: product-showcase has an empty products list")
+            for pid in ids:
+                if pid not in seen_ids:
+                    errors.append(f"{path.name}: product-showcase lists unknown product id {pid!r}")
+            if len(ids) != len(set(ids)):
+                errors.append(f"{path.name}: product-showcase lists the same product twice")
 for context in sorted(requested):
     if context not in SHOWCASE_CONTEXTS:
         errors.append(f"a post asks for showcase category {context!r}, which is not a known post type")

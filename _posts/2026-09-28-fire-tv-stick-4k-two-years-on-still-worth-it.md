@@ -25,11 +25,14 @@ faqs:
   answer: It uses newer hardware and Wi-Fi 6 support, which generally leads to quicker menu loading and app switching compared to the standard model.
 - question: What should I do if an app or show says it's not available in my region?
   answer: Check that your account's country and App Store region settings are correct for Ireland, and if the issue persists, contact the streaming service's support team directly.
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -69,7 +72,7 @@ Where an upgrade makes more sense is if you've noticed real slowdown, if you're 
 
 Occasionally, Irish users report an app showing as unavailable or a title being restricted on their device. In almost every legitimate case, this comes down to the Amazon account's registered country, the App Store region tied to that account, or a temporary licensing gap for that specific title in Ireland. If you run into this, the right fix is checking your account's country settings in the Amazon or device settings menu, confirming you're logged into the correct regional storefront, and contacting the streaming service's own support team if a title still won't appear. They can confirm whether it's a genuine regional licensing issue on their end.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k,fire-tv-stick-4k-max-review,roku-ultra-review" %}
 
 {% include faq-section.html %}
 

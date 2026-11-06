@@ -26,11 +26,14 @@ faqs:
     answer: "This can happen if your device's account region doesn't match Ireland, so checking the account or store region settings is a good first step."
   - question: "How much internet speed do I need for smooth 4K streaming?"
     answer: "Requirements vary by service, but most recommend at least 25 Mbps for reliable 4K playback, so checking your broadband plan's speed is worthwhile."
+review_basis: research
 ---
  
 {% include last-updated.html %}
  
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
  
 {% include share-buttons.html %}
  
@@ -80,7 +83,7 @@ If you want the most powerful all-rounder with strong app support, the Fire TV S
 
 Prices and exact specs can shift over time, so it's worth double-checking current pricing and features on the retailer's page before buying.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
 
 {% include faq-section.html %}
 

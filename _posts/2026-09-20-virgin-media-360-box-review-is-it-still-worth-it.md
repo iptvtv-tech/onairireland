@@ -26,11 +26,14 @@ faqs:
     answer: "This usually comes down to how quickly Virgin Media updates its software and negotiates app support, which can lag behind dedicated streaming platforms."
   - question: "Will upgrading to a new streaming device affect my Virgin Media TV subscription?"
     answer: "No, your Virgin Media TV package remains separate, and a streaming device only adds extra apps and functionality alongside it."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -76,7 +79,7 @@ The 360 Box isn't bad, but it's not keeping pace with dedicated streaming hardwa
 
 **Related guides:** [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/) · [Virgin Media Unveils New Streaming Bundle for 2026](/news/virgin-media-unveils-new-streaming-bundle-for-2026/)
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
 
 {% include faq-section.html %}
 

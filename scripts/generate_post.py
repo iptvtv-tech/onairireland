@@ -776,16 +776,20 @@ def draft_topic(topic: dict) -> dict:
             "draft_generated": True,
             "affiliate_links": True,
         }
+        if category == "Reviews":
+            # check_posts.py requires this; see _includes/review-basis.html.
+            fm["review_basis"] = "research"
         if faqs:
             fm["faqs"] = [{"question": q, "answer": a} for q, a in faqs]
         # yaml.safe_dump quotes/escapes AI-generated text properly, so colons,
         # quotes or '#' in a title can never break the front matter again.
+        review_basis_block = "\n{% include review-basis.html %}\n" if category == "Reviews" else ""
         front_matter = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + f"""---
 
 {{% include last-updated.html %}}
 
 {{% include affiliate-disclosure.html %}}
-
+{review_basis_block}
 {{% include share-buttons.html %}}
 
 """

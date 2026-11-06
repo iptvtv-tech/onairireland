@@ -26,11 +26,14 @@ faqs:
     answer: "Pricing varies by retailer and changes over time, so it's worth comparing current listings directly before deciding."
   - question: "Why do some apps look different on my Google TV Streamer than expected?"
     answer: "This is usually down to your Google account or Play Store region setting rather than a fault with the device, so check that setting matches your actual location."
+review_basis: research
 ---
 
 {% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
+
+{% include review-basis.html %}
 
 {% include share-buttons.html %}
 
@@ -66,7 +69,7 @@ It's also worth mentioning Roku as a third option, since it's gained a bit more 
 
 If you're building a home cinema setup from scratch, the Google TV Streamer is a solid, modern choice with reliable Irish app support. But if you already have a Fire TV Stick that plays everything you need without buffering or crashing, there's no compelling reason to replace it purely for a different menu layout. The switch makes most sense if you're already deep into Google's ecosystem, Google Photos, Nest devices, and so on, since the Streamer ties into those more neatly than Fire TV does.
 
-{% include product-showcase.html category="Reviews" %}
+{% include product-showcase.html products="google-tv-streamer,fire-tv-stick-4k-max-review,roku-ultra-review" %}
 
 {% include faq-section.html %}
 

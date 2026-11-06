@@ -72,7 +72,7 @@ Whichever stick you choose, make sure your home broadband can comfortably handle
 
 **Related guides:** [Roku vs Fire TV Stick: Which Should You Buy?](/devices/roku-vs-fire-tv-stick-which-should-you-buy/) · [Chromecast vs Fire TV Stick: Which Is Better for Irish Viewers?](/devices/chromecast-vs-fire-tv-stick-which-is-better-for-irish-viewers/)
 
-{% include product-showcase.html category="Devices" %}
+{% include product-showcase.html products="fire-tv-stick-lite,fire-tv-stick,fire-tv-stick-4k" %}
 
 {% include faq-section.html %}
 

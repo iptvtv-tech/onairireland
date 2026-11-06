@@ -74,7 +74,7 @@ Whichever you choose, always confirm that the apps you actually use, RTÉ Player
 
 No budget stick will perform well on a poor broadband connection. Before blaming the device, it's worth checking your actual speeds, since buffering issues are very often a connection problem rather than a hardware one.
 
-{% include product-showcase.html category="Devices" %}
+{% include product-showcase.html products="fire-tv-stick,fire-tv-stick-4k,roku-streaming-stick-4k" %}
 
 {% include faq-section.html %}
 
