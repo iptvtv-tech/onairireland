@@ -17,12 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: How to Get TG4 Player on Your TV
-  category: Installation Guides
-  brief: Step-by-step setup of TG4 Player on smart TVs, Fire TV, Android/Google TV, Apple TV and casting, and whether TG4 is also on RTÉ Player. Check TG4's own supported-device list.
-  pillar: Device Setup
-  video: true
-  video_angle: 'Talk through the steps from the blog post: which devices support TG4 Player, how to install it, and what''s available on the app.'
 - title: Is Virgin Media Play Free in Ireland?
   category: Streaming Services
   brief: Answer directly what Virgin Media Play offers free and what needs a Virgin Media TV subscription, how to sign up, and which devices it runs on. Check Virgin Media's own site.
@@ -64,7 +58,7 @@
   whatsapp: false
 - title: Where to Watch Republic of Ireland Football Matches Legally
   category: Sports Streaming
-  brief: 'Evergreen guide to watching the men''s and women''s national team games legally. Name a broadcaster only if our checked facts cover it; otherwise say coverage is confirmed before each international window and point readers to the FAI and the Sport on TV page.'
+  brief: Evergreen guide to watching the men's and women's national team games legally. Name a broadcaster only if our checked facts cover it; otherwise say coverage is confirmed before each international window and point readers to the FAI and the Sport on TV page.
   pillar: Where to Watch
   video: true
   video_angle: 'Evergreen video based on the blog post: which channels show ROI men''s and women''s games, free-to-air vs subscription, and how to get set up to stream them.'
@@ -100,7 +94,7 @@
   video_angle: 'Based on the blog review: cover the passes, pricing, device support and a straight verdict on value versus a full Sky subscription. Target: 8-12 min.'
 - title: 'Sky Glass in Ireland: What It Is and Who It Suits'
   category: Streaming Services
-  brief: 'What Sky Glass is (a TV with Sky built in, streamed over broadband instead of a dish) and who it suits compared with Sky Stream and a Sky Q dish. No prices, contract terms or picture-quality claims; tell readers to check Sky Ireland''s own pages for those and for whether it''s sold in Ireland.'
+  brief: What Sky Glass is (a TV with Sky built in, streamed over broadband instead of a dish) and who it suits compared with Sky Stream and a Sky Q dish. No prices, contract terms or picture-quality claims; tell readers to check Sky Ireland's own pages for those and for whether it's sold in Ireland.
   pillar: Service Guide
   video: true
   video_angle: 'Based on the blog review: what Sky Glass includes, what you save versus a dish and a straight answer on whether it makes sense for Irish homes. Target: 10-14 min.'

@@ -1,0 +1,63 @@
+# YouTube Short for _posts/2026-11-06-how-to-get-tg4-player-on-your-tv.md
+# Generated 2026-11-06. Review it with the article: every fact must match the post.
+# After merging, the YouTube Short workflow renders the MP4 and comments on the PR.
+# Scenes: kicker (small green label), head (big text), optional sub, pills, badge;
+# vo is spoken and shown as captions. Format: scripts/video/short_spec.py
+
+post: _posts/2026-11-06-how-to-get-tg4-player-on-your-tv.md
+post_url: https://onairireland.ie/installation-guides/how-to-get-tg4-player-on-your-tv/
+scenes:
+- kicker: TG4 PLAYER
+  head: Where's TG4 on your TV?
+  vo: Looking for TG4 on your TV and can't find it in RTÉ Player? Here's how to actually get it.
+- kicker: NOT RTÉ PLAYER
+  head: TG4 is separate
+  pills:
+  - Own app
+  - Own website
+  - Free to use
+  - TV licence needed
+  vo: TG4 and RTÉ are separate broadcasters with separate apps. Both are free to use, but you still need a TV licence for any set you stream on.
+- kicker: SMART TVS
+  head: Check TG4's own list
+  vo: Support varies by TV brand and can change, so check TG4's website for its current list of supported smart TVs before you go hunting through menus.
+- kicker: OTHER DEVICES
+  head: Status not always clear
+  pills:
+  - Fire TV
+  - Android TV & Google TV
+  - Apple TV
+  vo: For Fire TV, Android TV, Google TV and Apple TV, TG4's own sources aren't always consistent on whether an app is live, so check TG4's site or search the app store on your device.
+- kicker: NO APP?
+  head: Cast from your phone
+  vo: If your TV doesn't have the app, open TG4 Player on your phone, start playing, and use the cast icon to send it to your TV.
+end_vo: The full guide is at onairireland.ie.
+youtube:
+  title: How to Get TG4 Player on Your Smart TV in Ireland
+  description: |
+    📺 TG4 Player is a separate app from RTÉ Player, with its own live channel and catch-up shows including GAA and Ladies football. Both are free to use, but you need a TV licence for any TV you stream on.
+
+    🔍 Smart TV app support varies by brand and can change, so check TG4's own website for its current list of supported TVs before you buy or start hunting through menus.
+
+    📱 For Fire TV, Android TV, Google TV and Apple TV, TG4's own sources aren't always consistent on app availability, so check TG4's site or search your device's app store directly.
+
+    🔄 No app on your TV? Cast from the TG4 Player app or TG4 website on your phone or tablet using the cast icon.
+
+    🔗 Full guide: https://onairireland.ie/installation-guides/how-to-get-tg4-player-on-your-tv/
+
+    📲 Get alerts when Irish streaming prices change — free WhatsApp channel:
+    https://whatsapp.com/channel/0029VbDvKAaEawdv3YeHxu2E
+
+    📘 Free PDF guides: https://onairireland.ie/free-guides/
+    Only legal services available in Ireland.
+  tags:
+  - tg4 player ireland
+  - tg4 on smart tv ireland
+  - how to watch tg4 ireland
+  - tg4 player app ireland
+  - tg4 fire tv ireland
+  - tg4 android tv ireland
+  - tg4 apple tv ireland
+  - rté player vs tg4 ireland
+  - tv licence ireland
+  - on air ireland
