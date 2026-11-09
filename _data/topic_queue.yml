@@ -17,10 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: Is Virgin Media Play Free in Ireland?
-  category: Streaming Services
-  brief: Answer directly what Virgin Media Play offers free and what needs a Virgin Media TV subscription, how to sign up, and which devices it runs on. Check Virgin Media's own site.
-  pillar: Service Guide
 - title: 'TV Packages in Ireland Compared: Sky, Virgin Media, eir and Vodafone'
   category: Streaming Services
   brief: 'Compare the main Irish pay-TV packages: what each includes, contract terms and whether broadband is required. Link to the streaming prices tracker for prices rather than typing prices into the post.'
