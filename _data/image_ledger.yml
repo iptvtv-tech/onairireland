@@ -291,6 +291,22 @@ cards:
   created: '2026-11-06'
   used_in:
   - 2026-11-06-is-virgin-media-play-free-in-ireland.md
+- id: card-tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone
+  files:
+    hero: /assets/images/posts/tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone-hero.webp
+    teaser: /assets/images/posts/tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone-teaser.webp
+    og: /assets/images/posts/tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone-og.jpg
+    hero_small: /assets/images/posts/tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone-hero-800.webp
+  fingerprint: feature|s|Streaming-Services|satellite-receiver,set-top-box,universal-remote
+  layout: feature
+  palette: Streaming-Services
+  icons:
+  - set-top-box
+  - universal-remote
+  - satellite-receiver
+  created: '2026-11-10'
+  used_in:
+  - 2026-11-10-tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels

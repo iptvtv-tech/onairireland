@@ -1,0 +1,86 @@
+# YouTube Short for _posts/2026-11-10-tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone.md
+# Generated 2026-11-10. Review it with the article: every fact must match the post.
+# After merging, the YouTube Short workflow renders the MP4 and comments on the PR.
+# Scenes: kicker (small green label), head (big text), optional sub, pills, badge;
+# vo is spoken and shown as captions. Format: scripts/video/short_spec.py
+
+post: _posts/2026-11-10-tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone.md
+post_url: https://onairireland.ie/streaming-services/tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone/
+scenes:
+- kicker: TV PACKAGES
+  head: Sky, Virgin, eir or Vodafone?
+  vo: Trying to work out which Irish TV package suits you - Sky, Virgin Media, eir or Vodafone?
+- kicker: ENTERTAINMENT
+  head: Sky & Virgin Media
+  pills:
+  - Entertainment channels
+  - Add sports
+  - movies
+  - broadband
+  vo: Sky and Virgin Media bundle entertainment channels, with sports, movies and broadband as add-ons. Check their sites for contract length.
+- kicker: BROADBAND TV
+  head: eir & Vodafone
+  pills:
+  - TV bundled with broadband
+  vo: eir and Vodafone bundle TV with broadband rather than mobile. Check their sites for current channels and sports add-ons.
+- kicker: NO CONTRACT
+  head: NOW for Sport
+  pills:
+  - Sports · Sky Sports
+  - Sports Extra · Premier & TNT
+  - Sports Saver · both
+  - 12-month
+  vo: If a long contract doesn't suit, NOW has no contract. Sports membership covers Sky Sports, Sports Extra covers Premier Sports and TNT Sports. A Sports Saver bundle combines both on a 12-month term.
+- kicker: SPORTS RIGHTS
+  head: Who Has What
+  pills:
+  - Sky · F1
+  - darts
+  - golf
+  - PL
+  - Premier Sports · LaLiga
+  - URC
+  - TNT · smaller PL
+  - MotoGP
+  vo: Sky Sports has Formula 1, darts, golf majors and most Premier League. Premier Sports has LaLiga, URC rugby and Scottish football. TNT Sports has a smaller Premier League package and MotoGP.
+- kicker: DON'T FORGET
+  head: TV Licence
+  pills:
+  - €160 a year per premises
+  - Covers any home TV
+  vo: Don't forget the TV licence - a separate requirement, €160 a year per premises, covering any TV including one used only for streaming.
+end_vo: Full comparison and prices at onairireland.ie.
+youtube:
+  title: 'TV Packages in Ireland: Sky vs Virgin vs eir vs Vodafone'
+  description: |
+    Sky, Virgin Media, eir or Vodafone - which Irish TV package actually suits you? Here's how they differ.
+
+    📺 Sky and Virgin Media bundle entertainment channels with options to add sports, movies and broadband - check their own sites for current lineup and contract length.
+
+    📶 eir and Vodafone offer TV bundled with broadband, with details that can change - check their own pages for current options and sports add-ons.
+
+    🆓 No contract? NOW streams Sky Sports via its Sports membership, and Premier Sports plus TNT Sports via Sports Extra. A Sports Saver bundle combines both on a 12-month minimum term.
+
+    🏉 Sports rights: Sky Sports has Formula 1, darts, golf majors and most Premier League. Premier Sports has LaLiga, URC rugby and Scottish football. TNT Sports has a smaller Premier League package and MotoGP.
+
+    📄 Remember the TV licence - a separate requirement at €160 a year per premises, covering any TV in the home, including one used only for streaming.
+
+    🔗 Full guide: https://onairireland.ie/streaming-services/tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone/
+    💶 Every Irish streaming price: https://onairireland.ie/streaming-prices/
+
+    📲 Get alerts when Irish streaming prices change — free WhatsApp channel:
+    https://whatsapp.com/channel/0029VbDvKAaEawdv3YeHxu2E
+
+    📘 Free PDF guides: https://onairireland.ie/free-guides/
+    Only legal services available in Ireland.
+  tags:
+  - tv packages ireland
+  - sky tv ireland
+  - virgin media ireland
+  - eir tv ireland
+  - vodafone tv ireland
+  - now tv ireland
+  - premier sports ireland
+  - sky sports ireland
+  - tv licence ireland
+  - on air ireland

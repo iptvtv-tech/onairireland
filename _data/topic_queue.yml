@@ -17,12 +17,6 @@
 # video_angle:  One-line content steer for the video script.
 # whatsapp:     false — suppress WhatsApp copy for this post (default: generated for all posts).
 
-- title: 'TV Packages in Ireland Compared: Sky, Virgin Media, eir and Vodafone'
-  category: Streaming Services
-  brief: 'Compare the main Irish pay-TV packages: what each includes, contract terms and whether broadband is required. Link to the streaming prices tracker for prices rather than typing prices into the post.'
-  pillar: Service Guide
-  video: true
-  video_angle: 'Side-by-side comparison of the four main Irish pay-TV packages: channel counts, contract lengths, whether you need their broadband. Verdict: which suits sport fans vs casual viewers.'
 - title: Best Mesh Wi-Fi for Streaming in Irish Homes
   category: Devices
   brief: Explain when mesh Wi-Fi, a range extender, powerline adapters or an Ethernet cable is the right fix for buffering in Irish houses, with product picks from the site's catalogue.
