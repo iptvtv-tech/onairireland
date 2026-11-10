@@ -1,9 +1,9 @@
 ---
 title: "Sky Stream vs NOW in Ireland: Which Is Better Value?"
-excerpt: "Sky Stream or NOW? Contracts, what each includes, the box and the apps, and NOW Entertainment from €8.99 a month with no contract. Which suits your home."
-description: "Sky Stream or NOW? Contracts, what each includes, the box and the apps, and NOW Entertainment from €8.99 a month with no contract. Which suits your home."
-last_updated: 2026-10-07
-last_checked: 2026-10-07
+excerpt: "Sky Stream is a Sky package on a 12-month term with a box. NOW is month-to-month in an app. What each includes and costs in Ireland, and who each suits."
+description: "Sky Stream is a Sky package on a 12-month term with a box. NOW is month-to-month in an app. What each includes and costs in Ireland, and who each suits."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -20,64 +20,86 @@ header:
 seo:
   type: Article
 toc: true
-affiliate_links: true
+affiliate_links: false
 quick_facts:
-  - "Sky Stream needs a small puck device and typically a 12-month term for the best price"
-  - "NOW is fully contract-free, pay only for the passes you want, cancel anytime"
-  - "Sky Stream Essential TV is €31/month standard pricing in Ireland"
+  - "Sky Stream: a loaned puck, broadband of 25Mbps or more, offers on a 12-month minimum term"
+  - "NOW: an app, pay by the month, with lower intro prices on a 6- or 12-month term"
+  - "Sky prices change with offers: check sky.com/ie at checkout"
+faqs:
+  - question: "Is NOW cheaper than Sky Stream?"
+    answer: "For one thing at a time, usually yes: NOW Entertainment costs less than Sky Essential TV on standard pricing. Once you want entertainment, sport and films together, Sky's packages can work out cheaper than stacking NOW memberships."
+  - question: "Do I need a contract for NOW?"
+    answer: "Not on the standard monthly price, which you can cancel. NOW's lower introductory prices come with a minimum term: six months for Entertainment and 12 months for the Sports offer."
+  - question: "Do I need Sky Broadband for Sky Stream?"
+    answer: "No. When it launched Sky Stream in Ireland, Sky said it works with any broadband provider. Sky recommends a speed of at least 25Mbps."
 ---
 
-{% include affiliate-disclosure.html %}
+{% include last-updated.html %}
+
 {% include share-buttons.html %}
+
 {% include quick-facts.html %}
 
-Both Sky Stream and NOW get you Sky content without a satellite dish — but they're built for completely different viewing habits, and picking the wrong one means either overpaying or missing what you actually wanted.
+Pick **Sky Stream** if you want a full TV package with live channels on a box and you'll keep it for at least a year. Pick **NOW** if you want one or two things, such as Sky's entertainment channels or a season of sport, and want to stop paying when you stop watching.
 
-## The core difference
+Both come from Sky, and both stream over your broadband with no dish. The difference is how you pay and what you get.
 
-**Sky Stream** is a proper Sky subscription delivered via a small streaming puck instead of a dish. You get an always-on package of channels, live TV, on-demand, and a smart interface — the full Sky experience, typically with a 12-month commitment for the best pricing.
+## Sky Stream vs NOW at a glance
 
-**NOW** is Sky's contract-free alternative — instead of one all-in package, you buy individual "Memberships" (Entertainment, Cinema, Sports, Sports Extra) for just the content you want, and can cancel anytime with no long-term commitment.
+| | Sky Stream | NOW |
+|---|---|---|
+| **How you watch** | Sky's puck, plugged into the TV by HDMI | The NOW app on a smart TV, streaming stick, phone or browser |
+| **Commitment** | Offers on a 12-month minimum term, then standard pricing | Month to month on standard prices; intro offers have a 6- or 12-month term |
+| **What you buy** | A base pack (Essential TV or Ultimate TV), plus add-ons | Separate memberships: Entertainment, Cinema, Sports, Sports Extra |
+| **Extra apps included** | Essential: Netflix and discovery+. Ultimate: Netflix, Disney+, HBO Max, Hayu and discovery+ | HBO Max Basic with Ads, on the Entertainment & HBO Max membership |
+| **Second TV** | Sky Whole Home plus an extra puck | The Boost add-on allows a second stream at the same time |
 
-## Sky Stream pricing in Ireland
+## Sky Stream prices
 
-Based on current pricing directly from Sky Ireland:
+Sky changes its prices and offers often, so we don't quote them here. See the current prices on [Sky's TV packages page](https://www.sky.com/ie/tv) and [Sky Stream page](https://www.sky.com/ie/tv/stream). What each part includes, according to Sky:
 
-- **Essential TV:** standard pricing €31/month (the current offer is €18/month for 12 months, or €25/month on a 31-day rolling plan — check sky.ie for current offers)
-- **Ultimate TV:** standard pricing €41/month, includes Netflix Basic, Disney+, HBO Max Basic with Ads and Hayu
-- **Sky Sports add-on:** standard pricing €45/month
-- **Sky Cinema add-on:** standard pricing €20/month
+- **Essential TV:** 70+ channels, including Sky Atlantic, plus Netflix and discovery+.
+- **Ultimate TV:** 110+ channels, plus Netflix Basic, Disney+, HBO Max, Hayu and discovery+.
+- **Sky Sports and Sky Cinema:** add-ons to either pack. Sky says Sky Cinema includes Paramount+.
+- **Sky Whole Home:** for a second TV, with an extra puck for each TV.
 
-Sky Stream in Ireland includes RTÉ, Virgin Media One/Two/Three, and TG4 in HD alongside the full Sky channel lineup — so you're not losing your free-to-air channels by switching.
+New customers usually pay less for the first 12 months, on a 12-month minimum term. Check the price at checkout.
 
-## NOW pricing in Ireland
+Sky recommends broadband of at least 25Mbps. See [setting up Sky Stream on a new smart TV](/installation-guides/setting-up-sky-stream-on-a-new-smart-tv/) for what's involved.
 
-NOW is officially available in Ireland at nowtv.com/ie, with separate Memberships for Entertainment, Cinema, Sports and (in Ireland only) Sports Extra, each cancellable anytime with no contract. Our [NOW and Sky hub](/now-and-sky/) has set-up guides and fixes for both.
+## NOW prices
 
-Standard Irish NOW prices (checked 7 October 2026; the [streaming prices tracker](/streaming-prices/) has the latest):
+{% assign now_ent = site.data.prices | where: "plan", "Entertainment" | first %}
+{% assign now_hbo = site.data.prices | where: "plan", "Entertainment & HBO Max" | first %}
+{% assign now_cin = site.data.prices | where: "plan", "Cinema" | first %}
+{% assign now_boost = site.data.prices | where: "plan", "Boost add-on" | first %}
+{% assign now_sports = site.data.prices | where: "plan", "Sports" | first %}
+{% assign now_extra = site.data.prices | where: "plan", "Sports Extra" | first %}
+NOW's standard monthly prices in Ireland:
 
-- **Entertainment:** €8.99 a month
-- **Entertainment & HBO Max:** €11.99 a month
-- **Cinema:** €11.99 a month
-- **Boost add-on:** €5 a month (Full HD, no ads on demand, two streams)
-- **Sports (Sky Sports):** €38.99 a month or €14.99 a day
-- **Sports Extra (Premier Sports and TNT Sports):** €33.99 a month or €14.99 a day
-- **Sports and Sports Extra together:** €27 a month on the 12-month Sports Saver
+- **Entertainment:** {% include euro.html amount=now_ent.monthly %} a month
+- **Entertainment & HBO Max:** {% include euro.html amount=now_hbo.monthly %} a month
+- **Cinema:** {% include euro.html amount=now_cin.monthly %} a month
+- **Boost:** {% include euro.html amount=now_boost.monthly %} a month extra, for Full HD, ad-free on demand and a second stream
+- **Sports (Sky Sports):** {% include euro.html amount=now_sports.monthly %} a month
+- **Sports Extra (Premier Sports and TNT Sports):** {% include euro.html amount=now_extra.monthly %} a month
 
-Six-month intro offers often bring Entertainment down to €5.99. Irish and UK prices are set separately, so always check [nowtv.com/ie](https://www.nowtv.com/ie/membership) rather than UK pricing.
+*Prices checked {{ now_ent.checked | date: "%-d %B %Y" }} on [NOW's membership page](https://www.nowtv.com/ie/membership). The [streaming prices tracker](/streaming-prices/) has the latest.*
 
-## Which one actually fits you
+The standard price is month to month. NOW's lower introductory prices tie you in: six months for Entertainment, and 12 months for its Sports and Sports Extra offer.
 
-- **Choose Sky Stream if:** you watch TV daily across a mix of channels and want one always-on setup — the per-month cost works out better than stacking multiple NOW Memberships if you'd want more than one anyway
-- **Choose NOW if:** you only want sport for part of the year, or want to dip into Sky Cinema for a month and cancel — the lack of a contract is the whole point
-- **A practical middle ground:** some households use NOW's Sports memberships just for the Premier League season and skip Sky Stream entirely the rest of the year, since NOW never locks you into paying when you're not watching
+## Which suits you?
 
-**Related guides:** [How to Fix Common Sky Stream Remote and Pairing Issues](/troubleshooting/how-to-fix-common-sky-stream-remote-and-pairing-issues/) · [Sky Sports vs Premier Sports: Which Do You Need?](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/)
+- **Sky Stream** suits a household that watches live TV most days and wants entertainment, films and sport in one place. Once you'd stack two or three NOW memberships, a Sky package can cost less.
+- **NOW** suits you if you only want Sky's entertainment channels, or sport for part of the year. You can stop paying in the off-season, as long as you're on standard monthly pricing and not inside an intro term.
+- **Already have Netflix or Disney+?** Ultimate TV includes them, so count what you'd stop paying for separately before you compare.
 
-{% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
+For which sports channels show what, see [Sky Sports vs Premier Sports](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/).
+
+Sources: [Sky TV packages](https://www.sky.com/ie/tv) (checked 10 November 2026) · [Sky Stream](https://www.sky.com/ie/tv/stream) (checked 10 November 2026) · [NOW memberships](https://www.nowtv.com/ie/membership) (checked 10 November 2026) · [Sky Group: Sky Stream launches in Ireland](https://skygroup.sky/article/sky-stream-launches-in-ireland) (17 July 2023)
+
+{% include faq-section.html %}
+
 {% include related-posts.html %}
-Related: see our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/) and [where to watch GAA legally](/streaming-services/where-to-watch-gaa-legally-ireland/).
-
-<small>Pricing on streaming and TV packages changes often — the Sky Stream and NOW figures above are standard pricing from sky.ie and nowtv.com/ie, checked 7 October 2026, but always confirm live pricing on the provider's own site before subscribing.</small>
 
 {% include whatsapp-cta.html %}

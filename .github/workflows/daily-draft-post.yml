@@ -1,12 +1,11 @@
 name: Daily Draft Post
 
-# Runs once a week, Wednesday (08:37 UTC, often hours later). Cut from Mon/Wed/Fri on 10 Nov 2026
-# after Google stopped showing most of the site (27 Oct): fewer, stronger posts while it recovers.
+# PAUSED 10 Nov 2026: no scheduled drafts while the existing posts are rewritten
+# with sources (Google stopped showing most of the site from 27 Oct). Run it by
+# hand with "Run workflow" if needed. To restart, put this back under `on:`:
+#   schedule:
+#     - cron: "37 8 * * 3"   # Wednesday 08:37 UTC (off the hour: GitHub runs :00 jobs late)
 on:
-  schedule:
-    # Off the hour on purpose: GitHub queues scheduled runs and often starts
-    # them late (by hours lately), most of all at :00. Times are UTC.
-    - cron: "37 8 * * 3"
   workflow_dispatch: {}
 
 permissions:

@@ -64,14 +64,8 @@ Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" tex
 
 To sum up: watch *A Knight of the Seven Kingdoms* in Ireland via **Sky Atlantic** if you have a Sky subscription, or through **NOW** with at least an Entertainment Membership. Stream it on a Fire TV Stick, Roku device, Fire TV Cube, or Chromecast for the smoothest experience, and if anything seems off with availability, check your account settings and reach out to Sky or NOW support rather than assuming the worst.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

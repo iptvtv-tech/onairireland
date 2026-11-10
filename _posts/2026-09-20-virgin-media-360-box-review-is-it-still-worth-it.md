@@ -1,7 +1,9 @@
 ---
 title: "Virgin Media 360 Box Review: Is It Still Worth It?"
-excerpt: "A look at whether Virgin Media's 360 Box still competes with modern streaming devices for Irish households in 2026."
-description: "A look at whether Virgin Media's 360 Box still competes with modern streaming devices for Irish households in 2026."
+excerpt: "Virgin TV 360 launched in 2020 and new bundles now come with the Streaming TV box. What the 360 box does, what it costs to keep, and when to add a stick."
+description: "Virgin TV 360 launched in 2020 and new bundles now come with the Streaming TV box. What the 360 box does, what it costs to keep, and when to add a stick."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Reviews
 tags:
@@ -11,21 +13,19 @@ header:
   overlay_image_small: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-hero-800.webp
   teaser: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-teaser.webp
   og_image: /assets/images/posts/virgin-media-360-box-review-is-it-still-worth-it-og.jpg
-  caption: "Photo: [Kamil \u010Ci\u010Dila](https://www.pexels.com/photo/cozy-living-room-with-tv-remote-on-sofa-38466607/) on [Pexels](https://www.pexels.com)"
+  caption: "Photo: [Kamil Čičila](https://www.pexels.com/photo/cozy-living-room-with-tv-remote-on-sofa-38466607/) on [Pexels](https://www.pexels.com)"
 seo:
   type: Article
 toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Does the Virgin Media 360 Box support 4K streaming?"
-    answer: "Some content may be available in 4K depending on the app and your broadband speed, but exact specifications can vary, so it's worth checking Virgin Media's own product pages for current details."
-  - question: "Can I use a Fire TV Stick or Roku alongside my Virgin Media 360 Box?"
-    answer: "Yes, you can simply connect a separate streaming device to another HDMI port on your TV and switch inputs as needed."
-  - question: "Why are some apps missing or outdated on the 360 Box?"
-    answer: "This usually comes down to how quickly Virgin Media updates its software and negotiates app support, which can lag behind dedicated streaming platforms."
-  - question: "Will upgrading to a new streaming device affect my Virgin Media TV subscription?"
-    answer: "No, your Virgin Media TV package remains separate, and a streaming device only adds extra apps and functionality alongside it."
+  - question: "Is Virgin Media still giving out the 360 box?"
+    answer: "Virgin Media's current TV and broadband bundles come with its newer Streaming TV box. It still supports the TV 360 box for customers who have one."
+  - question: "How many programmes can the Virgin TV 360 box record?"
+    answer: "Virgin Media said at launch that the 360 box records six channels while you watch a seventh."
+  - question: "Can I use a Fire TV Stick or Roku alongside the 360 box?"
+    answer: "Yes. A streaming stick plugs into another HDMI port on your TV, and you switch inputs to use it. Your Virgin Media TV package isn't affected."
 review_basis: research
 ---
 
@@ -37,56 +37,44 @@ review_basis: research
 
 {% include share-buttons.html %}
 
-## Virgin Media 360 Box Review: Is It Still Worth It?
+If you already have a Virgin TV 360 box, it's still worth keeping: Virgin Media supports it, it records several channels at once, and it has the main streaming apps. You can't choose it any more, though, because Virgin Media's current TV bundles come with its newer Streaming TV box instead.
 
-The Virgin Media 360 Box has been around for a good few years now, bundled into many Irish broadband and TV packages as the default set-top box. But with streaming habits changing fast, it's worth asking whether the 360 Box still earns its place under the telly, or whether it's time to look elsewhere.
+## Virgin TV 360 at a glance
 
-### What the 360 Box Does Well
+- **Launched:** October 2020.
+- **Recording:** six channels while you watch a seventh, according to Virgin Media's launch announcement.
+- **Picture:** Virgin Media calls it 4K-ready, and its support pages say apps on the box play in 4K.
+- **Voice:** the remote has a microphone for voice search and control.
+- **Catch-up:** Virgin Media described a "Startover" feature for going back to the start of a programme on major channels.
+- **Other rooms:** a TV 360 Mini box for multiroom viewing.
+- **Status (November 2026):** still supported, but new bundles come with the Streaming TV box.
 
-The main selling point of the 360 Box is integration. It combines your normal TV package with apps like Netflix, Disney+, and Prime Video in one interface, so you're not constantly switching inputs. For households that want a single remote and a single menu to manage everything, that's genuinely convenient.
+Sources for each point are listed at the end.
 
-Voice search is another plus. Being able to search across live TV and some streaming apps at once saves a bit of hassle, especially for less tech-confident family members who just want to find something to watch without navigating multiple apps.
+## What it does well
 
-The catch-up and recording functionality is also solid for a bundled box. If you're already paying for Virgin Media TV, you're not paying extra for this layer of smart features, which is a fair value proposition on paper.
+The 360 box puts live TV, recordings and apps behind one remote. Virgin Media lists Netflix, Disney+, Apple TV+, Prime Video, Channel 4, Sky Max, Paramount+, RTÉ Player and TG4 Player on its boxes. Recording six channels at once is more than most households need, and Startover helps if you switch on a few minutes late.
 
-### Where It Starts to Show Its Age
+## Where it falls short
 
-The interface itself is the biggest sticking point. It can feel sluggish compared to newer streaming platforms, particularly when switching between apps or loading anything graphically heavy. Menus that once felt modern now feel a step behind competitors.
+- **It's no longer the current box.** Virgin Media's TV and broadband offers in November 2026 all list the Streaming TV box, which uses cloud recordings and works over Wi-Fi. If you're re-contracting, ask which box you'll get and whether your recordings will carry over.
+- **Apps depend on Virgin Media.** You only get the apps Virgin Media puts on the box. If a service you want isn't there, you can't add it yourself.
+- **Charges if you change things.** Virgin Media's fees list (accurate from 1 January 2026) has a €50 activation fee for a TV 360 box, €25 for a Mini box, €20 for a replacement remote and €150 for each piece of equipment not returned when you leave.
 
-App support is the other issue. Not every streaming service gets full native support on the 360 Box, and updates to existing apps can lag behind what you'd get on a dedicated streaming device. If you're someone who wants the very latest features from services like Apple TV+ or newer niche apps, you may find the 360 Box slower to catch up, or missing certain apps entirely.
+## If an app is missing
 
-There's also the question of hardware speed. The processor inside the 360 Box simply isn't built for the demands of 2024 streaming, where 4K content and richer app interfaces are increasingly standard.
+The simple fix is a streaming stick on a spare HDMI port. Your Virgin package stays the same; you just switch the TV's input when you want the stick. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} and the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} both take most of the main streaming apps; check the app store listing for the service you want before buying. Our [Fire TV Stick 4K Max review](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/) and [Roku guide](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) cover each in more detail.
 
-### How It Compares to Dedicated Streaming Devices
+## Verdict
 
-This is where things get interesting. A dedicated streaming device bought separately can often outperform the 360 Box for pure streaming purposes, even if it means juggling a second remote.
+Keep the 360 box if it's working: it records more than most people need and carries the main apps. Don't pay to replace it with a stick unless an app you use is missing. If you're signing a new contract, expect the Streaming TV box instead. For Virgin Media's current TV packs, see [Virgin Media TV: Core vs Loaded](/streaming-services/virgin-media-tv-ireland-core-vs-loaded-tv-explained/).
 
-The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} is a good example. It's compact, supports 4K where your broadband and content allow, and generally feels snappier navigating between apps than the 360 Box does. For anyone who mostly watches via streaming apps rather than live TV, it's a noticeably smoother experience.
+Sources: [Virgin Media press release: Virgin TV 360](https://www.virginmedia.ie/about-us/press/2020/bring-on-amazing-virgin-tv-360-from-virgin-media/) (1 October 2020) · [Virgin TV 360 box support](https://www.virginmedia.ie/virgintv360support/tv360help/) (checked 10 November 2026) · [Virgin TV 360](https://www.virginmedia.ie/television/virgin-tv-360/) (checked 10 November 2026) · [Virgin Media TV and broadband offers](https://www.virginmedia.ie/vtv360-offer/) (checked 10 November 2026) · [Virgin Media fees and charges](https://www.virginmedia.ie/pdf/Virgin-Media-Pricing-List-11032026.pdf) (checked 10 November 2026)
 
-If you'd prefer a platform with a simpler, less cluttered interface, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is worth considering too. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s menu system is famously straightforward, and it tends to get new app support quickly, which matters if you like trying newer streaming services as they launch in Ireland.
-
-Other options worth a mention for completeness include the Fire TV Cube for those who want more power and voice control, or Chromecast if you mostly prefer casting from a phone or tablet rather than using an on-box interface directly.
-
-### Is It Still Worth Keeping?
-
-If your household relies heavily on live TV, recording, and Virgin Media's bundled features, the 360 Box still does a reasonable job holding everything together in one place. The convenience factor shouldn't be dismissed, especially for less tech-savvy users in the house.
-
-However, if streaming apps are your primary use case and you're finding menus slow or app support patchy, pairing your existing TV package with a separate streaming device makes sense. You don't need to give up the 360 Box entirely, just plug in a Fire TV Stick or Roku Streaming Stick Plus to a spare HDMI input and switch over when you want a quicker streaming experience.
-
-### Final Verdict
-
-The 360 Box isn't bad, but it's not keeping pace with dedicated streaming hardware anymore. For live TV and bundled simplicity, it still has a role. For streaming specifically, a modern device will likely feel faster and more future-proof. Many Irish households end up running both side by side, which is a perfectly reasonable compromise rather than an all-or-nothing decision. For Virgin Media's current TV packages and its Streaming TV box, see our [Virgin Media hub](/virgin-media/).
-
-**Related guides:** [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/) · [Virgin Media Unveils New Streaming Bundle for 2026](/news/virgin-media-unveils-new-streaming-bundle-for-2026/)
-
-{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review" %}
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

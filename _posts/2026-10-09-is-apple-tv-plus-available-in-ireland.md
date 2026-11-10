@@ -1,7 +1,9 @@
 ---
-title: Is Apple TV+ Available in Ireland?
-excerpt: A guide to Apple TV+ in Ireland covering pricing, how to sign up, device compatibility and what's in the content library.
-description: A guide to Apple TV+ in Ireland covering pricing, how to sign up, device compatibility and what's in the content library.
+title: "Is Apple TV+ Available in Ireland? Price and Devices"
+excerpt: "Yes. Apple TV+, now just called Apple TV, is sold in Ireland with a 7-day free trial. The monthly price, ways to get it free and which devices have the app."
+description: "Yes. Apple TV+, now just called Apple TV, is sold in Ireland with a 7-day free trial. The monthly price, ways to get it free and which devices have the app."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
 - Streaming-Services
 tags:
@@ -18,14 +20,14 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-- question: Do I need an Apple TV box to watch Apple TV+?
-  answer: No, Apple TV+ is an app-based subscription that works on many smart TVs, phones, consoles, and browsers, not just Apple's own hardware.
-- question: Can I get Apple TV+ for free in Ireland?
-  answer: Apple occasionally offers a free trial period or a complimentary period with eligible new device purchases; check the Settings app on your device to see if you qualify.
-- question: Why does Apple TV+ say content isn't available in my region?
-  answer: This is usually caused by your Apple ID being registered to the wrong country rather than a network issue, and can be corrected in your Apple ID's country/region settings.
-- question: Is there an ad-supported cheaper plan for Apple TV+?
-  answer: As of writing, Apple TV+ has not offered an ad-supported tier, though pricing and plans can change, so it's worth checking current options before subscribing.
+- question: Is Apple TV+ the same as Apple TV?
+  answer: Yes. Apple dropped the plus from the name in October 2025, and its Irish pages now call the streaming service Apple TV. The same name is used for the Apple TV app and Apple's Apple TV 4K box.
+- question: Do I need an Apple device to watch Apple TV in Ireland?
+  answer: No. Apple lists apps for Samsung, LG, Sony and Google TV smart TVs, Sky, Roku, PlayStation, Xbox, Android and Windows, and you can also watch in a browser at tv.apple.com.
+- question: Can I get Apple TV free in Ireland?
+  answer: New subscribers get a 7-day free trial. If you buy an eligible new Apple device, Apple includes three months free, which you must claim within 90 days of setting up the device.
+- question: Can I watch Formula 1 on Apple TV in Ireland?
+  answer: No. Apple's Irish page says Formula 1 on Apple TV is for viewers based in the US. See our Formula 1 guide for how to watch in Ireland.
 ---
 
 {% include last-updated.html %}
@@ -34,60 +36,48 @@ faqs:
 
 {% include share-buttons.html %}
 
-Yes, Apple TV+ is fully available in Ireland, with the same sign-up process, pricing in euro, and access to Apple's slate of original films and series as other European markets.
+**Yes, Apple TV+ is available in Ireland.** It's now just called Apple TV: Apple dropped the plus in October 2025, and its Irish pages use the new name. You can subscribe in euro on almost any device, with no Apple hardware needed.
 
-## What Apple TV+ Actually Is
+{% assign apple = site.data.prices | where: "service", "Apple TV" | first %}
 
-Apple TV+ is Apple's subscription streaming service, distinct from the Apple TV app (which is a hub for various services) and the Apple TV set-top box (a physical streaming device). This naming overlap trips a lot of people up, so it's worth being clear from the start: you don't need Apple's own hardware to watch Apple TV+. The service streams through apps on smart TVs, phones, tablets, games consoles, and web browsers.
+## Apple TV in Ireland at a glance
 
-### Pricing for Irish Subscribers
+- **Price:** {% include euro.html amount=apple.monthly %} a month at the time of writing (November 2026), after a 7-day free trial for new subscribers ([Apple Ireland](https://www.apple.com/ie/shop/appletv)).
+- **Plans:** one plan, billed monthly. Apple's Irish pages don't list a yearly plan or a cheaper plan with ads.
+- **Sharing:** one subscription can be shared with up to five family members through Family Sharing.
+- **Bundles:** included in Apple One, which starts at €19.95 a month with other Apple services.
+- **Devices:** Apple devices, many smart TVs, Sky, Roku, PlayStation, Xbox, Android, Windows and the web.
 
-Apple TV+ is billed monthly in euro to Irish customers. Exact pricing changes from time to time, so rather than quote a figure that may be out of date, it's best to check the current price directly in the App Store listing or on Apple's website before signing up. Our [streaming prices tracker](/streaming-prices/) lists the Irish price we last checked. Apple has also, in the past, bundled Apple TV+ for free for a limited period with the purchase of certain new Apple devices — if you've recently bought an iPhone, iPad, or Mac, it's worth checking your eligibility in the Settings app rather than assuming you need to pay straight away.
+## How to get it
 
-Apple also offers Apple One, a bundle that combines Apple TV+ with other services like Apple Music and iCloud storage. For households already paying for several Apple subscriptions separately, this can work out cheaper, though it's only worth it if you'd use the other services anyway.
+- **Directly from Apple:** sign up in the Apple TV app or at [tv.apple.com](https://tv.apple.com/ie/channel/tvs.sbd.4000) with an Apple Account. The free trial is for new subscribers, and the plan renews monthly until you cancel.
+- **With a new Apple device:** buying an eligible iPhone, iPad, Mac or other Apple device includes three months of Apple TV free. Apple says you must claim it within 90 days of activating the device, and it's one offer per Apple Account or family group.
+- **Through Apple One:** Apple TV is part of every Apple One plan. It only saves money if you'd pay for the other services anyway.
 
-## How to Sign Up in Ireland
+Our [streaming prices tracker](/streaming-prices/) shows the latest Apple TV price and the date we last checked it.
 
-Signing up is straightforward through an Apple ID:
+## Which devices have the app
 
-1. Open the Apple TV app on an Apple device, or go to tv.apple.com in a browser.
-2. Select Apple TV+ and choose to start a subscription.
-3. Confirm your Apple ID billing details are set to Ireland — this affects the currency you're charged in and which payment methods are accepted.
-4. Enter payment details (Irish debit/credit cards and PayPal are typically accepted, though accepted methods can vary).
+[Apple's Irish Apple TV page](https://apple.com/ie/apple-tv-plus) lists:
 
-If you're prompted with a message saying content isn't available, the most common cause is a mismatch between your Apple ID's registered country and the country you're physically in, or an App Store account still set to a previous country of residence. This is fixed within your own Apple ID settings — under Media & Purchases or similar — rather than anything to do with your network. If the issue persists, Apple's own support team can confirm what region your account is set to and help correct it.
+- **Apple:** iPhone, iPad, Mac and the Apple TV 4K box
+- **Smart TVs:** Samsung, LG, Sony and Google TV sets, plus TVs that support AirPlay
+- **Pay TV and streaming players:** Sky and Roku
+- **Games consoles:** PlayStation and Xbox
+- **Other:** Android phones and tablets, Windows PCs (from the Microsoft Store) and the web at tv.apple.com
 
-## Which Devices Support Apple TV+
+If your TV is older and doesn't have the app, a streaming stick is the simplest fix. Roku is on Apple's list, so the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} will run it. If you're weighing up the Apple TV 4K box itself, see our [Apple TV 4K review](/reviews/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers/).
 
-Apple TV+ has broad device support, which is one of its advantages over some competitors:
+## What's on it
 
-- iPhone, iPad, and Mac via the Apple TV app
-- Apple TV set-top boxes (4K and HD models)
-- Many Samsung, LG, and Sony smart TVs with a built-in Apple TV app
-- Amazon Fire TV devices and Roku players
-- PlayStation and Xbox consoles
-- Web browsers at tv.apple.com
+Apple TV is mostly Apple Originals rather than licensed films and series, so the library is smaller than Netflix's. Apple's Irish page lists *Slow Horses*, *Severance*, *The Morning Show*, *Ted Lasso*, *Shrinking*, *Silo* and *Bad Sisters*, which is set in Ireland, among its most-watched shows. Our guides cover [Slow Horses](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/), [Severance](/watch-guides/where-to-watch-severance-season-2-in-ireland/) and [Bad Sisters](/watch-guides/how-to-watch-tv-show-bad-sisters/).
 
-If your current television is older and doesn't support modern streaming apps, an {% include product-link.html id="smart_tvs_2" text="LG LED AI, 32 inch HD Smart TV" %} is one practical way to get built-in access to Apple TV+ without needing a separate streaming box, since LG's smart TV platform includes the Apple TV app.
+On sport, Apple's Irish page lists Major League Soccer and Friday Night Baseball for subscribers. It also says Formula 1 on Apple TV is only for viewers based in the US, so see [where to watch Formula 1 in Ireland](/sports-streaming/where-to-watch-formula-1-legally-in-ireland/) instead.
 
-## What's in the Library
-
-Apple TV+'s catalogue is smaller than Netflix or Prime Video but leans heavily on original productions rather than licensed content. It includes scripted dramas, comedies, documentaries, and a growing slate of films that sometimes get a simultaneous cinema and streaming release. Apple also holds certain live sports rights in various markets, including some football coverage, though which competitions are available in Ireland specifically can change season to season, so it's worth checking current listings rather than assuming.
-
-There's no ad-supported tier at the time of writing — Apple TV+ has historically been a single ad-free subscription, unlike some rivals that now offer a cheaper tier with advertising.
-
-## Getting More From Your Subscription
-
-Since Apple TV+ is often watched on a television rather than a phone screen, sound quality can be a limiting factor on built-in TV speakers. A {% include product-link.html id="soundbar-budget" text="Compact Soundbar" %} is a reasonably simple upgrade for dialogue-heavy dramas and documentaries without needing a full surround system. For households where one person wants to watch without disturbing others, {% include product-link.html id="wireless-tv-headphones" text="Wireless TV Headphones" %} are another option worth considering.
-
-{% include product-showcase.html category="Streaming Services" %}
+Sources: [Apple Ireland: Apple TV](https://apple.com/ie/apple-tv-plus) (checked 10 November 2026) · [Apple Ireland: Apple TV offers](https://www.apple.com/ie/shop/appletv) (checked 10 November 2026) · [Apple TV in Ireland on tv.apple.com](https://tv.apple.com/ie/channel/tvs.sbd.4000) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

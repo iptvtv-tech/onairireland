@@ -1,4 +1,6 @@
 ---
+noindex: true # eir is retiring eir vision; see the eir vision explainer (10 Nov 2026)
+sitemap: false
 title: "Setting Up Eir Vision on a New Smart TV"
 excerpt: "Step-by-step: set up Eir Vision on a new smart TV, from account activation and app install to picture and sound settings."
 description: "Step-by-step: set up Eir Vision on a new smart TV, from account activation and app install to picture and sound settings."
@@ -87,9 +89,5 @@ Before considering the job done, run through a quick checklist: sign-in works, l
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

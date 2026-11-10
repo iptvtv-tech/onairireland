@@ -1,7 +1,9 @@
 ---
-title: "Is Britbox Available in Ireland?"
-excerpt: "A practical look at whether BritBox works in Ireland, how Irish viewers can legally subscribe, and what shows you'll find on it."
-description: "A practical look at whether BritBox works in Ireland, how Irish viewers can legally subscribe, and what shows you'll find on it."
+title: "Is BritBox Available in Ireland?"
+excerpt: "No. BritBox isn't sold in Ireland, and the UK version closed in 2024 and moved into ITVX Premium, which is UK-only. Where to find British shows instead."
+description: "No. BritBox isn't sold in Ireland, and the UK version closed in 2024 and moved into ITVX Premium, which is UK-only. Where to find British shows instead."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -16,70 +18,55 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Is BritBox officially available to subscribers in Ireland?"
-    answer: "Yes, BritBox offers official subscriptions to Irish customers through its own app and website."
-  - question: "Why does BritBox show different content in Ireland compared to the UK?"
-    answer: "Content licensing is negotiated per country, so catalogues can differ between the UK and Ireland."
-  - question: "Which devices support the BritBox app?"
-    answer: "BritBox generally works on smart TVs and devices like Fire TV Stick, Fire TV Cube, Roku, and Chromecast, though exact support can vary by model."
-  - question: "What should I do if BritBox says a show isn't available in my region?"
-    answer: "This usually means the title isn't licensed for Ireland yet; check your account and app store region settings are correctly set to Ireland, and contact BritBox support if the issue persists."
+  - question: "Can I subscribe to BritBox in Ireland?"
+    answer: "No. BBC Studios, which owns BritBox International, lists the countries where it's sold, and Ireland isn't one of them. There's no Irish version of BritBox."
+  - question: "What happened to BritBox in the UK?"
+    answer: "The UK BritBox app closed on 30 April 2024. Its programmes are now part of ITVX Premium, ITV's paid tier, which ITV says can't be streamed outside the UK."
+  - question: "Can I get ITVX Premium in Ireland instead?"
+    answer: "No. ITV's help centre says you can't stream live or on-demand shows on ITVX when you're outside the UK. Premium subscribers can only watch episodes they downloaded in the UK before travelling."
 ---
- 
+
 {% include last-updated.html %}
- 
-{% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-## Is BritBox Available in Ireland?
 
-Yes, BritBox is available to Irish viewers, and it operates as a fully licensed streaming service here rather than something you need to work around. It launched in the UK first, but Irish sign-ups have been supported for some time now, with pricing and billing set up specifically for Irish customers.
+**No, BritBox isn't available in Ireland.** BritBox International is sold only in a handful of countries, and Ireland isn't one of them. The UK version closed in 2024 and its programmes moved into ITVX Premium, which is UK-only too.
 
-That said, there's often confusion because BritBox's UK and Irish catalogues aren't identical. Licensing deals are negotiated on a country-by-country basis, so a show available to UK subscribers might not appear for Irish ones, and vice versa. If you ever see a "not available in your region" message, the most common cause is simply that the show isn't licensed for Ireland yet — not that something is broken on your end.
+*Update (10 November 2026): an earlier version of this article said BritBox offered subscriptions in Ireland. That was wrong, and we've rewritten it.*
 
-### How to Sign Up in Ireland
+## At a glance
 
-The straightforward way to get BritBox here is to sign up directly through the official BritBox app or website, selecting Ireland as your country when prompted. Make sure your device's app store is also set to the Irish store, since app availability and pricing can vary by store region. If you've previously used a UK Apple ID, Google Play account, or similar with a different home country set, you may need to check those settings or create an Irish account to see accurate pricing and availability.
+- **BritBox in Ireland:** not sold here.
+- **BritBox International:** owned by BBC Studios since March 2024. When BBC Studios took full ownership, it listed eight countries: the US, Canada, Australia, South Africa, Denmark, Finland, Norway and Sweden.
+- **BritBox UK:** the app closed on 30 April 2024. BritBox programmes are now in ITVX Premium.
+- **ITVX in Ireland:** not available. ITV says ITVX can't be streamed outside the UK.
 
-BritBox is also bundled through some other services in Ireland, so it's worth checking whether your existing TV or broadband provider already includes access before starting a separate subscription.
+## Why there's no BritBox in Ireland
 
-Pricing has changed over the years, so rather than quote a figure that might be out of date by the time you read this, it's best to check the current monthly cost directly on BritBox's official sign-up page before committing.
+BritBox has always been two separate services. **BritBox International** was set up by the BBC and ITV for viewers abroad, and BBC Studios bought ITV's share in March 2024. [BBC Studios' announcement](https://www.bbcstudios.com.au/news/bbc-studios-takes-full-ownership-britbox-international-historic-deal) said it was "available in eight countries" and named them. Ireland wasn't on the list, and BBC Studios hasn't announced an Irish launch since.
 
-### What Devices Support BritBox in Ireland
+**BritBox UK** was run by ITV for UK viewers. Its standalone app closed on 30 April 2024, and "the only way to watch BritBox will be with an ITVX Premium subscription", according to [YouView's notice to its customers](https://support.youview.com/britbox-no-longer-available-on-youview-devices-from-the-30th-of-april).
 
-BritBox apps are generally available on smart TVs, as well as popular streaming devices like the Fire TV Stick, Fire TV Cube, Roku, and Chromecast. Availability can vary slightly depending on the exact model and software version of your device, so if you can't find the app, check for a software update first before assuming it isn't supported.
+That doesn't help Irish viewers either. [ITV's help centre](https://help.itv.com/support/solutions/articles/204000073892-i-m-abroad-and-can-t-watch-shows) says "you can't stream live or on demand shows on ITVX when you're outside of the UK". Premium subscribers can watch downloads made in the UK while abroad, but you can't sign up from Ireland and stream.
 
-If you're setting up a streaming stick or box for the first time, it's worth using an {% include product-link.html id="universal-remote" text="updated universal remote" %} so you're not juggling multiple remotes for your TV, soundbar, and streaming device. It's a small thing, but it makes browsing menus and searching for shows a lot less fiddly, especially for other members of the household.
+We couldn't load BritBox's own website to check its country list when we updated this page, so the list above comes from BBC Studios. If BritBox launches in Ireland, we'll update this page.
 
-### What Content Does BritBox Offer?
+## Where to look for British shows in Ireland
 
-BritBox leans heavily on British broadcast archives, so it's a strong choice if you enjoy classic and recent British drama, comedy, and documentaries. Expect a mix of long-running soaps, period dramas, panel shows, and older series that have disappeared from other platforms. It also carries some original commissions that aren't available elsewhere.
+There's no one service that collects British TV for Irish viewers. British programmes are licensed show by show, so the practical approach is to search for the title in the services you already have:
 
-It's worth noting BritBox isn't trying to be a general entertainment platform like some larger streaming services — it's more of a specialist library. If you're mainly after British content specifically, it fills a gap that other services often don't cover.
+- **Free Irish services:** RTÉ Player, Virgin Media Play and TG4 Player cost nothing to search, so check them first. See [5 free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/).
+- **Sky and NOW:** the Sky entertainment channels and NOW's Entertainment membership carry British drama and comedy. Compare them in [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/).
+- **Netflix, Prime Video and Disney+:** also license British series, so it's worth a search before you pay for anything new.
 
-### Getting the Most Out of Your Subscription
+Our watch guides cover some popular British series, such as [Emmerdale](/watch-guides/where-to-stream-tv-show-emerdale/) and [Peaky Blinders](/watch-guides/where-to-watch-peaky-blinders-legally-in-ireland/). For BBC programmes, see [RTÉ Player vs BBC iPlayer](/streaming-services/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland/).
 
-Since BritBox is often watched for dialogue-heavy dramas, audio clarity matters more than flashy surround sound. If your TV's built-in speakers struggle with quieter dialogue scenes, a {% include product-link.html id="soundbar-budget" text="compact soundbar" %} can make a noticeable difference without taking up much space under the TV.
-
-For anyone who splits their viewing between the living room and other parts of the house, a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} paired with a phone or tablet can also be handy for casual catch-up viewing, though for the full experience most people will still want the big screen.
-
-### Final Thoughts
-
-BritBox is a legitimate, properly licensed option for Irish viewers who want access to British archive content. Signing up directly through the official app with your correct country and app store settings is the simplest way to ensure you see the right catalogue and pricing for Ireland.
-
-**Related guides:** [Is Discovery+ Available in Ireland?](/streaming-services/is-discovery-available-in-ireland/) · [HBO Max in Ireland: Is It Available and How Do You Get It?](/news/is-hbo-max-coming-to-ireland/)
-
-{% include product-showcase.html category="Streaming Services" %}
+Sources: [BBC Studios: full ownership of BritBox International](https://www.bbcstudios.com.au/news/bbc-studios-takes-full-ownership-britbox-international-historic-deal) (March 2024, checked 10 November 2026) · [ITV help: I'm abroad and can't watch shows](https://help.itv.com/support/solutions/articles/204000073892-i-m-abroad-and-can-t-watch-shows) (checked 10 November 2026) · [YouView: BritBox no longer available from 30 April](https://support.youview.com/britbox-no-longer-available-on-youview-devices-from-the-30th-of-april) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

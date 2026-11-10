@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "Where to Watch The Bear Legally in Ireland"
 excerpt: "The Bear streams only on Disney+ in Ireland, under the Star hub. How to find it in the app and watch it on your TV, phone or streaming stick."
 description: "The Bear streams only on Disney+ in Ireland, under the Star hub. How to find it in the app and watch it on your TV, phone or streaming stick."
@@ -73,14 +75,8 @@ There's no need to look beyond an official, licensed subscription to catch up on
 
 **Related guides:** [Disney+ Ireland: Plans, Pricing and What's Worth Watching in 2026](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) · [Where to Watch Wednesday Season 2 Legally in Ireland](/watch-guides/where-to-watch-wednesday-season-2-legally-in-ireland/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

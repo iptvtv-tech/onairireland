@@ -14,7 +14,7 @@ header:
   teaser: /assets/images/posts/tg4-player-not-working-fixes-and-where-to-get-help-teaser.webp
   og_image: /assets/images/posts/tg4-player-not-working-fixes-and-where-to-get-help-og.jpg
 seo:
-  type: HowTo
+  type: Article
 toc: true
 faqs:
   - question: "Why does TG4 Player say a programme isn't available?"

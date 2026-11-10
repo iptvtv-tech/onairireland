@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "Where to Watch Bridgerton Season 4 in Ireland"
 excerpt: "Bridgerton Season 4 is streaming exclusively on Netflix in Ireland, and here's what to know about the new storyline plus the best legal ways to watch it."
 description: "Bridgerton Season 4 is streaming exclusively on Netflix in Ireland, and here's what to know about the new storyline plus the best legal ways to watch it."
@@ -72,14 +74,8 @@ If it's been a while since the last season, a quick refresher on the Bridgerton 
 
 **Related guides:** [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/) · [Where to Watch Slow Horses Season 6 Legally in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

@@ -118,7 +118,7 @@ def main():
     margin = 40
     c = canvas.Canvas(OUT, pagesize=A4)
     c.setTitle(f"Watching GAA in Ireland: who shows what ({season} season)")
-    c.setAuthor("On Air Ireland team")
+    c.setAuthor("John Paul, On Air Ireland")
     c.setSubject("One-page guide for county boards, clubs and supporters")
     c.setCreator("On Air Ireland")
 
@@ -244,7 +244,7 @@ def main():
         if m:
             domains.setdefault(m.group(2), m.group(1) + "/")
     sources = ", ".join(f'<a href="{home}">{name}</a>' for name, home in domains.items())
-    foot = (f'<a href="{GUIDE_URL}"><b>onairireland.ie/gaa</b></a> · Independent guides to legal streaming in Ireland, by the On Air Ireland team. '
+    foot = (f'<a href="{GUIDE_URL}"><b>onairireland.ie/gaa</b></a> · Independent guides to legal streaming in Ireland, by John Paul, On Air Ireland. '
             f"Not connected to the GAA, RTÉ or TG4. Checked against {sources} on "
             f"{checked.day} {checked:%B %Y}. Fixtures and channels can change, so check the "
             f"broadcaster's own listings on the day.")

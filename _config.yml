@@ -36,8 +36,8 @@ social:
 
 # Used by jekyll-seo-tag for author meta + JSON-LD
 author:
-  name: "On Air Ireland"
-  bio: "Independent guides to legal streaming in Ireland."
+  name: "John Paul"
+  bio: "Edits On Air Ireland, independent guides to legal streaming in Ireland, from Co. Kilkenny."
   location: "Ireland"
   links:
     - label: "Twitter/X"

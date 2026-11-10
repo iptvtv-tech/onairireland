@@ -4,7 +4,7 @@ permalink: /how-we-make-money/
 layout: single
 description: "How On Air Ireland is funded: Amazon affiliate links, what we never take money for, and how we choose the products and services we cover."
 excerpt: "How On Air Ireland is funded, and what we never take money for."
-last_updated: 2026-10-29
+last_updated: 2026-11-10
 seo:
   type: WebPage
 header:
@@ -21,9 +21,9 @@ On Air Ireland is free to read. This page explains how the site pays for itself,
 
 Our only income today is the **Amazon Associates Programme**. When a guide links to a product on Amazon and you buy through that link, we may earn a small commission. You pay the same price either way. As an Amazon Associate we earn from qualifying purchases.
 
-We've also applied to join the Awin and Tradedoubler affiliate networks, so we can link to Irish retailers and TV and streaming providers as well as Amazon. We'll name any partner on this page once it's active. Our Tradedoubler site ID is 3503842.
+We've applied to join the Awin affiliate network, so we can link to Irish retailers and TV and streaming providers as well as Amazon. We'll name any partner on this page once it's active.
 
-Posts that contain affiliate links say so at the top, and product cards carry a short disclosure line. Affiliate links are marked so search engines know they are paid links.
+Posts that contain affiliate links say so at the top, each affiliate link in the text is followed by "(paid link)", and product cards carry a short disclosure line. Affiliate links are also marked so search engines know they are paid links.
 
 We don't show prices next to Amazon products, because Amazon's rules only allow prices that update live. Check the current price on Amazon before you buy.
 
@@ -41,9 +41,14 @@ If we ever publish sponsored content, it will be clearly labelled as sponsored a
 - Our product picks focus on items we can link to, so we may not cover every option on the market.
 - Unless a review says it is hands-on, it is based on research: manufacturer specifications, app store listings and the providers' own help pages.
 
-## How the guides are written
+## How the guides are written and checked
 
-Some articles start as drafts produced with AI assistance. Each one is reviewed and edited before it is published, and prices and availability are checked against the provider's own website. When we can't confirm something, we say so in the guide.
+Some articles start as drafts produced with AI assistance. Each one is reviewed and edited by John Paul, who runs the site, before it is published.
+
+- **Sources:** prices, channel line-ups, sports rights and app availability are checked against the provider's or broadcaster's own Irish website, press office or help pages, not comparison sites. Guides link to the pages they relied on.
+- **Dates:** each guide shows when it was last updated. Prices on the [streaming prices tracker](/streaming-prices/) are re-checked every quarter.
+- **No hands-on claims:** we don't say we've tested a device or app unless we have. Most guides are based on research from official sources.
+- **Uncertainty:** when we can't confirm something, we say so in the guide rather than guess.
 
 ## Corrections
 

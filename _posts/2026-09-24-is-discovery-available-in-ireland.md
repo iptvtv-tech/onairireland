@@ -70,8 +70,4 @@ Discovery+ isn't reliably available as its own dedicated app in Ireland right no
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

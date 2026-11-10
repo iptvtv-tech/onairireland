@@ -13,7 +13,7 @@ header:
   og_image: /assets/images/posts/disney-not-working-try-these-fixes-og.jpg
   caption: 'Photo: [Talha Dursun Marko](https://www.pexels.com/photo/screen-monitor-of-an-old-television-set-6954359/) on [Pexels](https://www.pexels.com)'
 seo:
-  type: HowTo
+  type: Article
 toc: true
 draft_generated: true
 affiliate_links: true
@@ -79,9 +79,5 @@ If you've worked through network checks, app updates, and device restarts and st
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

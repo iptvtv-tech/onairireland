@@ -3,7 +3,7 @@ name: Inject Seasonal Topics
 # Runs every Monday (and on demand from the Actions tab). Checks today's date
 # against _data/seasonal_topics.yml and, if any topic is in season, opens a PR
 # adding it to the front of _data/topic_queue.yml. Nothing reaches the queue
-# until that PR is merged. While it is open, the weekly (Wednesday) draft run waits
+# until that PR is merged. While it is open, the draft workflow (paused since 10 Nov 2026; Wednesday when running) waits
 # (one automation PR at a time), so merge or close it promptly; the next draft
 # run then drafts the first topic.
 
@@ -54,7 +54,7 @@ jobs:
 
             ${{ steps.inject.outputs.added }}
 
-            Merging this PR changes the queue only; nothing is published. The next Wednesday run drafts the first topic as its own PR. Draft runs wait while this PR is open, so merge or close it soon.
+            Merging this PR changes the queue only; nothing is published. Drafts are paused while existing posts are rewritten; when they restart, the next run drafts the first topic as its own PR. Draft runs wait while this PR is open, so merge or close it soon.
 
             Before merging:
             - [ ] Each brief still makes sense this year (edit it in this PR if not)

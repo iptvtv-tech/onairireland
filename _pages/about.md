@@ -27,7 +27,7 @@ We only cover services that are licensed to show their content in Ireland, and w
 
 ## Who We Are
 
-On Air Ireland is an independent site based in Co. Kilkenny, Ireland. Every guide is written and edited by the On Air Ireland team, and some start as drafts produced with AI assistance before we review and check them. See [how we make money](/how-we-make-money/) for how the site is funded.
+On Air Ireland is an independent site based in Co. Kilkenny, Ireland, run by **John Paul** (J.P.). He edits every guide. Some start as drafts produced with AI assistance; he reviews them and checks the facts against the providers' own Irish pages before they're published. See [how we check guides](/how-we-make-money/#how-the-guides-are-written-and-checked). See [how we make money](/how-we-make-money/) for how the site is funded.
 
 ## Where We're Based
 

@@ -627,7 +627,7 @@ photos:
     og: /assets/images/posts/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared-og.jpg
   created: '2026-10-20'
   used_in:
-  - 2026-09-11-virgin-media-tv-ireland-essential-vs-mix-vs-max-compared.md
+  - 2026-09-11-virgin-media-tv-ireland-core-vs-loaded-tv-explained.md
 - id: photo-what-is-saorview-and-do-you-need-it-if-you-stream
   source: pexels
   pexels_id: 11666983
@@ -1636,24 +1636,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-24-is-discovery-available-in-ireland.md
-- id: photo-lg-vs-samsung-whose-smart-tv-apps-stream-better
-  source: pexels
-  pexels_id: 7400908
-  pexels_url: https://www.pexels.com/photo/anonymous-person-with-tv-remote-7400908/
-  photographer: Nothing Ahead
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Crop unrecognizable person switching channels on remote control while watching TV on blurred background in light room during free time
-  scene: remote-closeup
-  people: true
-  palette: Devices
-  files:
-    hero: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero.webp
-    hero_small: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-hero-800.webp
-    teaser: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-teaser.webp
-    og: /assets/images/posts/lg-vs-samsung-whose-smart-tv-apps-stream-better-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-24-lg-vs-samsung-whose-smart-tv-apps-stream-better.md
 - id: photo-setting-up-virgin-media-play-on-android
   source: pexels
   pexels_id: 1024697
@@ -1762,24 +1744,6 @@ photos:
   created: '2026-11-10'
   used_in:
   - 2026-10-09-is-apple-tv-plus-available-in-ireland.md
-- id: photo-apple-tv-plus-keeps-buffering-try-these-fixes
-  source: pexels
-  pexels_id: 32698507
-  pexels_url: https://www.pexels.com/photo/modern-wifi-6-router-on-wooden-desk-32698507/
-  photographer: Pascal 📷
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A sleek WiFi 6 router with antennas and cable on a wooden desk, perfect for modern home networks.
-  scene: router-network
-  people: false
-  palette: Troubleshooting
-  files:
-    hero: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero.webp
-    hero_small: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero-800.webp
-    teaser: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-teaser.webp
-    og: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-og.jpg
-  created: '2026-11-10'
-  used_in:
-  - 2026-10-12-apple-tv-plus-keeps-buffering-try-these-fixes.md
 - id: photo-setting-up-sky-stream-on-a-new-smart-tv
   source: pexels
   pexels_id: 4065705

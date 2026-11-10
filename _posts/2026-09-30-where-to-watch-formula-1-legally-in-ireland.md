@@ -73,8 +73,4 @@ Sources: [Sky Sports: home of F1 until 2034](https://www.skysports.com/f1/news/1
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

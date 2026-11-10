@@ -15,7 +15,7 @@ header:
   og_image: /assets/images/posts/gaa-not-working-try-these-fixes-og.jpg
   caption: 'Photo: [Jakub Zerdzicki](https://www.pexels.com/photo/smart-home-wireless-network-router-device-28348054/) on [Pexels](https://www.pexels.com)'
 seo:
-  type: HowTo
+  type: Article
 toc: true
 draft_generated: true
 affiliate_links: true
@@ -100,9 +100,5 @@ If you've worked through connectivity, app updates, and account settings and GAA
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

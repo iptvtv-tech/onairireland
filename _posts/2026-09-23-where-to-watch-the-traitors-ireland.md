@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "Where to Watch The Traitors Ireland"
 excerpt: "A guide to watching The Traitors Ireland legally in Ireland, including where new episodes and catch-up are available and which devices work best."
 description: "A guide to watching The Traitors Ireland legally in Ireland, including where new episodes and catch-up are available and which devices work best."
@@ -75,14 +77,8 @@ Because The Traitors Ireland is appointment viewing for a lot of people, setting
 
 **Related guides:** [RTÉ Player App Review: What's Good and What's Missing](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) · [Can The TV Show Love/Hate Still Be Streamed?](/watch-guides/can-the-tv-show-love-hate-still-be-streamed/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

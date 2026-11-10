@@ -75,14 +75,8 @@ For now, though, the answer for Squid Game in Ireland remains simple and consist
 
 **Related guides:** [Where to Watch Stranger Things' Final Season in Ireland](/watch-guides/where-to-watch-stranger-things-final-season-in-ireland/) · [Where to Watch Wednesday Season 2 Legally in Ireland](/watch-guides/where-to-watch-wednesday-season-2-legally-in-ireland/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

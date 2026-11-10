@@ -1,7 +1,9 @@
 ---
-title: "Eir Vision Explained: Is Bundling TV with Broadband Worth It?"
-excerpt: "What Eir Vision includes, how it compares with building your own legal streaming setup, and who should pick each option."
-description: "What Eir Vision includes, how it compares with building your own legal streaming setup, and who should pick each option."
+title: "Eir Vision Explained: Retired, and Is eir TV Worth It?"
+excerpt: "eir is retiring eir vision. Its TV service is now eir TV on an Android TV box or Apple TV 4K, added to eir broadband. What you get and what it costs."
+description: "eir is retiring eir vision. Its TV service is now eir TV on an Android TV box or Apple TV 4K, added to eir broadband. What you get and what it costs."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -16,74 +18,59 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Does eir Vision require eir broadband?"
-    answer: "Vision is generally offered as an add-on to eir broadband and mobile plans, though exact eligibility rules can change, so it's best to confirm current bundling requirements directly with eir."
-  - question: "Can I get eir Vision without a long contract?"
-    answer: "Contract lengths and any minimum terms vary by promotion and package, so check the specific terms listed on eir's current offer page before signing up."
-  - question: "Will a Fire TV Stick or Roku work alongside my existing TV without extra wiring?"
-    answer: "Yes, these devices typically just plug into an HDMI port on your television and connect to your home Wi-Fi, with no extra cabling required in most cases."
-  - question: "Is it cheaper to bundle TV with broadband or subscribe to streaming services separately?"
-    answer: "It depends entirely on how many channels and services you actually use; bundles can offer savings for heavy TV viewers, while standalone streaming often costs less for those who only use one or two services."
+  - question: "Is eir vision still available?"
+    answer: "No. eir says it is retiring eir vision as a service. Its TV service is now eir TV, on an Android TV box or an Apple TV 4K."
+  - question: "Do I need eir broadband for eir TV?"
+    answer: "eir sells eir TV as an add-on to its broadband, and its offers are priced with broadband."
+  - question: "Can I get Sky Sports on eir TV?"
+    answer: "Yes, as a paid extra. eir's price list includes Sky Sports, Sky Cinema and Sky Entertainment as add-ons through the NOW app."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## What Is Eir Vision?
+eir vision is on its way out: eir says it is [retiring eir vision as a service](https://www.eir.ie/eir-vision-retirement-FAQ/). Its TV service now is **eir TV**, which comes on an Android TV box or an Apple TV 4K and is added to eir broadband.
 
-Eir Vision is the broadband provider's television add-on, bundled alongside its home broadband and mobile plans. The idea is simple: instead of juggling a separate TV license, a satellite dish, or multiple standalone streaming subscriptions, you get a set-top box and a bundle of channels folded into one monthly bill from eir.
+If you're an eir vision customer, read eir's retirement FAQs or contact eir about moving to eir TV. eir's page doesn't give a switch-off date we could confirm.
 
-For a lot of Irish households, the appeal is convenience. One provider, one bill, one call to customer service if something goes wrong. But whether that convenience is worth the money depends heavily on what you actually watch.
+## eir TV at a glance
 
-### What Channels and Apps Are Included
+- **Boxes:** eir Android TV, or eir TV Plus on an Apple TV 4K.
+- **Channels:** eir says 50+ channels.
+- **Extras:** eir says Amazon Prime is included at no extra cost when you add eir TV to broadband.
+- **Sky content:** Sky Sports, Sky Cinema and Sky Entertainment as paid add-ons through the NOW app.
+- **Recording and catch-up (Apple TV 4K guide):** record up to 500 programmes and catch up on the last 7 days, both on selected channels.
+- **Other rooms:** multiroom with a second box.
 
-Eir Vision typically bundles in a mix of Irish free-to-air channels (RTÉ, Virgin Media, TG4) alongside a selection of entertainment, sport, and movie add-ons depending on the tier you choose. Eir has also partnered with certain streaming apps to appear directly on the Vision box interface, which saves you switching inputs on your TV.
+From [eir's TV pages](https://www.eir.ie/tv/) and [eir TV and Apple TV quick start guide](https://www.eir.ie/opencms/export/sites/support/.galleries/pdfs/support-pdfs/eir-tv-user-guide-min.pdf), checked 10 November 2026.
 
-I'd recommend not taking exact channel lists or pricing at face value here, as eir has changed its packages and tiers a fair few times over the past couple of years, and promotional pricing versus standard pricing can differ significantly. Always check eir's own current package page before signing up, since what was included last year may not match what's on offer now.
+## What it costs
 
-## The Case for Bundling
+eir advertises eir TV "from €14.99/m with Broadband", which is an offer price. Its [TV price list](https://www.eir.ie/.content/pdf/pricing/Pt11.1.pdf), checked 10 November 2026, gives these monthly charges for the TV part of your bill:
 
-If your household already has eir broadband, adding Vision can feel like a natural next step rather than a big new expense. You avoid buying a separate streaming device, and everything sits under one login and one remote.
+- **eir Android TV or eir TV Plus (Apple):** €19.99 a month
+- **eir TV Extra:** €9.99 a month
+- **Multiroom (a second Android TV or Apple TV 4K box):** €9.99 a month
 
-For people who mostly watch scheduled TV, sport, or Irish channels, this bundled approach can genuinely simplify things. There's less hopping between apps, and one {% include product-link.html id="universal-remote" text="universal remote control" %} can often replace the multiple remotes that come with a mixed setup of set-top box, soundbar, and TV.
+The same list has one-off charges: a €29.99 activation fee, a €9.99 connection fee for new eir TV connections, and €59.99 if you want a technician to install it. If you leave and don't return the box, eir charges €75 for an Android TV box or €100 for an Apple TV 4K. Offers and contract terms change, so check the total over the whole contract on [eir.ie](https://www.eir.ie/tv/).
 
-It can also suit less tech-confident members of the household. Not everyone wants to learn how to navigate five different streaming apps, and a single guide-style interface can lower that friction considerably.
+## Is bundling TV with broadband worth it?
 
-## The Case for Going Standalone
+It depends on how much live TV you watch.
 
-On the other hand, standalone streaming gives you full control. Rather than paying for a bundle that includes channels or apps you barely touch, you pick and pay for only the services you actually use — whether that's a specific streaming subscription, a sports pass for certain months of the year, or a free ad-supported service.
+- **A bundle suits you** if you watch live channels every day and want one box, one remote and one bill. With eir TV you also get Amazon Prime included while it's part of eir's offer.
+- **Going without a TV package suits you** if you mostly watch on demand. RTÉ Player, Virgin Media Play and TG4 Player are free, and you can add only the paid services you use; see [5 free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/).
+- **For sport,** compare eir's NOW add-ons with a NOW membership on its own: see [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/).
 
-A device like a Fire TV Stick, Fire TV Cube, Roku, or Chromecast gives you access to the full spread of legal Irish and UK streaming apps in one place, without being tied to a single broadband provider's ecosystem. If you switch broadband providers later, your streaming setup and subscriptions stay exactly as they are — nothing is lost.
+Tying TV to your broadband also means changing broadband provider affects your TV, so check the contract end dates line up.
 
-This flexibility matters more than it seems. Broadband deals in Ireland come and go, and if your TV package is locked into your broadband contract, switching providers for a better broadband deal becomes more complicated and can mean losing access to channels you've grown used to.
-
-## Weighing Up the Sound and Viewing Experience
-
-Whichever route you take, the box or stick is only half the picture. A lot of households underestimate how much a decent sound setup improves the everyday experience of streaming, especially with dialogue-heavy shows or sport commentary. A {% include product-link.html id="soundbar-budget" text="compact soundbar" %} is a straightforward upgrade that works with either an eir Vision box or a standalone streaming device, and doesn't require any complicated setup.
-
-If you like watching sport or catching up on shows outside the sitting room too — in the kitchen, garden, or a home office — a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} is a handy companion for casting audio from your phone or a streaming app when you're not near the main TV setup.
-
-## So, Is It Worth It?
-
-There isn't a single right answer here. If you value simplicity, already have eir broadband, and mostly watch Irish and mainstream channels, Vision can make sense as a tidy all-in-one solution. If you're a heavier streaming user who wants flexibility, wants to avoid contract lock-in, or wants to mix and match services freely, building your own setup around a dedicated streaming device is likely to serve you better long-term.
-
-Before committing to either path, it's worth listing out the channels and apps your household actually uses regularly. That short list will tell you more about which option suits you than any bundle brochure will.
-
-**Related guides:** [Setting Up Eir Vision on a New Smart TV](/installation-guides/setting-up-eir-vision-on-a-new-smart-tv/) · [Sky Sports vs Premier Sports: Which Do You Need?](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/)
-
-{% include product-showcase.html category="Streaming Services" %}
+Sources: [eir vision retirement FAQs](https://www.eir.ie/eir-vision-retirement-FAQ/) (checked 10 November 2026) · [eir TV](https://www.eir.ie/tv/) (checked 10 November 2026) · [eir TV channels](https://www.eir.ie/tv/channels/) (checked 10 November 2026) · [Amazon Prime with eir TV](https://www.eir.ie/amazon-prime/) (checked 10 November 2026) · [eir price list part 11.1](https://www.eir.ie/.content/pdf/pricing/Pt11.1.pdf) (checked 10 November 2026) · [eir TV and Apple TV quick start guide](https://www.eir.ie/opencms/export/sites/support/.galleries/pdfs/support-pdfs/eir-tv-user-guide-min.pdf)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

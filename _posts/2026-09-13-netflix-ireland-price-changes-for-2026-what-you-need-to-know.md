@@ -23,7 +23,7 @@ faqs:
   - question: "Has Netflix confirmed exact new prices for Ireland in 2026?"
     answer: "Yes. From 10 September 2026 Basic is €11.99 (was €10.99), Standard €18.99 (was €16.99) and Premium €25.99 (was €23.99). New customers pay the new prices straight away; existing customers move over on a later billing date, and Netflix emails you before your price changes."
   - question: "Is there a cheaper Netflix plan with ads in Ireland?"
-    answer: "Not yet, but one is coming. Netflix has confirmed that ads will start on its Irish service from 1 March 2027. It hasn't announced the price of the ad-supported plan."
+    answer: "Not yet, but one is coming. Netflix has confirmed that ads will start on its Irish service from 1 March 2027, The Irish Times reported in September 2026. It hasn't announced the price of the ad-supported plan."
   - question: "How will I know if my subscription price has changed?"
     answer: "Netflix typically emails subscribers in advance of a price change and also displays updated pricing in your account billing section."
   - question: "Can I downgrade my plan if the new price doesn't suit me?"
@@ -58,7 +58,7 @@ Streaming services typically point to content investment as the reason for price
 
 ### Basic Plan
 
-Basic went from €10.99 to €11.99 a month. It's the cheapest way into Netflix in Ireland, at least until Netflix's ad-supported plan arrives in Ireland on 1 March 2027.
+Basic went from €10.99 to €11.99 a month. It's the cheapest way into Netflix in Ireland, at least until Netflix's ad-supported plan arrives in Ireland on 1 March 2027 (confirmed by Netflix, [as reported by The Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/) on 24 September 2026).
 
 ### Standard Plan
 
@@ -82,15 +82,9 @@ If the new pricing doesn't suit your budget, consider whether a lower tier still
 
 **Related guides:** [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/) · [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/)
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
 

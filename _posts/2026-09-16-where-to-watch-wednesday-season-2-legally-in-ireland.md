@@ -66,14 +66,8 @@ To watch Wednesday Season 2 in Ireland, all you need is a Netflix subscription a
 
 **Related guides:** [Where to Watch Bridgerton Season 4 in Ireland](/watch-guides/where-to-watch-bridgerton-season-4-in-ireland/) · [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

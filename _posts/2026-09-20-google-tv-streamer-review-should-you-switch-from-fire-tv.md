@@ -1,7 +1,7 @@
 ---
 title: "Google TV Streamer Review: Should You Switch From Fire TV?"
-excerpt: "A look at Google's TV Streamer versus Fire TV Stick and Roku options to help Irish streamers decide which box suits their setup."
-description: "A look at Google's TV Streamer versus Fire TV Stick and Roku options to help Irish streamers decide which box suits their setup."
+excerpt: "Google's TV Streamer is sold in Ireland on the Google Store. Its specs, which apps are confirmed, and when it's worth switching from a Fire TV Stick."
+description: "Google's TV Streamer is sold in Ireland on the Google Store. Its specs, which apps are confirmed, and when it's worth switching from a Fire TV Stick."
 categories:
   - Reviews
 tags:
@@ -17,15 +17,17 @@ seo:
 toc: true
 draft_generated: true
 affiliate_links: true
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 faqs:
-  - question: "Does the Google TV Streamer work with RTÉ Player and Virgin Media Play?"
-    answer: "Yes, both apps are available on Google TV in Ireland, the same as they are on Fire TV and Roku devices."
-  - question: "Do I need a Chromecast as well if I buy the Google TV Streamer?"
-    answer: "No, casting functionality is built into the device, so a separate Chromecast dongle isn't required."
-  - question: "Is the Google TV Streamer more expensive than a Fire TV Stick?"
-    answer: "Pricing varies by retailer and changes over time, so it's worth comparing current listings directly before deciding."
-  - question: "Why do some apps look different on my Google TV Streamer than expected?"
-    answer: "This is usually down to your Google account or Play Store region setting rather than a fault with the device, so check that setting matches your actual location."
+  - question: "Can I buy the Google TV Streamer in Ireland?"
+    answer: "Yes. Google sells it on the Google Store Ireland site in euro, and it's also listed on Amazon.ie."
+  - question: "Does the Google TV Streamer come with an HDMI cable?"
+    answer: "No. Google says you need a certified HDMI 2.1 cable, sold separately. The box comes with the voice remote, power adapter and power cable."
+  - question: "Does NOW work on the Google TV Streamer?"
+    answer: "NOW's Irish device list names the Chromecast with Google TV but not the Google TV Streamer, at the time of writing (November 2026). If NOW matters to you, check that list before you buy."
+  - question: "Do I need a Chromecast as well?"
+    answer: "No. Google Cast is built in, so you can cast from compatible Android and iPhone apps straight to the Streamer."
 review_basis: research
 ---
 
@@ -37,46 +39,59 @@ review_basis: research
 
 {% include share-buttons.html %}
 
-## Google TV Streamer Review: Should You Switch From Fire TV?
+Only switch if your Fire TV is missing an app you need or you want a wired connection. The Google TV Streamer is a well-specified box, sold in Ireland on the Google Store, but a Fire TV Stick that already plays everything you watch gives you little reason to replace it.
 
-Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a [Fire TV Stick](/devices/best-streaming-devices-ireland/), you might be wondering whether it's worth the switch. This review looks at it with the Irish apps in mind.
+This review is based on Google's specifications and the app makers' own support pages, not on hands-on use.
 
-### What Is the Google TV Streamer?
+## Google TV Streamer at a glance
 
-Unlike the old Chromecast with Google TV, this is a proper plug-in box rather than a dongle that dangles off your telly. It comes with a remote, a bit more onboard storage for apps, and Google says it has faster performance than previous Chromecast hardware. We won't quote an exact price here since retail pricing shifts around, so check current listings before you buy.
+From the [Google Store Ireland specs page](https://store.google.com/ie/product/google_tv_streamer_specs):
 
-The interface is the familiar Google TV layout: a scrolling homepage with recommendations pulled from whatever services you've signed into, plus dedicated rows for things like the Google Play Store, Google TV's own free channel hub, and your installed apps.
+- **Picture:** up to 4K HDR at 60 frames per second, with Dolby Vision, HDR10, HDR10+ and HLG
+- **Sound:** Dolby Atmos with compatible speakers
+- **Storage and memory:** 32 GB storage, 4 GB RAM
+- **Ports:** HDMI, gigabit Ethernet and USB-C for power
+- **Remote:** voice remote with a customisable button and a Find My Remote feature
+- **Smart home:** Matter support and a built-in Thread border router
+- **In the box:** Streamer, remote, power adapter and cable. A certified HDMI 2.1 cable is needed and sold separately.
 
-### Setting It Up in Ireland
+It replaced the Chromecast with Google TV, which Google no longer sells. Check the current price on the [Google Store Ireland product page](https://store.google.com/ie/product/google_tv_streamer), as Google runs offers on it.
 
-Setup works the same way it does anywhere else: connect to your Google account, pick your home Wi-Fi, and install apps from the Play Store. For Irish viewers, all the big names are present and correct - [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Virgin Media Play, Sky's streaming apps where applicable, Netflix, Disney+, Apple TV+, and Prime Video all have Google TV versions.
+## Which apps are confirmed
 
-One thing worth flagging: your Google Play Store region should match your actual billing address and country for the correct catalogue of apps to show up. If you've ever set up a Google account while living abroad, it's worth double-checking your account's country setting in the Play Store menu, since a mismatched region can cause certain apps or the Google TV free channels to look different or incomplete. This is a genuine account settings issue, not a content-blocking one, and Google's own support pages talk you through changing it.
+- **Netflix:** yes, in 4K and HDR, according to [Netflix's Google TV Streamer help page](https://help.netflix.com/en/node/220714777399908). You need a Netflix plan that includes Ultra HD.
+- **NOW:** [NOW's Irish device list](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch) names the Chromecast with Google TV (4K and HD) but not the Google TV Streamer, at the time of writing.
+- **RTÉ Player, Virgin Media Play and TG4 Player:** we couldn't confirm Google TV Streamer support from RTÉ, Virgin Media Television or TG4's own pages. TG4's help page lists its Android TV app as "coming soon". Search Google Play on the device, or ask the retailer, before you rely on it for Irish channels.
 
-### How It Compares to Fire TV
+Apps change often, so if one app is essential, check it before you buy any device.
 
-Amazon's Fire TV Stick range is still the most common streaming device in Irish homes, largely because it's cheap, widely stocked, and dead simple to set up. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} in particular is a strong performer for the price, with quick app loading and support for all the major Irish streaming apps.
+## How it compares with Fire TV
 
-The core difference is the operating system. Fire TV's interface leans heavily on promoting Amazon's own Prime Video content, while Google TV's homepage feels a little more neutral, pulling recommendations from whichever apps you actually use. Neither is objectively "better" for RTÉ Player or [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), since both platforms support these apps fully.
+The biggest difference in 2026 is the software inside Amazon's sticks. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} (2nd gen) runs Fire OS 8. Amazon's newer Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select run [Vega OS](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html), which has fewer apps. If you have a Vega OS stick and an app you use isn't there, a Google TV or Fire OS device is the fix.
 
-Remote controls are broadly similar too, both include voice search, a mic button, and shortcut buttons for a couple of big streaming names. If you already own a pile of Fire TV Sticks around the house, switching just one room to Google TV might feel like an unnecessary complication rather than an upgrade.
+Other differences, from the makers' own specifications:
 
-### Where Roku Fits In
+- **Wired internet:** the Google TV Streamer has an Ethernet port built in. Fire TV sticks need an adapter.
+- **Storage:** 32 GB on the Google TV Streamer, so there's room for plenty of apps.
+- **Smart home:** the Streamer works as a Thread border router for Matter devices. Fire TV suits homes that already use Alexa.
+- **Remote:** both have voice remotes. Google's has a Find My Remote feature.
 
-It's also worth mentioning Roku as a third option, since it's gained a bit more of a foothold in Ireland recently. The {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} has a reputation for a clean, ad-light home screen compared to Fire TV. If you find Fire TV's advertising tiles a bit much and don't fancy Google TV's ecosystem, Roku is a genuine third path.
+## Where Roku fits in
 
-### Should You Switch?
+The {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus (4K)" %} is the simpler option. Roku has RTÉ Player and Virgin Media Play in Ireland, and NOW supports Roku. See our [Roku guide](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/).
 
-If you're building a home cinema setup from scratch, the Google TV Streamer is a solid, modern choice with reliable Irish app support. But if you already have a Fire TV Stick that plays everything you need without buffering or crashing, there's no compelling reason to replace it purely for a different menu layout. The switch makes most sense if you're already deep into Google's ecosystem, Google Photos, Nest devices, and so on, since the Streamer ties into those more neatly than Fire TV does.
+## Should you switch?
+
+- **Keep your Fire TV** if it runs a Fire OS version and plays everything you watch.
+- **Consider the Google TV Streamer** if you want a wired connection, use Google Home or Matter devices, or your Vega OS Fire TV is missing apps you need, after checking those apps are on Google TV.
+- **Consider a Roku** if you mainly want RTÉ Player, Virgin Media Play and NOW with the simplest menus.
 
 {% include product-showcase.html products="google-tv-streamer,fire-tv-stick-4k-max-review,roku-ultra-review" %}
+
+Sources: [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Netflix Help: Google TV Streamer](https://help.netflix.com/en/node/220714777399908) (checked 10 November 2026) · [NOW Ireland: supported streaming devices](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch) (checked 10 November 2026) · [TG4 FAQ](https://www.tg4.ie/en/information/faq/) (checked 10 November 2026) · [Amazon Fire TV device specifications](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 6 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

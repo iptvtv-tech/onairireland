@@ -2,6 +2,8 @@
 title: "TG4 Player: Watch TG4 Live and On Demand for Free"
 excerpt: "TG4 Player is free: watch TG4 live and catch up on Irish-language shows, GAA and documentaries on your phone, laptop or TV. What's on and how to start."
 description: "TG4 Player is free: watch TG4 live and catch up on Irish-language shows, GAA and documentaries on your phone, laptop or TV. What's on and how to start."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -21,54 +23,56 @@ affiliate_links: true
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## What Is TG4 Player?
+TG4 Player is TG4's own free streaming service. You can watch the TG4 channel live and catch up on programmes you missed, in a browser or in the TG4 Player app. There's no subscription. Everything below comes from TG4's own help and press pages.
 
-TG4 Player is the official streaming service from TG4, Ireland's Irish-language public service broadcaster. It's free to use and doesn't require a subscription or login for most content, making it one of the easiest legal ways to watch Irish-language television from anywhere in the world with an internet connection.
+## TG4 Player at a glance
 
-You can access TG4 Player through a web browser on TG4's own website, and there are also dedicated apps available for mobile devices and smart TV platforms. If you're planning to watch on a particular device, it's worth checking the relevant app store first, as availability can vary and menu names or app features may have changed since this was written.
+- **Cost:** free. The iPhone, iPad and Android apps are free to download. Some programmes have short ads before each part.
+- **Live:** TG4 Beo, the live stream of the channel, where TG4 has the rights. TG4 sometimes runs a second live stream for special events.
+- **Catch-up:** Irish-language programmes stay for 35 days after they're shown, rights permitting. Most are up straight after broadcast; some take until the next afternoon.
+- **Where:** most programmes can be watched worldwide. Some are limited to the island of Ireland.
+- **Children:** Cúla4 programmes have their own section and a kids-only player.
 
-## Live Streaming
+## What you can watch
 
-TG4 Player carries a live simulcast of the TG4 channel, so you can watch whatever is being broadcast in real time, just as you would on a television set with an aerial or a saorview box. This is particularly handy for anyone outside Ireland, or anyone who doesn't have a television nearby but still wants to keep up with programming as it airs.
+TG4's schedule is mostly Irish-language drama, documentaries, music, current affairs and children's programmes, with English subtitles on many shows. The Player also has a **Collections** section of older and themed programmes. For some picks, see our [hidden gems on TG4 Player](/watch-guides/5-hidden-gems-on-tg4-player/).
 
-The live stream is generally available at no cost, though as with any streaming service, you'll need a reasonably stable internet connection to avoid buffering, especially for sports coverage where you don't want to miss key moments.
+### Sport
 
-## Catch-Up and On-Demand Content
+TG4 is the sponsor and broadcaster of the All-Ireland Ladies Football Championships under a five-year deal announced in May 2026, running to the end of the 2032 season. TG4 says coverage runs across the TG4 channel, TG4 Player, the TG4 app and the Spórt TG4 YouTube channel, and some games are shown only on YouTube. Which other GAA games TG4 shows changes from year to year, so check [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/) for the current season.
 
-Beyond the live stream, TG4 Player offers a substantial catch-up library. Recent episodes of TG4 shows are typically made available shortly after broadcast, and many programmes stay up for a number of weeks. Exact retention periods can vary by series and by rights agreements, so if you're hoping to watch something in particular, it's best to check sooner rather than later.
+## Watching from outside Ireland
 
-The catch-up service covers a wide range of genres: Irish-language drama, documentaries, current affairs, children's programming (including the well-known TG4 cúla4 output), music, and entertainment shows. For learners of Irish or families raising children through the language, this on-demand library is a genuinely useful resource, since it lets you dip in and out of programming at your own pace rather than being tied to a broadcast schedule.
+TG4 marks its listings so you know before you press play:
 
-## GAA Coverage
+- **[é]** means the programme can only be watched on the island of Ireland.
+- **?** means it isn't available to stream at all.
 
-One of TG4's most popular offerings is its GAA coverage, and this extends into TG4 Player as well. TG4 has long held broadcasting rights to a range of GAA fixtures, including club and inter-county games, and is particularly well known for its coverage of ladies' football and camogie.
+Everything else should be available worldwide. In the app, TG4 checks where you are using your phone's location, so turn on Location Services for the app. In a browser, it goes by your internet connection's address.
 
-Matches broadcast live on TG4 are generally available through TG4 Player at the same time, and many are also available to watch back afterwards. This makes it a valuable option for GAA fans who can't get to a television during a match, or who want to rewatch a game later. As with all sports rights, exactly which fixtures TG4 carries can change from season to season, so it's worth checking TG4's own schedule listings for confirmation of what's coming up rather than assuming coverage from previous years will repeat exactly.
+## Subtitles
 
-## Language and Subtitles
+Press **cc** in the player to turn optional subtitles on or off. TG4 offers Irish-language subtitles on some programmes as well. A few older programmes have subtitles burnt into the picture, and those can't be turned off.
 
-Programming on TG4 Player is primarily in Irish, though many shows include English subtitles, which can be toggled on or off depending on the programme. This makes the service accessible to viewers with varying levels of Irish, from fluent speakers to those just starting to learn. Not every programme necessarily has subtitles available, so this can vary title by title.
+## Devices
 
-## Getting Started
+- **Browser:** works on computers. TG4 says older browsers can have trouble with its site, so keep yours up to date.
+- **iPhone and iPad:** use the TG4 Player app; TG4 says the app is needed to watch there.
+- **Android:** the TG4 Player app on Google Play.
+- **TV:** TG4's help page isn't clear on smart TV apps. It lists them as "coming soon" in one place and says to search for TG4 in your TV's app store in another. Check your TV's store, or see [getting TG4 Player on your TV](/installation-guides/how-to-get-tg4-player-on-your-tv/) for other ways, such as casting from a phone.
 
-To use TG4 Player, you generally don't need to create an account for basic viewing, though this may differ slightly depending on whether you're using the website or an app version, and whether any account features have been introduced since this article was written. If you're accessing TG4 Player outside Ireland, it's worth noting that some content may be geo-restricted due to broadcasting rights agreements, meaning not everything available to viewers in Ireland will necessarily be available elsewhere.
+You don't need the Player to watch TG4 live on a TV: it's on Saorview channel 4, Sky 104 and Virgin Media 104 (602 for Cúla4). In Northern Ireland it's on Freeview 51, Sky 163 and Virgin Media 877.
 
-## Why It's Worth Knowing About
+TG4 streams at between 250 kbit/s and 1.2 Mbit/s, so almost any broadband connection is enough. If it buffers or won't load, see [TG4 Player not working](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/).
 
-For an Irish audience, TG4 Player is a straightforward, free, and entirely legal option for keeping up with Irish-language television and GAA action alike. It sits alongside other public and commercial streaming options in Ireland, but its combination of free access, strong sports coverage, and dedicated Irish-language content makes it a distinctive part of the country's broadcasting landscape.
+**Related guides:** [Virgin Media Play vs RTÉ Player](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [5 free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
-**Related guides:** [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [5 Hidden Gems on TG4 Player](/watch-guides/5-hidden-gems-on-tg4-player/)
+Sources: [TG4 frequently asked questions](https://www.tg4.ie/en/information/faq/) (updated by TG4 in May 2026) · [TG4 press release on the Ladies Football Championships deal](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/) (26 May 2026).
 
-{% include product-showcase.html category="Streaming Services" %}
+{% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

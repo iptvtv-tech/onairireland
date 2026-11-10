@@ -1,7 +1,7 @@
 ---
 title: Where to Watch Peaky Blinders Legally in Ireland
-excerpt: Peaky Blinders streams legally in Ireland on Netflix, with details on devices, apps, and how to check your account's regional catalogue.
-description: Peaky Blinders streams legally in Ireland on Netflix, with details on devices, apps, and how to check your account's regional catalogue.
+excerpt: "All six series of Peaky Blinders and the 2026 film The Immortal Man are on Netflix in Ireland. The sequel series will also stream on Netflix here."
+description: "All six series of Peaky Blinders and the 2026 film The Immortal Man are on Netflix in Ireland. The sequel series will also stream on Netflix here."
 categories:
 - Watch-Guides
 tags:
@@ -16,60 +16,59 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 faqs:
-- question: Is Peaky Blinders free to watch in Ireland?
-  answer: It's not free outright, but it's included with any standard Netflix subscription at no extra cost beyond your regular plan.
-- question: Do I need a special Netflix plan to watch Peaky Blinders?
-  answer: No, it's available on all current Netflix plans in Ireland, including the basic, standard, and premium tiers.
-- question: What should I do if Peaky Blinders isn't showing on my Netflix account?
-  answer: Check that your account's region is correctly set to Ireland under your billing settings, and if the issue persists, contact Netflix support directly for clarification.
-- question: Can I watch Peaky Blinders on a satellite TV box?
-  answer: Generally no, since satellite receivers are built for broadcast channels rather than streaming apps; you'll need a smart TV, streaming stick, or games console with the Netflix app installed instead.
+- question: Is the Peaky Blinders film on Netflix in Ireland?
+  answer: Yes. Peaky Blinders The Immortal Man has been streaming on Netflix since 20 March 2026, and Netflix's Irish site lists it alongside the series.
+- question: Can I watch Peaky Blinders on BBC iPlayer in Ireland?
+  answer: No. BBC iPlayer only works in the UK. In Ireland, Netflix is where to stream the series and the film.
+- question: When is the Peaky Blinders sequel series out?
+  answer: Netflix hasn't given a date. In June 2026 it said filming was under way in Birmingham, and that the series will stream on Netflix outside the UK, which includes Ireland.
+- question: Do I need a particular Netflix plan?
+  answer: No. Peaky Blinders and The Immortal Man are included on every Netflix plan in Ireland, with nothing extra to buy.
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-Peaky Blinders is available to stream legally in Ireland on Netflix, where all six series currently sit in the platform's Irish catalogue. If you've got an active Netflix subscription, the Shelby family saga is ready to watch without needing any other service.
+Peaky Blinders is on Netflix in Ireland: all six series, plus the 2026 film *Peaky Blinders: The Immortal Man*. Any Netflix plan includes them, with nothing extra to pay.
 
-## Confirming Availability on Netflix
+## At a glance
 
-Netflix has held the rights to Peaky Blinders across most of its international markets for several years, and Ireland is included in that footprint. That said, streaming libraries can shift when licensing deals are renewed or renegotiated, so it's worth doing a quick search within the Netflix app or on netflix.com before you settle in for a binge. Typing "Peaky Blinders" into the in-app search bar will confirm in seconds whether all series are still live on your account.
+- **Series 1–6:** on Netflix Ireland ([Netflix title page](https://www.netflix.com/ie/title/80002479))
+- **The Immortal Man (film, 2026):** on Netflix since 20 March 2026, running 1 hour 54 minutes ([Netflix Tudum](https://www.netflix.com/tudum/articles/peaky-blinders-the-immortal-man-release-date-photos-news))
+- **Sequel series:** filming in 2026, no release date yet; it will stream on Netflix in Ireland
+- **BBC iPlayer:** not available in Ireland
 
-If for any reason the show doesn't appear, the most common explanation is a simple account or region mismatch rather than the title being pulled entirely. Check that your Netflix profile's country setting matches Ireland under Account > Membership & Billing, as a mismatched billing address or an account originally set up in another country can sometimes affect what's displayed. If it still doesn't show up, contacting Netflix support directly is the correct next step — they can confirm whether the title is temporarily unavailable in your region and when it might return.
+## The Immortal Man
 
-## What You'll Need
+Cillian Murphy returns as Tommy Shelby, with Rebecca Ferguson, Tim Roth, Sophie Rundle, Barry Keoghan and Stephen Graham in the cast, according to [Netflix](https://www.netflix.com/tudum/articles/peaky-blinders-the-immortal-man-release-date-photos-news). It's a Netflix film, so you stream it in the same app as the series.
 
-A standard or premium Netflix plan covers access to Peaky Blinders at no extra cost beyond your existing subscription. There's no need for any add-on package or separate purchase, which makes this one of the more straightforward watch guides going. Pricing tiers change from time to time, so it's best to check the current plans directly on Netflix's own pricing page rather than relying on older figures floating around online.
+## The sequel series
 
-## Devices and Apps That Work Best
+Netflix said in June 2026 that a sequel series is [filming in and around Birmingham](https://www.netflix.com/tudum/articles/peaky-blinders-sequel-series-plot-release-date-news). It's set in the early 1950s, after the events of the film, with two seasons of six episodes. Jamie Bell joins as Duke Shelby and Charlie Heaton as Tommy's son Charles. Netflix says it's made "for the BBC in the UK and Netflix in the rest of the world", so Irish viewers will watch it on Netflix. No release date has been announced at the time of writing (November 2026).
 
-Netflix is about as widely supported as a streaming app gets, so most smart TVs, games consoles, and streaming devices sold in Ireland will have a dedicated app ready to install.
+## What Netflix costs
 
-If your television is older or doesn't have a reliable built-in app store, a dedicated streaming stick is often the simplest fix. The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} plugs into any HDMI port and gives you a fast, regularly updated Netflix app along with voice search, which is handy if you're jumping between series and want to pick up where you left off without much fuss. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another solid option, particularly if you prefer a simpler, less cluttered home screen that doesn't push its own content as heavily.
+{% assign nf = site.data.prices | where: "service", "Netflix" %}
+| Plan | Monthly |
+|---|---|
+{% for p in nf %}| {{ p.plan }} | {% include euro.html amount=p.monthly %} |
+{% endfor %}
 
-For anyone replacing a television outright rather than just adding a streaming device, a set like the {% include product-link.html id="smart_tvs_1" text="Xiaomi 32 Inch Smart TV" %} comes with Netflix pre-installed as part of its smart TV platform, which can save a step for smaller rooms or secondary televisions where you don't want extra boxes and cables.
+*Prices checked {{ nf[0].checked | date: "%-d %B %Y" }} on [Netflix's Irish plans page](https://help.netflix.com/en/node/24926). See the [streaming prices tracker](/streaming-prices/) for every service.*
 
-One thing worth noting: Netflix's app is not typically available through satellite receiver boxes, since those are generally built around broadcast television rather than internet streaming apps. If your main viewing setup is a satellite box, you'll likely still need a smart TV, streaming stick, or games console alongside it to bring in apps like Netflix.
+Netflix runs on almost every smart TV, streaming stick and games console sold in Ireland. Our [Netflix guide](/streaming-services/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for/) explains what each plan includes.
 
-## Keeping an Eye on Future Changes
+**Related guides:** [RTÉ Player vs BBC iPlayer in Ireland](/streaming-services/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland/) · [Netflix Ireland price changes for 2026](/news/netflix-ireland-price-changes-for-2026-what-you-need-to-know/)
 
-Streaming rights for established shows like Peaky Blinders can move between platforms when contracts come up for renewal, even years after a series has finished. There's no indication of an imminent change for Ireland, but it's sensible to check Netflix's own listings every so often if you're planning a full rewatch, rather than assuming availability will stay fixed indefinitely. Bookmarking the show's page within the app is a quick way to get a notification if it's ever removed or shuffled around.
-
-For now, though, Irish viewers with a Netflix subscription have the full run ready to go, no extra subscriptions, bundles, or separate purchases required.
-
-{% include product-showcase.html category="Watch Guides" %}
+Sources: [Netflix Ireland: Peaky Blinders](https://www.netflix.com/ie/title/80002479) (checked 10 November 2026) · [Netflix Tudum: The Immortal Man](https://www.netflix.com/tudum/articles/peaky-blinders-the-immortal-man-release-date-photos-news) (checked 10 November 2026) · [Netflix Tudum: sequel series](https://www.netflix.com/tudum/articles/peaky-blinders-sequel-series-plot-release-date-news) (checked 10 November 2026) · [Netflix Help: plans and pricing](https://help.netflix.com/en/node/24926) (price checked {{ nf[0].checked | date: "%-d %B %Y" }})
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}
