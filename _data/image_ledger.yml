@@ -3,22 +3,6 @@
 # here so nothing is reused. `retired` lists images removed from the old teaser
 # pool and why. Safe to read; edit by hand only to correct a mistake.
 cards:
-- id: card-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland
-  files:
-    hero: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero.webp
-    hero_small: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-teaser.webp
-    og: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-og.jpg
-  fingerprint: duo|m|Installation-Guides|guidebook,set-top-box,wall-mount
-  layout: duo-mirrored
-  palette: Installation-Guides
-  icons:
-  - guidebook
-  - wall-mount
-  - set-top-box
-  created: '2026-10-16'
-  used_in:
-  - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
 - id: card-where-to-watch-formula-1-legally-in-ireland
   files:
     hero: /assets/images/posts/where-to-watch-formula-1-legally-in-ireland-hero.webp
@@ -35,70 +19,6 @@ cards:
   created: '2026-10-16'
   used_in:
   - 2026-09-30-where-to-watch-formula-1-legally-in-ireland.md
-- id: card-rte-player-not-working-on-smart-tv-common-fixes
-  files:
-    hero: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.webp
-    hero_small: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero-800.webp
-    teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.webp
-    og: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
-  fingerprint: trio|s|Troubleshooting|smart-tv,smart-tv-2,wifi-extender
-  layout: trio
-  palette: Troubleshooting
-  icons:
-  - smart-tv
-  - wifi-extender
-  - smart-tv-2
-  created: '2026-10-16'
-  used_in:
-  - 2026-10-05-rte-player-not-working-on-smart-tv-common-fixes.md
-- id: card-where-to-watch-peaky-blinders-legally-in-ireland
-  files:
-    hero: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.webp
-    og: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-og.jpg
-  fingerprint: stagger|s|Watch-Guides|smart-tv,speaker,universal-remote
-  layout: stagger
-  palette: Watch-Guides
-  icons:
-  - smart-tv
-  - universal-remote
-  - speaker
-  created: '2026-10-16'
-  used_in:
-  - 2026-10-05-where-to-watch-peaky-blinders-legally-in-ireland.md
-- id: card-is-apple-tv-plus-available-in-ireland
-  files:
-    hero: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero.webp
-    hero_small: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.webp
-    og: /assets/images/posts/is-apple-tv-plus-available-in-ireland-og.jpg
-  fingerprint: wide|s|Streaming-Services|smart-tv,smart-tv-2,universal-remote
-  layout: wide
-  palette: Streaming-Services
-  icons:
-  - smart-tv
-  - universal-remote
-  - smart-tv-2
-  created: '2026-10-16'
-  used_in:
-  - 2026-10-09-is-apple-tv-plus-available-in-ireland.md
-- id: card-setting-up-sky-stream-on-a-new-smart-tv
-  files:
-    hero: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero.webp
-    hero_small: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero-800.webp
-    teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.webp
-    og: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-og.jpg
-  fingerprint: stagger|m|Installation-Guides|smart-tv,smart-tv-2,wall-mount
-  layout: stagger-mirrored
-  palette: Installation-Guides
-  icons:
-  - smart-tv
-  - wall-mount
-  - smart-tv-2
-  created: '2026-10-16'
-  used_in:
-  - 2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
 - id: card-where-to-watch-the-world-darts-championship-in-ireland
   files:
     hero: /assets/images/posts/where-to-watch-the-world-darts-championship-in-ireland-hero.webp
@@ -1770,6 +1690,96 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-25-eir-vision-raises-prices-for-2026.md
+- id: photo-rte-player-not-working-on-smart-tv-common-fixes
+  source: pexels
+  pexels_id: 5721899
+  pexels_url: https://www.pexels.com/photo/vintage-tv-set-on-floor-near-wall-5721899/
+  photographer: Anete Lusina
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Black and white of small black old fashioned television with reflection on screen placed on concrete floor near shabby wall
+  scene: tv-trouble
+  people: false
+  palette: Troubleshooting
+  files:
+    hero: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero.webp
+    hero_small: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-hero-800.webp
+    teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.webp
+    og: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
+  created: '2026-11-10'
+  used_in:
+  - 2026-10-05-rte-player-not-working-on-smart-tv-common-fixes.md
+- id: photo-where-to-watch-peaky-blinders-legally-in-ireland
+  source: pexels
+  pexels_id: 8933777
+  pexels_url: https://www.pexels.com/photo/couple-using-laptop-8933777/
+  photographer: SHVETS production
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A couple shares popcorn while watching something on a laptop, creating a cozy vibe.
+  scene: laptop-streaming
+  people: true
+  palette: Watch-Guides
+  files:
+    hero: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero.webp
+    hero_small: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.webp
+    og: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-og.jpg
+  created: '2026-11-10'
+  used_in:
+  - 2026-10-05-where-to-watch-peaky-blinders-legally-in-ireland.md
+- id: photo-is-apple-tv-plus-available-in-ireland
+  source: pexels
+  pexels_id: 14715808
+  pexels_url: https://www.pexels.com/photo/a-flat-screen-television-on-a-wooden-rack-near-the-table-with-plant-14715808/
+  photographer: Curtis Adams
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A stylish living room featuring a flat-screen TV and wooden furniture with a potted plant.
+  scene: viewing-room
+  people: false
+  palette: Streaming-Services
+  files:
+    hero: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero.webp
+    hero_small: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.webp
+    og: /assets/images/posts/is-apple-tv-plus-available-in-ireland-og.jpg
+  created: '2026-11-10'
+  used_in:
+  - 2026-10-09-is-apple-tv-plus-available-in-ireland.md
+- id: photo-setting-up-sky-stream-on-a-new-smart-tv
+  source: pexels
+  pexels_id: 4065705
+  pexels_url: https://www.pexels.com/photo/close-up-photo-of-laptop-s-usb-ports-4065705/
+  photographer: Castorly Stock
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: Detailed close-up of a laptop featuring backlit keyboard and various ports highlighting modern technology.
+  scene: cables-hdmi
+  people: false
+  palette: Installation-Guides
+  files:
+    hero: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero.webp
+    hero_small: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero-800.webp
+    teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.webp
+    og: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-og.jpg
+  created: '2026-11-10'
+  used_in:
+  - 2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
+- id: photo-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland
+  source: pexels
+  pexels_id: 32698507
+  pexels_url: https://www.pexels.com/photo/modern-wifi-6-router-on-wooden-desk-32698507/
+  photographer: Pascal 📷
+  licence: Pexels licence (free to use and modify; credit kept as a caption)
+  description: A sleek WiFi 6 router with antennas and cable on a wooden desk, perfect for modern home networks.
+  scene: router-network
+  people: false
+  palette: Installation-Guides
+  files:
+    hero: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero.webp
+    hero_small: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero-800.webp
+    teaser: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-teaser.webp
+    og: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-og.jpg
+  created: '2026-11-10'
+  used_in:
+  - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
   reason: third-party brand logos (Netflix, Disney+, HBO Max, Prime, Apple TV+) and cash
