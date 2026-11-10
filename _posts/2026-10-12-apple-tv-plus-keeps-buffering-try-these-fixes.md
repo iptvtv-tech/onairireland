@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-hero-800.webp
   teaser: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-teaser.webp
   og_image: /assets/images/posts/apple-tv-plus-keeps-buffering-try-these-fixes-og.jpg
+  caption: "Photo: [Pascal \U0001F4F7](https://www.pexels.com/photo/modern-wifi-6-router-on-wooden-desk-32698507/) on [Pexels](https://www.pexels.com)"
 seo:
   type: HowTo
 toc: true

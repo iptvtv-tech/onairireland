@@ -14,6 +14,7 @@ header:
   overlay_image_small: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero-800.webp
   teaser: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-teaser.webp
   og_image: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-og.jpg
+  caption: 'Photo: [Pixabay](https://www.pexels.com/photo/brown-fabric-sectional-sofa-275484/) on [Pexels](https://www.pexels.com)'
   image_description: "A living room TV showing a streaming app home screen"
 seo:
   type: Article

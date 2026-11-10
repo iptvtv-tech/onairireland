@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/is-apple-tv-plus-available-in-ireland-hero-800.webp
   teaser: /assets/images/posts/is-apple-tv-plus-available-in-ireland-teaser.webp
   og_image: /assets/images/posts/is-apple-tv-plus-available-in-ireland-og.jpg
+  caption: 'Photo: [Curtis Adams](https://www.pexels.com/photo/a-flat-screen-television-on-a-wooden-rack-near-the-table-with-plant-14715808/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-hero-800.webp
   teaser: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-teaser.webp
   og_image: /assets/images/posts/where-to-watch-peaky-blinders-legally-in-ireland-og.jpg
+  caption: 'Photo: [SHVETS production](https://www.pexels.com/photo/couple-using-laptop-8933777/) on [Pexels](https://www.pexels.com)'
 seo:
   type: Article
 toc: true

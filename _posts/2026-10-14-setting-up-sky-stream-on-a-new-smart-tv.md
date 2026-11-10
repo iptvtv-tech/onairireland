@@ -11,6 +11,7 @@ header:
   overlay_image_small: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-hero-800.webp
   teaser: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-teaser.webp
   og_image: /assets/images/posts/setting-up-sky-stream-on-a-new-smart-tv-og.jpg
+  caption: 'Photo: [Castorly Stock](https://www.pexels.com/photo/close-up-photo-of-laptop-s-usb-ports-4065705/) on [Pexels](https://www.pexels.com)'
 seo:
   type: HowTo
 toc: true
