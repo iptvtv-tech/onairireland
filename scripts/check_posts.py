@@ -151,6 +151,12 @@ for name in sorted(os.listdir(POSTS)):
     if re.search(r"/assets/images/(headers|teasers)/", hero):
         legacy_images += 1
 
+# Inline includes used inside table rows must not print a trailing newline.
+for inline in ("euro.html",):
+    path = os.path.join(ROOT, "_includes", inline)
+    if os.path.exists(path) and open(path, encoding="utf-8").read().endswith("\n"):
+        errors.append(f"_includes/{inline} ends with a newline, which breaks table rows that use it")
+
 for ident, users in sorted(image_users.items()):
     if len(users) > 1:
         errors.append(f"image used by {len(users)} posts ({', '.join(u[:10] for u in users)}): {ident}")

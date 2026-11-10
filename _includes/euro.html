@@ -1,6 +1,8 @@
 {%- comment -%}
   Prints a euro amount with two decimals: {% include euro.html amount=5 %} -> €5.00
   YAML turns 5.00 into 5.0, so this rebuilds the cents by hand.
+  This file must NOT end with a newline: the newline would be printed after
+  the amount and break any Markdown table row that has a column after it.
 {%- endcomment -%}
 {%- assign oai_cents = include.amount | times: 100 | round -%}
 {%- assign oai_euro = oai_cents | divided_by: 100 -%}
