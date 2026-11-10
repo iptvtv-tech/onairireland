@@ -293,8 +293,12 @@ def format_markdown(claims: list, pr_note: str = None) -> str:
     basis = "Checked against our facts file, our price tracker and the providers' own pages."
     note = f" {pr_note}" if pr_note else ""
     if not claims:
-        lines.append("> ⚠️ **No checkable claims came back.** Check every service, price, date and "
-                     "channel by hand.")
+        if pr_note:
+            # The draft run: two checks both found nothing specific to confirm.
+            lines.append(f"**No specific claims to check.**{note}")
+        else:
+            lines.append("> ⚠️ **No checkable claims came back.** Check every service, price, date and "
+                         "channel by hand.")
         return "\n".join(lines)
     if flagged:
         if pr_note is None:

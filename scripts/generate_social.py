@@ -19,30 +19,37 @@ MODEL = "claude-sonnet-5"
 # Internal helpers
 # ---------------------------------------------------------------------------
 
-def _call_claude(prompt: str, max_tokens: int = 600) -> str:
-    api_key = os.environ["ANTHROPIC_API_KEY"]
+def _request(prompt: str, max_tokens: int) -> dict:
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
-            "x-api-key": api_key,
+            "x-api-key": os.environ["ANTHROPIC_API_KEY"],
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
         },
-        json={
-            "model": MODEL,
-            # Room for any thinking the model does before it writes the copy.
-            "max_tokens": max(max_tokens, 2000),
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=120,
+        json={"model": MODEL, "max_tokens": max_tokens,
+              "messages": [{"role": "user", "content": prompt}]},
+        timeout=300,
     )
     if not resp.ok:
         print(f"Anthropic API error (social) {resp.status_code}: {resp.text}")
         resp.raise_for_status()
-    data = resp.json()
+    return resp.json()
+
+
+def _call_claude(prompt: str, max_tokens: int = 600) -> str:
+    # The model thinks before it writes and the thinking counts against
+    # max_tokens, so give it plenty of room (only what's used is billed). If it
+    # still runs out before any text, ask once more with double the room.
+    budget = max(max_tokens * 2, 8000)
+    data = _request(prompt, budget)
     # The reply can hold several blocks (e.g. a thinking block before the
     # text), so join every text block instead of assuming the first one.
     text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+    if not text and data.get("stop_reason") == "max_tokens":
+        print(f"Social draft used all {budget} tokens before writing; asking again with {budget * 2}.")
+        data = _request(prompt, budget * 2)
+        text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
     if not text:
         kinds = [b.get("type") for b in data.get("content", [])]
         raise RuntimeError(f"no text in reply (stop_reason={data.get('stop_reason')}, blocks={kinds})")

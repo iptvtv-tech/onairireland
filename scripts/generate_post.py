@@ -256,8 +256,15 @@ Requirements:
     return ask_writer(prompt)
 
 
-def ask_writer(prompt: str, max_tokens: int = 3500) -> str:
-    """One call to the writer model (no tools, no web access)."""
+# The writer thinks before it writes, and the thinking counts against
+# max_tokens. On 9 Nov a rewrite capped at 4,000 spent all of it thinking and
+# returned no text (stop_reason max_tokens), so every rewrite failed and the
+# topic was parked. The cap is a ceiling, not a cost: only what's used is billed.
+WRITER_MAX_TOKENS = 16000
+WRITER_RETRY_MAX_TOKENS = 24000
+
+
+def _writer_request(prompt: str, max_tokens: int) -> dict:
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
@@ -270,18 +277,31 @@ def ask_writer(prompt: str, max_tokens: int = 3500) -> str:
             "max_tokens": max_tokens,
             "messages": [{"role": "user", "content": prompt}],
         },
-        timeout=180,
+        timeout=600,
     )
     if not resp.ok:
         print(f"Anthropic API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
-    data = resp.json()
-    raw = "".join(block.get("text", "") for block in data.get("content", []))
+    return resp.json()
 
+
+def _reply_text(data: dict) -> str:
+    return "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+
+
+def ask_writer(prompt: str, max_tokens: int = WRITER_MAX_TOKENS) -> str:
+    """One call to the writer model (no tools, no web access). If the reply runs
+    out of room before any text, it's asked once more with a bigger allowance."""
+    data = _writer_request(prompt, max_tokens)
+    raw = _reply_text(data)
+    if not raw.strip() and data.get("stop_reason") == "max_tokens":
+        bigger = max(max_tokens, WRITER_RETRY_MAX_TOKENS)
+        print(f"Writer used all {max_tokens} tokens before writing; asking again with {bigger}.")
+        data = _writer_request(prompt, bigger)
+        raw = _reply_text(data)
     if not raw.strip():
-        print("Anthropic response had no usable text content. Full response was:")
-        print(data)
-
+        kinds = [b.get("type") for b in data.get("content", [])]
+        print(f"Writer reply had no text (stop_reason={data.get('stop_reason')}, blocks={kinds}).")
     return raw
 
 
@@ -387,7 +407,7 @@ def revise_draft(title: str, summary: str, body: str, faqs: list, flagged: list,
     for key, value in parts.items():
         prompt = prompt.replace(key, value)
 
-    raw = ask_writer(prompt, max_tokens=4000).strip()
+    raw = ask_writer(prompt).strip()
     new_summary = summary
     if raw.startswith("SUMMARY:"):
         first_line, _, raw = raw.partition("\n")
@@ -502,10 +522,10 @@ they are well established -- a human will check each topic before drafting.
         },
         json={
             "model": "claude-sonnet-5",
-            "max_tokens": 4000,
+            "max_tokens": WRITER_MAX_TOKENS,
             "messages": [{"role": "user", "content": prompt}],
         },
-        timeout=120,
+        timeout=600,
     )
     if not resp.ok:
         print(f"Anthropic API error generating new topics {resp.status_code}: {resp.text}")
@@ -597,19 +617,28 @@ def undo_files_since(snapshot) -> None:
 
 
 def run_check(post_text: str, social: dict) -> dict:
-    """One claims check, tried twice. Raises FactCheckUnavailable if both fail,
-    so the run stops without a PR and the topic stays first in the queue."""
+    """One claims check, tried twice. Raises FactCheckUnavailable if both attempts
+    fail (API error or no readable claims list), so the run stops without a PR
+    and the topic stays first in the queue. A readable but empty list on both
+    attempts means the checker ran and found nothing specific to check; that's
+    returned as a result with no claims, not treated as an outage (9 Nov: the
+    mesh Wi-Fi draft lost its one claim in a rewrite and the run failed)."""
     from fact_check import check_post
     reason = ""
+    empty = 0
     for attempt in (1, 2):
         try:
             result = check_post(post_text, social, pr_note="")
             if result["claims"]:
                 return result
+            empty += 1
             reason = "no claims came back"
         except Exception as exc:
             reason = " ".join(str(exc).split())[:150]
         print(f"Fact check attempt {attempt} failed: {reason}")
+    if empty == 2:
+        print("Both checks ran and found no specific claims, so there's nothing to confirm.")
+        return result
     raise FactCheckUnavailable(reason)
 
 
@@ -838,9 +867,16 @@ def draft_topic(topic: dict) -> dict:
         flagged = [c for c in result["claims"] if c["status"] != "ok"]
         if not flagged:
             rewrites = check_no - 1
-            note = ("It passed the first check." if not rewrites else
-                    f"It passed on check {check_no}, after {rewrites} rewrite{'s' if rewrites > 1 else ''} "
-                    f"(the first check found {first['wrong']} wrong and {first['unconfirmed']} unconfirmed).")
+            if not result["claims"]:
+                note = ("It names no specific services, prices, dates, channels or device support, "
+                        "so the check had nothing to confirm"
+                        + (f" (after {rewrites} rewrite{'s' if rewrites > 1 else ''}; the first check found "
+                           f"{first['wrong']} wrong and {first['unconfirmed']} unconfirmed)" if rewrites else "")
+                        + ". Read it through to make sure it still says something useful.")
+            else:
+                note = ("It passed the first check." if not rewrites else
+                        f"It passed on check {check_no}, after {rewrites} rewrite{'s' if rewrites > 1 else ''} "
+                        f"(the first check found {first['wrong']} wrong and {first['unconfirmed']} unconfirmed).")
             return {"passed": True, "outputs": [
                 ("single", "post_path", filepath),
                 ("single", "post_title", title.replace("\n", " ")),
