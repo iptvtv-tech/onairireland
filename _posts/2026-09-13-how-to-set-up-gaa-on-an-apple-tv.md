@@ -36,7 +36,7 @@ faqs:
 
 ## Getting Started with GAA+ on Apple TV
 
-[GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) (previously known as GAAGO in some markets) is the official streaming service for Gaelic games not shown live on terrestrial television. For anyone with an Apple TV box sitting under the telly, getting GAA+ installed and running is a straightforward job that takes a few minutes. Below is a clear walkthrough to get you from a blank home screen to full-screen championship action.
+[GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) (which replaced GAAGO ahead of the 2025 championship) is the official streaming service for Gaelic games not shown live on terrestrial television. For anyone with an Apple TV box sitting under the telly, getting GAA+ installed and running is a straightforward job that takes a few minutes. Below is a clear walkthrough to get you from a blank home screen to full-screen championship action.
 
 ### What You'll Need
 
@@ -57,7 +57,7 @@ On that last point, if your Apple TV came with an older or budget cable, it's wo
 3. Locate the official GAA+ app in the results — the icon should feature GAA branding — and select **Get** or the cloud download icon to install it.
 4. Once installed, the app icon will appear on your Apple TV home screen. You may want to move it to a more convenient spot using the remote's touch surface.
 
-App names and store listings can shift over time, so if "GAA+" doesn't appear straight away, try searching "GAAGO" as a backup term, since some regions or older listings may still reference the previous name.
+If "GAA+" doesn't appear straight away, check that your Apple Account's App Store country is set to Ireland. GAAGO was a different service, which GAA+ replaced in 2025, so don't install an old GAAGO app if you come across one.
 
 ### Step 2: Sign In or Create an Account
 

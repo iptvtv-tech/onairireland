@@ -65,18 +65,40 @@ def _parse_block(text: str, open_tag: str, close_tag: str) -> str:
 
 
 def _link_post(text: str, post_url: str) -> str:
-    """Make sure the copy ends with the post's own link. If the model fell back
-    to the bare domain on the last line, swap it for the post link; if no link
-    is there at all, add it on its own line."""
+    """Make sure the copy ends with the post's own (tagged) link. If the model
+    wrote the bare domain or the post's address without its tags on the last
+    line, swap it for post_url; if no link is there at all, add it on its own
+    line."""
     if not text or post_url in text:
         return text
     lines = text.rstrip().split("\n")
-    bare = re.compile(r"(?:https?://)?(?:www\.)?onairireland\.ie/?(?=\s*$)")
-    if bare.search(lines[-1]):
-        lines[-1] = bare.sub(post_url, lines[-1])
+    base = post_url.split("?")[0]
+    base = re.sub(r"^https?://", "", base).rstrip("/")
+    untagged = re.compile(
+        r"(?:https?://)?(?:www\.)?(?:" + re.escape(base) + r"|onairireland\.ie)/?(?:\?\S*)?(?=\s*$)"
+    )
+    if untagged.search(lines[-1]):
+        lines[-1] = untagged.sub(lambda _m: post_url, lines[-1])
     else:
         lines.append(post_url)
     return "\n".join(lines)
+
+
+# Tags added to links in the social drafts, so visits from each channel show
+# up in GoatCounter (Referrers shows the source, Campaigns the campaign) and in
+# GA4. GoatCounter counts the page under its canonical address, so the tags
+# don't split a page's numbers.
+TRACKING = {
+    "x": "utm_source=x&utm_campaign=social",
+    "whatsapp": "utm_source=whatsapp&utm_campaign=channel",
+}
+SPORT_URL = "onairireland.ie/sport-on-tv/"
+
+
+def tag_url(url: str, channel: str) -> str:
+    """Add the channel's tracking tags to an onairireland.ie link."""
+    query = TRACKING[channel]
+    return f"{url}{'&' if '?' in url else '?'}{query}"
 
 
 def write_multiline_output(gh_out_path: str, key: str, value: str) -> None:
@@ -112,6 +134,8 @@ def generate_post_social(
       youtube_script — full spoken script (only if video_angle is set)
     """
     pillar_line = f"Content pillar: {pillar}" if pillar else ""
+    x_url = tag_url(post_url, "x")
+    wa_url = tag_url(post_url, "whatsapp")
 
     whatsapp_section = ""
     if want_whatsapp:
@@ -126,7 +150,7 @@ def generate_post_social(
      💡 tips or how-to guides
      📱 device content
    Then 1-3 short factual lines.
-   Final line: Full guide → """ + post_url + """
+   Final line: Full guide → """ + wa_url + """
    No extra emojis beyond the first line.
    <whatsapp>...</whatsapp>"""
 
@@ -188,16 +212,16 @@ Write each section exactly as labelled:
 1. X POST between <xpost> and </xpost>:
    One tweet, under 280 characters total (X counts the link as 23 characters).
    Factual, no fluff, no hashtags.
-   Must end with the post's link: {post_url}
+   Must end with the post's link, exactly as written here: {x_url}
    <xpost>...</xpost>{whatsapp_section}{youtube_section}"""
 
     raw = _call_claude(prompt, max_tokens)
 
     result = {
-        "x_post": _link_post(_parse_block(raw, "<xpost>", "</xpost>"), post_url),
+        "x_post": _link_post(_parse_block(raw, "<xpost>", "</xpost>"), x_url),
     }
     if want_whatsapp:
-        result["whatsapp_msg"] = _link_post(_parse_block(raw, "<whatsapp>", "</whatsapp>"), post_url)
+        result["whatsapp_msg"] = _link_post(_parse_block(raw, "<whatsapp>", "</whatsapp>"), wa_url)
     if video_angle:
         result["youtube_script"] = _parse_block(raw, "<youtube>", "</youtube>")
 
@@ -253,7 +277,7 @@ def build_matchday_alert(event: dict) -> dict:
         f"🔴 *TODAY: {event['event']}*\n"
         f"⏰ {_irish_time(event['time'])} | 📺 {event['watch']}\n"
         f"{access}\n\n"
-        f"This week's full list → onairireland.ie/sport-on-tv/"
+        f"This week's full list → {tag_url(SPORT_URL, 'whatsapp')}"
     )
     return {"matchday_msg": msg, "matchday_day": f"{d:%A} {d.day} {d:%b}"}
 
@@ -286,7 +310,7 @@ Write:
 
 1. X POST between <xpost> and </xpost>:
    One tweet, under 280 characters. Highlight the 2-3 biggest events.
-   End with: onairireland.ie/sport-on-tv/
+   End with: {tag_url(SPORT_URL, "x")}
    <xpost>...</xpost>
 
 2. WHATSAPP between <whatsapp> and </whatsapp>:
@@ -294,7 +318,7 @@ Write:
    Line 1: 🏆 Sport on TV this week
    Then list the 5-7 biggest events, one per line:
      Event name — Channel — Date Time
-   Final line: Full listings → onairireland.ie/sport-on-tv/
+   Final line: Full listings → {tag_url(SPORT_URL, "whatsapp")}
    <whatsapp>...</whatsapp>
 
 3. MATCH-DAY PICK between <pick> and </pick>:
@@ -307,8 +331,9 @@ Write:
     raw = _call_claude(prompt, 600)
 
     result = {
-        "x_post": _parse_block(raw, "<xpost>", "</xpost>"),
-        "whatsapp_msg": _parse_block(raw, "<whatsapp>", "</whatsapp>"),
+        "x_post": _link_post(_parse_block(raw, "<xpost>", "</xpost>"), tag_url(SPORT_URL, "x")),
+        "whatsapp_msg": _link_post(_parse_block(raw, "<whatsapp>", "</whatsapp>"),
+                                   tag_url(SPORT_URL, "whatsapp")),
     }
 
     for key, val in result.items():

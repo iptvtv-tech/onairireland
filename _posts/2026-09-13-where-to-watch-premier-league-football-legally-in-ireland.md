@@ -2,8 +2,8 @@
 title: "Where to Watch Premier League Football in Ireland 2026/27"
 excerpt: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
 description: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
-last_updated: 2026-10-07
-last_checked: 2026-10-07
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Sports-Streaming
 tags:
@@ -50,6 +50,41 @@ Exact fixture allocations change from season to season based on rights negotiati
 
 **Virgin Media Television** (the free-to-air channels) does not hold Premier League rights in Ireland.
 
+### Christmas and New Year games on TV
+
+The Premier League announced its festive fixtures and TV picks on 19 October. These are the games it lists for Sky Sports and TNT Sports in the UK from St Stephen's Day to 3 January (Irish time is the same as UK time):
+
+| Date | Kick-off | Match | UK channel |
+|---|---|---|---|
+| Sat 26 Dec | 12.30pm | Aston Villa v Leeds | TNT Sports |
+| Sat 26 Dec | 5.30pm | Hull v Liverpool | Sky Sports |
+| Sat 26 Dec | 8pm | Newcastle v Man City | Sky Sports |
+| Sun 27 Dec | 2pm | Coventry v Chelsea | Sky Sports |
+| Sun 27 Dec | 4.30pm | Man Utd v Nott'm Forest | Sky Sports |
+| Sun 27 Dec | 7pm | Crystal Palace v Arsenal | Sky Sports |
+| Tue 29 Dec | 7.30pm | Hull v Leeds | Sky Sports |
+| Tue 29 Dec | 7.30pm | Spurs v Brighton | Sky Sports |
+| Tue 29 Dec | 8.15pm | Everton v Man City | Sky Sports |
+| Wed 30 Dec | 7.30pm | Coventry v Brentford, Crystal Palace v Bournemouth, Fulham v Arsenal, Man Utd v Sunderland, Newcastle v Nott'm Forest | Sky Sports |
+| Wed 30 Dec | 8.15pm | Aston Villa v Liverpool, Ipswich v Chelsea | Sky Sports |
+| Fri 1 Jan | 8pm | Leeds v Everton | Sky Sports |
+| Sat 2 Jan | 12.30pm | Brighton v Man Utd | TNT Sports |
+| Sat 2 Jan | 5.30pm | Bournemouth v Aston Villa | Sky Sports |
+| Sun 3 Jan | 2pm | Chelsea v Newcastle | Sky Sports |
+| Sun 3 Jan | 4.30pm | Man City v Spurs | Sky Sports |
+
+Both Saturdays (26 December and 2 January) also have 3pm kick-offs. Premier Sports shows one of each Saturday's games live in Ireland, but it hadn't named its picks for those two days when we checked.
+
+The Premier League's announcement lists the UK channels. Sky Sports and TNT Sports are the Premier League's broadcasters in Ireland too, but none of the official pages we checked says Irish viewers get exactly the same games. Times can also change. So check before kick-off:
+
+- **Sky Sports:** [Sky's TV guide](https://www.sky.com/tv-guide), with the country set to Republic of Ireland, or the guide on your Sky box.
+- **TNT Sports and Premier Sports:** the guide on your Sky, Virgin Media or Vodafone TV box, or the TNT Sports app. [Premier Sports Ireland](https://premiersportsireland.com/uk-football) sets out its Saturday game.
+- **NOW:** the [Sports and Sports Extra memberships](https://www.nowtv.com/ie/membership/sports) show which channels each one includes; the NOW app lists what's on.
+- **The Premier League:** its [Watch Live page](https://www.premierleague.com/en/watch-live) shows TV schedules for your location.
+- **Our weekly list:** [sport on TV this week](/sport-on-tv/) is updated every Thursday with the week's big games and where to watch them in Ireland.
+
+Source: [Premier League festive fixtures](https://www.premierleague.com/en/news/4713230/seven-boxing-day-matches-confirmed-as-festive-fixtures-are-released/).
+
 ### Streaming Without a Traditional Contract
 
 If you don't want a long-term contract, [NOW](https://www.nowtv.com/ie/membership/sports) streams all three broadcasters in Ireland:
@@ -58,9 +93,11 @@ If you don't want a long-term contract, [NOW](https://www.nowtv.com/ie/membershi
 - **TNT Sports** and **Premier Sports** are in NOW's Sports Extra membership (€33.99 a month, or a €14.99 day pass). TNT Sports isn't on discovery+ in Ireland.
 - Both together cost €27 a month on NOW's 12-month Sports Saver offer.
 
+To compare these with every other service, see our [streaming prices tracker](/streaming-prices/), or add up a full setup with the [cost calculator](/streaming-cost-calculator/).
+
 You can also get all three channels through Sky, Virgin Media or Vodafone TV packages.
 
-Prices were checked in October 2026 and do shift fairly often, so I'd recommend checking the current offer directly on each provider's website before signing up, rather than relying on older screenshots or forum posts you might find elsewhere.
+Prices were checked in October 2026 and do shift fairly often, so check the current offer directly on each provider's website before signing up, rather than relying on older screenshots or forum posts you might find elsewhere.
 
 ### Getting Your Home Setup Right
 

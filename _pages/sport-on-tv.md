@@ -20,6 +20,8 @@ header:
 
 <p class="sport-week__legend"><span class="sport-week__free">FREE</span> = on a free-to-air channel or free app (RTÉ, Virgin Media, TG4)</p>
 
+<p class="sport-week__ahead">Planning ahead? See the <a href="{% post_url 2026-09-13-where-to-watch-premier-league-football-legally-in-ireland %}#christmas-and-new-year-games-on-tv">Premier League's Christmas and New Year TV games</a>, the <a href="{% post_url 2026-10-21-where-to-watch-the-world-darts-championship-in-ireland %}">World Darts Championship</a> and our <a href="/gaa/">GAA guide</a>.</p>
+
 {% assign days = wk.events | group_by_exp: "e", "e.date | date: '%Y-%m-%d'" %}
 {% for day in days %}
 <h2 class="sport-week__day">{{ day.items[0].date | date: "%A %-d %B" }}</h2>
@@ -47,7 +49,9 @@ Schedules change, especially for GAA and when broadcasters swap games at short n
 - [GAA: every championship game and where it's shown](/gaa/)
 - [Premier League football in Ireland]({% post_url 2026-09-13-where-to-watch-premier-league-football-legally-in-ireland %})
 - [Champions League]({% post_url 2026-09-15-where-to-watch-the-uefa-champions-league-legally-in-ireland %})
+- [Rugby: every competition and where it's shown](/rugby/)
 - [United Rugby Championship]({% post_url 2026-09-16-where-to-watch-the-united-rugby-championship-legally-in-ireland %}) and [Six Nations]({% post_url 2026-09-11-how-to-watch-six-nations-rugby-legally-in-ireland %})
+- [World Darts Championship]({% post_url 2026-10-21-where-to-watch-the-world-darts-championship-in-ireland %})
 - [All sports streaming guides](/sports-streaming/)
 
 {% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}

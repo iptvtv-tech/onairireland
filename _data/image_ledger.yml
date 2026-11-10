@@ -307,6 +307,22 @@ cards:
   created: '2026-11-10'
   used_in:
   - 2026-11-10-tv-packages-in-ireland-compared-sky-virgin-media-eir-and-vodafone.md
+- id: card-tg4-player-not-working-fixes-and-where-to-get-help
+  files:
+    hero: /assets/images/posts/tg4-player-not-working-fixes-and-where-to-get-help-hero.webp
+    teaser: /assets/images/posts/tg4-player-not-working-fixes-and-where-to-get-help-teaser.webp
+    og: /assets/images/posts/tg4-player-not-working-fixes-and-where-to-get-help-og.jpg
+    hero_small: /assets/images/posts/tg4-player-not-working-fixes-and-where-to-get-help-hero-800.webp
+  fingerprint: feature|m|Troubleshooting|ethernet-cable,smart-tv,wifi-extender
+  layout: feature-mirrored
+  palette: Troubleshooting
+  icons:
+  - smart-tv
+  - ethernet-cable
+  - wifi-extender
+  created: '2026-11-10'
+  used_in:
+  - 2026-11-10-tg4-player-not-working-fixes-and-where-to-get-help.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels

@@ -82,6 +82,8 @@ If you're connecting a streaming box or games console to your TV for the first t
 
 {% include product-showcase.html category="Installation Guides" %}
 
+If TG4 Player is installed but won't play, see [TG4 Player not working: fixes and where to get help](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/).
+
 {% include faq-section.html %}
 
 {% include related-posts.html %}

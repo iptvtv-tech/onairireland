@@ -66,7 +66,7 @@ If your household juggles a games console, a streaming stick, and the TV's own i
 
 Small adjustments like these won't change what's available to stream, but they can make the experience considerably smoother — and most of them take less than a minute to set up once you know where to look.
 
-**Related guides:** [Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/) · [5 Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
+**Related guides:** [Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/) · [Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

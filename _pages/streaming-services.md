@@ -12,3 +12,5 @@ header:
   og_image: /assets/images/social-home.jpg
   image_description: "A living room TV showing a streaming app home screen"
 ---
+
+**Start here:** our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/), every service's current Irish price on the [streaming prices tracker](/streaming-prices/), and the [cost calculator](/streaming-cost-calculator/) to add up your setup.
