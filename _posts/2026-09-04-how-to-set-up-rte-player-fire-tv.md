@@ -50,7 +50,7 @@ RTÉ Player is one of the first apps most Irish households want on a new Fire TV
 
 ## What you need
 
-- A Fire TV Stick or Fire TV smart TV, set up and connected to your Wi-Fi. If you're still shopping, see our [budget streaming sticks guide](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) or the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %}.
+- A Fire TV Stick or Fire TV smart TV, set up and connected to your Wi-Fi. If you're still shopping, see our [streaming devices guide](/devices/best-streaming-devices-ireland/) or the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %}.
 - An Amazon account signed in on the device, ideally with its country set to Ireland so you see the Irish app selection.
 - An RTÉ account, or an email address to create one during setup.
 - A steady broadband connection. RTÉ Player streams everything, so it won't work offline.
@@ -97,7 +97,7 @@ Some programmes, especially sport, are licensed for viewers in Ireland only. The
 - **Buffering or blurry picture:** usually a Wi-Fi issue rather than RTÉ Player. Move the router closer if you can, reduce the number of devices streaming at once, or use a wired connection with an {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %}. If the stick sits behind the TV, an {% include product-link.html id="hdmi-extender-adapter" text="HDMI extender" %} can move it clear of the set and improve reception.
 - **App freezes or won't open:** find RTÉ Player in the **Applications** section of **Settings**, where you can force stop it or clear its cache. If that doesn't help, uninstall and reinstall the app. You'll need to sign in again afterwards.
 
-For more help, see our guide to [RTÉ Player problems and where to get help](/troubleshooting/rte-player-not-working-common-problems-and-where-to-get-help/), and if you're using RTÉ Player on a TV's own apps rather than a Fire TV, our [RTÉ Player smart TV fixes](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/). If nothing works, use the help and contact options in the RTÉ Player app or on the RTÉ Player website.
+For more help, see our [RTÉ Player fixes](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/), which cover Fire TV, smart TVs, phones and tablets. If nothing works, use the help and contact options in the RTÉ Player app or on the RTÉ Player website.
 
 {% include product-showcase.html category="Installation Guides" title="Helpful Extras" %}
 

@@ -1,5 +1,7 @@
 ---
 title: "Roku in Ireland: Is It Worth Buying, and Does It Have RTÉ Player?"
+redirect_from:
+  - /devices/roku-vs-fire-tv-stick-which-should-you-buy/
 excerpt: "Roku is sold in Ireland and has RTÉ Player and Virgin Media Play. Which Irish apps it runs, how to set it up, and how it compares with Fire TV."
 description: "Roku is sold in Ireland and has RTÉ Player and Virgin Media Play. Which Irish apps it runs, how to set it up, and how it compares with Fire TV."
 categories:
@@ -70,7 +72,7 @@ The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV 
 - **Fire TV** suits homes that already use Alexa. Amazon's newest Fire TV sticks run its Vega OS, which has fewer apps than older Fire TV models, so check the listing says which system it runs and that your apps are available.
 - **Google TV Streamer** suits Android households and has a built-in Ethernet port for a wired connection.
 
-For a side-by-side look, see [Roku vs Fire TV Stick: Which Should You Buy?](/devices/roku-vs-fire-tv-stick-which-should-you-buy/) and our [best streaming devices guide](/devices/best-streaming-devices-ireland/).
+For a side-by-side look, see our [best streaming devices guide](/devices/best-streaming-devices-ireland/).
 
 ## Price
 

@@ -78,7 +78,7 @@ Sometimes what looks like a streaming problem is actually a broadband or recepti
 
 ### The Bottom Line
 
-Peacock isn't in Ireland yet, and there's no official word on when, or if, that will change. For now, Irish viewers are better served checking Sky, NOW, RTÉ Player, [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), and other licensed services for the shows they're after, rather than waiting on a launch date that hasn't been set.
+Peacock isn't in Ireland yet, and there's no official word on when, or if, that will change. For now, Irish viewers are better served checking Sky, NOW, RTÉ Player, [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), and other licensed services for the shows they're after, rather than waiting on a launch date that hasn't been set.
 
 {% include product-showcase.html category="News" %}
 

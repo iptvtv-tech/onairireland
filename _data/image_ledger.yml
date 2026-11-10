@@ -3,22 +3,6 @@
 # here so nothing is reused. `retired` lists images removed from the old teaser
 # pool and why. Safe to read; edit by hand only to correct a mistake.
 cards:
-- id: card-fire-tv-stick-4k-two-years-on-still-worth-it
-  files:
-    hero: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero.webp
-    hero_small: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-hero-800.webp
-    teaser: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-teaser.webp
-    og: /assets/images/posts/fire-tv-stick-4k-two-years-on-still-worth-it-og.jpg
-  fingerprint: stagger|s|Reviews|soundbar,streaming-stick,streaming-stick-lite
-  layout: stagger
-  palette: Reviews
-  icons:
-  - streaming-stick
-  - soundbar
-  - streaming-stick-lite
-  created: '2026-10-16'
-  used_in:
-  - 2026-09-28-fire-tv-stick-4k-two-years-on-still-worth-it.md
 - id: card-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland
   files:
     hero: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero.webp
@@ -227,22 +211,6 @@ cards:
   created: '2026-11-02'
   used_in:
   - 2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
-- id: card-rte-player-not-working-common-problems-and-where-to-get-help
-  files:
-    hero: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-hero.webp
-    teaser: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-teaser.webp
-    og: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-og.jpg
-    hero_small: /assets/images/posts/rte-player-not-working-common-problems-and-where-to-get-help-hero-800.webp
-  fingerprint: trio|m|Troubleshooting|ethernet-cable,smart-tv,universal-remote
-  layout: trio-mirrored
-  palette: Troubleshooting
-  icons:
-  - smart-tv
-  - ethernet-cable
-  - universal-remote
-  created: '2026-11-04'
-  used_in:
-  - 2026-11-04-rte-player-not-working-common-problems-and-where-to-get-help.md
 - id: card-how-to-get-tg4-player-on-your-tv
   files:
     hero: /assets/images/posts/how-to-get-tg4-player-on-your-tv-hero.webp
@@ -666,42 +634,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-09-best-smart-tvs-streaming-apps-ireland.md
-- id: photo-rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy
-  source: pexels
-  pexels_id: 14715808
-  pexels_url: https://www.pexels.com/photo/a-flat-screen-television-on-a-wooden-rack-near-the-table-with-plant-14715808/
-  photographer: Curtis Adams
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A stylish living room featuring a flat-screen TV and wooden furniture with a potted plant.
-  scene: viewing-room
-  people: false
-  palette: News
-  files:
-    hero: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero.webp
-    hero_small: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-hero-800.webp
-    teaser: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-teaser.webp
-    og: /assets/images/posts/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-10-rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy.md
-- id: photo-virgin-media-play-what-s-new-in-the-redesigned-app
-  source: pexels
-  pexels_id: 8933777
-  pexels_url: https://www.pexels.com/photo/couple-using-laptop-8933777/
-  photographer: SHVETS production
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A couple shares popcorn while watching something on a laptop, creating a cozy vibe.
-  scene: laptop-streaming
-  people: true
-  palette: Streaming-Services
-  files:
-    hero: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero.webp
-    hero_small: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-teaser.webp
-    og: /assets/images/posts/virgin-media-play-what-s-new-in-the-redesigned-app-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-10-virgin-media-play-what-s-new-in-the-redesigned-app.md
 - id: photo-how-to-watch-six-nations-rugby-legally-in-ireland
   source: pexels
   pexels_id: 23495473
@@ -756,24 +688,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-11-rt-player-app-review-what-s-good-and-what-s-missing.md
-- id: photo-sky-sports-explained-more-live-streams-at-no-extra-cost
-  source: pexels
-  pexels_id: 275484
-  pexels_url: https://www.pexels.com/photo/brown-fabric-sectional-sofa-275484/
-  photographer: Pixabay
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Stylish modern living room featuring a brown sofa, wall-mounted TV, and interior decor.
-  scene: viewing-room
-  people: false
-  palette: Streaming-Services
-  files:
-    hero: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero.webp
-    hero_small: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-hero-800.webp
-    teaser: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-teaser.webp
-    og: /assets/images/posts/sky-sports-explained-more-live-streams-at-no-extra-cost-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-11-sky-sports-explained-more-live-streams-at-no-extra-cost.md
 - id: photo-tg4-player-what-you-get-for-free
   source: pexels
   pexels_id: 8089078
@@ -1008,24 +922,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-15-where-to-watch-the-uefa-champions-league-legally-in-ireland.md
-- id: photo-best-budget-streaming-sticks-for-irish-homes-in-2026
-  source: pexels
-  pexels_id: 5202924
-  pexels_url: https://www.pexels.com/photo/person-in-denim-shorts-holding-black-remote-control-5202924/
-  photographer: https://kaboompics.com/
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Hands holding a remote control, focusing on interaction with technology indoors.
-  scene: remote-closeup
-  people: false
-  palette: Devices
-  files:
-    hero: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero.webp
-    hero_small: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-hero-800.webp
-    teaser: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-teaser.webp
-    og: /assets/images/posts/best-budget-streaming-sticks-for-irish-homes-in-2026-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-16-best-budget-streaming-sticks-for-irish-homes-in-2026.md
 - id: photo-eir-vision-explained-is-bundling-tv-with-broadband-worth-it
   source: pexels
   pexels_id: 39769976
@@ -1224,24 +1120,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-17-where-to-watch-house-of-the-dragon-season-3-in-ireland.md
-- id: photo-why-does-now-keep-buffering-on-smart-tvs
-  source: pexels
-  pexels_id: 32698507
-  pexels_url: https://www.pexels.com/photo/modern-wifi-6-router-on-wooden-desk-32698507/
-  photographer: Pascal 📷
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A sleek WiFi 6 router with antennas and cable on a wooden desk, perfect for modern home networks.
-  scene: router-network
-  people: false
-  palette: Troubleshooting
-  files:
-    hero: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero.webp
-    hero_small: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-hero-800.webp
-    teaser: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-teaser.webp
-    og: /assets/images/posts/why-does-now-keep-buffering-on-smart-tvs-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-17-why-does-now-keep-buffering-on-smart-tvs.md
 - id: photo-how-to-watch-the-ryder-cup-legally-in-ireland
   source: pexels
   pexels_id: 4833646
@@ -1278,24 +1156,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-18-virgin-media-unveils-new-streaming-bundle-for-2026.md
-- id: photo-roku-vs-fire-tv-stick-which-should-you-buy
-  source: pexels
-  pexels_id: 4065705
-  pexels_url: https://www.pexels.com/photo/close-up-photo-of-laptop-s-usb-ports-4065705/
-  photographer: Castorly Stock
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Detailed close-up of a laptop featuring backlit keyboard and various ports highlighting modern technology.
-  scene: cables-hdmi
-  people: false
-  palette: Devices
-  files:
-    hero: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero.webp
-    hero_small: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-hero-800.webp
-    teaser: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-teaser.webp
-    og: /assets/images/posts/roku-vs-fire-tv-stick-which-should-you-buy-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-19-roku-vs-fire-tv-stick-which-should-you-buy.md
 - id: photo-5-netflix-features-irish-viewers-often-miss
   source: pexels
   pexels_id: 8972769
@@ -1422,24 +1282,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-20-is-prime-video-worth-it-just-for-sport.md
-- id: photo-netflix-keeps-freezing-try-these-fixes
-  source: pexels
-  pexels_id: 5721899
-  pexels_url: https://www.pexels.com/photo/vintage-tv-set-on-floor-near-wall-5721899/
-  photographer: Anete Lusina
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Black and white of small black old fashioned television with reflection on screen placed on concrete floor near shabby wall
-  scene: tv-trouble
-  people: false
-  palette: Troubleshooting
-  files:
-    hero: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero.webp
-    hero_small: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-hero-800.webp
-    teaser: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-teaser.webp
-    og: /assets/images/posts/netflix-keeps-freezing-try-these-fixes-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-20-netflix-keeps-freezing-try-these-fixes.md
 - id: photo-setting-up-eir-vision-on-a-new-smart-tv
   source: pexels
   pexels_id: 37717004
@@ -1602,24 +1444,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-21-disney-not-working-try-these-fixes.md
-- id: photo-fire-tv-stick-lite-vs-standard-which-should-you-buy
-  source: pexels
-  pexels_id: 14159466
-  pexels_url: https://www.pexels.com/photo/person-holding-a-remote-controller-14159466/
-  photographer: Geri Tech
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A hand holding a TV remote control with a blurred television screen in the background.
-  scene: remote-closeup
-  people: true
-  palette: Devices
-  files:
-    hero: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero.webp
-    hero_small: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-hero-800.webp
-    teaser: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-teaser.webp
-    og: /assets/images/posts/fire-tv-stick-lite-vs-standard-which-should-you-buy-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-21-fire-tv-stick-lite-vs-standard-which-should-you-buy.md
 - id: photo-is-hbo-max-coming-to-ireland
   source: pexels
   pexels_id: 17792277
@@ -1710,42 +1534,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-22-should-you-bother-with-youtube-premium-in-ireland.md
-- id: photo-top-3-cheap-streaming-sticks-in-ireland
-  source: pexels
-  pexels_id: 14770614
-  pexels_url: https://www.pexels.com/photo/tv-remote-controller-in-close-up-shot-14770614/
-  photographer: Geri Tech
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A detailed view of a TV remote control with a focus on the power button, placed on a glossy surface.
-  scene: remote-closeup
-  people: false
-  palette: Reviews
-  files:
-    hero: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero.webp
-    hero_small: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-teaser.webp
-    og: /assets/images/posts/top-3-cheap-streaming-sticks-in-ireland-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-22-top-3-cheap-streaming-sticks-in-ireland.md
-- id: photo-virgin-media-play-keeps-crashing
-  source: pexels
-  pexels_id: 18071864
-  pexels_url: https://www.pexels.com/photo/a-router-a-monitor-and-incense-sticks-18071864/
-  photographer: Jaycee300s
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: A sleek home technology setup featuring a router, glass decoration, and television.
-  scene: router-network
-  people: false
-  palette: Troubleshooting
-  files:
-    hero: /assets/images/posts/virgin-media-play-keeps-crashing-hero.webp
-    hero_small: /assets/images/posts/virgin-media-play-keeps-crashing-hero-800.webp
-    teaser: /assets/images/posts/virgin-media-play-keeps-crashing-teaser.webp
-    og: /assets/images/posts/virgin-media-play-keeps-crashing-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-22-virgin-media-play-keeps-crashing.md
 - id: photo-where-to-stream-tv-show-emerdale
   source: pexels
   pexels_id: 27086463

@@ -18,7 +18,7 @@ header:
 
 Amazon's Fire TV Sticks are the most popular way to add streaming apps to an older TV in Ireland. Virgin Media Play, TG4 Player, NOW and GAA+ all have Fire TV apps. The newest models running Amazon's Vega OS (the 2026 Fire TV Stick HD and the new Fire TV Stick 4K) have fewer apps, so check before you buy.
 
-Which one? The Fire TV Stick HD suits most HD TVs (the Lite has been discontinued); the Fire TV Stick 4K Max is the one to get for a 4K TV. Compare them in [Fire TV Stick Lite vs Standard]({% post_url 2026-09-21-fire-tv-stick-lite-vs-standard-which-should-you-buy %}) and [Fire TV Stick 4K Max: worth the upgrade?]({% post_url 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade %}).
+Which one? The Fire TV Stick HD suits most HD TVs (the Lite has been discontinued); the Fire TV Stick 4K Max is the one to get for a 4K TV. Compare them in our [best streaming devices guide]({% post_url 2026-09-04-best-streaming-devices-ireland %}) and [Fire TV Stick 4K Max: worth the upgrade?]({% post_url 2026-09-17-fire-tv-stick-4k-max-worth-the-upgrade %}).
 
 If live sport buffers, the most reliable fix is a wired connection with an Ethernet adapter. See [why is my streaming app buffering?]({% post_url 2026-09-11-why-is-my-streaming-app-buffering-common-fixes %})
 

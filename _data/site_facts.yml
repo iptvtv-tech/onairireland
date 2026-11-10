@@ -3,7 +3,7 @@
 # streaming devices.
 #
 # Used by:
-#   scripts/generate_post.py  The Mon/Wed/Fri draft writer may only say who
+#   scripts/generate_post.py  The weekly draft writer may only say who
 #                             shows a competition, or what a membership
 #                             includes, from this file. Prices come from
 #                             _data/prices.yml.

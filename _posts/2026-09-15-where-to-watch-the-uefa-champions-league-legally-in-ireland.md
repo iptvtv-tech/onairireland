@@ -75,7 +75,7 @@ Because these details shift regularly, treat any specific pricing or app names m
 
 ### Final Thought
 
-Watching the Champions League legally in Ireland usually comes down to a mix of free-to-air highlights and a subscription sports channel, accessed either through a traditional box or a streaming device like a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) or Roku. Taking a few minutes to confirm current rights holders and app availability before the season kicks off will save you from any last-minute scrambling on matchday.
+Watching the Champions League legally in Ireland usually comes down to a mix of free-to-air highlights and a subscription sports channel, accessed either through a traditional box or a streaming device like a [Fire TV Stick](/devices/best-streaming-devices-ireland/) or Roku. Taking a few minutes to confirm current rights holders and app availability before the season kicks off will save you from any last-minute scrambling on matchday.
 
 {% include product-showcase.html category="Sports Streaming" %}
 

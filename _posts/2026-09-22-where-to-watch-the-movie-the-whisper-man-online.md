@@ -1,5 +1,7 @@
 ---
 title: "Where to Watch the Movie The Whisper Man online"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "A practical Irish guide to finding The Whisper Man online legally, plus the streaming devices and apps that make watching it easiest."
 description: "A practical Irish guide to finding The Whisper Man online legally, plus the streaming devices and apps that make watching it easiest."
 categories:

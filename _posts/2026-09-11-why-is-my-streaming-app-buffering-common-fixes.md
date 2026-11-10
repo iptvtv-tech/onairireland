@@ -1,5 +1,9 @@
 ---
 title: "Why Is My Streaming App Buffering? Common Fixes"
+last_updated: 2026-11-10
+redirect_from:
+  - /troubleshooting/why-does-now-keep-buffering-on-smart-tvs/
+  - /troubleshooting/netflix-keeps-freezing-try-these-fixes/
 excerpt: "Fix buffering on Irish streaming apps: check broadband speed, Wi-Fi placement and wired connections, and spot when the service is at fault."
 description: "Fix buffering on Irish streaming apps: check broadband speed, Wi-Fi placement and wired connections, and spot when the service is at fault."
 categories:
@@ -73,11 +77,20 @@ A few things to check:
 
 If buffering only happens with a particular show or during peak evening hours across the country, that can point to server-side congestion on the provider's end rather than anything on your home network.
 
+### If it's only NOW or Netflix
+
+If one service buffers or freezes while the others play smoothly:
+
+- **Update or reinstall the app.** On Android TV, Google TV and Fire TV you can clear the app's cache first; reinstalling signs you out, so have your password to hand.
+- **Update the TV's own software.** Older smart TVs can struggle with newer app versions; if updates don't help, a streaming stick plugged into the TV usually runs the app better.
+- **Netflix: lower the picture quality.** In your Netflix account, each profile has a playback setting for data usage per screen. Setting it lower uses less broadband, which helps on a slow or busy connection.
+- **Watch for peak times.** If buffering only happens on busy evenings, try a wired connection or pause other streams in the house.
+
 ### A Simple Process of Elimination
 
 When troubleshooting, it helps to change one thing at a time. Test your speed, then try moving closer to the router, then try a wired connection, then try a different app. This step-by-step approach makes it much easier to pinpoint whether the fault lies with your broadband, your home Wi-Fi setup, or the streaming service itself, rather than guessing at fixes.
 
-**Related guides:** [Why Does NOW Keep Buffering on Smart TVs?](/troubleshooting/why-does-now-keep-buffering-on-smart-tvs/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
+**Related guides:** [RTÉ Player fixes](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
 
 {% include product-showcase.html category="Troubleshooting" %}
 

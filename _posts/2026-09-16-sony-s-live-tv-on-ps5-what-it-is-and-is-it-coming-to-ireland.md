@@ -44,7 +44,7 @@ The channel lineup reportedly spans news, sport, movies, comedy and lifestyle co
 
 ### Why This Matters for Console Owners
 
-PS5 has slowly become less of a "just for games" box and more of a genuine living room hub. Apps like this push it further into competition with dedicated streaming devices. If you're used to a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) or a Chromecast for your streaming needs, a built-in live TV option on a console you already own is a neat bit of added value — assuming it eventually lands where you live.
+PS5 has slowly become less of a "just for games" box and more of a genuine living room hub. Apps like this push it further into competition with dedicated streaming devices. If you're used to a [Fire TV Stick](/devices/best-streaming-devices-ireland/) or a Chromecast for your streaming needs, a built-in live TV option on a console you already own is a neat bit of added value — assuming it eventually lands where you live.
 
 It's also part of a broader trend of free ad-supported TV growing rapidly, as viewers look for live-style content without stacking up yet another paid subscription.
 

@@ -95,7 +95,7 @@ For streaming and playback problems, TG4's contact is **webmaster@tg4.ie**. Incl
 - the programme you tried to watch;
 - what happened, or the exact message on screen.
 
-**Other fixes:** [RTÉ Player not working](/troubleshooting/rte-player-not-working-common-problems-and-where-to-get-help/) · [Virgin Media Play keeps crashing](/troubleshooting/virgin-media-play-keeps-crashing/) · [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/)
+**Other fixes:** [RTÉ Player not working](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) · [Virgin Media Play not working](/troubleshooting/virgin-media-player-login-issues-explained/) · [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/)
 
 Source: [TG4's frequently asked questions](https://www.tg4.ie/en/information/faq/) (last updated by TG4 in May 2026).
 

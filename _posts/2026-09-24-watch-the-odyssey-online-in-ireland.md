@@ -1,5 +1,7 @@
 ---
 title: "Watch The Odyssey online in Ireland"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "How to find and stream The Odyssey legally in Ireland once it leaves cinemas, plus the devices and apps that make it easy."
 description: "How to find and stream The Odyssey legally in Ireland once it leaves cinemas, plus the devices and apps that make it easy."
 categories:

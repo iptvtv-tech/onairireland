@@ -27,13 +27,13 @@ affiliate_links: true
 
 *Update (September 2026): Google discontinued the Chromecast with Google TV in 2024 and replaced it with the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), a small set-top box that runs the same Google TV software. Everything below about Google TV applies to both; if you're buying new, look for the Google TV Streamer.*
 
-Streaming sticks have become the easiest way to get Irish and UK apps onto an older telly without buying a new smart TV. The two most popular options here have been Google's Chromecast with Google TV (now replaced by the Google TV Streamer) and Amazon's [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/). Both connect to an HDMI port, both run on Wi-Fi, and both promise "everything in one place." But for viewers in Ireland specifically, there are some real differences worth knowing before you buy.
+Streaming sticks have become the easiest way to get Irish and UK apps onto an older telly without buying a new smart TV. The two most popular options here have been Google's Chromecast with Google TV (now replaced by the Google TV Streamer) and Amazon's [Fire TV Stick](/devices/best-streaming-devices-ireland/). Both connect to an HDMI port, both run on Wi-Fi, and both promise "everything in one place." But for viewers in Ireland specifically, there are some real differences worth knowing before you buy.
 
 ### App Support: The Irish Essentials
 
 For most Irish households, the deciding factor isn't Netflix or Disney+ — both devices handle those fine. It's whether you can get [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Virgin Media Play, and your sports subscriptions working smoothly.
 
-RTÉ Player has apps for both platforms, and in general Irish viewers report few issues getting it running on either Chromecast with Google TV or Fire TV Stick. [Virgin Media Play's](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) availability can be a little patchier depending on the exact model and software version, so it's worth checking the current app store listing on each device before you commit, as availability and app names do shift over time.
+RTÉ Player has apps for both platforms, and in general Irish viewers report few issues getting it running on either Chromecast with Google TV or Fire TV Stick. [Virgin Media Play's](/streaming-services/is-virgin-media-play-free-in-ireland/) availability can be a little patchier depending on the exact model and software version, so it's worth checking the current app store listing on each device before you commit, as availability and app names do shift over time.
 
 If you pay for sports through services like Sky, Virgin Media, or an official streaming package, check the specific app's compatibility page rather than assuming — some apps favour one ecosystem over the other for certain features like multi-view or offline downloads, and this changes often enough that we won't guess at specifics here.
 

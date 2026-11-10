@@ -1,5 +1,7 @@
 ---
 title: "How to Watch TV Show Father Ted"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "A practical guide for Irish viewers on where to legally find Father Ted, plus the devices and apps that make streaming it easiest."
 description: "A practical guide for Irish viewers on where to legally find Father Ted, plus the devices and apps that make streaming it easiest."
 categories:

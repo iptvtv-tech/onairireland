@@ -72,7 +72,7 @@ Six-month intro offers often bring Entertainment down to €5.99. Irish and UK p
 - **Choose NOW if:** you only want sport for part of the year, or want to dip into Sky Cinema for a month and cancel — the lack of a contract is the whole point
 - **A practical middle ground:** some households use NOW's Sports memberships just for the Premier League season and skip Sky Stream entirely the rest of the year, since NOW never locks you into paying when you're not watching
 
-**Related guides:** [How to Fix Common Sky Stream Remote and Pairing Issues](/troubleshooting/how-to-fix-common-sky-stream-remote-and-pairing-issues/) · [Sky Sports+ Explained: More Live Streams at No Extra Cost](/streaming-services/sky-sports-explained-more-live-streams-at-no-extra-cost/)
+**Related guides:** [How to Fix Common Sky Stream Remote and Pairing Issues](/troubleshooting/how-to-fix-common-sky-stream-remote-and-pairing-issues/) · [Sky Sports vs Premier Sports: Which Do You Need?](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/)
 
 {% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
 {% include related-posts.html %}

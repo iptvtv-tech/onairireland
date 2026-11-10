@@ -1,5 +1,7 @@
 ---
 title: "Where to Watch the FIFA World Cup 2026 Legally in Ireland"
+noindex: true # event over / out of season; kept for links (10 Nov 2026)
+sitemap: false
 excerpt: "Spain won the 2026 World Cup, shown free on RTÉ in Ireland. How RTÉ covered it and where to watch Irish football legally now."
 description: "Spain won the 2026 World Cup, shown free on RTÉ in Ireland. How RTÉ covered it and where to watch Irish football legally now."
 last_updated: 2026-10-15

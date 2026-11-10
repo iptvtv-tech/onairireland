@@ -39,7 +39,7 @@ review_basis: research
 
 ## Google TV Streamer Review: Should You Switch From Fire TV?
 
-Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/), you might be wondering whether it's worth the switch. This review looks at it with the Irish apps in mind.
+Google quietly replaced its old Chromecast dongles with a proper set-top box called the Google TV Streamer. It's a bigger change than it sounds, and if you're an Irish household currently running a [Fire TV Stick](/devices/best-streaming-devices-ireland/), you might be wondering whether it's worth the switch. This review looks at it with the Irish apps in mind.
 
 ### What Is the Google TV Streamer?
 
@@ -57,7 +57,7 @@ One thing worth flagging: your Google Play Store region should match your actual
 
 Amazon's Fire TV Stick range is still the most common streaming device in Irish homes, largely because it's cheap, widely stocked, and dead simple to set up. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} in particular is a strong performer for the price, with quick app loading and support for all the major Irish streaming apps.
 
-The core difference is the operating system. Fire TV's interface leans heavily on promoting Amazon's own Prime Video content, while Google TV's homepage feels a little more neutral, pulling recommendations from whichever apps you actually use. Neither is objectively "better" for RTÉ Player or [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/), since both platforms support these apps fully.
+The core difference is the operating system. Fire TV's interface leans heavily on promoting Amazon's own Prime Video content, while Google TV's homepage feels a little more neutral, pulling recommendations from whichever apps you actually use. Neither is objectively "better" for RTÉ Player or [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), since both platforms support these apps fully.
 
 Remote controls are broadly similar too, both include voice search, a mic button, and shortcut buttons for a couple of big streaming names. If you already own a pile of Fire TV Sticks around the house, switching just one room to Google TV might feel like an unnecessary complication rather than an upgrade.
 

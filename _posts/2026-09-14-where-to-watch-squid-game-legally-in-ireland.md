@@ -1,5 +1,7 @@
 ---
 title: "Where to Watch Squid Game Legally in Ireland"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "Squid Game is a Netflix original, making Netflix the only legal way to watch all seasons in Ireland."
 description: "Squid Game is a Netflix original, making Netflix the only legal way to watch all seasons in Ireland."
 categories:

@@ -1,5 +1,7 @@
 ---
 title: Is Virgin Media Play Free in Ireland?
+redirect_from:
+  - /streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/
 excerpt: Virgin Media Play is free in Ireland, with free registration and content limited by broadcast rights and geography.
 description: Virgin Media Play is free in Ireland, with free registration and content limited by broadcast rights and geography.
 categories:

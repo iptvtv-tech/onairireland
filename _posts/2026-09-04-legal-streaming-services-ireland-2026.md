@@ -48,7 +48,7 @@ faqs:
 
 {% include quick-facts.html %}
 
-**The short answer:** most Irish households can cover everything they watch with the three free Irish apps ([RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) and TG4 Player) plus one or two paid services — usually Netflix, Disney+ or NOW. Live sport is where costs climb, so decide what sport you actually follow before you sign up for anything.
+**The short answer:** most Irish households can cover everything they watch with the three free Irish apps ([RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) and TG4 Player) plus one or two paid services — usually Netflix, Disney+ or NOW. Live sport is where costs climb, so decide what sport you actually follow before you sign up for anything.
 
 This guide covers every major licensed streaming service available in Ireland in 2026, what each costs, and who it suits. Prices were checked in October 2026; providers change them often, so always confirm on the provider's own site before paying.
 
@@ -129,7 +129,7 @@ Most smart TVs from the last few years already have RTÉ Player, Virgin Media Pl
 - **A new smart TV** — worth it if your current set is slow or no longer gets app updates. {% include product-link.html id="xiaomi-tv-f32" text="Check smart TV prices" %}
 - **A soundbar** — the single biggest upgrade for TV speakers. {% include product-link.html id="soundbar-budget" text="Check soundbar prices" %}
 
-See our [best streaming devices for Irish homes](/devices/best-streaming-devices-ireland/) and [best budget streaming sticks](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) for full comparisons.
+See our [best streaming devices for Irish homes](/devices/best-streaming-devices-ireland/) for a full comparison.
 
 ## How to choose
 

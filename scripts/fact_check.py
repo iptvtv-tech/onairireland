@@ -3,7 +3,7 @@
 Claims list for a draft post: every service, channel, price, date and rights
 claim in the article, its FAQ and its social drafts, each with a source or a flag.
 
-Runs inside scripts/generate_post.py. The Mon/Wed/Fri draft run checks the draft,
+Runs inside scripts/generate_post.py. The weekly draft run checks the draft,
 sends any flagged claims back to the writer and checks again, until a check
 flags nothing (or the topic is parked). A draft PR only opens with a clean list,
 which the PR shows at the top. This script never edits the draft itself.

@@ -1,5 +1,7 @@
 ---
 title: 'Sky Sports vs Premier Sports: Which Do You Need?'
+redirect_from:
+  - /streaming-services/sky-sports-explained-more-live-streams-at-no-extra-cost/
 excerpt: A clear comparison of Sky Sports and Premier Sports coverage to help Irish fans pick the right subscription for their favourite competitions.
 description: A clear comparison of Sky Sports and Premier Sports coverage to help Irish fans pick the right subscription for their favourite competitions.
 categories:

@@ -2,7 +2,8 @@
 title: Where to Watch Formula 1 Legally in Ireland
 excerpt: Sky Sports is the exclusive home of Formula 1 in Ireland until 2034. How to watch every race with Sky or NOW, and what F1 TV adds.
 description: Sky Sports is the exclusive home of Formula 1 in Ireland until 2034. How to watch every race with Sky or NOW, and what F1 TV adds.
-last_updated: 2026-10-21
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
 - Sports-Streaming
 tags:
@@ -21,11 +22,11 @@ faqs:
 - question: Is any Formula 1 shown free-to-air in Ireland?
   answer: Not live. Sky Sports has exclusive Formula 1 rights in the UK and Ireland until 2034, so every live session is on Sky Sports or NOW.
 - question: Can I watch F1 without a Sky subscription?
-  answer: Yes, through NOW, which streams Sky Sports with no contract on a monthly membership or day pass. F1 TV, Formula 1's own streaming service, adds extras; check F1's official site for what it offers in Ireland.
-- question: Why does my streaming app say F1 content isn't available in my region?
-  answer: This is usually caused by an account registered to the wrong country or an app downloaded from the wrong app store region; check your account settings first and contact support if the issue continues.
-- question: What is F1 TV Pro and is it worth it for Irish fans?
-  answer: F1 TV Pro is Formula 1's own streaming service offering extras like onboard cameras and team radio; it's a useful add-on for enthusiasts but pricing and features for Ireland should be confirmed on F1's official site.
+  answer: Yes, through NOW's Sports membership, which streams Sky Sports with no contract, monthly or with a day pass. Our streaming prices tracker has the current Irish price.
+- question: What races are left in the 2026 season?
+  answer: Las Vegas (19–21 November), Qatar (27–29 November) and Abu Dhabi (4–6 December), all live on Sky Sports.
+- question: Can I watch F1 live on F1 TV in Ireland?
+  answer: Formula 1 says F1 TV Pro, its live service, is only available in selected countries. Check F1 TV's own country list before you subscribe.
 ---
 
 {% include last-updated.html %}
@@ -34,41 +35,37 @@ faqs:
 
 {% include share-buttons.html %}
 
-## Where to Watch Formula 1 Legally in Ireland
+**Sky Sports is the only place to watch Formula 1 live in Ireland.** Its exclusive deal for the UK and Ireland runs until 2034, so every practice session, qualifying session and race is on Sky Sports, or on NOW if you don't want a contract. RTÉ doesn't show live races.
 
-Sky Sports is the exclusive home of Formula 1 in Ireland and the UK, under a deal that now runs until 2034. Every live session is on Sky Sports, or on NOW if you'd rather not sign a contract. F1's own streaming service, F1 TV, adds extras such as onboard cameras and team radio.
+## The rest of the 2026 season
 
-### Sky Sports: The Main Home of F1 in Ireland
+| Grand Prix | Dates |
+|---|---|
+| Las Vegas | 19–21 November |
+| Qatar | 27–29 November |
+| Abu Dhabi (final round) | 4–6 December |
 
-Sky Sports is the exclusive home of Formula 1 broadcasting in Ireland, typically showing every session of every race weekend across its dedicated Sky Sports F1 channel. This includes practice sessions, qualifying, and the race itself, usually with build-up and analysis from a regular pundit lineup.
+All three are live on Sky Sports. Session times vary from race to race, so check the Sky Sports F1 schedule or our [sport on TV this week](/sport-on-tv/) page before each weekend.
 
-To access this, you'll generally need a Sky subscription that includes the Sky Sports package, or a [NOW](/now-and-sky/) subscription if you prefer a streaming-only approach without a satellite dish. NOW is Sky's streaming service and is worth checking directly for current pricing and what's included, as packages do change from season to season.
+## Option 1: Sky Sports with a Sky TV package
 
-### Is There Any Free Coverage?
+If you already have Sky TV, add Sky Sports to your package. F1 is on the Sky Sports F1 channel, with practice, qualifying, the race and build-up. See our guide to [NOW and Sky in Ireland](/now-and-sky/) for how the packages compare.
 
-Not live. Because Sky's deal is exclusive in Ireland, RTÉ doesn't show live races. Sky's announcement of the extended deal mentions free-to-air races and highlights for viewers in the UK only.
+## Option 2: NOW, with no contract
 
-### F1 TV Pro: Direct From the Source
+NOW, Sky's streaming service, carries Sky Sports in its **Sports** membership. You can pay monthly and cancel any time, or buy a day pass for a single race weekend. NOW's Sports membership was €38.99 a month, or €14.99 for a day pass, when we last checked; our [streaming prices tracker](/streaming-prices/) has the current price.
 
-F1 TV is Formula 1's own official streaming platform, offering live races, onboard cameras, team radio, and archive content. Availability and features of F1 TV Pro have historically varied by country, and Ireland's exact tier and pricing should be checked directly on the official F1 TV site rather than assumed, since offerings do shift between seasons.
+A day pass suits the odd race. For the whole season, the monthly membership works out cheaper, and NOW's 12-month Sports Saver offer is cheaper again if you also want TNT Sports and Premier Sports for football.
 
-For fans who want the most comprehensive coverage, including multi-camera angles and extensive statistics, F1 TV can be a strong complement to whatever linear broadcast is available. It won't replace a Sky subscription for most people, but it's a reasonable add-on for enthusiasts.
+## What about F1 TV?
 
-### Getting the Best Viewing Setup
+F1 TV is Formula 1's own streaming service, with onboard cameras, team radio and replays. Formula 1 says F1 TV Pro, the version with live races, is only available in selected countries, and Sky's exclusive deal covers Ireland. Check F1 TV's own country list before you pay for it.
 
-However you access your F1 coverage, whether through a Sky box, NOW or F1 TV, the viewing setup at home makes a real difference. Many households now juggle multiple boxes and sticks: a satellite receiver, a streaming device, perhaps a games console, all fighting for the same HDMI port on the television.
+## Is there any free F1 coverage?
 
-A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI Switch" %} can simplify this by letting you connect several devices to one TV input and switch between them with a remote, rather than crawling behind the television to swap cables every race weekend. It's a small, practical fix for a common annoyance.
+Not live. Sky's announcement of the 2034 extension mentions free-to-air races and highlights for viewers in the UK only.
 
-### Checking Your Account Region
-
-Occasionally, streaming apps display a message saying content isn't available, which can be confusing during a big race weekend. In almost all cases, this is down to something straightforward, like an account registered to the wrong country, an app downloaded from the wrong regional store, or a home network configuration issue rather than anything to do with the broadcast itself.
-
-If you see this kind of message, the right step is to check your account's registered address and billing region in your profile settings, confirm the app was downloaded from the Irish version of your device's app store, and restart your router if the stream is buffering rather than outright blocked. If none of that resolves things, contacting the broadcaster's customer support directly is the most reliable next step, as they can confirm whether there's a genuine rights or service issue specific to your account.
-
-### Planning Ahead for Race Weekends
-
-Because F1 calendars and broadcast deals shift year to year, it's worth checking Sky Sports and F1 TV's official channels ahead of each new season to confirm what's covered and where. A little planning before the season starts saves any last-minute scrambling once lights out approaches. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+Sources: [Sky Sports: home of F1 until 2034](https://www.skysports.com/f1/news/12433/13540672/sky-sports-to-remain-home-of-formula-1-until-2034-after-five-year-extension-to-exclusive-uk-and-ireland-deal) · [Formula 1: 2026 calendar](https://www.formula1.com/en/racing/2026) · [Formula 1: what is F1 TV Pro](https://www.formula1.com/en/page/what-is-f1-tv-pro) · [NOW Ireland sports memberships](https://www.nowtv.com/ie/membership/sports)
 
 {% include product-showcase.html category="Sports Streaming" %}
 

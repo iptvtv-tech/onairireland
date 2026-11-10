@@ -1,5 +1,7 @@
 ---
 title: "Where to Watch GAA Legally in Ireland: RTÉ, TG4 and GAA+"
+redirect_from:
+  - /news/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy/
 excerpt: "What's free on RTÉ and TG4, what needs a GAA+ pass, which devices carry each app, and the official way to watch from abroad."
 description: "What's free on RTÉ and TG4, what needs a GAA+ pass, which devices carry each app, and the official way to watch from abroad."
 last_updated: 2026-11-05
@@ -173,7 +175,7 @@ The 2027 fixtures, TV picks and GAA+ prices hadn't been published when we last c
 - If a game isn't listed on RTÉ or TG4, it's probably on GAA+.
 - Open the app, sign in and install any updates the day before.
 
-**Related guides:** [RTÉ's GAA coverage in 2026]({% post_url 2026-09-10-rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy %}) · [GAA All-Ireland finals: where to watch every match]({% post_url 2026-09-11-gaa-all-ireland-finals-where-to-watch-every-match-legally %}) · [All our GAA guides](/gaa/)
+**Related guides:** [GAA All-Ireland finals: where to watch every match]({% post_url 2026-09-11-gaa-all-ireland-finals-where-to-watch-every-match-legally %}) · [All our GAA guides](/gaa/)
 
 {% include product-showcase.html category="Devices" title="Get Set Up for the GAA Season" %}
 

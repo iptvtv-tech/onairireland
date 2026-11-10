@@ -1,5 +1,7 @@
 ---
 title: "Solheim Cup 2026: Where Irish Fans Can Watch Live"
+noindex: true # event over / out of season; kept for links (10 Nov 2026)
+sitemap: false
 excerpt: "Europe beat the USA 15-13 at the 2026 Solheim Cup, shown live on Sky Sports in Ireland. How it was broadcast and how to watch golf legally."
 description: "Europe beat the USA 15-13 at the 2026 Solheim Cup, shown live on Sky Sports in Ireland. How it was broadcast and how to watch golf legally."
 last_updated: 2026-10-15

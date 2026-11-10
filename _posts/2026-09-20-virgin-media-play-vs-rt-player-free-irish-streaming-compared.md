@@ -44,7 +44,7 @@ This post looks at what each app offers, how they perform on common streaming de
 
 RTÉ Player is the home of Irish public broadcasting: RTÉ One, RTÉ2, news, current affairs, and a deep archive of homegrown drama and documentary. It's also the exclusive home to a lot of RTÉ-commissioned box sets that land on the app before or instead of broadcast. If you want Irish-made content, sport highlights, or the news at a time that suits you, this is usually the first stop.
 
-[Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) leans more towards entertainment. It carries Virgin Media One, Two, and Three, along with imported US and UK shows that Virgin has picked up the rights to, plus its own catch-up library. It tends to feel a bit more like a commercial broadcaster's app, with a heavier focus on reality TV, drama, and movies.
+[Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) leans more towards entertainment. It carries Virgin Media One, Two, and Three, along with imported US and UK shows that Virgin has picked up the rights to, plus its own catch-up library. It tends to feel a bit more like a commercial broadcaster's app, with a heavier focus on reality TV, drama, and movies.
 
 Neither app requires a specific broadband or TV package to use for free content, though we'd always recommend double-checking current terms directly with each provider, as free tiers and requirements can shift.
 

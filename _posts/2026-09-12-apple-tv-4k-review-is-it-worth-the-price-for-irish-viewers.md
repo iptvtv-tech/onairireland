@@ -78,7 +78,7 @@ App support isn't a weak point. On the Irish App Store, all of these list Apple 
 | App | What it is | On Apple TV |
 |---|---|---|
 | [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) | RTÉ's free catch-up and live TV | Yes |
-| [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) | Virgin Media Television's free player | Yes |
+| [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) | Virgin Media Television's free player | Yes |
 | [TG4](/streaming-services/tg4-player-what-you-get-for-free/) | TG4's player, now listed on the App Store as TG4+ | Yes |
 | [NOW](/streaming-services/sky-stream-vs-now-ireland/) | Sky's no-contract streaming service | Yes |
 | Sky Go | Included for Sky TV customers | Yes |

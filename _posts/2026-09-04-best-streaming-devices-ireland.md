@@ -1,5 +1,9 @@
 ---
 title: "Best Streaming Devices in Ireland: Fire TV, Google TV, Roku or Apple TV?"
+redirect_from:
+  - /reviews/top-3-cheap-streaming-sticks-in-ireland/
+  - /devices/best-budget-streaming-sticks-for-irish-homes-in-2026/
+  - /devices/fire-tv-stick-lite-vs-standard-which-should-you-buy/
 excerpt: "Fire TV, Google TV Streamer, Roku and Apple TV 4K compared for Irish homes, with which ones run RTÉ Player, Virgin Media Play, TG4, NOW and more."
 description: "Fire TV, Google TV Streamer, Roku and Apple TV 4K compared for Irish homes, with which ones run RTÉ Player, Virgin Media Play, TG4, NOW and more."
 last_updated: 2026-11-05
@@ -110,7 +114,7 @@ The range runs from basic HD sticks up to the {% include product-link.html id="f
 
 **The Vega OS catch.** Amazon's newest sticks, including the Fire TV Stick 4K Select and the new Fire TV Stick 4K Amazon announced in September 2026, run Amazon's own Vega OS instead of Fire OS. Amazon says it has added over 2,000 apps to Vega OS, but it still has fewer apps than Fire OS, and we couldn't confirm RTÉ Player, Virgin Media Play or TG4 Player on it. Before you buy any Fire TV stick, check the product listing for the operating system, and if it says Vega OS, check that your Irish apps are in its app store.
 
-If you're comparing models, see [Fire TV Stick 4K Max: Worth the Upgrade?](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/), [Fire TV Stick 4K, Two Years On](/reviews/fire-tv-stick-4k-two-years-on-still-worth-it/) and [Fire TV Stick Lite vs Standard](/devices/fire-tv-stick-lite-vs-standard-which-should-you-buy/). You can check the current price of the {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} or the standard {% include product-link.html id="fire-tv-stick" text="Fire TV Stick" %} on Amazon.
+If you're comparing models, see [Fire TV Stick 4K Max: Worth the Upgrade?](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/). You can check the current price of the {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %} or the standard {% include product-link.html id="fire-tv-stick" text="Fire TV Stick" %} on Amazon.
 
 The **Fire TV Cube** is the premium, hands-free option with built-in Alexa. It isn't currently sold on Amazon.ie. See our [Fire TV Cube review](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) for details, and the Fire TV Stick 4K Max as the closest in-stock alternative.
 
@@ -130,7 +134,7 @@ Read more in our [Google TV Streamer review](/reviews/google-tv-streamer-review-
 
 Roku devices are sold in Ireland, and Roku's Irish channel store lists both **RTÉ Player** and **Virgin Media Play**. Roku also announced on its own blog that RTÉ Player is officially available on Roku devices in Ireland. NOW's Irish help page says NOW works on most Roku players, except the old Roku XS and Roku LT boxes. Netflix, Prime Video and Disney+ are all on Roku. We couldn't confirm TG4 Player on Roku, so check the Roku Channel Store if you need it.
 
-The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is Roku's 4K stick. For a side-by-side look, see [Roku vs Fire TV Stick: Which Should You Buy?](/devices/roku-vs-fire-tv-stick-which-should-you-buy/) and [Roku Streaming Devices: Are They Worth Buying in Ireland?](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)
+The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is Roku's 4K stick. For more, see [Roku Streaming Devices: Are They Worth Buying in Ireland?](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)
 
 ### Apple TV 4K
 
@@ -162,7 +166,7 @@ Most recent smart TVs from Samsung, LG and the Google TV brands already carry RT
 
 Stick to official retailers, such as [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [DID Electrical](https://www.did.ie/), [Power City](https://www.powercity.ie/), Amazon, or the manufacturer's own store, so you get the full warranty and genuine hardware. Check the product listing names the model and operating system you want, especially for Fire TV sticks.
 
-**Related guides:** [Best Budget Streaming Sticks for Irish Homes in 2026](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) · [How to Set Up RTÉ Player on Fire TV](/installation-guides/how-to-set-up-rte-player-fire-tv/) · [Do You Need a TV Licence to Stream in Ireland?](/streaming-services/tv-licence-streaming-ireland/)
+**Related guides:** [How to Set Up RTÉ Player on Fire TV](/installation-guides/how-to-set-up-rte-player-fire-tv/) · [Do You Need a TV Licence to Stream in Ireland?](/streaming-services/tv-licence-streaming-ireland/)
 
 {% include faq-section.html %}
 

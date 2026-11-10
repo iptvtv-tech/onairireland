@@ -78,7 +78,7 @@ If you mainly want free-to-air Irish channels and a few extras, Essential is pro
 
 Because pricing and channel lineups can shift, it's a good idea to check Virgin Media's official Ireland website or contact their sales team directly for the latest details before choosing a plan. Our [Virgin Media hub](/virgin-media/) has our newer guides to its TV packages and the Virgin Media Play app.
 
-**Related guides:** [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [Virgin Media Play: What's New in the Redesigned App](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/)
+**Related guides:** [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [Is Virgin Media Play Free in Ireland?](/streaming-services/is-virgin-media-play-free-in-ireland/)
 
 {% include product-showcase.html category="Streaming Services" %}
 {% include related-posts.html %}

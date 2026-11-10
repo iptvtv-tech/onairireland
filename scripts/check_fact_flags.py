@@ -2,7 +2,7 @@
 """
 Fail the PR check while a post still lists wrong claims. Run by check-pr.yml.
 
-Since 6 Nov the Mon/Wed/Fri draft run only opens a PR once its claims list
+Since 6 Nov the draft run only opens a PR once its claims list
 flags nothing (scripts/generate_post.py), so it never writes fact_check_wrong.
 This stays as a safety net: a post with a fact_check_wrong list in its front
 matter can't be merged (the `check` status is required) until it's cleared.

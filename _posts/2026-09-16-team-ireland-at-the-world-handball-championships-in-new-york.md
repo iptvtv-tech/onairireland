@@ -1,5 +1,7 @@
 ---
 title: "Team Ireland at the World Handball Championships in New York"
+noindex: true # event over / out of season; kept for links (10 Nov 2026)
+sitemap: false
 excerpt: "How Team Ireland got on at the World Handball Championships in New York, and where Irish fans can legally find coverage."
 description: "How Team Ireland got on at the World Handball Championships in New York, and where Irish fans can legally find coverage."
 last_updated: 2026-10-15

@@ -26,7 +26,7 @@ Netflix is one of the most popular paid streaming services in Irish homes. It ha
 
 *Prices checked {{ nf[0].checked | date: "%-d %B %Y" }}. See the [streaming prices tracker](/streaming-prices/) for every service.*
 
-New to it? Read [Netflix Ireland price changes for 2026]({% post_url 2026-09-13-netflix-ireland-price-changes-for-2026-what-you-need-to-know %}) and [Netflix keeps freezing? Try these fixes]({% post_url 2026-09-20-netflix-keeps-freezing-try-these-fixes %}).
+New to it? Read [Netflix Ireland price changes for 2026]({% post_url 2026-09-13-netflix-ireland-price-changes-for-2026-what-you-need-to-know %}) and [Why is my streaming app buffering?]({% post_url 2026-09-11-why-is-my-streaming-app-buffering-common-fixes %}).
 
 ## All our Netflix guides
 

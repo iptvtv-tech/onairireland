@@ -46,7 +46,7 @@ We don't list prices on this page because they change from day to day over the s
 
 ### A budget stick for an HD TV
 
-If the TV is HD rather than 4K (a bedroom, kitchen or older living room set), you don't need to pay for 4K. A basic stick such as the {% include product-link.html id="fire-tv-stick" text="Amazon Fire TV Stick" %} adds the main streaming apps to any TV with an HDMI port. Check the listing says it runs Fire OS, because Amazon's newest HD stick runs Vega OS, which has fewer apps. Our [budget streaming sticks guide]({% post_url 2026-09-16-best-budget-streaming-sticks-for-irish-homes-in-2026 %}) compares the cheaper options.
+If the TV is HD rather than 4K (a bedroom, kitchen or older living room set), you don't need to pay for 4K. A basic stick such as the {% include product-link.html id="fire-tv-stick" text="Amazon Fire TV Stick" %} adds the main streaming apps to any TV with an HDMI port. Check the listing says it runs Fire OS, because Amazon's newest HD stick runs Vega OS, which has fewer apps. Our [streaming devices guide]({% post_url 2026-09-04-best-streaming-devices-ireland %}) compares the cheaper options.
 
 ### A 4K stick for a 4K TV
 

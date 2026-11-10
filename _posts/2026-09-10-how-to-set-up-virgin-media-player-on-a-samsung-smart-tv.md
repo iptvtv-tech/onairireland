@@ -25,7 +25,7 @@ affiliate_links: true
 
 ## Getting Started with Virgin Media Play on Samsung TVs
 
-[Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) is Virgin Media Television's free streaming app. Anyone in Ireland can use it to watch Virgin Media's live channels, catch-up and on-demand shows. You don't need to be a Virgin Media broadband or TV customer, but you do need to register a free account. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
+[Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) is Virgin Media Television's free streaming app. Anyone in Ireland can use it to watch Virgin Media's live channels, catch-up and on-demand shows. You don't need to be a Virgin Media broadband or TV customer, but you do need to register a free account. If you have a Samsung Smart TV running the Tizen operating system, you can usually install this app straight from the built-in app store, without needing any extra boxes or cables.
 
 This guide walks through the process from checking compatibility to signing in and fixing common issues. For more on the app, see our [Virgin Media guides](/virgin-media/).
 

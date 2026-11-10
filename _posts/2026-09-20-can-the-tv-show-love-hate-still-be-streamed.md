@@ -1,5 +1,7 @@
 ---
 title: "Can The TV Show Love/Hate Still Be Streamed?"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "A look at where Irish viewers can legally stream the RTÉ drama Love/Hate today, plus the devices and apps that make watching it easiest."
 description: "A look at where Irish viewers can legally stream the RTÉ drama Love/Hate today, plus the devices and apps that make watching it easiest."
 categories:

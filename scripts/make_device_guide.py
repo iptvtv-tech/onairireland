@@ -686,7 +686,7 @@ def story():
     # Page 8
     guides = [
         ("Best streaming devices for Irish homes", "/devices/best-streaming-devices-ireland/"),
-        ("Best budget streaming sticks", "/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/"),
+        ("Roku streaming devices in Ireland", "/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/"),
         ("Fire TV Stick 4K Max: worth the upgrade?", "/reviews/fire-tv-stick-4k-max-worth-the-upgrade/"),
         ("Google TV Streamer review", "/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/"),
         ("How to set up RTÉ Player on a Fire TV Stick", "/installation-guides/how-to-set-up-rte-player-fire-tv/"),

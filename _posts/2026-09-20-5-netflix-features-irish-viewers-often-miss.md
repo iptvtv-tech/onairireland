@@ -1,5 +1,7 @@
 ---
 title: "5 Netflix Features Irish Viewers Often Miss"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "Five handy Netflix features Irish subscribers often miss, from profile transfers to smarter subtitle settings."
 description: "Five handy Netflix features Irish subscribers often miss, from profile transfers to smarter subtitle settings."
 categories:

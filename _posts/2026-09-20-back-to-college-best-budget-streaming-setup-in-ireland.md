@@ -1,5 +1,7 @@
 ---
 title: "Back to College: Best Budget Streaming Setup in Ireland"
+noindex: true # event over / out of season; kept for links (10 Nov 2026)
+sitemap: false
 excerpt: "A budget streaming setup for Irish student accommodation: the devices, free and paid apps, and account basics you need."
 description: "A budget streaming setup for Irish student accommodation: the devices, free and paid apps, and account basics you need."
 categories:

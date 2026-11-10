@@ -12,6 +12,8 @@ header:
   teaser: /assets/images/teasers/streaming-8.jpg
   og_image: /assets/images/social-home.jpg
   image_description: "A living room TV showing a streaming app home screen"
+sitemap: false
+noindex: true
 ---
 
 <div class="site-search">

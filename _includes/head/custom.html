@@ -1,3 +1,13 @@
+{% comment %}
+  Keep thin, out-of-date or list pages out of Google while still letting it
+  follow their links (added 10 Nov 2026, after Google stopped showing most of
+  the site). A post opts in with `noindex: true` (pair it with `sitemap: false`);
+  the homepage's /page2/, /page3/... list pages are always noindexed.
+{% endcomment %}
+{% if page.noindex or paginator.page > 1 %}
+<meta name="robots" content="noindex, follow">
+{% endif %}
+
 <!-- Favicons + manifest (moved here from index.html so every page gets them) -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

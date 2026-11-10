@@ -43,7 +43,7 @@ review_basis: research
 
 ## Fire TV Cube Review: Is It Worth the Upgrade for Irish Viewers?
 
-If you've been happily streaming on a [Fire TV Stick](/devices/best-budget-streaming-sticks-for-irish-homes-in-2026/) for years, you might be wondering whether Amazon's pricier Fire TV Cube actually earns its keep. It promises more power, hands-free Alexa voice control, and the ability to switch on your telly without touching a remote. But is that worth the extra cost for the average Irish household? We looked at what it offers, what it costs and which Irish apps it runs to find out.
+If you've been happily streaming on a [Fire TV Stick](/devices/best-streaming-devices-ireland/) for years, you might be wondering whether Amazon's pricier Fire TV Cube actually earns its keep. It promises more power, hands-free Alexa voice control, and the ability to switch on your telly without touching a remote. But is that worth the extra cost for the average Irish household? We looked at what it offers, what it costs and which Irish apps it runs to find out.
 
 ### What the Fire TV Cube Actually Offers
 

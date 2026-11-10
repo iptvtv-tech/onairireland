@@ -42,7 +42,7 @@ Emmerdale (sometimes typed as "Emerdale") is one of the longest-running soaps on
 
 For Irish viewers, Emmerdale has traditionally been shown on **Virgin Media Television**, airing on Virgin Media Two around the same time as its UK broadcast. This has long been the standard way Irish audiences catch the show without needing a UK-specific service.
 
-That said, broadcast schedules and channel allocations do shift from time to time, so it's worth double-checking the current listings directly on the [Virgin Media Television](https://www.virginmediatelevision.ie) website or within the [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) app before you settle in for the evening. If you're a Virgin Media customer, the Virgin Media Play app also lets you catch up on recent episodes on demand, which is handy if you miss a broadcast.
+That said, broadcast schedules and channel allocations do shift from time to time, so it's worth double-checking the current listings directly on the [Virgin Media Television](https://www.virginmediatelevision.ie) website or within the [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) app before you settle in for the evening. If you're a Virgin Media customer, the Virgin Media Play app also lets you catch up on recent episodes on demand, which is handy if you miss a broadcast.
 
 If you don't have Virgin Media as your TV provider, it's worth checking whether your own provider carries Virgin Media Two as part of its channel package, since many Irish satellite and cable bundles do include it.
 

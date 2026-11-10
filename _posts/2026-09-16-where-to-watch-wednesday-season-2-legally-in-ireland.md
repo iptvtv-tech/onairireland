@@ -1,5 +1,7 @@
 ---
 title: "Where to Watch Wednesday Season 2 Legally in Ireland"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "Wednesday Season 2 is streaming exclusively on Netflix in Ireland, and here's how to watch it along with the best devices and apps to use."
 description: "Wednesday Season 2 is streaming exclusively on Netflix in Ireland, and here's how to watch it along with the best devices and apps to use."
 categories:

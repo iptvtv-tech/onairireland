@@ -1,5 +1,7 @@
 ---
 title: "Netflix vs Prime Video: Which Do Irish Viewers Actually Use Most?"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "Netflix vs Prime Video in Ireland: which suits your household, based on catalogue, sharing rules and what's bundled in."
 description: "Netflix vs Prime Video in Ireland: which suits your household, based on catalogue, sharing rules and what's bundled in."
 categories:

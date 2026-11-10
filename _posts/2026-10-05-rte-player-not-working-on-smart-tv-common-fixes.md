@@ -1,9 +1,12 @@
 ---
-title: "RTÉ Player Not Working on Smart TV? 7 Fixes to Try"
-excerpt: "RTÉ Player not loading or crashing on your Samsung, LG or Fire TV? Seven fixes to try, from app updates to Wi-Fi and sign-in problems."
-description: "RTÉ Player not loading or crashing on your Samsung, LG or Fire TV? Seven fixes to try, from app updates to Wi-Fi and sign-in problems."
+title: "RTÉ Player Not Working on Smart TV? Fixes to Try"
+excerpt: "RTÉ Player not loading, buffering or asking you to sign in again? Fixes for smart TVs, streaming sticks, phones and tablets, in the order to try them."
+description: "RTÉ Player not loading, buffering or asking you to sign in again? Fixes for smart TVs, streaming sticks, phones and tablets, in the order to try them."
 categories:
 - Troubleshooting
+redirect_from:
+- /troubleshooting/rte-player-not-working-common-problems-and-where-to-get-help/
+last_updated: 2026-11-10
 tags:
 - troubleshooting
 header:
@@ -24,7 +27,9 @@ faqs:
 - question: Why is RTÉ Player missing from my TV's app store?
   answer: This can happen if your TV's app store region is set incorrectly, so check your region/country setting in the TV's system menu.
 - question: Will reinstalling the app delete my saved preferences?
-  answer: Reinstalling typically clears cached data and may sign you out, but your RTÉ account details and history are stored online, not on the device.
+  answer: Reinstalling clears the app's stored data on that device and signs you out, so you'll need to sign in again afterwards.
+- question: Why is a programme missing from RTÉ Player?
+  answer: Not everything shown on RTÉ television is on RTÉ Player, and some programmes are only there for a limited time after broadcast because of rights agreements.
 ---
 
 {% include last-updated.html %}
@@ -33,58 +38,60 @@ faqs:
 
 {% include share-buttons.html %}
 
-RTÉ Player usually stops working on a smart TV because of an outdated app, a shaky internet connection, or a temporary server issue on RTÉ's end. Working through a few basic checks in order will solve the problem in most cases.
+RTÉ Player usually stops working because of an outdated app, a weak connection, a sign-in problem, or a programme that isn't available to stream. Work through the checks below in order; most problems are fixed by the first three.
 
-Using RTÉ Player on a phone, tablet or laptop instead, or stuck on sign-in or a programme you can't find? Our guide to [common RTÉ Player problems](/troubleshooting/rte-player-not-working-common-problems-and-where-to-get-help/) covers those too.
+## 1. Restart the app and the device
 
-## Start With the Basics
+Close the app fully and open it again. On a phone or tablet, that means removing it from your recently used apps, not just pressing the home button.
 
-Before digging into settings, rule out the simple stuff. Restart the TV fully by switching it off at the wall for about 30 seconds rather than just using standby. This clears temporary glitches in the TV's memory and is often enough on its own.
+If that doesn't help, restart the device itself. Switch a smart TV or streaming stick off at the wall for about 30 seconds rather than using standby. A full restart clears the device's memory and reconnects it to your Wi-Fi.
 
-Check that your broadband is actually working by loading a website on your phone over the same Wi-Fi network. If other apps or sites are also struggling, the issue is likely your connection rather than RTÉ Player itself.
+## 2. Check whether it's your connection
 
-## Update the App
+Load a website or another app on the same Wi-Fi. If that's slow too, the problem is your connection, not RTÉ Player.
 
-Smart TV apps, including RTÉ Player, get periodic updates to fix bugs and keep up with changes on RTÉ's backend. An outdated version is one of the most common reasons playback fails or the app crashes on open.
+If RTÉ Player buffers on one device but works on another in the same house, the problem is that device or how far it is from the router.
 
-Go into your TV's app store (this might be called the LG Content Store, Samsung Smart Hub, Google Play Store, or similar depending on your TV brand) and check for pending updates. If you're not sure how to find this menu, your TV's manual or manufacturer's support site will have exact steps for your model.
+## 3. Update the app
 
-If an update is available, install it and restart the TV afterwards. If RTÉ Player isn't appearing in your app store's search at all, double-check that your TV's regional/country setting is correct, since some apps are only listed in certain app store regions.
+An out-of-date app is one of the most common reasons RTÉ Player won't open or keeps crashing. Check your TV's app store (Samsung's Smart Hub, LG's Content Store, the Google Play Store on Android and Google TV, or the Amazon Appstore on Fire TV) or your phone's app store for an update. Install it, then restart.
 
-## Check Your Network Connection
+## 4. Fix buffering and poor picture
 
-Streaming problems are very often down to Wi-Fi signal strength rather than the app. If your TV is far from the router, or there are walls and floors in between, you may be getting a weak or unstable signal that causes buffering, pixelation, or the app timing out.
+Buffering is almost always the connection:
 
-A few options worth considering:
+- Pause other streams and big downloads in the house.
+- Move the router closer to the TV, or the TV's streaming stick away from behind the TV.
+- If the TV is far from the router, a wired connection is the steadiest fix. A streaming stick without a network port needs an adapter, such as an {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %}. If several rooms have weak Wi-Fi, a {% include product-link.html id="mesh-wifi-troubleshoot" text="mesh Wi-Fi system" %} covers the whole house.
 
-- Move the router closer to the TV, if practical.
-- Use a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi Range Extender" %} to boost signal in a room that's struggling.
-- Switch to a {% include product-link.html id="mesh-wifi-troubleshoot" text="Mesh Wi-Fi System" %} if multiple rooms in the house have patchy coverage.
-- Run a {% include product-link.html id="ethernet-cable-troubleshoot" text="Long Ethernet Cable" %} directly from the router to the TV for the most stable connection, especially if you're in an older house with thick walls.
+Our guide to [why streaming apps buffer](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) goes through the options in more detail.
 
-For streaming sticks or boxes without a built-in Ethernet port, an {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %} lets you connect by cable instead of relying on Wi-Fi, which can noticeably reduce buffering.
+## 5. Sign-in keeps failing
 
-If running a cable isn't practical, a {% include product-link.html id="powerline-adapters" text="Powerline Adapter Kit" %} uses your home's electrical wiring to carry a network signal between rooms, which is a reasonable middle ground between Wi-Fi and a full Ethernet run.
+You need a free RTÉ account to sign in to RTÉ Player.
 
-## Sign-In and Account Issues
+- Sign out completely, then sign back in, checking the email address carefully.
+- If you're not sure of the password, reset it.
+- If you've changed your email address or password recently, sign out and back in on every device, since an old saved login causes repeated failures.
+- Make sure every device is signed in to the same RTÉ account, or programmes you've started may seem to be missing.
 
-RTÉ Player requires a free RTÉ account to use. If you're being asked to sign in repeatedly, or getting an error after entering your details, try logging out completely and signing back in. A typo in the email address or password is more common than it sounds, so consider resetting your password if you're unsure.
+## 6. RTÉ Player isn't in your TV's app store
 
-If you've recently moved, changed your email address, or set up a new RTÉ account, make sure you're signed into the correct one on the TV, as mismatched accounts can cause content to appear missing or restricted.
+App lists depend on the device model, its software version and the country the app store is set to. Check that the TV's or streaming stick's region is set to Ireland, and that its software is up to date. If the app still isn't listed for your model, use a streaming stick that carries it, or watch on a phone, tablet or computer instead.
 
-## "Content Not Available" Messages
+## 7. "This programme isn't available"
 
-Occasionally you might see a message saying a programme isn't available. This is sometimes due to rights restrictions that are entirely normal and temporary (certain sports fixtures or imported shows can have limited windows), and other times it's simply that the programme has been removed from the Player after its catch-up period ended. If you believe this is showing in error, RTÉ Player's own help/support section is the right place to report it, rather than trying to work around it.
+Not everything shown on RTÉ television is on RTÉ Player, and some programmes are only there for a limited time after broadcast because of rights agreements. Sport and imported series are the most common examples. If a programme is missing, that's usually the reason rather than a fault with the app.
 
-## Check the Remote and Screen Too
+## 8. Reinstall the app
 
-It sounds basic, but a remote with weak batteries can cause missed button presses that look like the app is freezing or not responding. Swapping in a fresh set, or using {% include product-link.html id="rechargeable-remote-batteries" text="Rechargeable Remote Batteries" %}, is a quick thing to rule out. Likewise, a dusty or smudged screen can make picture issues seem worse than they are, so a proper {% include product-link.html id="screen-cleaning-kit" text="TV Screen Cleaning Kit" %} is worth having for general maintenance.
+If nothing else works, delete RTÉ Player and install it again from the app store. This clears stored data that a restart won't, but it also signs you out, so have your RTÉ password to hand.
 
-## When All Else Fails
+## Still not working?
 
-If none of the above helps, try deleting the RTÉ Player app entirely and reinstalling it from your TV's app store. This clears any corrupted data that a simple restart won't fix. If the problem persists after that, it's worth checking RTÉ's official support or social media channels for any known outages, since server-side issues do occasionally affect the service for everyone at once.
+Check RTÉ's own channels for an outage, since a problem at RTÉ's end affects everyone at once. To report a fault, use the help and contact options in the RTÉ Player app or on the RTÉ Player website.
 
-{% include product-showcase.html category="Troubleshooting" %}
+**Other fixes:** [TG4 Player not working](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/) · [Virgin Media Play not working](/troubleshooting/virgin-media-player-login-issues-explained/) · [Setting up RTÉ Player on Fire TV](/installation-guides/how-to-set-up-rte-player-fire-tv/)
 
 {% include faq-section.html %}
 

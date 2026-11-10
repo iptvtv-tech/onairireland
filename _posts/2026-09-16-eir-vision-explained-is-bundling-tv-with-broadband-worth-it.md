@@ -74,7 +74,7 @@ There isn't a single right answer here. If you value simplicity, already have ei
 
 Before committing to either path, it's worth listing out the channels and apps your household actually uses regularly. That short list will tell you more about which option suits you than any bundle brochure will.
 
-**Related guides:** [Setting Up Eir Vision on a New Smart TV](/installation-guides/setting-up-eir-vision-on-a-new-smart-tv/) · [Sky Sports+ Explained: More Live Streams at No Extra Cost](/streaming-services/sky-sports-explained-more-live-streams-at-no-extra-cost/)
+**Related guides:** [Setting Up Eir Vision on a New Smart TV](/installation-guides/setting-up-eir-vision-on-a-new-smart-tv/) · [Sky Sports vs Premier Sports: Which Do You Need?](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/)
 
 {% include product-showcase.html category="Streaming Services" %}
 

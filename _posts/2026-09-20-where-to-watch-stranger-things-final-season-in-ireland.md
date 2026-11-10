@@ -1,5 +1,7 @@
 ---
 title: "Where to Watch Stranger Things' Final Season in Ireland"
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 excerpt: "A guide for Irish viewers on watching the final season of Stranger Things legally on Netflix, including plan details and the best devices to stream it on."
 description: "A guide for Irish viewers on watching the final season of Stranger Things legally on Netflix, including plan details and the best devices to stream it on."
 categories:
