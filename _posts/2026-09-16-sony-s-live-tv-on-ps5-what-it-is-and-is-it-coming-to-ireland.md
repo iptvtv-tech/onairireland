@@ -74,7 +74,7 @@ If you're already on Fire TV and find yourself constantly hunting for the remote
 
 Sony's Live TV app is a solid step for PS5 owners in the US, offering a free way to access live channels without adding another subscription. But for now, it's firmly a US (and soon Canada) feature. Irish PS5 owners will need to keep relying on existing apps and services, and we'll update this piece if Sony confirms any European rollout plans.
 
-**Related guides:** [Is Peacock Ever Coming to Ireland?](/news/is-peacock-ever-coming-to-ireland/) · [5 Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
+**Related guides:** [Is Peacock Ever Coming to Ireland?](/news/is-peacock-ever-coming-to-ireland/) · [Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
 {% include product-showcase.html category="News" %}
 

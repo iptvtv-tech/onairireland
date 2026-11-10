@@ -82,7 +82,7 @@ App support isn't a weak point. On the Irish App Store, all of these list Apple 
 | [TG4](/streaming-services/tg4-player-what-you-get-for-free/) | TG4's player, now listed on the App Store as TG4+ | Yes |
 | [NOW](/streaming-services/sky-stream-vs-now-ireland/) | Sky's no-contract streaming service | Yes |
 | Sky Go | Included for Sky TV customers | Yes |
-| [GAA+](/installation-guides/how-to-set-up-gaa-on-an-apple-tv/) | The GAA's own streaming service, formerly GAAGO | Yes |
+| [GAA+](/installation-guides/how-to-set-up-gaa-on-an-apple-tv/) | The GAA's own streaming service, which replaced GAAGO in 2025 | Yes |
 | Netflix, Prime Video, Disney+ | The main subscription services | Yes |
 
 Each app sets its own minimum tvOS version (TG4+ currently needs tvOS 26), and a new Apple TV 4K meets all of them. If you're buying an older model second-hand, check it can run a recent enough tvOS for the apps you want.

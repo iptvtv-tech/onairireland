@@ -26,12 +26,12 @@ affiliate_links: true
 quick_facts:
      - Live GAA in Ireland is split between RTÉ and TG4 (free) and GAA+ (paid)
      - Games are picked match by match, not by county
-     - GAA+ is the new name for GAAGO, and is wholly owned by the GAA
+     - GAA+ replaced GAAGO in 2025, and is wholly owned by the GAA
      - Sky Sports no longer shows championship games
      - The current GAA media rights deals run to the end of 2027
 faqs:
   - question: "Is GAAGO still going?"
-    answer: "GAAGO was renamed GAA+ in 2025, when the GAA took over RTÉ's share of the platform. It's the same service: the GAA's own paid streaming platform for games not shown on free-to-air TV in Ireland."
+    answer: "No. The GAA and RTÉ ended their GAAGO partnership, and GAA+, a new service wholly owned by the GAA, replaced it ahead of the 2025 championship. GAA+ is the GAA's own paid streaming service for games not shown on free-to-air TV in Ireland."
   - question: "Why isn't every GAA match on RTÉ?"
     answer: "Live coverage is shared between RTÉ, TG4 and GAA+, and games are picked match by match by the broadcasters, not by which county is playing. Check the fixture listing for each game."
   - question: "Is Sky Sports still showing GAA?"
@@ -50,7 +50,7 @@ faqs:
 {% include share-buttons.html %}
 {% include quick-facts.html %}
 
-Live GAA in Ireland is split between two free-to-air broadcasters, RTÉ and TG4, and the GAA's own paid streaming service, GAA+ (the service that used to be called GAAGO). Which one has a game depends on the broadcasters' picks for that round, not on the county, so the same team can be free one weekend and on GAA+ the next.
+Live GAA in Ireland is split between two free-to-air broadcasters, RTÉ and TG4, and the GAA's own paid streaming service, GAA+ (which replaced GAAGO in 2025). Which one has a game depends on the broadcasters' picks for that round, not on the county, so the same team can be free one weekend and on GAA+ the next.
 
 The 2026 championships are over, so this guide explains how coverage works across a full season: the National Leagues from the new year, then the 2027 championships. We'll update it when the 2027 picks and prices are announced.
 
@@ -83,7 +83,7 @@ Commentary on TG4's GAA coverage is in Irish.
 
 ### GAA+ (paid)
 
-GAA+ is the GAA's own streaming service. It was called GAAGO until 2025, when the GAA took over RTÉ's share and renamed it. It shows championship games that aren't on RTÉ or TG4. In 2026 it had 40 exclusive live games: provincial championship games, Tailteann Cup games, All-Ireland football series games and Munster and Leinster hurling games.
+GAA+ is the GAA's own streaming service. It replaced GAAGO, which the GAA ran jointly with RTÉ, ahead of the 2025 championship. It shows championship games that aren't on RTÉ or TG4. In 2026 it had 40 exclusive live games: provincial championship games, Tailteann Cup games, All-Ireland football series games and Munster and Leinster hurling games.
 
 GAA+ also puts free midweek analysis shows on its YouTube channel during the championship.
 

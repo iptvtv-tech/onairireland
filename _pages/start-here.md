@@ -20,7 +20,7 @@ On Air Ireland explains the legal ways to watch TV, films and sport in Ireland: 
 
 RTÉ Player, Virgin Media Play and TG4 Player cost nothing and cover Irish news, drama, and a lot of live sport, including the biggest GAA games and the Six Nations. Most homes should have all three before paying for anything.
 
-- [5 free Irish streaming apps worth knowing]({% post_url 2026-09-23-5-free-irish-streaming-apps-worth-knowing %})
+- [free Irish streaming apps worth knowing]({% post_url 2026-09-23-5-free-irish-streaming-apps-worth-knowing %})
 - [Virgin Media Play vs RTÉ Player]({% post_url 2026-09-20-virgin-media-play-vs-rt-player-free-irish-streaming-compared %})
 - [Do you need a TV licence to stream?]({% post_url 2026-09-07-tv-licence-streaming-ireland %})
 

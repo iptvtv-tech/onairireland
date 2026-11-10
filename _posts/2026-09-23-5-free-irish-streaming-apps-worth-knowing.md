@@ -1,7 +1,7 @@
 ---
-title: "5 Free Irish Streaming Apps Worth Knowing"
-excerpt: "A look at five free, legal Irish streaming apps beyond RTÉ Player and TG4 Player that are worth adding to your home screen."
-description: "A look at five free, legal Irish streaming apps beyond RTÉ Player and TG4 Player that are worth adding to your home screen."
+title: "Free Irish Streaming Apps Worth Knowing, Beyond RTÉ and TG4"
+excerpt: "Free, legal streaming in Ireland beyond RTÉ Player and TG4 Player: Virgin Media Play, Samsung TV Plus and the IFI Archive Player, plus two paid extras."
+description: "Free, legal streaming in Ireland beyond RTÉ Player and TG4 Player: Virgin Media Play, Samsung TV Plus and the IFI Archive Player, plus two paid extras."
 categories:
   - Streaming-Services
 tags:
@@ -12,6 +12,8 @@ header:
   teaser: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-teaser.webp
   og_image: /assets/images/posts/5-free-irish-streaming-apps-worth-knowing-og.jpg
   caption: 'Photo: [Vitaly Gariev](https://www.pexels.com/photo/senior-man-enjoying-digital-entertainment-at-home-39191552/) on [Pexels](https://www.pexels.com)'
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 seo:
   type: Article
 toc: true
@@ -19,13 +21,13 @@ draft_generated: true
 affiliate_links: true
 faqs:
   - question: "Do I need a TV licence to use these free streaming apps?"
-    answer: "Requirements vary by service, so it's best to check each app's own terms; RTÉ Player has its own licence rules, but the apps mentioned here have different setups worth confirming directly with the provider."
-  - question: "Why can't I find one of these apps on my device's app store?"
-    answer: "Availability depends on your device model, its app store region setting, and how up to date its software is, so check that your account and store are both set to Ireland and that your device software is current."
-  - question: "Are Samsung TV Plus and Pluto TV available on every smart TV?"
-    answer: "No, Samsung TV Plus is generally limited to Samsung TVs, while Pluto TV availability depends on the device and its current regional rollout, so check your specific device's app store."
-  - question: "Is GAAGO fully free?"
-    answer: "No, GAAGO is primarily a paid subscription service for live GAA matches, with only a limited amount of free content such as highlights or archive footage."
+    answer: "The licence is for the TV set, not the app. Any TV set in the home needs a licence, even a smart TV used only for streaming, but watching on a phone, laptop or tablet alone doesn't."
+  - question: "Is Virgin Media Play only for Virgin Media customers?"
+    answer: "No. Virgin Media Play is free for anyone in Ireland: you register a free account. You don't need Virgin Media broadband or TV."
+  - question: "Can I get Samsung TV Plus on a TV that isn't a Samsung?"
+    answer: "Samsung says Samsung TV Plus has been free on its smart TVs since 2016, and is on Galaxy phones and tablets running Android 8.0 or higher. It doesn't list other brands."
+  - question: "Is GAAGO still around?"
+    answer: "No. GAA+ replaced GAAGO ahead of the 2025 championship. GAA+ is a paid service, though in 2026 the GAA also put two free midweek analysis shows on the GAA+ YouTube channel."
 ---
 
 {% include last-updated.html %}
@@ -34,35 +36,39 @@ faqs:
 
 {% include share-buttons.html %}
 
-Most of us default to [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) and TG4 Player when we think about free Irish streaming, and fair enough — they're excellent, well-funded, and packed with home-grown content. But there's a small cluster of other free, fully legal apps that don't get nearly as much attention, despite offering genuinely useful viewing. Here are five worth knowing about.
+Most of us default to [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) and [TG4 Player](/streaming-services/tg4-player-what-you-get-for-free/) when we think about free Irish streaming, and fair enough: they're packed with home-grown content. But a few other free, fully legal apps don't get nearly as much attention. Here are three worth adding to your home screen, plus two paid ones with something extra.
 
 ## Virgin Media Play
 
-If you have Virgin Media broadband or TV, the [Virgin Media Play](/streaming-services/virgin-media-play-what-s-new-in-the-redesigned-app/) app is free to download and gives you catch-up access to Virgin Media One, Two, Three and Four, along with a decent library of box sets. It's ad-supported on some content, but there's no subscription fee involved. It runs on most smart TV platforms and streaming boxes, so it's worth checking your device's app store to see if it's listed for Ireland specifically, since availability can vary depending on the store region set on your account.
+[Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) is free for anyone in Ireland. You register a free account; you don't need Virgin Media broadband or TV. It shows Virgin Media One, Two, Three and Four live, and has catch-up and box sets, though most programmes can only be watched in the Republic of Ireland.
+
+Virgin Media Television lists computers, Android and iOS, the Virgin Media and Sky platforms, and NOW. For smart TVs and streaming sticks, check your device's app store; it's on [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) and Apple TV, for example. Some live programmes can't be streamed for rights reasons.
 
 ## Samsung TV Plus
 
-If you own a Samsung smart TV, it's worth having a poke around the built-in Samsung TV Plus app. It bundles together a set of free, ad-supported live channels covering news, entertainment, and documentaries, all without needing a login or subscription. The channel lineup for Ireland has grown over the past couple of years, though I'd recommend double-checking what's currently offered on your specific model, as the selection isn't identical across every Samsung TV generation.
+If you own a Samsung smart TV, it's worth a look at the built-in Samsung TV Plus. Samsung says it has been free on its smart TVs since 2016, with no subscription or fees, and it's also on Galaxy phones and tablets (Android 8.0 or higher). It's a set of free live channels. The line-up varies by country, so check what's offered in Ireland on your TV.
 
-## Pluto TV
+## IFI Archive Player
 
-Pluto TV has been expanding its footprint across Europe, and Irish availability has improved recently, though it's the kind of thing worth verifying directly in your device's app store before assuming it's there. When it is available, it offers a mix of free, ad-supported live channels and on-demand content, similar in spirit to Samsung TV Plus but not tied to a single TV brand. It tends to show up on Fire TV Stick, Chromecast, and [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices, among others.
+The Irish Film Institute's IFI Archive Player is free, anywhere in the world. It has more than 1,000 films from the IFI Irish Film Archive: home movies, newsreels, animation, features and documentaries. There are apps for iPhone, Android, Apple TV, Android TV, Fire TV and Roku, and it works with Chromecast.
 
-## IFI@Home
+## Also worth knowing: two paid ones
 
-The Irish Film Institute runs IFI@Home, a streaming platform that includes a rotating selection of free Irish and international films alongside its paid rental catalogue. It's a nice option if you're after something a bit more curated than the usual algorithm-driven suggestions, particularly for Irish documentaries and archive material you won't find elsewhere. It's browser-based primarily, though casting from a phone or laptop to a TV via Chromecast works well if you want it on the big screen.
+**IFI@Home** is the Irish Film Institute's paid service: you buy films, including Irish films and documentaries you won't find elsewhere. It's only available in the Republic of Ireland, with apps for iPhone and Android.
 
-## GAAGO
+**[GAA+](/gaa/)** replaced GAAGO ahead of the 2025 championship. It's paid (season pass or per game), but in the 2026 season the GAA put two midweek analysis shows on the GAA+ YouTube channel free of charge.
 
-GAAGO is best known as a paid platform for GAA matches not shown on RTÉ or TG4, but it's worth knowing that a portion of its content, including some highlights packages and archive footage, is available without a subscription. It's not a fully free alternative to the paid tier, but for match highlights and older games it can be a handy free supplement.
+### Getting the most out of these apps
 
-### Getting the Most Out of These Apps
+None of these apps need anything special. Most modern smart TVs and streaming sticks will run them, but check your device's app store before you buy. If you're juggling several apps across different devices and remotes, a {% include product-link.html id="universal-remote" text="universal remote control" %} can simplify things, letting you switch between your TV, streaming box and soundbar without the usual scramble down the back of the sofa.
 
-None of these apps need anything exotic to run well. Most modern smart TVs, plus boxes like a Fire TV Stick, Fire TV Cube, Roku, or Chromecast, will handle them without issue. If you're juggling several of these apps across different devices and find yourself buried under a pile of remotes, a single {% include product-link.html id="universal-remote" text="universal remote control" %} can simplify things considerably, letting you switch between your TV, streaming box, and soundbar without the usual scramble down the back of the sofa.
+Sound is worth a thought too. Thin TV speakers don't do dialogue any favours, and a {% include product-link.html id="soundbar-budget" text="compact soundbar" %} makes a noticeable difference without taking up much space. If you're more likely to watch on a tablet in the kitchen, a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} is a handy way to get better sound.
 
-Audio is worth a thought too. A lot of these apps are ad-supported, and thin TV speakers don't do dialogue or ad breaks any favours. A {% include product-link.html id="soundbar-budget" text="compact soundbar" %} makes a noticeable difference for everyday viewing without taking up much space under the television. And if you're more likely to catch IFI@Home or a GAAGO highlights reel on a tablet in the kitchen than on the main TV, a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} is a handy way to get better sound without hooking up to the main system at all.
+None of these will replace RTÉ Player or TG4 Player as your main destination, but each fills a gap: live channels, archive film or GAA analysis.
 
-None of these apps will replace RTÉ Player or TG4 Player as your main destination, but each fills a specific gap — sport, film, live channels, or catch-up — and costs nothing beyond the price of the broadband you're already paying for.
+### Paying for anything as well?
+
+If you also pay for Netflix, NOW or another service, our [streaming prices tracker](/streaming-prices/) lists every service's current Irish price, and the [cost calculator](/streaming-cost-calculator/) adds up what your setup costs a month and a year.
 
 {% include product-showcase.html category="Streaming Services" %}
 

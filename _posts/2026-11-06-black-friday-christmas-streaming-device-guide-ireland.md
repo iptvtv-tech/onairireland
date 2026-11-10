@@ -79,7 +79,7 @@ App lists change, so check each app before you buy rather than relying on any gu
 - **Roku:** search Roku's Channel Store for RTÉ Player, Virgin Media Play and TG4 Player before you buy.
 - **Virgin Media Play:** Virgin Media's own help page lists computers, Android and iOS phones and tablets, Virgin Media and Sky platforms and NOW. For a stick or box, check that device's app store.
 
-Check any paid or sport service you use the same way. Install apps only from the device's own app store. For the full list of free Irish apps, see [5 free Irish streaming apps worth knowing]({% post_url 2026-09-23-5-free-irish-streaming-apps-worth-knowing %}).
+Check any paid or sport service you use the same way. Install apps only from the device's own app store. For the full list of free Irish apps, see [free Irish streaming apps worth knowing]({% post_url 2026-09-23-5-free-irish-streaming-apps-worth-knowing %}).
 
 ## What to check before you buy
 

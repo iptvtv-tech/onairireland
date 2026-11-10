@@ -69,11 +69,13 @@ You can watch every main Irish channel live and on catch-up without paying a cen
 | **TG4 Player** | TG4 live, Irish-language drama, documentaries and GAA coverage | Free |
 | **Saorview** | Free-to-air channels through a TV aerial (not an app) | Free, but needs a TV licence |
 
-Virgin Media Play replaced the older Virgin Media Player app in 2024, so if you still have the old app, update it. For more detail, see our [comparison of Virgin Media Play and RTÉ Player](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/), our [TG4 Player guide](/streaming-services/tg4-player-what-you-get-for-free/) and [5 free Irish streaming apps worth knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/).
+Virgin Media Play replaced the older Virgin Media Player app in 2024, so if you still have the old app, update it. For more detail, see our [comparison of Virgin Media Play and RTÉ Player](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/), our [TG4 Player guide](/streaming-services/tg4-player-what-you-get-for-free/) and our list of [other free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/).
 
 ## Paid streaming services and prices
 
 These are the standard monthly prices in Ireland as of October 2026. Several services run introductory offers for new customers.
+
+Prices change often. Our [streaming prices tracker](/streaming-prices/) lists every plan with the date we last checked it on the provider's own Irish page.
 
 | Service | Plans and monthly price | Best for |
 | --- | --- | --- |
@@ -140,7 +142,7 @@ See our [best streaming devices for Irish homes](/devices/best-streaming-devices
 | GAA | Free RTÉ and TG4 coverage, plus a GAA+ pass |
 | Premier League football | NOW Sports plus Sports Extra, or a Sky or Virgin Media package with sport |
 
-Not sure how many services you actually need? Read [how many streaming subscriptions Irish households really need](/news/how-many-streaming-subscriptions-do-irish-households-really-need/), or take our [quick streaming quiz](/quiz/).
+To see what your mix would cost a month and a year, try the [streaming cost calculator](/streaming-cost-calculator/). Not sure how many services you actually need? Read [how many streaming subscriptions Irish households really need](/news/how-many-streaming-subscriptions-do-irish-households-really-need/), or take our [quick streaming quiz](/quiz/).
 
 {% include product-showcase.html category="Streaming Services" title="Complete Your Setup" %}
 
