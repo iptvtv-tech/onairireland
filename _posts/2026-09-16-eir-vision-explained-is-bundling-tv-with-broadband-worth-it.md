@@ -40,7 +40,7 @@ If you're an eir vision customer, read eir's retirement FAQs or contact eir abou
 
 - **Boxes:** eir Android TV, or eir TV Plus on an Apple TV 4K.
 - **Channels:** eir says 50+ channels.
-- **Extras:** eir says Amazon Prime is included at no extra cost when you add eir TV to broadband.
+- **Extras:** eir's TV pages mention Amazon Prime, but its price list also shows a Prime Video charge, so [check with eir](https://www.eir.ie/tv/) what's included before you sign up.
 - **Sky content:** Sky Sports, Sky Cinema and Sky Entertainment as paid add-ons through the NOW app.
 - **Recording and catch-up (Apple TV 4K guide):** record up to 500 programmes and catch up on the last 7 days, both on selected channels.
 - **Other rooms:** multiroom with a second box.
@@ -61,7 +61,7 @@ The same list has one-off charges: a €29.99 activation fee, a €9.99 connecti
 
 It depends on how much live TV you watch.
 
-- **A bundle suits you** if you watch live channels every day and want one box, one remote and one bill. With eir TV you also get Amazon Prime included while it's part of eir's offer.
+- **A bundle suits you** if you watch live channels every day and want one box, one remote and one bill.
 - **Going without a TV package suits you** if you mostly watch on demand. RTÉ Player, Virgin Media Play and TG4 Player are free, and you can add only the paid services you use; see [5 free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/).
 - **For sport,** compare eir's NOW add-ons with a NOW membership on its own: see [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/).
 

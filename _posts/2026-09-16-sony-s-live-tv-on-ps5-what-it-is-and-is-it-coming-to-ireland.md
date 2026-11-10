@@ -27,7 +27,7 @@ faqs:
   - question: "How many channels does it offer?"
     answer: "Reports indicate more than 100 live channels at launch, though the exact lineup may vary and hasn't been independently verified for this piece."
   - question: "What can Irish viewers use instead for free live TV?"
-    answer: "Apps like RTÉ Player, Virgin Media Play and TG4, along with UK services such as BBC iPlayer, are legitimate options already available in Ireland."
+    answer: "Free Irish apps like RTÉ Player, Virgin Media Play and TG4 Player are already available. UK apps such as BBC iPlayer and ITVX only work in the UK."
 ---
 
 {% include last-updated.html %}
@@ -62,7 +62,7 @@ If you're an Irish PS5 owner, checking your console's home screen or app store w
 
 While we wait to see if Sony brings this to Ireland, there's no shortage of **legitimate** ways to get free or low-cost live TV here already.
 
-RTÉ Player remains the obvious starting point for Irish content, and it's genuinely free. Virgin Media Play and TG4's own player are also worth having installed if you haven't already. For UK channels, apps like the BBC iPlayer, ITVX and Channel 4's streaming service are widely used in Ireland, though picture quality and access can depend on your setup.
+RTÉ Player remains the obvious starting point for Irish content, and it's genuinely free. Virgin Media Play and TG4's own player are also worth having installed if you haven't already. UK apps such as BBC iPlayer and ITVX only work in the UK; see [RTÉ Player vs BBC iPlayer](/streaming-services/rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland/) for legal ways to watch BBC channels here.
 
 If your issue is less about apps and more about your actual reception — say, patchy signal for Saorview or aerial-based channels feeding into a smart TV setup — a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} can make a noticeable difference before you even get to the streaming side of things.
 

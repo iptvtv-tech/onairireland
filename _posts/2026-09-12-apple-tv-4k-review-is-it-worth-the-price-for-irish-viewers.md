@@ -1,7 +1,7 @@
 ---
-title: "Apple TV 4K Review: Is It Worth the Price for Irish Viewers?"
-excerpt: "A research-based review of the new Apple TV 4K for Irish homes: price, Irish app support, who it suits and the cheaper alternatives."
-description: "A research-based review of the new Apple TV 4K for Irish homes: price, Irish app support, who it suits and the cheaper alternatives."
+title: "Apple TV 4K Review: Is It Worth the Price in Ireland?"
+excerpt: "The new Apple TV 4K (4th gen) is €349 in Ireland from 13 November 2026. Its specs, which Irish apps it runs, and who should buy a cheaper box instead."
+description: "The new Apple TV 4K (4th gen) is €349 in Ireland from 13 November 2026. Its specs, which Irish apps it runs, and who should buy a cheaper box instead."
 categories:
   - Reviews
 tags:
@@ -18,25 +18,17 @@ seo:
   type: Article
 toc: true
 affiliate_links: true
-last_updated: 2026-11-05
-quick_facts:
-  - Apple's current model is the Apple TV 4K (4th generation), €349 on Apple's Irish store at the time of writing (November 2026)
-  - RTÉ Player, Virgin Media Play, TG4, NOW, Sky Go, GAA+, Netflix, Prime Video and Disney+ all list Apple TV support on the Irish App Store
-  - It makes most sense in a home that already uses an iPhone, iPad or Mac
-  - If you don't use Apple devices, cheaper streaming sticks and boxes cover the main Irish apps for much less
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 faqs:
-  - question: "How much does Apple TV 4K cost in Ireland?"
-    answer: "At the time of writing (November 2026), Apple's Irish store lists the Apple TV 4K (4th generation) at €349, with deliveries and in-store availability from 13 November 2026. Check apple.com/ie for the current price."
+  - question: "How much does the Apple TV 4K cost in Ireland?"
+    answer: "Apple's Irish store lists the Apple TV 4K (4th generation) at €349 at the time of writing (November 2026), available from 13 November 2026. Check apple.com/ie for the current price."
   - question: "Does Apple TV 4K have RTÉ Player and the other Irish apps?"
-    answer: "Yes. RTÉ Player, Virgin Media Play, TG4's app (listed as TG4+), NOW, Sky Go, GAA+, Netflix, Prime Video and Disney+ all list Apple TV as a supported device on the Irish App Store. Each app sets its own minimum tvOS version, which the new model meets."
-  - question: "Do I need an iPhone to use Apple TV 4K?"
-    answer: "No. You can set it up and use it with the included Siri Remote. An iPhone or iPad adds extras such as AirPlay, FaceTime on the TV through Continuity Camera, and easier sign-in, which is why it suits Apple households best."
+    answer: "Yes. On the Irish App Store, RTÉ Player, Virgin Media Play, TG4+ (TG4's app) and GAA+ all list Apple TV as a supported device."
   - question: "Is an HDMI cable included?"
     answer: "No. Apple's specifications say the HDMI cable is sold separately. The box has the Apple TV 4K, the Siri Remote and a power lead."
   - question: "Is it worth upgrading from an older Apple TV 4K?"
-    answer: "If your current Apple TV 4K runs all your apps well, there's no pressing need. The new model's main gains are a faster A19 chip, Wi-Fi 7, Ethernet as standard, hands-free Siri and a remote you can find with Find My. The new Siri Remote is also sold separately and works with older Apple TV 4K models."
-  - question: "What are the cheaper alternatives?"
-    answer: "The Fire TV Stick 4K Max, the Google TV Streamer and Roku's players all cost less and cover the main streaming apps. Check that the specific Irish apps you use, such as RTÉ Player or GAA+, are listed for the device before you buy."
+    answer: "Not if your current one runs your apps well. The new model's gains are a faster A19 chip, Wi-Fi 7, Ethernet as standard, built-in microphones for Siri and a remote you can find with Find My. Apple sells the new Siri Remote separately, and it works with older Apple TV 4K models."
 review_basis: research
 ---
 
@@ -48,89 +40,70 @@ review_basis: research
 
 {% include share-buttons.html %}
 
-{% include quick-facts.html %}
+The new Apple TV 4K is worth €349 if your household already uses an iPhone, iPad or Mac. If you mainly want RTÉ Player, Netflix and the like on the TV, a cheaper stick or box runs the same apps for much less.
 
-Apple TV 4K comes up in almost every "best streaming device" conversation, and Apple has just released a new version. The question for most Irish households isn't whether it's a good box. It's whether it's worth what it costs when a cheaper stick or box will run the same Irish apps.
+## Price and availability
 
-This review is based on Apple's published specifications, the App Store listings for the main Irish apps, and current Irish availability.
+Apple [announced the Apple TV 4K (4th generation)](https://www.apple.com/ie/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/) on 13 October 2026. [Apple's Irish store](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) lists one model at **€349 at the time of writing (November 2026)**, available from 13 November.
 
-## Which Apple TV 4K is on sale in Ireland?
+Some shops may still have the previous Apple TV 4K (3rd generation, 2022). That came in two versions, and only the 128GB Wi-Fi + Ethernet one has an Ethernet port, so check which one you're looking at.
 
-Apple announced the **Apple TV 4K (4th generation)** on 13 October 2026. On Apple's Irish store it's listed at **€349 at the time of writing (November 2026)**, with deliveries and in-store availability from 13 November 2026.
+## What you get
 
-There's one version this time. Apple's specifications list:
+From [Apple's Irish specifications page](https://www.apple.com/ie/apple-tv-4k/specs/):
 
 - **Storage:** 128GB
-- **Chip:** A19, which Apple says gives up to 50% faster CPU performance than the previous generation, plus a built-in AV1 decoder for more efficient streaming
-- **Connections:** Wi-Fi 7, Gigabit Ethernet and HDMI 2.1, with Thread for smart home accessories
-- **Picture and sound:** Dolby Vision, HDR10, HDR10+ and HLG, and Dolby Atmos
-- **Remote:** the Siri Remote (4th generation), which charges over USB-C and now works with Find My, so you can make it play a sound when it's lost down the side of the couch
+- **Chip:** A19. Apple says it gives up to 50% faster CPU performance than the previous generation, and it has a dedicated AV1 decoder for more efficient streaming
+- **Connections:** Wi-Fi 7, Gigabit Ethernet, HDMI 2.1 and Thread for smart home accessories
+- **Picture and sound:** Dolby Vision, HDR10, HDR10+ and HLG, with Dolby Atmos
+- **Microphones:** three built into the box, so you can talk to Siri without the remote. Apple says far-field microphone support for Siri varies by region and language
+- **Remote:** Siri Remote (4th generation), charged over USB-C, with Find My and Precision Finding on a compatible iPhone
 - **In the box:** the Apple TV 4K, the Siri Remote and a power lead. The HDMI cable is sold separately
-
-The new model also has built-in microphones, so you can talk to Siri hands-free without picking up the remote.
-
-**Buying the previous model?** Some shops may still have the Apple TV 4K (3rd generation) from 2022. That came in two versions: a 64GB Wi-Fi model and a 128GB Wi-Fi + Ethernet model. Only the Wi-Fi + Ethernet version has an Ethernet port and Thread, so check which one you're looking at if a wired connection matters to you.
 
 ## Irish app support
 
-App support isn't a weak point. On the Irish App Store, all of these list Apple TV as a supported device:
+On the Irish App Store, these all list Apple TV as a supported device:
 
-| App | What it is | On Apple TV |
-|---|---|---|
-| [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) | RTÉ's free catch-up and live TV | Yes |
-| [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/) | Virgin Media Television's free player | Yes |
-| [TG4](/streaming-services/tg4-player-what-you-get-for-free/) | TG4's player, now listed on the App Store as TG4+ | Yes |
-| [NOW](/streaming-services/sky-stream-vs-now-ireland/) | Sky's no-contract streaming service | Yes |
-| Sky Go | Included for Sky TV customers | Yes |
-| [GAA+](/installation-guides/how-to-set-up-gaa-on-an-apple-tv/) | The GAA's own streaming service, which replaced GAAGO in 2025 | Yes |
-| Netflix, Prime Video, Disney+ | The main subscription services | Yes |
+- **[RTÉ Player](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073):** catch-up for up to 21 days, plus RTÉ One, RTÉ2 and RTÉ News Now live for selected programmes, according to the listing
+- **[Virgin Media Play](https://apps.apple.com/ie/app/id602597705)**
+- **[TG4+](https://apps.apple.com/gb/app/tg4-player/id598591024):** TG4's app, which needs tvOS 26 or later
+- **[GAA+](https://apps.apple.com/ie/app/gaa-watch-live-gaa/id1448880157):** the GAA's own streaming service. See our [GAA+ on Apple TV guide](/installation-guides/how-to-set-up-gaa-on-an-apple-tv/)
 
-Each app sets its own minimum tvOS version (TG4+ currently needs tvOS 26), and a new Apple TV 4K meets all of them. If you're buying an older model second-hand, check it can run a recent enough tvOS for the apps you want.
+A new Apple TV 4K meets every app's minimum tvOS version. If you're buying an older model second-hand, check it can run a recent enough tvOS.
 
-Apple's own [Apple TV service](/streaming-services/is-apple-tv-plus-available-in-ireland/) is built in, and Apple offers new and returning subscribers a trial when they buy the box. Apple TV is a subscription on top of the box price, not part of it.
+{% assign appletv = site.data.prices | where: "service", "Apple TV" | first %}
+Apple's own [Apple TV service](/streaming-services/is-apple-tv-plus-available-in-ireland/) is built in, but it's a separate subscription: {% include euro.html amount=appletv.monthly %} a month on [Apple's Irish site](https://www.apple.com/ie/apple-tv/) (checked {{ appletv.checked | date: "%-d %B %Y" }}).
 
 ## Who it suits
 
-Apple TV 4K makes the most sense if your household already uses Apple devices:
-
-- **AirPlay:** you can send a video, photos or your whole screen from an iPhone, iPad or Mac to the TV.
-- **FaceTime on the TV:** with a compatible iPhone or iPad as the camera, you can make FaceTime calls on the big screen.
-- **Apple Home:** it works as a home hub for HomeKit and Matter accessories, with Thread built in. Apple says it can also show a compatible doorbell's alerts on the TV.
-- **Apple services:** Apple TV, Apple Music, Apple Fitness+ and Apple Arcade all sit naturally on it, and your iCloud photos can be used as a screen saver.
-
-It's also a reasonable pick if you want a box with plenty of headroom: 128GB of storage, a fast chip and Wi-Fi 7 leave room for future apps and updates.
+- **Apple households:** AirPlay sends video, photos or your screen from an iPhone, iPad or Mac to the TV, and the box works as an Apple Home hub with Thread.
+- **People who want headroom:** 128GB, Wi-Fi 7 and Ethernet as standard leave room for future apps and updates.
 
 ## Where it falls short
 
-- **Price.** At €349 it costs a lot more than a streaming stick, and more than most rival boxes. You're paying mainly for speed, polish and how well it works with other Apple devices.
-- **Less benefit without Apple devices.** If nobody in the house uses an iPhone, iPad or Mac, features like AirPlay, FaceTime and Apple Home add little.
-- **No cable in the box.** You'll need an HDMI cable, and for the best picture on a 4K TV it should be one rated for the speed.
-- **No TV channels on its own.** Like any streaming box, it doesn't replace an aerial or Saorview. Live RTÉ, Virgin Media Television and TG4 come through their apps, which need a broadband connection. If you watch live TV through any device in Ireland, our [TV licence guide](/streaming-services/tv-licence-streaming-ireland/) explains the rules.
+- **Price.** €349 is far more than a streaming stick. You're paying mainly for speed and how well it works with other Apple devices.
+- **Little extra without Apple devices.** AirPlay and Apple Home add nothing if nobody in the house uses them.
+- **No cable in the box.** Budget for an HDMI cable.
+- **No TV channels on its own.** Live RTÉ, Virgin Media Television and TG4 come through their apps over broadband, not an aerial. Our [TV licence guide](/streaming-services/tv-licence-streaming-ireland/) explains the rules if you watch live TV this way.
 
-## Value against the cheaper alternatives
+## Cheaper alternatives
 
-For a house that just wants Netflix, RTÉ Player and the like on the TV, a cheaper device does the same job:
-
-- **[Fire TV Stick 4K Max](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/):** Amazon's higher-spec 4K stick, with Alexa voice search.
-- **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/):** Google's own streaming box, a natural fit for Android households.
-- **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/):** known for a simple, uncluttered menu.
-
-Whichever one you look at, check that the Irish apps you actually use are available on it before you buy. App lists vary by device, and that matters more than the spec sheet. The Fire TV Cube, which often comes up as a premium alternative, wasn't sold through Amazon.ie when our [Fire TV Cube review](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) was last updated in October 2026.
+- **[Fire TV Stick 4K Max](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/):** runs Fire OS 8, with the Amazon Appstore. Avoid the 2026 Fire TV Stick 4K and HD and the 4K Select if Irish apps matter: they run Vega OS, and RTÉ Player, Virgin Media Play and TG4 Player weren't confirmed on it when we checked.
+- **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/):** Google's box, sold on the Google Store Ireland, with Ethernet built in.
+- **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/):** Roku says RTÉ Player is officially available on its devices in Ireland, and Virgin Media Play is in its Channel Store.
 
 ## Verdict
 
-The Apple TV 4K isn't overpriced for what it is. It's a premium box priced like one. On paper the new model is fast, well connected and supports every main Irish app, from RTÉ Player and TG4 to NOW and GAA+.
+**Buy it if** you already use an iPhone, iPad or Mac, use AirPlay or Apple's services, or want an Apple Home hub under the TV.
 
-**Buy it if** you already live with an iPhone, iPad or Mac, you use AirPlay or Apple's services, or you want an Apple Home hub under the TV.
+**Skip it if** you mainly want the Irish apps and the big subscription services. A cheaper device covers those. Compare them in our [streaming devices guide](/devices/best-streaming-devices-ireland/).
 
-**Skip it if** you mainly want the Irish apps and the big subscription services on your TV. A cheaper stick or box covers those for much less.
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-ultra-review" title="Cheaper Alternatives" %}
 
-{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-ultra-review" title="Better Value Alternatives" %}
+Sources: [Apple Newsroom Ireland: Apple unveils the new Apple TV 4K](https://www.apple.com/ie/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/) (13 October 2026) · [Apple Store Ireland: Apple TV 4K](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) (checked 10 November 2026) · [Apple TV 4K technical specifications](https://www.apple.com/ie/apple-tv-4k/specs/) (checked 10 November 2026) · App Store listings for [RTÉ Player](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073), [Virgin Media Play](https://apps.apple.com/ie/app/id602597705), [TG4+](https://apps.apple.com/gb/app/tg4-player/id598591024) and [GAA+](https://apps.apple.com/ie/app/gaa-watch-live-gaa/id1448880157) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-Related: see our [full streaming devices buying guide](/devices/best-streaming-devices-ireland/).
 
 {% include whatsapp-cta.html %}

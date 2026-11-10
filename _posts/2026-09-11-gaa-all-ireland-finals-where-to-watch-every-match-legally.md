@@ -1,7 +1,9 @@
 ---
-title: "GAA All-Ireland Finals: Where to Watch Every Match Legally"
-excerpt: "A practical guide to legally watching every game of GAA Championship Finals weekend in Ireland, covering RTÉ, TG4, and GAA+ coverage splits."
-description: "A practical guide to legally watching every game of GAA Championship Finals weekend in Ireland, covering RTÉ, TG4, and GAA+ coverage splits."
+title: "All-Ireland Finals: Where to Watch Every Final"
+excerpt: "The hurling and football All-Ireland finals are free on RTÉ2 and RTÉ Player, camogie on RTÉ, ladies football on TG4. Abroad, it's GAA+."
+description: "The hurling and football All-Ireland finals are free on RTÉ2 and RTÉ Player, camogie on RTÉ, ladies football on TG4. Abroad, it's GAA+."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Sports-Streaming
 tags:
@@ -16,61 +18,69 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Is the All-Ireland Football Final free to watch in Ireland?"
-    answer: "Yes, it's typically shown free-to-air on RTÉ, viewable live on TV or via the RTÉ Player app with a valid TV licence."
-  - question: "Do I need a subscription for GAA+?"
-    answer: "Yes, GAA+ requires a paid pass to stream fixtures not covered by RTÉ or TG4, though exact pricing should be checked on the official GAA+ site as it can change."
-  - question: "Can I watch TG4's GAA coverage outside Ireland?"
-    answer: "TG4 Player's availability outside Ireland can be limited due to broadcasting rights, so check the app's current terms rather than assuming access."
-  - question: "What device do I need to stream RTÉ Player or GAA+?"
-    answer: "A smart TV, streaming stick like a Fire TV Stick or Chromecast, tablet, or phone will generally work, as long as the apps are updated and your broadband connection is stable."
+  - question: "Is the All-Ireland final on GAA+?"
+    answer: "Not on the island of Ireland. RTÉ shows the hurling and football finals, so GAA+ blocks them here and points you to RTÉ2 and RTÉ Player, which are free. Outside Ireland and Great Britain, GAA+ carries the finals."
+  - question: "Can I watch the All-Ireland finals in Britain?"
+    answer: "Yes, free on the BBC, which shows the All-Ireland semi-finals and finals alongside RTÉ. GAA+ doesn't carry those games in Great Britain."
+  - question: "When are the 2027 All-Ireland finals?"
+    answer: "The dates hadn't been announced when we checked (10 November 2026). The broadcast deals run to the end of 2027, so expect RTÉ, TG4 and the BBC to have the finals again."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Finals Weekend Is Here — Let's Talk Coverage
+**In Ireland, every senior All-Ireland final is free to watch.** The hurling and football finals are live on RTÉ2 and RTÉ Player, the camogie finals are on RTÉ, and the ladies football finals are on TG4 and TG4 Player. GAA+ only comes into it if you're watching from outside Ireland and Britain.
 
-All-Ireland Finals weekend is the pinnacle of the GAA calendar, and for once, working out where to watch isn't as complicated as it is for [the rest of the Championship](/gaa/). Between RTÉ's free-to-air coverage, TG4's dedicated slots, and [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) filling in the gaps, most fans in Ireland can catch the big games without much fuss. Here's how it typically breaks down.
+The 2026 finals have been played. This guide covers how the finals are shown each year, and we'll add the 2027 dates once they're announced.
 
-### RTÉ: Your First Port of Call
+## All-Ireland finals at a glance
 
-RTÉ has held broadcast rights to the marquee Finals — the Hurling and Football All-Ireland Finals — for decades, and that's unlikely to change any time soon. These games are shown free-to-air on RTÉ2 or RTÉ One, with build-up shows, half-time analysis, and post-match reaction all part of the package.
+| Final | In Ireland | In Great Britain | Rest of the world |
+|---|---|---|---|
+| Hurling and football | RTÉ2 and RTÉ Player, free | BBC, free | GAA+ |
+| Camogie | RTÉ, free | — | — |
+| Ladies football | TG4 and TG4 Player, free | — | — |
 
-If you're at home, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) is the easiest way to stream live, either through a smart TV app, a browser, or a streaming stick like a Chromecast or Fire TV Stick. It's free with a valid TV licence, and no subscription is needed on top. The Player app also lets you catch up afterwards if you miss throw-in, though obviously nothing beats watching the Final live.
+The dashes mean we couldn't find an official statement on coverage there. Check the broadcaster before the day.
 
-One thing worth double-checking closer to the day: RTÉ occasionally simulcasts or splits coverage between channels when there are scheduling clashes (for example, if a minor or club fixture overlaps). It's always worth glancing at the official RTÉ GAA schedule in the days beforehand rather than assuming a fixed channel. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+## Hurling and football finals: RTÉ
 
-### TG4: Camogie, Ladies Football, and More
+RTÉ shows the All-Ireland football and hurling semi-finals and finals live, on RTÉ2 and RTÉ Player. In 2026 the hurling final was on 19 July and the football final on 26 July, according to [RTÉ's championship schedule](https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte). RTÉ also offered Irish-language commentary on finals day in 2026, and RTÉ Radio 1 carries live radio commentary.
 
-TG4 has built a brilliant reputation for its GAA coverage, particularly around the Ladies Football and Camogie Championships. Their All-Ireland Finals coverage tends to include strong pre-match build-up and is available both on the TG4 channel and through the [TG4 Player](/streaming-services/tg4-player-what-you-get-for-free/) app.
+Under the [GAA's 2023 to 2027 broadcast deals](https://www.gaa.ie/news/gaa-broadcast-statement-2023-2027), BBC Northern Ireland simulcasts the All-Ireland semi-finals and finals with RTÉ.
 
-Commentary is primarily as Gaeilge, though English-language radio or match-tracker alternatives are often available for those who want it. TG4's app works well on smart TVs and mobile devices, and like RTÉ Player, it's free to use.
+Watching on a TV set needs a TV licence, even if you only use RTÉ Player. See our [TV licence and streaming guide](/streaming-services/tv-licence-streaming-ireland/).
 
-### GAA+: The Streaming Layer for Everything Else
+## Camogie finals: RTÉ
 
-Not every game across Finals weekend gets a slot on terrestrial television — provincial deciders, minor finals, and some lower-tier Championship fixtures often end up exclusively on GAA+, the GAA's own streaming platform. This is where a lot of fans get caught out, assuming every fixture is on RTÉ when in fact it's been streamed separately.
+RTÉ showed the 2026 All-Ireland junior, intermediate and senior camogie finals live from Croke Park on Sunday 9 August, [according to RTÉ](https://about.rte.ie/2026/07/31/think-summer-of-sport-is-over-think-again-more-live-sport-more-big-moments-more-to-come-on-rte/). RTÉ Radio 1 and Raidió na Gaeltachta also had the senior final live.
 
-If you're following more than just the headline Finals — say you want to catch a curtain-raiser or a replay — it's worth having access sorted in advance rather than scrambling on the morning of the match. [GAA+](https://www.gaaplus.ie/), the GAA's own streaming service, offers a range of packages, so check whether a longer one works out better value than paying match by match if you're a regular follower of multiple codes.
+## Ladies football finals: TG4
 
-GAA+ streams work through a browser or app on most smart TVs, tablets, and phones. As always with subscription platforms, double-check current pricing and exact plan details on the official site before committing, since these do get updated seasonally.
+TG4 sponsors and broadcasts the All-Ireland Ladies Football Championships under a deal that runs to the end of 2032, so the finals are on TG4 and TG4 Player. The 2026 junior, intermediate and senior finals were played at Croke Park on Sunday 2 August, [TG4 says](https://www.tg4.ie/en/information/press/press-releases/2026-2/over-half-a-million-tune-in-live-to-the-tg4-ladies-football-finals/). Commentary on TG4's GAA coverage is in Irish. For what else is on the Player, see [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/).
 
-### Don't Forget Other Sport That Weekend
+## GAA+ and watching from abroad
 
-Finals weekend often overlaps with other live sport — rugby fixtures, GAA club coverage, or international games — and for households that follow multiple sports, a broader subscription can make sense. Premier Sports is a common addition for Irish sports fans who want rugby and other coverage alongside their GAA viewing, and it's available through most major streaming boxes and smart TV platforms. Our [United Rugby Championship guide](/sports-streaming/where-to-watch-the-united-rugby-championship-legally-in-ireland/) covers what it shows.
+GAA+, the GAA's own paid service, doesn't show the finals in Ireland. Its help page on [accessing All-Ireland games](https://help.gaaplus.ie/support/solutions/articles/77000600626-accessing-all-ireland-games) says:
 
-### Getting Set Up Before the Day
+- **Island of Ireland:** the games are on RTÉ, so they're blocked on GAA+. Watch on TV or RTÉ Player, free, in the Republic and Northern Ireland.
+- **Great Britain:** they're not on GAA+ either, because the BBC shows them free. The GAA+ Annual Pass GB leaves out the BBC games.
+- **Rest of the world:** GAA+ shows the games and the highlights shows.
 
-Whichever combination of RTÉ Player, TG4 Player, and GAA+ you're relying on, it's worth testing your setup a day or two beforehand — logging into apps, checking for software updates on your streaming device, and confirming your broadband can handle HD streaming without buffering. Finals weekend is not the day you want to be troubleshooting a smart TV app for the first time.
+If you're on holiday in Ireland with an overseas GAA+ pass, the finals are still blocked, so use RTÉ Player.
 
-With the legal viewing landscape as straightforward as it is for Finals weekend, there's really no need to look beyond these official platforms. Settle in, get the snacks sorted, and enjoy the biggest day on the GAA calendar the right way.
+## What we know about 2027
 
-{% include product-showcase.html category="Sports Streaming" %}
+- The GAA's current broadcast deals run to the end of the 2027 season, so RTÉ, TG4 and the BBC keep their rights for 2027.
+- The 2027 final dates, RTÉ's game picks and the 2027 GAA+ prices hadn't been announced when we checked.
+- Coverage from 2028 depends on new deals that haven't been announced.
+
+For how GAA coverage works across the whole season, see [where to watch GAA legally in Ireland](/streaming-services/where-to-watch-gaa-legally-ireland/). For this week's games, see [sport on TV this week](/sport-on-tv/).
+
+Sources: [RTÉ: the GAA championships on RTÉ](https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte) (checked 10 November 2026) · [RTÉ: summer of sport](https://about.rte.ie/2026/07/31/think-summer-of-sport-is-over-think-again-more-live-sport-more-big-moments-more-to-come-on-rte/) (checked 10 November 2026) · [TG4: ladies football finals](https://www.tg4.ie/en/information/press/press-releases/2026-2/over-half-a-million-tune-in-live-to-the-tg4-ladies-football-finals/) (checked 10 November 2026) · [TG4: ladies football deal to 2032](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/) (checked 10 November 2026) · [GAA broadcast statement 2023 to 2027](https://www.gaa.ie/news/gaa-broadcast-statement-2023-2027) (checked 10 November 2026) · [GAA+: accessing All-Ireland games](https://help.gaaplus.ie/support/solutions/articles/77000600626-accessing-all-ireland-games) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

@@ -110,7 +110,7 @@ Sport is split across several services, so the cheapest route depends on what yo
 | --- | --- |
 | **GAA** | RTÉ (35 live championship games in 2026) and TG4 (free); **GAA+** for 40 exclusive games — the 2026 Season Pass cost €95, or €15 per match |
 | **Premier League football** | Sky Sports (most games), TNT Sports, and Premier Sports, which has an exclusive Saturday 3pm game every round in Ireland. On NOW: Sports (Sky Sports, €38.99 a month) plus Sports Extra (TNT and Premier Sports, €33.99), or both for €27 a month on the 12-month Sports Saver |
-| **Champions League football** | Free games on RTÉ (first pick of Wednesdays) and Virgin Media until 2027; Premier Sports has first pick of Tuesday games. From 2027–28 Virgin drops out: RTÉ keeps free Wednesday games and the final, Premier Sports keeps Tuesdays and Sky Sports gets the rest |
+| **Champions League football** | Free games on RTÉ (Wednesdays) and Virgin Media until 2027; Premier Sports has first pick of Tuesday games. From 2027–28 Virgin drops out: RTÉ keeps free Wednesday games and the final, Premier Sports keeps Tuesdays and Sky Sports gets the rest |
 | **Rugby** | Six Nations free on RTÉ and Virgin Media; Ireland's November internationals free on Virgin Media; URC free on TG4 (selected games) and every Irish province match on Premier Sports; Champions Cup on Premier Sports |
 | **Formula 1** | Sky Sports only (exclusive in Ireland until 2034), or NOW with no contract |
 | **Golf and other events** | Mostly Sky Sports, with some free coverage on RTÉ |

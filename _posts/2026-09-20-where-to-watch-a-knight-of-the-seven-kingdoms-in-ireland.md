@@ -1,7 +1,9 @@
 ---
 title: "Where to Watch A Knight of the Seven Kingdoms in Ireland"
-excerpt: "Watch A Knight of the Seven Kingdoms in Ireland on Sky Atlantic or NOW: which membership you need and the best devices."
-description: "Watch A Knight of the Seven Kingdoms in Ireland on Sky Atlantic or NOW: which membership you need and the best devices."
+excerpt: "A Knight of the Seven Kingdoms is on HBO Max in Ireland, on NOW's Entertainment & HBO Max membership and with Sky Ultimate TV. Prices and season 2 news."
+description: "A Knight of the Seven Kingdoms is on HBO Max in Ireland, on NOW's Entertainment & HBO Max membership and with Sky Ultimate TV. Prices and season 2 news."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Watch-Guides
 tags:
@@ -16,53 +18,65 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Do I need a Sky subscription to watch A Knight of the Seven Kingdoms in Ireland?"
-    answer: "No, you can also watch it via NOW with at least an Entertainment Membership, without needing a full Sky subscription or satellite setup."
-  - question: "Is A Knight of the Seven Kingdoms included in the basic NOW membership?"
-    answer: "You'll need a membership tier that includes Sky Atlantic content, typically the Entertainment Membership, so it's worth checking your specific package in the NOW app."
-  - question: "What should I do if the show isn't showing up in my NOW app?"
-    answer: "Check that your membership includes Entertainment content, make sure the app is updated, and contact NOW's customer support if the issue persists."
-  - question: "Which streaming device is best for watching NOW in Ireland?"
-    answer: "Both the Fire TV Stick 4K and Roku Streaming Stick Plus support the NOW app reliably and are popular choices among Irish viewers."
+  - question: "Is A Knight of the Seven Kingdoms on HBO Max in Ireland?"
+    answer: "Yes. HBO Max's Irish site lists season 1, all six episodes."
+  - question: "Can I watch it with a NOW Entertainment membership?"
+    answer: "NOW says you need the Entertainment & HBO Max membership to stream every episode. That membership includes HBO Max Basic with Ads."
+  - question: "Do I need Sky to watch it?"
+    answer: "No. You can subscribe to HBO Max directly or use NOW, with no contract. If you already have Sky Ultimate TV, it includes HBO Max Basic with Ads, which you activate from your Sky box."
+  - question: "When is season 2 out?"
+    answer: "HBO says season 2 will debut in 2027. It hasn't given a date yet."
 ---
- 
+
 {% include last-updated.html %}
- 
-{% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-## Where to Watch A Knight of the Seven Kingdoms in Ireland
 
-George R.R. Martin's Dunk & Egg novellas have finally made it to screen with *A Knight of the Seven Kingdoms*, HBO's latest addition to the Game of Thrones universe. The first season, subtitled *The Hedge Knight*, aired between January and February 2026, and Irish fans of Westeros have a couple of straightforward, legal ways to catch it.
+*A Knight of the Seven Kingdoms* is streaming in Ireland on HBO Max, on NOW's Entertainment & HBO Max membership, and through Sky Ultimate TV, which includes HBO Max. All six episodes of season 1 are available, and HBO says season 2 is coming in 2027.
 
-### Sky Atlantic and NOW
+## At a glance
 
-In Ireland, HBO content typically reaches us through Sky, and that's the case here too. *A Knight of the Seven Kingdoms* is available on **Sky Atlantic** for those with a Sky subscription that includes the channel, and it's also streaming on **[NOW](/streaming-services/sky-stream-vs-now-ireland/)**, Sky's standalone streaming platform that doesn't require a satellite dish or a Sky Q box.
+- **What it is:** a *Game of Thrones* spin-off set a century earlier, following Ser Duncan the Tall and his squire, Egg.
+- **Season 1:** six episodes, first shown in January 2026.
+- **Where:** HBO Max, NOW (Entertainment & HBO Max) or Sky Ultimate TV.
+- **Season 2:** due in 2027, according to HBO.
 
-If you're going the NOW route, you'll need at least a **[NOW Entertainment Membership](/now-and-sky/)** to access it, since this is where Sky Atlantic's on-demand content lives on the platform. If you already have a broader NOW package that includes Entertainment, you're covered. It's always worth double-checking your specific membership tier in the NOW app or on the NOW website before you settle in, as package names and what they include can shift over time.
+## On HBO Max
 
-If you're a longtime Sky customer with a satellite setup, Sky Atlantic comes through your Sky box. A standard free-to-air satellite receiver can't show Sky's channels, so if your box is getting on in years, ask Sky about an upgrade.
+[HBO Max's Irish page for the series](https://www.hbomax.com/ie/en/show/3507a932-eace-46ea-bfe1-638ae819fa12) lists season 1 with all six episodes: *The Hedge Knight*, *Hard Salt Beef*, *The Squire*, *Seven*, *In the Name of the Mother* and *The Morrow*. It's rated 16+.
 
-### Confirming Availability
+{% assign hbo = site.data.prices | where: "service", "HBO Max" %}
+HBO Max's Irish plans at the time of writing (November 2026):
 
-Streaming rights and channel line-ups can change, so if you go looking for *A Knight of the Seven Kingdoms* and can't find it where you expect, the most reliable first step is to check directly within the NOW app or on Sky's own website rather than guessing. Log-in issues or a show not appearing are usually down to one of a few ordinary things: your membership tier not including Entertainment content, the app needing an update, or your account being registered under a different regional setting than you expect. Sky and NOW's own help pages and customer support are the best port of call if something isn't showing up as it should — they can confirm your account status and membership level far more reliably than trial and error.
+| Plan | Monthly |
+|---|---|
+{% for p in hbo %}| {{ p.plan }} | {% include euro.html amount=p.monthly %} |
+{% endfor %}
 
-### Which Devices and Apps Work Best
+*Prices checked {{ hbo[0].checked | date: "%-d %B %Y" }} on [HBO Max Ireland](https://www.hbomax.com/ie/en). See the [streaming prices tracker](/streaming-prices/) for every service.*
 
-The NOW app is broadly available across most modern streaming devices and smart TVs, but if you're setting up a streaming box specifically for shows like this, a couple of options stand out for reliability and app support.
+All three plans include the series. HBO Max's Irish pages list monthly plans only, with no yearly option at the time of writing. Our [HBO Max in Ireland guide](/news/is-hbo-max-coming-to-ireland/) covers the plans and devices in more detail.
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a popular choice in Irish households, plugging directly into your TV's HDMI port and giving you fast access to the NOW app alongside everything else you're likely already using, from other streaming services to catch-up TV apps. It supports 4K and HDR playback, which is handy if your broadband speeds and TV can make use of it.
+## On NOW
 
-Alternatively, the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a lightweight, straightforward option that also carries the NOW app, along with a wide range of other Irish and UK streaming services. [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/)'s interface is simple to navigate, which makes it a good pick if you want something the whole household can use without much fuss.
+{% assign now_hbo = site.data.prices | where: "plan", "Entertainment & HBO Max" | first %}
+[NOW's page for the series](https://www.nowtv.com/ie/membership/watch-tv-shows/hbo/watch-a-knight-of-the-seven-kingdoms) says you can stream every episode with an **Entertainment & HBO Max** membership. That membership is {% include euro.html amount=now_hbo.monthly %} a month on standard pricing and includes HBO Max Basic with Ads, with no contract. NOW often has introductory prices with a minimum term, so read the terms on [NOW's membership page](https://www.nowtv.com/ie/membership) before you sign up.
 
-[Fire TV Cube](/reviews/fire-tv-cube-review-is-it-worth-the-upgrade-for-irish-viewers/) and Chromecast are also worth considering if you're comparing devices, particularly if you already use other products in either ecosystem, since app support for NOW should be consistent across these mainstream streaming devices. Whichever you choose, just make sure the NOW app is downloaded from your device's own app store while your account and device are both set to the correct region.
+The plain Entertainment membership isn't enough for this series on its own, according to NOW's page.
 
-### A Quick Recap
+## On Sky
 
-To sum up: watch *A Knight of the Seven Kingdoms* in Ireland via **Sky Atlantic** if you have a Sky subscription, or through **NOW** with at least an Entertainment Membership. Stream it on a Fire TV Stick, Roku device, Fire TV Cube, or Chromecast for the smoothest experience, and if anything seems off with availability, check your account settings and reach out to Sky or NOW support rather than assuming the worst.
+[Sky Ultimate TV](https://www.sky.com/ie/tv/apps/hbo-max) includes HBO Max Basic with Ads. You activate it from a Sky Glass or Sky Stream box with Ultimate TV, or from Sky Q with Sky Signature or Sky Entertainment. Sky says the HBO Max app isn't available to Essential TV customers, who can buy a subscription through Sky instead. If you already pay for HBO Max directly, Sky warns that taking it through Sky may leave you with two subscriptions.
+
+Our [Sky Stream vs NOW guide](/streaming-services/sky-stream-vs-now-ireland/) compares the two if you're choosing between them.
+
+## Season 2
+
+HBO renewed the series in November 2025, before season 1 began, and says [the second season will debut in 2027](https://press.wbd.com/us/media-release/hbo-announces-season-renewals-two-game-thrones-franchise-series-setting-new-seasons). There's no date yet. We'll update this page when HBO Max Ireland or Sky confirms one.
+
+Sources: [HBO Max Ireland: A Knight of the Seven Kingdoms](https://www.hbomax.com/ie/en/show/3507a932-eace-46ea-bfe1-638ae819fa12) (checked 10 November 2026) · [NOW Ireland: A Knight of the Seven Kingdoms](https://www.nowtv.com/ie/membership/watch-tv-shows/hbo/watch-a-knight-of-the-seven-kingdoms) (checked 10 November 2026) · [Sky Ireland: HBO Max](https://www.sky.com/ie/tv/apps/hbo-max) (checked 10 November 2026) · [HBO press release: season renewals](https://press.wbd.com/us/media-release/hbo-announces-season-renewals-two-game-thrones-franchise-series-setting-new-seasons) (20 November 2025)
 
 {% include faq-section.html %}
 

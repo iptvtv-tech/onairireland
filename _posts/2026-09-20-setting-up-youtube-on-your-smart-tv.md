@@ -1,7 +1,9 @@
 ---
-title: "Setting Up YouTube on Your Smart TV"
-excerpt: "How to install, sign in to and fix the YouTube app on the smart TVs and streaming devices most common in Irish homes."
-description: "How to install, sign in to and fix the YouTube app on the smart TVs and streaming devices most common in Irish homes."
+title: "How to Set Up YouTube on Your Smart TV"
+excerpt: "YouTube is already on most smart TVs. How to install it if it's missing, sign in with a code at yt.be/activate, use guest mode, and fix sign-in problems."
+description: "YouTube is already on most smart TVs. How to install it if it's missing, sign in with a code at yt.be/activate, use guest mode, and fix sign-in problems."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Installation-Guides
 tags:
@@ -18,14 +20,12 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Do I need a Google account to use YouTube on my smart TV?"
-    answer: "You need a Google account to sign in for personalised features like subscriptions and watch history, but many TVs let you browse YouTube without signing in."
-  - question: "Why can't I find YouTube in my TV's app store?"
-    answer: "This is often due to a mismatched regional app store setting on the TV rather than an actual unavailability, so check your system region settings first."
-  - question: "Can I use the same YouTube Premium subscription on my TV and phone?"
-    answer: "Yes, Premium is tied to your Google account, so signing into that same account on the TV app applies your subscription automatically."
-  - question: "Is a streaming stick necessary if my TV already has apps built in?"
-    answer: "Not necessarily, but a device like a Fire TV Stick, Fire TV Cube, Roku, or Chromecast can be a good option if your TV's built-in software is slow or outdated."
+  - question: "Do I need to sign in to watch YouTube on my TV?"
+    answer: "No. Choose Guest on the 'Who's watching?' screen to watch signed out. Sign in if you want your subscriptions, history and recommendations."
+  - question: "Does YouTube Premium work on the TV app?"
+    answer: "Yes. YouTube says Premium benefits work on any smart TV, streaming device or games console where you're signed in to the YouTube app with your Premium account. Downloads and background play are mobile-only."
+  - question: "Can I use my phone instead of the remote?"
+    answer: "Yes. With your phone and TV on the same Wi-Fi, tap the Cast icon in the YouTube app on your phone and pick your TV. On different networks, link them with the TV code under Settings > Add a device."
 ---
 
 {% include last-updated.html %}
@@ -34,53 +34,65 @@ faqs:
 
 {% include share-buttons.html %}
 
-## Why YouTube Belongs on the Big Screen
+YouTube is already installed on most smart TVs, streaming sticks and games consoles. If it's there, open it and sign in by scanning the QR code or entering the code on screen at **yt.be/activate**; if it's missing, install it from your TV's app store first.
 
-YouTube has quietly become one of the most-watched services on Irish televisions, covering everything from music and documentaries to GAA highlights and tech reviews. Unlike some streaming apps, YouTube is free to use, though a Premium subscription removes ads and adds background play. Getting it properly installed and signed in only takes a few minutes on most platforms.
+## At a glance
 
-This guide walks through the process on the main smart TV operating systems and streaming devices sold here, along with a few fixes for common sign-in and playback hiccups.
+- **Cost:** free, with ads. YouTube Premium removes ads on the TV app too.
+- **Already on:** most smart TVs, streaming devices and consoles, according to [YouTube Help](https://support.google.com/youtube/answer/16432961?hl=en)
+- **Sign in:** with your phone (code at yt.be/activate) or with the remote
+- **No account needed:** use Guest mode to watch signed out
 
-## Before You Start
+## 1. Install the app if it's missing
 
-Make sure your television or streaming device is connected to the internet, either via Wi-Fi or a wired connection. If you're setting up a new TV, this is also a good moment to check your cabling — a decent {% include product-link.html id="hdmi-cable-4k" text="High-Speed HDMI 2.1 Cable" %} helps avoid dropouts or resolution issues, particularly if you're running 4K content or a soundbar through the same connection.
+YouTube lists apps for Samsung and LG TVs, Android TV and Google TV, Fire TV, Roku, Apple TV, Chromecast with Google TV, PlayStation and Xbox. If yours doesn't show it, search for "YouTube" in the device's app store:
 
-It's also worth having your Google account details handy, or your phone nearby, since several platforms let you sign in by scanning a QR code rather than typing a password with a remote.
+- **Samsung:** Apps on the home screen
+- **LG:** LG Content Store
+- **Android TV / Google TV:** Google Play Store
+- **Fire TV:** search from the home screen
+- **Roku:** Streaming Store; Roku shows "Channel added" when it's installed
 
-## Installing YouTube on Smart TV Platforms
+If your TV has no YouTube app at all, you can cast from a phone (see step 4) or add a streaming device with YouTube built in, such as the {% include product-link.html id="google-tv-streamer" text="Google TV Streamer" %}.
 
-Most modern smart TVs — whether running Android TV, Google TV, Tizen (Samsung), or webOS (LG) — come with YouTube pre-installed. If it's missing or was removed, you can reinstall it from the TV's own app store.
+## 2. Sign in
 
-**Samsung (Tizen) and LG (webOS):** Open the Apps section from the home screen, search for "YouTube," and select install. Once installed, opening the app usually presents a sign-in screen with an on-screen code. Visit youtube.com/activate on your phone or computer, enter the code, and select your account.
+[YouTube's sign-in help](https://support.google.com/youtube/answer/3015415?hl=en-GB) gives two ways:
 
-**Android TV and Google TV:** YouTube is typically built in and signed in automatically if you used a Google account during setup. If not, it's available through the Google Play Store icon on the home screen.
+**With your phone (easiest)**
+1. Open YouTube on the TV and choose to sign in with your phone.
+2. Scan the QR code, or go to **yt.be/activate** on your phone, tablet or computer.
+3. Enter the code shown on the TV and pick your Google account.
 
-## Setting It Up on Streaming Devices
+**With the remote**
+Choose the remote option and type your Google account email and password with the on-screen keyboard.
 
-If your television doesn't have a modern smart platform, a streaming stick is usually the simplest fix.
+If the phone method fails, YouTube suggests checking that the phone and TV are on the same Wi-Fi, turning off mobile data on the phone, and re-typing the code carefully. Or try the other method.
 
-**Fire TV Stick and Fire TV Cube:** From the home screen, go to the search icon, type "YouTube," and select Get or Download. Amazon's Fire TV interface doesn't include YouTube by default on every model, but it's readily available through the app store. Sign in using the code method described above.
+To watch without signing in, choose **Guest** on the "Who's watching?" screen. YouTube says what you watch in guest mode doesn't affect your account's recommendations.
 
-**[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/):** Open the Roku Channel Store, search for YouTube, and add it to your channel list. Roku will prompt you to activate the app using a code entered on a separate browser.
+## 3. Sign out or switch account
 
-**[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) or Chromecast with Google TV:** YouTube comes pre-loaded, and if you signed into your Google account during initial setup, it should already be linked. Otherwise, install it from the built-in app store and follow the same activation code process.
+On a shared TV, go to the left-hand menu, select your profile picture, choose the account and select **Sign out**, or **Remove account** to take it off the TV completely ([YouTube Help](https://support.google.com/youtube/answer/7612539?hl=en)).
 
-If you're mounting a new TV alongside setting up these devices, an {% include product-link.html id="tv-wall-mount" text="Adjustable TV Wall Mount" %} makes it easier to angle the screen correctly and tidy away cabling from streaming sticks and cubes sitting behind the panel.
+## 4. Use your phone as a remote
 
-## Fixing Common Sign-In and Playback Issues
+With the phone and TV on the same Wi-Fi, open YouTube on both, tap the **Cast** icon on a video on your phone and pick the TV. If they're on different networks, open YouTube **Settings > Add a device** on the TV to get a code, then on your phone tap Cast > Add a device and enter it ([YouTube Help](https://support.google.com/youtube/answer/7640706?hl=en-GB&co=GENIE.Platform%3DAndroid)).
 
-**"Something went wrong" or endless loading:** This is usually a connectivity issue rather than an account problem. Restart your router and the streaming device, and confirm other apps are working normally.
+## Can't sign in?
 
-**Buffering during peak evening hours:** If multiple devices in the house are streaming simultaneously, your Wi-Fi may be struggling to keep up. A {% include product-link.html id="mesh-wifi-system" text="Mesh Wi-Fi System (2-pack)" %} can improve coverage and stability throughout the house, particularly if your TV is in a room far from the router.
+YouTube's [troubleshooting page](https://support.google.com/youtube/answer/3079858) lists these steps:
 
-**Wrong account signed in:** Go to your account icon within the YouTube app and select "Switch Account" or "Sign Out," then repeat the activation process with the correct Google account.
+1. Restart the TV or device.
+2. Update the YouTube app to the latest version.
+3. Check you're signing in with a Google account.
+4. Reset the YouTube app from its Settings (this signs you out).
 
-**App store showing no results for YouTube:** This can happen if the TV's regional app store setting doesn't match your actual location. Check the store or account region setting in your TV's system menu and make sure it matches where you're actually using the device, then search again.
+## YouTube Premium on the TV
 
-## A Quick Note on Premium Features
+[YouTube says](https://support.google.com/youtube/answer/6308244?hl=en) Premium benefits, such as no ads, work on any smart TV, streaming device or console where you're signed in with your Premium account. Downloads and background play only work in the mobile apps. If you still see ads, check which account the TV is signed in to. Whether Premium is worth paying for is covered in [should you bother with YouTube Premium in Ireland](/streaming-services/should-you-bother-with-youtube-premium-in-ireland/).
 
-YouTube Premium and YouTube Music Premium subscriptions carry over automatically to the TV app once you're signed into the correct account — there's no separate sign-up needed on the television itself. If ads are still appearing despite an active subscription, double-check that you're logged into the same account used to purchase Premium, as it's easy to end up signed into a secondary or family member's profile on a shared television.
-
-{% include product-showcase.html category="Installation Guides" %}
+Sources: [YouTube Help: download the YouTube app on your smart TV](https://support.google.com/youtube/answer/16432961?hl=en) · [sign in to the YouTube app on your TV](https://support.google.com/youtube/answer/3015415?hl=en-GB) · [sign out or remove an account](https://support.google.com/youtube/answer/7612539?hl=en) · [cast or link your phone](https://support.google.com/youtube/answer/7640706?hl=en-GB&co=GENIE.Platform%3DAndroid) · [troubleshoot sign-in on TVs](https://support.google.com/youtube/answer/3079858) · [Premium supported devices](https://support.google.com/youtube/answer/6308244?hl=en) (all checked 10 November 2026)
 
 {% include faq-section.html %}
 

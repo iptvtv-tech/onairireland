@@ -60,7 +60,7 @@
   facts:
     - Until the end of 2026/27, Virgin Media Television shows most Champions League games free, with live games on Tuesday and Wednesday nights.
     # from our guide
-    - Until the end of 2026/27, RTÉ has first pick of Wednesday games, free on RTÉ2 and RTÉ Player.
+    - Until the end of 2026/27, RTÉ shows live Wednesday games free on RTÉ2 and RTÉ Player.
     - Premier Sports has first pick of Tuesday games, and keeps it until 2031.
     - From 2027/28 to 2031, RTÉ has first pick of Wednesday games free, plus the final, Wednesday highlights and the UEFA Super Cup.
     - From 2027/28, Sky Sports shows the remaining Champions League games, plus the Europa League and Conference League.
@@ -194,9 +194,9 @@
     - It wasn't confirmed, when this was checked, whether RTÉ Player, Virgin Media Play or TG4 Player are available on Vega OS Fire TV models. Don't say they are.
     - The Fire TV Stick 4K Plus (2025) and the Fire TV Stick 4K Max (2nd gen, 2023) run Fire OS 8.
     - RTÉ Player, Virgin Media Play and TG4 Player all have Apple TV apps in the App Store.
-    - RTÉ Player has an Android TV and Google TV app in Google Play.
     - The Google TV Streamer is sold in Ireland on the Google Store.
-    # from our guide
+    # from our guide (RTÉ publishes no device list; recheck in the quarterly fact check)
+    - RTÉ Player has an Android TV and Google TV app in Google Play.
     - The Google TV Streamer replaced the Chromecast with Google TV, which is discontinued.
   guide: /devices/best-streaming-devices-ireland/
   source:

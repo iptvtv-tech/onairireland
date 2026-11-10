@@ -1,7 +1,9 @@
 ---
-title: "Fire TV Cube Review: Is It Worth the Upgrade for Irish Viewers?"
-excerpt: "Is the Fire TV Cube worth paying more than a Fire TV Stick? Hands-free Alexa, extra power and value for Irish viewers."
-description: "Is the Fire TV Cube worth paying more than a Fire TV Stick? Hands-free Alexa, extra power and value for Irish viewers."
+title: "Fire TV Cube Review: Is It Worth It in Ireland?"
+excerpt: "The Fire TV Cube adds hands-free Alexa and built-in Ethernet, but Amazon doesn't list it for Amazon.ie. What it offers and what to buy instead."
+description: "The Fire TV Cube adds hands-free Alexa and built-in Ethernet, but Amazon doesn't list it for Amazon.ie. What it offers and what to buy instead."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Reviews
 tags:
@@ -18,14 +20,12 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Does the Fire TV Cube work with Irish streaming apps like RTÉ Player and Virgin Media Play?"
-    answer: "Yes, it supports the major Irish streaming apps in the same way Fire TV Sticks do, though app availability can occasionally change, so it's worth checking the Amazon Appstore listing for current details."
-  - question: "Do I need an Alexa-compatible TV for the hands-free controls to work?"
-    answer: "Not necessarily, but full functionality like turning the TV on or off hands-free often depends on your TV's HDMI-CEC support, so results can vary by television model."
-  - question: "Is the Fire TV Cube much bigger than a Fire TV Stick?"
-    answer: "Yes, it's a standalone box rather than a small stick that plugs directly into your TV's HDMI port, so it needs its own space near the television and a separate power adapter."
-  - question: "Is the Fire TV Cube worth it if I already have a Fire TV Stick 4K Max?"
-    answer: "For most people, probably not, since the performance difference is modest; the upgrade mainly makes sense if hands-free voice control is a genuine priority for your household."
+  - question: "Can I buy the Fire TV Cube in Ireland?"
+    answer: "Amazon's developer specifications list the Fire TV Cube (3rd gen) for Amazon's UK, German, French, Italian, Spanish and other stores, but not Amazon.ie, and we couldn't find it sold by Amazon on Amazon.ie at the time of writing (November 2026)."
+  - question: "Does the Fire TV Cube run Vega OS?"
+    answer: "No. Amazon lists the Fire TV Cube (3rd gen) as running Fire OS, so it uses the same Amazon Appstore as the Fire OS sticks. Vega OS is only on Amazon's newest sticks: the Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select."
+  - question: "Does NOW work on the Fire TV Cube?"
+    answer: "Yes. NOW's Irish device list includes the Fire TV Cube (2nd gen, 2019, and 3rd gen, 2022) at the time of writing."
 review_basis: research
 ---
 
@@ -37,51 +37,50 @@ review_basis: research
 
 {% include share-buttons.html %}
 
-<div class="notice--warning">
-<strong>Availability note (October 2026):</strong> The Fire TV Cube is not currently sold on Amazon.ie or through mainstream Irish retailers. This review covers its features to help you decide whether importing is worthwhile — but if you want a premium device available to buy in Ireland right now, the closest alternatives are the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} and the {% include product-link.html id="google-tv-streamer" text="Google TV Streamer" %}.
-</div>
+For most Irish viewers, no. The Fire TV Cube is Amazon's most capable Fire TV box, with hands-free Alexa and a built-in Ethernet port, but it's a 2022 device that Amazon doesn't list for Amazon.ie. A Fire TV Stick 4K Max or a Google TV Streamer does the same everyday job and is easier to buy here.
 
-## Fire TV Cube Review: Is It Worth the Upgrade for Irish Viewers?
+## Fire TV Cube at a glance
 
-If you've been happily streaming on a [Fire TV Stick](/devices/best-streaming-devices-ireland/) for years, you might be wondering whether Amazon's pricier Fire TV Cube actually earns its keep. It promises more power, hands-free Alexa voice control, and the ability to switch on your telly without touching a remote. But is that worth the extra cost for the average Irish household? We looked at what it offers, what it costs and which Irish apps it runs to find out.
+From [Amazon's developer specifications](https://developer.amazon.com/docs/device-specs/device-specifications-fire-tv-cube.html) for the Fire TV Cube (3rd gen, 2022):
 
-### What the Fire TV Cube Actually Offers
+- **Software:** Fire OS 7, not Vega OS, so it uses the Amazon Appstore
+- **Storage and memory:** 16 GB storage, 2 GB RAM, eight-core processor
+- **Connections:** Wi-Fi 6E (2.4, 5 and 6 GHz), a 10/100 Ethernet port, an HDMI output and an HDMI input, and an IR extender port
+- **Picture:** 4K, with Dolby Vision, HDR10+ and AV1 support
+- **Voice:** a four-microphone array for far-field Alexa, so you can talk to it without picking up the remote
+- **Availability:** listed for Amazon's UK, German, French, Italian, Spanish, US and other stores. Amazon.ie isn't on the list
 
-The Fire TV Cube is essentially a beefed-up version of the standard [Fire TV Stick line](/fire-tv/), built around a faster processor designed to handle 4K streaming and app-switching with less lag. It also includes built-in far-field microphones, meaning you can say "Alexa" from across the room without pressing anything, unlike the Stick models which rely on the remote's mic button.
+## What the extra money gets you
 
-It's designed to sit near your TV rather than hide behind it, since it needs a bit more space and its own power adapter rather than pulling power from the telly's USB port. That alone makes it a slightly less tidy setup than a Stick.
+**Hands-free Alexa.** The Cube's microphones listen from across the room, so you can open an app or search without the remote. Fire TV Sticks need you to press the voice button on the remote.
 
-### Performance: Noticeably Snappier, But How Much Does It Matter?
+**A wired connection built in.** The Cube has an Ethernet port. Fire TV Sticks need an adapter for a wired connection, which is the steadiest option for live sport if your router is near the TV.
 
-In everyday use, the Cube does feel quicker than a base Fire TV Stick, particularly when jumping between apps like RTÉ Player, Virgin Media Play, Netflix, and Disney+. Menus load a touch faster, and there's less of the stutter you sometimes get when a Stick is juggling several background processes.
+**An HDMI input.** As well as the HDMI output to the TV, the Cube has an HDMI input for another device. Amazon's page doesn't spell out how each TV or box will respond to voice control, so don't count on it for your set-up.
 
-That said, if you've already got a {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %}, much of that performance gap narrows considerably. The 4K Max was built to address exactly the kind of sluggishness that made the Cube feel necessary in the first place, and for a lot of Irish viewers, it may deliver enough speed without the added bulk or price.
+**An eight-core processor.** Amazon lists an octa-core chip with 2 GB of RAM.
 
-### Hands-Free Alexa: Genuinely Useful or Just a Gimmick?
+## Irish apps
 
-This is where opinions tend to split. If you like the idea of saying "Alexa, open Netflix" or "Alexa, turn on the TV" without picking up a remote, the Cube delivers that in a way the Stick simply can't, since the Stick needs the remote's microphone button pressed first.
+Because the Cube runs Fire OS, it uses the Amazon Appstore, where RTÉ Player is listed. [NOW's Irish device list](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch) includes the Fire TV Cube (2nd and 3rd gen). Virgin Media Television and TG4 don't list Fire TV apps on their own help pages, so search the Appstore on the device before relying on them. See our [Fire TV hub](/fire-tv/) for setup guides.
 
-For households where the remote regularly goes missing under sofa cushions, this hands-free element is a real convenience. For everyone else, it may end up being a novelty used a handful of times before old remote-pressing habits return.
+## Better options to buy in Ireland
 
-It's also worth noting that reliable hands-free control depends on things like room layout, background noise, and your broadband setup, so results can vary from home to home.
+- **{% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} (2nd gen):** runs Fire OS 8, has 16 GB of storage and is on NOW's device list. It lacks hands-free Alexa and Ethernet, but covers the same apps. See our [Fire TV Stick 4K Max review](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/).
+- **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/):** sold on the Google Store Ireland, with gigabit Ethernet built in and 32 GB of storage. It isn't on NOW's Irish device list at the time of writing.
+- **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/):** Roku says RTÉ Player is officially available on its devices in Ireland.
 
-### Price Considerations for Irish Buyers
+Avoid the Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select if RTÉ Player, Virgin Media Play or TG4 Player matter to you. They run Vega OS, and those apps weren't confirmed for it when we checked.
 
-We won't quote an exact price here, as Amazon pricing and occasional sale discounts change frequently, and it's worth checking the current listing before deciding. Generally speaking, though, the Fire TV Cube sits well above the Fire TV Stick 4K and [Fire TV Stick 4K Max](/reviews/fire-tv-stick-4k-max-worth-the-upgrade/) in cost, and that gap is the central question for most buyers: are hands-free commands and modest speed gains worth paying more for?
+## Verdict
 
-### How It Compares to Other Options
+**Consider the Cube** only if hands-free voice control or a built-in Ethernet port on a Fire TV really matters to you, and you're happy to buy it from outside Amazon.ie.
 
-If voice control isn't a priority and you mainly want strong 4K performance, the {% include product-link.html id="roku-ultra-review" text="Roku Streaming Stick Plus" %} is another device worth comparing, offering a straightforward, ad-light interface that some viewers find less cluttered than Fire TV's homepage.
+**Skip it** if you want a straightforward way to get Irish apps on your TV. The Fire TV Stick 4K Max covers the same apps, and the Google TV Streamer gives you a wired connection.
 
-A basic Chromecast remains a solid budget-friendly option too, particularly for those who mostly cast from a phone or tablet rather than navigating a traditional on-screen menu.
+{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-ultra-review" title="Easier to Buy in Ireland" %}
 
-### Our Verdict
-
-The Fire TV Cube is a genuinely well-built device, and the hands-free Alexa functionality is its standout feature rather than an afterthought. But for many Irish viewers, especially those who already own a Fire TV Stick 4K Max, the practical day-to-day streaming experience won't feel dramatically different.
-
-If voice convenience matters a lot to you, or you've grown tired of hunting for remotes, the Cube is a worthwhile upgrade. If you mainly want smooth, reliable access to Irish and international streaming apps, a Stick or the Roku Streaming Stick Plus will likely serve you just as well for less money.
-
-{% include product-showcase.html products="fire-tv-stick-4k-max-review,roku-ultra-review,google-tv-streamer" %}
+Sources: [Amazon: Fire TV Cube specifications](https://developer.amazon.com/docs/device-specs/device-specifications-fire-tv-cube.html) (checked 10 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) (checked 10 November 2026) · [NOW Ireland: supported streaming devices](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch) (checked 10 November 2026) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland)
 
 {% include faq-section.html %}
 

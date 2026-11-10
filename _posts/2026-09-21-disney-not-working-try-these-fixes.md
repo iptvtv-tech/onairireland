@@ -1,7 +1,9 @@
 ---
-title: "Disney+ Not Working? Try These Fixes"
-excerpt: "A practical troubleshooting guide for Irish Disney+ subscribers dealing with error codes, login problems and buffering, with legitimate fixes for each."
-description: "A practical troubleshooting guide for Irish Disney+ subscribers dealing with error codes, login problems and buffering, with legitimate fixes for each."
+title: "Disney+ Not Working? Error Codes and Fixes"
+excerpt: "Disney+ won't load, play or sign in? What the common error codes say, Disney's help page for each, and the app fixes Samsung and LG give for their TVs."
+description: "Disney+ won't load, play or sign in? What the common error codes say, Disney's help page for each, and the app fixes Samsung and LG give for their TVs."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Troubleshooting
 tags:
@@ -18,63 +20,73 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Why does Disney+ keep showing an error code even after restarting my device?"
-    answer: "This can indicate a temporary server-side issue on Disney+'s end, so check their official help centre for outage notices, or try again after some time has passed."
-  - question: "Can I fix Disney+ login issues by changing my account's country?"
-    answer: "Account region is tied to your billing details and should only be changed through Disney+'s official support, as it affects your subscription and available catalogue."
-  - question: "Does my streaming device affect how well Disney+ performs?"
-    answer: "Yes, older or underpowered devices can struggle with 4K content or app updates, so restarting the device or reinstalling the app can often help."
-  - question: "Is buffering usually caused by Disney+ or my home network?"
-    answer: "In most cases it's related to home network strength or congestion, so checking Wi-Fi signal, wired connections, and the number of active streams is a good first step."
+  - question: "Why does Disney+ say too many devices are streaming?"
+    answer: "Disney+ Ireland allows 2 streams at once on Standard and Standard with Ads, and 4 on Premium. Stop playback on another device, or change plan, if you need more."
+  - question: "Where do I find Disney's help for my error code?"
+    answer: "Disney+ has a help page for each error code in its help centre at help.disneyplus.com. Search for the code number shown on your screen."
 ---
- 
+
 {% include last-updated.html %}
- 
+
 {% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-[Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) has become a staple in Irish households, but even the most reliable streaming services run into hiccups from time to time. Whether it's a mysterious error code, a login that won't cooperate, or a picture that keeps freezing at the worst moment, most of these issues have straightforward fixes. Here's a rundown of the most common problems Irish users report and how to sort them.
 
-## Common Disney+ Error Codes
+When Disney+ won't work, the error code on screen tells you where to look: Disney+ has a help page for each one. If there's no code, or the app won't open at all, the fix is usually on your TV or device: restart it, update the app, then reinstall it.
 
-Disney+ uses a range of error codes, and while the exact wording can change as the app updates, most fall into a few categories: connectivity errors, playback errors, and account/authentication errors.
+## At a glance
 
-If you see a connectivity-related error, the first thing to check is your broadband connection itself. Try loading another streaming app or a website on the same device to confirm the issue isn't isolated to Disney+. If other apps are struggling too, the problem is likely your home network rather than Disney+'s servers.
+- **Error code on screen:** look it up in the [Disney+ help centre](https://help.disneyplus.com/) and follow Disney's steps for that code.
+- **"Too many devices":** Standard and Standard with Ads allow 2 streams at once, Premium allows 4.
+- **App won't open, freezes or crashes:** restart the TV, update the app, reinstall it.
+- **Can't sign in:** see Disney's [login issues](https://help.disneyplus.com/en-GB/article/disneyplus-login-issues) page.
+- **Buffering:** usually your connection. See [why streaming apps buffer](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/).
 
-Playback errors (where the app loads fine but a specific show or film won't play) can sometimes be resolved by restarting the app, restarting your device, or simply trying again a few minutes later, as it may be a temporary server-side issue on Disney's end. If it persists across multiple titles, it's worth checking Disney+'s own help centre for any listed outages before assuming your setup is at fault.
+## Disney+ error codes
 
-## Login and Account Issues
+These are some of the codes Disney+ lists in its help centre, with the message you'll see. Each link goes to Disney's own page with the steps for that code.
 
-Login problems are usually one of three things: an incorrect password, an issue with the email associated with your account, or a payment method that needs updating. If you're locked out, use the official "forgot password" link within the app or on the Disney+ website rather than trying repeated guesses, as too many failed attempts can temporarily lock the account.
+| Code | Message on screen | Disney's help page |
+|---|---|---|
+| 39 | "Sorry, this content is not authorized for your account..." | [Error code 39](https://help.disneyplus.com/en-GB/article/disneyplus-error-39) |
+| 41 | "We're having trouble playing this right now..." | [Error code 41](https://help.disneyplus.com/en-GB/article/disneyplus-error-41) |
+| 83 | "Something went wrong. Please try again..." | [Error code 83](https://help.disneyplus.com/en-GB/article/disneyplus-error-83) |
 
-It's also worth double-checking which region your account is registered to. Your Disney+ account region is set based on the payment details and address used when you signed up, and this determines the version of the catalogue and pricing you see. If something looks off, the safest step is to contact Disney+ support directly through their official help pages, as they can confirm and correct account details on their end.
+Disney also has pages for problems without a code: a [blank screen or spinning wheel](https://help.disneyplus.com/en-GB/article/disneyplus-fixing-screen-spinning), [streaming issues](https://help.disneyplus.com/en-GB/article/disneyplus-streaming-issues) and [video quality](https://help.disneyplus.com/en-GB/article/disneyplus-video-quality).
 
-Another frequent cause of login trouble is simply having an outdated app. Check your device's app store for pending updates, and make sure you're downloading Disney+ from the correct regional store associated with your device account.
+## Too many devices streaming
 
-## Buffering and Playback Quality Problems
+{% assign dplus = site.data.prices | where: "service", "Disney+" %}
+The [Disney+ Ireland](https://www.disneyplus.com/en-ie) site says Standard with Ads and Standard each allow 2 streams at the same time, and Premium allows 4. If someone else in your household is watching, stop one stream and try again. At the time of writing (November 2026), Premium is {% include euro.html amount=dplus[2].monthly %} a month; see our [Disney+ plans guide](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) for the differences.
 
-Buffering is almost always a network issue rather than a Disney+ problem. A few things worth checking:
+## App won't open, freezes or crashes on a smart TV
 
-- **Wi-Fi signal strength**: If your streaming device is far from the router, or there are walls and floors in between, signal can weaken considerably. A {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi Range Extender" %} can help push a stronger signal into rooms where streaming quality tends to drop.
-- **Wired connections**: For the most stable connection, especially with 4K content, running a {% include product-link.html id="ethernet-cable-troubleshoot" text="Long Ethernet Cable" %} directly from your router to your streaming device removes Wi-Fi interference from the equation entirely.
-- **Whole-home coverage**: If buffering happens in multiple rooms or on multiple devices, your home might benefit from a {% include product-link.html id="mesh-wifi-troubleshoot" text="Mesh Wi-Fi System" %}, which spreads consistent coverage across a larger area rather than relying on a single router.
+Work through your TV maker's own steps.
 
-It's also worth checking how many devices are streaming simultaneously on your account and network, as this can affect quality depending on your broadband plan's speed.
+**Samsung** ([Samsung Community team](https://eu.community.samsung.com/t5/newsroom/what-to-do-if-an-app-isn-t-working-on-your-tv/ba-p/5301723)):
 
-## Device-Specific Fixes
+1. Cold boot the TV: unplug it at the wall, wait 30 seconds and plug it back in.
+2. Update the TV: **Settings > Support > Software update > Update now**.
+3. Highlight Disney+, press and hold the select button and choose **Reinstall**. If that doesn't help, choose **Delete** and download it again. You'll need to sign in again.
+4. As a last resort, **Settings > Support > Device Care > Self Diagnosis > Reset Smart Hub**. This clears all your apps and logins.
 
-If you're streaming through a Fire TV Stick, Fire TV Cube, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), or Chromecast, a good first step for any persistent issue is to fully restart the device rather than just closing the app. On Fire TV and Roku devices, this can usually be done through the settings menu; for Chromecast, unplugging it from power for 30 seconds often does the trick.
+**LG** ([LG UK](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008386-20154996627153/)):
 
-Remote responsiveness issues can sometimes masquerade as app problems, when in fact it's simply weak batteries causing missed button presses. Switching to a set of {% include product-link.html id="rechargeable-remote-batteries" text="rechargeable remote batteries" %} is a handy long-term fix and saves you from constantly buying disposables.
+1. Restart your router, then the TV, and reconnect it to Wi-Fi.
+2. Press Home, select Disney+ and update it if an update is offered.
+3. If it still fails, press and hold OK on the Disney+ tile to delete it, then reinstall it from the LG Content Store.
 
-It's also worth clearing the Disney+ app's cache (available in most device settings menus under "apps") or, failing that, uninstalling and reinstalling the app entirely. This resolves a surprising number of persistent glitches.
+Disney+ isn't available on LG TVs running webOS 2.0 or earlier (2015 and older). See [setting up Disney+ on an LG TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/).
 
-## When to Contact Disney+ Directly
+## Buffering or poor picture
 
-If you've worked through network checks, app updates, and device restarts and still hit the same error, the most reliable next step is Disney+'s own official support channels. They can check server status, account-specific issues, and regional settings that aren't visible or adjustable from your end.
+If other apps on the same TV also buffer, the problem is your connection rather than Disney+. A wired connection is the steadiest fix: if your TV or box has a network port, connect it to the router with a cable. A Fire TV Stick with a USB-C port can be wired with an {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %}. Our [buffering guide](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) covers the other options.
 
-{% include product-showcase.html category="Troubleshooting" %}
+## Still not working?
+
+If the same error comes back after these steps, contact Disney+ through the [help centre](https://help.disneyplus.com/). Disney's page for your error code is the place to start.
+
+Sources: [Disney+ help centre](https://help.disneyplus.com/) (error code page titles checked 10 November 2026) · [Disney+ Ireland plans and FAQ](https://www.disneyplus.com/en-ie) (checked 10 November 2026) · [Samsung Community: what to do if an app isn't working on your TV](https://eu.community.samsung.com/t5/newsroom/what-to-do-if-an-app-isn-t-working-on-your-tv/ba-p/5301723) (checked 10 November 2026) · [LG UK: apps that keep freezing, crashing or won't load](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008386-20154996627153/) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

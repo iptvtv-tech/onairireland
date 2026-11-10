@@ -1,7 +1,9 @@
 ---
-title: "Is Discovery+ Available in Ireland?"
-excerpt: "A look at whether Discovery+ operates as a standalone app in Ireland right now, and where Irish viewers can legally find its most popular shows instead."
-description: "A look at whether Discovery+ operates as a standalone app in Ireland right now, and where Irish viewers can legally find its most popular shows instead."
+title: "Is discovery+ Available in Ireland?"
+excerpt: "Yes. discovery+ comes with Sky Essential TV and Ultimate TV in Ireland, and its own app is in the Irish App Store. How to get it and what to check."
+description: "Yes. discovery+ comes with Sky Essential TV and Ultimate TV in Ireland, and its own app is in the Irish App Store. How to get it and what to check."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -16,55 +18,67 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Can I download the Discovery+ app on my device in Ireland?"
-    answer: "Availability varies and changes over time, so check your device's official app store directly rather than relying on older information, and contact Discovery's support team if you're unsure."
-  - question: "Why does Discovery+ say it's not available in my country?"
-    answer: "This usually reflects the app not having an official Irish launch yet, or an account region mismatch, rather than anything you need to bypass — check your account and app store region settings first."
-  - question: "Has Discovery+ merged with Max in Ireland?"
-    answer: "Warner Bros. Discovery has been consolidating services under the Max brand in several European markets, though the exact rollout timeline for Ireland should be confirmed on their official site."
-  - question: "Where else can I watch Discovery-owned shows in Ireland?"
-    answer: "Many titles appear on Sky, Virgin Media on-demand menus, or individually on platforms like Prime Video, so it's worth searching your existing subscriptions first."
+  - question: "Is discovery+ included with Sky in Ireland?"
+    answer: "Yes. Sky's Irish site lists discovery+ as included with Sky Essential TV and Sky Ultimate TV. Sky says discovery+ Entertainment is included on Sky Q, Sky Stream and Sky Glass, and you activate it from My Sky on your box."
+  - question: "Can I watch discovery+ on Sky Go?"
+    answer: "No. Sky says discovery+ shows don't stream on Sky Go. Use your Sky box, or the discovery+ app signed in with your Sky ID."
+  - question: "Has discovery+ been replaced by HBO Max in Ireland?"
+    answer: "Not on the evidence we found. HBO Max launched in Ireland on 26 March 2026 with Discovery programming in its library, but Warner Bros. Discovery's launch announcement didn't say discovery+ would close here, and Sky still lists discovery+ in its Irish packs."
+  - question: "Is TNT Sports part of discovery+ in Ireland?"
+    answer: "In Ireland, TNT Sports is sold as an add-on through Sky and Virgin Media, and in NOW's Sports Extra membership. Check those providers rather than discovery+."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Is Discovery+ Available in Ireland?
+Yes, discovery+ is available in Ireland. Most people get it through Sky, because it's included with both Sky Essential TV and Sky Ultimate TV, and the discovery+ app is also in the Irish App Store if you'd rather subscribe on your own.
 
-Discovery+ has had a bit of a confusing journey since it first launched, and that's made things tricky for anyone in Ireland trying to figure out where to actually watch it. The short answer is that Discovery+ as a standalone app is not consistently available or promoted in the Irish market the way it is in the UK or US, and its content library has increasingly been folded into other Warner Bros. Discovery products. Because app availability and bundling can change quickly, it's worth double-checking the official Discovery+ or Max website for the most current status before assuming either way.
+## discovery+ in Ireland at a glance
 
-### What Happened to Discovery+ in Ireland
+- **With Sky:** included with Essential TV and Ultimate TV, on Sky Q, Sky Stream and Sky Glass.
+- **Directly:** the discovery+ app is listed in the Irish App Store, and discovery+ has an Irish legal page with an Irish support email.
+- **Not on Sky Go:** Sky says discovery+ shows don't stream there.
+- **What's on it:** factual entertainment such as *Richard Hammond's Workshop* and *90 Day Fiancé*, the examples Sky gives.
 
-When Discovery+ first rolled out internationally, Ireland wasn't always near the top of the priority list for a dedicated local version. Some Irish users found the app listed on their smart TV or streaming device store, while others found it unavailable or region-locked to UK accounts. Since then, Warner Bros. Discovery has been consolidating its streaming services under the Max brand in various territories, and Discovery+ content has been gradually absorbed into that bigger platform in many markets.
+## Getting discovery+ with Sky
 
-If you're seeing an error message saying content isn't available in your country, the most likely explanations are simple ones: your account may be registered to a different regional store, the app itself might not have an Irish storefront listing yet, or the specific service simply hasn't launched here in its own right. The fix in these cases is to check the account settings on your streaming device to confirm your region is set correctly, make sure you're logged in with an account created through the correct national app store, and if you're still stuck, reach out to the streaming service's own customer support team. They can confirm whether a service is genuinely unavailable in Ireland or whether it's an account configuration issue on your end.
+[Sky's discovery+ page](https://www.sky.com/ie/tv/apps/discovery-plus) says it's "Included with Essential TV and Ultimate TV", and that discovery+ Entertainment comes with a Sky TV subscription on Sky Q, Sky Stream and Sky Glass. Sky's [TV packs page](https://www.sky.com/ie/tv) lists it alongside Netflix Basic in Essential TV, and alongside Netflix Basic, Disney+, HBO Max and Hayu in Ultimate TV.
 
-### Where to Legally Watch Discovery+ Style Content in Ireland
+To start watching:
 
-The good news is that a lot of the programming people associate with Discovery+ — home renovation shows, true crime documentaries, nature and wildlife series — hasn't disappeared. Much of it turns up on other legal platforms available in Ireland, including Sky and Virgin Media TV packages, as well as various on-demand services that carry Discovery-owned content under licensing agreements. Some individual series are also distributed to platforms like [Prime Video](/reviews/netflix-vs-prime-video-which-do-irish-viewers-actually-use-most/) on a title-by-title basis, so it's always worth searching for a specific show by name on the apps you already subscribe to before assuming it's inaccessible.
+1. Sign in with your Sky ID.
+2. On your Sky box, open **My Sky** and activate or link discovery+.
+3. Watch on the Sky box, or in the discovery+ app on your phone, tablet or TV by signing in with your Sky ID.
 
-If you're an existing Sky or Virgin Media customer, check your on-demand menu for a Discovery-branded hub, as many operators integrate this content directly into their electronic programme guide rather than requiring a separate app.
+Sky's page doesn't list the older Sky+ box for discovery+, and it says discovery+ isn't on Sky Go. Sky's package prices vary with offers and contract length, so check the current price on [Sky's TV page](https://www.sky.com/ie/tv). Our [Sky and NOW guide](/now-and-sky/) covers the packs.
 
-### Making Sure Your Setup Is Ready
+## Subscribing directly
 
-Regardless of which legal service ends up carrying the shows you want, having reliable playback at home makes a big difference. Older smart TVs sometimes struggle to keep their built-in apps updated, which is part of the reason so many households add a dedicated streaming device instead. Something like a {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} is a straightforward way to get a consistently updated app store, and it also puts services like Prime Video, Sky's apps, and others in one place without depending on your television's ageing software.
+discovery+ still has its own app in Ireland: it's listed in the [Irish App Store](https://apps.apple.com/ie/app/dplay/id395972146) with in-app subscriptions. Warner Bros. Discovery's [legal information page for the Republic of Ireland](https://wbd.com/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-Legal-Information-ROI-English.pdf) names the operator, Dplay Entertainment Limited, and gives an Irish support address, support_ie@discoveryplus.com.
 
-If you're setting up a new room from scratch, pairing a budget-friendly {% include product-link.html id="smart_tvs_2" text="LG LED AI, 32 inch HD Smart TV" %} with an external streaming device is a common approach, since built-in smart TV platforms don't always receive the same long-term app support as a purpose-built streaming box.
+We couldn't find a current Irish price on discovery+'s own website, so check the price and plan in the app before you subscribe.
 
-Sound is worth thinking about too, particularly for documentary-style content where narration and ambient audio matter. A {% include product-link.html id="soundbar-budget" text="compact soundbar" %} can make a noticeable difference over a TV's built-in speakers without taking up much space in a living room.
+## Other providers
 
-### The Bottom Line
+- **Virgin Media:** discovery+ isn't among the apps listed on [Virgin Media's TV 360 page](https://www.virginmedia.ie/television/virgin-tv-360).
+- **eir:** [eir TV's pages](https://www.eir.ie/tv/) don't mention discovery+.
 
-Discovery+ isn't reliably available as its own dedicated app in Ireland right now, and its future here seems tied to how Warner Bros. Discovery continues rolling out the Max platform across Europe. Rather than waiting on a specific app, Irish viewers are generally better served checking their existing Sky, Virgin Media, or Prime Video subscriptions for the same shows, since much of that content is already licensed and available legally through those routes.
+If you have one of these, you can still download the discovery+ app on a compatible TV or streaming stick and subscribe to it yourself.
 
-**Related guides:** [Is Britbox Available in Ireland?](/streaming-services/is-britbox-available-in-ireland/) · [HBO Max in Ireland: Is It Available and How Do You Get It?](/news/is-hbo-max-coming-to-ireland/)
+## discovery+ and HBO Max
 
-{% include product-showcase.html category="Streaming Services" %}
+HBO Max [launched in Ireland on 26 March 2026](https://press.wbd.com/us/na/media-release/hbo-max/hbo-max-now-streaming-uk-and-ireland-major-international-expansion), and Warner Bros. Discovery lists Discovery programming as part of its library. That announcement didn't say discovery+ would close in Ireland, and Sky still includes discovery+ in its packs. See [HBO Max in Ireland](/news/is-hbo-max-coming-to-ireland/) for its plans.
+
+## Looking for TNT Sports?
+
+In Ireland, TNT Sports is sold as an add-on by [Sky](https://www.sky.com/ie/tv/compare-tv-packages) and [Virgin Media](https://www.virginmedia.ie/television/virgin-tv-360), and as part of [NOW's Sports Extra membership](https://www.nowtv.com/ie/membership/sports/watch-sports-extra). Our [Sky Sports vs Premier Sports guide](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/) explains the sports options.
+
+**Related guides:** [Is BritBox available in Ireland?](/streaming-services/is-britbox-available-in-ireland/) · [Legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/)
+
+Sources: [Sky Ireland: discovery+](https://www.sky.com/ie/tv/apps/discovery-plus) (checked 10 November 2026) · [Sky Ireland TV packs](https://www.sky.com/ie/tv) (checked 10 November 2026) · [Sky Ireland compare packs](https://www.sky.com/ie/tv/compare-tv-packages) (checked 10 November 2026) · [discovery+ on the Irish App Store](https://apps.apple.com/ie/app/dplay/id395972146) (checked 10 November 2026) · [discovery+ legal information, Republic of Ireland](https://wbd.com/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-Legal-Information-ROI-English.pdf) (checked 10 November 2026) · [Warner Bros. Discovery: HBO Max launches in the UK and Ireland](https://press.wbd.com/us/na/media-release/hbo-max/hbo-max-now-streaming-uk-and-ireland-major-international-expansion) (26 March 2026) · [Virgin TV 360](https://www.virginmedia.ie/television/virgin-tv-360) (checked 10 November 2026) · [eir TV](https://www.eir.ie/tv/) (checked 10 November 2026) · [NOW Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) (checked 7 October 2026)
 
 {% include faq-section.html %}
 

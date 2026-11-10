@@ -53,7 +53,7 @@ RTÉ Player is the best free way to watch RTÉ's channels and programmes on dema
 
 **It's free and it's RTÉ's whole output in one place.** News, current affairs, Irish soaps, drama, documentaries and children's programmes, with live streams of RTÉ One, RTÉ2 and RTÉ News. RTÉ also makes RTÉ Player Originals for the Player and adds acquired box sets from time to time.
 
-**Sport, free.** RTÉ shows a share of the Six Nations, live GAA championship games and, until the end of 2026/27, first pick of Wednesday Champions League games, all free on RTÉ Player as well as on TV. See [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/), the [Six Nations guide](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/) and [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/).
+**Sport, free.** RTÉ shows a share of the Six Nations, live GAA championship games and, until the end of 2026/27, live Wednesday Champions League games, all free on RTÉ Player as well as on TV. See [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/), the [Six Nations guide](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/) and [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/).
 
 **Wide device support.** The app is on iPhone, iPad and Apple TV (iOS and tvOS 15 or later), Android phones and tablets, Android TV and Google TV, and Roku, which says RTÉ Player is officially available on its devices in Ireland. RTÉ lists the Virgin Media and Sky platforms and smart TVs too.
 

@@ -1,9 +1,9 @@
 ---
-title: "Netflix Price Rise in Ireland 2026: New Prices for Every Plan"
-excerpt: "Netflix raised its Irish prices on 10 September 2026. Basic is now €11.99, Standard €18.99 and Premium €25.99 a month. What changed and what to do."
-description: "Netflix raised its Irish prices on 10 September 2026. Basic is now €11.99, Standard €18.99 and Premium €25.99 a month. What changed and what to do."
-last_updated: 2026-10-15
-last_checked: 2026-10-15
+title: "Netflix Price Rise in Ireland 2026: New Prices by Plan"
+excerpt: "Netflix raised all three Irish plan prices on 10 September 2026, and ads arrive on 1 March 2027. Old and new prices, and what you can do about it."
+description: "Netflix raised all three Irish plan prices on 10 September 2026, and ads arrive on 1 March 2027. Old and new prices, and what you can do about it."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - News
 tags:
@@ -18,74 +18,64 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Has Netflix confirmed exact new prices for Ireland in 2026?"
-    answer: "Yes. From 10 September 2026 Basic is €11.99 (was €10.99), Standard €18.99 (was €16.99) and Premium €25.99 (was €23.99). New customers pay the new prices straight away; existing customers move over on a later billing date, and Netflix emails you before your price changes."
+  - question: "How much did Netflix go up in Ireland in 2026?"
+    answer: "From 10 September 2026, Basic went up by €1 a month and Standard and Premium by €2 a month each, as reported by The Irish Times. Our streaming prices tracker shows the current price of each plan."
   - question: "Is there a cheaper Netflix plan with ads in Ireland?"
-    answer: "Not yet, but one is coming. Netflix has confirmed that ads will start on its Irish service from 1 March 2027, The Irish Times reported in September 2026. It hasn't announced the price of the ad-supported plan."
-  - question: "How will I know if my subscription price has changed?"
-    answer: "Netflix typically emails subscribers in advance of a price change and also displays updated pricing in your account billing section."
-  - question: "Can I downgrade my plan if the new price doesn't suit me?"
-    answer: "Yes, Netflix allows you to switch tiers at any time through your account settings, and the change usually applies from your next billing cycle."
+    answer: "Not yet. Netflix has confirmed ads will start on its Irish service from 1 March 2027, as reported by The Irish Times in September 2026. It hasn't announced what an ad plan will cost here."
+  - question: "Can I move to a cheaper Netflix plan?"
+    answer: "Yes. You can change plan from your Netflix account, and Netflix's terms let you cancel at any time, keeping access until the end of the period you've paid for."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Netflix Pricing in Ireland: What's Changing
+{% assign nf = site.data.prices | where: "service", "Netflix" %}
+{% assign nf_basic = nf | where: "plan", "Basic" | first %}
+{% assign nf_std = nf | where: "plan", "Standard" | first %}
+{% assign nf_prem = nf | where: "plan", "Premium" | first %}
+Netflix raised the price of all three of its Irish plans on 10 September 2026. Basic is now {% include euro.html amount=nf_basic.monthly %} a month, Standard {% include euro.html amount=nf_std.monthly %} and Premium {% include euro.html amount=nf_prem.monthly %}, and a cheaper plan with ads is due on 1 March 2027.
 
-Netflix raised all three of its Irish prices on 10 September 2026, [as reported by The Irish Times](https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/):
+## At a glance
 
-| Plan | Old price | New price |
-| --- | --- | --- |
-| Basic | €10.99 | €11.99 |
-| Standard | €16.99 | €18.99 |
-| Premium | €23.99 | €25.99 |
+- **When:** 10 September 2026 for new customers. Existing customers move to the new price on a later billing date.
+- **How much:** €1 a month more on Basic, €2 more on Standard and Premium.
+- **Ads:** coming to Netflix in Ireland from 1 March 2027. No price announced yet.
+- **What to do:** check your plan, and move down a tier if you don't need what you're paying for.
 
-The new prices applied straight away to new customers. Existing customers move over on a later billing date. Netflix emails you before your price changes, and the new amount shows in your account's billing section.
+## Old and new prices
 
-[Netflix in Ireland](/netflix/) has three ad-free plans: Basic, Standard and Premium, with Premium offering the highest video quality and most simultaneous streams. Unlike the UK, Ireland has no cheaper ad-supported plan yet, but that's changing: Netflix has confirmed ads will start on its Irish service from 1 March 2027, [as reported by The Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/). It hasn't said what the ad plan will cost. The September rise added €1 a month to Basic and €2 to Standard and Premium.
+| Plan | Before 10 September 2026 | Now |
+|---|---|---|
+| Basic | €10.99 | {% include euro.html amount=nf_basic.monthly %} |
+| Standard | €16.99 | {% include euro.html amount=nf_std.monthly %} |
+| Premium | €23.99 | {% include euro.html amount=nf_prem.monthly %} |
 
-### Why Netflix Adjusts Prices
+*Old prices and the date of the change [as reported by The Irish Times](https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/) (10 September 2026). Current prices checked {{ nf_basic.checked | date: "%-d %B %Y" }} on [Netflix's plans and pricing page](https://help.netflix.com/en/node/24926), and Netflix's [Irish home page](https://www.netflix.com/ie/) shows the same range on 10 November 2026. The [streaming prices tracker](/streaming-prices/) always has the latest figures.*
 
-Streaming services typically point to content investment as the reason for price rises. Netflix has been pouring money into Irish and UK productions, alongside its global slate of series and films, and licensing costs for major sports and entertainment content continue to climb. That said, Netflix itself rarely gives a granular breakdown of exactly what portion of a price hike funds new content versus infrastructure or licensing renewals.
+Extra members, for someone outside your household, also cost extra: on Standard, {{ nf_std.note | downcase }}; on Premium, {{ nf_prem.note | downcase }}.
 
-## How the Tiers Are Affected
+New customers paid the new prices from 10 September. If you already subscribed, your price changes on a later billing date, and the amount you'll pay is shown in your Netflix account.
 
-### Basic Plan
+## Ads arrive on 1 March 2027
 
-Basic went from €10.99 to €11.99 a month. It's the cheapest way into Netflix in Ireland, at least until Netflix's ad-supported plan arrives in Ireland on 1 March 2027 (confirmed by Netflix, [as reported by The Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/) on 24 September 2026).
+Ireland has no Netflix plan with ads yet. Netflix has confirmed ads will start on its Irish service from 1 March 2027, [as reported by The Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/) on 24 September 2026. Ireland is one of nine European countries getting ads, and Netflix hasn't said what the Irish ad plan will cost. We'll update the [prices tracker](/streaming-prices/) when it does.
 
-### Standard Plan
+## What you can do
 
-Standard went from €16.99 to €18.99 a month. It's usually where most Irish households sit, and it's often the plan most exposed to yearly increases. If you're on this plan, it's worth logging into your account settings to confirm your next billing date and whether the new pricing has already applied or will kick in from your next cycle.
+- **Check your plan.** Basic streams on one screen at a time and Standard on two. If nobody in the house watches in 4K or on more than two screens at once, Premium may be more than you need. Our [guide to what each Netflix plan gets you](/streaming-services/is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for/) has the full comparison.
+- **Change or cancel any time.** There's no contract. Netflix's terms say you keep access until the end of the period you've paid for.
+- **Check what you already have.** Sky's Essential TV and Ultimate TV packs include a Netflix plan, so if you also pay Netflix directly you may be paying twice. See our [Sky and NOW guide](/now-and-sky/).
+- **Watch for the ad plan price.** If you'd accept ads for a lower bill, see what the March 2027 plan costs once Netflix announces it.
 
-### Premium Plan
+To see what all your subscriptions add up to, try the [streaming cost calculator](/streaming-cost-calculator/). For more on Netflix in Ireland, see our [Netflix hub](/netflix/).
 
-Premium went from €23.99 to €25.99 a month. With 4K streaming and support for more simultaneous screens, it tends to see the steepest price increases in cash terms. Families sharing one account across multiple screens will feel this the most.
-
-## Getting the Most From Your Subscription
-
-With prices creeping up, it's worth making sure you're actually getting good value from your setup at home. A shaky signal or poor picture quality can make a premium subscription feel like a waste of money. If your TV struggles with a weak aerial signal alongside your streaming apps, a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} can help clean up reception for the free-to-air channels you might still watch alongside Netflix, so you're not paying for streaming while also fighting with a fuzzy picture on RTÉ or Virgin Media channels.
-
-It's also worth checking that your streaming hardware itself isn't holding you back. Older remotes or set-top boxes can feel sluggish, especially with more demanding apps and higher bitrate 4K content. If you're on a Fire TV device and your current remote is unresponsive or missing buttons, a replacement {% include product-link.html id="fire-tv-remote" text="Fire TV remote" %} is a simple fix that can make navigating Netflix and other legal streaming apps noticeably smoother.
-
-## What Irish Subscribers Should Do Now
-
-Rather than reacting immediately to headlines about price changes, take a few minutes to log into your Netflix account and review your current plan, billing date, and price. Netflix usually gives advance notice by email before a price change takes effect, so keep an eye on your inbox around renewal time.
-
-If the new pricing doesn't suit your budget, consider whether a lower tier still meets your household's needs — do you really need 4K on every screen, or would the standard plan suffice? Comparing your usage honestly against the cost is the simplest way to make sure you're not overpaying in 2026.
-
-**Related guides:** [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/) · [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/)
+Sources: [Netflix plans and pricing](https://help.netflix.com/en/node/24926) (via our prices file, checked {{ nf_basic.checked | date: "%-d %B %Y" }}) · [Netflix Ireland](https://www.netflix.com/ie/) (checked 10 November 2026) · [The Irish Times, Netflix price rise](https://www.irishtimes.com/business/2026/09/10/netflixs-standard-plan-to-cost-over-10-more/) (10 September 2026) · [The Irish Times, ads coming to Netflix in Ireland](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/) (24 September 2026) · [Sky Ireland TV packs](https://www.sky.com/ie/tv) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
 
 {% include whatsapp-cta.html %}

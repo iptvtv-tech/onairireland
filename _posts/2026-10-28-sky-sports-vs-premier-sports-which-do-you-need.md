@@ -55,7 +55,7 @@ From the 2027/28 season, Sky Sports also gets the Champions League games that RT
 Premier Sports has two channels, Premier Sports 1 and 2. For Irish viewers, the main draws are:
 
 - **Premier League:** an exclusive Saturday 3pm game every round, which is only shown in Ireland.
-- **Champions League:** first pick of Tuesday night games, until 2031. RTÉ has first pick of Wednesday games, free.
+- **Champions League:** first pick of Tuesday night games, until 2031. RTÉ shows live Wednesday games free.
 - **Champions Cup rugby:** all 63 matches this season, under a deal that runs to the end of 2026/27. There's no free TV coverage.
 - **URC:** every Leinster, Munster, Ulster and Connacht game. TG4 also shows at least 26 URC games a season free, in Irish.
 - **Scottish football:** 22 Scottish Premiership games a season, plus the Scottish Cup and the Scottish League Cup, which are both exclusive to Premier Sports in Ireland.
@@ -80,7 +80,7 @@ If you'd rather have a TV package, Sky, Virgin Media and Vodafone carry Sky Spor
 - **Formula 1, golf or darts:** Sky Sports.
 - **Scottish football or LaLiga:** mostly Premier Sports, though Sky Sports also shows some Scottish Premiership games and Disney+ has LaLiga's Saturday evening kick-offs.
 - **Champions Cup or URC rugby:** Premier Sports. The Six Nations is free on RTÉ and Virgin Media, and Ireland's November Tests are free on Virgin Media.
-- **Champions League:** Premier Sports for Tuesday's first pick. Wednesday's first pick is free on RTÉ, and Virgin Media shows most of the other games free until the end of the 2026/27 season.
+- **Champions League:** Premier Sports for Tuesday's first pick. RTÉ shows live Wednesday games free, and Virgin Media shows most of the other games free until the end of the 2026/27 season.
 
 If you only follow one or two of these, pick the service that carries them. If you follow several, compare the cost of both memberships with the Sports Saver bundle, and review your subscriptions every few months so you're not paying for one you've stopped using.
 

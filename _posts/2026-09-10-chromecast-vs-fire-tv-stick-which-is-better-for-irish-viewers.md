@@ -1,7 +1,9 @@
 ---
-title: "Chromecast vs Fire TV Stick: Which Is Better for Irish Viewers?"
-excerpt: "Google TV (Chromecast) vs Amazon Fire TV Stick for Irish viewers: Irish app support, pricing and everyday ease of use compared."
-description: "Google TV (Chromecast) vs Amazon Fire TV Stick for Irish viewers: Irish app support, pricing and everyday ease of use compared."
+title: "Chromecast vs Fire TV Stick: What to Buy in Ireland Now"
+excerpt: "The Chromecast with Google TV is discontinued. How its replacement, the Google TV Streamer, compares with today's Fire TV Sticks for Irish apps."
+description: "The Chromecast with Google TV is discontinued. How its replacement, the Google TV Streamer, compares with today's Fire TV Sticks for Irish apps."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Devices
 tags:
@@ -17,50 +19,59 @@ seo:
 toc: true
 draft_generated: true
 affiliate_links: true
+faqs:
+  - question: "Can I still buy a Chromecast with Google TV in Ireland?"
+    answer: "Google has discontinued it and replaced it with the Google TV Streamer, which is sold on the Google Store Ireland."
+  - question: "Which Fire TV Stick should I buy for RTÉ Player?"
+    answer: "The Fire TV Stick 4K Max (2nd generation) runs Fire OS 8 and uses the Amazon Appstore, where RTÉ Player is listed. The newer Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select run Vega OS, and it wasn't confirmed at the time of writing whether RTÉ Player, Virgin Media Play or TG4 Player are available on them."
+  - question: "Which one works with NOW?"
+    answer: "At the time of writing (November 2026), NOW's Irish device list includes the Fire TV Stick 4K Max and the Chromecast with Google TV, but not the Google TV Streamer or the Vega OS Fire TV Sticks."
 ---
+
+{% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
-## Chromecast vs Fire TV Stick: Which Is Better for Irish Viewers?
+Google no longer makes the Chromecast with Google TV, so the real choice today is between its replacement, the Google TV Streamer, and Amazon's Fire TV Sticks. For Irish viewers the deciding question is which Fire TV Stick you're looking at: the newest ones run a different system with fewer apps.
 
-*Update (September 2026): Google discontinued the Chromecast with Google TV in 2024 and replaced it with the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), a small set-top box that runs the same Google TV software. Everything below about Google TV applies to both; if you're buying new, look for the Google TV Streamer.*
+## At a glance
 
-Streaming sticks have become the easiest way to get Irish and UK apps onto an older telly without buying a new smart TV. The two most popular options here have been Google's Chromecast with Google TV (now replaced by the Google TV Streamer) and Amazon's [Fire TV Stick](/devices/best-streaming-devices-ireland/). Both connect to an HDMI port, both run on Wi-Fi, and both promise "everything in one place." But for viewers in Ireland specifically, there are some real differences worth knowing before you buy.
+- **Chromecast with Google TV:** discontinued. Google replaced it with the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/), a small box sold on the [Google Store Ireland](https://store.google.com/ie/product/google_tv_streamer_specs).
+- **Fire TV Stick 4K Max (2nd gen, 2023):** runs Fire OS 8, Amazon's established system, according to [Amazon's developer pages](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html).
+- **Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select:** run Amazon's newer Vega OS, which has fewer apps.
+- **Irish apps:** RTÉ Player is on Google TV and Fire OS. Nothing confirms it on the Vega OS sticks yet.
 
-### App Support: The Irish Essentials
+## What's on sale
 
-For most Irish households, the deciding factor isn't Netflix or Disney+ — both devices handle those fine. It's whether you can get [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/), Virgin Media Play, and your sports subscriptions working smoothly.
+**Google TV Streamer.** Google's specifications list 4K HDR with Dolby Vision and HDR10+, 32 GB of storage, and a built-in Ethernet port, so you can plug it straight into your router. It sits beside the TV rather than behind it, and you need to buy a certified HDMI 2.1 cable separately. Check the current price on the Google Store Ireland, as Google runs offers.
 
-RTÉ Player has apps for both platforms, and in general Irish viewers report few issues getting it running on either Chromecast with Google TV or Fire TV Stick. [Virgin Media Play's](/streaming-services/is-virgin-media-play-free-in-ireland/) availability can be a little patchier depending on the exact model and software version, so it's worth checking the current app store listing on each device before you commit, as availability and app names do shift over time.
+**Fire TV Sticks.** Amazon's line-up now runs on two different systems. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} runs Fire OS 8, as does the Fire TV Stick 4K Plus (2025). Amazon's newer Fire TV Stick 4K (3rd gen, 2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select (2025) run Vega OS. The names are close, so check the exact model and year before you buy.
 
-If you pay for sports through services like Sky, Virgin Media, or an official streaming package, check the specific app's compatibility page rather than assuming — some apps favour one ecosystem over the other for certain features like multi-view or offline downloads, and this changes often enough that we won't guess at specifics here.
+## Irish apps
 
-Amazon's Fire TV interface understandably nudges you toward Prime Video content first, while Google TV tends to present a more neutral, blended homescreen pulling in content from whatever apps you have installed. Neither approach is objectively better, but if you're not an Amazon Prime subscriber, some readers find the Fire TV homescreen a bit more sales-pitchy.
+- **RTÉ Player:** has an Android TV and Google TV app in Google Play, and is in the Amazon Appstore that Fire OS sticks use. It wasn't confirmed, when we checked, whether it's available on the Vega OS sticks.
+- **Virgin Media Play and TG4 Player:** neither broadcaster's help pages confirm an app for Google TV or Fire TV. [Virgin Media Television's FAQ](https://virginmediatelevision.ie/player/faq/) lists computers, phones and tablets, Virgin Media, Sky and NOW, and [TG4's FAQ](https://www.tg4.ie/en/information/faq/) lists its Android TV app as "coming soon". Search the store on the device, or cast from your phone.
+- **NOW:** [NOW's Irish device list](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch) names the Fire TV Stick 4K Max (1st and 2nd gen) and the Chromecast with Google TV (4K and HD), but not the Google TV Streamer or the Vega OS sticks, at the time of writing (November 2026).
 
-### Price and Value
+If one Irish app matters most to you, check it against the exact device before you buy. App lists change, and that matters more than any spec sheet.
 
-Both devices are generally sold at a range of price points depending on the model — Fire TV Stick, Fire TV Stick 4K, Fire TV Stick 4K Max on one side; the Google TV Streamer (or a leftover Chromecast with Google TV) on the other. Exact pricing in euro changes with promotions, retailer, and currency conversion from sterling or dollar pricing, so we won't quote specific figures here — it's best to check current listings on Amazon.ie, Currys, or Harvey Norman before buying, as prices can shift significantly during sales periods like Black Friday.
+## Which should you buy?
 
-As a general rule, both brands tend to price their entry-level HD sticks similarly, with the 4K versions costing more. If you don't have a 4K television, the cheaper HD models are perfectly adequate and there's little reason to pay extra.
+- **A Fire TV Stick 4K Max** if you want the widest choice of Irish apps today, including NOW, or you already use Alexa.
+- **The Google TV Streamer** if you want a wired connection without an adapter, use Google Home or an Android phone, or want room for lots of apps.
+- **Avoid the Vega OS sticks** for now if RTÉ Player, Virgin Media Play or TG4 Player are what you watch most, until those apps are confirmed for them.
+- **Already have a Chromecast with Google TV?** There's no need to replace it while your apps work. Google's help pages still cover it, and our [Chromecast setup and pairing fixes](/troubleshooting/chromecast-with-google-tv-common-setup-and-pairing-problems-solved/) may help.
 
-### Ease of Use
+A [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) is a third option: Roku says RTÉ Player is officially available on its devices in Ireland, and Virgin Media Play is in the Roku Channel Store. For every option side by side, see our [best streaming devices guide](/devices/best-streaming-devices-ireland/).
 
-Setup for both devices is straightforward: plug into HDMI, connect to Wi-Fi, sign in with a Google or Amazon account, and install apps. Neither requires any technical skill.
+{% include product-showcase.html products="google-tv-streamer,fire-tv-stick-4k-max-review,roku-streaming-stick-4k" %}
 
-Where they differ is remote control and voice search. Fire TV's Alexa voice remote is well regarded for searching by title or actor, and works well if you're already using Alexa elsewhere in the house. Google TV's remote leans on Google Assistant, which many users find equally capable, particularly if you already use Google services like Gmail or Google Photos.
+Sources: [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) (checked 10 November 2026) · [Amazon: Fire TV device comparison table](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 10 November 2026) · [NOW Ireland: supported streaming devices](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch) (checked 10 November 2026) · [Virgin Media Play FAQ](https://virginmediatelevision.ie/player/faq/) (checked 10 November 2026) · [TG4 FAQ](https://www.tg4.ie/en/information/faq/) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland)
 
-Fire TV Stick tends to feel snappier on Amazon's own content and reasonably fluid elsewhere. Google TV's interface has had a reputation for occasional lag on lower-end models, though this can vary with software updates, so recent experiences may differ from older reviews you might read online.
+{% include faq-section.html %}
 
-### Which Should You Choose?
-
-If you're already inside the Amazon ecosystem — Prime Video, Alexa smart speakers, Amazon shopping — the Fire TV Stick will likely feel more joined-up. If you use Gmail, Google Photos, or Android phones day to day, a Google TV device — now the Google TV Streamer — will probably integrate more naturally, and its homescreen is arguably less pushy about upselling a specific service.
-
-For core Irish apps like RTÉ Player, neither device has a clear, well-documented advantage — both are generally supported. Virgin Media Play and specific sports apps are the area most likely to affect your decision, so it's worth checking the current official app listings for both platforms, and even asking in Irish tech forums or on the RTÉ and Virgin Media support pages, before making a final call.
-
-Ultimately, both are solid, legal, affordable ways to bring streaming apps to an older TV, and the "better" choice comes down to which ecosystem you're already using and which specific Irish apps you rely on most. For every Fire TV model and set-up guide, see our [Fire TV hub](/fire-tv/).
-
-{% include product-showcase.html products="google-tv-streamer,fire-tv-stick-4k,fire-tv-stick" %}
 {% include related-posts.html %}
+
 {% include whatsapp-cta.html %}

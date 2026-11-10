@@ -1,7 +1,9 @@
 ---
-title: "Audio Out of Sync? Fixing Streaming Lag on Smart TVs"
-excerpt: "A practical troubleshooting guide for Irish viewers dealing with audio that's out of sync with video on smart TVs and streaming apps."
-description: "A practical troubleshooting guide for Irish viewers dealing with audio that's out of sync with video on smart TVs and streaming apps."
+title: "Audio Out of Sync on Your Smart TV? How to Fix It"
+excerpt: "Sound ahead of or behind the picture? Check if it's one programme or all of them, then use your TV's audio delay setting. Steps for Samsung, LG and Sony."
+description: "Sound ahead of or behind the picture? Check if it's one programme or all of them, then use your TV's audio delay setting. Steps for Samsung, LG and Sony."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Troubleshooting
 tags:
@@ -18,82 +20,66 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Why is the audio delay worse on some apps than others?"
-    answer: "Different apps handle video and audio decoding slightly differently, so a sync issue that appears on one streaming app may not affect others on the same TV."
-  - question: "Will restarting my TV really fix audio sync?"
-    answer: "Often yes, a full power cycle clears temporary software glitches that can cause sync drift, and it's one of the quickest things to try first."
-  - question: "Does a wired connection actually help with audio sync?"
-    answer: "Yes, a wired connection reduces buffering and dropped frames caused by weak Wi-Fi, which can indirectly cause or worsen sync issues."
-  - question: "Should I adjust sync settings on my TV or my soundbar?"
-    answer: "If you use a soundbar or AV receiver, try adjusting the delay there first, as it's often more precise than the TV's built-in setting, then fine-tune on the TV if needed."
+  - question: "Why is only one programme out of sync?"
+    answer: "If other programmes and apps are fine, the problem is most likely that title or broadcast, not your TV. Netflix, for example, asks you to report the title from your Viewing Activity."
+  - question: "Why is the sound late on my Bluetooth headphones or speaker?"
+    answer: "Sony says a small delay over Bluetooth is a limitation of the technology. Turn on the TV's A/V sync setting if it has one, or use the TV speakers or a wired HDMI or optical connection."
+  - question: "Should I fix the delay on the TV or the soundbar?"
+    answer: "Sony says delay through a soundbar or home cinema system usually comes from that system's processing, so check its sound mode and settings as well as the TV's audio delay setting."
 ---
- 
+
 {% include last-updated.html %}
- 
+
 {% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-Few things ruin a good film faster than watching someone's lips move a beat before you hear them speak. Audio sync issues (sometimes called "lip sync drift") are one of the most common streaming complaints, and thankfully most causes are fixable without calling anyone out to your house.
 
-This guide runs through the usual suspects, from your telly's own settings to your home network, so you can get back to watching without the distraction.
+If the sound is ahead of or behind the picture, first check whether it happens on everything or just one programme. One programme means the problem is that title; everything means it's your TV, streaming device or sound system, and the fix is usually a restart, a software update or the TV's audio delay setting.
 
-## Why Audio Drifts Out of Sync
+## At a glance
 
-Audio delay usually happens because video and sound take slightly different paths to your ears and eyes. Video often needs more processing (especially with upscaling or motion smoothing features), while audio can arrive a fraction of a second earlier. Streaming adds another layer of complexity because the video and audio streams are sometimes decoded separately before being recombined for playback.
+- **One title only:** report it to the streaming service and watch something else.
+- **Everything, TV speakers:** restart the TV fully, update its software, then use its audio delay setting.
+- **Soundbar or receiver:** check the TV's digital audio output setting and the soundbar's own settings.
+- **Bluetooth headphones:** a small delay is normal; turn on A/V sync if your TV has it.
 
-The good news is that this is a well-known issue, and every major smart TV brand and streaming device has settings designed to correct it.
+## 1. Check whether it's one programme or all of them
 
-## Start With the Simple Fixes
+Try another programme in the same app, then a different app or a live channel. [Netflix's help page on out-of-sync audio](https://help.netflix.com/en/node/100780) says that if only one title is affected, you should report it from your Viewing Activity; if other titles are out of sync too, the issue is with your device. [Sony](https://www.sony.co.uk/electronics/support/articles/00026069) gives the same advice for live TV: if only one channel is out, it's the broadcast, not the TV.
 
-Before diving into settings menus, try these quick steps:
+## 2. Restart the TV fully and update it
 
-- **Restart the app.** Close it fully rather than just backing out, then reopen it.
-- **Restart the TV or streaming device.** A full power cycle clears temporary glitches more often than you'd think.
-- **Check for software updates.** Both your TV's firmware and the individual streaming apps get regular updates, and sync bugs are often patched quietly.
-- **Try a different show or app.** If sync issues only happen on one app, the problem is likely with that app rather than your TV.
+Netflix's steps for smart TVs and set-top boxes: unplug the device, press its power button once, wait a minute (or leave it unplugged for three minutes), then plug it back in. After that, check for a software update on the TV and update the app you're watching.
 
-## Adjusting Audio Delay Settings
+## 3. Use your TV's audio delay setting
 
-Most smart TVs and soundbars have a manual audio delay (sometimes called "audio sync" or "lip sync") setting that lets you nudge the sound earlier or later in small increments.
+Each maker names it differently. These are the paths from their own help pages; menus vary by model and year.
 
-- **On Samsung TVs**, this is generally found under Sound settings, sometimes labelled "Sound Sync" or similar.
-- **On LG TVs**, look in Sound settings for an "AV Sync" adjustment.
-- **On Sony and other Android TV based sets**, check Sound settings for a sync or delay option.
+**Samsung.** Go to **Settings > Sound > Expert Settings > Digital Output Audio Delay** and move the slider. Samsung says that if the sound comes before the picture, move it to the right. **Reset Sound** in the same menu puts everything back. Samsung also notes that streaming sound and picture wirelessly can cause delays. *([Samsung UK](https://www.samsung.com/uk/support/tv-audio-video/how-to-troubleshoot-an-audio-delay/))*
 
-Menu wording changes between models and software versions, so if you can't find the exact term, searching your TV's support site for "audio sync" alongside your model number is a reliable way to find the right menu.
+**LG.** On 2021 and later models (webOS 6.0 and up): **Settings > All Settings > Sound > Advanced Settings > Match Screen and Sound**, and turn on **Bypass**. On 2020 and earlier models it's **Sound > Additional Settings > AV Sync Adjustment**. If Bypass doesn't fix it, turn it off and adjust **TV Speaker** delay until the sound matches the lips. *([LG UK](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008386-20155410408776/))*
 
-If you use a separate soundbar or AV receiver, check its settings too, as delay adjustments are sometimes better handled there rather than on the TV itself.
+**Sony (Android TV and Google TV).** Open Settings (Quick Settings button on 2019 and later models), then **Display & Sound > Audio output** and set **A/V sync** to Auto or On. Sony also suggests turning Game Mode off when watching TV or films. *([Sony UK](https://www.sony.co.uk/electronics/support/articles/00026069))*
 
-## Streaming Device Considerations
+## 4. If you use a soundbar or home cinema system
 
-If you're using an external streaming device rather than your TV's built-in apps, the fix might live on the device instead.
+Sony says delay through a soundbar or receiver connected by HDMI or optical cable usually comes from the audio system's processing, not the TV speakers. Its suggestions:
 
-- **Fire TV Stick or Fire TV Cube**: check the audio settings within the specific app you're watching, as some apps (like certain sports or catch-up services) have their own sync controls separate from the device-wide settings.
-- **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices**: a system restart often resolves minor drift, and it's worth checking that your Roku software is up to date.
-- **Chromecast**: since it relies on your phone or another device to cast, try restarting the casting app on your phone as well as the Chromecast itself.
+- Connect the soundbar straight to the TV's HDMI port marked ARC or eARC, not through another box.
+- On the TV, set **Digital audio out** to **PCM** (Display & Sound > Audio output on Sony).
+- Unplug the soundbar or receiver and plug it back in, check it for updates, and use its own audio delay setting if it has one.
 
-If sync problems persist across multiple apps on the same device, the device's own hardware or an outdated HDMI cable could be a factor, and swapping the HDMI cable is a cheap first step before assuming the device is faulty.
+Netflix also suggests checking that HDMI and optical cables are firmly in, swapping the cable ends, or trying a different cable. If you need a replacement, here's a {% include product-link.html id="hdmi-cable-4k" text="high-speed HDMI cable" %}.
 
-## When It's a Network Problem
+## 5. Bluetooth headphones and speakers
 
-Sometimes what looks like an audio delay is actually [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) that's affecting audio and video slightly differently. If your connection is struggling, streams may drop frames or briefly stall, which can throw sync off temporarily.
+[Sony says](https://www.sony.co.uk/electronics/support/articles/00358282) Bluetooth audio can lag behind the picture, and that this is a limitation of Bluetooth itself. Turning on **A/V sync** on the TV helps on supported models (it doesn't work in Game Mode). If it's still noticeable, use the TV speakers or a wired connection.
 
-Signs your network might be the culprit:
+## Still out of sync?
 
-- Sync issues happen mainly during peak evening hours
-- Picture quality also drops or the stream buffers frequently
-- The problem is worse in one room than another
+Try the same programme on another device, such as a phone or laptop. If it's fine there, contact your TV maker's support. If it's out on every device, contact the streaming service. If the picture is also freezing or buffering, see [why streaming apps buffer](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/).
 
-If your Wi-Fi signal is weak in the room where you stream, a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi range extender" %} can help boost coverage to that area. For a more permanent fix, especially in larger homes, a {% include product-link.html id="mesh-wifi-troubleshoot" text="mesh Wi-Fi system" %} spreads a stronger, more consistent signal across multiple rooms.
-
-Where possible, a wired connection is the most reliable option. Running a {% include product-link.html id="ethernet-cable-troubleshoot" text="long Ethernet cable" %} from your router to your TV or streaming device removes Wi-Fi variability from the equation entirely, which can resolve both buffering and the knock-on sync issues it sometimes causes.
-
-## Still Not Fixed?
-
-If you've tried the above and audio is still noticeably out of sync, it's worth contacting the streaming service's own support team directly. Sync issues can occasionally stem from a problem with a specific piece of content rather than your setup, and the provider may already be aware of it or able to advise further.
-
-{% include product-showcase.html category="Troubleshooting" %}
+Sources: [Netflix: audio is out of sync](https://help.netflix.com/en/node/100780) (checked 10 November 2026) · [Samsung UK: how to troubleshoot an audio delay](https://www.samsung.com/uk/support/tv-audio-video/how-to-troubleshoot-an-audio-delay/) (checked 10 November 2026) · [LG UK: how to sync the picture and sound](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008386-20155410408776/) (checked 10 November 2026) · [Sony UK: audio delay or out of sync](https://www.sony.co.uk/electronics/support/articles/00026069) (checked 10 November 2026) · [Sony UK: lip-sync delay over Bluetooth](https://www.sony.co.uk/electronics/support/articles/00358282) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

@@ -1,7 +1,9 @@
 ---
 title: "How to Set Up Disney+ on an LG Smart TV"
-excerpt: "A clear, step-by-step guide to downloading, installing, and signing into Disney+ on LG webOS smart TVs, with tips for fixing common streaming hiccups."
-description: "A clear, step-by-step guide to downloading, installing, and signing into Disney+ on LG webOS smart TVs, with tips for fixing common streaming hiccups."
+excerpt: "Disney+ runs on LG TVs with webOS 3.0 or later (2016 models on). How to install it from the LG Content Store, sign in with a code, and what to do on older sets."
+description: "Disney+ runs on LG TVs with webOS 3.0 or later (2016 models on). How to install it from the LG Content Store, sign in with a code, and what to do on older sets."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Installation-Guides
 tags:
@@ -18,14 +20,12 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Why can't I find Disney+ in the LG Content Store?"
-    answer: "Your TV's webOS version may be too old to support the app; checking LG's official compatibility list or updating your TV's software is the best first step."
-  - question: "Do I need a separate streaming device if I already have an LG Smart TV?"
-    answer: "Not usually, since most modern LG webOS TVs support Disney+ natively, though a device like a Fire TV Stick or Roku can help if your TV's app is outdated or unreliable."
-  - question: "Can I use the same Disney+ account on multiple TVs in my house?"
-    answer: "Yes, though Disney+ limits the number of simultaneous streams and downloads depending on your subscription plan, so check current plan details on the official site."
-  - question: "What should I do if Disney+ keeps buffering on my LG TV?"
-    answer: "Check your broadband speed, consider a wired connection or mesh Wi-Fi upgrade, and lower the streaming quality in the app's settings if the issue persists."
+  - question: "Which LG TVs can get Disney+?"
+    answer: "LG says Disney+ is supported on TVs running webOS 3.0 and later, which means 2016 models onwards. LG TVs on webOS 2.0 or earlier (2015 and older) don't get the app."
+  - question: "Can I sign in without typing my password on the remote?"
+    answer: "Yes. Choose to log in with a code on the TV, then go to disneyplus.com/begin on your phone or computer and enter the code shown on screen."
+  - question: "How many TVs can watch Disney+ at the same time?"
+    answer: "Disney+ Ireland allows 2 streams at once on Standard and Standard with Ads, and 4 on Premium."
 ---
 
 {% include last-updated.html %}
@@ -34,59 +34,50 @@ faqs:
 
 {% include share-buttons.html %}
 
-## Getting Disney+ Ready on Your LG Smart TV
+Disney+ has an app for LG smart TVs running webOS 3.0 or later, which covers LG models from 2016 onwards. On many newer LG TVs it's already installed; otherwise you download it free from the LG Content Store and sign in with your Disney+ account.
 
-[Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) is available as a native app on most LG Smart TVs running webOS, which means Irish viewers can stream everything from Marvel to Pixar without needing an extra box plugged in. That said, a few older LG models may not support the app at all, so it's worth checking your TV's webOS version before you start. If your telly is more than five or six years old, you may need to check LG's official support pages for compatibility, as we can't confirm exact cut-off years here.
+## At a glance
 
-Here's how to get everything set up properly.
+- **Works on:** LG TVs with webOS 3.0 or later (2016 models on), according to [LG's Disney+ support page](https://www.lg.com/us/support/disney-plus-lg-tv)
+- **Doesn't work on:** webOS 2.0 or earlier (2015 and older models). [LG says](https://www.lg.com/ca_en/support/product-support/troubleshoot/help-library/cs-CT52001643-20151340318223OLT/) these won't be updated.
+- **Where to get it:** the LG Content Store, or already on the home screen of many newer LG TVs
+- **Cost:** the app is free; you need a Disney+ subscription to watch
 
-### Step 1: Check Your Internet Connection
+## Install Disney+ on an LG TV
 
-Before touching the app store, make sure your LG TV has a stable internet connection, either via Wi-Fi or a wired connection through the settings menu. Disney+ in HD or 4K can be demanding on your bandwidth, especially if multiple devices are streaming in the house at once. If you've noticed buffering or dropouts in the past, upgrading to a {% include product-link.html id="mesh-wifi-system" text="Mesh Wi-Fi System" %} can make a real difference in larger Irish homes with thick walls, where a single router often struggles to reach the sitting room.
+These are the steps from [LG UK's help page](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008334-20152724818160/):
 
-If your TV is positioned far from your router and you'd rather use a wired connection for rock-solid streaming, a good quality {% include product-link.html id="hdmi-cable-4k" text="High-Speed HDMI 2.1 Cable" %} is also worth having on hand, particularly if you're connecting an external streaming device or games console alongside your smart TV apps.
+1. Make sure the TV is connected to the internet.
+2. Press the Home button on the remote and check your app list. LG says Disney+ comes preinstalled on many of its TVs, so it may already be there.
+3. If it isn't, open the **LG Content Store**, select the search icon at the top right and search for "Disney Plus".
+4. Select **Install**. When it's finished, Disney+ appears in your app list.
 
-### Step 2: Find the Disney+ App
+## Sign in
 
-On your LG remote, press the Home button to bring up the webOS launcher bar. From here, look for the LG Content Store (sometimes labelled slightly differently depending on your software version). Search for "Disney+" in the store's search function.
+Open Disney+ and choose **Log in** (or **Sign up** if you don't have an account yet). You can type your email and password with the remote, or choose to log in with a code: the TV shows a code, and you enter it at **disneyplus.com/begin** on your phone or computer. Disney+ explains both options in its help article [How to watch Disney+ on your TV](https://help.disneyplus.com/en-GB/article/disneyplus-log-in).
 
-If Disney+ doesn't appear in search results, it may already be pre-installed on your home screen row of apps, so it's worth scrolling through before assuming it's missing entirely.
+Once you're in, you can add profiles for each person in the house.
 
-### Step 3: Download and Install
+## Plans and streams
 
-Select the Disney+ app icon and choose install (the exact wording of the button may vary slightly between webOS versions, so look for anything along the lines of "Install" or "Get"). The download shouldn't take long on a decent broadband connection. Once complete, the app icon should appear on your home screen automatically.
+{% assign dplus = site.data.prices | where: "service", "Disney+" %}
+At the time of writing (November 2026), Disney+ Ireland lists three plans:
 
-### Step 4: Sign In or Create an Account
+| Plan | Monthly | Streams at once |
+|---|---|---|
+| {{ dplus[0].plan }} | {% include euro.html amount=dplus[0].monthly %} | 2 |
+| {{ dplus[1].plan }} | {% include euro.html amount=dplus[1].monthly %} | 2 |
+| {{ dplus[2].plan }} | {% include euro.html amount=dplus[2].monthly %} | 4 |
 
-Open the app and you'll be prompted to log in. You have a couple of options here:
+*Standard monthly prices, checked {{ dplus[0].checked | date: "%-d %B %Y" }} on [Disney+ Ireland](https://www.disneyplus.com/en-ie). Disney+ often has a lower price for the first six months on a six-month minimum term.* For what each plan includes, see our [Disney+ Ireland plans guide](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/).
 
-- Enter your email and password directly using the on-screen keyboard and remote.
-- Choose the "sign in with code" option if available, which lets you visit disneyplus.com/begin on your phone or laptop, enter a short code, and link your TV that way. This is often faster than typing a long password with a remote.
+## If your LG TV is too old or the app won't install
 
-If you don't yet have a subscription, you'll be able to sign up for one directly through the app or via the Disney+ website, where current pricing and plan options for Ireland are listed. We'd recommend checking the official site for up-to-date pricing, as subscription costs do change from time to time.
+If your TV runs webOS 2.0 or earlier, Disney+ won't be in the Content Store and LG has no plans to add it. LG suggests using an external streaming device instead. Disney+ lists Android TV devices, Apple TV, Amazon Fire TV, Chromecast and Roku among its supported TV devices, so a streamer such as the {% include product-link.html id="google-tv-streamer" text="Google TV Streamer" %} plugged into a spare HDMI port gives you the app.
 
-### Step 5: Adjust Your Streaming Settings
+If the app is installed but freezes, crashes or won't load, LG's advice for [apps that keep freezing](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008386-20154996627153/) is to restart your router and the TV, update the app, and if that fails delete it (press and hold OK on the app) and reinstall it from the Content Store. For Disney+ error messages, see [Disney+ not working](/troubleshooting/disney-not-working-try-these-fixes/).
 
-Once logged in, head into your account settings within the app to set your preferred video and audio quality, especially if you're on a capped broadband plan. You can also set up individual profiles for family members here, which is handy if everyone has different viewing histories and recommendations.
-
-## Mounting and Placement Tips
-
-If you're setting up Disney+ as part of a wider TV upgrade or room refresh, it's a good moment to think about where your television actually sits. A well-positioned {% include product-link.html id="tv-wall-mount" text="Adjustable TV Wall Mount" %} can improve viewing angles and free up space compared to a bulky TV stand, particularly in smaller Irish sitting rooms.
-
-## Troubleshooting Common Issues
-
-If the app crashes, freezes, or won't load content, try these steps in order:
-
-1. Restart the app fully by closing it from the running apps menu, not just pressing Home.
-2. Restart the TV itself by unplugging it from the mains for around 30 seconds.
-3. Check for any pending software updates in your TV's general settings, as outdated webOS versions can cause playback issues.
-4. As a last resort, uninstall and reinstall the Disney+ app.
-
-If your LG TV doesn't support Disney+ at all, or the app performance is consistently poor, plugging in an external device such as a Fire TV Stick, Fire TV Cube, Roku, or Chromecast is a reliable workaround worth considering.
-
-**Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [How to Set Up Virgin Media Play on a Samsung Smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/)
-
-{% include product-showcase.html category="Installation Guides" %}
+Sources: [LG: Watch Disney+ on LG TV](https://www.lg.com/us/support/disney-plus-lg-tv) (checked 10 November 2026) · [LG UK: Downloading Disney Plus on an LG TV](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008334-20152724818160/) (checked 10 November 2026) · [LG UK: apps that keep freezing or won't load](https://www.lg.com/uk/support/product-support/troubleshoot/help-library/cs-CT00008386-20154996627153/) (checked 10 November 2026) · [Disney+ Ireland](https://www.disneyplus.com/en-ie) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

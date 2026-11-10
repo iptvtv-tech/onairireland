@@ -21,11 +21,11 @@ draft_generated: true
 affiliate_links: false
 faqs:
   - question: "Is the Champions League free to watch in Ireland?"
-    answer: "Mostly, this season. Until the end of 2026/27 Virgin Media Television shows most games free, and RTÉ has first pick of Wednesday games free on RTÉ2 and RTÉ Player. Premier Sports, a paid channel, has first pick of Tuesday games."
+    answer: "Mostly, this season. Until the end of 2026/27 Virgin Media Television shows most games free, and RTÉ shows live Wednesday games free on RTÉ2 and RTÉ Player. Premier Sports, a paid channel, has first pick of Tuesday games."
   - question: "Can I watch Premier Sports without a contract?"
     answer: "Yes. NOW's Sports Extra membership includes Premier Sports 1 and 2 with no contract, and there's also a 24-hour day pass."
   - question: "What changes from next season?"
-    answer: "From 2027/28 Virgin Media Television no longer has the rights. RTÉ keeps first pick of Wednesday games free and also gets the final, Premier Sports keeps first pick of Tuesday games, and Sky Sports shows the remaining games."
+    answer: "From 2027/28 Virgin Media Television no longer has the rights. RTÉ has first pick of Wednesday games free and also gets the final, Premier Sports keeps first pick of Tuesday games, and Sky Sports shows the remaining games."
 ---
 
 {% include last-updated.html %}
@@ -36,7 +36,7 @@ In Ireland, most Champions League games this season (2026/27) are free on **Virg
 
 ## At a glance
 
-- **Free:** Virgin Media Television shows most games, on Tuesday and Wednesday nights. RTÉ has first pick of Wednesday games, on RTÉ2 and RTÉ Player.
+- **Free:** Virgin Media Television shows most games, on Tuesday and Wednesday nights. RTÉ shows live Wednesday games on RTÉ2 and RTÉ Player.
 - **Paid:** Premier Sports has first pick of Tuesday games.
 - **No contract:** NOW's Sports Extra membership includes Premier Sports.
 - **From 2027/28:** Virgin Media drops out; RTÉ, Premier Sports and Sky Sports share the rights until 2031.
@@ -45,7 +45,7 @@ In Ireland, most Champions League games this season (2026/27) are free on **Virg
 
 Until the end of the 2026/27 season, Virgin Media Television shows most Champions League games free, with live games on Tuesday and Wednesday nights. You can watch on its TV channels or on [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), which is free.
 
-RTÉ has first pick of the Wednesday games, live on RTÉ2 and RTÉ Player. RTÉ said its live matches on RTÉ2 averaged nearly 200,000 viewers last season ([RTÉ Sport, 30 April 2026](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/)).
+RTÉ shows live Wednesday games on RTÉ2 and RTÉ Player. RTÉ said its live matches on RTÉ2 averaged nearly 200,000 viewers last season ([RTÉ Sport, 30 April 2026](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/)).
 
 Both are free-to-air, so you need no subscription. You do need a [TV licence](/streaming-services/tv-licence-streaming-ireland/) for any TV set in your home.
 
@@ -75,7 +75,7 @@ Which channel has which game is decided week by week. Our [sport on TV this week
 
 The rights for 2027 to 2031 have been sold:
 
-- **RTÉ** keeps first pick of Wednesday games, free, and adds the final, Wednesday highlights and the UEFA Super Cup ([RTÉ Sport](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/)). The Irish Times reported that RTÉ shares the final with Premier Sports.
+- **RTÉ** has first pick of Wednesday games, free, and adds the final, Wednesday highlights and the UEFA Super Cup ([RTÉ Sport](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/)). The Irish Times reported that RTÉ shares the final with Premier Sports.
 - **Premier Sports** keeps first pick of Tuesday games, plus highlights (reported by [The Irish Times](https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/)).
 - **Sky Sports** gets the remaining Champions League games, plus the Europa League and Conference League (reported by The Irish Times).
 - **Virgin Media Television** didn't keep the rights. RTÉ notes that Tuesday games will no longer be free-to-air in Ireland after May 2027.

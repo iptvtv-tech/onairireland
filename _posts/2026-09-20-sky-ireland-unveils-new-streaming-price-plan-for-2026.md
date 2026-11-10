@@ -1,7 +1,9 @@
 ---
-title: "Sky Ireland Unveils New Streaming Price Plan for 2026"
-excerpt: "Sky Ireland has announced changes to its streaming pricing structure for 2026, and here's what current and new customers need to know."
-description: "Sky Ireland has announced changes to its streaming pricing structure for 2026, and here's what current and new customers need to know."
+title: "Sky Ireland 2026 Price Plan: What Ultimate TV Now Includes"
+excerpt: "Sky's 2026 change was a new Ultimate TV pack with Netflix, Disney+, HBO Max and Hayu in one subscription. What's included and where to check prices."
+description: "Sky's 2026 change was a new Ultimate TV pack with Netflix, Disney+, HBO Max and Hayu in one subscription. What's included and where to check prices."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - News
 tags:
@@ -16,62 +18,77 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "When do Sky Ireland's new 2026 prices take effect?"
-    answer: "Sky has not published an exact date publicly at the time of writing, so customers should check their account notifications or Sky's official website for confirmation."
-  - question: "Will existing Sky customers be affected immediately?"
-    answer: "Existing customers are usually notified in advance of price changes and may have options depending on their contract status, so it's best to check your specific agreement."
-  - question: "Can I cancel my Sky subscription if the price increase is too high?"
-    answer: "If you're out of contract, you can typically cancel at any time; if you're mid-contract, cancellation terms depend on the size of the increase and your agreement, so contact Sky directly to confirm your options."
-  - question: "Does this price change affect Sky content watched through streaming devices like Fire TV Stick or Roku?"
-    answer: "Yes, since the subscription cost is tied to your Sky account rather than the device, any pricing changes apply regardless of which supported device or app you use to watch."
+  - question: "What did Sky change for 2026?"
+    answer: "On 11 February 2026 Sky announced that Disney+, HBO Max and Hayu would join Netflix in its Ultimate TV pack, so all four come in one Sky subscription. Disney+ and HBO Max arrived in March 2026 and Hayu's full line-up in July."
+  - question: "Which Sky packs include streaming apps?"
+    answer: "Sky's Irish site lists Netflix Basic and discovery+ with Essential TV, and Netflix Basic, Disney+, HBO Max, Hayu and discovery+ with Ultimate TV. The Disney+ and HBO Max plans included are the ones with ads."
+  - question: "How much does Sky Ultimate TV cost in Ireland?"
+    answer: "Sky's prices depend on the offer, your box and the contract length, so we don't quote them. Check the current price on sky.com/ie/tv before you sign up."
+  - question: "Do I need Sky Glass or Sky Stream to get the new apps?"
+    answer: "No. Sky said Sky Q customers on eligible packs also get Disney+, HBO Max and Hayu, and Sky+ customers get HBO Max and Hayu shows. Sky Glass itself needs Ultimate TV."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Sky Ireland's 2026 Pricing Shake-Up
+Sky's big change for 2026 wasn't a price list. On 11 February 2026 it announced a new **Ultimate TV** pack that puts Netflix, Disney+, HBO Max and Hayu into one Sky subscription, alongside Sky's own channels, for customers in Ireland and the UK.
 
-[Sky Ireland](/now-and-sky/) has confirmed that changes are coming to its streaming price plans from 2026. As with most annual pricing reviews, the update affects both [Sky Stream](/streaming-services/sky-stream-vs-now-ireland/) customers and those accessing Sky content through the Sky Go and Sky+ apps. We don't yet have official confirmation of the exact euro figures involved, so treat any specific numbers circulating online with caution until Sky publishes its formal pricing page.
+*Correction (10 November 2026): an earlier version of this article described an unconfirmed 2026 "pricing shake-up". We've rewritten it to cover what Sky actually announced.*
 
-What we do know is that Sky has a pattern of adjusting prices annually to reflect content licensing costs, sports rights renewals, and general inflation across its entertainment, sports, and cinema packages. Irish subscribers should expect a similar approach this time around, likely with tiered increases depending on which bundle you're subscribed to.
+## At a glance
 
-### Why Prices Are Changing
+- **Announced:** 11 February 2026, in [Sky's press release](https://www.skygroup.sky/en-gb/article/sky-brings-together-netflix-disney-hbo-max-and-hayu-into-one-single-subscription-exclusively-on-sky) and [reported for Ireland by The Irish Times](https://www.irishtimes.com/business/2026/02/11/sky-signs-on-with-disney-for-subscription-deal/).
+- **What's new:** Disney+ Standard with Ads, HBO Max Basic with Ads and Hayu added to Ultimate TV, which already included Netflix.
+- **When:** Disney+ from March 2026, HBO Max from 26 March 2026, Hayu in part from March and in full from July 2026.
+- **Who:** new and existing customers on eligible packs, on Sky Stream, Sky Glass and Sky Q.
+- **Prices:** we don't quote Sky's package prices, because they change with offers and contracts. Check [sky.com/ie/tv](https://www.sky.com/ie/tv).
 
-Streaming and satellite bundles in Ireland have become more expensive across the board over the past few years, largely driven by the rising cost of sports broadcasting rights and new content deals. Sky is not alone here — most legal streaming providers operating in Ireland have raised prices at some point in the last two years.
+## What each Sky pack includes now
 
-If you're an existing Sky customer, you should receive a direct notification (usually by email or through an in-app message) outlining exactly how your specific package is affected. It's worth reading this carefully rather than relying on secondhand summaries, since Sky often applies different increases to different tiers.
+On 10 November 2026, [Sky's Irish TV page](https://www.sky.com/ie/tv) lists two main packs:
 
-## What This Means for Existing Customers
+| | Essential TV | Ultimate TV |
+|---|---|---|
+| **Sky Atlantic** | Yes | Yes |
+| **Netflix** | Basic | Basic |
+| **discovery+** | Yes | Yes |
+| **Disney+** | No | Standard with Ads |
+| **HBO Max** | No | Basic with Ads |
+| **Hayu** | No | Yes |
 
-If you're currently mid-contract, Sky is generally required to notify you in advance of any price change, and you typically have a window to cancel penalty-free if the increase is significant enough. It's worth checking the terms of your specific contract, as these details can vary.
+Sky Glass needs Ultimate TV. Sky Sports, Sky Cinema and TNT Sports are paid add-ons on top of either pack.
 
-For customers who are out of contract, this is often a good moment to ring Sky's customer service line and see whether a new deal or discounted bundle is available. Providers are frequently more willing to offer a better rate to a customer who is actively considering leaving.
+One thing to check before you sign: Sky's Irish pages don't agree on the Netflix plan. The pack cards say Netflix Basic, but the FAQ on the same pages says Netflix Standard with Ads. Netflix has no ad plan in Ireland until 1 March 2027 ([see our Netflix price guide](/news/netflix-ireland-price-changes-for-2026-what-you-need-to-know/)), so ask Sky which Netflix plan you'll get.
 
-## What This Means for New Customers
+## Which boxes get what
 
-New sign-ups from 2026 onwards will presumably see the updated pricing reflected immediately at checkout, whether signing up through the Sky website, the Sky Stream box purchase, or via a smart TV app store. If you're shopping around, it's worth comparing the total cost of the package including any add-ons like Sky Sports or Sky Cinema, since these are often priced separately from the base Sky Stream subscription.
+According to Sky's announcement:
 
-## Getting the Best Viewing Experience
+- **Sky Stream and Sky Glass with Ultimate TV:** Netflix, Disney+ Standard with Ads, HBO Max Basic with Ads and Hayu.
+- **Sky Q on eligible packs:** Disney+, HBO Max and Hayu. Sky's [HBO Max page](https://www.sky.com/ie/tv/apps/hbo-max) says the HBO Max app on Sky Q needs Sky Signature or Sky Entertainment.
+- **Sky+:** HBO Max and Hayu shows on demand on the box, but no HBO Max app.
+- **Essential TV:** no HBO Max app included, though Sky says you can buy HBO Max through Sky Marketplace.
+- **Sky Cinema customers:** a new Disney+ Cinema channel.
 
-Regardless of what you end up paying, it's worth making sure your setup is actually delivering good picture and sound quality for the money. Weak signal strength is a common complaint among satellite and aerial-dependent households in Ireland, particularly in rural areas or homes with older wiring. If you've noticed dropouts or pixelation, a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} can sometimes resolve reception issues before you assume it's a fault with your subscription itself.
+If you already pay Disney+ directly, Sky said you can move the subscription to Sky and keep your profiles and watch history. You can also upgrade Disney+ or HBO Max to an ad-free plan through Sky for an extra charge.
 
-For those accessing Sky content via streaming apps on a Fire TV Stick, Fire TV Cube, Roku, or Chromecast rather than a traditional Sky box, it's also worth checking that your device software is fully updated, as outdated firmware can cause buffering or app crashes that have nothing to do with your Sky package itself. And if your existing Fire TV remote has become unreliable or a button has stopped responding, a {% include product-link.html id="fire-tv-remote" text="replacement Fire TV remote" %} is a cheap fix that avoids blaming your streaming service for what's really a hardware niggle.
+## What changed on NOW
 
-## Final Thoughts
+Sky's announcement also changed NOW, its contract-free service. From 26 March 2026 NOW Entertainment members got HBO Max Basic with Ads, and NOW added an Entertainment & HBO Max membership. NOW's prices are on our [streaming prices tracker](/streaming-prices/), and our [Sky Stream vs NOW guide](/streaming-services/sky-stream-vs-now-ireland/) compares the two.
 
-Sky's 2026 pricing changes are still unfolding, and the full details will likely become clearer once Sky Ireland publishes official documentation. In the meantime, existing customers should keep an eye on their email and app notifications, while prospective customers should compare the full cost of any bundle before committing. We'll update this post with confirmed figures once Sky Ireland makes them publicly available.
+## Is your Sky bill going up?
 
-**Related guides:** [Virgin Media Unveils New Streaming Bundle for 2026](/news/virgin-media-unveils-new-streaming-bundle-for-2026/) · [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/)
+We couldn't find a 2026 price-change notice for Irish customers on Sky's Irish website. If your price is changing, Sky will tell you directly; read that notice for the date and your options, and check your contract terms.
+
+To compare Sky with buying the apps on their own, see each app's price on the [streaming prices tracker](/streaming-prices/) and add them up in the [streaming cost calculator](/streaming-cost-calculator/). For the full picture of Sky and NOW in Ireland, see our [Sky and NOW hub](/now-and-sky/) and [HBO Max in Ireland](/news/is-hbo-max-coming-to-ireland/).
+
+Sources: [Sky Group press release](https://www.skygroup.sky/en-gb/article/sky-brings-together-netflix-disney-hbo-max-and-hayu-into-one-single-subscription-exclusively-on-sky) (11 February 2026) · [The Irish Times, Sky signs on with Disney+](https://www.irishtimes.com/business/2026/02/11/sky-signs-on-with-disney-for-subscription-deal/) (11 February 2026) · [Sky Ireland TV packs](https://www.sky.com/ie/tv) (checked 10 November 2026) · [Sky Ireland Ultimate TV](https://www.sky.com/ie/tv/ultimate-tv-package) (checked 10 November 2026) · [Sky Ireland compare packs](https://www.sky.com/ie/tv/compare-tv-packages) (checked 10 November 2026) · [Sky Ireland HBO Max](https://www.sky.com/ie/tv/apps/hbo-max) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
 
 {% include whatsapp-cta.html %}

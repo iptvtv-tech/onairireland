@@ -576,6 +576,8 @@ def story():
         bullet("<b>Best for:</b> Android phone users, and anyone who casts a lot from their phone."),
         bullet("<b>Watch out:</b> pricier than basic sticks. If you already own a Chromecast with Google TV, it "
                "still works — there's no need to replace it."),
+        bullet("<b>NOW:</b> NOW's Irish device list names the Chromecast with Google TV but not the Google TV "
+               "Streamer yet, so check NOW's own list before you buy it mainly for NOW."),
         h2("Apple TV 4K"),
         body("The most polished interface and the longest software support, with tight iPhone integration "
              "(AirPlay, quick sign-in from your iPhone). RTÉ Player and GAA+ both have Apple TV apps."),

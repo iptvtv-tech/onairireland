@@ -1,7 +1,11 @@
 ---
-title: "Virgin Media Unveils New Streaming Bundle for 2026"
-excerpt: "Virgin Media Ireland has announced a new streaming bundle for 2026, and here's what current and prospective customers need to know before it lands."
-description: "Virgin Media Ireland has announced a new streaming bundle for 2026, and here's what current and prospective customers need to know before it lands."
+noindex: true # no new bundle was announced; kept for readers and links (10 Nov 2026)
+sitemap: false
+title: "Virgin Media New Streaming Bundle 2026: What's Confirmed"
+excerpt: "We found no new Virgin Media streaming bundle for 2026 in its press releases or on its site. What Virgin Media actually sells in Ireland right now."
+description: "We found no new Virgin Media streaming bundle for 2026 in its press releases or on its site. What Virgin Media actually sells in Ireland right now."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - News
 tags:
@@ -16,61 +20,51 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "When is Virgin Media's new streaming bundle launching?"
-    answer: "Virgin Media has announced the bundle for 2026 but hasn't confirmed an exact launch date, so it's best to check Virgin Media's official website for updates."
-  - question: "Will my existing Virgin Media contract automatically change?"
-    answer: "This depends on your current contract terms, and Virgin Media typically notifies customers directly by email or through the My Virgin Media account portal about any changes."
-  - question: "Do I need a TV360 box to get the new bundle?"
-    answer: "Full details haven't been confirmed, but Virgin Media has been moving customers toward TV360 boxes for better app integration, so older set-top boxes may have limited support."
-  - question: "What if a streaming app says content isn't available in my country?"
-    answer: "This is usually caused by account region settings or being logged into the wrong regional version of an app, so check your account's country setting or contact the streaming service's support team directly."
+  - question: "Has Virgin Media launched a new streaming bundle for 2026?"
+    answer: "Not as far as we can find. Virgin Media's 2026 press releases cover programmes, sport and broadband, and its website still sells the same Core TV and Loaded TV bundles. An earlier version of this article said a new bundle had been announced; that wasn't confirmed."
+  - question: "Can I get Virgin Media TV without Virgin broadband?"
+    answer: "No. Virgin Media says Virgin TV is available only to its broadband customers."
+  - question: "Are Netflix and Disney+ included with Virgin Media TV?"
+    answer: "The apps are on the Virgin Media box, but its TV pages don't say the subscriptions are included. Unless your bundle states otherwise, you pay Netflix or Disney+ yourself."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Virgin Media's 2026 Streaming Bundle: What We Know So Far
+We can't find any new Virgin Media streaming bundle for 2026. Virgin Media's own press releases and TV pages don't announce one, and it still sells the same two TV packs, Core TV and Loaded TV, with its broadband.
 
-[Virgin Media Ireland](/virgin-media/) has confirmed plans to roll out a refreshed streaming bundle in 2026, aimed at customers who want their broadband, TV and streaming subscriptions managed under one roof. While full pricing and launch dates haven't been locked down publicly yet, the broad strokes of the announcement give us a decent idea of what's coming.
+*Correction (10 November 2026): an earlier version of this article said Virgin Media had announced a new streaming bundle for 2026. We couldn't confirm that from Virgin Media, so we've rewritten it to cover what Virgin Media actually offers.*
 
-We'd recommend treating specific figures with caution until Virgin Media publishes an official pricing page, as these details tend to shift between initial announcement and actual rollout.
+## What we checked
 
-### What the Bundle Reportedly Includes
+- **Virgin Media's press releases.** The 2026 releases on its [press page](https://www.virginmedia.ie/about-us/press/) and [press hub](https://www.virginmedia.ie/press-hub/) cover TV programmes, rugby and League of Ireland coverage, sponsorships and broadband coverage. None announces a new TV or streaming bundle, or a change to what apps are included.
+- **The autumn TV announcement.** On 18 August 2026 Virgin Media Television [announced its new season](https://www.virginmedia.ie/about-us/press/2026/virgin-media-television-unveils-new-season/) of programmes, all available free on Virgin Media Play. That's a programme schedule, not a new bundle.
+- **Virgin Media's TV pages.** Its [Virgin TV 360 page](https://www.virginmedia.ie/television/virgin-tv-360) and [broadband and TV bundles page](https://www.virginmedia.ie/bundles/broadband-tv-phone/) list the same Core TV and Loaded TV packs, on the Streaming TV box.
 
-Based on Virgin Media's messaging, the new bundle appears to combine existing TV packages with access to popular streaming apps through the Virgin Media TV360 platform, rather than requiring customers to juggle separate logins and billing across multiple services. This isn't a huge departure from how bundling already works for many broadband and TV customers here, but it does suggest a tighter integration of on-demand apps into the main TV guide.
+## What Virgin Media sells now
 
-For households already using a TV360 box, the practical change may simply be better discoverability of streaming content alongside regular channels. For everyone else, it raises the question of whether a bundle makes more financial sense than paying for individual streaming subscriptions separately.
+- **TV packs:** Core TV (35+ channels) and Loaded TV (100+ channels).
+- **Broadband needed:** Virgin Media says Virgin TV is "available exclusively for our broadband customers", so TV always comes in a bundle.
+- **Box:** the Streaming TV box, which plugs into any TV and has a voice remote.
+- **Apps on the box:** Netflix, Disney+, Apple TV+, Prime Video, Channel 4, Sky Max, Paramount+, RTÉ Player and TG4 Player. Having the app doesn't mean the subscription is included.
+- **Paid add-ons:** Sky Sports, TNT Sports, Premier Sports and Sky Cinema.
 
-### What It Means for Existing Customers
+Our [Core TV vs Loaded TV guide](/streaming-services/virgin-media-tv-ireland-core-vs-loaded-tv-explained/) explains the two packs in more detail, and the [Virgin Media 360 box review](/reviews/virgin-media-360-box-review-is-it-still-worth-it/) covers the older box many customers still have.
 
-If you're already a Virgin Media customer, the key thing to watch for is whether your current contract will be automatically migrated to the new bundle or whether you'll need to opt in. Historically, telecom providers in Ireland have handled this differently depending on contract terms, so it's worth keeping an eye on any direct communication from Virgin Media - usually by email or through the My Virgin Media account portal - rather than assuming anything changes automatically.
+## Prices
 
-Customers on older set-top boxes may also want to check whether their hardware supports the full bundle experience. Virgin Media has been gradually moving customers onto TV360, and older boxes may have limited app support compared to newer ones.
+We haven't quoted bundle prices. Virgin Media's prices depend on your broadband speed, contract length (12 or 24 months) and the offer running that month, with a lower price for the offer period and a higher one after it. On 10 November 2026 its bundles page also had a headline price that didn't match the bundle it was attached to. Check the full price after the offer period on [Virgin Media's bundles page](https://www.virginmedia.ie/bundles/broadband-tv-phone/) before you sign.
 
-### Streaming Without a Virgin Media Box
+## The free option
 
-Not every household in Ireland gets its TV signal through Virgin Media, and plenty of people rely on standalone streaming devices instead. If you're considering skipping the cable bundle altogether, options like a Fire TV Stick, Fire TV Cube, Roku player, or Chromecast remain solid ways to access licensed streaming apps directly on any HDMI-equipped television.
+Virgin Media Play, the free app for Virgin Media Television's channels, is separate from these packages. Anyone in Ireland can use it without Virgin broadband or TV: see [is Virgin Media Play free?](/streaming-services/is-virgin-media-play-free-in-ireland/)
 
-One small but genuinely useful upgrade for anyone using a streaming stick day-to-day is a dedicated {% include product-link.html id="fire-tv-remote" text="Fire TV remote" %}, particularly if your existing one has started missing button presses or you've misplaced the original that came in the box.
+If Virgin Media does announce a new bundle, we'll cover it on our [Virgin Media hub](/virgin-media/).
 
-### A Reminder About Reception Basics
-
-Streaming bundles are only as good as the connection behind them, and for households that still rely on a mix of aerial-based TV and streaming apps, weak signal can be a genuine source of frustration - pixelation, dropouts, or channels that won't tune at all. If you're noticing inconsistent reception on the traditional TV side of things, it may be worth checking whether a {% include product-link.html id="tv-aerial-signal-booster" text="TV aerial signal booster" %} improves things before assuming the fault lies with your streaming setup.
-
-### Should You Wait or Switch Now?
-
-For anyone currently shopping around for a new broadband and TV package, it may be worth waiting for Virgin Media to publish full details of the 2026 bundle before signing a new contract, simply to compare it properly against what's currently on offer. Existing customers approaching the end of a contract term have similar reasoning to weigh up.
-
-As always with telecom bundles in Ireland, the value proposition often comes down to how many of the included services you'd actually use. A bundle that includes multiple streaming apps is only good value if those are apps you'd otherwise pay for individually anyway.
-
-We'll update this post with confirmed pricing and launch details once Virgin Media makes them official.
-
-**Related guides:** [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/) · [Virgin Media Play vs RTÉ Player: Free Irish Streaming Compared](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/)
+Sources: [Virgin Media press releases](https://www.virginmedia.ie/about-us/press/) (checked 10 November 2026) · [Virgin Media press hub](https://www.virginmedia.ie/press-hub/) (checked 10 November 2026) · [Virgin Media Television new season announcement](https://www.virginmedia.ie/about-us/press/2026/virgin-media-television-unveils-new-season/) (18 August 2026) · [Virgin TV 360](https://www.virginmedia.ie/television/virgin-tv-360) (checked 10 November 2026) · [Virgin Media broadband and TV bundles](https://www.virginmedia.ie/bundles/broadband-tv-phone/) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

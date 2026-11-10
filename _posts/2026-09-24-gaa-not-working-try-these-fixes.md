@@ -1,9 +1,9 @@
 ---
 title: "GAA+ Not Working? Try These Fixes"
-excerpt: "A practical troubleshooting guide for Irish viewers dealing with GAA+ streaming problems on smart TVs, phones, and streaming sticks."
-description: "A practical troubleshooting guide for Irish viewers dealing with GAA+ streaming problems on smart TVs, phones, and streaming sticks."
-last_updated: 2026-10-07
-last_checked: 2026-10-07
+excerpt: "GAA+ won't play, asks you to buy again or says a game isn't available? The fixes from GAA+'s own help pages, by device, and when to email support."
+description: "GAA+ won't play, asks you to buy again or says a game isn't available? The fixes from GAA+'s own help pages, by device, and when to email support."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Troubleshooting
 tags:
@@ -20,14 +20,14 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Why does GAA+ keep buffering even though my broadband is fast?"
-    answer: "Overall broadband speed matters less than the stability of the connection to your specific streaming device, so check for Wi-Fi interference, distance from the router, or too many devices connected at once."
-  - question: "Is it better to watch GAA+ on a smart TV app or a streaming stick?"
-    answer: "Streaming sticks such as Fire TV Stick or Roku often receive app updates faster than built-in smart TV software, so they can be more reliable if your TV app is misbehaving."
-  - question: "I'm getting a message that content isn't available in my region. What should I do?"
-    answer: "Usually this means the game is one RTÉ, TG4 or BBC NI is showing, and those can't be streamed on GAA+ in Ireland, so watch it on RTÉ Player or TG4 Player instead. If it is a GAA+ game, log out and back in on your home Wi-Fi, then contact help@gaaplus.ie."
-  - question: "Does closing other apps help GAA+ run better?"
-    answer: "Yes, closing unused apps frees up memory and processing power on your device, which can reduce freezing or crashing during playback."
+  - question: "Why does GAA+ say a game isn't available in Ireland?"
+    answer: "Usually because RTÉ, TG4 or BBC NI is showing it. Those games are blocked on GAA+ on the island of Ireland, so watch them free on TV, RTÉ Player or TG4 Player."
+  - question: "What broadband speed does GAA+ need?"
+    answer: "GAA+ says live games need at least 25 Mbps for a smooth stream, and about 50 Mbps if two people are watching live at once. Lower speeds will play at lower quality."
+  - question: "Can I cast GAA+ to a Fire TV Stick or Roku?"
+    answer: "No. GAA+ only supports casting from its phone and tablet apps with Chromecast or AirPlay. On Fire TV, Roku and smart TVs, use the GAA+ TV app instead."
+  - question: "How do I contact GAA+?"
+    answer: "Email help@gaaplus.ie. GAA+ asks you to get in touch as soon as a problem starts if you think you're due a refund."
 ---
 
 {% include last-updated.html %}
@@ -36,66 +36,82 @@ faqs:
 
 {% include share-buttons.html %}
 
-## GAA+ Not Working? Try These Fixes
+**Most GAA+ problems come down to four things: the game isn't on GAA+ in Ireland, you're signed in to the wrong account, your device isn't supported, or the connection is too slow for a live stream.** Work through the checks below, which come from [GAA+'s own help centre](https://help.gaaplus.ie/support/solutions), and email help@gaaplus.ie if none of them work.
 
-If you've settled in to watch your county battle it out only to be met with buffering wheels or an error message, you're not alone. [GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) issues tend to crop up around the busiest match days, when demand on both your own network and the service itself is at its highest. Here's a step-by-step way to work through the most common causes.
+## Quick checks
 
-## Start With the Basics
+- **Is the game on GAA+?** Games shown by RTÉ, TG4 or BBC NI are blocked on GAA+ on the island of Ireland. That includes the All-Ireland semi-finals and finals.
+- **Right account?** Sign in with the email you bought your pass with.
+- **Supported device?** Samsung TVs from before 2021, TV web browsers and Sky Q aren't supported.
+- **Fast enough?** GAA+ says live games need at least 25 Mbps.
+- **Up to date?** GAA+ supports the latest operating system and the one before it, so install any app and system updates.
 
-Before diving into anything technical, close the GAA+ app fully and reopen it. On smart TVs and streaming sticks, this usually means removing it from the recent apps list rather than just pressing back. On phones, swipe it away from your app switcher.
+## "This game isn't available" or "not available in your region"
 
-It's also worth checking whether the problem is actually with GAA+ or with your device's software. Make sure the app itself is updated to the latest version, and that your TV or streaming device's operating system is current too. Outdated apps are one of the most common causes of playback errors that otherwise seem mysterious.
+On the island of Ireland, GAA+ only has its own exclusive games. If RTÉ, TG4 or BBC NI is showing a game, you can't watch it on GAA+ here, even with a season pass. Watch it free on the channel, [RTÉ Player](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) or [TG4 Player](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/) instead. Our [GAA hub](/gaa/) explains who shows what.
 
-### Check Your Account and Region Settings
+GAA+ also decides what you can watch from where it thinks you are. If it gets that wrong, for example after a trip abroad, its help pages say to:
 
-A surprising number of "not available" or "content restricted" errors come down to account settings rather than technical faults. Confirm that:
+1. Turn off mobile data and connect to Wi-Fi.
+2. On the website, clear your browser's cookies and cache, refresh the page and log in again. In the app, close it fully and reopen it.
 
-- You're logged into the correct GAA+ account (easy to get wrong if multiple family members share devices).
-- The match is actually on GAA+. Games shown by RTÉ, TG4 or BBC NI aren't available on GAA+ in Ireland, so use RTÉ Player or TG4 Player for those.
-- You're on your home Wi-Fi. GAA+ works out what you can watch from where it detects you are, so if you've just come back from abroad, log out and back in.
+A phone roaming on an Irish SIM can look as if it's in Ireland, which blocks some games abroad. Connecting to local Wi-Fi fixes that.
 
-If something still looks wrong after checking these, it's best to contact GAA+ support directly at help@gaaplus.ie. They can confirm whether there's a known outage or an issue specific to your account, which saves a lot of guesswork.
+## Asked to buy a game you've already paid for
 
-## Diagnose a Buffering or Freezing Stream
+GAA+ gives three reasons for this:
 
-Buffering is almost always a network issue rather than an app issue. A few things to try, in order:
+- **Wrong account.** Check which email you're signed in with: tap the person icon on the website, or the cog and then Account in the app. If the app shows "Login" rather than "Account", you're signed out.
+- **Your pass doesn't cover the game.** The Irish season pass covers GAA+ exclusive championship games only. The Annual Pass GB leaves out games on the BBC.
+- **The game is blocked where you are.** See the section above.
 
-1. **Restart your router.** Unplug it for about 30 seconds and let it fully reboot. This clears temporary congestion and refreshes your connection.
-2. **Move closer to your router**, or better yet, connect via ethernet if your device supports it. A {% include product-link.html id="ethernet-cable-troubleshoot" text="long ethernet cable" %} is a cheap fix if your streaming device sits far from the router and you want a rock-solid wired connection for match day.
-3. **Check for Wi-Fi dead spots.** If your living room is at the far end of the house from the router, a {% include product-link.html id="wifi-extender-troubleshoot" text="Wi-Fi range extender" %} can make a real difference to stream stability without any complicated setup.
-4. **Consider a mesh system** if [buffering](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) is a recurring problem throughout the house, not just in one room. A {% include product-link.html id="mesh-wifi-troubleshoot" text="mesh Wi-Fi system" %} spreads coverage more evenly than a single router, which helps when multiple people are streaming at once.
+Can't find your receipt? Check your spam folder. If it never arrived, you may have mistyped your email at checkout, so contact help@gaaplus.ie.
 
-## Device-Specific Checks
+## Buffering or poor picture
 
-### Smart TVs
+GAA+'s [internet requirements](https://help.gaaplus.ie/support/solutions/articles/77000579015-internet-requirements) are:
 
-Built-in smart TV apps are sometimes the last to get updates, and older TV models can struggle with newer app versions. If GAA+ consistently underperforms on your TV's native app, try streaming through a dedicated device instead.
+| Quality | Speed needed |
+|---|---|
+| 360p (phones) | 5 Mbps |
+| 720p | 8 Mbps |
+| 1080p on demand | 12 Mbps |
+| 1080p live | 25 Mbps |
 
-### Fire TV Stick, Fire TV Cube, Roku and Google TV
+Those figures are for one stream. Two people watching live at once need about 50 Mbps. Test your speed at fast.com or speedtest.net on the device you watch on, and use Wi-Fi rather than mobile data where you can. If your streaming device or TV has an Ethernet port, a {% include product-link.html id="ethernet-cable-troubleshoot" text="long Ethernet cable" %} to the router gives a steadier connection than Wi-Fi. For more general fixes, see [why is my streaming app buffering?](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/)
 
-These streaming devices generally get app updates faster than smart TV operating systems do. GAA+ doesn't support casting to Fire TV or Roku, so use the GAA+ app on those (Chromecast works for casting from the GAA+ mobile app). If you're troubleshooting on one of these:
+## Fixes by device
 
-- Unplug the device itself (not just the TV) for 30 seconds to force a full restart.
-- Check available storage, as some devices slow down or crash apps when storage is nearly full.
-- Reinstall the GAA+ app if it's been a while since you last set it up.
+### Smart TVs and streaming sticks
 
-### Phones and Tablets
+GAA+ has TV apps for Roku, Amazon Fire TV, Apple TV, Google TV, LG and Samsung (2021 models on). The first time you open the app, it shows a six-digit code. Enter it at gaaplus.ie/pair while signed in, or in the phone app under the cog and **Pair TV**. You should only need to pair once.
 
-Mobile data limits and background app restrictions can interfere with smooth playback. If you're streaming over mobile data, check that GAA+ has permission to run in the background and isn't being throttled by a data saver setting.
+GAA+ doesn't support:
 
-## Don't Overlook the Small Stuff
+- Samsung TVs made before 2021
+- Fire TV devices on Fire OS 5.2.9.5
+- the web browser on a smart TV or games console
+- Sky Q.
 
-A few low-tech culprits are easy to miss:
+If your TV is too old for the app, a streaming stick that GAA+ supports, such as the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %}, adds it. For Apple TV setup, see [how to set up GAA+ on an Apple TV](/installation-guides/how-to-set-up-gaa-on-an-apple-tv/).
 
-- **Remote control issues** can make it seem like the app has frozen when it hasn't. If your remote is sluggish, {% include product-link.html id="rechargeable-remote-batteries" text="rechargeable batteries" %} are a handy long-term fix, especially for households going through disposables during a busy GAA season.
-- **A dirty or glare-covered screen** won't cause playback issues, but it does make picture quality problems harder to diagnose. A proper {% include product-link.html id="screen-cleaning-kit" text="screen cleaning kit" %} is worth having if you're trying to judge whether a picture issue is your screen or your stream.
-- **Low battery on a tablet or phone** used as a secondary screen can cause the device to throttle performance to save power. Keeping it plugged in or charged up avoids this during a long championship weekend.
+### Casting from a phone
 
-## When All Else Fails
+Casting only works from the GAA+ phone and tablet apps, using Chromecast or AirPlay. Your phone and the Chromecast or Apple TV must be on the same Wi-Fi. GAA+ no longer supports casting to Fire TV, Roku or smart TVs, and casting from the website isn't supported, so use the TV app on those.
 
-If you've worked through connectivity, app updates, and account settings and GAA+ still isn't playing ball, check the service's official social media channels or support page for outage notices. Streaming services occasionally experience server-side problems during high-traffic matches, and in those cases, the fix is simply patience rather than anything on your end. To check whether a game is on GAA+, RTÉ or TG4, see our [GAA hub](/gaa/).
+### Computers
 
-{% include product-showcase.html category="Troubleshooting" %}
+GAA+ recommends Google Chrome. Internet Explorer isn't supported, and Windows PCs need at least 4 GB of RAM. If the player won't open or the top of the screen looks cut off, turn off your ad blocker for gaaplus.ie.
+
+### iPhone and iPad
+
+On Apple devices the stream may use Apple's own player, which can make skipping back and forth awkward. GAA+ suggests trying a different device if that's a problem.
+
+## Still not working?
+
+Email **help@gaaplus.ie** with your account email, the device and the game. If a game won't play because of your broadband or an unsupported device, GAA+ asks you to contact support as soon as the problem starts. It doesn't promise a refund in that case.
+
+Sources: [GAA+ help centre](https://help.gaaplus.ie/support/solutions) (checked 10 November 2026) · [GAA+: supported devices](https://help.gaaplus.ie/support/solutions/articles/77000600642-supported-devices) · [GAA+: internet requirements](https://help.gaaplus.ie/support/solutions/articles/77000579015-internet-requirements) · [GAA+: watching on your TV](https://help.gaaplus.ie/support/solutions/articles/77000579292-watching-gaa-on-your-tv) · [GAA+: casting](https://help.gaaplus.ie/support/solutions/articles/77000580359-casting) · [GAA+: pairing](https://help.gaaplus.ie/support/solutions/articles/77000580358-pairing) · [GAA+: asked to buy again](https://help.gaaplus.ie/support/solutions/articles/77000578966-i-ve-purchased-why-am-being-asked-to-buy-again-) · [GAA+: using GAA+ abroad](https://help.gaaplus.ie/support/solutions/articles/77000578933-using-gaa-when-abroad) · [GAA+: stream not playing](https://help.gaaplus.ie/support/solutions/articles/77000579026-stream-not-playing)
 
 {% include faq-section.html %}
 
