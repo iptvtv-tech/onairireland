@@ -79,8 +79,4 @@ In the meantime, if you're still catching up on other Nolan films or want someth
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

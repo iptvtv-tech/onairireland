@@ -1,9 +1,9 @@
 ---
-title: "Where to Watch the UEFA Champions League Legally in Ireland"
-excerpt: "How to watch the Champions League legally in Ireland this season: broadcasters, free games, streaming apps and devices."
-description: "How to watch the Champions League legally in Ireland this season: broadcasters, free games, streaming apps and devices."
-last_updated: 2026-10-07
-last_checked: 2026-10-07
+title: "Where to Watch the Champions League in Ireland (2026/27)"
+excerpt: "Champions League in Ireland in 2026/27: free games on Virgin Media and RTÉ, Tuesday's top game on Premier Sports, and what changes from 2027/28."
+description: "Champions League in Ireland in 2026/27: free games on Virgin Media and RTÉ, Tuesday's top game on Premier Sports, and what changes from 2027/28."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Sports-Streaming
 tags:
@@ -18,73 +18,72 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Is any Champions League football shown free-to-air in Ireland?"
-    answer: "Yes. RTÉ and Virgin Media both show live games free until the end of the 2026/27 season, and RTÉ continues to 2031 with free Wednesday games and the final."
-  - question: "Do I need a satellite subscription to watch Champions League football legally?"
-    answer: "Not necessarily. Many broadcasters that hold Champions League rights also offer standalone streaming apps, which can often be accessed through devices like a Fire TV Stick or Roku without a satellite package."
-  - question: "Will a Chromecast work for watching sports apps?"
-    answer: "Older Chromecasts need you to cast from a phone. Chromecast with Google TV and its replacement, the Google TV Streamer, run apps such as NOW directly."
-  - question: "Why does the broadcaster showing Champions League matches seem to change?"
-    answer: "Broadcast rights are negotiated in cycles and can be split between multiple companies, so the channel or app showing matches can differ from season to season or even mid-season."
+  - question: "Is the Champions League free to watch in Ireland?"
+    answer: "Mostly, this season. Until the end of 2026/27 Virgin Media Television shows most games free, and RTÉ has first pick of Wednesday games free on RTÉ2 and RTÉ Player. Premier Sports, a paid channel, has first pick of Tuesday games."
+  - question: "Can I watch Premier Sports without a contract?"
+    answer: "Yes. NOW's Sports Extra membership includes Premier Sports 1 and 2 with no contract, and there's also a 24-hour day pass."
+  - question: "What changes from next season?"
+    answer: "From 2027/28 Virgin Media Television no longer has the rights. RTÉ keeps first pick of Wednesday games free and also gets the final, Premier Sports keeps first pick of Tuesday games, and Sky Sports shows the remaining games."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Champions League Football in Ireland: The Legal Picture
+In Ireland, most Champions League games this season (2026/27) are free on **Virgin Media Television** and **RTÉ**. The paid option is **Premier Sports**, which has first pick of the Tuesday night games and is available through Sky, Virgin Media, Vodafone or NOW.
 
-Champions League nights are appointment viewing for a lot of Irish football fans, but working out who actually holds the rights each season can be confusing. Broadcast deals shift regularly, so it's always worth double-checking with the broadcaster directly before you commit to a subscription. That said, here's a general breakdown of how legal access typically works in Ireland.
+## At a glance
 
-### Free-to-Air Coverage
+- **Free:** Virgin Media Television shows most games, on Tuesday and Wednesday nights. RTÉ has first pick of Wednesday games, on RTÉ2 and RTÉ Player.
+- **Paid:** Premier Sports has first pick of Tuesday games.
+- **No contract:** NOW's Sports Extra membership includes Premier Sports.
+- **From 2027/28:** Virgin Media drops out; RTÉ, Premier Sports and Sky Sports share the rights until 2031.
 
-Until the end of the 2026/27 season, free-to-air games are on **RTÉ** (first pick of Wednesday games, on RTÉ2 and the [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) app) and **Virgin Media Television** (most of the other games, on Virgin Media Two and Virgin Media Play). From 2027/28 Virgin drops out, and RTÉ keeps its free Wednesday games plus the final until 2031.
+## Free games: Virgin Media and RTÉ
 
-If you're relying on an aerial for free-to-air channels, especially in rural areas or homes with a weak signal, upgrading your setup can make a noticeable difference. An {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} is a sensible option for households that struggle with dropouts during big matches, since a stronger signal reduces the risk of your feed cutting out at the worst possible moment.
+Until the end of the 2026/27 season, Virgin Media Television shows most Champions League games free, with live games on Tuesday and Wednesday nights. You can watch on its TV channels or on [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), which is free.
 
-### Subscription Broadcasters
+RTÉ has first pick of the Wednesday games, live on RTÉ2 and RTÉ Player. RTÉ said its live matches on RTÉ2 averaged nearly 200,000 viewers last season ([RTÉ Sport, 30 April 2026](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/)).
 
-**Premier Sports** has first pick of Tuesday games and keeps them until 2031. It's available through Sky, Virgin Media, Vodafone and, with no contract, NOW's Sports Extra membership (€33.99 a month or a €14.99 day pass). From 2027/28 **Sky Sports** also gets the remaining Champions League games, plus the Europa League and Conference League.
+Both are free-to-air, so you need no subscription. You do need a [TV licence](/streaming-services/tv-licence-streaming-ireland/) for any TV set in your home.
 
-Pricing and packaging change from season to season, and sometimes mid-season, so it's genuinely worth checking the broadcaster's official website for current monthly or annual costs rather than relying on last year's figures. NOW's day passes are an option for fans who only want the odd big night rather than a full season.
+## Premier Sports: the Tuesday pick
 
-### Streaming Apps and Getting Them on Your TV
+Premier Sports has first pick of the Tuesday night games. When the current Irish rights were sold in 2023, Premier Sports also got one Wednesday game (reported by [The42](https://the42.ie/irish-champions-league-rights-2024-6194583-Oct2023)).
 
-Most of the major Irish sports broadcasters now offer apps that work on common streaming devices, which means you don't necessarily need a traditional satellite box to watch. A Fire TV Stick, Fire TV Cube, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) device or Google TV Streamer will generally let you install the relevant app (such as NOW, RTÉ Player or Virgin Media Play) and stream matches directly to your television, provided the broadcaster supports that platform.
+{% assign now_extra = site.data.prices | where: "plan", "Sports Extra" | first %}
+Premier Sports is a paid channel. In Ireland you can get it through Sky, Virgin Media or Vodafone as an extra, or with no contract through NOW's **Sports Extra** membership. Sports Extra is {% include euro.html amount=now_extra.monthly %} a month on standard pricing (checked {{ now_extra.checked | date: "%-d %B %Y" }}) and includes Premier Sports 1 and 2 plus TNT Sports 1 to 4. There's also a 24-hour day pass if you only want the odd big night. NOW often has an introductory price on a 12-month offer, so read the terms on [NOW's Sports Extra page](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) first. Premier Sports lists the Sky, NOW and Virgin Media options on its [how to watch page](https://premiersportsireland.com/how-to-watch/).
 
-It's worth checking the app store on whichever device you own before subscribing, since not every sports app is available on every platform, and availability can change. Fire TV devices and Roku tend to have broad support for Irish and UK sports apps. Older Chromecasts rely on casting from a phone or tablet, while Chromecast with Google TV and the Google TV Streamer run apps natively.
+Not sure which sports channels you need? See [Sky Sports vs Premier Sports](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/).
 
-### Juggling Multiple Devices and Sources
+## Key dates for the rest of 2026/27
 
-If your Champions League viewing is split across a satellite box, a streaming stick, and perhaps a games console or laptop for the RTÉ Player, switching between HDMI inputs on your television can get tedious. A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} is a handy way to connect several devices to one TV input and flick between them with a single button, which is particularly useful on a night when you're jumping between a free-to-air match and a subscription channel's coverage of a different fixture.
+From UEFA's [2026/27 season guide](https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/) (UEFA says dates can change):
 
-### A Few Things Worth Checking Before Matchday
+- **League phase:** 24/25 November and 8/9 December 2026, then 19/20 and 27 January 2027
+- **Knockout play-offs:** 16/17 and 23/24 February 2027
+- **Round of 16:** 9/10 and 16/17 March
+- **Quarter-finals:** 6/7 and 13/14 April
+- **Semi-finals:** 27/28 April and 4/5 May
+- **Final:** Saturday 5 June 2027, Estadio Metropolitano, Madrid
 
-Broadcast rights for the Champions League are typically negotiated in multi-year cycles, but the way matches are distributed among broadcasters can still change from season to season. Before you subscribe to anything, it's worth confirming:
+Which channel has which game is decided week by week. Our [sport on TV this week](/sport-on-tv/) page lists the big games and channels each week.
 
-- Which broadcaster currently holds rights for the fixtures you want to watch
-- Whether your existing TV package already includes that channel
-- Whether the broadcaster's app supports your streaming device
-- Whether a short-term or match-day pass exists if you don't want a long subscription
+## What changes from 2027/28
 
-Because these details shift regularly, treat any specific pricing or app names mentioned here as a general guide rather than gospel, and check directly with the broadcaster nearer to kick-off. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+The rights for 2027 to 2031 have been sold:
 
-### Final Thought
+- **RTÉ** keeps first pick of Wednesday games, free, and adds the final, Wednesday highlights and the UEFA Super Cup ([RTÉ Sport](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/)). The Irish Times reported that RTÉ shares the final with Premier Sports.
+- **Premier Sports** keeps first pick of Tuesday games, plus highlights (reported by [The Irish Times](https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/)).
+- **Sky Sports** gets the remaining Champions League games, plus the Europa League and Conference League (reported by The Irish Times).
+- **Virgin Media Television** didn't keep the rights. RTÉ notes that Tuesday games will no longer be free-to-air in Ireland after May 2027.
 
-Watching the Champions League legally in Ireland usually comes down to a mix of free-to-air highlights and a subscription sports channel, accessed either through a traditional box or a streaming device like a [Fire TV Stick](/devices/best-streaming-devices-ireland/) or Roku. Taking a few minutes to confirm current rights holders and app availability before the season kicks off will save you from any last-minute scrambling on matchday.
-
-{% include product-showcase.html category="Sports Streaming" %}
+Sources: [RTÉ Sport: RTÉ retain Champions League rights until 2031](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/) (checked 10 November 2026) · [UEFA: 2026/27 Champions League dates](https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/) (checked 10 November 2026) · [NOW Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) (checked 10 November 2026) · [Premier Sports Ireland: how to watch](https://premiersportsireland.com/how-to-watch/) (checked 10 November 2026) · [The Irish Times, 30 April 2026](https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/) · [The42, October 2023](https://the42.ie/irish-champions-league-rights-2024-6194583-Oct2023)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

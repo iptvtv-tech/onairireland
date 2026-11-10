@@ -76,8 +76,4 @@ With the legal viewing landscape as straightforward as it is for Finals weekend,
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

@@ -1,7 +1,7 @@
 ---
 title: "Where to Watch Bad Sisters in Ireland"
-excerpt: "Bad Sisters is an Apple Original, so it streams only on Apple TV (formerly Apple TV+) in Ireland. How to watch it on your TV, phone or streaming stick."
-description: "Bad Sisters is an Apple Original, so it streams only on Apple TV (formerly Apple TV+) in Ireland. How to watch it on your TV, phone or streaming stick."
+excerpt: "Bad Sisters streams only on Apple TV (formerly Apple TV+) in Ireland. Both seasons are there. No Season 3 has been announced. Price and devices."
+description: "Bad Sisters streams only on Apple TV (formerly Apple TV+) in Ireland. Both seasons are there. No Season 3 has been announced. Price and devices."
 categories:
   - Watch-Guides
 tags:
@@ -17,69 +17,52 @@ seo:
 toc: true
 draft_generated: true
 affiliate_links: true
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 faqs:
-  - question: "Is Bad Sisters available on Netflix in Ireland?"
-    answer: "No, Bad Sisters is an Apple Original series and streams exclusively on Apple TV+, not Netflix."
-  - question: "Do I need an Apple device to watch Apple TV+?"
-    answer: "No, Apple TV+ is a subscription service with apps available on many non-Apple devices, including Fire TV Stick, Roku, Chromecast, and most modern smart TVs."
-  - question: "Is there a free trial for Apple TV+?"
-    answer: "Apple has offered free trial periods in the past, but availability and length can change, so check the current offer directly on Apple's website or within the app."
-  - question: "What should I do if the app says content isn't available in my region?"
-    answer: "Check that your Apple ID's country setting is correctly set to Ireland in your account settings, and contact Apple Support directly if the issue persists."
+  - question: "Is Bad Sisters on Netflix or RTÉ Player?"
+    answer: "No. Bad Sisters is an Apple Original, so in Ireland it streams only on Apple TV (formerly Apple TV+)."
+  - question: "Is there a Season 3 of Bad Sisters?"
+    answer: "Not at the time of writing (November 2026). Apple hasn't announced a third season. Season 2 finished on 25 December 2024."
+  - question: "Do I need an Apple device to watch it?"
+    answer: "No. The Apple TV app runs on many smart TVs, Fire TV, Roku, Google TV and PlayStation, as well as iPhone, iPad and Mac."
 ---
- 
+
 {% include last-updated.html %}
- 
+
 {% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-## How to Watch Bad Sisters in Ireland
 
-Bad Sisters, the dark comedy-drama created by and starring Sharon Horgan, has become one of the more talked-about Irish-set dramas of recent years. Filmed largely around Dublin and the surrounding coastline, it follows the Garvey sisters as they navigate a death that may not have been entirely accidental. For Irish viewers, there's an added layer of enjoyment in spotting familiar locations and hearing a genuinely Irish voice come through in the writing and performances.
+Bad Sisters streams in Ireland only on Apple TV, the subscription service formerly called Apple TV+. It's an Apple Original, so it isn't on Netflix, RTÉ Player or Virgin Media Play, and both seasons are on Apple TV now.
 
-If you're trying to work out where to watch it and how to get it set up on your telly, here's what you need to know.
+## Bad Sisters at a glance
 
-### Where to Watch Bad Sisters
+{% assign atv = site.data.prices | where: "service", "Apple TV" | first %}
+- **Where:** Apple TV, in the Apple TV app
+- **Cost:** {% include euro.html amount=atv.monthly %} a month for Apple TV ([Apple](https://www.apple.com/ie/apple-tv/), checked {{ atv.checked | date: "%-d %B %Y" }}). New subscribers get a 7-day free trial.
+- **Seasons:** two. Season 1 came out in 2022; Season 2's eight episodes ran from 13 November to 25 December 2024.
+- **Season 3:** not announced by Apple at the time of writing (November 2026).
 
-Bad Sisters is an Apple Original series, which means it streams exclusively on **Apple TV+**. It isn't available on Netflix, RTÉ Player, or any other Irish broadcaster, so if you've been searching your usual apps and coming up empty, that's expected rather than a fault on your end.
+## The show
 
-Apple TV+ operates as a standalone subscription streaming service. Pricing has changed a few times since launch, so rather than quote a figure that may be out of date by the time you read this, it's worth checking the current monthly cost directly on Apple's own website or within the app before signing up. Apple also periodically offers free trial periods, which are worth looking out for if you just want to catch up on the series without committing long-term.
+Sharon Horgan created and stars in the dark comedy-drama about five sisters, alongside Anne-Marie Duff, Eva Birthistle, Sarah Greene and Eve Hewson. [Apple's Season 2 page](https://www.apple.com/uk/tv-pr/originals/bad-sisters/) picks up the story two years after the "accidental death" of Grace's husband. Season 2 also added Fiona Shaw, Owen McDonnell and Thaddea Graham to the cast, according to [Apple's announcement](https://www.apple.com/tv-pr/news/2024/08/apples-award-winning-comedic-drama-bad-sisters-from-creator-and-star-sharon-horgan-returns-for-season-two-on-november-13).
 
-One thing worth noting: Apple TV+ is a subscription service you sign up for and stream through, separate entirely from any particular piece of hardware. You do not need Apple hardware to watch it — the app is widely available across most modern smart TVs and streaming devices, which makes it fairly flexible if you're already set up with a different ecosystem at home.
+## How to watch it
 
-### Devices and Apps That Support Apple TV+
+1. Subscribe to Apple TV at [apple.com/ie/apple-tv](https://www.apple.com/ie/apple-tv/) or in the Apple TV app, with an Apple Account set to Ireland.
+2. Open the Apple TV app on your TV, phone, tablet or computer and search for Bad Sisters.
 
-The good news is that Apple TV+ has a genuinely broad reach when it comes to device support in Ireland. You don't need any particular brand of TV or streaming box — the app is available on most of the popular options.
+You don't need Apple hardware. Apple lists the [Apple TV app on Fire TV, Android TV and many smart TVs](https://support.apple.com/en-us/102472), as well as Roku, Google TV and PlayStation. One catch outside the US: you can't sign up or buy in the app on Fire TV, Android TV or Sony TVs, so subscribe on the web or another device first, then sign in.
 
-If you're using a **Fire TV Stick**, Apple TV+ is available directly from the Amazon Appstore on the device. The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a solid, affordable option if you're setting up a spare room TV or replacing an older streaming device, and it handles the Apple TV+ app smoothly alongside everything else you'd expect, like Netflix and Prime Video.
+If your TV is too old for the Apple TV app, a plug-in stick is the cheapest fix. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} runs Fire OS, which has the Apple TV app. See our [Apple TV in Ireland guide](/streaming-services/is-apple-tv-plus-available-in-ireland/) for more on the service.
 
-[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/) devices also support Apple TV+ natively through the Roku Channel Store. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is a popular choice in Irish households precisely because its interface is simple and it supports pretty much every major streaming app you're likely to want, Apple TV+ included.
+**Related guides:** [Where to Watch Slow Horses Season 6 in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/) · [Apple TV 4K review](/reviews/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers/)
 
-Google TV devices, including the Google TV Streamer and older Chromecast with Google TV models, also support the Apple TV app directly, with a similar setup process — download from the on-device store, sign in, and you're ready to go.
-
-If your main viewing setup involves a satellite or digital TV box rather than a dedicated streaming stick, it's worth checking whether smart apps are supported on that hardware, or whether you'll need to run a separate streaming device alongside it. Some households pair an {% include product-link.html id="satellite_receiver" text="HD Satellite Receiver" %} for free-to-air UK channels with a separate streaming stick for on-demand apps like Apple TV+, which keeps things simple without needing a full smart TV upgrade.
-
-Most modern smart TVs — LG, Samsung, and Sony among them — also have the Apple TV+ app built into their own app stores, so it's worth checking your TV's native app menu before buying any additional hardware.
-
-### Signing In and Getting Set Up
-
-Once you've chosen your device, setup is straightforward: search for "Apple TV+" in the relevant app store, download it, and sign in with your Apple ID. If you don't already have one, you can create an account for free directly within the app before subscribing.
-
-If you hit an error suggesting the show or the service isn't available, double-check that your Apple ID's country/region setting matches Ireland, since this is set at account level and occasionally causes mismatches if an account was originally created elsewhere. Apple's support pages have a straightforward guide for checking and updating this if needed.
-
-### A Quick Note on Confirming Availability
-
-Streaming libraries and exclusivity deals can shift over time, so while Bad Sisters currently sits on Apple TV+, it's always worth a quick check on the app or the service's official site if you're planning a binge, just to confirm the series and its seasons are still listed as expected.
-
-**Related guides:** [Where to Watch Slow Horses Season 6 Legally in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/) · [How to Watch TV Show Father Ted](/watch-guides/how-to-watch-tv-show-father-ted/)
+Sources: [Apple TV Ireland](https://www.apple.com/ie/apple-tv/) (price checked {{ atv.checked | date: "%-d %B %Y" }}) · [Apple TV press: Bad Sisters](https://www.apple.com/uk/tv-pr/originals/bad-sisters/) (checked 10 November 2026) · [Apple TV press: Season 2 dates](https://www.apple.com/tv-pr/news/2024/08/apples-award-winning-comedic-drama-bad-sisters-from-creator-and-star-sharon-horgan-returns-for-season-two-on-november-13) (checked 10 November 2026) · [Apple Support: Apple TV app on smart TVs and streaming devices](https://support.apple.com/en-us/102472) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

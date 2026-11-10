@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "Sony's Live TV on PS5: What It Is, and Is It Coming to Ireland?"
 excerpt: "Sony's free Live TV app for PS5 has launched in the US with over 100 channels. Irish owners can't get it yet. Here's what we know."
 description: "Sony's free Live TV app for PS5 has launched in the US with over 100 channels. Irish owners can't get it yet. Here's what we know."
@@ -79,9 +81,5 @@ Sony's Live TV app is a solid step for PS5 owners in the US, offering a free way
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

@@ -82,8 +82,4 @@ Setting up Virgin Media Play on a Samsung Smart TV is generally straightforward,
 
 {% include product-showcase.html category="Installation Guides" %}
 {% include related-posts.html %}
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

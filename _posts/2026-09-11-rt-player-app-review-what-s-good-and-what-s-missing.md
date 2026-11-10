@@ -1,7 +1,9 @@
 ---
 title: "RTÉ Player App Review: What's Good and What's Missing"
-excerpt: "A practical, honest look at the RTÉ Player app in Ireland, covering its interface, content library and device support, plus where it genuinely falls short."
-description: "A practical, honest look at the RTÉ Player app in Ireland, covering its interface, content library and device support, plus where it genuinely falls short."
+excerpt: "RTÉ Player is free with an RTÉ account. What it does well, where it falls short, which devices have it, and the gaps RTÉ doesn't explain clearly."
+description: "RTÉ Player is free with an RTÉ account. What it does well, where it falls short, which devices have it, and the gaps RTÉ doesn't explain clearly."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Reviews
 tags:
@@ -18,14 +20,14 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-  - question: "Is RTÉ Player free to use?"
-    answer: "Yes, RTÉ Player is a free app, though you may need to create an account to access some features; check the app for current sign-up requirements."
-  - question: "Can I watch RTÉ Player outside Ireland?"
-    answer: "Availability outside Ireland can be restricted or limited for certain content due to licensing, so it's best to check RTÉ's official guidance for the most accurate information."
-  - question: "Does RTÉ Player work on all smart TVs?"
-    answer: "It's available on most major smart TV platforms, but support can vary by brand and software version, so it's worth checking your specific TV's app store."
-  - question: "Can I download shows to watch offline?"
-    answer: "Offline downloads may be available on some devices but not universally, so check within the app itself to confirm what's supported on your device."
+  - question: "Is RTÉ Player free?"
+    answer: "Yes. There's no charge. You sign in with a free RTÉ account, which you must be 18 or over to register."
+  - question: "Which devices is RTÉ Player on?"
+    answer: "Phones and tablets (iPhone, iPad and Android), web browsers, Apple TV, Android TV and Google TV, Roku, the Virgin Media and Sky platforms, and many smart TVs. Smart TV support depends on the brand and model."
+  - question: "Can I lock adult programmes for children?"
+    answer: "Yes. RTÉ Player has a parental PIN: when it's turned on, programmes with a mature rating need the PIN to play."
+  - question: "Why isn't a programme I saw on RTÉ television on the Player?"
+    answer: "Not everything shown on RTÉ is on the Player, and some programmes are only there for a limited time, usually because of rights. Sport and bought-in series are the most common examples."
 review_basis: research
 ---
 
@@ -37,57 +39,50 @@ review_basis: research
 
 {% include share-buttons.html %}
 
-## RTÉ Player App Review: What's Good and What's Missing
+RTÉ Player is the best free way to watch RTÉ's channels and programmes on demand in Ireland, and it's on almost every device people here use. Its weak spots are that you have to sign in, programmes come and go because of rights, and RTÉ publishes little clear detail on how long catch-up lasts.
 
-RTÉ Player is Ireland's home-grown streaming app, giving viewers access to RTÉ's live channels and on-demand catalogue free of charge. It's one of the few apps that every Irish household with a smart TV or phone is likely to have installed at some point, so it's worth asking how well it actually holds up day to day.
+## At a glance
 
-This review looks at the interface, the content library, and device support, based on publicly available information about the app. Where we're not certain of exact current menu wording or pricing details, we've said so rather than guessing.
+- **Cost:** free. You sign in with a free RTÉ account (18 or over).
+- **Live:** RTÉ One, RTÉ2 and RTÉ News.
+- **On demand:** RTÉ programmes, RTÉ Player Originals and some acquired box sets.
+- **Devices:** phones, tablets, browsers, Apple TV, Android TV and Google TV, Roku, Virgin Media and Sky, and many smart TVs.
+- **Extras:** resume where you left off, favourites, subtitles, audio description and a parental PIN.
 
-### Interface and Usability
+## What's good
 
-The RTÉ Player app is built around a fairly standard streaming layout: a home screen with featured and trending content, a live TV section for RTÉ's channels, and a search function to find specific shows. Navigation is generally straightforward, and most users find they can get from opening the app to watching something within a couple of taps.
+**It's free and it's RTÉ's whole output in one place.** News, current affairs, Irish soaps, drama, documentaries and children's programmes, with live streams of RTÉ One, RTÉ2 and RTÉ News. RTÉ also makes RTÉ Player Originals for the Player and adds acquired box sets from time to time.
 
-Where the interface can feel a little inconsistent is across devices. The experience on a phone or tablet tends to be smooth, with clear categories for news, drama, soaps and children's programming. On some smart TV platforms, however, the layout and responsiveness can vary depending on the TV brand and how recently its operating system has been updated. This isn't unique to RTÉ Player — it's a common issue with broadcaster apps generally — but it's worth knowing that your experience may differ slightly depending on your hardware.
+**Sport, free.** RTÉ shows a share of the Six Nations, live GAA championship games and, until the end of 2026/27, first pick of Wednesday Champions League games, all free on RTÉ Player as well as on TV. See [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/), the [Six Nations guide](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/) and [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/).
 
-### Content Library
+**Wide device support.** The app is on iPhone, iPad and Apple TV (iOS and tvOS 15 or later), Android phones and tablets, Android TV and Google TV, and Roku, which says RTÉ Player is officially available on its devices in Ireland. RTÉ lists the Virgin Media and Sky platforms and smart TVs too.
 
-The core strength of RTÉ Player is access to RTÉ's own programming: news, current affairs, soaps like Fair City, documentaries, and a good spread of Irish-made drama and entertainment. Live simulcasts of RTÉ One, RTÉ2, RTÉ News and RTÉjr are also available through the app, which is useful for anyone without a traditional aerial or set-top box.
+**One account, picks up where you left off.** Signing in means your place in a programme follows you between devices, which is the reason RTÉ gave for asking everyone to sign in, as the Irish Times reported in October 2024.
 
-On-demand content generally stays available for a limited window after broadcast rather than indefinitely, so if there's something you want to catch, it's best not to leave it too long. RTÉ also periodically hosts exclusive box sets or acquired series, though the exact acquired-content lineup changes over time and isn't something we'd want to state definitively here — it's best checked directly in the app.
+**Accessibility and parental controls.** RTÉ says the Player offers subtitles and audio description where available, works with assistive technology, and lets you zoom where the device supports it, and has a parental PIN that locks mature-rated programmes.
 
-One area RTÉ Player doesn't cover is non-RTÉ Irish or international content; it's focused specifically on RTÉ's own channels and commissioned programming, not a general entertainment hub.
+## What's missing
 
-### Device Support
+**You can't just press play.** You need an RTÉ account, and RTÉ says you must be 18 or over to register. It's free, but it's an extra step, especially on a TV.
 
-RTÉ Player is available on a wide range of platforms, including iOS and Android phones and tablets, and apps for most major smart TV operating systems. It's also commonly accessible through connected TV devices and some games consoles, though the exact list of supported models can change over time as manufacturers update their software.
+**Catch-up windows aren't clear.** How long a programme stays on the Player depends on the programme and its rights, and RTÉ's public help pages don't set out a standard period. If you want to watch something, don't leave it too long.
 
-If you're checking whether your specific TV or streaming device is supported, the safest approach is to search for the app directly on that device's app store, since availability can shift and we don't want to list specific model numbers that may go out of date.
+**Not everything is there.** Some programmes shown on RTÉ television aren't on the Player at all, usually sport and bought-in series, because of rights.
 
-### What's Missing or Could Improve
+**Smart TV support is patchy.** Whether your TV has the app depends on its brand, model and software version. Older TVs may not have it or may run it slowly. Amazon's newest Fire TV sticks also run a different system (Vega OS), and it isn't confirmed that RTÉ Player is on them.
 
-A few limitations are worth flagging honestly:
+**Downloads aren't confirmed.** RTÉ's app listings don't mention downloading programmes to watch offline, so don't count on it.
 
-- **Regional catch-up windows**: Not everything stays available indefinitely, so appointment viewing still matters for some programming.
-- **Cross-device continuity**: Picking up a programme exactly where you left off doesn't always work perfectly when switching between phone and TV.
-- **App performance on older TV hardware**: As with most broadcaster apps, older smart TVs can feel sluggish compared to phones or newer streaming devices.
-- **No offline downloads on all platforms**: Download-for-later functionality, where available, may be limited to certain devices — this is another area where checking directly in the app is safer than assuming a feature exists.
+## Verdict
 
-### Overall Verdict
+If you live in Ireland, RTÉ Player is worth having: it costs nothing, carries RTÉ's live channels and sport, and runs on nearly everything. The sign-in step and unclear catch-up windows are the main annoyances. If your TV doesn't have the app, a streaming stick that does is the simplest fix, such as a {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %}, or see our guide to [setting up RTÉ Player on a Fire TV Stick](/installation-guides/how-to-set-up-rte-player-fire-tv/).
 
-RTÉ Player remains a solid, free way to access RTÉ's live channels and on-demand library in Ireland. It's easy to use, widely available across devices, and genuinely useful for anyone who wants Irish news, drama and soaps without a traditional aerial setup. The rough edges — inconsistent smart TV performance and limited catch-up windows — are relatively minor compared to the convenience it offers.
+**Related:** [RTÉ Player not working on a smart TV](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) · [Virgin Media Play vs RTÉ Player](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/)
 
-For most Irish viewers, it's a worthwhile addition alongside other legal streaming subscriptions, rather than a replacement for them.
-
-**Related guides:** [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/) · [How to Set Up RTÉ Player on an Amazon Fire TV Stick](/installation-guides/how-to-set-up-rte-player-fire-tv/)
-
-{% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k" %}
+Sources: [About your RTÉ Account](https://www.rte.ie/id/about) (checked 10 November 2026) · [RTÉ: Using our services (accessibility)](https://about.rte.ie/using-our-services/) (checked 10 November 2026) · [RTÉ Player on the App Store](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073) (checked 10 November 2026)· [RTÉ Media Sales: RTÉ Player](https://mediasales.rte.ie/solutions/rte-player/) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) · [RTÉ Player will ask all users to sign in, reported by the Irish Times](https://www.irishtimes.com/media/2024/10/14/rte-player-will-ask-all-users-to-sign-in-from-next-year-as-it-adds-more-original-shows/) (14 October 2024) · [RTÉ: the GAA championships on RTÉ](https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

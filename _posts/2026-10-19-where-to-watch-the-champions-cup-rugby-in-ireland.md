@@ -1,8 +1,9 @@
 ---
-title: Where to Watch the Champions Cup Rugby in Ireland
-excerpt: Premier Sports shows every 2026-27 Investec Champions Cup match in Ireland. How to get it, with or without a contract.
-description: Premier Sports shows every 2026-27 Investec Champions Cup match in Ireland. How to get it, with or without a contract.
-last_updated: 2026-10-21
+title: "Champions Cup 2026/27: Where to Watch in Ireland"
+excerpt: "Every 2026/27 Champions Cup match is live on Premier Sports in Ireland, with no free TV coverage. The provinces' December and January games, and how to watch."
+description: "Every 2026/27 Champions Cup match is live on Premier Sports in Ireland, with no free TV coverage. The provinces' December and January games, and how to watch."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
 - Sports-Streaming
 tags:
@@ -16,60 +17,66 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-- question: Will every Champions Cup match involving an Irish province be free-to-air?
-  answer: No. Premier Sports shows all 63 Champions Cup matches live in Ireland, but it's a subscription channel. In 2025/26 RTÉ covered the Irish provinces' games with radio commentary rather than on TV.
-- question: Do I need a television licence to watch the Champions Cup?
-  answer: Not to stream Premier Sports on a phone, laptop or tablet. Any TV set in your home needs a licence, even if you only use it for streaming apps.
-- question: Why does my streaming app say the match isn't available in my country?
-  answer: This is usually due to an account registered to the wrong country, an app downloaded from a different regional app store, or outdated account details, rather than an issue with the broadcast itself. Check your account's region setting or contact the broadcaster's support team.
-- question: Can I watch Champions Cup rugby without a satellite or cable box?
-  answer: Yes, most official broadcasters offer a streaming app that works on smart TVs, phones and streaming sticks, provided you have an active subscription where required and a stable broadband connection.
+- question: Is the Champions Cup on free TV in Ireland?
+  answer: No. Premier Sports, a paid channel, shows all 63 Champions Cup matches. RTÉ Radio 1 has live commentary of selected Irish province games, which is free.
+- question: Can I watch the Champions Cup without a contract?
+  answer: Yes. NOW's Sports Extra membership includes Premier Sports with no contract, and there's a 24-hour day pass for a single match day.
+- question: Is Ulster in the Champions Cup this season?
+  answer: No. Ulster is in the EPCR Challenge Cup in 2026/27. Premier Sports shows up to four Challenge Cup games in each pool round.
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-Irish rugby fans can watch every match of the 2026-27 Investec Champions Cup on Premier Sports, which holds the rights in Ireland and the UK until the end of the 2026/27 season.
+In Ireland, every 2026/27 Investec Champions Cup match is live on **Premier Sports**, a paid channel. There's no free TV coverage, but RTÉ Radio 1 has live commentary of selected Irish games.
 
-## Who Holds the Rights in Ireland
+## At a glance
 
-Premier Sports is the lead broadcaster of the Investec Champions Cup in the UK and Ireland under a three-year deal that runs to the end of the 2026/27 season. It shows all 63 Champions Cup matches live, plus selected EPCR Challenge Cup games. Check EPCR's fixture list and Premier Sports' schedule each week for kick-off times. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+- **TV:** Premier Sports shows all 63 matches, under a deal that runs to the end of 2026/27
+- **Free:** radio only, on RTÉ Radio 1's Saturday Sport for selected games
+- **No contract:** NOW's Sports Extra membership includes Premier Sports
+- **Irish teams:** Leinster, Munster and Connacht are in the Champions Cup; Ulster is in the Challenge Cup
+- **Next rounds:** 11 to 13 December 2026, then 8 to 10 and 15 to 17 January 2027
 
-### Is Any of It Free?
+## Who shows it
 
-Not on TV. In 2025/26, RTÉ's match previews listed every Irish province's Champions Cup game as live on Premier Sports, with live commentary of selected games on RTÉ Radio 1's Saturday Sport. Radio is the free option.
+Premier Sports is the lead broadcaster of the Champions Cup and the EPCR Challenge Cup in Ireland and the UK, under a three-year deal to the end of the 2026/27 season. It shows all 63 Champions Cup matches (reported by [Sport for Business](https://sportforbusiness.com/premier-sports-signs-three-year-deal-for-investec-champions-cup/) when the deal was signed in 2024). Premier Sports' own [rugby page](https://premiersportsireland.com/rugby) says it also shows up to four Challenge Cup games in each pool round and every Challenge Cup round of 16 game.
 
-### Subscription Coverage
+In round 1 in October, RTÉ listed all three Irish Champions Cup games as live on Premier Sports, with no free TV coverage. Leinster's and Munster's games also had live commentary on RTÉ Radio 1's Saturday Sport ([RTÉ Sport](https://www.rte.ie/sport/rugby/2026/1014/1595400-champions-cup-round-1-all-you-need-to-know/)).
 
-Premier Sports is a subscription channel. In Ireland it's in the Sports Extra pack on Sky, NOW, Virgin Media and Vodafone, and NOW sells it with no contract as part of its Sports Extra membership. Check the [streaming prices tracker](/streaming-prices/) for NOW's current price.
+## How to get Premier Sports
 
-## Streaming the Games
+{% assign now_extra = site.data.prices | where: "plan", "Sports Extra" | first %}
+Premier Sports is in the Sports Extra pack on Sky and NOW, and Virgin Media adds it to its sports pack ([Premier Sports: how to watch](https://premiersportsireland.com/how-to-watch/)). With no contract, NOW's **Sports Extra** membership is {% include euro.html amount=now_extra.monthly %} a month on standard pricing (checked {{ now_extra.checked | date: "%-d %B %Y" }}) and includes Premier Sports 1 and 2 plus TNT Sports 1 to 4. NOW lists the Champions Cup among its live streams. A 24-hour day pass covers a single weekend game. NOW often has a 12-month introductory offer, so check [NOW's Sports Extra page](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) for the current price.
 
-Most official broadcasters now pair their television channels with a streaming app, allowing matches to be watched on a phone, tablet, smart TV or streaming stick. If you're using NOW, the Premier Sports app or a Sky app, make sure the app is downloaded from your country's official app store and that your account address and billing details are set to Ireland. Streaming problems that throw up a "content not available in your region" message are very often caused by an account registered to the wrong country, an app downloaded from a different regional store, or a change of broadband provider that hasn't been reflected in your account settings, rather than anything more complicated. In those cases, the fix is usually to check your account's country setting in the app itself or contact the broadcaster's customer support team directly, who can confirm what's going on and correct it.
+Sky's price for Sports Extra depends on whether you already have Sky Sports and on offers that change, so check with Sky.
 
-## Getting the Best Picture on Match Day
+## The December games (round 2)
 
-For households juggling multiple streaming boxes, a games console and a set-top box on one television, a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI Switch" %} can make it easier to flick between a Virgin Media box, a Premier Sports streaming stick, and a smart TV app without constantly swapping cables behind the television. This is a particularly handy fix for households without enough HDMI ports for everything connected to one screen.
+Round 2 is on 11 to 13 December 2026. Kick-off times are from the provinces and EPCR, and all are Irish time:
 
-## Confirming Fixtures and Kick-Off Times
+- **Leinster v Sale Sharks:** Saturday 12 December, 5.30pm, Laya Arena, Dublin ([EPCR](https://www.epcrugby.com/champions-cup/clubs/leinster/fixtures-results))
+- **Bristol Bears v Munster:** Saturday 12 December, 8pm, Ashton Gate ([Munster Rugby](https://www.munsterrugby.ie/2026/07/10/munsters-champions-cup-fixture-details-confirmed/))
+- **Exeter Chiefs v Connacht:** Sunday 13 December, 1pm, Sandy Park ([Connacht Rugby](https://www.connachtrugby.ie/news/champions-cup-fixture-details-confirmed/bp3759/))
 
-Because pool stage draws and broadcast schedules for the Champions Cup are usually finalised only shortly before the season begins, the safest approach is to check EPCR's official fixture list alongside the broadcaster's own schedule each week. This avoids any confusion between UK and Irish kick-off times.
+In the Challenge Cup, **Ulster v Bayonne** is on Saturday 12 December at 1pm at the Affidea Stadium, Belfast ([Ulster Rugby](https://ulster.rugby/news/epcr-challenge-cup-pool-fixtures-202627-confirmed)). Whether Premier Sports picks that game wasn't confirmed when we checked. Ulster's round 1 game wasn't on TV; RTÉ listed it as streamed on epcrugby.tv.
 
-{% include product-showcase.html category="Sports Streaming" %}
+## January and the knockouts
+
+- **Round 3 (8 to 10 January 2027):** Leinster v Section Paloise (Saturday 9 January, 5.30pm), Connacht v Toulouse (Saturday 9 January, 8pm), Bordeaux Bègles v Munster (Sunday 10 January, 4.15pm, as listed by Munster)
+- **Round 4 (15 to 17 January 2027):** Munster v Gloucester (Saturday 16 January, 5.30pm, Thomond Park), La Rochelle v Connacht (Saturday 16 January, 5.30pm Irish time), Leicester Tigers v Leinster (Saturday 16 January, 8pm)
+- **Knockouts:** round of 16 on 2 to 4 April, quarter-finals on 9 to 11 April, semi-finals from 30 April to 2 May 2027
+- **Final:** Saturday 22 May 2027, OL Stadium, Lyon
+
+The knockout dates and final are from EPCR's key dates, published by [Munster Rugby](https://www.munsterrugby.ie/2026/02/26/epcr-announce-key-dates-for-2026-27/). Times can change for TV, so check our [sport on TV this week](/sport-on-tv/) page on the week of each game. The provinces' league games are covered in [where to watch the URC](/sports-streaming/where-to-watch-the-united-rugby-championship-legally-in-ireland/), and every rugby competition is in our [rugby guide](/rugby/).
+
+Sources: [Premier Sports Ireland: rugby](https://premiersportsireland.com/rugby) (checked 10 November 2026) · [Premier Sports Ireland: how to watch](https://premiersportsireland.com/how-to-watch/) (checked 10 November 2026) · [NOW Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) (checked 10 November 2026) · [RTÉ Sport: Champions Cup round 1](https://www.rte.ie/sport/rugby/2026/1014/1595400-champions-cup-round-1-all-you-need-to-know/) (checked 10 November 2026) · [EPCR: Leinster fixtures](https://www.epcrugby.com/champions-cup/clubs/leinster/fixtures-results) (checked 10 November 2026) · [Munster Rugby: fixtures](https://www.munsterrugby.ie/2026/07/10/munsters-champions-cup-fixture-details-confirmed/) and [EPCR key dates](https://www.munsterrugby.ie/2026/02/26/epcr-announce-key-dates-for-2026-27/) (checked 10 November 2026) · [Connacht Rugby: fixtures](https://www.connachtrugby.ie/news/champions-cup-fixture-details-confirmed/bp3759/) (checked 10 November 2026) · [Ulster Rugby: Challenge Cup fixtures](https://ulster.rugby/news/epcr-challenge-cup-pool-fixtures-202627-confirmed) (checked 10 November 2026) · [Sport for Business, August 2024](https://sportforbusiness.com/premier-sports-signs-three-year-deal-for-investec-champions-cup/)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-For every rugby competition in one place, see our [rugby guide](/rugby/).
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

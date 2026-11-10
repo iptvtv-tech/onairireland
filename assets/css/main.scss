@@ -896,7 +896,12 @@
   text-decoration: none !important;
 }
 
-.post-byline__author:hover {
+.post-byline__author a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.post-byline__author a:hover {
   text-decoration: underline !important;
 }
 

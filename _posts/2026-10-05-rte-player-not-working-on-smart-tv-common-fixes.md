@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-teaser.webp
   og_image: /assets/images/posts/rte-player-not-working-on-smart-tv-common-fixes-og.jpg
 seo:
-  type: HowTo
+  type: Article
 toc: true
 draft_generated: true
 affiliate_links: true
@@ -96,9 +96,5 @@ Check RTÉ's own channels for an outage, since a problem at RTÉ's end affects e
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

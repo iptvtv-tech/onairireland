@@ -1,8 +1,9 @@
 ---
-title: "How to Watch Six Nations Rugby Legally in Ireland"
-excerpt: "RTÉ and Virgin Media share Six Nations coverage in Ireland, and every match is free-to-air. Here's how to watch live and on the apps."
-description: "RTÉ and Virgin Media share Six Nations coverage in Ireland, and every match is free-to-air. Here's how to watch live and on the apps."
-last_updated: 2026-10-21
+title: "Six Nations 2027: Ireland Fixtures and Where to Watch"
+excerpt: "Every 2027 Six Nations match is free in Ireland on RTÉ or Virgin Media. Ireland's five fixtures, from England on 5 February to France on 13 March."
+description: "Every 2027 Six Nations match is free in Ireland on RTÉ or Virgin Media. Ireland's five fixtures, from England on 5 February to France on 13 March."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Sports-Streaming
 tags:
@@ -17,65 +18,54 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
+faqs:
+  - question: "Do I need to pay to watch the Six Nations in Ireland?"
+    answer: "No. RTÉ and Virgin Media Television share the Six Nations until 2029, and every match is free-to-air. You can also stream free on RTÉ Player or Virgin Media Play."
+  - question: "Which channel is showing Ireland v England in 2027?"
+    answer: "RTÉ and Virgin Media hadn't announced their 2027 match split when we checked in November 2026. The split usually comes out shortly before the tournament."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Six Nations Rugby: Free to Watch, No Subscription Needed
+Every match of the 2027 Six Nations is free to watch in Ireland, on **RTÉ** or **Virgin Media Television**. Ireland start at home to England on Friday 5 February and finish at home to France on Saturday 13 March.
 
-Every spring, Ireland's rugby fans settle in for the Six Nations Championship, and the good news is that you don't need to pay a cent extra to watch it legally. Coverage of Ireland's matches — and plenty of other fixtures in the tournament — is split between RTÉ and Virgin Media Television, both of which broadcast free-to-air.
+## Ireland's 2027 fixtures
 
-That means anyone with a television licence and a standard aerial, saorview box, or a subscription to a TV package that carries these channels can watch every Ireland game without needing Sky Sports, a streaming add-on, or any kind of pay-per-view purchase.
+From the IRFU's [fixture announcement](https://www.irishrugby.ie/2026/03/09/guinness-mens-six-nations-fixtures-confirmed-for-2027) (times are Irish time, which is GMT in February and March):
 
-### How Coverage Is Split
+| Round | Date | Match | Kick-off | Venue |
+|---|---|---|---|---|
+| 1 | Friday 5 February | Ireland v England | 8.10pm | Aviva Stadium, Dublin |
+| 2 | Saturday 13 February | Italy v Ireland | 2.10pm | Rome |
+| 3 | Saturday 20 February | Wales v Ireland | 2.10pm | Principality Stadium, Cardiff |
+| 4 | Friday 5 March | Scotland v Ireland | 8.10pm | Murrayfield, Edinburgh |
+| 5 | Saturday 13 March | Ireland v France | 8.10pm | Aviva Stadium, Dublin |
 
-RTÉ and Virgin Media Television share the Six Nations rights in Ireland under a deal running to 2029, with the fixtures alternating between them each year. In practice, this has meant that Ireland's matches appear on one or the other depending on the round and kick-off time, along with a selection of matches involving other nations.
+The Cardiff venue is from [Six Nations Rugby's match page](https://www.sixnationsrugby.com/en/m6n/fixtures/202700/wales-v-ireland-20022027-1410/build-up). Two of Ireland's games, against England and Scotland, are on Friday nights.
 
-Because the exact split can change from year to year depending on the broadcasting deal in place, it's worth checking the official schedules published by RTÉ and Virgin Media Television at the start of each Six Nations campaign to see exactly which channel is showing which match. During the tournament, our [sport on TV this week](/sport-on-tv/) page lists each weekend's games and channels. Neither broadcaster tends to show every single game in the tournament — some fixtures not involving Ireland may only be available on other channels, including UK broadcasters, depending on rights arrangements.
+## Who shows it
 
-### Watching on RTÉ
+RTÉ and Virgin Media Television share the Six Nations in Ireland until 2029, and every match is free-to-air. The deal covers the men's, Women's and U20 Six Nations ([IRFU, September 2025](https://www.irishrugby.ie/2025/09/02/free-to-air-six-nations-coverage-confirmed-until-2029)).
 
-RTÉ's coverage typically includes studio analysis before and after matches, featuring pundits and former players discussing the action. RTÉ shows its Six Nations content on its main channel, RTÉ2 or RTÉ One depending on scheduling, and simulcasts most live sport on its streaming platform, [RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/).
+**Which games each broadcaster has in 2027 wasn't announced when we checked (10 November 2026).** The split alternates each year of the deal. In 2026 Virgin Media had three of Ireland's games and RTÉ two (reported by [The Irish Times](https://www.irishtimes.com/sport/rugby/2025/09/02/six-nations-coverage-to-remain-on-free-to-air-television-to-2029)). We'll update this page when the 2027 split is out, and our [sport on TV this week](/sport-on-tv/) page lists the channel for each weekend's games during the tournament.
 
-RTÉ Player is free to use and doesn't require a subscription — you may need to create a free account to sign in, particularly if you're watching from outside the traditional TV set. It's available on smart TVs, phones, tablets, and through a web browser.
+RTÉ Radio 1 has had the radio rights to all of Ireland's Six Nations games, with full commentary, under this deal ([RTÉ, January 2026](https://about.rte.ie/2026/01/24/rte-and-virgin-media-television-kick-off-comprehensive-free-to-air-coverage-of-the-2026-six-nations-championship/)).
 
-### Watching on Virgin Media Television
+## How to watch free
 
-Virgin Media Television also broadcasts a share of Six Nations matches on its channels, alongside its own studio coverage and analysis. Its streaming platform, [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), allows viewers to watch live sport for free as well, though again you may need to register for an account.
+- **On TV:** RTÉ's and Virgin Media Television's channels are free on Saorview, the free aerial service, as well as on Irish pay-TV packages. See [what Saorview is](/installation-guides/what-is-saorview-and-do-you-need-it-if-you-stream/) if you're not sure.
+- **Streaming:** RTÉ games stream on RTÉ Player and Virgin Media games on [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/). Both are free.
+- **TV licence:** you need one for any TV set at home, even if you only stream. See [do you need a TV licence to stream](/streaming-services/tv-licence-streaming-ireland/).
 
-Virgin Media Television is available not just to Virgin Media broadband and TV customers — the channels are also carried on saorview and other TV platforms in Ireland, so you don't need to be a Virgin Media customer to watch.
+Ireland's November games in the new Nations Championship are free on Virgin Media Television: see [where to watch Ireland's November internationals](/sports-streaming/where-to-watch-irelands-november-rugby-internationals/). Every rugby competition is in our [rugby guide](/rugby/).
 
-### Do You Need Saorview or an Aerial?
+Sources: [IRFU: 2027 Six Nations fixtures](https://www.irishrugby.ie/2026/03/09/guinness-mens-six-nations-fixtures-confirmed-for-2027) (checked 10 November 2026) · [Six Nations Rugby: Wales v Ireland](https://www.sixnationsrugby.com/en/m6n/fixtures/202700/wales-v-ireland-20022027-1410/build-up) (checked 10 November 2026) · [IRFU: free-to-air Six Nations coverage until 2029](https://www.irishrugby.ie/2025/09/02/free-to-air-six-nations-coverage-confirmed-until-2029) · [RTÉ: 2026 Six Nations coverage](https://about.rte.ie/2026/01/24/rte-and-virgin-media-television-kick-off-comprehensive-free-to-air-coverage-of-the-2026-six-nations-championship/) (checked 10 November 2026) · [The Irish Times, 2 September 2025](https://www.irishtimes.com/sport/rugby/2025/09/02/six-nations-coverage-to-remain-on-free-to-air-television-to-2029)
 
-If you don't have cable or a satellite TV subscription, saorview (Ireland's free digital terrestrial TV service) is likely your easiest route to both RTÉ and Virgin Media Television channels. A saorview-compatible TV or set-top box, combined with a standard rooftop or indoor aerial, should let you access both broadcasters without any ongoing cost beyond the [TV licence](/streaming-services/tv-licence-streaming-ireland/).
-
-If you're unsure whether your TV or box supports saorview, it's worth checking the specifications before assuming you're covered, as older equipment may need an upgrade.
-
-### Streaming Apps and Smart TVs
-
-Both RTÉ Player and Virgin Media Play have apps available on most major smart TV platforms, as well as on streaming devices and mobile app stores. Exact availability can vary by device manufacturer and region, so if you're planning to stream via a specific smart TV brand or streaming stick, it's a good idea to search that platform's app store directly to confirm the app is supported before matchday.
-
-### A Note on Pricing and Access
-
-At the time of writing, both RTÉ Player and Virgin Media Play are free to access for live sport, funded through the TV licence system and advertising respectively rather than subscription fees. However, streaming services and app terms can change, so it's worth double-checking current terms on each broadcaster's official website closer to the tournament.
-
-### Keeping It Simple
-
-The bottom line for Irish rugby fans is reassuring: you don't need a complicated setup or a foreign subscription to watch Ireland's Six Nations matches. RTÉ and Virgin Media Television between them ensure that live coverage remains accessible, free, and legal for anyone in the country with a TV, an aerial or saorview box, or an internet connection. Checking each broadcaster's published schedule ahead of the tournament is the simplest way to know exactly where and when to tune in.
-
-{% include product-showcase.html category="Sports Streaming" %}
+{% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-For every rugby competition in one place, see our [rugby guide](/rugby/).
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

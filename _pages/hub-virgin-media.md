@@ -16,9 +16,9 @@ header:
   image_description: "A living room TV showing a streaming app home screen"
 ---
 
-Virgin Media does two different things in Ireland. **Virgin Media TV** is a paid TV package from the broadband company, sold as Basic, Core and Loaded TV and now watched on its Streaming TV box (older customers may still have the 360 box). **Virgin Media Play** is the free streaming app for Virgin Media Television's channels, such as Virgin Media One, which anyone can use without being a Virgin Media customer.
+Virgin Media does two different things in Ireland. **Virgin Media TV** is a paid TV package from the broadband company, sold only to its broadband customers as Core TV and Loaded TV, and now watched on its Streaming TV box (older customers may still have the 360 box). **Virgin Media Play** is the free streaming app for Virgin Media Television's channels, such as Virgin Media One, which anyone can use without being a Virgin Media customer.
 
-Start with [Virgin Media Play vs RTÉ Player]({% post_url 2026-09-20-virgin-media-play-vs-rt-player-free-irish-streaming-compared %}) for the free app, or [our older Essential vs Mix vs Max comparison]({% post_url 2026-09-11-virgin-media-tv-ireland-essential-vs-mix-vs-max-compared %}) for background on the TV packages (Virgin now sells Basic, Core and Loaded TV).
+Start with [Virgin Media Play vs RTÉ Player]({% post_url 2026-09-20-virgin-media-play-vs-rt-player-free-irish-streaming-compared %}) for the free app, or [Virgin Media TV: Core vs Loaded TV explained]({% post_url 2026-09-11-virgin-media-tv-ireland-core-vs-loaded-tv-explained %}) for the TV packages.
 
 ## All our Virgin Media TV and Virgin Media Play guides
 

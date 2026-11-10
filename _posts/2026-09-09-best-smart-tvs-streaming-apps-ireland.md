@@ -1,5 +1,7 @@
 ---
 title: "Best Smart TVs for Streaming in Ireland: Which Platform Has the Irish Apps?"
+redirect_from:
+  - /devices/lg-vs-samsung-whose-smart-tv-apps-stream-better/
 excerpt: "Samsung, LG, Google TV, Fire TV and VIDAA TVs compared: which Irish apps each has, how long updates last, and what to check before you buy."
 description: "Samsung, LG, Google TV, Fire TV and VIDAA TVs compared: which Irish apps each has, how long updates last, and what to check before you buy."
 last_updated: 2026-11-05
@@ -78,7 +80,7 @@ LG uses its own webOS system, which many people find easy to get around. RTÉ's 
 
 As with Samsung, Virgin Media doesn't list TV brands for its app, so search for it in the LG Content Store on the model you want. Our [guide to setting up NOW on a Samsung or LG smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) walks through sign-in.
 
-**Updates:** LG runs a programme called webOS Re:New, which brings newer webOS versions to some recent TVs. When LG announced it in January 2024, it covered its 2022 OLED TVs and some premium 2022 models, with the promise of a new TV experience "for the next five years". LG hasn't given a fixed, brand-wide promise like Samsung's, so ask whether the model you want is included. For a side-by-side look at the two big brands, see [LG vs Samsung: Whose Smart TV Apps Stream Better?](/devices/lg-vs-samsung-whose-smart-tv-apps-stream-better/)
+**Updates:** LG runs a programme called webOS Re:New, which brings newer webOS versions to some recent TVs. When LG announced it in January 2024, it covered its 2022 OLED TVs and some premium 2022 models, with the promise of a new TV experience "for the next five years". LG hasn't given a fixed, brand-wide promise like Samsung's, so ask whether the model you want is included.
 
 ### Google TV and Android TV (Sony, TCL, Philips, Panasonic and others)
 

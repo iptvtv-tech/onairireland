@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/posts/how-to-get-tg4-player-on-your-tv-teaser.webp
   og_image: /assets/images/posts/how-to-get-tg4-player-on-your-tv-og.jpg
 seo:
-  type: HowTo
+  type: Article
 toc: true
 draft_generated: true
 affiliate_links: true
@@ -87,9 +87,5 @@ If TG4 Player is installed but won't play, see [TG4 Player not working: fixes an
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

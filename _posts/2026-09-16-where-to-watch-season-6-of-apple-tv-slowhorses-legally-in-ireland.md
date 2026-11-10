@@ -59,16 +59,12 @@ Apple TV was **€9.99 a month** in Ireland when we last checked, with a 7-day f
 
 The Apple TV app is on Apple devices, most recent Samsung and LG smart TVs, Fire TV, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), Google TV devices and games consoles, and you can watch in a web browser at tv.apple.com. Check your own TV's app store first.
 
-If your TV doesn't have the app, a streaming stick is the cheapest fix. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} carries the Apple TV app and plugs into any HDMI port. If episodes buffer, our [Apple TV buffering fixes](/troubleshooting/apple-tv-plus-keeps-buffering-try-these-fixes/) can help.
+If your TV doesn't have the app, a streaming stick is the cheapest fix. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} carries the Apple TV app and plugs into any HDMI port. If episodes buffer, our [buffering fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) can help.
 
 Sources: [Apple TV Press: Season 6 trailer and dates](https://www.apple.com/tv-pr/news/2026/08/apple-tv-debuts-enthralling-trailer-for-season-six-of-emmy-and-bafta-award-winning-espionage-drama-slow-horses-starring-academy-award-winner-sir-gary-oldman/) · [Apple TV Press: Season 8 announced](https://www.apple.com/tv-pr/news/2026/09/apple-tv-announces-eighth-season-for-emmy-and-bafta-award-winning-spy-drama-slow-horses/) · [Apple TV in Ireland](https://www.apple.com/ie/apple-tv/)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

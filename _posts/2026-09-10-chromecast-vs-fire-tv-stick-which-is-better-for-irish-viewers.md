@@ -63,8 +63,4 @@ Ultimately, both are solid, legal, affordable ways to bring streaming apps to an
 
 {% include product-showcase.html products="google-tv-streamer,fire-tv-stick-4k,fire-tv-stick" %}
 {% include related-posts.html %}
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

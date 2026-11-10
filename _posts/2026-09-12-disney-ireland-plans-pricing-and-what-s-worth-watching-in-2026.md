@@ -1,7 +1,9 @@
 ---
-title: "Disney+ Ireland: Plans, Pricing and What's Worth Watching in 2026"
-excerpt: "Disney+ in Ireland: every plan and price, what's worth watching in 2026, and tips to get the most value from your subscription."
-description: "Disney+ in Ireland: every plan and price, what's worth watching in 2026, and tips to get the most value from your subscription."
+title: "Disney+ Ireland: Plans, Prices and What You Get in 2026"
+excerpt: "Disney+ has three plans in Ireland: Standard with Ads, Standard and Premium. What each costs, what you get, yearly plans and getting Disney+ through Sky."
+description: "Disney+ has three plans in Ireland: Standard with Ads, Standard and Premium. What each costs, what you get, yearly plans and getting Disney+ through Sky."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -16,79 +18,69 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Does Disney+ Ireland offer a free trial?"
-    answer: "This has varied over time and free trials are not always available, so check the official sign-up page for current offers before assuming one exists."
-  - question: "Can I share my Disney+ account with family outside my household?"
-    answer: "Disney+ has introduced account-sharing restrictions in some regions, and the exact rules for Ireland should be confirmed on Disney's official terms of service before relying on shared access."
-  - question: "Is Disney+ available on all smart TVs in Ireland?"
-    answer: "Most major smart TV brands and streaming devices support Disney+, but very old models may lack the app or receive limited updates, so it's worth checking compatibility with your specific device."
-  - question: "Does the ad-supported plan include all the same content as the ad-free plan?"
-    answer: "Generally yes, though some content restrictions or quality differences may apply, so check the current plan comparison on Disney's official Irish site for exact details."
+  - question: "What's the difference between the Disney+ plans in Ireland?"
+    answer: "Standard with Ads and Standard both allow two screens at once in Full HD; Standard has no ads and lets you download to up to 10 devices. Premium adds 4K Ultra HD, HDR, Dolby Atmos and four screens at once."
+  - question: "Is there a yearly Disney+ plan in Ireland?"
+    answer: "Yes, for Standard and Premium. Disney+ doesn't list a yearly option for Standard with Ads. Our streaming prices tracker shows the current yearly prices."
+  - question: "Is Disney+ included with Sky in Ireland?"
+    answer: "Sky Ultimate TV includes Disney+ Standard with Ads. Check what your Sky package includes before paying for Disney+ separately."
+  - question: "Can I share Disney+ with someone outside my home?"
+    answer: "Not for free. Disney says people outside your household need their own subscription or must be added as a paid Extra Member, with one Extra Member slot per account."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Disney+ Ireland: What You're Actually Paying For
+**Disney+ has three plans in Ireland: Standard with Ads, Standard and Premium.** The cheapest is Standard with Ads, and Premium is the only one with 4K. You can also get Disney+ Standard with Ads as part of Sky Ultimate TV.
 
-Disney+ has become a staple in Irish households since its launch, bringing together content from Disney, Pixar, Marvel, Star Wars, National Geographic, and the general entertainment hub known as "Star." For Irish subscribers weighing up their streaming budget in 2026, it's worth understanding exactly what each tier offers before committing.
+{% assign disney = site.data.prices | where: "service", "Disney+" %}
 
-### Subscription Tiers Explained
+## Disney+ plans and prices in Ireland
 
-Disney+ typically offers at least two tiers in Ireland: a standard ad-supported plan and a premium ad-free option, often with the ability to pay monthly or save with an annual commitment. Some markets also see a "Premium" tier that adds 4K Ultra HD, HDR, and Dolby Atmos sound alongside more simultaneous streams and downloads.
+| Plan | Monthly | Yearly |
+|---|---|---|
+{% for p in disney %}| {{ p.plan }} | {% include euro.html amount=p.monthly %} | {% if p.yearly %}{% include euro.html amount=p.yearly %}{% else %}Not offered{% endif %} |
+{% endfor %}
 
-We're not going to quote exact euro figures here, because subscription pricing has shifted more than once since launch and Disney has a habit of adjusting tiers without much fanfare. Before you sign up, check the official Disney+ Ireland pricing page directly, as the number you saw last year — or even last month — may no longer be accurate. Look out for whether VAT is included in the advertised price, and whether annual plans genuinely work out cheaper than paying month to month once you factor in any promotional periods.
+*Standard prices checked {{ disney[0].checked | date: "%-d %B %Y" }} on [Disney+ Ireland](https://www.disneyplus.com/en-ie). See the [streaming prices tracker](/streaming-prices/) for every service.*
 
-### Ad-Supported vs Ad-Free
+At the time of writing (November 2026), Disney+ offers new subscribers a lower monthly price for the first six months on each plan, with a six-month minimum term. After that, the standard monthly price above applies. Disney+'s Irish site doesn't mention a free trial.
 
-The introduction of an ad-supported tier changed the calculus for a lot of subscribers. If you're mainly using Disney+ for kids' content or catching up on Marvel box sets, occasional ad breaks might be a small price to pay for a lower monthly bill. Families who binge-watch frequently, however, may find the ad-free tier better value simply for the uninterrupted experience.
+## What you get on each plan
 
-It's also worth checking whether the ad-supported tier restricts video quality or download options, as these details can change and directly affect whether the cheaper plan suits your household.
+According to [Disney+'s Irish site](https://www.disneyplus.com/en-ie):
 
-## What's Worth Watching in 2026
+- **Standard with Ads:** two screens at once, up to 1080p Full HD and 5.1 sound, with ads. Disney+ doesn't list downloads for this plan.
+- **Standard:** the same picture and sound, no ads on films and series, and downloads on up to 10 devices.
+- **Premium:** four screens at once, up to 4K Ultra HD and HDR, Dolby Atmos sound, no ads on films and series, and downloads on up to 10 devices.
 
-Disney+'s catalogue in Ireland spans decades of family favourites alongside newer originals, and 2026 should bring another wave of Marvel and Star Wars content, along with Pixar releases and Disney-branded originals.
+The yearly plans for Standard and Premium cost less than 12 months at the standard monthly price. Only pick one if you're sure you'll keep Disney+ for the year.
 
-### Marvel and Star Wars
+If someone outside your home uses your account, Disney says they need their own subscription or a paid **Extra Member** slot, and there's one slot per account, according to [Disney's European explainer](https://thewaltdisneycompany.eu/paid-sharing-on-disney-heres-what-you-need-to-know/). Disney hasn't published the Irish Extra Member price on that page, so check it in your account settings.
 
-Marvel's television slate continues to expand the wider cinematic universe with new limited series, while Star Wars remains a reliable source of spin-off shows exploring different eras of the galaxy. If you're catching up before a new season drops, Disney+ organises most Marvel and Star Wars content into curated collections, making it easier to watch in suggested order.
+## Getting Disney+ through Sky
 
-### Pixar and Animation
+[Sky Ultimate TV](https://www.sky.com/ie/tv/ultimate-tv-package) includes Disney+ Standard with Ads, alongside Netflix Basic, HBO Max Basic with Ads, Hayu and discovery+. If you already pay for Ultimate TV, you may not need a separate Disney+ subscription. Our [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/) guide compares Sky's options.
 
-Pixar's back catalogue remains one of the strongest reasons to keep a subscription active, especially for households with younger viewers. Alongside classics, keep an eye out for newer animated originals that sometimes premiere directly on the platform rather than in cinemas.
+## What's on Disney+
 
-### Nat Geo and Star Content
+Disney+'s Irish site lists six brands: Disney, Pixar, Marvel, Star Wars, National Geographic and Hulu, with a note that Hulu titles can vary by region. That covers the Disney and Pixar films, the Marvel and Star Wars series, Nat Geo documentaries and general drama and comedy for adults.
 
-For adult-oriented viewing, the "Star" hub houses general entertainment titles, including dramas and comedies that skew older than the family-friendly Disney branding might suggest. National Geographic content adds documentaries and nature series, which are a solid option for anyone wanting a break from scripted television.
+Disney+ also has some live football. It has the Saturday primetime LaLiga matches in Ireland and the UK until the end of the 2027/28 season, according to [LaLiga](https://www.laliga.com/en-GB/news/laliga-announces-landmark-broadcast-deals-with-premier-sports-and-disney-in-the-uk-and-ireland).
 
-## Getting the Best Value in Ireland
+New titles change month to month, so use the search in the app before you subscribe for one film or series.
 
-A few practical tips can help Irish subscribers stretch their subscription further:
+## Setting it up
 
-- **Bundle deals**: Disney+ has occasionally partnered with Irish telecom or broadband providers for bundled offers. It's worth checking with your own provider (eir, Vodafone, Three, and others have run promotions in the past) to see if a discount is currently available.
-- **Annual vs monthly**: If you know you'll be a long-term subscriber, the annual plan is usually the better deal, but always compare the total annual cost against twelve months of the monthly price before committing.
-- **Profile management**: Disney+ supports multiple profiles per household account, useful for keeping kids' viewing separate from the main adult profile and for managing "continue watching" lists without them getting cluttered.
-- **Device compatibility**: Check that your smart TV, streaming stick, or games console still receives Disney+ app updates. Older devices sometimes lose support for newer app versions, which can affect streaming quality.
+Disney+ has apps for most smart TVs, streaming sticks and games consoles. For step-by-step help, see [setting up Disney+ on an LG smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/). If the app won't load or keeps buffering, try [Disney+ not working: fixes](/troubleshooting/disney-not-working-try-these-fixes/).
 
-## A Final Word on Pricing Accuracy
-
-Streaming prices across Ireland have been prone to change with little warning, often tied to currency shifts, content licensing costs, or company-wide restructuring of tiers. Always check Disney+'s official Irish website or app for the current euro pricing before making a decision, rather than relying on older articles or forum posts that may be out of date. Our [streaming prices tracker](/streaming-prices/) shows the Disney+ prices we last checked, and the [streaming cost calculator](/streaming-cost-calculator/) adds up your monthly bill.
-
-**Related guides:** [Is Virgin Media Play Free in Ireland?](/streaming-services/is-virgin-media-play-free-in-ireland/) · [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/)
-
-{% include product-showcase.html category="Streaming Services" %}
+Sources: [Disney+ Ireland](https://www.disneyplus.com/en-ie) (checked 10 November 2026) · [Sky Ireland: Ultimate TV](https://www.sky.com/ie/tv/ultimate-tv-package) (checked 10 November 2026) · [The Walt Disney Company: Paid Sharing on Disney+](https://thewaltdisneycompany.eu/paid-sharing-on-disney-heres-what-you-need-to-know/) (checked 10 November 2026) · [LaLiga: broadcast deals with Premier Sports and Disney+](https://www.laliga.com/en-GB/news/laliga-announces-landmark-broadcast-deals-with-premier-sports-and-disney-in-the-uk-and-ireland)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

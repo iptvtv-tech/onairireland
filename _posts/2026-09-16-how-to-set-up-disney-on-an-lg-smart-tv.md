@@ -92,8 +92,4 @@ If your LG TV doesn't support Disney+ at all, or the app performance is consiste
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

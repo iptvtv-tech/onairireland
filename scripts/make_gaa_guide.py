@@ -725,7 +725,7 @@ def main():
     doc = BaseDocTemplate(out, pagesize=A4, leftMargin=MARGIN, rightMargin=MARGIN,
                           topMargin=62.69, bottomMargin=48,
                           title=DOC_TITLE + ": a free guide",
-                          author="On Air Ireland team",
+                          author="John Paul, On Air Ireland",
                           subject="Who shows GAA in Ireland, what GAA+ costs and how to get RTÉ Player, TG4 Player "
                                   "and GAA+ on your TV: licensed, legal services only",
                           creator="On Air Ireland (scripts/make_gaa_guide.py)")

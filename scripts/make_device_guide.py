@@ -566,7 +566,7 @@ def story():
                "(2026) and Fire TV Stick 4K Select (2025) run Amazon's newer Vega OS, not Fire OS. Vega OS has "
                "fewer apps, and it isn't confirmed that RTÉ Player, Virgin Media Play or TG4 Player are "
                "available on Vega models. For Irish apps, the safe pick is the Fire TV Stick 4K Max (2nd gen, "
-               "2023) or the Fire TV Stick 4K Plus (2025), which run Fire OS. Before you buy, check that the "
+               "2023), which runs Fire OS (the Fire TV Stick 4K Plus also does, where it's sold). Before you buy, check that the "
                "listing says which OS the stick runs."),
         h2("Google TV Streamer"),
         body("Google's replacement for the Chromecast with Google TV, which was discontinued in 2024. It's a "
@@ -616,7 +616,7 @@ def story():
         table([
             ["If you…", "Our suggestion"],
             ["Want the easiest all-rounder", "Amazon Fire TV Stick 4K Max (Fire OS)"],
-            ["Have an older TV in a bedroom or kitchen", "Fire TV Stick 4K Plus (Fire OS) — fine on HD TVs too"],
+            ["Have an older TV in a bedroom or kitchen", "Fire TV Stick 4K Max (Fire OS) — fine on HD TVs too"],
             ["Use an Android phone and cast a lot", "Google TV Streamer"],
             ["Live in the Apple world", "Apple TV 4K"],
             ["Want the simplest possible menus", "Roku (check TG4 Player if you need it)"],
@@ -745,7 +745,7 @@ def main():
     doc = BaseDocTemplate(out, pagesize=A4, leftMargin=MARGIN, rightMargin=MARGIN,
                           topMargin=62.69, bottomMargin=48,
                           title=DOC_TITLE + ": a free guide for Irish homes",
-                          author="On Air Ireland team",
+                          author="John Paul, On Air Ireland",
                           subject="Fire TV, Google TV, Roku, Apple TV or your smart TV: choosing a streaming "
                                   "device for licensed, legal services in Ireland",
                           creator="On Air Ireland (scripts/make_device_guide.py)")

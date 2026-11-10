@@ -1,8 +1,9 @@
 ---
-title: Where to Watch the World Darts Championship in Ireland
-excerpt: A guide to the broadcaster, dates and legal streaming options for watching the PDC World Darts Championship in Ireland this winter.
-description: A guide to the broadcaster, dates and legal streaming options for watching the PDC World Darts Championship in Ireland this winter.
-last_updated: 2026-10-21
+title: "World Darts Championship 2026/27: Where to Watch in Ireland"
+excerpt: "The 2026/27 PDC World Darts Championship runs from 11 December to 3 January, live on Sky Sports in Ireland. How to watch with Sky or NOW."
+description: "The 2026/27 PDC World Darts Championship runs from 11 December to 3 January, live on Sky Sports in Ireland. How to watch with Sky or NOW."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
 - Sports-Streaming
 tags:
@@ -16,64 +17,56 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-- question: Is the PDC World Darts Championship shown free-to-air in Ireland?
-  answer: Historically no, it has been shown on Sky Sports, a subscription service, rather than on free-to-air channels like RTÉ.
-- question: Can I watch the darts without a Sky dish installed?
-  answer: Yes, NOW offers a Sky Sports streaming pass that doesn't require a satellite dish or long-term contract, though pricing and terms should be checked directly on the NOW website.
-- question: What should I do if a streaming app says the darts coverage isn't available in my country?
-  answer: Check that your account's billing address and the app store region on your device are both set to Ireland, and contact the broadcaster's support team if the issue continues.
-- question: Are the exact 2026-27 tournament dates confirmed yet?
-  answer: Not at the time of writing; check the official PDC website or your broadcaster's listings closer to December for the confirmed schedule.
+- question: Is the World Darts Championship on free TV in Ireland?
+  answer: We couldn't find any free-to-air broadcaster in Ireland for the 2026/27 championship. It's live on Sky Sports, which you can get through a Sky or Virgin Media TV package or through NOW with no contract.
+- question: When is the 2026/27 World Darts Championship final?
+  answer: Sunday 3 January 2027, at Alexandra Palace in London. The tournament starts on Friday 11 December 2026 and breaks from 24 to 27 December.
+- question: Can I watch the darts without a Sky contract?
+  answer: Yes. NOW's Sports membership streams all the Sky Sports channels with no contract, and NOW also sells a 24-hour day pass.
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-The PDC World Darts Championship has traditionally been shown in Ireland via Sky Sports, with NOW offering a no-contract streaming pass as the legal alternative to a full satellite subscription. Check Sky's schedule closer to the tournament for exact dates and channels.
+The 2026/27 PDC World Darts Championship runs from **Friday 11 December 2026 to Sunday 3 January 2027**, and in Ireland it's live on **Sky Sports**. You can watch through a Sky TV package with Sky Sports, or with no contract through NOW's Sports membership.
 
-## When Is the Tournament On
+## At a glance
 
-The World Darts Championship typically runs from mid-December through to New Year's Day, with the final usually taking place on 1 January or 2 January. Precise dates for 2026-27 had not been locked in at the time of writing, so it's worth checking the official PDC website or your broadcaster's listings once the draw and schedule are confirmed, usually a few months ahead of the event. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+- **Dates:** 11 December 2026 to 3 January 2027, with a break from 24 to 27 December
+- **Final:** Sunday 3 January 2027
+- **Venue:** Alexandra Palace, London, now in the larger Great Hall
+- **Players:** 128 in the first round
+- **Broadcaster in Ireland:** Sky Sports
+- **No contract:** NOW Sports membership or a NOW day pass
 
-## Confirmed Broadcaster in Ireland
+## Dates and format
 
-Sky Sports has shown the PDC World Darts Championship in Ireland for many years, and was reported in January 2025 to have agreed a new five-year deal with the PDC starting in 2026. Expect this year's championship on Sky Sports, and check Sky's own schedule or the PDC's broadcaster listings before you subscribe.
+The PDC confirmed the dates in August ([PDC](https://www.pdc.tv/news/2026/august/06/paddy-power-world-darts-championship-tickets-to-be-allocated-by-ballot-for-the-first-time/)). [Sky Sports](https://www.skysports.com/darts/news/12040/13570429/world-darts-championship-2026-27-dates-confirmed-for-alexandra-palace-with-sunday-final-in-great-hall-for-first-time) adds that there are 128 players in the first round, the usual Christmas break runs from 24 to 27 December, and the final is on a Sunday, in the Great Hall, for the first time.
 
-## Watching Without a Sky Dish
+The draw and the day-by-day schedule are published by the PDC closer to the tournament. Our [sport on TV this week](/sport-on-tv/) page lists the week's big events and channels while it's on.
 
-For households without a satellite dish or a long-term Sky contract, [NOW](/now-and-sky/) (formerly NOW TV) offers a Sky Sports pass that can be purchased on a day, month, or rolling basis depending on current pricing tiers. This is the most practical legal route for darts fans in Ireland who want to watch without signing up to a full Sky package. Pricing and pass names do change from time to time, so it's worth checking the NOW website directly for the current Sky Sports membership options and costs before the tournament begins.
+## Who shows it in Ireland
 
-NOW is available on smart TVs, streaming sticks, games consoles, and via a web browser or app on phones and tablets. If you're watching on a smart TV app, make sure the app itself is up to date and that your account's billing address matches your actual home address in Ireland, as this is sometimes a source of account or regional mismatches with subscription services.
+Sky Sports is the home of PDC darts in Ireland and the UK, including the World Championship, under a deal that runs to 2030 ([Sky Sports](https://www.skysports.com/darts/news/12288/13302934/sky-sports-to-remain-home-of-darts-until-2030-after-deal-with-pdc-extended-following-unprecedented-success)). The PDC lists Sky Sports as its broadcaster for the UK and Ireland on its [where to watch pages](https://www.pdc.tv/news/2026/june/11/where-to-watch-the-2026-betvictor-world-cup-of-darts/).
 
-## Setting Up Your TV for Streaming
+We couldn't find any Irish free-to-air channel with live coverage of the 2026/27 championship.
 
-If you're streaming the darts through a set-top box, streaming stick, or games console rather than a built-in smart TV app, you may find yourself swapping HDMI cables between devices during a busy sporting weekend. A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI Switch" %} lets you keep multiple devices, such as a streaming stick, a games console, and a Sky box, connected to the same TV input without constantly unplugging cables, which is handy if your TV has limited HDMI ports.
+## How to get Sky Sports
 
-## Picture Quality and Buffering
+**Through a TV package.** Sky Ireland sells Sky Sports as part of its TV packages, and Virgin Media offers a sports pack that includes Sky Sports. Prices depend on your package and contract, so check with your provider.
 
-Darts coverage tends to involve long static camera shots with fast-moving close-up action on the oche, so a stable connection matters more than raw resolution. If you notice buffering during busy viewing periods, such as the evening sessions when audiences peak, try connecting your streaming device via ethernet cable where possible, or move your router to a more central location in the house. Restarting your router before a big session is also a simple step that resolves many temporary connection issues.
+**With no contract, through NOW.**
 
-## Checking Your Account Settings
+{% assign now_sports = site.data.prices | where: "plan", "Sports" | first %}
+NOW's **Sports** membership streams all 12 Sky Sports channels plus Sky Sports+, with no contract, and NOW lists the World Darts Championship among its Sky Sports events. It's {% include euro.html amount=now_sports.monthly %} a month on standard pricing (checked {{ now_sports.checked | date: "%-d %B %Y" }}). NOW also sells a 24-hour day pass, which may suit you if you only want the final. Offers change often, so check [NOW's Sky Sports page](https://www.nowtv.com/ie/membership/sports/watch-sky-sports) for the current price before you sign up. Our [Sky Stream vs NOW guide](/streaming-services/sky-stream-vs-now-ireland/) compares the two routes.
 
-If a streaming app shows an error suggesting the content isn't available, the most common cause is an account registered to the wrong country or an app downloaded from the wrong regional app store. Make sure your streaming device's app store region is set to Ireland, and that your NOW or Sky account details reflect an Irish billing address. If problems persist, the broadcaster's own customer support team is the best point of contact, as they can check account-specific settings on their end.
-
-## Free-to-Air Alternatives
-
-Darts has occasionally featured on free-to-air schedules in other markets, but in Ireland the World Championship has historically sat behind Sky's paywall rather than being shown on RTÉ or other free channels. If you rely on an {% include product-link.html id="outdoor-digital-tv-aerial" text="Outdoor Digital TV Aerial" %} for Saorview channels, it's worth checking RTÉ's own sports schedule separately, as free-to-air darts coverage in Ireland has generally been limited to occasional highlights rather than live tournament coverage.
-
-{% include product-showcase.html category="Sports Streaming" %}
+Sources: [PDC: World Championship tickets and dates](https://www.pdc.tv/news/2026/august/06/paddy-power-world-darts-championship-tickets-to-be-allocated-by-ballot-for-the-first-time/) (checked 10 November 2026) · [Sky Sports: 2026/27 dates confirmed](https://www.skysports.com/darts/news/12040/13570429/world-darts-championship-2026-27-dates-confirmed-for-alexandra-palace-with-sunday-final-in-great-hall-for-first-time) (checked 10 November 2026) · [PDC: where to watch](https://www.pdc.tv/news/2026/june/11/where-to-watch-the-2026-betvictor-world-cup-of-darts/) (checked 10 November 2026) · [Sky Sports: home of darts until 2030](https://www.skysports.com/darts/news/12288/13302934/sky-sports-to-remain-home-of-darts-until-2030-after-deal-with-pdc-extended-following-unprecedented-success) (checked 10 November 2026) · [NOW: Sky Sports membership](https://www.nowtv.com/ie/membership/sports/watch-sky-sports) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

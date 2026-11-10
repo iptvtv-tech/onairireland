@@ -35,7 +35,7 @@ faqs:
   - question: "How can I tell if a streaming service is legal in Ireland?"
     answer: "Legal services are sold by the broadcaster or an established provider such as RTÉ, Virgin Media, TG4, NOW, Sky, Netflix or Disney+, and you install them from your TV's or device's own app store. If you're not sure about a service, check the provider's own website before you pay."
   - question: "Is there a Netflix plan with ads in Ireland?"
-    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). Netflix has confirmed ads will start on its Irish service from 1 March 2027, but hasn't announced the price."
+    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). Netflix has confirmed ads will start on its Irish service from 1 March 2027 (reported by The Irish Times, September 2026), but hasn't announced the price."
   - question: "Do I need a TV licence if I only stream?"
     answer: "Not if you only watch on a phone, laptop, tablet or other device that can't receive a TV signal by aerial, satellite or cable. Any TV set needs a licence, even a smart TV you only use for streaming apps."
 ---
@@ -79,7 +79,7 @@ Prices change often. Our [streaming prices tracker](/streaming-prices/) lists ev
 
 | Service | Plans and monthly price | Best for |
 | --- | --- | --- |
-| **Netflix** | Basic €11.99 · Standard €18.99 · Premium €25.99 | The biggest general library; no ad tier in Ireland until 1 March 2027 |
+| **Netflix** | Basic €11.99 · Standard €18.99 · Premium €25.99 | The biggest general library; no ad tier in Ireland until 1 March 2027 ([Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/)) |
 | **Disney+** | From €8.99 (Standard with Ads) · Standard €11.99 · Premium €15.99 | Families, Marvel, Star Wars, Pixar |
 | **Prime Video** | €6.99 | Good value, especially if you already shop on Amazon |
 | **Apple TV** | €9.99 | Apple originals like *Slow Horses* and *Severance* |
@@ -97,7 +97,7 @@ Read more in our guides to [Netflix's 2026 price changes](/news/netflix-ireland-
 If you want live channels, sport and on-demand in one bill, the pay-TV providers now deliver most of it over broadband:
 
 - **Sky** — Sky Stream works over Wi-Fi with no satellite dish. See [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/).
-- **Virgin Media TV** — sold with Virgin broadband as Basic, Core and Loaded TV, now on the Streaming TV box. See [Virgin Media TV compared](/streaming-services/virgin-media-tv-ireland-essential-vs-mix-vs-max-compared/).
+- **Virgin Media TV** — sold only with Virgin broadband as Core TV and Loaded TV, now on the Streaming TV box. See [Virgin Media TV: Core vs Loaded TV](/streaming-services/virgin-media-tv-ireland-core-vs-loaded-tv-explained/).
 - **eir** — eir TV bundles TV with broadband (from €14.99 a month with broadband). See [eir TV explained](/streaming-services/eir-vision-explained-is-bundling-tv-with-broadband-worth-it/).
 
 Pay-TV prices depend heavily on your broadband bundle and any current offers, so compare the total monthly bill rather than the TV part alone.

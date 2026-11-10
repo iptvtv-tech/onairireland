@@ -1,8 +1,9 @@
 ---
-title: "Where to Watch the United Rugby Championship Legally in Ireland"
-excerpt: "How to watch the URC legally in Ireland: free games on TG4, and every Irish province's match on Premier Sports, under deals running to 2029."
-description: "How to watch the URC legally in Ireland: free games on TG4, and every Irish province's match on Premier Sports, under deals running to 2029."
-last_updated: 2026-10-21
+title: "Where to Watch the URC in Ireland: TG4 and Premier Sports"
+excerpt: "URC rugby in Ireland: at least 26 free games a season on TG4, and every Leinster, Munster, Ulster and Connacht game on Premier Sports, until 2029."
+description: "URC rugby in Ireland: at least 26 free games a season on TG4, and every Leinster, Munster, Ulster and Connacht game on Premier Sports, until 2029."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Sports-Streaming
 tags:
@@ -17,72 +18,51 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Is any URC coverage available completely free in Ireland?"
-    answer: "Yes. TG4 is the URC's exclusive free-to-air broadcaster in Ireland, showing at least 26 games a season in Irish on TG4 and TG4 Player."
-  - question: "Do I need a special streaming device to watch Premier Sports?"
-    answer: "Not necessarily, as many smart TVs support the app directly, but a Fire TV Stick, Fire TV Cube, Roku, or Chromecast can help if your TV doesn't."
-  - question: "Can I watch URC matches on my phone?"
-    answer: "Yes, both TG4 Player and the Premier Sports app generally support mobile and tablet streaming, though check current app availability for your device."
-  - question: "How can I check exact current Premier Sports pricing?"
-    answer: "It's best to check directly on the Premier Sports website, as subscription costs and packages can change between seasons."
+  - question: "Is any URC rugby free to watch in Ireland?"
+    answer: "Yes. TG4 is the URC's exclusive free-to-air broadcaster in Ireland and shows at least 26 games a season, in Irish, on TG4 and the free TG4 Player."
+  - question: "Can I watch every Irish province game?"
+    answer: "Only with Premier Sports. It shows every Leinster, Munster, Ulster and Connacht game live. Some of those are also on TG4, but at least one game a round, and the inter-pro derbies, are exclusive to Premier Sports."
+  - question: "Is the 2027 URC final on free TV?"
+    answer: "Yes. Under the current deal TG4 shares the 2027 Grand Final with Premier Sports, so it will be free on TG4."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Following the URC Legally This Season
+In Ireland, the URC is on **TG4**, free, and on **Premier Sports**, a paid channel. TG4 shows at least 26 games a season in Irish; Premier Sports shows every game involving Leinster, Munster, Ulster and Connacht. Both deals run until 2029.
 
-The United Rugby Championship has become one of the most exciting competitions on the Irish sporting calendar, with all four provinces battling it out against sides from Wales, Scotland, Italy, and South Africa. If you're trying to work out where you can actually watch the games, this guide covers the licensed options available to Irish viewers.
+## At a glance
 
-### TG4's Free Coverage
+- **Free:** TG4 and TG4 Player, at least 26 games a season, with coverage in Irish
+- **Every Irish province game:** Premier Sports
+- **Only on Premier Sports:** one game a round, and the six inter-pro derbies each season
+- **Play-offs:** shared between TG4 and Premier Sports; TG4 shares the 2027 Grand Final
+- **Premier Sports without a contract:** NOW's Sports Extra membership
 
-TG4 is the URC's exclusive free-to-air broadcaster in Ireland under a deal that runs to 2029. It shows at least 26 games a season, including selected quarter-finals, semi-finals and finals in some seasons, plus 16 more fixtures featuring non-Irish teams. Coverage is in Irish, on the TG4 channel and the free TG4 Player.
+## TG4: the free option
 
-TG4 Player has apps for smart TVs, streaming devices, phones and tablets, and works in a web browser. Check your device's app store to confirm it's available.
+TG4 became the URC's exclusive free-to-air broadcaster in Ireland in April 2025, under a deal running to 2029 ([URC](https://www.unitedrugby.com/latest/news/tg4-become-exclusive-free-to-air-broadcaster-of-the-bkt-urc-in-ireland)). It shows a minimum of 26 regular-season games, with coverage in Irish, on the TG4 channel and the free [TG4 Player](/streaming-services/tg4-player-what-you-get-for-free/).
 
-### Premier Sports and the Full Fixture List
+TG4 doesn't show every Irish province game. In round 1 of 2026/27, for example, RTÉ listed Connacht v Stormers and Lions v Leinster as live on TG4 and Premier Sports, while Ulster v Edinburgh and Munster v Glasgow Warriors were on Premier Sports only ([RTÉ Sport](https://www.rte.ie/sport/united-rugby-championship/2026/0924/1592790-united-rugby-championship-round-1-all-you-need-to-know/)).
 
-Premier Sports shows every game involving Leinster, Munster, Ulster and Connacht, with one Irish provincial game each round exclusive to it, plus all play-off matches and every final, under a deal that runs to 2029. Coverage is in English. In Ireland it's part of the Sports Extra pack on Sky, NOW, Virgin Media and Vodafone, and the Premier Sports app runs on phones, tablets and streaming devices.
+## Premier Sports: every province, every round
 
-We'd recommend double-checking current subscription pricing directly with Premier Sports before signing up, as costs and package structures do shift between seasons and we don't want to quote you an outdated figure.
+Under its URC deal to 2029, Premier Sports shows every game involving Leinster, Munster, Ulster and Connacht live. One game a round (21 a season) and the six inter-pro derbies are exclusive to it. Premier Sports and TG4 split the play-offs. Premier Sports had the 2026 Grand Final to itself, and TG4 shares the 2027 and 2029 finals ([URC announcement, published by Dragons RFC](https://dragonsrfc.wales/news/2025/april/premier-sports-expands-coverage-until-2029.html)). Premier Sports' [rugby page](https://premiersportsireland.com/rugby) says it has "every game from every round" this season, up to the 2027 final.
 
-### Getting Premier Sports and TG4 Onto Your TV
+{% assign now_extra = site.data.prices | where: "plan", "Sports Extra" | first %}
+Premier Sports is in the Sports Extra pack on Sky and NOW, and Virgin Media adds it to its sports pack. With no contract, NOW's **Sports Extra** membership is {% include euro.html amount=now_extra.monthly %} a month on standard pricing (checked {{ now_extra.checked | date: "%-d %B %Y" }}), and NOW lists the URC among its live streams. There's also a 24-hour day pass. NOW often runs a 12-month introductory offer, so check [NOW's Sports Extra page](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) for the current price. Premier Sports' [how to watch page](https://premiersportsireland.com/how-to-watch/) lists the other ways to get it.
 
-If your main television is older and doesn't run smart apps well, a streaming device is the easiest fix. A Fire TV Stick or Fire TV Cube will run the streaming apps you need, and setup is usually just a matter of plugging in, connecting to Wi-Fi, and downloading the relevant apps. Roku devices and Chromecast are also solid options if you already have one lying around or prefer that ecosystem.
+## Finding out who shows this weekend's game
 
-For households juggling multiple boxes and consoles on one television, a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI Switch" %} can save you from constantly unplugging cables behind the TV when swapping between your streaming stick, games console, and set-top box.
+TV picks are made round by round, so check before kick-off. RTÉ Sport's weekly "All You Need to Know" round-ups list the channel for each Irish province game, and our [sport on TV this week](/sport-on-tv/) page lists the week's big games. For the provinces' European games, see [where to watch the Champions Cup](/sports-streaming/where-to-watch-the-champions-cup-rugby-in-ireland/), and for every rugby competition in one place, our [rugby guide](/rugby/).
 
-### Don't Forget Your Free-to-Air Reception
-
-It's easy to overlook, but a stable aerial signal still matters for anyone relying on TG4's URC coverage over the airwaves rather than through the player app, particularly in rural areas where reception can be patchy. If you've been having dropouts or pixelation during big matches, upgrading to a decent {% include product-link.html id="outdoor-digital-tv-aerial" text="Outdoor Digital TV Aerial" %} can make a noticeable difference to picture stability, especially during poor weather when signal quality tends to suffer most.
-
-### Mobile and Tablet Viewing
-
-Both TG4 Player and the Premier Sports app support viewing on phones and tablets, which is handy if you're travelling or want to catch a match away from the main television. Data usage can add up quickly with HD streaming, so it's worth keeping an eye on your mobile allowance if you're not on Wi-Fi.
-
-### Planning Around Fixture Changes
-
-URC kick-off times and broadcast allocations can shift week to week, particularly when Irish provinces are involved in European competition the same weekend. It's always worth checking the official URC website or the Premier Sports schedule a few days ahead rather than assuming a fixture will be shown at the time you expect. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
-
-### The Bottom Line
-
-Between TG4's free coverage and Premier Sports' coverage of every Irish province's game, Irish fans have legitimate, reliable ways to follow every province through the URC campaign. Pairing either service with an affordable streaming device makes for a straightforward, hassle-free setup on any television, old or new.
-
-{% include product-showcase.html category="Sports Streaming" %}
+Sources: [URC: TG4 become exclusive free-to-air broadcaster in Ireland](https://www.unitedrugby.com/latest/news/tg4-become-exclusive-free-to-air-broadcaster-of-the-bkt-urc-in-ireland) (checked 10 November 2026) · [URC announcement on Premier Sports to 2029 (Dragons RFC)](https://dragonsrfc.wales/news/2025/april/premier-sports-expands-coverage-until-2029.html) (checked 10 November 2026) · [Premier Sports Ireland: rugby](https://premiersportsireland.com/rugby) (checked 10 November 2026) · [RTÉ Sport: URC round 1](https://www.rte.ie/sport/united-rugby-championship/2026/0924/1592790-united-rugby-championship-round-1-all-you-need-to-know/) (checked 10 November 2026) · [NOW Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) (checked 10 November 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-For every rugby competition in one place, see our [rugby guide](/rugby/).
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

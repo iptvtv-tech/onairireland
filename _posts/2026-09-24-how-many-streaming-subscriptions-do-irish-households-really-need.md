@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "How Many Streaming Subscriptions Do Irish Households Really Need?"
 excerpt: "A look at how much Irish households are really spending on streaming subscriptions, and a practical guide to deciding which services are worth keeping."
 description: "A look at how much Irish households are really spending on streaming subscriptions, and a practical guide to deciding which services are worth keeping."
@@ -85,9 +87,5 @@ Doing a quick subscription audit every few months, rather than letting it run on
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

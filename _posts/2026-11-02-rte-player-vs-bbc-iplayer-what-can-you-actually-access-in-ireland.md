@@ -75,8 +75,4 @@ RTÉ Player is a straightforward, free Irish service, with no account trickery n
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

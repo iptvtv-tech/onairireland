@@ -88,8 +88,4 @@ YouTube Premium isn't essential for everyone, but it's not a bad deal either if 
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

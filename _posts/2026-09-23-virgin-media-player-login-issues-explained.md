@@ -17,7 +17,7 @@ header:
   og_image: /assets/images/posts/virgin-media-player-login-issues-explained-og.jpg
   caption: 'Photo: [https://kaboompics.com/](https://www.pexels.com/photo/hand-holding-a-black-remote-control-5207535/) on [Pexels](https://www.pexels.com)'
 seo:
-  type: HowTo
+  type: Article
 toc: true
 draft_generated: true
 affiliate_links: true
@@ -89,9 +89,5 @@ Source: [Virgin Media Play FAQ](https://www.virginmediatelevision.ie/player-faq)
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

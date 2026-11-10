@@ -78,8 +78,4 @@ Before the opening tee shots on the Friday, it's worth logging into your Sky or 
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

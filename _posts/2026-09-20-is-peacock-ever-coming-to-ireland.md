@@ -1,9 +1,9 @@
 ---
-title: "Is Peacock Available in Ireland? How to Watch Its Shows"
-excerpt: "There's no Peacock app in Ireland, but Sky TV and NOW Entertainment customers get Peacock shows at no extra cost. Here's how to find them."
-description: "There's no Peacock app in Ireland, but Sky TV and NOW Entertainment customers get Peacock shows at no extra cost. Here's how to find them."
-last_updated: 2026-10-15
-last_checked: 2026-10-15
+title: "Is Peacock Available in Ireland? Where Its Shows Go"
+excerpt: "No. Peacock streams only in the US and its territories, and Sky and NOW no longer include it. Where to look for its shows instead."
+description: "No. Peacock streams only in the US and its territories, and Sky and NOW no longer include it. Where to look for its shows instead."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - News
 tags:
@@ -18,74 +18,54 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Is Peacock officially available in Ireland?"
-    answer: "Not as its own app. There's no Peacock app or subscription in Ireland and no announced launch date. Since November 2021, though, Sky TV customers and NOW Entertainment members in Ireland have had Peacock shows included at no extra cost."
-  - question: "Can I watch NBCUniversal shows in Ireland at all?"
-    answer: "Yes, many NBCUniversal titles are legally available through Irish services like Sky, NOW, RTÉ Player, and Virgin Media Play."
-  - question: "Why do some streaming apps show different content in different countries?"
-    answer: "This is due to licensing agreements, which vary by region, so a show available in one country may not be licensed for another."
-  - question: "What should I do if an app says content isn't available in my region?"
-    answer: "Check your account's region setting and app store country, then contact the streaming service's support team if you think there's an error."
+  - question: "Is Peacock available in Ireland?"
+    answer: "No. Peacock's own help centre says it streams only in the United States and certain US territories. There is no Peacock app or subscription for Ireland."
+  - question: "Do Sky and NOW still have Peacock in Ireland?"
+    answer: "No. Sky added a Peacock section for Sky and NOW customers in the UK and Ireland in November 2021, but NOW's Irish Entertainment membership no longer lists it."
+  - question: "Is Peacock launching in Ireland soon?"
+    answer: "Nothing has been announced. NBCUniversal's July 2026 deal with YouTube offers Peacock to YouTube Premium subscribers in the US only."
 ---
- 
+
 {% include last-updated.html %}
- 
-{% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-## Is Peacock Ever Coming to Ireland?
 
-If you've spent any time browsing American streaming forums, you've probably seen Peacock mentioned constantly. NBCUniversal's streaming service has become a big deal in the US, home to everything from *The Office* to Premier League football coverage and a growing slate of original shows. Naturally, Irish viewers keep asking the same question: when is Peacock launching here?
+**No, Peacock isn't available in Ireland.** Peacock's own help centre says it streams only in the United States and certain US territories, and NBCUniversal hasn't announced an Irish launch. Some of its shows still reach Irish viewers through Sky, NOW and Hayu, but there's no Peacock app or subscription here.
 
-There's no date for a standalone Peacock app in Ireland, and NBCUniversal hasn't announced one. But Peacock's shows already reach Irish viewers another way: through Sky and NOW, at no extra cost (more on that below).
+## At a glance
 
-### Why Hasn't Peacock Launched in Ireland?
+- **Peacock app in Ireland:** no. [Peacock lists](https://www.peacocktv.com/help/article/where-is-peacock-available) only the US, American Samoa, Guam, the Northern Mariana Islands, Puerto Rico and the US Virgin Islands.
+- **Peacock on Sky and NOW:** added in November 2021; no longer listed in NOW's Irish Entertainment membership.
+- **Launch plans:** none announced at the time of writing (November 2026).
 
-Streaming expansion usually comes down to content licensing. A huge chunk of Peacock's library, particularly older NBCUniversal shows and films, has already been licensed to other broadcasters and streamers across Europe, including in Ireland. Untangling those deals takes time, and in some cases the rights simply won't be available for years.
+## Peacock on Sky and NOW: what happened
 
-There's also the question of market strategy. Companies like NBCUniversal need to decide whether a standalone app makes more sense here, or whether continuing to license content to existing Irish services is more profitable in the short term. So far, they've clearly leaned toward the latter.
+On 16 November 2021, Sky and NOW customers in the UK and Ireland got a Peacock section at no extra cost, [Sky announced](https://skygroup.sky/article/peacock-european-rollout-begins-on-sky). It carried Peacock Originals such as *Saved by the Bell* and *Rutherford Falls*, plus older NBCUniversal series.
 
-### What Can You Actually Watch Instead?
+That arrangement has ended: NOW's Irish [Entertainment membership page](https://nowtv.com/ie/help/article/entertainment-membership) no longer mentions Peacock.
 
-The good news is that a lot of Peacock's most talked-about content is already legally available in Ireland through other services, just under different roofs.
+If an older article tells you Sky or NOW customers in Ireland get Peacock shows included, it's out of date.
 
-- **Sky and [NOW](/streaming-services/sky-stream-vs-now-ireland/)**: This is the closest thing to Peacock in Ireland. Since November 2021, Sky TV customers and NOW Entertainment members here have had Peacock's shows included at no extra cost, [as Comcast announced at the time](https://corporate.comcast.com/press/releases/peacock-european-rollout-begins-on-sky). Search for the show by name in the Sky or NOW app to check it's in the current line-up.
-- **Apple TV+**: Occasionally picks up licensed content from major US studios, so it's always worth checking their catalogue if you're searching for a specific title.
-- **[RTÉ Player](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/) and Virgin Media Play**: Both have picked up various NBCUniversal shows over the years, particularly comedies and reality formats.
+## Where Peacock's shows went
 
-If you're chasing one specific series, the simplest approach is to search for the title directly in each Irish streaming app rather than assuming it's exclusive to Peacock.
+There's no single home for Peacock's library in Ireland, so the practical approach is to search for the show by name:
 
-### Setting Your Streaming Apps Up Correctly
+- **Sky or NOW:** search in the Sky or NOW app. NOW's Entertainment membership includes Sky Originals, a [Hayu Select](https://nowtv.com/ie/help/article/entertainment-membership) collection of reality TV, and the Sky entertainment channels. See [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/) to compare the two.
+- **Hayu:** NBCUniversal's reality service, sold in Ireland on its own. Our [streaming prices tracker](/streaming-prices/) lists its current Irish price.
+- **Other Irish services:** individual NBCUniversal titles are licensed title by title, so a show can turn up on any service. Search the app before you subscribe for one programme.
 
-A common source of frustration for Irish viewers isn't actually about Peacock at all, it's app store confusion. If you're on a Fire TV Stick, Fire TV Cube, Roku, or Chromecast, make sure your device's regional settings match your actual location and that you're signed into the correct Irish (or UK, where relevant) version of the app store. Mismatched regions can cause certain apps to disappear entirely or show incorrect content libraries, which sometimes gets mistaken for a Peacock-related issue.
+## Is Peacock coming to Ireland?
 
-If you're using a Fire TV device and find yourself constantly digging through menus to fix app or account settings, a dedicated {% include product-link.html id="fire-tv-remote" text="Fire TV Remote" %} can make navigation a lot less fiddly than relying on a phone app substitute.
+There's no sign of it. NBCUniversal's July 2026 deal with YouTube offers Peacock to YouTube Premium subscribers in the US only, according to [NBCUniversal's announcement](https://www.nbcuniversal.com/article/nbcuniversal-and-youtube-announce-global-strategic-partnership-expanding-reach-peacock-and).
 
-### When "Not Available in Your Region" Pops Up
+We'll update this page if a launch is confirmed. For services you can sign up to here today, see our guide to [legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
-If you ever see a message saying a show or app "isn't available in your country," the right move is to treat it as accurate information, not an obstacle to work around. It usually means the licensing genuinely doesn't extend to Ireland yet. The best steps are:
-
-1. Double-check your account's region setting in your streaming service's own account page.
-2. Confirm you're using the correct country's app store on your device.
-3. Contact the service's official support team if you believe your account region is wrong, since they can usually correct it on their end.
-
-### Don't Overlook Basic Signal Issues
-
-Sometimes what looks like a streaming problem is actually a broadband or reception issue, especially if you're mixing streaming with saved digital TV channels. If you're experiencing patchy picture quality on the TV side of things, it's worth ruling out your aerial setup with something like a {% include product-link.html id="tv-aerial-signal-booster" text="TV Aerial Signal Booster" %} before assuming an app or service is broken.
-
-### The Bottom Line
-
-Peacock isn't in Ireland yet, and there's no official word on when, or if, that will change. For now, Irish viewers are better served checking Sky, NOW, RTÉ Player, [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/), and other licensed services for the shows they're after, rather than waiting on a launch date that hasn't been set.
+Sources: [Peacock: Where is Peacock available?](https://www.peacocktv.com/help/article/where-is-peacock-available) (checked 10 November 2026) · [Sky Group: Peacock European rollout begins on Sky](https://skygroup.sky/article/peacock-european-rollout-begins-on-sky) (15 November 2021) · [NOW Ireland: Entertainment membership](https://nowtv.com/ie/help/article/entertainment-membership) (checked 10 November 2026) · [NBCUniversal](https://www.nbcuniversal.com/article/nbcuniversal-and-youtube-announce-global-strategic-partnership-expanding-reach-peacock-and) (27 July 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

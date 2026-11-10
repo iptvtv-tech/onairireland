@@ -2,6 +2,7 @@
 title: "Why Is My Streaming App Buffering? Common Fixes"
 last_updated: 2026-11-10
 redirect_from:
+  - /troubleshooting/apple-tv-plus-keeps-buffering-try-these-fixes/
   - /troubleshooting/why-does-now-keep-buffering-on-smart-tvs/
   - /troubleshooting/netflix-keeps-freezing-try-these-fixes/
 excerpt: "Fix buffering on Irish streaming apps: check broadband speed, Wi-Fi placement and wired connections, and spot when the service is at fault."
@@ -77,7 +78,7 @@ A few things to check:
 
 If buffering only happens with a particular show or during peak evening hours across the country, that can point to server-side congestion on the provider's end rather than anything on your home network.
 
-### If it's only NOW or Netflix
+### If it's only one app (NOW, Netflix, Apple TV)
 
 If one service buffers or freezes while the others play smoothly:
 
@@ -97,9 +98,5 @@ When troubleshooting, it helps to change one thing at a time. Test your speed, t
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

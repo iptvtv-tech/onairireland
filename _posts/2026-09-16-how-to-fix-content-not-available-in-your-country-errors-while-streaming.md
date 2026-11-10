@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "How to Fix 'Content Not Available in Your Country' Errors While Streaming"
 excerpt: "'Content not available in your country' on an Irish app? It's usually your account region or network settings. How to fix it."
 description: "'Content not available in your country' on an Irish app? It's usually your account region or network settings. How to fix it."
@@ -91,9 +93,5 @@ If you're travelling in the EU, your paid Irish subscriptions keep working with 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

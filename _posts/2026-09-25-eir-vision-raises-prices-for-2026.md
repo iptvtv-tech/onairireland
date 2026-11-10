@@ -1,4 +1,6 @@
 ---
+noindex: true # eir is retiring eir vision; see the eir vision explainer (10 Nov 2026)
+sitemap: false
 title: Eir Vision Raises Prices for 2026
 excerpt: Eir Vision customers face price rises from early 2026 — here's what's known so far and how to check your own bill.
 description: Eir Vision customers face price rises from early 2026 — here's what's known so far and how to check your own bill.
@@ -71,10 +73,6 @@ Until Eir publishes full confirmed pricing for every Vision and bundle tier, the
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
 

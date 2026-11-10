@@ -68,8 +68,4 @@ For Irish viewers, Prime Video's sport offering is a nice bonus rather than a he
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}

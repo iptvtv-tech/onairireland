@@ -776,7 +776,9 @@ def draft_topic(topic: dict) -> dict:
         scene=image_scene, image_query=image_query, post_file=filename,
     )
 
-    seo_type = "HowTo" if category in ("Installation Guides", "Troubleshooting") else "Article"
+    # Article everywhere: HowTo markup without structured steps is invalid, and
+    # Google stopped showing HowTo rich results in 2023.
+    seo_type = "Article"
 
     header = {
         "overlay_image": hero_image["overlay_image"],
@@ -833,9 +835,6 @@ def draft_topic(topic: dict) -> dict:
         related_block = (
             f"{faq_block}"
             "\n{% include related-posts.html %}\n"
-            "\n### Related\n\n"
-            "Read our [full guide to legal streaming services in Ireland]"
-            "(/streaming-services/legal-streaming-services-ireland-2026/).\n"
             + (
                 "\nSee every current Irish streaming price in one place on our "
                 "[streaming prices tracker](/streaming-prices/), or add up your own bill "

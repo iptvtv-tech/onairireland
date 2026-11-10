@@ -1,7 +1,9 @@
 ---
 title: "Paramount+ in Ireland: Is It Worth Subscribing?"
-excerpt: "Paramount+ in Ireland: what it costs, what you can watch, and whether it's worth adding alongside Netflix and Disney+."
-description: "Paramount+ in Ireland: what it costs, what you can watch, and whether it's worth adding alongside Netflix and Disney+."
+excerpt: "Paramount+ is available in Ireland directly, and Sky Cinema includes Basic with Ads at no extra cost. The plans, how to get it, and who it suits."
+description: "Paramount+ is available in Ireland directly, and Sky Cinema includes Basic with Ads at no extra cost. The plans, how to get it, and who it suits."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Streaming-Services
 tags:
@@ -16,77 +18,77 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
   - question: "Is Paramount+ available in Ireland?"
-    answer: "Yes, Paramount+ has launched in Ireland, though it's worth confirming current availability and pricing on the official site as terms can change."
-  - question: "Is Paramount+ cheaper than Netflix?"
-    answer: "It has generally been priced lower than Netflix's mid-tier plans, but exact pricing changes over time so check current rates before subscribing."
-  - question: "Can I watch Paramount+ on a Fire TV Stick?"
-    answer: "Yes, Paramount+ is typically available as an app on Fire TV Stick, Fire TV Cube, Roku, and Chromecast devices."
-  - question: "Does Paramount+ have live sport?"
-    answer: "In some markets Paramount+ has carried Champions League football, but availability for Irish subscribers should be double-checked as rights vary by season."
+    answer: "Yes. Ireland is one of the countries listed in Paramount+'s own terms of use, so you can sign up directly. Sky Cinema customers also get Paramount+ Basic with Ads at no extra cost."
+  - question: "Is Paramount+ included with Sky in Ireland?"
+    answer: "Yes, with Sky Cinema. Sky says Sky Cinema includes Paramount+ Basic with Ads, which you activate from My Sky on Sky Q, Sky Glass or Sky Stream. Sky+ boxes can't get the app."
+  - question: "Can I get Paramount+ on NOW?"
+    answer: "No. NOW says the Paramount+ app isn't available on NOW, but NOW Cinema members still get many Paramount films through Sky Cinema."
+  - question: "Does Paramount+ have a free trial in Ireland?"
+    answer: "Paramount+'s terms say free trials are for new subscribers only, one per person, and the length is shown when you sign up. Whether one is running depends on the current offer."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## What Is Paramount+ Anyway?
+**Yes, Paramount+ is available in Ireland.** You can subscribe directly, and if you have Sky Cinema you already get Paramount+ Basic with Ads at no extra cost. Whether it's worth paying for on its own depends on whether the shows you want are there.
 
-Paramount+ landed in Ireland a while back, bringing content from CBS, MTV, Comedy Central, Nickelodeon, and the Paramount film library under one roof. It's the home of shows like *Star Trek: Strange New Worlds*, *Yellowstone* spin-offs, and a solid back catalogue of MTV reality classics.
+## Paramount+ in Ireland at a glance
 
-For Irish viewers who grew up on Sky or Virgin Media bundles, Paramount+ is a slightly different proposition. It's cheaper than most rivals, but the library is noticeably smaller too.
+- **Sign up directly:** at paramountplus.com. Ireland is listed as a territory in Paramount+'s [Irish terms of use](https://legal.paramount.com/ie/en/pplus/termsofuse) (last updated 14 July 2026).
+- **Through Sky:** [Sky Cinema includes](https://www.sky.com/ie/tv/apps/paramount-plus) Paramount+ Basic with Ads, with paid upgrades through Sky.
+- **Through NOW:** the Paramount+ app isn't on NOW.
+- **Plans:** Basic with Ads, Standard and Premium.
 
-### Pricing in Ireland
+## Plans
 
-Paramount+ pricing has shifted a few times since launch, and we'd recommend checking the official site before you commit, since we don't want to quote you a figure that's gone out of date. As a rough guide, it has generally sat below Netflix's mid-tier plan and around the same range as [Disney+](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/), often with an annual option that works out cheaper per month than paying monthly. There may also be a limited free trial period, though the length and availability of this can change without much notice.
+Sky's Irish Paramount+ page describes the three plans like this:
 
-## What Can You Actually Watch?
+| Plan | Ads | Screens at once | Picture |
+|---|---|---|---|
+| Basic with Ads | Yes | 1 | HD |
+| Standard | No | 2 | HD |
+| Premium | No | 4 | Up to 4K |
 
-This is where Paramount+ splits opinion. If you're a *Star Trek* fan, it's genuinely essential — nearly every modern Trek series lives here. Sports fans get some added value too, since Paramount+ has carried UEFA Champions League football in some markets, though availability for Irish subscribers specifically is worth double-checking as broadcast rights can change season to season.
+We couldn't confirm the current direct prices on Paramount+'s own Irish page, so check them at sign-up rather than relying on older articles.
 
-Beyond that, the library leans heavily on:
+Paramount+'s terms say free trials are for new subscribers only, one each, and the length is shown when you sign up. You can also pay through Apple or Google if you sign up in their app stores.
 
-- CBS dramas and procedurals (*NCIS*, *Criminal Minds*)
-- Nickelodeon and MTV nostalgia content
-- A rotating selection of Paramount Pictures films
-- Some exclusive originals, though fewer than Netflix or Disney+ produce annually
+## Getting Paramount+ through Sky
 
-What it lacks is the sheer depth of Netflix's catalogue or the tightly curated franchise appeal of Disney+ (Marvel, Star Wars, Pixar). Paramount+ feels more like a specialist add-on than a replacement for either.
+If you have [Sky Cinema](https://www.sky.com/ie/tv/cinema), Paramount+ Basic with Ads is included. To set it up, go to **My Sky** on your Sky box and activate or link a Paramount+ account. Sky lists these conditions:
 
-## How Does It Compare to Netflix and Disney+?
+- The app works on **Sky Q, Sky Glass and Sky Stream**. It isn't available on Sky+.
+- Paramount+ shows aren't on Sky Go. Use the Paramount+ app on your phone instead.
+- Some content is only in the Paramount+ app, not in the Sky menus.
 
-Netflix still wins on sheer volume and variety — international shows, documentaries, a constant stream of new originals. Disney+ wins if your household cares about Marvel, Star Wars, or animated films for kids. Paramount+ wins on price and on specific franchises, particularly *Star Trek*, but it's rarely anyone's only streaming service.
+Sky Cinema customers can upgrade to Standard or Premium through Sky for an extra monthly charge; Sky's [Paramount+ page](https://www.sky.com/ie/tv/apps/paramount-plus) shows the current price. On the box, go to My Sky, then Shop, then Paramount+, or use the My Sky app.
 
-Realistically, most Irish households end up juggling two or three of these subscriptions rather than picking just one. If you're trying to keep costs down, it's worth periodically reviewing what you're actually watching and cancelling anything that's been dormant for a month or two.
+## What about NOW?
 
-## Getting Paramount+ on Your TV
+NOW's Irish help page says plainly that [the Paramount+ app won't be available on NOW](https://www.nowtv.com/ie/help/article/cinema-membership). NOW Cinema members still get many recent Paramount films and a Paramount film library through Sky Cinema. {% assign now_cinema = site.data.prices | where: "service", "NOW" | where: "plan", "Cinema" | first %}NOW Cinema is {% include euro.html amount=now_cinema.monthly %} a month on standard pricing. Paramount+ series aren't part of it.
 
-Paramount+ is generally available as an app on major smart TV platforms, plus streaming devices like the {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} and Chromecast. If your TV is a few years old and doesn't have the app pre-installed, a streaming stick is usually the simplest fix rather than replacing the whole television.
+## What you can watch
 
-For households that jump between several streaming apps regularly, a {% include product-link.html id="universal-remote" text="universal remote control" %} can save a lot of hassle, especially if you've got a separate box for Sky, Virgin, or a games console alongside your streaming stick.
+Paramount+ carries series and films from Paramount's studios and channels. When Sky added it to Sky Cinema in June 2022, Sky's announcement highlighted titles such as *Star Trek: Strange New Worlds*, *Yellowstone*, *Dexter: New Blood*, *South Park* and *Rugrats*. Libraries change, so search the Paramount+ app for a specific title before you subscribe for it.
 
-## Is the Sound Worth Upgrading Too?
+There's no Champions League or other live sport on Paramount+ in Ireland. Irish Champions League rights sit with Virgin Media Television, RTÉ and Premier Sports; see [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/).
 
-Streaming quality is only half the picture — audio matters just as much for dialogue-heavy dramas and Trek's dense sound design. If you're watching mostly through built-in TV speakers, a {% include product-link.html id="soundbar-budget" text="compact soundbar" %} makes a noticeable difference without needing a full surround setup. And if you want to catch a match or documentary in another room, a {% include product-link.html id="bluetooth-speaker" text="portable Bluetooth speaker" %} is a handy way to bring the sound with you.
+## Is it worth it?
 
-## Final Verdict
+- **You have Sky Cinema:** activate the included plan first. Only upgrade if the ads bother you or you want 4K.
+- **You have NOW Cinema:** you already get many Paramount films, but not the series.
+- **Neither:** subscribe for a month when there's a series you want, then cancel. It works better as an occasional extra than a year-round service.
 
-Paramount+ isn't essential for everyone, but if *Star Trek* is your thing, or you want a lower-cost extra alongside Netflix or Disney+, it's a reasonable addition. Just keep an eye on pricing, since promotional rates and trial offers tend to shift, and always confirm current terms on the official Paramount+ site before subscribing.
+Our [streaming prices tracker](/streaming-prices/) lists the services we track, and the [streaming cost calculator](/streaming-cost-calculator/) adds up your monthly bill.
 
-**Related guides:** [Disney+ Ireland: Plans, Pricing and What's Worth Watching in 2026](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) · [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/)
-
-{% include product-showcase.html category="Streaming Services" %}
+Sources: [Paramount+ terms of use for Ireland](https://legal.paramount.com/ie/en/pplus/termsofuse) (updated 14 July 2026, checked 10 November 2026) · [Sky Ireland: Paramount+](https://www.sky.com/ie/tv/apps/paramount-plus) (checked 10 November 2026) · [Sky Ireland: Sky Cinema](https://www.sky.com/ie/tv/cinema) (checked 10 November 2026) · [NOW Ireland: Cinema membership](https://www.nowtv.com/ie/help/article/cinema-membership) (checked 10 November 2026) · [Sky Group: Sky Cinema includes Paramount+](https://www.skygroup.sky/article/sky-cinema-now-includes-paramount-at-no-extra-cost) (June 2022)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

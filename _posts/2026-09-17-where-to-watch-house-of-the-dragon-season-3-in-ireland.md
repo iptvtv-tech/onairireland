@@ -1,4 +1,6 @@
 ---
+noindex: true # almost no search demand; kept for readers and links (10 Nov 2026)
+sitemap: false
 title: "Where to Watch House of the Dragon Season 3 in Ireland"
 excerpt: "House of the Dragon Season 3 is streaming in Ireland on HBO Max and NOW. Which plan you need, the Sky route, and the devices that run each app."
 description: "House of the Dragon Season 3 is streaming in Ireland on HBO Max and NOW. Which plan you need, the Sky route, and the devices that run each app."
@@ -68,9 +70,5 @@ House of the Dragon Season 3 is streaming in Ireland now. [NOW's Entertainment M
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
 
 {% include whatsapp-cta.html %}

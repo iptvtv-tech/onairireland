@@ -43,7 +43,7 @@ If we ever publish sponsored content, it will be clearly labelled as sponsored a
 
 ## How the guides are written and checked
 
-Some articles start as drafts produced with AI assistance. Each one is reviewed and edited by the On Air Ireland team before it is published.
+Some articles start as drafts produced with AI assistance. Each one is reviewed and edited by John Paul, who runs the site, before it is published.
 
 - **Sources:** prices, channel line-ups, sports rights and app availability are checked against the provider's or broadcaster's own Irish website, press office or help pages, not comparison sites. Guides link to the pages they relied on.
 - **Dates:** each guide shows when it was last updated. Prices on the [streaming prices tracker](/streaming-prices/) are re-checked every quarter.

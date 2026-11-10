@@ -11,8 +11,6 @@ assignments:
   scene: watching-together
 - target: _posts/2026-10-09-is-apple-tv-plus-available-in-ireland.md
   scene: viewing-room
-- target: _posts/2026-10-12-apple-tv-plus-keeps-buffering-try-these-fixes.md
-  scene: router-network
 - target: _posts/2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
   scene: cables-hdmi
 - target: _posts/2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md

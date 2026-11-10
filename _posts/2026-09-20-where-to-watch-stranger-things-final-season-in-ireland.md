@@ -78,8 +78,4 @@ With your account and device sorted, you'll be ready to settle in for Hawkins' f
 
 {% include related-posts.html %}
 
-### Related
-
-Read our [full guide to legal streaming services in Ireland](/streaming-services/legal-streaming-services-ireland-2026/).
-
 {% include whatsapp-cta.html %}
