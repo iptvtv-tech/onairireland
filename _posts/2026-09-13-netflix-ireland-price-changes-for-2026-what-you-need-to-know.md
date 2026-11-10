@@ -82,8 +82,6 @@ If the new pricing doesn't suit your budget, consider whether a lower tier still
 
 **Related guides:** [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/) · [Sky Ireland Unveils New Streaming Price Plan for 2026](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/)
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

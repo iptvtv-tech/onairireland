@@ -72,8 +72,6 @@ Keeping your device software and apps updated also helps avoid playback glitches
 
 **Related guides:** [What Is Saorview and Do You Need It If You Stream?](/installation-guides/what-is-saorview-and-do-you-need-it-if-you-stream/) · [Sky Stream vs NOW: Which Is Right for You in Ireland?](/streaming-services/sky-stream-vs-now-ireland/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

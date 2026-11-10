@@ -76,8 +76,6 @@ Before pressing play, double-check your home broadband speed if you're planning 
 
 Finally, if The Whisper Man is part of a limited-time promotional window or rental deal, keep an eye on the listed price and rental period. Digital rentals in Ireland typically give you a set number of days to start watching and a shorter window to finish once you begin.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

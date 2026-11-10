@@ -61,8 +61,6 @@ Streaming rights for established shows like Peaky Blinders can move between plat
 
 For now, though, Irish viewers with a Netflix subscription have the full run ready to go, no extra subscriptions, bundles, or separate purchases required.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

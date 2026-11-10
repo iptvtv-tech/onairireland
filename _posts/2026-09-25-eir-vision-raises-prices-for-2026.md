@@ -68,8 +68,6 @@ It's also worth remembering that a TV bundle price rise doesn't necessarily refl
 
 Until Eir publishes full confirmed pricing for every Vision and bundle tier, the most accurate figure for your household is the one shown in your own account or official notice. Keep an eye on your email and post for the formal notification, read it in full, and don't hesitate to ring Eir support if the new price or included channels aren't clear — especially if you're weighing up whether to renew, downgrade, or switch provider once your current contract ends.
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

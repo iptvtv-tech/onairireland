@@ -70,8 +70,6 @@ Price increases are rarely welcome news, but they're becoming a routine part of 
 
 **Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

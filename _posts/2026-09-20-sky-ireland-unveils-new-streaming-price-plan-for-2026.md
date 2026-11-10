@@ -68,8 +68,6 @@ Sky's 2026 pricing changes are still unfolding, and the full details will likely
 
 **Related guides:** [Virgin Media Unveils New Streaming Bundle for 2026](/news/virgin-media-unveils-new-streaming-bundle-for-2026/) · [How Many Streaming Subscriptions Do Irish Households Really Need?](/news/how-many-streaming-subscriptions-do-irish-households-really-need/)
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

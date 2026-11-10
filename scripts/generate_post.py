@@ -823,7 +823,12 @@ def draft_topic(topic: dict) -> dict:
 
 """
 
-        showcase_block = f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
+        # No product cards on watch guides or news: readers there aren't shopping,
+        # and boxes of unrelated products made those pages look thin (Nov 2026 audit).
+        showcase_block = (
+            "" if category in ("Watch Guides", "News")
+            else f'\n\n{{% include product-showcase.html category="{category}" %}}\n'
+        )
         faq_block = "\n{% include faq-section.html %}\n" if faqs else ""
         related_block = (
             f"{faq_block}"

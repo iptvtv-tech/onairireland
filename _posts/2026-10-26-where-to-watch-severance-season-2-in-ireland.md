@@ -68,8 +68,6 @@ Whichever device you choose, make sure it's signed in to an Apple account set to
 
 Because Severance leans on dense dialogue and visual detail, a stable connection makes a noticeable difference to the viewing experience. If episodes are buffering or dropping quality, it's worth checking your broadband speed and router placement before assuming the issue lies with Apple TV itself.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

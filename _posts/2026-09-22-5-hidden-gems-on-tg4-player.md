@@ -76,8 +76,6 @@ TG4 Player is a free, publicly accessible service intended for viewers in Irelan
 
 **Related guides:** [How to Set Up RTÉ Player on an Amazon Fire TV Stick](/installation-guides/how-to-set-up-rte-player-fire-tv/) · [RTÉ Player App Review: What's Good and What's Missing](/reviews/rt-player-app-review-what-s-good-and-what-s-missing/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

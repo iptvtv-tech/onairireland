@@ -6,7 +6,9 @@
   not in products.yml, only the text is shown; scripts/check_affiliate_links.py
   flags unknown ids. Keep this file free of line breaks outside the comment so
   the link stays inline in Markdown paragraphs, lists and tables.
+  Each link is followed by "(paid link)" so readers can see which links earn
+  a commission, as well as the disclosure at the top of the post.
 {%- endcomment -%}
 {%- assign oai_product = site.data.products | where: "id", include.id | first -%}
 {%- assign oai_text = include.text | default: oai_product.name -%}
-{%- if oai_product -%}<a href="{{ oai_product.affiliate_link }}" rel="nofollow sponsored noopener" target="_blank">{{ oai_text }}</a>{%- else -%}{{ oai_text }}{%- endif -%}
+{%- if oai_product -%}<a href="{{ oai_product.affiliate_link }}" rel="nofollow sponsored noopener" target="_blank">{{ oai_text }}</a> <small class="paid-link">(paid link)</small>{%- else -%}{{ oai_text }}{%- endif -%}

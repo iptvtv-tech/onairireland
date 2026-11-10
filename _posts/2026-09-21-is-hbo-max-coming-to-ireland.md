@@ -145,8 +145,6 @@ Want to see how it fits into your monthly bill? Try the [streaming cost calculat
 
 **Related guides:** [Where to Watch A Knight of the Seven Kingdoms in Ireland](/watch-guides/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland/) · [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/) · [Sky Stream vs NOW in Ireland](/streaming-services/sky-stream-vs-now-ireland/)
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

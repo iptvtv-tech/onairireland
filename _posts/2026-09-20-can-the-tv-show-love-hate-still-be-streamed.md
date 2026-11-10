@@ -64,8 +64,6 @@ Chromecast and many modern smart TVs also support RTÉ Player, either as a built
 
 One thing that occasionally trips people up isn't availability at all, but account settings. If RTÉ Player tells you a show isn't available, it's worth checking that your account region and device location settings match Ireland, since some smart TVs and streaming boxes default to a generic or incorrect region during setup. If you're still having trouble, RTÉ's own support pages are the right place to raise it, since they can confirm whether it's a temporary rights issue or simply a settings problem on your end.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

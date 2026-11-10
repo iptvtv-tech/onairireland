@@ -74,8 +74,6 @@ Streaming libraries and exclusivity deals can shift over time, so while Bad Sist
 
 **Related guides:** [Where to Watch Slow Horses Season 6 Legally in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/) · [How to Watch TV Show Father Ted](/watch-guides/how-to-watch-tv-show-father-ted/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

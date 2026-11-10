@@ -73,8 +73,6 @@ There's no need to complicate watching an Irish classic like Father Ted. Stick t
 
 **Related guides:** [Can The TV Show Love/Hate Still Be Streamed?](/watch-guides/can-the-tv-show-love-hate-still-be-streamed/) · [How to Watch TV Show Bad Sisters](/watch-guides/how-to-watch-tv-show-bad-sisters/)
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

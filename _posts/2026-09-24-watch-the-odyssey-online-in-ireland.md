@@ -75,8 +75,6 @@ Because release dates and platform rights can shift, the safest way to know exac
 
 In the meantime, if you're still catching up on other Nolan films or want something to watch while you wait, most of the major Irish streaming apps mentioned above are worth having installed on whichever device you choose, so you're ready the moment it does arrive.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

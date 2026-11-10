@@ -76,8 +76,6 @@ Sony's Live TV app is a solid step for PS5 owners in the US, offering a free way
 
 **Related guides:** [Is Peacock Ever Coming to Ireland?](/news/is-peacock-ever-coming-to-ireland/) · [Free Irish Streaming Apps Worth Knowing](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
-{% include product-showcase.html category="News" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}

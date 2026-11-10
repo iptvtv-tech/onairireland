@@ -65,8 +65,6 @@ The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streami
 
 House of the Dragon Season 3 is streaming in Ireland now. [NOW's Entertainment Membership](/now-and-sky/) is the simplest no-contract way to watch Seasons 2 and 3, HBO Max gives you all three seasons and the wider HBO library, and Sky Ultimate TV customers already have HBO Max included.
 
-{% include product-showcase.html category="Watch Guides" %}
-
 {% include faq-section.html %}
 
 {% include related-posts.html %}
