@@ -56,8 +56,8 @@ Disney also has pages for problems without a code: a [blank screen or spinning w
 
 ## Too many devices streaming
 
-{% assign dplus = site.data.prices | where: "service", "Disney+" %}
-The [Disney+ Ireland](https://www.disneyplus.com/en-ie) site says Standard with Ads and Standard each allow 2 streams at the same time, and Premium allows 4. If someone else in your household is watching, stop one stream and try again. At the time of writing (November 2026), Premium is {% include euro.html amount=dplus[2].monthly %} a month; see our [Disney+ plans guide](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) for the differences.
+{% assign dplus = site.data.prices | where: "service", "Disney+" %}{% assign d2 = dplus[2] %}
+The [Disney+ Ireland](https://www.disneyplus.com/en-ie) site says Standard with Ads and Standard each allow 2 streams at the same time, and Premium allows 4. If someone else in your household is watching, stop one stream and try again. At the time of writing (November 2026), Premium is {% include euro.html amount=d2.monthly %} a month; see our [Disney+ plans guide](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/) for the differences.
 
 ## App won't open, freezes or crashes on a smart TV
 

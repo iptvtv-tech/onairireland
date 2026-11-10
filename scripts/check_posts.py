@@ -66,6 +66,10 @@ except FileNotFoundError:
 image_users = {}  # identity -> [post names]
 pexels_hotlinks = 0
 legacy_images = 0
+_PARAM = r"""[\w-]+\s*=\s*(?:"[^"\\]*(?:\\.[^"\\]*)*"|'[^'\\]*(?:\\.[^'\\]*)*'|[\w.-]+)"""
+INCLUDE_TAG = re.compile(r"\{%-?\s*include\s+[^\s%]+\s*(.*?)-?%\}", re.S)
+INCLUDE_PARAMS = re.compile(r"^" + _PARAM + r"(?:\s+" + _PARAM + r")*\s*$")
+
 for name in sorted(os.listdir(POSTS)):
     if not name.endswith(".md"):
         continue
@@ -105,6 +109,14 @@ for name in sorted(os.listdir(POSTS)):
             errors.append(f"{name}: review needs {{% include review-basis.html %}} after the affiliate disclosure")
     if "AFFILIATE_LINK_" in body or "TODO" in body:
         errors.append(f"{name}: contains a placeholder (AFFILIATE_LINK_ or TODO)")
+    # Jekyll 3 (GitHub Pages) only accepts include parameters that are quoted
+    # strings or plain variable names (letters, digits, dots, dashes). Anything
+    # else, such as amount=list[0].monthly, fails the whole site build.
+    for m in INCLUDE_TAG.finditer(body):
+        params = m.group(1).strip()
+        if params and not INCLUDE_PARAMS.match(params):
+            errors.append(f"{name}: include parameters Jekyll can't read: {m.group(0)[:80]} "
+                          "(assign the value to a variable first, e.g. {% assign p = list[0] %} then amount=p.monthly)")
     header = fm.get("header") or {}
     seen_here = set()
     for key in ("overlay_image", "overlay_image_small", "teaser", "og_image"):

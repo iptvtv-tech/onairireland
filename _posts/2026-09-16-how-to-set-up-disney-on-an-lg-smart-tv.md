@@ -60,14 +60,14 @@ Once you're in, you can add profiles for each person in the house.
 
 ## Plans and streams
 
-{% assign dplus = site.data.prices | where: "service", "Disney+" %}
+{% assign dplus = site.data.prices | where: "service", "Disney+" %}{% assign d0 = dplus[0] %}{% assign d1 = dplus[1] %}{% assign d2 = dplus[2] %}
 At the time of writing (November 2026), Disney+ Ireland lists three plans:
 
 | Plan | Monthly | Streams at once |
 |---|---|---|
-| {{ dplus[0].plan }} | {% include euro.html amount=dplus[0].monthly %} | 2 |
-| {{ dplus[1].plan }} | {% include euro.html amount=dplus[1].monthly %} | 2 |
-| {{ dplus[2].plan }} | {% include euro.html amount=dplus[2].monthly %} | 4 |
+| {{ dplus[0].plan }} | {% include euro.html amount=d0.monthly %} | 2 |
+| {{ dplus[1].plan }} | {% include euro.html amount=d1.monthly %} | 2 |
+| {{ dplus[2].plan }} | {% include euro.html amount=d2.monthly %} | 4 |
 
 *Standard monthly prices, checked {{ dplus[0].checked | date: "%-d %B %Y" }} on [Disney+ Ireland](https://www.disneyplus.com/en-ie). Disney+ often has a lower price for the first six months on a six-month minimum term.* For what each plan includes, see our [Disney+ Ireland plans guide](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/).
 
