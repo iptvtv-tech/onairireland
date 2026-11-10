@@ -1,0 +1,86 @@
+name: IndexNow
+
+# After each push to main that changes posts or pages, wait for GitHub Pages
+# to publish it, then tell Bing (and the other IndexNow search engines) which
+# addresses changed. Google does not use IndexNow; use Search Console's
+# Request indexing for Google. See scripts/indexnow.py.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_posts/**"
+      - "_pages/**"
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "Send pages changed since this commit (SHA). Leave empty to use 'urls'."
+        required: false
+      urls:
+        description: "Or: full addresses to send, separated by spaces."
+        required: false
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      # Ping only once the new version is live, or Bing may fetch the old page.
+      - name: Wait for GitHub Pages to publish this commit
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHA: ${{ github.sha }}
+        run: |
+          for i in $(seq 1 40); do
+            result=$(gh api "repos/${{ github.repository }}/actions/runs?head_sha=$SHA&per_page=20" \
+              --jq '[.workflow_runs[] | select(.name == "pages build and deployment")][0] | "\(.status)/\(.conclusion)"' || true)
+            echo "Pages build: ${result:-not started}"
+            case "$result" in
+              completed/success) exit 0 ;;
+              completed/*) echo "Pages build did not succeed, so nothing is sent."; exit 1 ;;
+            esac
+            sleep 30
+          done
+          echo "Pages build still not finished after 20 minutes; nothing sent."
+          exit 1
+
+      - name: Send changed pages
+        if: github.event_name == 'push'
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            echo "No previous commit to compare with; nothing sent."
+            exit 0
+          fi
+          python scripts/indexnow.py --from "$BEFORE" --to "$AFTER"
+
+      - name: Send by hand
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          FROM: ${{ inputs.from }}
+          URLS: ${{ inputs.urls }}
+        run: |
+          args=()
+          if [ -n "$FROM" ]; then args+=(--from "$FROM" --to HEAD); fi
+          for u in $URLS; do args+=(--url "$u"); done
+          if [ ${#args[@]} -eq 0 ]; then echo "Give 'from' or 'urls'."; exit 1; fi
+          python scripts/indexnow.py "${args[@]}"
