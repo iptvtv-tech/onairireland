@@ -6,7 +6,7 @@ description: "On Air Ireland's privacy policy — what data we collect, how it's
 excerpt: "What we collect, why, and your rights."
 seo:
   type: WebPage
-last_updated: 2026-10-20
+last_updated: 2026-11-11
 ---
 
 {% include last-updated.html %}
@@ -15,7 +15,7 @@ This policy explains what personal data On Air Ireland (onairireland.ie) collect
 
 ## Who We Are
 
-The data controller for personal data collected through On Air Ireland is **John Cunningham**, Windgap, Co. Kilkenny, Ireland. You can contact the site administrator at **admin@onairireland.ie**.
+The data controller for personal data collected through On Air Ireland is **John Paul Cunningham**, Windgap, Co. Kilkenny, Ireland. You can contact the site administrator at **admin@onairireland.ie**.
 
 ## What We Collect
 
