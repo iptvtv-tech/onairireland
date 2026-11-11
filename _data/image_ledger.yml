@@ -268,24 +268,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-10-is-netflix-legal-to-use-in-ireland-what-you-re-actually-paying-for.md
-- id: photo-gaa-all-ireland-finals-where-to-watch-every-match-legally
-  source: pexels
-  pexels_id: 1646735
-  pexels_url: https://www.pexels.com/photo/lighted-utility-posts-on-field-1646735/
-  photographer: Unknown User
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Football field illuminated by stadium lights at dusk with players practicing.
-  scene: stadium
-  people: false
-  palette: Sports-Streaming
-  files:
-    hero: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-hero.webp
-    hero_small: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-hero-800.webp
-    teaser: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-teaser.webp
-    og: /assets/images/posts/gaa-all-ireland-finals-where-to-watch-every-match-legally-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-09-11-gaa-all-ireland-finals-where-to-watch-every-match-legally.md
 - id: photo-apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers
   source: pexels
   pexels_id: 6636320

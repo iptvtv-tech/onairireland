@@ -1,5 +1,5 @@
 ---
-title: "Best Streaming Devices in Ireland: Fire TV, Google TV, Roku or Apple TV?"
+title: "Best Streaming Devices in Ireland for Irish Apps"
 redirect_from:
   - /reviews/top-3-cheap-streaming-sticks-in-ireland/
   - /devices/best-budget-streaming-sticks-for-irish-homes-in-2026/

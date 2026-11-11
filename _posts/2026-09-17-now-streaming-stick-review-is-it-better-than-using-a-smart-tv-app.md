@@ -1,4 +1,6 @@
 ---
+noindex: true # product no longer sold in Ireland; kept for owners and links (10 Nov 2026)
+sitemap: false
 title: "NOW Smart Stick Review: Still Worth Using in Ireland?"
 excerpt: "NOW no longer sells the NOW Smart Stick in Ireland. It still works, but tops out at Full HD. How it compares with a smart TV app or another stick."
 description: "NOW no longer sells the NOW Smart Stick in Ireland. It still works, but tops out at Full HD. How it compares with a smart TV app or another stick."

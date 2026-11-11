@@ -1,5 +1,5 @@
 ---
-title: "Is HBO Max Coming to Ireland? It's Here: Plans, Prices and How to Watch"
+title: "Is HBO Max in Ireland? Plans, Prices and How to Watch"
 excerpt: "HBO Max launched in Ireland in March 2026. The plans and prices, getting it direct or through Sky, NOW or Prime Video, and which devices have the app."
 description: "HBO Max launched in Ireland in March 2026. The plans and prices, getting it direct or through Sky, NOW or Prime Video, and which devices have the app."
 last_updated: 2026-11-05

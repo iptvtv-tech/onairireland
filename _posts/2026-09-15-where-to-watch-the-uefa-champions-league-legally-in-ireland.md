@@ -37,7 +37,7 @@ In Ireland, most Champions League games this season (2026/27) are free on **Virg
 ## At a glance
 
 - **Free:** Virgin Media Television shows most games, on Tuesday and Wednesday nights. RTÉ shows live Wednesday games on RTÉ2 and RTÉ Player.
-- **Paid:** Premier Sports has first pick of Tuesday games.
+- **Paid:** Premier Sports has first pick of Tuesday games. Prime Video also shows that top Tuesday game, included with Amazon Prime, until the end of 2026/27.
 - **No contract:** NOW's Sports Extra membership includes Premier Sports.
 - **From 2027/28:** Virgin Media drops out; RTÉ, Premier Sports and Sky Sports share the rights until 2031.
 
@@ -52,6 +52,8 @@ Both are free-to-air, so you need no subscription. You do need a [TV licence](/s
 ## Premier Sports: the Tuesday pick
 
 Premier Sports has first pick of the Tuesday night games. When the current Irish rights were sold in 2023, Premier Sports also got one Wednesday game (reported by [The42](https://the42.ie/irish-champions-league-rights-2024-6194583-Oct2023)).
+
+Amazon's Prime Video shows the same top-pick Tuesday game in the UK and Ireland, included with an Amazon Prime membership, under the deal that runs to the end of the 2026/27 season ([Amazon](https://www.aboutamazon.co.uk/news/entertainment/champions-league-breaks-prime-video-record)). So if you already pay for Prime, you may not need Premier Sports for that game. See [is Prime Video worth it for sport](/streaming-services/is-prime-video-worth-it-just-for-sport/).
 
 {% assign now_extra = site.data.prices | where: "plan", "Sports Extra" | first %}
 Premier Sports is a paid channel. In Ireland you can get it through Sky, Virgin Media or Vodafone as an extra, or with no contract through NOW's **Sports Extra** membership. Sports Extra is {% include euro.html amount=now_extra.monthly %} a month on standard pricing (checked {{ now_extra.checked | date: "%-d %B %Y" }}) and includes Premier Sports 1 and 2 plus TNT Sports 1 to 4. There's also a 24-hour day pass if you only want the odd big night. NOW often has an introductory price on a 12-month offer, so read the terms on [NOW's Sports Extra page](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) first. Premier Sports lists the Sky, NOW and Virgin Media options on its [how to watch page](https://premiersportsireland.com/how-to-watch/).

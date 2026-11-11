@@ -1,7 +1,9 @@
 ---
 title: Best Streaming Setup for Small Irish Apartments
-excerpt: A guide to picking compact streaming devices and lean subscriptions that suit small Irish apartments without clutter or wasted spend.
-description: A guide to picking compact streaming devices and lean subscriptions that suit small Irish apartments without clutter or wasted spend.
+excerpt: A small streaming device behind the TV, the free Irish apps and one or two paid services. Which devices run RTÉ Player, plus TV licence rules for flats.
+description: A small streaming device behind the TV, the free Irish apps and one or two paid services. Which devices run RTÉ Player, plus TV licence rules for flats.
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
 - Devices
 tags:
@@ -17,14 +19,12 @@ toc: true
 draft_generated: true
 affiliate_links: true
 faqs:
-- question: Do I need a smart TV if I already have a streaming stick?
-  answer: No, a streaming stick plugs into any TV with a free HDMI port, so an older non-smart TV can still run apps like Netflix or Disney+ through the stick.
-- question: Will a streaming stick work on a small apartment's Wi-Fi?
-  answer: Most sticks work fine on standard home broadband, but if you have buffering issues, check your router's placement and speed with your broadband provider rather than assuming the device is at fault.
-- question: Do I still need a TV licence if I only stream and never use an aerial?
-  answer: Yes, a TV licence at €160 a year per premises is required for any television set in Ireland, including one used only for streaming apps.
-- question: Is a projector a good permanent replacement for a TV in a small flat?
-  answer: It can work for occasional movie nights against a blank wall, but most projectors need a dim room for the best picture, so a TV is usually more practical for everyday daytime viewing.
+- question: Do I need a TV licence in an apartment if I only stream?
+  answer: If there's a TV in the apartment, yes, even a smart TV used only for streaming. Each separate apartment needs its own licence. You don't need one to watch RTÉ Player or Netflix on a laptop, phone or tablet that can't receive a TV signal.
+- question: Who pays the TV licence in a rented flat?
+  answer: Citizens Information says you need a licence if there's a TV in your home, whether you or the landlord owns it.
+- question: Which streaming stick has RTÉ Player?
+  answer: Roku, Apple TV and Fire TV devices running Fire OS, such as the Fire TV Stick 4K Max (2nd gen), all have RTÉ Player. It wasn't confirmed at the time of writing whether RTÉ Player is on Amazon's newest Vega OS sticks.
 ---
 
 {% include last-updated.html %}
@@ -33,45 +33,49 @@ faqs:
 
 {% include share-buttons.html %}
 
-The best setup for a small Irish apartment is a small streaming stick plugged directly into the TV, paired with one or two subscriptions chosen to match what you actually watch. There's no need for a shelf of boxes, extra cables, or a soundbar-sized media centre when the whole point of a compact space is to keep things simple.
+In a small apartment, the simplest setup is a streaming stick plugged into the back of the TV, the free Irish player apps, and one or two paid services you actually watch. A stick needs no shelf, and if your TV already has the apps you need, you may not need a device at all.
 
-## Why Small Spaces Need a Different Approach
+## At a glance
 
-In a one-bed flat or a shared apartment, every socket and bit of shelf space matters. A bulky set-top box with its own power brick, remote, and HDMI cable can feel like overkill when a stick-sized device does the same job. The goal here is fewer wires, fewer remotes, and a subscription list that doesn't quietly drain your current account every month for services you barely open.
+- **Check your TV first.** If its app store has RTÉ Player, Virgin Media Play, TG4 Player and your paid apps, you don't need anything else.
+- **Stick over box.** A stick hides behind a wall-mounted TV. A box like the Google TV Streamer needs a shelf or TV unit.
+- **Free apps first.** RTÉ Player, Virgin Media Play and TG4 Player are free.
+- **TV licence:** needed for each separate apartment with a TV, including one used only for streaming.
 
-### Pick a Stick, Not a Box
+## Choosing a device that fits
 
-For most small living rooms, a streaming stick that plugs straight into an HDMI port is the obvious starting point. It hangs behind the TV out of sight, draws power from a small adapter (or sometimes the TV's own USB port), and needs no separate shelf.
+All of these plug into an HDMI port and run the main streaming apps. The difference that matters in Ireland is which Irish apps each one has.
 
-The {% include product-link.html id="fire-tv-stick-4k" text="Amazon Fire TV Stick 4K" %} is a sensible choice if you want 4K support without buying a full box, and it tucks neatly behind even a small wall-mounted screen. If you'd rather stay in the Google ecosystem, the {% include product-link.html id="google-tv-streamer" text="Google TV Streamer" %} is a slightly larger box-style device, so it suits a stand or shelf more than a wall mount, but it's still compact next to older set-top boxes. For a lighter footprint again, the standard {% include product-link.html id="fire-tv-stick" text="Amazon Fire TV Stick" %} covers the basics for anyone who doesn't need 4K.
+- **Roku:** Roku says [RTÉ Player is officially available on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland), and Virgin Media Play is in the [Roku Channel Store](https://channelstore.roku.com/details/bf33320850b76363ffa4f36a0df887ef/virgin-media-play). The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus (4K)" %} is a stick, so it sits out of sight behind the TV.
+- **Fire TV:** check the model. The Fire TV Stick 4K Max (2nd gen) and Fire TV Stick 4K Plus run Fire OS, which has the Irish apps. Amazon's newest sticks, the Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select, run [Vega OS](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html), which has fewer apps, and it wasn't confirmed at the time of writing whether RTÉ Player, Virgin Media Play or TG4 Player are on them. If you want a Fire TV stick for the Irish apps, the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} runs Fire OS.
+- **Google TV Streamer:** Google's replacement for the discontinued Chromecast with Google TV. It's a small box, about 16 cm long, so it needs somewhere to sit. It has an Ethernet port, which helps if your router is beside the TV, but [Google's spec page](https://store.google.com/ie/product/google_tv_streamer_specs) says the HDMI cable is sold separately. RTÉ Player is in Google Play for Google TV.
+- **Apple TV 4K:** RTÉ Player, Virgin Media Play and TG4 Player all have Apple TV apps in the [Irish App Store](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073). It's also a box rather than a stick.
 
-Whichever stick you choose, check it's compatible with the apps you actually plan to use — RTÉ Player, Virgin Media Play and TG4 Player are all free to use once installed, so there's no reason not to have them alongside paid apps.
+For a fuller comparison, see our [best streaming devices in Ireland](/devices/best-streaming-devices-ireland/) guide.
 
-## Cutting Down on Clutter
+## Keeping the subscriptions lean
 
-Small apartments often mean shared walls and limited storage, so cable management matters more than it might in a bigger house. A short, flat HDMI cable tucked along the back of the TV avoids the trailing-wire look, and a single multi-socket extension lead can replace several separate plugs for the TV, stick, and any smart speaker.
+Start with the free apps: RTÉ Player, Virgin Media Play and TG4 Player cover the Irish channels live and on catch-up. See [5 free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/).
 
-If you like voice control for starting shows or checking the weather without hunting for a remote, a compact speaker like the {% include product-link.html id="amazon_echo_dot" text="Amazon Echo Dot Alexa" %} takes up almost no space and can sit on a windowsill or shelf.
+{% assign netflix_basic = site.data.prices | where: "service", "Netflix" | where: "plan", "Basic" | first %}
+{% assign now_ent = site.data.prices | where: "service", "NOW" | where: "plan", "Entertainment" | first %}
+Then add one paid service at a time. At the time of writing (November 2026), Netflix Basic is {% include euro.html amount=netflix_basic.monthly %} a month and NOW Entertainment, which has no contract, is {% include euro.html amount=now_ent.monthly %} a month on standard pricing. Most services can be cancelled monthly, so you can rotate between them instead of paying for several at once. Our [streaming prices tracker](/streaming-prices/) lists every current Irish price, and the [streaming cost calculator](/streaming-cost-calculator/) adds up your bill.
 
-Remotes have a habit of vanishing into sofa cushions in small flats, so a case like the {% include product-link.html id="2-Pack-Pinowu-Remote-Cover-Case" text="Glow in the Dark Remote Cover Case" %} is a small, low-cost fix that makes it easier to spot in a dim room at night.
+## TV licence in an apartment
 
-### A Projector Alternative for Very Small Rooms
+{% assign licence = site.data.prices | where: "service", "TV licence" | first %}
+The TV licence is {% include euro.html amount=licence.yearly %} a year. According to [Citizens Information](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/):
 
-If floor and wall space are especially tight, or you don't want a permanent TV at all, a compact projector such as the {% include product-link.html id="akiyo-02-projector" text="AKIYO O2 Projector" %} is worth considering for occasional use — folded away when not needed and set up against a blank wall for movie nights. It won't replace a TV for everyday viewing in a bright room, but it's a genuine space-saver for some setups.
+- If you have a TV, you need a licence, including a smart TV used only for streaming.
+- Each separate apartment or flat with a TV needs its own licence.
+- Renters need one if there's a TV in the home, whether the tenant or the landlord owns it.
+- You don't need one to watch RTÉ Player or Netflix on a laptop, phone or tablet, as long as it can't receive a TV signal by aerial, cable or satellite.
 
-## Choosing Subscriptions That Fit
+Our [TV licence and streaming guide](/streaming-services/tv-licence-streaming-ireland/) has more detail.
 
-Once the hardware is sorted, the subscription side is where real savings happen. Netflix's Basic plan is €11.99 a month, which suits a single viewer who doesn't need multiple profiles streaming at once. Disney+ Standard with Ads is €8.99 a month and is a reasonable starting point if you mainly want family films and a handful of series. For those who want ad-free HBO content without paying for the top tier, HBO Max's Standard with Ads plan is €6.99 a month.
+{% include product-showcase.html products="roku-streaming-stick-4k,fire-tv-stick-4k-max-review,google-tv-streamer" %}
 
-NOW's Entertainment membership is €8.99 a month and is worth a look for anyone who wants a flexible, no-contract option rather than a long-term deal.
-
-Remember that a TV licence, at €160 a year per premises, is required for any television set in Ireland, including a smart TV used only for streaming — this applies regardless of how small the flat or the TV is.
-
-### Keep It to What You Watch
-
-The easiest way to avoid clutter, both physical and financial, is to review subscriptions every few months and cancel anything that's gone unwatched. In a small apartment, where simplicity is the whole point, a tidy stick behind the TV and one or two well-chosen subscriptions will usually beat a drawer full of old boxes and forgotten logins.
-
-{% include product-showcase.html products="fire-tv-stick-4k-max-review,amazon_echo_dot,akiyo-02-projector" %}
+Sources: [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) (checked 10 November 2026) · [Roku Channel Store: Virgin Media Play](https://channelstore.roku.com/details/bf33320850b76363ffa4f36a0df887ef/virgin-media-play) (checked 6 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) (checked 10 November 2026) · [Google Store: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Apple App Store: RTÉ Player](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073) (checked 6 November 2026) · [Citizens Information: TV licences](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

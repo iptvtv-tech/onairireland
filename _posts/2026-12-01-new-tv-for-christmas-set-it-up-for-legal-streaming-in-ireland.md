@@ -1,5 +1,5 @@
 ---
-title: "New TV for Christmas? How to Set It Up for Legal Streaming in Ireland"
+title: "New TV for Christmas? Set It Up for Legal Streaming"
 excerpt: "Got a new TV or streaming stick this Christmas? Here's what to install first, what it costs, and how to watch the festive sport legally."
 description: "New TV or streaming stick for Christmas? What to install first, what each service costs in Ireland, and how to watch festive sport legally."
 published: false

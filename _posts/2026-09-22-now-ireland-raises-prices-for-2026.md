@@ -1,7 +1,11 @@
 ---
-title: "NOW Ireland Raises Prices for 2026"
-excerpt: "NOW Ireland is raising prices across several memberships for 2026. What current customers need to know before their next bill."
-description: "NOW Ireland is raising prices across several memberships for 2026. What current customers need to know before their next bill."
+noindex: true # thin or title no longer matches the facts; kept for readers and links (11 Nov 2026)
+sitemap: false
+title: "NOW Ireland Prices 2026: What Changed and What Didn't"
+excerpt: "We found no 2026 price rise announced by NOW Ireland. The 2026 change was HBO Max joining NOW Entertainment. Current prices and what it means for your bill."
+description: "We found no 2026 price rise announced by NOW Ireland. The 2026 change was HBO Max joining NOW Entertainment. Current prices and what it means for your bill."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - News
 tags:
@@ -16,64 +20,66 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "When will the new NOW prices take effect?"
-    answer: "NOW has indicated changes are coming in early 2026, but exact dates should be confirmed via your account notifications or NOW's official website rather than assumed."
-  - question: "Will all NOW passes increase in price?"
-    answer: "It's not yet clear whether every pass (Entertainment, Cinema, Sports) is affected equally, so check the specific plan you're subscribed to for confirmed details."
-  - question: "Can I cancel if I don't want to pay the new price?"
-    answer: "Yes, subscription services typically allow you to cancel before a price change takes effect, so review any notification email from NOW for your cancellation window."
-  - question: "My streaming picture quality has dropped — is that related to the price change?"
-    answer: "Not necessarily; picture or connection issues are usually related to broadband speed, app updates, or hardware rather than billing changes, so it's worth checking those first."
+  - question: "Did NOW raise its prices in Ireland in 2026?"
+    answer: "We couldn't find a 2026 price rise on NOW Ireland's own website, help pages or terms. NOW's 2026 change was adding HBO Max Basic with Ads to the Entertainment membership from 26 March 2026."
+  - question: "Did existing NOW Entertainment members pay more for HBO Max?"
+    answer: "No, not straight away. NOW says members with Entertainment on 26 March 2026 were moved to Entertainment & HBO Max at no extra cost. Members on a Monthly Saver keep their price until the minimum term ends, then pay the regular Entertainment & HBO Max price unless they cancel."
+  - question: "How much notice does NOW give before a price rise?"
+    answer: "NOW's Irish terms say it aims to give at least 30 days' notice of a change that materially disadvantages you, and you can cancel within that notice period."
 ---
- 
+
 {% include last-updated.html %}
- 
-{% include affiliate-disclosure.html %}
- 
+
 {% include share-buttons.html %}
- 
-## NOW Ireland Raises Prices for 2026
 
-[NOW](/streaming-services/sky-stream-vs-now-ireland/) has confirmed changes to its subscription pricing in Ireland, with updates expected to take effect in the early part of 2026. If you're a current subscriber to any of the NOW passes — Entertainment, Sky Cinema, or Sky Sports — you should keep an eye on your email inbox and your next billing statement for the specifics that apply to your plan.
+We couldn't find a 2026 price rise from NOW in Ireland. NOW's own Irish pages show no announced increase, and its standard monthly prices on 10 November 2026 were the same as when we checked them on 7 October 2026. The real 2026 change was HBO Max joining the Entertainment membership in March.
 
-We don't have confirmed exact euro figures for every tier at the time of writing, so treat any specific numbers you see elsewhere with some caution until NOW publishes its official pricing page update or emails affected customers directly. What we do know is that price changes of this kind are usually rolled out gradually and communicated in advance, so nobody should be hit with a surprise charge without some form of notice first.
+*Correction (10 November 2026): an earlier version of this article said NOW had confirmed price rises in Ireland for 2026. We couldn't confirm that on NOW's Irish website, help pages or terms, so we've rewritten it to cover what NOW actually changed.*
 
-### Why Prices Are Changing
+## At a glance
 
-Streaming services across the board have been adjusting prices over the past couple of years, largely citing rising content costs, sports rights fees, and general inflationary pressure on production and licensing. NOW is not unique here — most major streaming platforms operating in Ireland have gone through at least one round of price adjustments recently. Sports passes in particular tend to see steeper increases given the cost of live rights.
+- **Price rise in 2026:** none found on NOW Ireland's own pages at the time of writing (November 2026).
+- **What changed:** from 26 March 2026, NOW Entertainment includes HBO Max Basic with Ads, and NOW sells a new **Entertainment & HBO Max** membership.
+- **Existing members:** moved over at no extra cost, according to [NOW's help page](https://www.nowtv.com/ie/help/article/levelling-up-entertainment-membership).
+- **Monthly Saver members:** your price stays the same until your minimum term ends, then rises to the regular Entertainment & HBO Max price unless you cancel.
 
-### What Existing Customers Should Do
+## NOW's prices in Ireland now
 
-The most useful thing you can do right now is check the account section of the NOW app or website for any banner or notification about your specific plan. Subscription services are generally required to notify existing customers of price changes ahead of time, often with the option to cancel before the new price kicks in if you're not happy with it.
+{% assign now_plans = site.data.prices | where: "service", "NOW" %}
+These are NOW's standard monthly prices on [NOW's Irish membership page](https://www.nowtv.com/ie/membership) at the time of writing (November 2026):
 
-If you're on a rolling monthly membership, you'll typically see the new price reflected from your next renewal date rather than immediately. Annual or bundled deals may be handled differently, so it's worth reading any email from NOW carefully rather than assuming the same terms apply.
+| Membership | Standard price a month |
+|---|---|
+{% for p in now_plans %}| {{ p.plan }} | {% include euro.html amount=p.monthly %} |
+{% endfor %}
 
-### Getting the Most Out of Your Subscription
+New customers usually get an introductory price on a minimum term, for example on Entertainment for six months or on the Sports Saver bundle for 12 months. After that, the standard price applies unless you cancel. Our [streaming prices tracker](/streaming-prices/) has every current Irish price, and the [streaming cost calculator](/streaming-cost-calculator/) adds up a bill.
 
-Price rises are a good moment to double-check that you're actually getting a proper viewing experience for what you're paying. If you're streaming NOW through a smart TV app, make sure it's updated to the latest version, since older TV software can sometimes cause buffering or missing menu options that have nothing to do with your subscription itself.
+## What happened with HBO Max
 
-For anyone streaming via a dongle rather than a built-in smart TV app, a {% include product-link.html id="fire-tv-remote" text="Fire TV Remote" %} is a handy backup to have around if your original one goes missing or stops responding — a surprisingly common source of "why isn't this working" frustration that has nothing to do with your NOW account at all.
+On 11 February 2026 Sky [announced](https://www.skygroup.sky/en-gb/article/sky-brings-together-netflix-disney-hbo-max-and-hayu-into-one-single-subscription-exclusively-on-sky) that HBO Max Basic with Ads would be packaged with NOW Entertainment from 26 March 2026, "at no extra cost for existing customers". The announcement gave UK prices only.
 
-It's also worth ruling out basic connectivity issues before assuming a billing or app problem. Weak broadband signal or a poor aerial connection (if you're also relying on saorview or cable alongside streaming) can cause dropouts that look like a subscription fault. A {% include product-link.html id="tv-aerial-signal-booster" text="TV Aerial Signal Booster" %} can help if you're mixing streaming with traditional broadcast channels and noticing inconsistent picture quality on the non-streaming side of things.
+NOW's Irish help page explains what happened to Irish members:
 
-### Checking Your Billing Details
+- If you had an active Entertainment membership on 26 March 2026, NOW moved you to **Entertainment & HBO Max** automatically, and your monthly payments stayed the same.
+- If you were on the Entertainment **Monthly Saver**, your payments stay the same until the end of your minimum term. After that, {% assign now_hbo = site.data.prices | where: "plan", "Entertainment & HBO Max" | first %}NOW says you'll pay the regular price of {% include euro.html amount=now_hbo.monthly %} a month unless you cancel.
+- On bundles such as Entertainment and Cinema, only the Entertainment part changed.
 
-If you notice a charge that doesn't match what you expected, the safest route is to go directly to NOW's own account settings or contact their customer support team rather than guessing. Payment provider details, currency settings, and even which regional NOW plan your account is registered under can all affect what shows up on your statement.
+{% assign now_ent = site.data.prices | where: "plan", "Entertainment" | where: "service", "NOW" | first %}
+So if your Monthly Saver ends and you see {% include euro.html amount=now_hbo.monthly %} rather than {% include euro.html amount=now_ent.monthly %}, that's the move to Entertainment & HBO Max, not a general price rise. Plain Entertainment without HBO Max is still on NOW's membership page at {% include euro.html amount=now_ent.monthly %} a month. For more on HBO Max in Ireland, see [our HBO Max guide](/news/is-hbo-max-coming-to-ireland/).
 
-It's also worth confirming that your account region is set correctly and that your payment method is registered to an Irish billing address if you're intending to use the Irish version of the service. Mismatched account regions are a common cause of confusion around pricing and available content, and NOW's support team can usually sort this out if something looks off.
+## If NOW does raise prices
 
-### The Bottom Line
+NOW's [Irish terms](https://www.nowtv.com/ie/terms) say it may increase prices at any time, but it aims to tell you at least 30 days before a change that materially disadvantages you. If you object, you can cancel within that notice period, and a monthly membership can be cancelled at any time before your next month starts. If you get a notice, read it for the date and your options. We'll update our [price tracker](/streaming-prices/) when NOW's Irish prices change.
 
-Price increases are rarely welcome news, but they're becoming a routine part of subscribing to any streaming service. The best defence is simply staying informed — read the emails [NOW](/now-and-sky/) sends about your plan, check your account dashboard periodically, and don't hesitate to reach out to their support if a charge doesn't match what you expected. We'll update this post with confirmed pricing figures once NOW makes them official.
+**Related guides:** [Sky Stream vs NOW](/streaming-services/sky-stream-vs-now-ireland/) · [Sky and NOW hub](/now-and-sky/) · [Sky Ireland's 2026 changes](/news/sky-ireland-unveils-new-streaming-price-plan-for-2026/)
 
-**Related guides:** [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
+Sources: [NOW Ireland memberships](https://www.nowtv.com/ie/membership) (checked 10 November 2026) · [NOW help: Entertainment Membership & HBO Max](https://www.nowtv.com/ie/help/article/levelling-up-entertainment-membership) (checked 10 November 2026) · [NOW help: Sports Membership](https://help.nowtv.com/ie/article/sports-membership) (checked 10 November 2026) · [NOW Ireland terms of use](https://www.nowtv.com/ie/terms) (checked 10 November 2026) · [Sky Group press release](https://www.skygroup.sky/en-gb/article/sky-brings-together-netflix-disney-hbo-max-and-hayu-into-one-single-subscription-exclusively-on-sky) (11 February 2026)
 
 {% include faq-section.html %}
 
 {% include related-posts.html %}
-
-See every current Irish streaming price in one place on our [streaming prices tracker](/streaming-prices/), or add up your own bill with the [streaming cost calculator](/streaming-cost-calculator/).
 
 {% include whatsapp-cta.html %}

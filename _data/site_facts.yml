@@ -59,6 +59,7 @@
 - topic: Champions League
   facts:
     - Until the end of 2026/27, Virgin Media Television shows most Champions League games free, with live games on Tuesday and Wednesday nights.
+    - Until the end of 2026/27, Prime Video shows the top-pick Tuesday game in the UK and Ireland, included with Prime; in Ireland Premier Sports shows it too.
     # from our guide
     - Until the end of 2026/27, RTÉ shows live Wednesday games free on RTÉ2 and RTÉ Player.
     - Premier Sports has first pick of Tuesday games, and keeps it until 2031.
@@ -69,7 +70,8 @@
     - https://www.sportcal.com/media/virgin-media-retains-ucl-rights-in-ireland-through-2026-27/
     - https://about.rte.ie/2026/05/01/rte-secures-uefa-champions-league-rights-from-2027-2031/
     - https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/
-  checked: 2026-10-07
+    - https://www.aboutamazon.co.uk/news/entertainment/champions-league-breaks-prime-video-record
+  checked: 2026-11-10
 
 - topic: Champions Cup rugby
   facts:

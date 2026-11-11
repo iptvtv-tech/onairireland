@@ -1,7 +1,9 @@
 ---
 title: "How to Set Up GAA+ on an Apple TV"
-excerpt: "How to download, sign in to and cast GAA+ on an Apple TV, so you can watch club and county games legally on the big screen."
-description: "How to download, sign in to and cast GAA+ on an Apple TV, so you can watch club and county games legally on the big screen."
+excerpt: "GAA+ has an Apple TV app: download it from the App Store, pair it with a 6-digit code from your phone or gaaplus.ie/pair, or AirPlay from an iPhone."
+description: "GAA+ has an Apple TV app: download it from the App Store, pair it with a 6-digit code from your phone or gaaplus.ie/pair, or AirPlay from an iPhone."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Installation-Guides
 tags:
@@ -16,83 +18,57 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Is GAA+ free to use on Apple TV?"
-    answer: "No, GAA+ generally requires a paid subscription for most content, though some fixtures may occasionally be offered free; check the app or official GAA+ website for current pricing since this can change."
-  - question: "Can I use GAA+ on an older Apple TV model?"
-    answer: "GAA+ is designed to work on modern Apple TV HD and 4K models, but very old models may not support the app, so it's worth checking your Apple TV's compatibility in the App Store listing."
-  - question: "Do I need a separate GAA+ account for each device?"
-    answer: "No, one GAA+ account can typically be used across multiple supported devices, including phones, tablets, and Apple TV, as long as you sign in with the same login details."
-  - question: "What should I do if the GAA+ app won't load a match?"
-    answer: "Check your internet connection first, then try restarting the Apple TV, and if the problem continues, confirm there isn't a known outage or issue mentioned on the official GAA+ support channels."
+  - question: "Is GAA+ free on Apple TV?"
+    answer: "The app is free to download, but games are paid. In 2026 the GAA+ season pass was €95 for Irish users, or €15 a game. The 2027 price hadn't been announced at the time of writing."
+  - question: "Do I have to sign in on the Apple TV with the remote?"
+    answer: "No. The Apple TV app shows a 6-digit code. You approve it on gaaplus.ie/pair or in the GAA+ phone app, and you only have to do this once."
+  - question: "Can I watch the RTÉ and TG4 games on GAA+?"
+    answer: "Not in Ireland. GAA+ doesn't carry the games shown on RTÉ, TG4 or BBC NI here, so watch those on RTÉ Player or TG4 Player."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## Getting Started with GAA+ on Apple TV
+GAA+ has its own Apple TV app. Download it from the App Store on the Apple TV, then approve the 6-digit code it shows using the GAA+ phone app or gaaplus.ie/pair. You can also AirPlay a game from the GAA+ app on an iPhone or iPad.
 
-[GAA+](/streaming-services/where-to-watch-gaa-legally-ireland/) (which replaced GAAGO ahead of the 2025 championship) is the official streaming service for Gaelic games not shown live on terrestrial television. For anyone with an Apple TV box sitting under the telly, getting GAA+ installed and running is a straightforward job that takes a few minutes. Below is a clear walkthrough to get you from a blank home screen to full-screen championship action.
+## At a glance
 
-### What You'll Need
+- **App:** "GAA+: Watch Live GAA" in the App Store, free to download. The [App Store listing](https://apps.apple.com/ie/app/id1448880157?l=en-gb) says it needs tvOS 16 or later on Apple TV.
+- **Account:** you need a GAA+ account (email and password). Set it up on the [GAA+ website](https://gaaplus.ie) or in the phone app.
+- **Cost:** games are paid. The [2026 season pass](https://www.gaa.ie/article/gaa-launches-2026-season-pass) was €95 for Irish users, or €15 a game. The 2027 price hadn't been announced at the time of writing (November 2026).
+- **What's on it in Ireland:** GAA+ had 40 exclusive games in 2026. It doesn't carry the games shown on RTÉ, TG4 or BBC NI. See [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/).
 
-Before you start, make sure you have the following:
+GAA+ replaced GAAGO ahead of the 2025 championship, so older guides that mention GAAGO are out of date.
 
-- An Apple TV (HD or 4K model) connected to your television
-- An active internet connection, ideally broadband over Wi-Fi or Ethernet
-- An Apple ID signed in on the device
-- A GAA+ subscription, or at least an account set up ready to subscribe
-- A good quality HDMI cable running from the Apple TV to your TV
+## Install and pair the Apple TV app
 
-On that last point, if your Apple TV came with an older or budget cable, it's worth upgrading, particularly if you're watching in 4K or want to avoid dropouts during a tense final. A {% include product-link.html id="hdmi-cable-4k" text="High-Speed HDMI 2.1 Cable" %} is a sensible, inexpensive way to make sure the picture keeps up with the action, especially for fast-paced hurling coverage.
+These steps are from the [GAA+ help centre](https://help.gaaplus.ie/support/solutions/articles/77000580357-setting-up-on-tv-apps):
 
-## Step 1: Download the GAA+ App
+1. On the Apple TV, open the **App Store**, search for **GAA+** and select **Get**.
+2. Open the app. It shows a **6-digit code**.
+3. Approve the code in one of two ways:
+   - **Website:** go to [gaaplus.ie/pair](https://gaaplus.ie/pair), log in with your GAA+ email and password, and enter the code.
+   - **Phone app:** log in, tap the **cog** icon at the top right, choose **Pair TV** and enter the code.
+4. The Apple TV signs in. You only pair once, and it stays signed in unless you log out.
 
-1. Using your Apple TV remote, navigate to the **App Store** icon on the home screen.
-2. Select the search function and type "GAA+" using the on-screen keyboard or by dictating with Siri if your remote supports it.
-3. Locate the official GAA+ app in the results — the icon should feature GAA branding — and select **Get** or the cloud download icon to install it.
-4. Once installed, the app icon will appear on your Apple TV home screen. You may want to move it to a more convenient spot using the remote's touch surface.
+## AirPlay from an iPhone or iPad instead
 
-If "GAA+" doesn't appear straight away, check that your Apple Account's App Store country is set to Ireland. GAAGO was a different service, which GAA+ replaced in 2025, so don't install an old GAAGO app if you come across one.
+GAA+ [says](https://help.gaaplus.ie/support/solutions/articles/77000580359-casting) its iPhone and iPad app can AirPlay to an Apple TV:
 
-### Step 2: Sign In or Create an Account
+1. Put the iPhone or iPad and the Apple TV on the same Wi-Fi network.
+2. Start the game in the GAA+ app and tap the cast symbol at the top right.
+3. Choose your Apple TV.
 
-Open the app once installed. You'll typically be presented with a sign-in screen or a prompt to create a new account.
+If the cast symbol stays greyed out, the phone can't see the Apple TV: check they're on the same network. GAA+ doesn't officially support screen mirroring or casting from a web browser.
 
-- If you already have a GAA+ account from using it on a phone, tablet, or browser, choose the sign-in option and enter your email and password using the on-screen keyboard.
-- If this is your first time, select the sign-up or subscribe option. You may be asked to complete registration on a separate device or via a web browser using a short on-screen code — this is a common approach for TV apps and isn't anything to worry about.
-- Check the current subscription pricing and package options directly within the app or on the official GAA+ website before committing, since costs can change between seasons and I don't want to quote a figure here that may be out of date.
+## If it won't play
 
-Once signed in, your account status should sync automatically, and you'll see the current schedule of upcoming fixtures on the home screen of the app.
+See [GAA+ not working](/troubleshooting/gaa-not-working-try-these-fixes/) for common fixes. For more on the Apple TV box itself, see our [Apple TV 4K review](/reviews/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers/), and for this season's fixtures, our [GAA guides](/gaa/).
 
-## Step 3: Find and Start Watching a Match
-
-With the app open and signed in:
-
-1. Browse the home screen or fixtures tab to see live and upcoming games.
-2. Select a match to view details, including throw-in time and competing counties or clubs.
-3. If the game is live, a **Watch Now** or similarly labelled button should appear. Select it to begin streaming.
-4. For upcoming fixtures, you may be able to set a reminder so the Apple TV notifies you closer to throw-in.
-
-The exact wording of buttons and menus can vary slightly as GAA+ updates its interface, so don't worry if what you see differs a little from what's described here.
-
-### Casting from an iPhone or iPad Instead
-
-If you'd rather start playback on your phone and send it to the television, GAA+ supports AirPlay. Open the app on your iPhone or iPad, start the match, tap the AirPlay icon, and select your Apple TV from the list of available devices. This is a handy option if you're already browsing fixtures on your phone and simply want the coverage on a bigger screen.
-
-## Troubleshooting Tips
-
-If the app is slow to load or buffers frequently, first check your broadband speed, since live sport streaming benefits from a stable, reasonably fast connection. Restarting the Apple TV by unplugging it briefly can also resolve minor glitches. If sign-in issues persist, try resetting your password through the official GAA+ website rather than repeatedly guessing in the app.
-
-With everything set up, you should be ready to enjoy [league and championship coverage](/gaa/) in full HD from the comfort of your sofa.
-
-**Related guides:** [How to Set Up Disney+ on an LG Smart TV](/installation-guides/how-to-set-up-disney-on-an-lg-smart-tv/) · [How to Set Up NOW on a Samsung or LG Smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/)
-
-{% include product-showcase.html category="Installation Guides" %}
+Sources: [GAA+ help: Setting up on-TV apps](https://help.gaaplus.ie/support/solutions/articles/77000580357-setting-up-on-tv-apps) (checked 10 November 2026) · [GAA+ help: Can Apple TVs stream GAA+?](https://help.gaaplus.ie/support/solutions/articles/77000579317-can-apple-tvs-stream-gaa-) · [GAA+ help: Casting](https://help.gaaplus.ie/support/solutions/articles/77000580359-casting) · [GAA+ help: GAAGO to GAA+ transition](https://help.gaaplus.ie/support/solutions/articles/77000578937-gaago-to-gaa-transition) · [GAA+: Watch Live GAA on the App Store (Ireland)](https://apps.apple.com/ie/app/id1448880157?l=en-gb) (checked 10 November 2026) · [GAA: 2026 season pass](https://www.gaa.ie/article/gaa-launches-2026-season-pass)
 
 {% include faq-section.html %}
 

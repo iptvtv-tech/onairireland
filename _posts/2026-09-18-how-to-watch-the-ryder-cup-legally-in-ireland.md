@@ -1,9 +1,9 @@
 ---
-title: "How to Watch the 2027 Ryder Cup Legally in Ireland"
-excerpt: "The 2027 Ryder Cup is at Adare Manor, 17 to 19 September. Sky Sports has it live in Ireland and RTÉ has highlights. How to watch legally."
-description: "The 2027 Ryder Cup is at Adare Manor, 17 to 19 September. Sky Sports has it live in Ireland and RTÉ has highlights. How to watch legally."
-last_updated: 2026-10-15
-last_checked: 2026-10-15
+title: "How to Watch the 2027 Ryder Cup in Ireland"
+excerpt: "The 2027 Ryder Cup is at Adare Manor, 17 to 19 September. Sky Sports has it live in Ireland, NOW streams it without a contract and RTÉ has highlights."
+description: "The 2027 Ryder Cup is at Adare Manor, 17 to 19 September. Sky Sports has it live in Ireland, NOW streams it without a contract and RTÉ has highlights."
+last_updated: 2026-11-10
+last_checked: 2026-11-10
 categories:
   - Sports-Streaming
 tags:
@@ -18,61 +18,55 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
-  - question: "Do I need a full Sky TV subscription to watch the Ryder Cup?"
-    answer: "Not necessarily — a NOW subscription with the Sky Sports add-on typically gives you streaming access to the same coverage without needing a satellite dish or long-term contract, though pricing and package details should be confirmed on NOW's own site."
-  - question: "Can I watch the Ryder Cup on a smart TV without extra devices?"
-    answer: "Many modern smart TVs have the NOW or Sky Go apps built in, but availability varies by TV brand and model, so it's worth checking your TV's app store before assuming it's supported."
-  - question: "What should I do if I get a 'content not available' message?"
-    answer: "Check that your account's billing address and app store region are correctly set to Ireland, and if the issue persists, contact the streaming service's customer support directly for account-specific help."
-  - question: "Is any Ryder Cup coverage available for free in Ireland?"
-    answer: "Live coverage is on Sky Sports. RTÉ has the TV highlights rights for the 2027 Ryder Cup, with catch-up in Ireland."
+  - question: "Is the 2027 Ryder Cup on free TV in Ireland?"
+    answer: "Not live. Sky Sports has exclusive live coverage in Ireland and the UK. RTÉ has the TV highlights rights for the 2027 Ryder Cup, so you can see highlights free on RTÉ."
+  - question: "Can I watch the Ryder Cup without a Sky contract?"
+    answer: "Yes. NOW's Sports membership streams all 12 Sky Sports channels, including Sky Sports Golf, with no contract. There's also a 24-hour day pass."
+  - question: "When is the 2027 Ryder Cup?"
+    answer: "The matches are on Friday 17, Saturday 18 and Sunday 19 September 2027 at Adare Manor in Co. Limerick. The Ryder Cup week starts on 13 September, with practice days on 14 and 15 September and the opening ceremony on Thursday 16 September."
+  - question: "Who has the Ryder Cup after 2027?"
+    answer: "Sky Sports' deal also covers the 2029 Ryder Cup at Hazeltine in the US, and runs until at least the end of 2029."
 ---
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
-
 {% include share-buttons.html %}
 
-## The Next Ryder Cup: Adare Manor, 2027
+The 2027 Ryder Cup is live on **Sky Sports** in Ireland, and you can stream the same coverage on **NOW** without a Sky contract. **RTÉ** has the TV highlights, so you can catch up for free.
 
-The 2027 Ryder Cup is at Adare Manor in Co. Limerick, the first in Ireland since 2006. The matches run from Friday 17 to Sunday 19 September 2027. Sky Sports has live coverage in Ireland and the UK under a deal that runs to 2029, and RTÉ has the TV highlights rights, with catch-up in Ireland.
+## At a glance
 
-## Golf's Biggest Team Event Is Coming Round Again
+- **Where:** Adare Manor, Co. Limerick. It's the second Ryder Cup held in Ireland, after The K Club in 2006, according to the [Ryder Cup's official site](https://www.rydercup.com/news-media/tickets-to-go-on-sale-for-the-2027-ryder-cup).
+- **Match days:** Friday 17 to Sunday 19 September 2027. Practice days are Tuesday 14 and Wednesday 15 September, and the opening ceremony is on Thursday 16 September.
+- **Live:** Sky Sports, exclusively, in Ireland and the UK.
+- **Without Sky:** NOW's Sports membership, monthly or as a day pass.
+- **Free:** RTÉ TV highlights.
+- **Captains:** Luke Donald is Europe's captain, as [reported by Sky Sports](https://www.skysports.com/golf/news/26733/13440039/ryder-cup-2027-when-and-where-is-next-team-europe-vs-team-usa-tournament-dates-and-venue-for-centenary-edition). The US captain hadn't been named at the time of writing (November 2026).
 
-The Ryder Cup only comes around every two years, which is exactly why so many Irish golf fans get caught out trying to figure out where it's actually being shown. The good news is that watching it legally in Ireland is straightforward once you know which service holds the rights.
+## Live on Sky Sports
 
-### Who Broadcasts the Ryder Cup in Ireland
+Sky Sports and NOW are the home of the Ryder Cup in Ireland and the UK until at least the end of 2029, under a deal [announced by the Ryder Cup](https://www.rydercup.com/news-media/sky-to-remain-the-home-of-the-ryder-cup-and-dp-world-tour-through-2029) on 14 November 2025. Sky Sports shows the next two Ryder Cups exclusively: Adare Manor in 2027 and Hazeltine in the US in 2029. The same deal covers the DP World Tour.
 
-Sky Sports holds the live Ryder Cup rights in Ireland and the UK under a contract that runs to 2029, so the 2027 matches will be live on Sky Sports. RTÉ has the TV highlights rights for 2027.
+If you have Sky TV, you need Sky Sports on your package. Sky's prices depend on the offer, the box and the contract length, so check the current deal on [sky.com/ie/tv](https://www.sky.com/ie/tv). Our [Sky Stream vs NOW guide](/streaming-services/sky-stream-vs-now-ireland/) explains how the two compare.
 
-You'll need a Sky subscription that includes Sky Sports, or a [NOW](/streaming-services/sky-stream-vs-now-ireland/) subscription with the Sky Sports add-on if you'd rather not commit to a long-term contract. NOW is the streaming-only route into Sky Sports content and is generally the easier option for anyone not wanting satellite hardware installed.
+## Streaming on NOW, no contract
 
-### Setting Up NOW or Sky Go on a Streaming Device
+{% assign now_sports = site.data.prices | where: "plan", "Sports" | where: "service", "NOW" | first %}
+NOW is Sky's contract-free streaming service. Its [Sports membership](https://www.nowtv.com/ie/membership/sports/watch-sky-sports) streams all 12 Sky Sports channels, including Sky Sports Golf. On standard pricing it's {% include euro.html amount=now_sports.monthly %} a month at the time of writing (November 2026), and there's a 24-hour Sports Day Membership if you only want one day of the Ryder Cup. NOW often has cheaper offers on a 12-month minimum term, so read the terms before you sign up. Every NOW price is on our [streaming prices tracker](/streaming-prices/).
 
-If you're going the NOW route, you'll want a streaming device that supports the app cleanly. A {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick" %} is one of the more affordable options and generally has good app support for Irish and UK streaming services, though it's always sensible to check the NOW app is listed as compatible with your specific device model before buying anything.
+NOW runs in a web browser and through its app on phones, smart TVs and streaming devices. See our [Sky and NOW hub](/now-and-sky/) for setup guides.
 
-Roku devices and the [Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/) (which replaced the discontinued Chromecast with Google TV) are the other realistic options if you're building out a smart TV setup from scratch. Whichever route you go, make sure your home broadband can handle sustained HD streaming for several hours at a time, particularly across the Friday and Saturday sessions when coverage can run long.
+## Free highlights on RTÉ
 
-### Account Region Matters
+RTÉ signed the [TV highlights rights](https://about.rte.ie/2026/09/10/rte-sign-ryder-cup-highlights-rights-ahead-of-historic-return-to-ireland/) for the 2027 Ryder Cup in September 2026. The Irish Examiner [reported](https://www.irishexaminer.com/sport/golf/arid-41908933.html) that RTÉ also has radio rights, while live TV stays with Sky Sports. RTÉ hadn't announced its highlights schedule at the time of writing, so check RTÉ nearer the event.
 
-One thing worth flagging: streaming apps tie your account to the region your billing address and payment method are registered in. If you're setting up a NOW or Sky account, make sure your address and card details reflect Ireland (or the UK, if that's genuinely where you're based) so the correct regional app store listing and content library show up. Mismatched billing details are one of the most common reasons people see "content not available" style errors, and it's usually solved by double-checking your account's registered address and app store region rather than anything more complicated. If you do hit an error message, contacting the streaming service's own customer support is the right move — they can confirm what content is meant to be available on your account and fix any account-level mismatch.
+For other golf on TV, Sky Sports shows all four men's majors and the DP World Tour live, while RTÉ shows the Irish Open live. Our weekly [sport on TV guide](/sport-on-tv/) lists what's on each week.
 
-### If You're Relying on an Aerial Signal
+**Related guides:** [Sky Sports vs Premier Sports](/sports-streaming/sky-sports-vs-premier-sports-which-do-you-need/) · [Where to watch Formula 1 in Ireland](/sports-streaming/where-to-watch-formula-1-legally-in-ireland/)
 
-Some free-to-air highlights packages occasionally pop up around major golf events, though the bulk of live Ryder Cup coverage tends to sit behind Sky's paywall. If you're chasing any terrestrial coverage or just want a more reliable overall TV signal in a rural spot, an {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} can make a noticeable difference to reception quality, particularly in areas where an indoor aerial struggles.
-
-### Tidying Up Your Viewing Setup
-
-With a Ryder Cup weekend often meaning long hours in front of the television, it's worth having your setup sorted in advance. If you've got a games console, a streaming stick, and a soundbar all fighting for one HDMI port, a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} is a handy, cheap fix that saves you crawling behind the TV mid-tournament to swap cables around.
-
-### Final Check Before Tee-Off
-
-Before the opening tee shots on the Friday, it's worth logging into your Sky or NOW account a day or two early just to confirm everything is active and the app is updated. Streaming apps occasionally push updates in the run-up to major sporting events, and there's nothing worse than discovering an update is needed five minutes before the first match gets underway.
-
-{% include product-showcase.html category="Sports Streaming" %}
+Sources: [Ryder Cup: Sky to remain the home of the Ryder Cup through 2029](https://www.rydercup.com/news-media/sky-to-remain-the-home-of-the-ryder-cup-and-dp-world-tour-through-2029) (14 November 2025) · [Sky Sports: Ryder Cup and DP World Tour rights extension](https://www.skysports.com/golf/news/12176/13469780/sky-sports-to-remain-home-of-ryder-cup-and-dp-world-tour-until-2029-under-new-rights-extension) (14 November 2025) · [Ryder Cup: 2027 tickets and dates](https://www.rydercup.com/news-media/tickets-to-go-on-sale-for-the-2027-ryder-cup) (checked 10 November 2026) · [RTÉ press release](https://about.rte.ie/2026/09/10/rte-sign-ryder-cup-highlights-rights-ahead-of-historic-return-to-ireland/) (10 September 2026) · [Irish Examiner](https://www.irishexaminer.com/sport/golf/arid-41908933.html) (10 September 2026) · [NOW Ireland Sports membership](https://www.nowtv.com/ie/membership/sports/watch-sky-sports) (checked 10 November 2026)
 
 {% include faq-section.html %}
 

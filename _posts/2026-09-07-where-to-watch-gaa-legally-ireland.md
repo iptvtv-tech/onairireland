@@ -1,6 +1,7 @@
 ---
 title: "Where to Watch GAA Legally in Ireland: RTÉ, TG4 and GAA+"
 redirect_from:
+  - /sports-streaming/gaa-all-ireland-finals-where-to-watch-every-match-legally/
   - /news/rt-s-gaa-coverage-in-2026-how-they-re-avoiding-another-paywall-controversy/
 excerpt: "What's free on RTÉ and TG4, what needs a GAA+ pass, which devices carry each app, and the official way to watch from abroad."
 description: "What's free on RTÉ and TG4, what needs a GAA+ pass, which devices carry each app, and the official way to watch from abroad."
@@ -68,6 +69,8 @@ RTÉ shows the biggest championship games live and free on RTÉ2 and RTÉ Player
 - the Munster and Leinster hurling finals and four provincial football finals
 - the Joe McDonagh Cup and Tailteann Cup finals
 - live camogie, including the All-Ireland semi-finals and finals.
+
+The All-Ireland Ladies Football finals are on TG4 and TG4 Player: TG4 sponsors and broadcasts the championships under a deal that runs to the end of 2032 ([TG4](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/)).
 
 RTÉ's highlights show, The Sunday Game, is on RTÉ2 and RTÉ Player on Sunday nights during the championship. RTÉ also shares the Saturday night Allianz League games with TG4, and covers some AIB club championship games.
 
@@ -175,7 +178,7 @@ The 2027 fixtures, TV picks and GAA+ prices hadn't been published when we last c
 - If a game isn't listed on RTÉ or TG4, it's probably on GAA+.
 - Open the app, sign in and install any updates the day before.
 
-**Related guides:** [GAA All-Ireland finals: where to watch every match]({% post_url 2026-09-11-gaa-all-ireland-finals-where-to-watch-every-match-legally %}) · [All our GAA guides](/gaa/)
+**Related guides:** [All our GAA guides](/gaa/)
 
 {% include product-showcase.html category="Devices" title="Get Set Up for the GAA Season" %}
 

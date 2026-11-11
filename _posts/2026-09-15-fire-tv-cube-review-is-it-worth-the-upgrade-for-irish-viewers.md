@@ -1,4 +1,6 @@
 ---
+noindex: true # product no longer sold in Ireland; kept for owners and links (10 Nov 2026)
+sitemap: false
 title: "Fire TV Cube Review: Is It Worth It in Ireland?"
 excerpt: "The Fire TV Cube adds hands-free Alexa and built-in Ethernet, but Amazon doesn't list it for Amazon.ie. What it offers and what to buy instead."
 description: "The Fire TV Cube adds hands-free Alexa and built-in Ethernet, but Amazon doesn't list it for Amazon.ie. What it offers and what to buy instead."

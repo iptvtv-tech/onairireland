@@ -1,5 +1,5 @@
 ---
-title: "Best Smart TVs for Streaming in Ireland: Which Platform Has the Irish Apps?"
+title: "Best Smart TVs in Ireland for Irish Streaming Apps"
 redirect_from:
   - /devices/lg-vs-samsung-whose-smart-tv-apps-stream-better/
 excerpt: "Samsung, LG, Google TV, Fire TV and VIDAA TVs compared: which Irish apps each has, how long updates last, and what to check before you buy."
