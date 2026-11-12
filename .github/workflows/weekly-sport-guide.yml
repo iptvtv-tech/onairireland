@@ -52,11 +52,14 @@ jobs:
           body: |
             Next week's listings for /sport-on-tv/. Merging this PR publishes them.
 
+            ${{ steps.generate.outputs.fact_check }}
+
+            ---
+
             Before merging, open `_data/sport_week.yml` and check:
-            - [ ] Each event's broadcaster is right **for Ireland** (click the source link)
-            - [ ] Dates and throw-in/kick-off times look right
+            - [ ] Every ⚠️ line above is confirmed or fixed (click the source link)
             - [ ] "free: true" only for RTÉ, Virgin Media, TG4 and their free apps
-            - [ ] Nothing big is missing (add it by hand, same format)
+            - [ ] Nothing big is missing: see "Possibly missing" above, and add it by hand, same format
 
             ---
 

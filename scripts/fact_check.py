@@ -12,6 +12,9 @@ It uses the model with web search and web fetch (as generate_sport_week.py
 does), plus the checked facts in _data/site_facts.yml and the prices in
 _data/prices.yml, so the writer and the checker work from the same facts.
 
+The weekly sport listings get the same check through check_sport_week(),
+called by scripts/generate_sport_week.py.
+
 Also runs on its own, on any post (needs ANTHROPIC_API_KEY):
 
     python scripts/fact_check.py _posts/2026-10-28-sky-sports-vs-premier-sports-which-do-you-need.md
@@ -38,7 +41,7 @@ STATUS_WORDS = {
     "unconfirmed": "unconfirmed", "unverified": "unconfirmed", "unknown": "unconfirmed",
 }
 WHERE_LABELS = {"article": "Article", "faq": "FAQ", "x": "X post",
-                "whatsapp": "WhatsApp", "video": "Video script"}
+                "whatsapp": "WhatsApp", "video": "Video script", "listing": "Listing"}
 
 # A claim stays ✅ only when its source is our facts file, our price tracker, or
 # one of these primary sources: the service, broadcaster, league, governing body,
@@ -66,6 +69,12 @@ PRIMARY_HOSTS = {
     "citizensinformation.ie", "tvlicence.ie", "anpost.com", "anpost.ie",
     "comreg.ie", "cnam.ie", "gov.ie",
 }
+# The weekly sport listings also accept the Irish Times weekly TV guide, their
+# designated main source (project rule), but only for the sport check.
+SPORT_EXTRA_HOSTS = {"irishtimes.com", "premiersportsireland.com", "virginmediatelevision.ie",
+                     "tntsports.co.uk", "skysports.com", "europeantour.com", "ehf.eu",
+                     "fiba.basketball", "basketballireland.ie", "worldrugby.org",
+                     "nationschampionship.com", "racingtv.com", "cheltenham.co.uk"}
 OUR_SOURCE_WORDS = ("our checked facts", "our facts", "our price", "our tracker", "checked prices")
 
 PROMPT = """You are fact-checking a draft for On Air Ireland (onairireland.ie), an
@@ -170,12 +179,12 @@ def build_prompt(post_text: str, social: dict = None) -> str:
     return prompt
 
 
-def call_claude(prompt: str) -> str:
+def call_claude(prompt: str, max_uses: int = 8) -> str:
     """Run the checking conversation (following pause_turn) and return its text."""
     tools = [
-        {"type": "web_search_20250305", "name": "web_search", "max_uses": 8},
-        {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": 8,
-         "max_content_tokens": 20000},
+        {"type": "web_search_20250305", "name": "web_search", "max_uses": max_uses},
+        {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": max_uses,
+         "max_content_tokens": 30000},
     ]
     messages = [{"role": "user", "content": prompt}]
     text = []
@@ -222,7 +231,12 @@ def parse_claims(raw: str) -> list:
             continue
         status = STATUS_WORDS.get(str(item.get("status", "")).strip().lower(), "unconfirmed")
         where = str(item.get("where", "article")).strip().lower()
+        try:
+            number = int(item.get("item") or 0)
+        except (TypeError, ValueError):
+            number = 0
         claims.append({
+            "item": number,
             "claim": str(item["claim"]).strip(),
             "where": where if where in WHERE_LABELS else "article",
             "status": status,
@@ -236,15 +250,16 @@ def _is_ours(source: str) -> bool:
     return any(word in source.lower() for word in OUR_SOURCE_WORDS)
 
 
-def _is_primary(source: str) -> bool:
+def _is_primary(source: str, extra_hosts=()) -> bool:
     host = (urlparse(source).hostname or "").lower() if source.startswith(("http://", "https://")) else ""
-    return bool(host) and any(host == h or host.endswith("." + h) for h in PRIMARY_HOSTS)
+    hosts = PRIMARY_HOSTS | set(extra_hosts)
+    return bool(host) and any(host == h or host.endswith("." + h) for h in hosts)
 
 
-def enforce_sources(claims: list) -> list:
+def enforce_sources(claims: list, extra_hosts=()) -> list:
     """Turn a ✅ whose source isn't ours or a primary page into ⚠️, naming the site."""
     for c in claims:
-        if c["status"] != "ok" or _is_ours(c["source"]) or _is_primary(c["source"]):
+        if c["status"] != "ok" or _is_ours(c["source"]) or _is_primary(c["source"], extra_hosts):
             continue
         host = urlparse(c["source"]).hostname if c["source"].startswith(("http://", "https://")) else ""
         where = host[4:] if host and host.startswith("www.") else host
@@ -280,7 +295,7 @@ def count_claims(claims: list) -> dict:
     return {s: sum(1 for c in claims if c["status"] == s) for s in ICONS}
 
 
-def format_markdown(claims: list, pr_note: str = None) -> str:
+def format_markdown(claims: list, pr_note: str = None, basis: str = None) -> str:
     """The claims list as the PR body section: problems first, the rest folded away.
     pr_note is None for a check run by hand; in the draft run it's a sentence
     about the send-back pass ("" if there was none)."""
@@ -290,7 +305,7 @@ def format_markdown(claims: list, pr_note: str = None) -> str:
     confirmed = [c for c in claims if c["status"] == "ok"]
 
     lines = ["### 🔎 Fact check", ""]
-    basis = "Checked against our facts file, our price tracker and the providers' own pages."
+    basis = basis or "Checked against our facts file, our price tracker and the providers' own pages."
     note = f" {pr_note}" if pr_note else ""
     if not claims:
         if pr_note:
@@ -348,6 +363,144 @@ def check_post(post_text: str, social: dict = None, pr_note: str = None) -> dict
         "summary": (f"Fact check: {counts['wrong']} wrong, {counts['unconfirmed']} unconfirmed, "
                     f"{counts['ok']} confirmed."),
         "flagged": counts["wrong"] + counts["unconfirmed"],
+    }
+
+
+SPORT_PROMPT = """You are fact-checking next week's "Sport on TV" listings for On Air
+Ireland (onairireland.ie), an independent site about LEGAL streaming in Ireland.
+Readers are in the Republic of Ireland, so every channel must be the one Irish
+viewers get, which often differs from the UK. Times are Irish time.
+
+The listings cover <<START>> to <<END>>. The Irish Times weekly TV guide is our
+main source (published each Sunday, covering Monday to Sunday):
+<<GUIDES>>
+The second one may not be published yet.
+
+1. Check EVERY numbered listing line below as one claim. Its "item" is the line
+   number. The claim is the line's date, time, event, competition name and
+   channel together. It is:
+   - "ok" if the Irish Times guide, the broadcaster's own schedule or press
+     page, or the governing body's or competition's own fixture page confirms
+     all of it;
+   - "wrong" if any part contradicts those sources: wrong date, a time that's
+     out by more than 5 minutes, the wrong Irish channel, or the wrong
+     competition name (competitions get renamed, so use the name the
+     source uses now);
+   - "unconfirmed" if you couldn't confirm it on one of those sources.
+   Other news reports, betting, ticket and "how to watch" sites can't confirm a
+   line; if one is the only place you find it, it's "unconfirmed" and the note
+   names the site. The note on a "wrong" line says exactly what's right.
+
+2. Check the X and WhatsApp drafts the same way, one claim per fact they state
+   (item 0, where "x" or "whatsapp"). Skip the link lines.
+
+3. List under "missing" up to 8 events in the window that Irish viewers care
+   about most and that aren't in the listings: Ireland internationals first
+   (football, rugby, men's and women's), then big GAA, provincial rugby, and
+   anything else free-to-air on RTÉ, Virgin Media or TG4. Only include an
+   event when the Irish Times guide or an official source gives its date and
+   Irish channel. Check the FAI, IRFU and GAA fixture lists for the days after
+   Sunday, which the guide usually doesn't cover yet.
+
+Return ONLY a JSON object between <json> and </json> tags, no commentary:
+<json>
+{"claims": [
+  {"item": 3, "where": "listing",
+   "claim": "the line, closely paraphrased, at most 25 words",
+   "status": "wrong",
+   "note": "one short sentence: what is right, or what couldn't be confirmed",
+   "source": "https://... the page you used, or: our checked facts"}
+],
+ "missing": [
+  {"date": "YYYY-MM-DD", "time": "HH:MM", "event": "Ireland v Kosovo",
+   "competition": "UEFA Nations League", "watch": "RTÉ 2 and RTÉ Player",
+   "source": "https://..."}
+]}
+</json>
+"where" is one of: listing, x, whatsapp.
+
+OUR CHECKED FACTS:
+
+<<FACTS>>
+
+=== LISTINGS ===
+<<LISTINGS>>
+
+=== X POST ===
+<<X>>
+
+=== WHATSAPP POST ===
+<<WHATSAPP>>
+"""
+
+
+def listing_lines(events: list) -> str:
+    """The listings as numbered lines, the way the checker and the reviser see them."""
+    return "\n".join(
+        f"{i}. {e['date']} {e['time']} | {e['event']} | {e['competition']} | {e['watch']}"
+        f"{' (free)' if e.get('free') else ''} | source: {e['source']}"
+        for i, e in enumerate(events, 1)) or "(none)"
+
+
+def parse_missing(raw: str) -> list:
+    m = re.search(r"<json>\s*(\{.*\})\s*</json>", raw, re.S) or re.search(r"(\{\s*\"claims\".*\})", raw, re.S)
+    if not m:
+        return []
+    try:
+        items = json.loads(m.group(1)).get("missing") or []
+    except ValueError:
+        return []
+    keep = ("date", "time", "event", "competition", "watch", "source")
+    return [{k: str(i.get(k) or "").strip() for k in keep}
+            for i in items[:8] if isinstance(i, dict) and str(i.get("event") or "").strip()]
+
+
+def _claim_lines_sport(claims: list) -> str:
+    return "\n".join(
+        f"- line {c['item'] or '-'} ({WHERE_LABELS[c['where']]}), "
+        f"{'wrong' if c['status'] == 'wrong' else 'unconfirmed'}: {c['claim']}"
+        + (f" -- note: {c['note']}" if c.get("note") else "")
+        for c in claims) or "(none)"
+
+
+def check_sport_week(events: list, social: dict, start, end, guides: list) -> dict:
+    """Check the weekly sport listings and their social drafts. Returns the
+    claims (each listing claim has "item", its 1-based line number), counts, a
+    one-line summary and "missing" (big events the listings left out)."""
+    social = social or {}
+    parts = {
+        "<<START>>": f"{start:%A %d %B %Y}",
+        "<<END>>": f"{end:%A %d %B %Y}",
+        "<<GUIDES>>": "\n".join(f"- {g}" for g in guides),
+        "<<FACTS>>": site_facts.facts_for_prompt(),
+        "<<LISTINGS>>": listing_lines(events),
+        "<<X>>": (social.get("x_post") or "(none)").strip(),
+        "<<WHATSAPP>>": (social.get("whatsapp_msg") or "(none)").strip(),
+    }
+    prompt = SPORT_PROMPT
+    for key, value in parts.items():
+        prompt = prompt.replace(key, value)
+    raw = call_claude(prompt, max_uses=12)
+    claims = enforce_sources(parse_claims(raw), SPORT_EXTRA_HOSTS)
+    for c in claims:
+        if c["where"] not in ("listing", "x", "whatsapp"):
+            c["where"] = "listing"
+        if c["where"] != "listing":
+            c["item"] = 0
+    # A listing line the checker skipped is unconfirmed, not silently passed.
+    seen = {c["item"] for c in claims if c["where"] == "listing"}
+    for i, e in enumerate(events, 1):
+        if i not in seen:
+            claims.append({"item": i, "where": "listing", "status": "unconfirmed", "source": "",
+                           "claim": f"{e['date']} {e['time']} {e['event']} ({e['competition']}) on {e['watch']}",
+                           "note": "The check didn't cover this line."})
+    counts = count_claims(claims)
+    return {
+        "claims": claims,
+        "counts": counts,
+        "missing": parse_missing(raw),
+        "summary": (f"Sport check: {counts['wrong']} wrong, {counts['unconfirmed']} unconfirmed, "
+                    f"{counts['ok']} confirmed."),
     }
 
 

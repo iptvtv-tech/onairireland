@@ -5,6 +5,12 @@ services for the next seven days (Friday to Thursday).
 Run by .github/workflows/weekly-sport-guide.yml every Thursday. It opens a pull
 request, so nothing goes live until you've checked it and merged.
 
+The listings then get the same claims check as draft posts (fact_check.py):
+every line is checked against the Irish Times guide and official sources, and
+flagged lines and missing big events go back for correction, up to
+SPORT_MAX_CHECKS checks. Lines still wrong after the last check are taken out.
+The PR shows the check's results above the social drafts.
+
 Uses Claude with web search and web fetch. The main source is the Irish Times
 weekly TV guide (published Sundays, Monday to Sunday), which covers Friday to
 Sunday; the days after that come from broadcaster schedules, GAA/IRFU/FAI
@@ -25,7 +31,15 @@ from pathlib import Path
 import requests
 import yaml
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import site_facts  # noqa: E402
+
 OUT = Path("_data/sport_week.yml")
+
+# The same claims check the draft posts get (scripts/fact_check.py): check,
+# send the flagged lines back for correction, check again. Lines still wrong
+# after the last check are taken out; unconfirmed ones stay, flagged in the PR.
+SPORT_MAX_CHECKS = 3
 TZ_NOTE = "Irish time (Europe/Dublin)"
 
 SPORTS = ["GAA", "Rugby", "Football", "Golf", "Racing", "Boxing", "Cricket",
@@ -109,6 +123,16 @@ Rules:
   (RTÉ, Virgin Media One/Two, TG4, RTÉ Player, Virgin Media Play, TG4 Player).
 - Never mention VPNs, unofficial streams or anything unlicensed.
 - "sport" must be one of: {", ".join(SPORTS)}.
+- Use each competition's name exactly as the source gives it this year.
+  Competitions get renamed (Ireland's November rugby in 2026 is the Nations
+  Championship, not the Autumn Nations Series), so never fill a name in from
+  memory.
+- Always include Ireland's senior internationals in the window (men's and
+  women's football and rugby): check the FAI and IRFU fixture lists for every
+  day, including the days after Sunday.
+
+OUR CHECKED FACTS (checked on the rights holders' own pages; they win):
+{site_facts.facts_for_prompt()}
 
 Return ONLY a JSON object between <json> and </json> tags, no commentary:
 <json>
@@ -173,9 +197,11 @@ def call_claude(prompt):
     return "".join(text)
  
 
-def parse_events(raw, start, end):
+def parse_events(raw, start, end, fatal=True):
     m = re.search(r"<json>\s*(\{.*\})\s*</json>", raw, re.S) or re.search(r"(\{\s*\"events\".*\})", raw, re.S)
     if not m:
+        if not fatal:
+            raise ValueError("no JSON in the reply")
         sys.exit("No JSON found in the response:\n" + raw[:2000])
     events = json.loads(m.group(1)).get("events", [])
 
@@ -221,6 +247,137 @@ def parse_events(raw, start, end):
     return clean
 
 
+def revise_prompt(events, flagged, missing, start, end):
+    from fact_check import listing_lines, _claim_lines_sport
+    return f"""You compiled the "Sport on TV" listings below for an Irish website about
+LEGAL streaming ({start:%A %d %B %Y} to {end:%A %d %B %Y}, Irish time). A fact
+check flagged some lines and found big events that are missing.
+
+Fix them, using web search and web fetch on the Irish Times weekly TV guide,
+the broadcasters' own schedules and the governing bodies' fixture pages:
+- A line marked wrong: correct it as the note says, if a source you fetch
+  confirms the correction; otherwise leave the line out.
+- A line marked unconfirmed: confirm it and keep it, correct it, or leave it
+  out if no official source or Irish Times guide supports it.
+- A missing event: add it if you can confirm its date and Irish channel.
+- Keep every other line exactly as it is, with its source.
+Use competition names exactly as the source gives them. Never mention VPNs,
+unofficial streams or anything unlicensed. "free" is true only for RTÉ, Virgin
+Media One/Two, TG4 and their free apps. "sport" is one of: {", ".join(SPORTS)}.
+
+FLAGGED:
+{_claim_lines_sport(flagged)}
+
+MISSING:
+{chr(10).join(f"- {m['date']} {m['time']} {m['event']} ({m['competition']}) on {m['watch']} -- {m['source']}" for m in missing) or "(none)"}
+
+CURRENT LISTINGS:
+{listing_lines(events)}
+
+OUR CHECKED FACTS:
+{site_facts.facts_for_prompt()}
+
+Return the whole corrected list ONLY as a JSON object between <json> and
+</json> tags, in the same format as before:
+<json>
+{{"events": [
+  {{"date": "YYYY-MM-DD", "time": "HH:MM", "sport": "GAA",
+    "event": "Kilkenny v Galway", "competition": "Leinster Senior Hurling Championship",
+    "watch": "RTÉ 2 and RTÉ Player", "free": true,
+    "source": "https://... the page confirming the broadcaster"}}
+]}}
+</json>"""
+
+
+def build_social(week_label, events):
+    """X, WhatsApp and match-day drafts. Failure is non-fatal: {} means none."""
+    try:
+        from generate_social import generate_sport_social
+        return generate_sport_social(week_label, events)
+    except Exception as exc:
+        print(f"Sport social generation skipped: {exc}")
+        return {}
+
+
+def run_sport_check(events, social, start, end):
+    """One sport check, tried twice. None if both attempts fail."""
+    from fact_check import check_sport_week
+    for attempt in (1, 2):
+        try:
+            result = check_sport_week(events, social, start, end, irish_times_guides(start))
+            if result["claims"]:
+                return result
+            reason = "no claims came back"
+        except Exception as exc:
+            reason = " ".join(str(exc).split())[:150]
+        print(f"Sport check attempt {attempt} failed: {reason}")
+    return None
+
+
+def check_and_correct(events, week_label, start, end):
+    """Check, correct and check again (SPORT_MAX_CHECKS times at most).
+    Returns (events, social, PR section markdown)."""
+    from fact_check import format_markdown
+    basis = ("Checked against the Irish Times weekly TV guide, the broadcasters' own "
+             "schedules and the governing bodies' fixture pages.")
+    social = build_social(week_label, events)
+    result, first, checks = None, None, 0
+    for check_no in range(1, SPORT_MAX_CHECKS + 1):
+        result = run_sport_check(events, social, start, end)
+        if result is None:
+            break
+        checks = check_no
+        first = first or result["counts"]
+        flagged = [c for c in result["claims"] if c["status"] != "ok"]
+        print(f"Check {check_no}: {result['summary']} {len(result['missing'])} missing.")
+        if (not flagged and not result["missing"]) or check_no == SPORT_MAX_CHECKS:
+            break
+        try:
+            raw = call_claude(revise_prompt(events, flagged, result["missing"], start, end))
+            revised = parse_events(raw, start, end, fatal=False)
+        except Exception as exc:
+            print(f"Correction {check_no} failed: {exc}")
+            continue
+        if len(revised) < 3:
+            print(f"Correction {check_no} left only {len(revised)} events; keeping the previous list.")
+            continue
+        events = revised
+        social = build_social(week_label, events)
+        print(f"Correction {check_no} done: {len(events)} events.")
+
+    if result is None:
+        section = ("### 🔎 Fact check\n\n> ⚠️ **The fact check couldn't run this week.** "
+                   "Check every date, time, channel and competition name by hand (click each source link).")
+        return events, social, section
+
+    # Never publish a line the last check found wrong.
+    wrong_items = {c["item"] for c in result["claims"] if c["where"] == "listing" and c["status"] == "wrong"}
+    removed = [e for i, e in enumerate(events, 1) if i in wrong_items]
+    if removed:
+        events = [e for i, e in enumerate(events, 1) if i not in wrong_items]
+        for e in removed:
+            print(f"Removed (still wrong after {checks} checks): {e['event']}")
+        social = build_social(week_label, events)
+    claims = [c for c in result["claims"] if not (c["where"] == "listing" and c["status"] == "wrong")]
+
+    note = (f"Checked {checks} time{'s' if checks > 1 else ''}"
+            + (f"; the first check found {first['wrong']} wrong and {first['unconfirmed']} unconfirmed."
+               if checks > 1 else "."))
+    section = format_markdown(claims, note, basis)
+    if removed:
+        section += ("\n\n**Taken out (still wrong after the last check):**\n"
+                    + "\n".join(f"- {e['date']} {e['time']} {e['event']} ({e['competition']}), {e['watch']}"
+                                 for e in removed))
+    if result["missing"]:
+        section += ("\n\n**Possibly missing (add by hand if right):**\n"
+                    + "\n".join(f"- {m['date']} {m['time']} {m['event']} ({m['competition']}), "
+                                 f"{m['watch']}: {m['source']}" for m in result["missing"]))
+    if removed:
+        section += ("\n\nThe social drafts below were written after the corrections, so they "
+                    "weren't checked again: compare them with the listings.")
+    return events, social, section
+
+
 def main():
     start, end = week_range(sys.argv)
     print(f"Building sport listings for {start} to {end}")
@@ -228,6 +385,11 @@ def main():
     events = parse_events(raw, start, end)
     if len(events) < 3:
         sys.exit(f"Only {len(events)} usable events found; not overwriting {OUT}. Response was:\n{raw[:3000]}")
+
+    week_label = f"{start:%-d %b} to {end:%-d %b %Y}"
+    events, social, fact_section = check_and_correct(events, week_label, start, end)
+    if len(events) < 3:
+        sys.exit(f"Only {len(events)} events left after the fact check; not overwriting {OUT}.")
 
     data = {
         "week_start": start,
@@ -238,28 +400,17 @@ def main():
     OUT.write_text(HEADER + yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=200), encoding="utf-8")
     print(f"Wrote {len(events)} events to {OUT}")
 
-    week_label = f"{start:%-d %b} to {end:%-d %b %Y}"
-
+    from generate_social import write_multiline_output
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a", encoding="utf-8") as fh:
             fh.write(f"week_label={week_label}\n")
             fh.write(f"event_count={len(events)}\n")
-
-    # --- Social content generation ---
-    # Failure here is non-fatal: the sport guide PR still opens without social drafts.
-    try:
-        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-        from generate_social import generate_sport_social, write_multiline_output
-
-        social = generate_sport_social(week_label, events)
-        write_multiline_output(gh_out, "x_post", social.get("x_post", ""))
-        write_multiline_output(gh_out, "whatsapp_msg", social.get("whatsapp_msg", ""))
-        write_multiline_output(gh_out, "matchday_msg", social.get("matchday_msg", ""))
-        write_multiline_output(gh_out, "matchday_day", social.get("matchday_day", ""))
-        print("Sport social content generated.")
-    except Exception as exc:
-        print(f"Sport social generation skipped: {exc}")
+    write_multiline_output(gh_out, "fact_check", fact_section)
+    if not gh_out:
+        print(fact_section)
+    for key in ("x_post", "whatsapp_msg", "matchday_msg", "matchday_day"):
+        write_multiline_output(gh_out, key, social.get(key, ""))
 
 
 if __name__ == "__main__":
