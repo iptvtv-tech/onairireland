@@ -2,151 +2,119 @@
 # Written every Thursday by scripts/generate_sport_week.py (GitHub Action
 # "Weekly Sport Guide"), which opens a pull request for you to check.
 # Leave events empty to show the "coming soon" message.
-week_start: 2026-11-06
-week_end: 2026-11-12
-generated: 2026-11-05
+week_start: 2026-11-13
+week_end: 2026-11-19
+generated: 2026-11-12
 events:
-- date: 2026-11-06
-  time: 06:00
-  sport: Rugby
-  event: England v Ireland
-  competition: Wheelchair Rugby League World Cup
+- date: 2026-11-13
+  time: 06:15
+  sport: Other
+  event: Ireland v Australia (Third Place Play-off)
+  competition: Rugby League Wheelchair World Cup
   watch: Premier Sports 2
   free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-06
-  time: '20:10'
-  sport: Rugby
-  event: Ireland v Argentina
-  competition: Autumn Nations Championship
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-13
+  time: '13:30'
+  sport: Racing
+  event: Cheltenham (Day 1)
+  competition: Cheltenham November Meeting
   watch: Virgin Media One and UTV
   free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: 07:00
-  sport: Golf
-  event: Abu Dhabi Championship (3rd round)
-  competition: DP World Tour
-  watch: Sky Sports Golf
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '12:30'
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-13
+  time: '16:15'
   sport: Football
-  event: Leeds United v Tottenham Hotspur
-  competition: Premier League
-  watch: TNT Sports 1
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '14:10'
+  event: Finland U21 v Republic of Ireland U21 (first leg)
+  competition: UEFA European U21 Championship Play-off
+  watch: Virgin Media Two and Virgin Media Player
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-13
+  time: '20:10'
   sport: Rugby
-  event: Scotland v New Zealand
-  competition: Autumn Nations Championship
-  watch: UTV and Virgin Media One
+  event: France v South Africa
+  competition: Autumn Nations Series
+  watch: Virgin Media One and UTV
   free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '14:15'
-  sport: Motorsport
-  event: São Paulo Grand Prix - Qualifying
-  competition: Formula 1
-  watch: Sky Sports F1
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '15:00'
-  sport: Football
-  event: Arsenal v Hull City
-  competition: Premier League
-  watch: Premier Sports 1
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '17:30'
-  sport: Football
-  event: Nottingham Forest v Manchester City
-  competition: Premier League
-  watch: Sky Sports Premier League
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '19:15'
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '10:00'
+  sport: Other
+  event: Azerbaijan v Ireland
+  competition: Women's EuroBasket Qualifier
+  watch: TG4 and TG4 Player
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '13:30'
+  sport: Racing
+  event: Cheltenham (Day 2)
+  competition: Cheltenham November Meeting
+  watch: Virgin Media Two
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '16:45'
   sport: GAA
-  event: Gowna v Crossmaglen Rangers
-  competition: Ulster Senior Club Football Championship
-  watch: RTÉ 2
+  event: Cuala v Sarsfields
+  competition: Leinster Senior Football Championship (Club)
+  watch: RTÉ 2 and RTÉ Player
   free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-07
-  time: '20:00'
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '19:45'
   sport: Football
-  event: Valencia v Real Madrid
-  competition: La Liga
-  watch: Disney+
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
+  event: Austria v Republic of Ireland
+  competition: UEFA Nations League
+  watch: RTÉ 2 and RTÉ Player
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '20:10'
+  sport: Rugby
+  event: Ireland v Fiji
+  competition: Autumn Nations Series
+  watch: Virgin Media One and UTV
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-15
   time: 06:30
   sport: Golf
-  event: Abu Dhabi Championship (final round, Rory McIlroy)
-  competition: DP World Tour
+  event: DP World Tour Championship (Final Round)
+  competition: DP World Tour Championship, Dubai
   watch: Sky Sports Golf
   free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
-  time: '13:30'
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-15
+  time: '13:15'
   sport: GAA
-  event: Scotstown v O'Donovan Rossa
-  competition: Club Senior Football Championship
-  watch: TG4
+  event: Inagh Kilnamona v Thurles Sarsfields
+  competition: Munster Senior Hurling Championship semi-final (Club)
+  watch: TG4 and TG4 Player
   free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
-  time: '14:00'
-  sport: Football
-  event: Crystal Palace v Liverpool
-  competition: Premier League
-  watch: Sky Sports Main Event
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
-  time: '15:00'
-  sport: Football
-  event: Derry City v Waterford
-  competition: FAI Cup Final
-  watch: RTÉ 2
-  free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-15
   time: '15:10'
   sport: Rugby
-  event: England v Australia
-  competition: Autumn Nations Championship
-  watch: UTV and Virgin Media One
+  event: Scotland v Australia
+  competition: Autumn Nations Series
+  watch: Virgin Media One and UTV
   free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
-  time: '15:30'
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-15
+  time: '15:15'
   sport: GAA
-  event: Naas v Kilcormac-Killoughey
-  competition: Club Senior Hurling Championship
-  watch: TG4
+  event: Salthill Knocknacarra v St Brigid's
+  competition: Connacht Senior Football Championship semi-final (Club)
+  watch: TG4 and TG4 Player
   free: true
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
-  time: '15:30'
-  sport: Motorsport
-  event: São Paulo Grand Prix - Race
-  competition: Formula 1
-  watch: Sky Sports F1
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
-- date: 2026-11-08
-  time: '16:30'
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-17
+  time: '17:45'
   sport: Football
-  event: Manchester United v Aston Villa
-  competition: Premier League
-  watch: Sky Sports Premier League
-  free: false
-  source: https://www.irishtimes.com/sport/2026/11/01/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+  event: Republic of Ireland U21 v Finland U21 (second leg)
+  competition: UEFA European U21 Championship Play-off
+  watch: Virgin Media Two and Virgin Media Player
+  free: true
+  source: https://www.fai.ie/latest/ireland-mu21s-return-cork-play-clash-finland/
