@@ -34,7 +34,7 @@ events:
   time: '20:10'
   sport: Rugby
   event: France v South Africa
-  competition: Autumn Nations Series
+  competition: Nations Championship
   watch: Virgin Media One and UTV
   free: true
   source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
@@ -47,11 +47,43 @@ events:
   free: true
   source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-11-14
+  time: '11:40'
+  sport: Rugby
+  event: Italy v Argentina
+  competition: Nations Championship
+  watch: Virgin Media One and UTV
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '13:00'
+  sport: Other
+  event: Irish Open
+  competition: Badminton
+  watch: TG4
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
   time: '13:30'
   sport: Racing
   event: Cheltenham (Day 2)
   competition: Cheltenham November Meeting
   watch: Virgin Media Two
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '14:10'
+  sport: Rugby
+  event: Wales v New Zealand
+  competition: Nations Championship
+  watch: Virgin Media One and UTV
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-14
+  time: '16:40'
+  sport: Rugby
+  event: England v Japan
+  competition: Nations Championship
+  watch: Virgin Media One and UTV
   free: true
   source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-11-14
@@ -74,7 +106,7 @@ events:
   time: '20:10'
   sport: Rugby
   event: Ireland v Fiji
-  competition: Autumn Nations Series
+  competition: Nations Championship
   watch: Virgin Media One and UTV
   free: true
   source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
@@ -98,7 +130,7 @@ events:
   time: '15:10'
   sport: Rugby
   event: Scotland v Australia
-  competition: Autumn Nations Series
+  competition: Nations Championship
   watch: Virgin Media One and UTV
   free: true
   source: https://www.irishtimes.com/sport/2026/11/08/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
@@ -118,3 +150,11 @@ events:
   watch: Virgin Media Two and Virgin Media Player
   free: true
   source: https://www.fai.ie/latest/ireland-mu21s-return-cork-play-clash-finland/
+- date: 2026-11-17
+  time: '19:45'
+  sport: Football
+  event: Republic of Ireland v Kosovo
+  competition: UEFA Nations League
+  watch: RTÉ 2 and RTÉ Player
+  free: true
+  source: https://www.irishtimes.com/sport/soccer/2026/11/11/republic-of-ireland-v-austria-and-kosovo-match-details-team-news-and-whats-at-stake/
