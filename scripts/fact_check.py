@@ -23,6 +23,7 @@ import json
 import os
 import re
 import sys
+from html.parser import HTMLParser
 from urllib.parse import urlparse
 
 import requests
@@ -179,16 +180,108 @@ def build_prompt(post_text: str, social: dict = None) -> str:
     return prompt
 
 
-def call_claude(prompt: str, max_uses: int = 8) -> str:
-    """Run the checking conversation (following pause_turn) and return its text."""
+# Some official sites (fai.ie in Nov 2026) refuse the model's own web_fetch,
+# so an FAI-only fact could never be confirmed. For these hosts (governing
+# bodies and Irish free-to-air broadcasters) the model gets a second tool,
+# fetch_official_page, which this script runs itself: a plain request from the
+# GitHub runner, with the page's text handed back.
+OFFICIAL_FETCH_HOSTS = {"fai.ie", "irishrugby.ie", "gaa.ie",
+                        "rte.ie", "virginmediatelevision.ie", "virginmedia.ie", "tg4.ie"}
+OFFICIAL_FETCH_TOOL = {
+    "name": "fetch_official_page",
+    "description": ("Read a page on fai.ie, irishrugby.ie or gaa.ie (the FAI, IRFU and GAA's own "
+                    "sites) or rte.ie, virginmediatelevision.ie, virginmedia.ie or tg4.ie (the Irish "
+                    "free-to-air broadcasters) and get its text. Use it for fixture lists, "
+                    "announcements and TV schedules on those sites, above all when web_fetch fails "
+                    "on them. Other sites are refused."),
+    "input_schema": {"type": "object",
+                     "properties": {"url": {"type": "string", "description": "Full https:// address"}},
+                     "required": ["url"]},
+}
+OFFICIAL_FETCH_CHARS = 40000
+
+
+class _TextOnly(HTMLParser):
+    """Page text without scripts, styles and markup."""
+    SKIP = {"script", "style", "noscript", "svg", "template"}
+
+    def __init__(self):
+        super().__init__()
+        self.parts, self.skip = [], 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self.SKIP:
+            self.skip += 1
+        elif tag in ("p", "br", "li", "tr", "h1", "h2", "h3", "h4", "div", "section"):
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag):
+        if tag in self.SKIP and self.skip:
+            self.skip -= 1
+
+    def handle_data(self, data):
+        if not self.skip and data.strip():
+            self.parts.append(data.strip() + " ")
+
+
+def fetch_official_page(url: str) -> str:
+    """The text of an official page (OFFICIAL_FETCH_HOSTS), fetched from here. Raises ValueError
+    for any other site and for pages that won't load."""
+    url = str(url or "").strip()
+    host = (urlparse(url).hostname or "").lower()
+    if urlparse(url).scheme != "https" or not any(host == h or host.endswith("." + h)
+                                                  for h in OFFICIAL_FETCH_HOSTS):
+        raise ValueError("only https pages on " + ", ".join(sorted(OFFICIAL_FETCH_HOSTS))
+                         + " can be read with this tool")
+    resp = requests.get(url, timeout=30, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; OnAirIrelandFactCheck/1.0; +https://onairireland.ie)",
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-IE,en;q=0.9",
+    })
+    if not resp.ok:
+        raise ValueError(f"the page returned HTTP {resp.status_code}")
+    final = (urlparse(resp.url or url).hostname or "").lower()
+    if not any(final == h or final.endswith("." + h) for h in OFFICIAL_FETCH_HOSTS):
+        raise ValueError(f"the page redirected off the official site, to {final}")
+    parser = _TextOnly()
+    parser.feed(resp.text)
+    text = re.sub(r"[ \t]+", " ", "".join(parser.parts))
+    text = re.sub(r"\n\s*\n+", "\n", text).strip()
+    if not text:
+        raise ValueError("the page had no readable text (it may need a browser to load)")
+    return f"Page: {resp.url}\n\n{text[:OFFICIAL_FETCH_CHARS]}"
+
+
+def answer_official_fetches(content: list) -> list:
+    """tool_result blocks for every fetch_official_page call in a reply."""
+    results = []
+    for b in content:
+        if b.get("type") != "tool_use" or b.get("name") != OFFICIAL_FETCH_TOOL["name"]:
+            continue
+        url = (b.get("input") or {}).get("url", "")
+        try:
+            body, error = fetch_official_page(url), False
+            print(f"Official page read: {url}")
+        except Exception as exc:
+            body, error = f"Couldn't read {url}: {exc}", True
+            print(body)
+        results.append({"type": "tool_result", "tool_use_id": b["id"], "content": body, "is_error": error})
+    return results
+
+
+def call_claude(prompt: str, max_uses: int = 8, official_fetch: bool = False) -> str:
+    """Run the checking conversation (following pause_turn, and answering
+    fetch_official_page calls when official_fetch is on) and return its text."""
     tools = [
         {"type": "web_search_20250305", "name": "web_search", "max_uses": max_uses},
         {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": max_uses,
          "max_content_tokens": 30000},
     ]
+    if official_fetch:
+        tools.append(OFFICIAL_FETCH_TOOL)
     messages = [{"role": "user", "content": prompt}]
     text = []
-    for _ in range(5):
+    for _ in range(12):
         resp = requests.post(
             "https://api.anthropic.com/v1/messages",
             headers={
@@ -211,6 +304,10 @@ def call_claude(prompt: str, max_uses: int = 8) -> str:
         stop_reason = data.get("stop_reason")
         if stop_reason == "max_tokens":
             print("WARNING: the fact check hit max_tokens; its claims list may be cut short.")
+        if stop_reason == "tool_use" and official_fetch:
+            messages.append({"role": "assistant", "content": content})
+            messages.append({"role": "user", "content": answer_official_fetches(content)})
+            continue
         if stop_reason != "pause_turn":
             break
         messages.append({"role": "assistant", "content": content})
@@ -402,6 +499,10 @@ The second one may not be published yet.
    Irish channel. Check the FAI, IRFU and GAA fixture lists for the days after
    Sunday, which the guide usually doesn't cover yet.
 
+To read a page on fai.ie, irishrugby.ie, gaa.ie, rte.ie,
+virginmediatelevision.ie, virginmedia.ie or tg4.ie, use fetch_official_page if
+web_fetch fails or the page looks empty. Find the page with web_search first.
+
 Return ONLY a JSON object between <json> and </json> tags, no commentary:
 <json>
 {"claims": [
@@ -480,7 +581,7 @@ def check_sport_week(events: list, social: dict, start, end, guides: list) -> di
     prompt = SPORT_PROMPT
     for key, value in parts.items():
         prompt = prompt.replace(key, value)
-    raw = call_claude(prompt, max_uses=12)
+    raw = call_claude(prompt, max_uses=12, official_fetch=True)
     claims = enforce_sources(parse_claims(raw), SPORT_EXTRA_HOSTS)
     for c in claims:
         if c["where"] not in ("listing", "x", "whatsapp"):

@@ -103,6 +103,9 @@ with Irish times and the channels Irish viewers get.
    TG4, Premier Sports, Sky Sports, TNT Sports), GAA/IRFU/FAI fixture lists,
    club announcements for cup and European games. Midweek cup and European
    matches are easy to miss, so check them.
+   To read a page on fai.ie, irishrugby.ie, gaa.ie, rte.ie,
+   virginmediatelevision.ie, virginmedia.ie or tg4.ie, use fetch_official_page
+   if web_fetch fails or the page looks empty.
 
 Cover, where there is anything on: GAA (football, hurling, camogie, ladies
 football, club championships), Ireland rugby internationals, URC games with
@@ -152,9 +155,11 @@ def call_claude(prompt):
         {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": 10,
          "max_content_tokens": 30000},
     ]
+    from fact_check import OFFICIAL_FETCH_TOOL, answer_official_fetches
+    tools.append(OFFICIAL_FETCH_TOOL)
     messages = [{"role": "user", "content": prompt}]
     text = []
-    for _ in range(5):
+    for _ in range(12):
         resp = requests.post(
             "https://api.anthropic.com/v1/messages",
             headers={
@@ -189,6 +194,11 @@ def call_claude(prompt):
                 "If this keeps happening, raise max_tokens further or reduce "
                 "web_search / web_fetch max_uses."
             )
+        if stop_reason == "tool_use":
+            # fetch_official_page: this script reads the official page itself.
+            messages.append({"role": "assistant", "content": content})
+            messages.append({"role": "user", "content": answer_official_fetches(content)})
+            continue
         if stop_reason != "pause_turn":
             break
         # Long research turns pause; send the reply back so it can carry on.
@@ -254,7 +264,9 @@ LEGAL streaming ({start:%A %d %B %Y} to {end:%A %d %B %Y}, Irish time). A fact
 check flagged some lines and found big events that are missing.
 
 Fix them, using web search and web fetch on the Irish Times weekly TV guide,
-the broadcasters' own schedules and the governing bodies' fixture pages:
+the broadcasters' own schedules and the governing bodies' fixture pages (use
+fetch_official_page for fai.ie, irishrugby.ie, gaa.ie, rte.ie,
+virginmediatelevision.ie, virginmedia.ie and tg4.ie if web_fetch fails):
 - A line marked wrong: correct it as the note says, if a source you fetch
   confirms the correction; otherwise leave the line out.
 - A line marked unconfirmed: confirm it and keep it, correct it, or leave it
