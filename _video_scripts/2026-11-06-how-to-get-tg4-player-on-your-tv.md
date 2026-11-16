@@ -2,6 +2,8 @@
 
 _Generated 2026-11-06. Edit before recording._
 
+_The 6 Nov post was merged into [TG4 Player Not Working?](https://onairireland.ie/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/#getting-tg4-player-on-your-tv) on 16 Nov 2026. Link that page, and check the script against its "Getting TG4 Player on your TV" section._
+
 **Pillar:** Device Setup  
 **Angle:** Talk through the steps from the blog post: which devices support TG4 Player, how to install it, and what's available on the app.
 

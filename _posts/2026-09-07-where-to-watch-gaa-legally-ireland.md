@@ -49,6 +49,8 @@ faqs:
     answer: "GAA+ lists Roku, Amazon Fire TV, Apple TV, Google TV, LG TVs and Samsung TVs (2021 models on), plus iPhone and Android apps and a website. You can also cast from the phone app with Chromecast or AirPlay."
 ---
 
+{% include last-updated.html %}
+
 {% include affiliate-disclosure.html %}
 {% include share-buttons.html %}
 {% include quick-facts.html %}

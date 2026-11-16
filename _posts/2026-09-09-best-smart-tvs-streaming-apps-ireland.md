@@ -4,7 +4,7 @@ redirect_from:
   - /devices/lg-vs-samsung-whose-smart-tv-apps-stream-better/
 excerpt: "Samsung, LG, Google TV, Fire TV and VIDAA TVs compared: which Irish apps each has, how long updates last, and what to check before you buy."
 description: "Samsung, LG, Google TV, Fire TV and VIDAA TVs compared: which Irish apps each has, how long updates last, and what to check before you buy."
-last_updated: 2026-11-05
+last_updated: 2026-11-16
 last_checked: 2026-11-05
 categories:
   - Devices
@@ -35,9 +35,9 @@ faqs:
   - question: "Which smart TVs have RTÉ Player?"
     answer: "RTÉ Player has long been on Samsung (Tizen) and LG (webOS) TVs, and it has an Android TV app on Google Play, which covers Google TV and Android TV sets from Sony, TCL, Philips and others. Older or budget models can have a smaller app store, so check the app store on the exact model before you buy."
   - question: "Is Virgin Media Play on smart TVs?"
-    answer: "Virgin Media Television says its Virgin Media Play app is available for smart TVs, but its own pages don't list which brands. Search for it in the app store on the TV you're looking at, or ask the retailer to check on the display model."
+    answer: "Virgin Media Television's own device list doesn't include any smart TV brands, though the app's Google Play listing mentions smart TVs. Search for it in the app store on the TV you're looking at, or ask the retailer to check on the display model. If it isn't there, a Roku, an Apple TV or a Fire TV Stick running Fire OS has it."
   - question: "Which TVs have TG4 Player?"
-    answer: "TG4 says its smart TV app is on Samsung, Sony and LG TVs, and on Android TV and Google TV. Search for TG4 in the TV's app store to confirm it on your model."
+    answer: "TG4 launched a smart TV app for Samsung, Sony and LG TVs, Android TV and Google TV in 2021, but its help page still lists the smart TV and Android TV apps as coming soon. Search for TG4 in the TV's app store to confirm it on your model."
   - question: "How long will a smart TV keep getting updates?"
     answer: "It depends on the brand. Samsung says TVs from 2023 on get up to 7 years of free Tizen OS upgrades, depending on model and region. LG runs a webOS Re:New programme for some recent models. Google TV brands set their own policies, so ask the retailer or check the maker's support page."
   - question: "Do smart TVs pick up Saorview?"
@@ -47,6 +47,8 @@ faqs:
   - question: "Do I need a TV licence for a smart TV used only for streaming?"
     answer: "The TV licence depends on the equipment in your home. See our TV licence guide and An Post's TV licence page for the current rules."
 ---
+
+{% include last-updated.html %}
 
 {% include affiliate-disclosure.html %}
 {% include share-buttons.html %}
@@ -58,7 +60,7 @@ This guide covers the main smart TV platforms sold in Ireland, which Irish apps 
 
 ## The short answer
 
-- **Samsung (Tizen) and LG (webOS)** are the safest choices for Irish apps on the TV itself. Both have RTÉ Player, TG4 Player, NOW, Netflix and Disney+, and Samsung gives the clearest update promise.
+- **Samsung (Tizen) and LG (webOS)** both have RTÉ Player, NOW, Netflix and Disney+, and Samsung gives the clearest update promise. Check for TG4 Player and Virgin Media Play on the exact model.
 - **Google TV (Sony, TCL, Philips and others)** has the biggest app store and the RTÉ Player and TG4 Player TV apps.
 - **Fire TV built-in TVs** suit Amazon households and smaller rooms, but check whether the model runs Fire OS or Amazon's newer system.
 - **Hisense VIDAA** TVs are good value, but we couldn't confirm the Irish broadcaster apps on VIDAA, so check before you buy.
@@ -68,15 +70,15 @@ This guide covers the main smart TV platforms sold in Ireland, which Irish apps 
 
 ### Samsung (Tizen)
 
-Samsung runs its own Tizen system on its smart TVs. Samsung was the first TV brand to launch RTÉ Player on its smart TVs in Ireland, back in 2012, and RTÉ's own accessibility statement names Tizen among the TV platforms its apps support. TG4 says its smart TV app is on Samsung TVs. NOW works on Samsung TVs from 2016 on with Tizen 2.4 or later, and Disney+ and Netflix are on Tizen too. Samsung's own Irish page also highlights Samsung TV Plus, its free ad-supported channels.
+Samsung runs its own Tizen system on its smart TVs. Samsung was the first TV brand to launch RTÉ Player on its smart TVs in Ireland, back in 2012, and RTÉ's own accessibility statement names Tizen among the TV platforms its apps support. TG4 launched a smart TV app for Samsung TVs in 2021, but its help page still lists the smart TV app as coming soon, so search for TG4 on the model you're looking at. NOW works on Samsung TVs from 2016 on with Tizen 2.4 or later (not the Serif range), and Disney+ and Netflix are on Tizen too. Samsung's own Irish page also highlights Samsung TV Plus, its free ad-supported channels.
 
-Virgin Media Television says its app is available for smart TVs without listing brands. See our guide to [setting up Virgin Media Player on a Samsung smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/), and check the Samsung app store on the model you're looking at.
+Virgin Media Television's own device list doesn't include Samsung TVs. See our guide to [setting up Virgin Media Player on a Samsung smart TV](/installation-guides/how-to-set-up-virgin-media-player-on-a-samsung-smart-tv/), and check the Samsung app store on the model you're looking at.
 
-**Updates:** Samsung's Irish site says TVs released from 2023 on get free Tizen OS upgrades for up to 7 years from launch, depending on model and region. A 2024 TV, for example, gets upgrades until 2030. That's the clearest promise of any brand here.
+**Updates:** Samsung says TVs released from 2023 on get free Tizen OS upgrades for up to 7 years from launch, depending on model and region. A 2024 TV, for example, gets upgrades until 2030. That's the clearest promise of any brand here.
 
 ### LG (webOS)
 
-LG uses its own webOS system, which many people find easy to get around. RTÉ's accessibility statement names webOS among its supported TV platforms, and TG4 says its smart TV app is on LG TVs. NOW works on LG TVs from 2018 on with webOS 3.5 or later (the older NetCast TVs are no longer supported), and Disney+ and Netflix are on webOS.
+LG uses its own webOS system, which many people find easy to get around. RTÉ's accessibility statement names webOS among its supported TV platforms. TG4's 2021 smart TV app launch included LG, but as with Samsung, check for TG4 in the LG Content Store. NOW works on LG TVs from 2018 on with webOS 3.5 or later (the older NetCast TVs are no longer supported), and Disney+ and Netflix are on webOS.
 
 As with Samsung, Virgin Media doesn't list TV brands for its app, so search for it in the LG Content Store on the model you want. Our [guide to setting up NOW on a Samsung or LG smart TV](/installation-guides/how-to-set-up-now-on-a-samsung-or-lg-smart-tv/) walks through sign-in.
 
@@ -86,7 +88,7 @@ As with Samsung, Virgin Media doesn't list TV brands for its app, so search for 
 
 Google TV is Google's TV system, and Android TV is the older version it replaced. Sony has used Android TV since 2015 and began moving to Google TV in 2021. NOW's Irish help page lists Sony, TCL, Philips, Panasonic, Sharp, Hitachi, Toshiba, JVC and other brands among its Android TV and Google TV sets, as long as they run Android 8.0 or later (Sony from 2016 on).
 
-For Irish apps, RTÉ has an Android TV version of RTÉ Player on Google Play, and TG4 says its app is on Android TV and Google TV. Netflix says it's available on Sony and Hisense Google TVs, and Disney+ lists Android TV devices. Virgin Media Play's Google Play listing mentions "smart TV" but doesn't name Google TV, so search for it on the TV.
+For Irish apps, RTÉ has an Android TV version of RTÉ Player on Google Play, and TG4 launched its app for Android TV and Google TV in 2021. Netflix says it's available on Sony and Hisense Google TVs, and Disney+ lists Android TV devices. Virgin Media Play's Google Play listing mentions "smart TV" but doesn't name Google TV, so search for it on the TV.
 
 Google TV also has Google Cast built in, so you can send videos from apps on your phone to the TV.
 
@@ -116,7 +118,7 @@ Based on the app providers' and TV makers' own pages, checked in November 2026. 
 |---|---|---|---|---|---|
 | RTÉ Player | Yes | Yes | Yes | Yes | Check |
 | Virgin Media Play | Check | Check | Check | Yes | Check |
-| TG4 Player | Yes | Yes | Yes | Yes | Check |
+| TG4 Player | Check | Check | Yes | Yes | Check |
 | NOW | Yes (2016 on) | Yes (2018 on) | Yes (Android 8.0 on) | Check | Yes (VIDAA 6.0 on) |
 | Netflix | Yes | Yes | Yes | Yes | Yes |
 | Disney+ | Yes | Yes | Yes | Yes | Yes |
@@ -155,6 +157,8 @@ Our [streaming devices guide](/devices/best-streaming-devices-ireland/) covers w
 {% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k" title="Streaming Devices That Work on Any TV" %}
 
 If you're after a small second TV with apps built in, the {% include product-link.html id="smart_tvs_2" text="LG 32-inch webOS smart TV" %} and the Xiaomi TV F 32 above are two options. Check the current price on Amazon.
+
+Sources: [NOW Ireland: which smart TVs can I use?](https://www.nowtv.com/ie/help/article/what-smart-tvs-can-i-use-to-watch) (checked 16 November 2026) · [NOW Ireland: watching on an Android TV](https://www.nowtv.com/ie/help/article/android-tv) (checked 16 November 2026) · [RTÉ: accessibility statement for its digital services](https://about.rte.ie/accessibility-statement-for-rtes-digital-services) (checked 16 November 2026) · [Samsung Ireland: first TV brand to launch RTÉ Player](https://www.samsung.com/ie/news/local/samsung-partners-with-rte-digital-to-become-the-first-tv-brand-to-launch-rte-player-on-smart-tv/) (July 2012) · [Samsung: One UI Tizen OS upgrades](https://www.samsung.com/uk/tvs/smart-tv/apps/) (checked 16 November 2026) · [LG: webOS Re:New](https://www.lgnewsroom.com/2024/01/more-lg-smart-tv-owners-set-to-enjoy-the-latest-webos-upgrade-making-their-tvs-feel-brand-new) (January 2024) · [TG4: smart TV app launch](https://www.tg4.ie/en/information/press/press-releases/2021-2/tg4-launches-new-smart-tv-app/) (February 2021) · [TG4: frequently asked questions](https://www.tg4.ie/en/information/faq/) (checked 16 November 2026) · [Virgin Media Play FAQ](https://www.virginmediatelevision.ie/player-faq) (checked 10 November 2026) · [Virgin Media Play on Google Play](https://play.google.com/store/apps/details?id=com.axonista.threeplayer) (checked 10 November 2026) · [Sony: Google TV or Android TV?](https://www.sony.ie/electronics/support/articles/00200248) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html)
 
 {% include faq-section.html %}
 

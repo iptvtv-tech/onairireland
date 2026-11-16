@@ -72,7 +72,7 @@ TG4 Player is free, with no subscription. According to [TG4's FAQ](https://www.t
 - **How long things stay:** Irish-language programmes stay for 35 days after they're shown, rights permitting.
 - **Outside Ireland:** most programmes can be watched worldwide. Anything marked **[é]** can only be watched in Ireland.
 
-You can watch in a browser or the TG4 Player app on iPhone, iPad and Android. For TVs, see [getting TG4 Player on your TV](/installation-guides/how-to-get-tg4-player-on-your-tv/). For more on the service, see [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/), and if it won't play, [TG4 Player not working](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/).
+You can watch in a browser or the TG4 Player app on iPhone, iPad and Android. For more on the service, see [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/). To get it on your TV, or if it won't play, see [TG4 Player not working: fixes and getting it on your TV](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/).
 
 Sources: [TG4 Player: CRÁ series 2, episode 1](https://www.tg4.ie/en/player/BC-6407652850112) (checked 10 November 2026) · [TG4 Player: An Cailín Ciúin](https://www.tg4.ie/en/player/an-cailin-ciuin) (checked 10 November 2026) · [TG4 Player: Ceol 1798](https://www.tg4.ie/en/player/ceol-1798) (checked 10 November 2026) · [TG4 Player: Fíorscéal](https://www.tg4.ie/en/player/fiorsceal) (checked 10 November 2026) · [TG4 Player: Laochra Gael](https://www.tg4.ie/en/player/BC-6387948453112) (checked 10 November 2026) · [TG4 frequently asked questions](https://www.tg4.ie/en/information/faq/) (checked 10 November 2026)
 

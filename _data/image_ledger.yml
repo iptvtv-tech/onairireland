@@ -115,22 +115,6 @@ cards:
   created: '2026-11-02'
   used_in:
   - 2026-11-02-rte-player-vs-bbc-iplayer-what-can-you-actually-access-in-ireland.md
-- id: card-how-to-get-tg4-player-on-your-tv
-  files:
-    hero: /assets/images/posts/how-to-get-tg4-player-on-your-tv-hero.webp
-    teaser: /assets/images/posts/how-to-get-tg4-player-on-your-tv-teaser.webp
-    og: /assets/images/posts/how-to-get-tg4-player-on-your-tv-og.jpg
-    hero_small: /assets/images/posts/how-to-get-tg4-player-on-your-tv-hero-800.webp
-  fingerprint: trio|m|Installation-Guides|indoor-aerial,mesh-wifi,smart-tv
-  layout: trio-mirrored
-  palette: Installation-Guides
-  icons:
-  - smart-tv
-  - mesh-wifi
-  - indoor-aerial
-  created: '2026-11-06'
-  used_in:
-  - 2026-11-06-how-to-get-tg4-player-on-your-tv.md
 - id: card-black-friday-christmas-streaming-device-guide-ireland
   files:
     hero: /assets/images/posts/black-friday-christmas-streaming-device-guide-ireland-hero.webp

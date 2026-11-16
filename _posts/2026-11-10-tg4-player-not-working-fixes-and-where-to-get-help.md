@@ -1,8 +1,10 @@
 ---
 title: "TG4 Player Not Working? Fixes and Where to Get Help"
-excerpt: "TG4 Player won't load, says a programme isn't available, or keeps buffering? Simple fixes from TG4's own help pages, and who to contact."
-description: "TG4 Player won't load, says a programme isn't available, or keeps buffering? Simple fixes from TG4's own help pages, and who to contact."
-last_updated: 2026-11-10
+excerpt: "TG4 Player won't load, keeps buffering or isn't on your TV? Fixes from TG4's own help pages, how to get it on a smart TV, and who to contact."
+description: "TG4 Player won't load, keeps buffering or isn't on your TV? Fixes from TG4's own help pages, how to get it on a smart TV, and who to contact."
+redirect_from:
+  - /installation-guides/how-to-get-tg4-player-on-your-tv/
+last_updated: 2026-11-16
 last_checked: 2026-11-10
 categories:
   - Troubleshooting
@@ -23,6 +25,10 @@ faqs:
     answer: "TG4 says Irish-language programmes are available for 35 days after they're shown, rights permitting."
   - question: "What broadband speed does TG4 Player need?"
     answer: "TG4 streams at between 250 kbit/s and 1.2 Mbit/s and recommends 1 Mbit/s for good quality, which almost any home broadband can manage. Buffering usually points to the Wi-Fi in the room rather than the broadband itself."
+  - question: "Is TG4 Player part of RTÉ Player?"
+    answer: "No. TG4 and RTÉ are separate broadcasters with separate apps. For TG4's live channel and catch-up, use the TG4 Player app or tg4.ie."
+  - question: "How do I get TG4 Player on my TV?"
+    answer: "Search for TG4 in your TV's or streaming stick's app store. There's a TG4 app for Apple TV, which needs tvOS 26 or later. If your TV doesn't have it, cast from the TG4 Player app on your phone, or use a streaming stick that carries it."
   - question: "Who do I contact about a TG4 Player problem?"
     answer: "Email webmaster@tg4.ie with your device, your browser or app version, your operating system and what went wrong."
 ---
@@ -31,7 +37,7 @@ faqs:
 
 {% include share-buttons.html %}
 
-Most TG4 Player problems come down to a few causes: a programme that can't be streamed where you are, an older browser, the app not being allowed to check your location, or weak Wi-Fi. Work through the section that matches what you're seeing. Everything here comes from TG4's own help pages.
+Most TG4 Player problems come down to a few causes: a programme that can't be streamed where you are, an older browser, the app not being allowed to check your location, or weak Wi-Fi. If the app isn't on your TV, see [getting TG4 Player on your TV](#getting-tg4-player-on-your-tv). Work through the section that matches what you're seeing. Everything here comes from TG4's own pages.
 
 ## "This programme isn't available"
 
@@ -80,9 +86,21 @@ Live programmes are recorded in parts that play one after another, and each part
 
 Use the **cc** button in the player's controls to turn optional subtitles on or off. Irish-language subtitles may also be available. Some older programmes have subtitles burnt into the picture, and those can't be switched off.
 
-## Can't find TG4 Player on your TV
+## Getting TG4 Player on your TV
 
-TG4's own help page still lists smart TV, Apple TV and Android TV apps as "coming soon", though there is a TG4 app for Apple TV in the App Store. App lists change, so check your TV's or streaming stick's app store first. Our guide to [getting TG4 Player on your TV](/installation-guides/how-to-get-tg4-player-on-your-tv/) covers the options, including casting from a phone.
+TG4 Player is TG4's own app, separate from RTÉ Player, so you won't find TG4 inside RTÉ Player. On a TV, search for TG4 in the app store:
+
+- **Smart TVs:** TG4 launched a smart TV app for Samsung, Sony and LG TVs, Android TV and Google TV in 2021, but its help page still lists the smart TV and Android TV apps as "coming soon". Search for TG4 in your TV's app store to see whether your model has it.
+- **Apple TV:** there's a TG4 app in the App Store, and it needs tvOS 26 or later.
+- **Fire TV:** search for TG4 in the Amazon Appstore. Amazon's newest sticks run its Vega OS, and we couldn't confirm TG4 Player on those.
+
+If your TV doesn't have the app, cast it from your phone or tablet:
+
+1. Open the TG4 Player app, or tg4.ie in a browser.
+2. Start the programme or the live channel.
+3. Tap the cast icon, if the app shows one, and pick your TV or streaming stick.
+
+Casting depends on the app version and your TV or stick. If there's no cast option, a streaming stick that carries TG4 Player is the simplest fix. Our [streaming devices guide](/devices/best-streaming-devices-ireland/) shows which sticks have the Irish apps.
 
 If you just want to watch TG4 live, it's also on Saorview channel 4, Sky 104 and Virgin Media 104.
 
@@ -97,7 +115,7 @@ For streaming and playback problems, TG4's contact is **webmaster@tg4.ie**. Incl
 
 **Other fixes:** [RTÉ Player not working](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) · [Virgin Media Play not working](/troubleshooting/virgin-media-player-login-issues-explained/) · [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/)
 
-Source: [TG4's frequently asked questions](https://www.tg4.ie/en/information/faq/) (last updated by TG4 in May 2026).
+Sources: [TG4: frequently asked questions](https://www.tg4.ie/en/information/faq/) (last updated by TG4 in May 2026) · [TG4: smart TV app launch](https://www.tg4.ie/en/information/press/press-releases/2021-2/tg4-launches-new-smart-tv-app/) (February 2021) · [App Store: TG4 Player](https://apps.apple.com/gb/app/tg4-player/id598591024)
 
 {% include faq-section.html %}
 

@@ -34,6 +34,8 @@ faqs:
     answer: "An Post collects the TV licence fee. You can buy or renew a licence on its official site, tvlicence.ie, or at any post office."
 ---
 
+{% include last-updated.html %}
+
 {% include quick-facts.html %}
 {% include share-buttons.html %}
 If you've cut the cord entirely and only stream over the internet, this is one of the most common questions we get — and the answer surprises a lot of people: if there's a TV set in the house, you almost certainly need a licence.

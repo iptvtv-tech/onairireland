@@ -50,6 +50,8 @@ faqs:
     answer: "A TV licence depends on the equipment in your home, not on which device you stream with. See our TV licence guide and An Post's TV licence page for the current rules."
 ---
 
+{% include last-updated.html %}
+
 {% include affiliate-disclosure.html %}
 {% include share-buttons.html %}
 {% include quick-facts.html %}
