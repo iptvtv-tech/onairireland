@@ -274,8 +274,10 @@ def call_claude(prompt: str, max_uses: int = 8, official_fetch: bool = False) ->
     fetch_official_page calls when official_fetch is on) and return its text."""
     tools = [
         {"type": "web_search_20250305", "name": "web_search", "max_uses": max_uses},
+        # DAZN's affiliate terms forbid scraping its sites, so automated runs
+        # never fetch dazn.com; DAZN claims are confirmed from our checked facts.
         {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": max_uses,
-         "max_content_tokens": 30000},
+         "max_content_tokens": 30000, "blocked_domains": ["dazn.com"]},
     ]
     if official_fetch:
         tools.append(OFFICIAL_FETCH_TOOL)

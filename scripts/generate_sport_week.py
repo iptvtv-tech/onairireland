@@ -107,10 +107,12 @@ with Irish times and the channels Irish viewers get.
    virginmediatelevision.ie, virginmedia.ie or tg4.ie, use fetch_official_page
    if web_fetch fails or the page looks empty.
 5. DAZN (boxing and Serie A), which the Irish Times guide rarely lists:
-   - Boxing: the week's headline DAZN fight night, if there is one, from
-     DAZN's own schedule (https://www.dazn.com/en-IE/welcome lists upcoming
-     fights) or the promoter's site. Only big cards (world titles, Irish
-     fighters, pay-per-views); at most two a week.
+   - Boxing: the week's headline fight night on DAZN, if there is one, from
+     the Irish Times guide or the promoter's own site (Matchroom, Queensberry,
+     Top Rank, Golden Boy and others), which names DAZN as the broadcaster.
+     Don't fetch dazn.com pages (DAZN's affiliate terms forbid scraping its
+     sites). Only big cards (world titles, Irish fighters, pay-per-views); at
+     most two a week.
    - Serie A: at most two of the week's biggest games (for example games
      between top-six clubs), with the date and kick-off from Lega Serie A
      (legaseriea.it; its times are Italian time, so take off one hour for Irish
@@ -166,8 +168,9 @@ def call_claude(prompt):
     """Run the research conversation (following pause_turn) and return all its text."""
     tools = [
         {"type": "web_search_20250305", "name": "web_search", "max_uses": 15},
+        # DAZN's affiliate terms forbid scraping its sites: never fetch dazn.com.
         {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": 10,
-         "max_content_tokens": 30000},
+         "max_content_tokens": 30000, "blocked_domains": ["dazn.com"]},
     ]
     from fact_check import OFFICIAL_FETCH_TOOL, answer_official_fetches
     tools.append(OFFICIAL_FETCH_TOOL)
