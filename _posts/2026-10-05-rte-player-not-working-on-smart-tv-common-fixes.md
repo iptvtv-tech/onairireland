@@ -92,6 +92,8 @@ If nothing else works, delete RTÉ Player and install it again from the app stor
 
 Check RTÉ's own channels for an outage, since a problem at RTÉ's end affects everyone at once. To report a fault, use the help and contact options in the RTÉ Player app or on the RTÉ Player website.
 
+Sources: [About your RTÉ Account](https://www.rte.ie/id/about) · [RTÉ Player on the App Store](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073)
+
 **Other fixes:** [TG4 Player not working](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/) · [Virgin Media Play not working](/troubleshooting/virgin-media-player-login-issues-explained/) · [Setting up RTÉ Player on Fire TV](/installation-guides/how-to-set-up-rte-player-fire-tv/)
 
 {% include faq-section.html %}

@@ -59,6 +59,8 @@ Streaming apps like RTÉ Player don't ask you to prove you have a licence, and a
 
 If you're at all unsure about your specific setup, [An Post's TV licence page](https://www.anpost.com/Government-Services/TV-Licence) and [Citizens Information](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/) are the authoritative sources to confirm — this guide is a starting point, not a legal ruling on your situation.
 
+Sources: [tvlicence.ie (An Post)](https://tvlicence.ie/) · [An Post: TV Licence](https://www.anpost.com/Government-Services/TV-Licence) · [Citizens Information: TV licences](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/)
+
 {% include faq-section.html %}
 
 **Related guides:** [What Is Saorview and Do You Need It If You Stream?](/installation-guides/what-is-saorview-and-do-you-need-it-if-you-stream/) · [Sky Stream vs NOW: Which Is Right for You in Ireland?](/streaming-services/sky-stream-vs-now-ireland/)

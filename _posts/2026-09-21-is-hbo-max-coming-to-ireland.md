@@ -143,6 +143,8 @@ It depends on what you already pay for:
 
 Want to see how it fits into your monthly bill? Try the [streaming cost calculator](/streaming-cost-calculator/).
 
+Sources: [HBO Max Ireland](https://www.hbomax.com/ie/en) · [HBO Max help: supported devices](https://help.hbomax.com/ie-en/Answer/Detail/000002506) · [Warner Bros. Discovery: HBO Max launch in the UK and Ireland](https://press.wbd.com/us/media-release/hbo-max-launch-uk-ireland-thursday-march-26) · [Sky Ireland: Ultimate TV](https://www.sky.com/ie/tv/ultimate-tv-package) · [Sky Ireland: HBO Max](https://www.sky.com/ie/tv/apps/hbo-max) · [NOW Ireland: memberships](https://www.nowtv.com/ie/membership)
+
 **Related guides:** [Where to Watch A Knight of the Seven Kingdoms in Ireland](/watch-guides/where-to-watch-a-knight-of-the-seven-kingdoms-in-ireland/) · [Where to Watch House of the Dragon Season 3 in Ireland](/watch-guides/where-to-watch-house-of-the-dragon-season-3-in-ireland/) · [Sky Stream vs NOW in Ireland](/streaming-services/sky-stream-vs-now-ireland/)
 
 {% include faq-section.html %}

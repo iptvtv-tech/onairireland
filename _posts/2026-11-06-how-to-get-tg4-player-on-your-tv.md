@@ -1,5 +1,6 @@
 ---
 title: How to Get TG4 Player on Your TV
+last_updated: 2026-11-16
 excerpt: A guide to getting TG4 Player on your TV, checking device compatibility with TG4, casting options, and whether TG4 is on RTÉ Player.
 description: A guide to getting TG4 Player on your TV, checking device compatibility with TG4, casting options, and whether TG4 is on RTÉ Player.
 categories:
@@ -22,7 +23,7 @@ faqs:
 - question: Can I watch TG4 Player outside Ireland?
   answer: Availability outside Ireland depends on TG4's own rights and app settings, so check TG4's own help pages or contact its support team for details on your specific situation.
 - question: Does TG4 Player show GAA and Ladies football live?
-  answer: TG4 shows live GAA coverage including Allianz League games, and it is the exclusive free-to-air broadcaster of every senior Ladies football championship game in the All-Ireland series under a deal running until 2029.
+  answer: TG4 shows live GAA coverage including Allianz League games, and it is the exclusive free-to-air broadcaster of every senior Ladies football championship game in the All-Ireland series under a deal running until 2032.
 - question: What do I do if TG4 Player isn't listed on my TV's app store?
   answer: Check TG4's own supported-device list for the latest app availability, and if it's not supported, try casting from the TG4 Player app on your phone or tablet instead.
 ---
@@ -62,7 +63,7 @@ TG4's own sources aren't consistent on whether an Android TV app is currently li
 
 ## Setting up TG4 Player on Apple TV
 
-TG4's own sources aren't consistent on whether a dedicated Apple TV app is currently live, so check TG4's website or its Apple App Store listing for the current status. If no app is available when you check, casting from an iPhone or iPad (below) is the alternative.
+There's a TG4 app for Apple TV in the App Store, and it needs tvOS 26 or later, even though TG4's own help page still lists the Apple TV app as coming soon. Search for TG4 in the App Store on your Apple TV. On an older Apple TV that can't update, casting from an iPhone or iPad (below) is the alternative.
 
 ## Casting TG4 Player from a phone or tablet
 
@@ -79,6 +80,8 @@ Casting support and exactly how it works depends on the app version and your TV 
 TG4 Player streams over your home broadband, so a stable connection matters more than which device you choose. If your TV sits far from your router, a dual-band or mesh system such as a {% include product-link.html id="mesh-wifi-system" text="mesh Wi-Fi kit" %} can help keep playback steady, especially if other devices in the house are also streaming at the same time.
 
 If you're connecting a streaming box or games console to your TV for the first time, a solid, well-rated cable such as a {% include product-link.html id="hdmi-cable-4k" text="certified HDMI 2.1 cable" %} avoids picture dropouts that are sometimes mistaken for an app or broadband problem. And if your streaming devices and leads are piling up behind the TV, {% include product-link.html id="cable-management-clips" text="cable clips" %} and a {% include product-link.html id="surge-protected-extension" text="surge-protected extension lead" %} can keep things tidy and safe.
+
+Sources: [TG4: frequently asked questions](https://www.tg4.ie/en/information/faq/) · [App Store: TG4 Player](https://apps.apple.com/gb/app/tg4-player/id598591024) · [TG4: Allianz Leagues coverage](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-unveils-extensive-allianz-leagues-coverage/) · [TG4: Ladies football championships to 2032](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/) · [Citizens Information: TV licences](https://www.citizensinformation.ie/en/consumer/phone-internet-tv-and-postal-services/tv-licences/)
 
 {% include product-showcase.html category="Installation Guides" %}
 

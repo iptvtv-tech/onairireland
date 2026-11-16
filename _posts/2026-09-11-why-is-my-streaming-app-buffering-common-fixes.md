@@ -1,6 +1,7 @@
 ---
 title: "Why Is My Streaming App Buffering? Common Fixes"
-last_updated: 2026-11-10
+last_updated: 2026-11-16
+last_checked: 2026-11-16
 redirect_from:
   - /troubleshooting/apple-tv-plus-keeps-buffering-try-these-fixes/
   - /troubleshooting/why-does-now-keep-buffering-on-smart-tvs/
@@ -24,7 +25,7 @@ draft_generated: true
 affiliate_links: true
 faqs:
   - question: "What internet speed do I need for smooth streaming?"
-    answer: "Requirements vary by service and video quality, but HD generally needs a moderate broadband speed while 4K needs considerably more; check your specific streaming app's official recommendations for exact figures."
+    answer: "It depends on the service and the picture quality. Netflix recommends 3 Mbps for HD, 5 Mbps for Full HD and 15 Mbps for 4K, NOW needs at least 2.5 Mbps, and GAA+ asks for 25 Mbps for live games. The figures are per stream, so add them up for everyone watching at once."
   - question: "Does the position of my router really affect streaming quality?"
     answer: "Yes, router placement significantly affects Wi-Fi signal strength, and walls, distance, and obstructions can all contribute to buffering even when your broadband plan itself is fast."
   - question: "Is a wired connection always better than Wi-Fi for streaming?"
@@ -41,13 +42,17 @@ faqs:
 
 ## Why Is My Streaming App Buffering? Common Fixes
 
-Buffering is one of the most frustrating parts of streaming, especially when you've settled in for the evening with a licensed service like RTÉ Player, Sky Stream, Virgin Media TV, or a subscription app such as Netflix or Disney+. The good news is that most buffering problems come down to a handful of common causes, and many are easy to fix yourself before you need to contact your provider.
+Buffering usually comes down to one of four things: broadband that's too slow for the picture quality, weak Wi-Fi where the TV is, other devices using the connection at the same time, or a problem with the app or the service itself. Work through the checks below in order; most can be fixed at home before you need to contact your provider.
 
 ### Check Your Broadband Speed First
 
-Streaming quality depends heavily on your broadband connection. As a rough guide, standard-definition streaming typically needs a few Mbps, HD content is generally more comfortable at around 10–15 Mbps, and 4K streaming usually wants considerably more, often 25 Mbps or higher. These figures vary by service, so it's worth checking the specific app's help pages for exact recommendations, as I don't want to state numbers that may have changed.
+Each service publishes the speed it needs for one stream:
 
-Run a speed test using your phone or laptop connected to the same network as your streaming device. If your speeds are well below what your plan promises, contact your broadband provider, as there may be a line fault or network congestion in your area.
+- **Netflix:** 3 Mbps or more for HD (720p), 5 Mbps for Full HD (1080p) and 15 Mbps for 4K.
+- **NOW:** at least 2.5 Mbps on Wi-Fi or broadband.
+- **GAA+:** 25 Mbps for live games, so two people watching at once need 50 Mbps between them.
+
+Add up the streams running in your house at busy times, then test your speed on the same Wi-Fi as the TV. Netflix's help page suggests [Fast.com](https://fast.com/) on a phone, tablet or computer, and on a TV the Netflix app has a network check under Get Help. If the result is well below what your broadband plan promises, contact your broadband provider, as there may be a line fault or congestion in your area.
 
 ### Wi-Fi Placement Matters More Than You'd Think
 
@@ -90,6 +95,8 @@ If one service buffers or freezes while the others play smoothly:
 ### A Simple Process of Elimination
 
 When troubleshooting, it helps to change one thing at a time. Test your speed, then try moving closer to the router, then try a wired connection, then try a different app. This step-by-step approach makes it much easier to pinpoint whether the fault lies with your broadband, your home Wi-Fi setup, or the streaming service itself, rather than guessing at fixes.
+
+Sources: [Netflix: recommended internet speeds](https://help.netflix.com/en/node/306) (checked 16 November 2026) · [NOW Ireland: fix slow loading or buffering](https://www.nowtv.com/ie/help/article/fix-slow-loading-buffering) (updated 24 September 2026, checked 16 November 2026) · [GAA+: internet requirements](https://help.gaaplus.ie/support/solutions/articles/77000579015-internet-requirements) (updated 25 February 2025, checked 16 November 2026)
 
 **Related guides:** [RTÉ Player fixes](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) · [NOW Streaming Stick Review: Is It Better Than Using a Smart TV App?](/reviews/now-streaming-stick-review-is-it-better-than-using-a-smart-tv-app/)
 

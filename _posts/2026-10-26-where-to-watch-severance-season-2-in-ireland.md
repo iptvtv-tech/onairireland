@@ -68,6 +68,8 @@ Whichever device you choose, make sure it's signed in to an Apple account set to
 
 Because Severance leans on dense dialogue and visual detail, a stable connection makes a noticeable difference to the viewing experience. If episodes are buffering or dropping quality, it's worth checking your broadband speed and router placement before assuming the issue lies with Apple TV itself.
 
+Sources: [Apple TV Press: Severance renewed for a third season](https://www.apple.com/tv-pr/news/2025/03/praise-kier-apples-global-hit-emmy-and-peabody-award-winning-workplace-thriller-severance-lands-season-three-renewal/) (21 March 2025, checked 16 November 2026) · [Apple TV Ireland](https://www.apple.com/ie/apple-tv/) · [Apple One Ireland](https://www.apple.com/ie/apple-one/)
+
 {% include faq-section.html %}
 
 {% include related-posts.html %}

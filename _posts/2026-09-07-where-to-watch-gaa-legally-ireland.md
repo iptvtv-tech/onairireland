@@ -178,6 +178,8 @@ The 2027 fixtures, TV picks and GAA+ prices hadn't been published when we last c
 - If a game isn't listed on RTÉ or TG4, it's probably on GAA+.
 - Open the app, sign in and install any updates the day before.
 
+Sources: [GAA: broadcast deals 2023–2027](https://www.gaa.ie/news/gaa-broadcast-statement-2023-2027) · [RTÉ: the GAA championships on RTÉ](https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte) · [GAA: 2026 GAA+ season pass](https://www.gaa.ie/article/gaa-launches-2026-season-pass) · [GAA+ help: from GAAGO to GAA+](https://help.gaaplus.ie/support/solutions/articles/77000578937-gaago-to-gaa-transition) · [GAA+ help: where GAA+ is available](https://help.gaaplus.ie/support/solutions/articles/77000579274-what-countries-is-gaa-available-in-) · [GAA+ packages](https://www.gaaplus.ie/packages) · [TG4: Allianz Leagues coverage](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-unveils-extensive-allianz-leagues-coverage/) · [TG4: Ladies football championships to 2032](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/)
+
 **Related guides:** [All our GAA guides](/gaa/)
 
 {% include product-showcase.html category="Devices" title="Get Set Up for the GAA Season" %}

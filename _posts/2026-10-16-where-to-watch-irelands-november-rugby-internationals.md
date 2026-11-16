@@ -2,7 +2,7 @@
 title: Where to Watch Ireland's November Rugby Internationals
 excerpt: Every Ireland rugby international this November is free on Virgin Media Television. The fixtures, channels and how to stream them at home.
 description: Every Ireland rugby international this November is free on Virgin Media Television. The fixtures, channels and how to stream them at home.
-last_updated: 2026-10-22
+last_updated: 2026-11-16
 categories:
 - Sports-Streaming
 tags:
@@ -53,15 +53,6 @@ Dates are from the [IRFU's fixture announcement](https://www.irishrugby.ie/2026/
 
 Virgin Media's deal covers the Nations Championship in 2026 and 2028, and the Summer and Autumn Nations Series in the years between, so every major Ireland international in the summer and autumn is free-to-air on Virgin Media Television until 2029.
 
-## How to Check the Confirmed Details
-
-Before finalising travel, pub bookings, or a night in, check these primary sources directly:
-
-- **Virgin Media Television's sport section**: channels, kick-off times and Virgin Media Play streaming details.
-- **IRFU.ie** — the Irish Rugby Football Union typically lists the official fixture list with broadcaster credits once rights are finalised.
-
-These two sources should align, but the IRFU site is usually the most reliable for confirming dates and kick-off times, since broadcasters sometimes finalise exact start times (especially for evening fixtures) later than the fixture list itself.
-
 ## Streaming on Virgin Media Play
 
 Virgin Media Television streams its channels live on Virgin Media Play, which is free to use in Ireland, though you may need to create a free account. It's on most smart TVs, streaming sticks, phones and tablets, and on the web. Install it from your device's Irish app store; an app from a UK or US store account may not work.
@@ -74,17 +65,13 @@ For households juggling multiple devices into one television — a set-top box, 
 
 ## If You See a "Not Available in Your Region" Message
 
-Occasionally viewers encounter an error suggesting content isn't available in their area, even while physically in Ireland. This is almost always down to one of a few legitimate causes:
-
-- Your app store or streaming account is still registered to a non-Irish region from a previous address or device setup.
-- Your home broadband router is using a non-Irish DNS server assigned by an old configuration.
-- The broadcaster's app hasn't yet been updated with the correct schedule.
-
-The fix in each case is to check your account's registered country in the app settings, confirm your device's App Store or Play Store region matches Ireland, and restart your router if problems persist. If none of that resolves it, Virgin Media Television's help pages cover these account-region issues.
+Occasionally viewers see a message saying content isn't available in their area, even though they're in Ireland. The usual cause is an app store or account still set to another country from a previous address or device setup. Check the country on your account in the app's settings, and make sure your device's App Store or Play Store region is Ireland. If that doesn't fix it, Virgin Media Television's help pages cover account and region issues.
 
 ## Before You Settle In
 
-Given how often rights deals get finalised late, check Virgin Media Television and IRFU.ie in the days before each fixture for the final confirmed broadcaster, date, and kick-off time, rather than relying on last year's pattern. Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
+
+Sources: [IRFU: Ireland's Nations Championship fixtures](https://www.irishrugby.ie/2026/03/11/ireland-set-for-thrilling-nations-championship-fixtures-in-november/) · [Irish Times: Ireland's fixture dates and kick-off times](https://www.irishtimes.com/sport/rugby/2026/05/15/irelands-fixture-dates-and-times-for-nations-championship-revealed/) · [Virgin Media Television: home of the Nations Championship](https://www.virginmedia.ie/about-us/press/2026/virgin-media-televisions-home-for-the-nations-championship/)
 
 {% include product-showcase.html category="Sports Streaming" %}
 

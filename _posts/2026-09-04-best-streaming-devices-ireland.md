@@ -166,6 +166,8 @@ Most recent smart TVs from Samsung, LG and the Google TV brands already carry RT
 
 Stick to official retailers, such as [Harvey Norman](https://www.harveynorman.ie/), [Currys](https://www.currys.ie/), [DID Electrical](https://www.did.ie/), [Power City](https://www.powercity.ie/), Amazon, or the manufacturer's own store, so you get the full warranty and genuine hardware. Check the product listing names the model and operating system you want, especially for Fire TV sticks.
 
+Sources: [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) · [Roku Channel Store: Virgin Media Play](https://channelstore.roku.com/details/bf33320850b76363ffa4f36a0df887ef/virgin-media-play) · [Amazon: Fire TV device specifications](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) · [App Store: RTÉ Player](https://apps.apple.com/ie/app/rt%C3%A9-player/id484129073) · [App Store: Virgin Media Play](https://apps.apple.com/ie/app/id602597705) · [App Store: TG4 Player](https://apps.apple.com/gb/app/tg4-player/id598591024) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs)
+
 **Related guides:** [How to Set Up RTÉ Player on Fire TV](/installation-guides/how-to-set-up-rte-player-fire-tv/) · [Do You Need a TV Licence to Stream in Ireland?](/streaming-services/tv-licence-streaming-ireland/)
 
 {% include faq-section.html %}
