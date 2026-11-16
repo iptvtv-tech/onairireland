@@ -2,9 +2,9 @@
 title: "How We Make Money"
 permalink: /how-we-make-money/
 layout: single
-description: "How On Air Ireland is funded: Amazon affiliate links, what we never take money for, and how we choose the products and services we cover."
+description: "How On Air Ireland is funded: Amazon and DAZN affiliate links, what we never take money for, and how we choose what we cover."
 excerpt: "How On Air Ireland is funded, and what we never take money for."
-last_updated: 2026-11-10
+last_updated: 2026-11-16
 seo:
   type: WebPage
 header:
@@ -19,9 +19,12 @@ On Air Ireland is free to read. This page explains how the site pays for itself,
 
 ## Affiliate links
 
-Our only income today is the **Amazon Associates Programme**. When a guide links to a product on Amazon and you buy through that link, we may earn a small commission. You pay the same price either way. As an Amazon Associate we earn from qualifying purchases.
+Our income comes from two affiliate programmes. You pay the same price either way.
 
-We've applied to join the Awin affiliate network, so we can link to Irish retailers and TV and streaming providers as well as Amazon. We'll name any partner on this page once it's active.
+- **Amazon Associates Programme.** When a guide links to a product on Amazon and you buy through that link, we may earn a small commission. As an Amazon Associate we earn from qualifying purchases.
+- **DAZN, through the Awin affiliate network.** When a guide links to DAZN and you subscribe through that link, we may earn a commission from DAZN. It's the only streaming service that pays us today.
+
+We've also applied to other Irish retailers and TV providers on Awin. We'll name each one here once it's active.
 
 Posts that contain affiliate links say so at the top, each affiliate link in the text is followed by "(paid link)", and product cards carry a short disclosure line. Affiliate links are also marked so search engines know they are paid links.
 

@@ -60,6 +60,16 @@ NOW:
     - https://www.nowtv.com/ie/membership/sports/watch-sky-sports
     - https://www.nowtv.com/ie/membership/sports/watch-sports-extra
 
+DAZN:
+  source_name: DAZN
+  domains: [dazn.com]
+  start_urls:
+    - https://www.dazn.com/en-IE/welcome
+  # DAZN shows Irish prices only inside its sign-up flow (loaded by script),
+  # so the automatic checker can't read them. Check by hand: dazn.com/signup
+  # from an Irish connection, then each plan's "Continue" page.
+  skip: true
+
 GAA+:
   source_name: GAA
   domains: [gaa.ie, gaaplus.ie]

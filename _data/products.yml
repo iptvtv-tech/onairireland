@@ -23,6 +23,7 @@
 #   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
 #   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
 #   blurb         - one short sentence on why it's worth considering
+#   retailer      - optional; who the link goes to (default Amazon). Used for button text, e.g. "Check price on DAZN".
 #   affiliate_link - TODO: replace with your real Amazon Associates (or other) tracking link
 
 - id: fire-tv-stick-4k
@@ -401,3 +402,13 @@
   image: "/assets/images/products/smart-tv.svg"
   blurb: "A 32-inch Xiaomi smart TV with the main streaming apps built in — a simple option for a bedroom or kitchen."
   affiliate_link: "https://amzn.to/3Tdso6z"
+
+- id: dazn
+  name: "DAZN"
+  category: "Streaming Services"
+  show_on: []
+  retailer: "DAZN"
+  image: "/assets/images/products/smart-tv.svg"
+  badge: "Boxing and more"
+  blurb: "185+ boxing fights a year, with pay-per-views included on Ultimate. Sign up on DAZN's Irish site; prices are in our tracker."
+  affiliate_link: "https://www.awin1.com/cread.php?awinmid=126269&awinaffid=3124119&ued=https%3A%2F%2Fwww.dazn.com%2Fen-IE%2Fwelcome"

@@ -17,7 +17,7 @@ toc: false
 
 {% include affiliate-disclosure.html %}
 
-<p class="catalog-intro" id="catalog-top">A running list of the devices and accessories we actually recommend in our guides, all in one place so you don't have to dig through individual posts. Prices change often, so click through to see the live price before buying.</p>
+<p class="catalog-intro" id="catalog-top">A running list of the devices, accessories and services we link to in our guides, all in one place so you don't have to dig through individual posts. Prices change often, so click through to see the live price before buying.</p>
 
 <div class="shop-catalog">
 {% assign grouped = site.data.products | group_by: "category" %}
@@ -47,7 +47,7 @@ toc: false
             <p class="shop-card__blurb">{{ product.blurb }}</p>
             <div class="shop-card__footer">
               {% if site.show_prices %}<span class="shop-card__price">{{ product.price }}</span>{% endif %}
-              <a href="{{ product.affiliate_link }}" target="_blank" rel="nofollow sponsored noopener" class="shop-card__buy-btn">Check price on Amazon</a>
+              <a href="{{ product.affiliate_link }}" target="_blank" rel="nofollow sponsored noopener" class="shop-card__buy-btn">Check price on {{ product.retailer | default: "Amazon" }}</a>
             </div>
           </div>
         </div>

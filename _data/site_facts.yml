@@ -211,3 +211,20 @@
     - https://apps.apple.com/gb/app/tg4-player/id598591024
     - https://store.google.com/ie/product/google_tv_streamer_specs
   checked: 2026-11-06
+
+- topic: DAZN
+  facts:
+    - DAZN sells two main plans in Ireland, Standard and Ultimate. Prices are in the tracker.
+    - DAZN Standard comes as a rolling monthly Flex plan or a 12-month contract, paid monthly or upfront. Pay-per-view events cost extra.
+    - DAZN Ultimate is a 12-month contract only, paid monthly or upfront, and includes at least 12 pay-per-view events a year.
+    - DAZN says both plans include 185+ boxing fights a year from promoters including Matchroom, Queensberry, Top Rank and Golden Boy.
+    - DAZN Ultimate adds HDR and Dolby 5.1 sound on selected events, and highlights from LALIGA, Serie A, the Bundesliga and the Saudi Pro League.
+    - DAZN also sells separate subscriptions in Ireland for NFL Game Pass, the NHL, FIBA basketball, US college sport and WRC and ERC rally.
+    - DAZN has a free tier in Ireland with highlights, some NFL action, FIFA+ matches and a free US college game each week.
+    - DAZN lists apps for Samsung, LG, Sony, Panasonic and Hisense TVs, Fire TV, Roku, Chromecast, Android TV, Apple devices, PlayStation 5 and Xbox.
+    # DAZN's Irish sign-up page also claims Standard has "exclusive live coverage of every UEFA Champions League" match. That contradicts the Champions League entry above, so don't use it.
+  guide: /sports-streaming/is-dazn-available-in-ireland/
+  source:
+    - https://www.dazn.com/en-IE/welcome
+    - https://www.dazn.com/en-IE/help/articles/16184063399709-DAZN-plans-and-pricing
+  checked: 2026-11-16

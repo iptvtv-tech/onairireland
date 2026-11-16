@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """Check affiliate links in posts and pages.
 
-Posts must link to Amazon only through the product-link include, which reads
+Posts must link to Amazon and Awin partners (e.g. DAZN) only through the product-link include, which reads
 the address from _data/products.yml and always adds rel="nofollow sponsored
 noopener":
 
     {% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %}
 
 This script fails when:
-  - a post contains a raw Amazon link (Markdown or HTML) instead of the include
+  - a post contains a raw Amazon or Awin link (Markdown or HTML) instead of the include
   - an include uses an id that is not in _data/products.yml
-  - a page has a raw Amazon link without rel="sponsored"
+  - a page has a raw Amazon or Awin link without rel="sponsored"
   - a post with affiliate links is missing the affiliate disclosure include
 """
 from pathlib import Path
@@ -25,11 +25,11 @@ PAGES = ROOT / "_pages"
 PRODUCTS = ROOT / "_data" / "products.yml"
 
 MARKDOWN_LINK = re.compile(
-    r"\[[^\]\n]+\]\((https?://(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.[a-z.]+)[^\s)]*)\)(\s*\{:[^}]*\})?",
+    r"\[[^\]\n]+\]\((https?://(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.[a-z.]+|(?:www\.)?awin1\.com)[^\s)]*)\)(\s*\{:[^}]*\})?",
     re.I,
 )
 HTML_ANCHOR = re.compile(
-    r"<a\b[^>]*href=[\"'](https?://(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.[a-z.]+)[^\"']*)[\"'][^>]*>",
+    r"<a\b[^>]*href=[\"'](https?://(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.[a-z.]+|(?:www\.)?awin1\.com)[^\"']*)[\"'][^>]*>",
     re.I | re.S,
 )
 PRODUCT_LINK = re.compile(r"\{%-?\s*include\s+product-link\.html\s+([^%]*?)-?%\}")
@@ -75,11 +75,11 @@ for directory in (POSTS, PAGES):
             raw_links += 1
             if is_post:
                 errors.append(
-                    f"{relative}: raw Amazon link {url}; add the product to _data/products.yml "
+                    f"{relative}: raw affiliate link {url}; add the product to _data/products.yml "
                     f"and use {{% include product-link.html id=\"...\" text=\"...\" %}}"
                 )
             elif not has_sponsored(attributes):
-                errors.append(f"{relative}: Amazon link missing rel=\"sponsored\": {url}")
+                errors.append(f"{relative}: affiliate link missing rel=\"sponsored\": {url}")
 
         if found:
             files_with_links += 1

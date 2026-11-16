@@ -52,6 +52,7 @@ Schedules change, especially for GAA and when broadcasters swap games at short n
 - [Rugby: every competition and where it's shown](/rugby/)
 - [United Rugby Championship]({% post_url 2026-09-16-where-to-watch-the-united-rugby-championship-legally-in-ireland %}) and [Six Nations]({% post_url 2026-09-11-how-to-watch-six-nations-rugby-legally-in-ireland %})
 - [World Darts Championship]({% post_url 2026-10-21-where-to-watch-the-world-darts-championship-in-ireland %})
+- [Boxing, NFL and NHL on DAZN: prices and plans]({% post_url 2026-11-16-is-dazn-available-in-ireland %})
 - [All sports streaming guides](/sports-streaming/)
 
 {% if site.whatsapp_channel_url and site.whatsapp_channel_url != "" %}

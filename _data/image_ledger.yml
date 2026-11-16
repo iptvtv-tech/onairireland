@@ -179,6 +179,22 @@ cards:
   created: '2026-11-10'
   used_in:
   - _posts/2026-11-10-tg4-player-not-working-fixes-and-where-to-get-help.md
+- id: card-is-dazn-available-in-ireland
+  files:
+    hero: /assets/images/posts/is-dazn-available-in-ireland-hero.webp
+    teaser: /assets/images/posts/is-dazn-available-in-ireland-teaser.webp
+    og: /assets/images/posts/is-dazn-available-in-ireland-og.jpg
+    hero_small: /assets/images/posts/is-dazn-available-in-ireland-hero-800.webp
+  fingerprint: feature|s|Sports-Streaming|headphones,smart-tv,streaming-stick
+  layout: feature
+  palette: Sports-Streaming
+  icons:
+  - smart-tv
+  - streaming-stick
+  - headphones
+  created: '2026-11-16'
+  used_in:
+  - 2026-11-16-is-dazn-available-in-ireland.md
 photos:
 - id: photo-where-to-watch-the-champions-cup-rugby-in-ireland
   source: pexels

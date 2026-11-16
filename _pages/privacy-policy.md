@@ -6,7 +6,7 @@ description: "On Air Ireland's privacy policy — what data we collect, how it's
 excerpt: "What we collect, why, and your rights."
 seo:
   type: WebPage
-last_updated: 2026-11-11
+last_updated: 2026-11-16
 ---
 
 {% include last-updated.html %}
@@ -25,7 +25,7 @@ The data controller for personal data collected through On Air Ireland is **John
 
 **Analytics data** — if you accept analytics in the consent banner, we load Google Analytics and GoatCounter to understand general site use, including which pages and links are useful. Neither analytics tool is loaded if you decline. Google Analytics uses cookies; GoatCounter is configured for cookie-free page-view and event counting. See the provider policies linked below for details.
 
-**Affiliate link clicks** — when you click a product link on this site, the retailer (e.g. Amazon) may track that click to credit us with a referral commission if you purchase. This tracking is handled by the retailer's own systems, not by us directly — see their own privacy policies for details on what they collect.
+**Affiliate link clicks** — when you click a product or subscription link on this site, the retailer (e.g. Amazon) or the affiliate network (Awin, for partners such as DAZN) may track that click to credit us with a commission if you buy or subscribe. This tracking is handled by their own systems, not by us directly — see their own privacy policies for details on what they collect.
 
 ## Cookies
 
@@ -49,7 +49,8 @@ Some of the services we use (Google and GitHub) are based in the United States, 
 - **Brevo** (Sendinblue SAS, France) — stores newsletter subscribers and sends our emails. See [Brevo's privacy policy](https://www.brevo.com/legal/privacypolicy/) for how they handle data.
 - **Google Analytics** — website analytics. See [Google's privacy policy](https://policies.google.com/privacy) for details.
 - **GoatCounter** — cookie-free analytics, loaded only after analytics consent. See [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy) for details.
-- **Amazon Associates and other affiliate programmes** — product links on this site are affiliate links. See the retailer's own privacy policy for their data practices.
+- **Amazon Associates** — Amazon product links on this site are affiliate links. See Amazon's own privacy policy for its data practices.
+- **Awin** (Awin AG, Germany) — the affiliate network behind our DAZN links. When you follow one, Awin records the click so the sale can be credited to us. See [Awin's privacy policy](https://www.awin.com/gb/privacy).
 - **GitHub Pages** — this site is hosted on GitHub Pages, which may log standard server access data (IP address, browser type) as part of normal web hosting.
 
 ## Your Rights Under GDPR

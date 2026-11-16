@@ -14,7 +14,7 @@
     <div class="product-card__footer">
       {% if site.show_prices %}<span class="product-card__price">{{ product.price }}</span>{% endif %}
       <a href="{{ product.affiliate_link }}" class="product-card__cta" rel="nofollow sponsored noopener" target="_blank">
-        Check price on Amazon →
+        Check price on {{ product.retailer | default: "Amazon" }} →
       </a>
     </div>
   </div>

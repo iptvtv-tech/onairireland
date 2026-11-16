@@ -163,6 +163,32 @@
   url: https://www.nowtv.com/ie/membership/sports/watch-sports-extra
   group: sport
   combinable: true
+- service: DAZN
+  plan: Standard (Flex)
+  monthly: 25.99
+  note: Rolling monthly, cancel anytime. Pay-per-view events cost extra
+  checked: 2026-11-16
+  source: DAZN (prices shown at sign-up)
+  url: https://www.dazn.com/en-IE/welcome
+  group: sport
+- service: DAZN
+  plan: Standard (12-month contract)
+  monthly: 15.99
+  yearly: 119.99
+  note: 12-month contract, paid monthly or €119.99 upfront. Pay-per-view events cost extra
+  checked: 2026-11-16
+  source: DAZN (prices shown at sign-up)
+  url: https://www.dazn.com/en-IE/welcome
+  group: sport
+- service: DAZN
+  plan: Ultimate (12-month contract)
+  monthly: 24.99
+  yearly: 249.99
+  note: 12-month contract, paid monthly or €249.99 upfront. At least 12 pay-per-view events a year included
+  checked: 2026-11-16
+  source: DAZN (prices shown at sign-up)
+  url: https://www.dazn.com/en-IE/welcome
+  group: sport
 - service: RTÉ Player
   plan: Free
   monthly: 0

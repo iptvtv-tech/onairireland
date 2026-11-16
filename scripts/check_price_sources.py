@@ -12,7 +12,7 @@ APPROVED_HOSTS = {
     "tv.apple.com", "apple.com", "help.hbomax.com", "hbomax.com",
     "paramountplus.com", "support.paramountplus.com", "hayu.com", "support.hayu.com",
     "nowtv.com", "gaa.ie", "rte.ie", "virginmediatelevision.ie", "tg4.ie",
-    "citizensinformation.ie", "tvlicence.ie",
+    "citizensinformation.ie", "tvlicence.ie", "dazn.com",
 }
 
 def is_approved(host: str) -> bool:
