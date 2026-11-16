@@ -17,7 +17,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
 - question: Is any Formula 1 shown free-to-air in Ireland?
   answer: Not live. Sky Sports has exclusive Formula 1 rights in the UK and Ireland until 2034, so every live session is on Sky Sports or NOW.
@@ -30,8 +30,6 @@ faqs:
 ---
 
 {% include last-updated.html %}
-
-{% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
@@ -66,8 +64,6 @@ F1 TV is Formula 1's own streaming service, with onboard cameras, team radio and
 Not live. Sky's announcement of the 2034 extension mentions free-to-air races and highlights for viewers in the UK only.
 
 Sources: [Sky Sports: home of F1 until 2034](https://www.skysports.com/f1/news/12433/13540672/sky-sports-to-remain-home-of-formula-1-until-2034-after-five-year-extension-to-exclusive-uk-and-ireland-deal) · [Formula 1: 2026 calendar](https://www.formula1.com/en/racing/2026) · [Formula 1: what is F1 TV Pro](https://www.formula1.com/en/page/what-is-f1-tv-pro) · [NOW Ireland sports memberships](https://www.nowtv.com/ie/membership/sports)
-
-{% include product-showcase.html category="Sports Streaming" %}
 
 {% include faq-section.html %}
 

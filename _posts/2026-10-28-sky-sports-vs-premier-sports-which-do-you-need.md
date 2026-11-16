@@ -1,5 +1,6 @@
 ---
 title: 'Sky Sports vs Premier Sports: Which Do You Need?'
+last_updated: 2026-11-16
 redirect_from:
   - /streaming-services/sky-sports-explained-more-live-streams-at-no-extra-cost/
 excerpt: A clear comparison of Sky Sports and Premier Sports coverage to help Irish fans pick the right subscription for their favourite competitions.
@@ -17,7 +18,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
 - question: "Do Sky Sports and Premier Sports both show the Premier League?"
   answer: "Yes. Sky Sports shows most live Premier League games in Ireland, and Premier Sports has an exclusive Saturday 3pm game every round, which is only shown in Ireland. TNT Sports has a smaller package of games."
@@ -32,8 +33,6 @@ faqs:
 ---
 
 {% include last-updated.html %}
-
-{% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
@@ -85,19 +84,11 @@ If you'd rather have a TV package, Sky, Virgin Media and Vodafone carry Sky Spor
 
 If you only follow one or two of these, pick the service that carries them. If you follow several, compare the cost of both memberships with the Sports Saver bundle, and review your subscriptions every few months so you're not paying for one you've stopped using.
 
-## Making Sure Your Setup Can Handle Both
-
-If you're planning to run both services, perhaps through a mix of a smart TV app, a streaming stick and a set-top box, it helps to have your hardware sorted rather than juggling inputs mid-match. A {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} can let you connect multiple streaming devices to a single HDMI port on an older TV without constantly swapping cables, which is handy if your sports setup has grown over the years.
-
-Free-to-air TV still matters for sport too: RTÉ, Virgin Media and TG4 all show big games free on Saorview. If your household relies on those channels, a reliable {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} keeps that side of your setup solid, separate from whatever subscriptions you pay for.
-
 ## Checking Regional Availability Properly
 
 If an app says content isn't available in your region, it usually comes down to account settings. Make sure your Sky, NOW or TV provider account address and billing details show that you're in Ireland, and that you've downloaded the app from the correct regional app store listing for your device. If a mismatch persists, contacting the provider's support team directly is the quickest way to get it corrected, since they can see account-level details you can't adjust yourself.
 
 Sources: [Premier League: broadcasters in Ireland 2025–31](https://www.premierleague.com/en/news/3703577) · [Premier Sports Ireland: football](https://premiersportsireland.com/uk-football) · [Premier Sports Ireland: rugby](https://premiersportsireland.com/rugby) · [Sky Sports: home of F1 until 2034](https://www.skysports.com/f1/news/12433/13540672/sky-sports-to-remain-home-of-formula-1-until-2034-after-five-year-extension-to-exclusive-uk-and-ireland-deal) · [Sky Sports: Ryder Cup and DP World Tour until 2029](https://www.skysports.com/golf/news/12176/13469780/sky-sports-to-remain-home-of-ryder-cup-and-dp-world-tour-until-2029-under-new-rights-extension) · [Irish Examiner: the 2027 Ryder Cup on TV](https://www.irishexaminer.com/sport/golf/arid-41908933.html) · [SVG Europe: Sky and the PDC until 2030](https://www.svgeurope.org/blog/headlines/sky-extends-partnership-with-the-pdc-to-remain-the-home-of-darts-until-2030/) · [Irish Times: Premier Sports keep Champions League rights to 2031](https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/) · [RTÉ: Champions League rights 2027–2031](https://about.rte.ie/2026/05/01/rte-secures-uefa-champions-league-rights-from-2027-2031/) · [Sportcal: Virgin Media keeps Champions League rights for 2026/27](https://www.sportcal.com/media/virgin-media-retains-ucl-rights-in-ireland-through-2026-27/) · [Advanced Television: every Champions Cup game on Premier Sports](https://www.advanced-television.com/2025/07/15/premier-sports-to-show-every-investec-champions-cup-fixture/) · [IRFU: TG4 and the URC](https://www.irishrugby.ie/2025/04/17/tg4-become-exclusive-free-to-air-broadcaster-of-bkt-united-rugby-championship-in-ireland) · [LaLiga: UK and Ireland broadcast deals](https://www.laliga.com/en-GB/news/laliga-announces-landmark-broadcast-deals-with-premier-sports-and-disney-in-the-uk-and-ireland) · [NOW Ireland: Sky Sports membership](https://www.nowtv.com/ie/membership/sports/watch-sky-sports) · [NOW Ireland: Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) · [IRFU: Six Nations free-to-air until 2029](https://www.irishrugby.ie/2025/09/02/free-to-air-six-nations-coverage-confirmed-until-2029) · [Virgin Media Television: home of the Nations Championship](https://www.virginmedia.ie/about-us/press/2026/virgin-media-televisions-home-for-the-nations-championship/)
-
-{% include product-showcase.html category="Sports Streaming" %}
 
 {% include faq-section.html %}
 

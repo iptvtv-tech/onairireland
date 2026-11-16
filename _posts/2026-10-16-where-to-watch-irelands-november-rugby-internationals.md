@@ -17,7 +17,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
 - question: Will all of Ireland's November 2026 internationals be free-to-air?
   answer: Yes. Virgin Media Television is the exclusive free-to-air broadcaster of the 2026 Nations Championship in Ireland, including all of Ireland's November games.
@@ -30,8 +30,6 @@ faqs:
 ---
 
 {% include last-updated.html %}
-
-{% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
@@ -57,12 +55,6 @@ Virgin Media's deal covers the Nations Championship in 2026 and 2028, and the Su
 
 Virgin Media Television streams its channels live on Virgin Media Play, which is free to use in Ireland, though you may need to create a free account. It's on most smart TVs, streaming sticks, phones and tablets, and on the web. Install it from your device's Irish app store; an app from a UK or US store account may not work.
 
-## Getting a Reliable Signal at Home
-
-A surprising number of "match not loading" complaints on test days come down to ordinary connectivity or hardware issues rather than rights or app problems. If you're relying on standard Saorview or cable for the free-to-air broadcast, a weak aerial signal can cause pixelation exactly when a match kicks off and demand spikes. Homes in fringe reception areas sometimes benefit from upgrading to a dedicated {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} rather than troubleshooting an ageing indoor unit mid-match.
-
-For households juggling multiple devices into one television — a set-top box, a streaming stick, and a games console, for example — a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} can save you from crawling behind the TV to swap cables before kick-off.
-
 ## If You See a "Not Available in Your Region" Message
 
 Occasionally viewers see a message saying content isn't available in their area, even though they're in Ireland. The usual cause is an app store or account still set to another country from a previous address or device setup. Check the country on your account in the app's settings, and make sure your device's App Store or Play Store region is Ireland. If that doesn't fix it, Virgin Media Television's help pages cover account and region issues.
@@ -72,8 +64,6 @@ Occasionally viewers see a message saying content isn't available in their area,
 Our [sport on TV this week](/sport-on-tv/) page lists the week's big games and where to watch them.
 
 Sources: [IRFU: Ireland's Nations Championship fixtures](https://www.irishrugby.ie/2026/03/11/ireland-set-for-thrilling-nations-championship-fixtures-in-november/) · [Irish Times: Ireland's fixture dates and kick-off times](https://www.irishtimes.com/sport/rugby/2026/05/15/irelands-fixture-dates-and-times-for-nations-championship-revealed/) · [Virgin Media Television: home of the Nations Championship](https://www.virginmedia.ie/about-us/press/2026/virgin-media-televisions-home-for-the-nations-championship/)
-
-{% include product-showcase.html category="Sports Streaming" %}
 
 {% include faq-section.html %}
 

@@ -16,7 +16,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 last_updated: 2026-11-10
 last_checked: 2026-11-10
 faqs:
@@ -29,8 +29,6 @@ faqs:
 ---
 
 {% include last-updated.html %}
-
-{% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
@@ -53,9 +51,9 @@ Sharon Horgan created and stars in the dark comedy-drama about five sisters, alo
 1. Subscribe to Apple TV at [apple.com/ie/apple-tv](https://www.apple.com/ie/apple-tv/) or in the Apple TV app, with an Apple Account set to Ireland.
 2. Open the Apple TV app on your TV, phone, tablet or computer and search for Bad Sisters.
 
-You don't need Apple hardware. Apple lists the [Apple TV app on Fire TV, Android TV and many smart TVs](https://support.apple.com/en-us/102472), as well as Roku, Google TV and PlayStation. One catch outside the US: you can't sign up or buy in the app on Fire TV, Android TV or Sony TVs, so subscribe on the web or another device first, then sign in.
+You don't need Apple hardware. Apple lists the [Apple TV app on Fire TV, Android TV and many smart TVs](https://support.apple.com/en-us/102472), as well as Roku, Google TV and PlayStation. One catch outside the US: Apple says you can't buy in the app on Fire TV, Android TV or Sony TVs, so subscribe on the web or another device first, then sign in.
 
-If your TV is too old for the Apple TV app, a plug-in stick is the cheapest fix. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} runs Fire OS, which has the Apple TV app. See our [Apple TV in Ireland guide](/streaming-services/is-apple-tv-plus-available-in-ireland/) for more on the service.
+If your TV is too old for the Apple TV app, a plug-in streaming stick that has it is the cheapest fix; our [streaming devices guide](/devices/best-streaming-devices-ireland/) compares the ones sold in Ireland. See our [Apple TV in Ireland guide](/streaming-services/is-apple-tv-plus-available-in-ireland/) for more on the service.
 
 **Related guides:** [Where to Watch Slow Horses Season 6 in Ireland](/watch-guides/where-to-watch-season-6-of-apple-tv-slowhorses-legally-in-ireland/) · [Apple TV 4K review](/reviews/apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers/)
 

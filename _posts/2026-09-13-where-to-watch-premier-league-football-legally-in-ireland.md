@@ -27,7 +27,7 @@ faqs:
   - question: "Does Virgin Media Television show live Premier League football?"
     answer: "No. Virgin Media Television is not one of the Premier League's broadcasters in Ireland for 2025–2031. Virgin Media's pay-TV service does carry the Sky Sports, TNT Sports and Premier Sports channels."
   - question: "Why does my streaming picture keep freezing during matches?"
-    answer: "This is often related to home network setup or aerial signal issues rather than the streaming service itself, so checking your router placement, HDMI connections, and aerial quality can help resolve it."
+    answer: "Usually it's the home connection rather than the service: weak Wi-Fi where the TV is, or other devices using the broadband at the same time. A wired connection, or moving the router closer, often fixes it. Our buffering fixes guide goes through the steps."
 ---
 
 {% include last-updated.html %}
@@ -104,14 +104,6 @@ If you follow Italian football too, DAZN shows every Serie A game in Ireland in 
 
 Prices were checked in October 2026 and do shift fairly often, so check the current offer directly on each provider's website before signing up, rather than relying on older screenshots or forum posts you might find elsewhere.
 
-### Getting Your Home Setup Right
-
-Once you've picked a legal streaming or broadcast option, the quality of your actual viewing experience often comes down to your home setup rather than the subscription itself.
-
-If you're relying on Saorview or a standard aerial for other channels alongside your streaming box, a solid rooftop aerial makes a noticeable difference to signal reliability, especially in rural areas or homes with older wiring. Many households upgrading their setup for football season opt for an {% include product-link.html id="outdoor-digital-tv-aerial" text="outdoor digital TV aerial" %} rather than relying on an ageing indoor unit, particularly if reception has been patchy during big matches.
-
-On the streaming side, if you've got a smart TV, a streaming stick, a games console, and maybe a set-top box all competing for the same HDMI ports, a {% include product-link.html id="hdmi-switch-3in1" text="3-in-1 HDMI switch" %} is a simple way to avoid constantly crawling behind the telly to swap cables before kick-off. It's a small, inexpensive fix that makes match day noticeably less stressful.
-
 ### A Note on Staying Legal
 
 Subscription costs can add up across several services, so it's worth planning: pick the package that covers the games you care about most, and check for bundle or annual deals. Sticking with official broadcasters means better reliability, proper customer support and no nasty surprises mid-season, and your subscription helps fund the game itself.
@@ -126,11 +118,9 @@ Because rights deals are renegotiated periodically, the safest approach each Aug
 
 This way you'll know in advance which subscription (or combination of subscriptions) you actually need, rather than paying for coverage you can't use.
 
-Between Sky Sports, TNT Sports and Premier Sports, every live Premier League game shown in Ireland is covered through fully legal channels. Pair the right subscription with a decent aerial and a tidy HDMI setup, and you should have everything you need for a smooth season of football watching.
+Between Sky Sports, TNT Sports and Premier Sports, every live Premier League game shown in Ireland is covered through fully legal channels.
 
 **Related guides:** [Where to Watch the UEFA Champions League Legally in Ireland](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/) · [Where to watch GAA in Ireland](/streaming-services/where-to-watch-gaa-legally-ireland/)
-
-{% include product-showcase.html category="Sports Streaming" %}
 
 {% include faq-section.html %}
 

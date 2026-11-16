@@ -2,7 +2,7 @@
 title: Where to Watch Severance Season 2 in Ireland
 excerpt: Severance Seasons 1 and 2 are on Apple TV in Ireland (formerly Apple TV+). Every episode is out now, and Season 3 has no release date yet.
 description: Severance Seasons 1 and 2 are on Apple TV in Ireland (formerly Apple TV+). Every episode is out now, and Season 3 has no release date yet.
-last_updated: 2026-11-06
+last_updated: 2026-11-16
 categories:
 - Watch-Guides
 tags:
@@ -16,7 +16,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
 - question: Where can I watch Severance in Ireland?
   answer: On Apple TV, Apple's streaming service, which was called Apple TV+ until October 2025. Severance is an Apple Original, and both seasons are there in full.
@@ -31,8 +31,6 @@ faqs:
 ---
 
 {% include last-updated.html %}
-
-{% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
@@ -56,19 +54,15 @@ Apple TV is also included in all three [Apple One](https://www.apple.com/ie/appl
 
 ## Which Devices Can You Use?
 
-The Apple TV app works on a wide range of hardware, so most Irish households won't need to buy anything new. It comes built into Apple's own Apple TV 4K box and is also available on iPhone, iPad and Mac. If your main television isn't an Apple device, there are still several straightforward options.
+The Apple TV app is built into Apple's own Apple TV 4K box and is on iPhone, iPad and Mac. Apple also lists it on smart TVs from Samsung, LG and Sony, on Roku, Fire TV and Google TV devices, and on PlayStation and Xbox, and you can watch in a web browser at tv.apple.com. Availability can vary by country, so check your TV's own app store first. If an older TV doesn't have the app, a streaming stick that does is the cheapest fix; our [streaming devices guide](/devices/best-streaming-devices-ireland/) compares the ones sold in Ireland.
 
-A streaming stick is usually the simplest route for an older or "dumb" TV. The {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} supports the Apple TV app and handles 4K and HDR playback where your broadband and TV support it, which suits Severance's moody, high-contrast visual style. The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} is another well-supported option with the Apple TV app available, and its simple remote suits less tech-confident viewers.
-
-If you're shopping for a new television altogether, many smart TVs — including budget models such as the {% include product-link.html id="smart_tvs_1" text="Xiaomi 32 Inch Smart TV" %} — now come with the Apple TV app available in their own app store, meaning no extra stick is required. It's worth checking the specific model's app store listing before buying, since app availability can vary by smart TV platform and software version.
+Apple's help page says that outside the US you can't buy in the Apple TV app on Fire TV, Android TV or Sony TVs, so subscribe on the web or another device first, then sign in on the TV.
 
 Whichever device you choose, make sure it's signed in to an Apple account set to Ireland, and that the device's own app store is also set to Ireland. A mismatch between the two is one of the more common reasons people see apps missing or content appearing unavailable, and it's usually fixed in the device's own account settings.
 
-## A Quick Note on Reliability
+If episodes buffer or the picture drops in quality, our [buffering fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) can help.
 
-Because Severance leans on dense dialogue and visual detail, a stable connection makes a noticeable difference to the viewing experience. If episodes are buffering or dropping quality, it's worth checking your broadband speed and router placement before assuming the issue lies with Apple TV itself.
-
-Sources: [Apple TV Press: Severance renewed for a third season](https://www.apple.com/tv-pr/news/2025/03/praise-kier-apples-global-hit-emmy-and-peabody-award-winning-workplace-thriller-severance-lands-season-three-renewal/) (21 March 2025, checked 16 November 2026) · [Apple TV Ireland](https://www.apple.com/ie/apple-tv/) · [Apple One Ireland](https://www.apple.com/ie/apple-one/)
+Sources: [Apple TV Press: Severance renewed for a third season](https://www.apple.com/tv-pr/news/2025/03/praise-kier-apples-global-hit-emmy-and-peabody-award-winning-workplace-thriller-severance-lands-season-three-renewal/) (21 March 2025, checked 16 November 2026) · [Apple TV Ireland](https://www.apple.com/ie/apple-tv/) · [Apple One Ireland](https://www.apple.com/ie/apple-one/) · [Apple: the Apple TV app](https://www.apple.com/apple-tv-app/) (checked 16 November 2026) · [Apple Support: the Apple TV app on smart TVs and streaming devices](https://support.apple.com/en-us/102472) (checked 16 November 2026)
 
 {% include faq-section.html %}
 
