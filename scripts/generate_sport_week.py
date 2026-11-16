@@ -106,6 +106,20 @@ with Irish times and the channels Irish viewers get.
    To read a page on fai.ie, irishrugby.ie, gaa.ie, rte.ie,
    virginmediatelevision.ie, virginmedia.ie or tg4.ie, use fetch_official_page
    if web_fetch fails or the page looks empty.
+5. DAZN (boxing and Serie A), which the Irish Times guide rarely lists:
+   - Boxing: the week's headline DAZN fight night, if there is one, from
+     DAZN's own schedule (https://www.dazn.com/en-IE/welcome lists upcoming
+     fights) or the promoter's site. Only big cards (world titles, Irish
+     fighters, pay-per-views); at most two a week.
+   - Serie A: at most two of the week's biggest games (for example games
+     between top-six clubs), with the date and kick-off from Lega Serie A
+     (legaseriea.it; its times are Italian time, so take off one hour for Irish
+     time). Our checked facts say DAZN shows every Serie A game in Ireland, so
+     use "DAZN" as the broadcaster and the Lega Serie A page as the source.
+     Leave out Saturday games kicking off between 14:45 and 17:15 Irish time:
+     they fall in the blackout and can't be shown live in full.
+   - For any DAZN event, "watch" must start with "DAZN" (e.g. "DAZN" or
+     "DAZN (pay-per-view)"), and "free" is false.
 
 Cover, where there is anything on: GAA (football, hurling, camogie, ladies
 football, club championships), Ireland rugby internationals, URC games with

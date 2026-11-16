@@ -27,7 +27,7 @@ faqs:
   - question: "Will there be a Season 7 and Season 8?"
     answer: "Yes. Apple announced Season 7 in 2025, and on 15 September 2026 announced Season 8, six episodes based on Mick Herron's novel Clown Town. Release dates hadn't been announced when we checked."
   - question: "How much does Apple TV cost in Ireland?"
-    answer: "Apple TV was €9.99 a month in Ireland when we last checked, with a 7-day free trial. Our streaming prices tracker has the current price."
+    answer: "Apple TV is a monthly subscription in Ireland with a 7-day free trial. Our streaming prices tracker has the current price."
 ---
 
 {% include last-updated.html %}
@@ -53,7 +53,7 @@ Apple announced Season 7 in 2025. On 15 September 2026, the day before Season 6 
 
 ## What Apple TV costs in Ireland
 
-Apple TV was **€9.99 a month** in Ireland when we last checked, with a 7-day free trial for new subscribers. Prices change, so see our [streaming prices tracker](/streaming-prices/) for the current price, or the [cost calculator](/streaming-cost-calculator/) to see what it adds to your other subscriptions. Our guide to [Apple TV in Ireland](/streaming-services/is-apple-tv-plus-available-in-ireland/) covers the service in more detail.
+{% assign atv = site.data.prices | where: "service", "Apple TV" | where: "plan", "Apple TV" | first %}Apple TV is **{% include euro.html amount=atv.monthly %} a month** in Ireland, with a 7-day free trial for new subscribers. Prices change, so see our [streaming prices tracker](/streaming-prices/) for the current price, or the [cost calculator](/streaming-cost-calculator/) to see what it adds to your other subscriptions. Our guide to [Apple TV in Ireland](/streaming-services/is-apple-tv-plus-available-in-ireland/) covers the service in more detail.
 
 ## Watching on your TV
 

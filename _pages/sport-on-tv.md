@@ -22,6 +22,9 @@ header:
 
 <p class="sport-week__ahead">Planning ahead? See the <a href="{% post_url 2026-09-13-where-to-watch-premier-league-football-legally-in-ireland %}#christmas-and-new-year-games-on-tv">Premier League's Christmas and New Year TV games</a>, the <a href="{% post_url 2026-10-21-where-to-watch-the-world-darts-championship-in-ireland %}">World Darts Championship</a> and our <a href="/gaa/">GAA guide</a>.</p>
 
+{% assign dazn_events = wk.events | where_exp: "e", "e.watch contains 'DAZN'" %}
+{% if dazn_events.size > 0 %}{% include affiliate-disclosure.html %}{% endif %}
+
 {% assign days = wk.events | group_by_exp: "e", "e.date | date: '%Y-%m-%d'" %}
 {% for day in days %}
 <h2 class="sport-week__day">{{ day.items[0].date | date: "%A %-d %B" }}</h2>
@@ -30,7 +33,7 @@ header:
   <li class="sport-week__item">
     <span class="sport-week__time">{{ e.time }}</span>
     <span class="sport-week__main"><strong>{{ e.event }}</strong> <span class="sport-week__comp">{{ e.sport }} · {{ e.competition }}</span></span>
-    <span class="sport-week__watch">{% if e.free %}<span class="sport-week__free">FREE</span> {% endif %}{{ e.watch }} <a href="{{ e.source }}" rel="noopener" target="_blank" class="sport-week__src" aria-label="Source for {{ e.event }}">source</a></span>
+    <span class="sport-week__watch">{% if e.free %}<span class="sport-week__free">FREE</span> {% endif %}{{ e.watch }}{% if e.watch contains "DAZN" %} · {% include product-link.html id="dazn" text="Sign up to DAZN" %}{% endif %} <a href="{{ e.source }}" rel="noopener" target="_blank" class="sport-week__src" aria-label="Source for {{ e.event }}">source</a></span>
   </li>
 {% endfor %}
 </ul>

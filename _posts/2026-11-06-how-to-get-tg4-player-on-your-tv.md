@@ -18,7 +18,7 @@ draft_generated: true
 affiliate_links: true
 faqs:
 - question: Is TG4 Player free?
-  answer: Yes, TG4 Player is free to use, but you still need a TV licence for any TV set used for streaming in Ireland, which is €160 a year per premises.
+  answer: Yes, TG4 Player is free to use, but you still need a TV licence for any TV set used for streaming in Ireland. The current fee is in our streaming price tracker.
 - question: Can I watch TG4 Player outside Ireland?
   answer: Availability outside Ireland depends on TG4's own rights and app settings, so check TG4's own help pages or contact its support team for details on your specific situation.
 - question: Does TG4 Player show GAA and Ladies football live?
@@ -37,7 +37,7 @@ You can get TG4 Player by downloading the TG4 Player app from your TV's own app 
 
 ## Is TG4 Player on RTÉ Player?
 
-No. TG4 and RTÉ are separate broadcasters with separate apps. If you want TG4's live channel and catch-up shows, including GAA, Ladies football and other TG4 programming, you need the TG4 Player app or the TG4 website, not RTÉ Player. Both services are free to use, but you'll need the TV licence for any TV set used for streaming, including a smart TV, which costs €160 a year per premises.
+No. TG4 and RTÉ are separate broadcasters with separate apps. If you want TG4's live channel and catch-up shows, including GAA, Ladies football and other TG4 programming, you need the TG4 Player app or the TG4 website, not RTÉ Player. Both services are free to use, but you'll need the TV licence for any TV set used for streaming, including a smart TV, which {% assign tvl = site.data.prices | where: "service", "TV licence" | where: "plan", "Per premises" | first %}costs {% include euro.html amount=tvl.yearly %} a year per premises.
 
 ## Finding TG4 Player on a smart TV
 

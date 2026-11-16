@@ -87,11 +87,12 @@ Source: [Premier League festive fixtures](https://www.premierleague.com/en/news/
 
 ### Streaming Without a Traditional Contract
 
+{% assign now_sports = site.data.prices | where: "service", "NOW" | where: "plan", "Sports" | first %}{% assign now_extra = site.data.prices | where: "service", "NOW" | where: "plan", "Sports Extra" | first %}
 If you don't want a long-term contract, [NOW](https://www.nowtv.com/ie/membership/sports) streams all three broadcasters in Ireland:
 
-- **Sky Sports** is in NOW's Sports membership (€38.99 a month, or a €14.99 day pass).
-- **TNT Sports** and **Premier Sports** are in NOW's Sports Extra membership (€33.99 a month, or a €14.99 day pass). TNT Sports isn't on discovery+ in Ireland.
-- Both together cost €27 a month on NOW's 12-month Sports Saver offer.
+- **Sky Sports** is in NOW's Sports membership ({% include euro.html amount=now_sports.monthly %} a month, or a {% include euro.html amount=now_sports.day_pass %} day pass).
+- **TNT Sports** and **Premier Sports** are in NOW's Sports Extra membership ({% include euro.html amount=now_extra.monthly %} a month, or a {% include euro.html amount=now_extra.day_pass %} day pass). TNT Sports isn't on discovery+ in Ireland.
+- Both together cost {% include euro.html amount=now_extra.saver_both %} a month on NOW's 12-month Sports Saver offer.
 
 To compare these with every other service, see our [streaming prices tracker](/streaming-prices/), or add up a full setup with the [cost calculator](/streaming-cost-calculator/).
 

@@ -13,6 +13,8 @@
 #   source    - where it was confirmed
 #   url       - link to that source
 #   group     - general | film-tv | sport | free (used to group the table and calculator)
+#   day_pass   - optional price of a one-day pass, in euro (NOW sport memberships)
+#   saver_both - optional monthly price of NOW Sports + Sports Extra together on the 12-month Sports Saver (on the Sports Extra row)
 #   affiliate  - optional id from _data/products.yml; the tracker adds a "Sign up" paid link for that row
 #   combinable - true if several plans of this service can be taken together (NOW memberships)
 #
@@ -150,6 +152,7 @@
   plan: Sports
   monthly: 38.99
   note: 12 Sky Sports channels plus Sky Sports+. Day pass €14.99
+  day_pass: 14.99
   checked: 2026-10-07
   source: NOW
   url: https://www.nowtv.com/ie/membership/sports/watch-sky-sports
@@ -162,6 +165,8 @@
   checked: 2026-10-07
   source: NOW
   url: https://www.nowtv.com/ie/membership/sports/watch-sports-extra
+  day_pass: 14.99
+  saver_both: 27
   group: sport
   combinable: true
 - service: DAZN

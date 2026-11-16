@@ -63,7 +63,7 @@ PRIMARY_HOSTS = {
     # Leagues, governing bodies and competitions
     "gaa.ie", "irishrugby.ie", "fai.ie", "uefa.com", "premierleague.com",
     "sixnationsrugby.com", "epcrugby.com", "unitedrugby.com", "formula1.com",
-    "rydercup.com", "pdc.tv", "motogp.com", "laliga.com", "spfl.co.uk",
+    "rydercup.com", "pdc.tv", "motogp.com", "laliga.com", "spfl.co.uk", "legaseriea.it",
     # Devices, app stores and platform help pages
     "google.com", "roku.com", "samsung.com", "lg.com", "amazon.co.uk",
     # Irish public bodies

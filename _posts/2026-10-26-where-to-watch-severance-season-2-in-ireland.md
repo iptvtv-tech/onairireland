@@ -50,7 +50,7 @@ Yes, but not yet. Apple renewed Severance for a third season in March 2025, as S
 
 ## How Much Does Apple TV Cost in Ireland?
 
-Apple TV costs €9.99 a month in Ireland, with a 7-day free trial, according to Apple's Irish page when we checked it on 7 October 2026. Prices can change, so our [streaming price tracker](/streaming-prices/) shows the current figure alongside every other Irish service.
+{% assign atv = site.data.prices | where: "service", "Apple TV" | where: "plan", "Apple TV" | first %}Apple TV costs {% include euro.html amount=atv.monthly %} a month in Ireland, with a 7-day free trial, according to Apple's Irish page. Prices can change, so our [streaming price tracker](/streaming-prices/) shows the current figure alongside every other Irish service.
 
 Apple TV is also included in all three [Apple One](https://www.apple.com/ie/apple-one/) bundles in Ireland (Individual, Family and Premier). If you already pay for Apple Music or iCloud+ storage, it's worth checking whether a bundle works out cheaper than paying for Apple TV on its own.
 

@@ -22,7 +22,7 @@ faqs:
 - question: "Do Sky Sports and Premier Sports both show the Premier League?"
   answer: "Yes. Sky Sports shows most live Premier League games in Ireland, and Premier Sports has an exclusive Saturday 3pm game every round, which is only shown in Ireland. TNT Sports has a smaller package of games."
 - question: "Can I get Sky Sports without a full Sky TV package?"
-  answer: "Yes. NOW's Sports membership streams the Sky Sports channels with no contract, and there's a €14.99 day pass. Check NOW's Irish site for current prices."
+  answer: "Yes. NOW's Sports membership streams the Sky Sports channels with no contract, and there's a day pass. Current prices are in our streaming price tracker."
 - question: "Can I watch Sky Sports and Premier Sports on the same TV?"
   answer: "Yes. On NOW, both stream in the same NOW app: Sky Sports with the Sports membership and Premier Sports with Sports Extra. Sky, Virgin Media and Vodafone also carry both channels on their TV packages."
 - question: "Which one shows the Champions Cup and the URC?"
@@ -66,9 +66,10 @@ Premier Sports has two channels, Premier Sports 1 and 2. For Irish viewers, the 
 
 If you don't want a contract, NOW streams both:
 
-- **Sky Sports** is in NOW's Sports membership: €38.99 a month, or €14.99 for a day pass.
-- **Premier Sports** is in NOW's Sports Extra membership, along with TNT Sports 1 to 4: €33.99 a month, or €14.99 for a day pass.
-- **Both together** are €27 a month on NOW's Sports Saver bundle, which has a 12-month minimum term.
+{% assign now_sports = site.data.prices | where: "service", "NOW" | where: "plan", "Sports" | first %}{% assign now_extra = site.data.prices | where: "service", "NOW" | where: "plan", "Sports Extra" | first %}
+- **Sky Sports** is in NOW's Sports membership: {% include euro.html amount=now_sports.monthly %} a month, or {% include euro.html amount=now_sports.day_pass %} for a day pass.
+- **Premier Sports** is in NOW's Sports Extra membership, along with TNT Sports 1 to 4: {% include euro.html amount=now_extra.monthly %} a month, or {% include euro.html amount=now_extra.day_pass %} for a day pass.
+- **Both together** are {% include euro.html amount=now_extra.saver_both %} a month on NOW's Sports Saver bundle, which has a 12-month minimum term.
 
 These are the prices on NOW's Irish site on 28 October 2026. NOW often has limited-time offers below the monthly prices, so check its own pages before you sign up. Our [streaming prices tracker](/streaming-prices/) shows when each price was last checked.
 

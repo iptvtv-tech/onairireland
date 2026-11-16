@@ -53,7 +53,7 @@ If you already have Sky TV, add Sky Sports to your package. F1 is on the Sky Spo
 
 ## Option 2: NOW, with no contract
 
-NOW, Sky's streaming service, carries Sky Sports in its **Sports** membership. You can pay monthly and cancel any time, or buy a day pass for a single race weekend. NOW's Sports membership was €38.99 a month, or €14.99 for a day pass, when we last checked; our [streaming prices tracker](/streaming-prices/) has the current price.
+NOW, Sky's streaming service, carries Sky Sports in its **Sports** membership. You can pay monthly and cancel any time, or buy a day pass for a single race weekend. {% assign now_sports = site.data.prices | where: "service", "NOW" | where: "plan", "Sports" | first %}NOW's Sports membership is {% include euro.html amount=now_sports.monthly %} a month, or {% include euro.html amount=now_sports.day_pass %} for a day pass; our [streaming prices tracker](/streaming-prices/) has the current price.
 
 A day pass suits the odd race. For the whole season, the monthly membership works out cheaper, and NOW's 12-month Sports Saver offer is cheaper again if you also want TNT Sports and Premier Sports for football.
 

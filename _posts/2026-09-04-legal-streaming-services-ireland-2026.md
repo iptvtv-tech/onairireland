@@ -26,16 +26,16 @@ toc: true
 affiliate_links: true
 quick_facts:
   - "RTÉ Player, Virgin Media Play and TG4 Player are free — no subscription needed"
-  - "Netflix now costs €11.99 to €25.99 a month after its September 2026 price rise"
+  - "Netflix raised its Irish prices in September 2026; current prices are in our streaming price tracker"
   - "Live sport runs through NOW Sports, Sky, Premier Sports, TNT Sports and GAA+, plus free coverage on RTÉ, TG4 and Virgin Media"
-  - "You don't need a TV licence to stream on a phone, laptop or tablet, but any TV set needs one, even a smart TV used only for apps (the licence is €160)"
+  - "You don't need a TV licence to stream on a phone, laptop or tablet, but any TV set needs one, even a smart TV used only for apps"
 faqs:
   - question: "What is the cheapest legal way to stream TV in Ireland?"
     answer: "The free apps: RTÉ Player, Virgin Media Play and TG4 Player cost nothing and cover all the main Irish channels live and on catch-up. Of the paid services, NOW Entertainment and Paramount+ are among the cheapest."
   - question: "How can I tell if a streaming service is legal in Ireland?"
     answer: "Legal services are sold by the broadcaster or an established provider such as RTÉ, Virgin Media, TG4, NOW, Sky, Netflix or Disney+, and you install them from your TV's or device's own app store. If you're not sure about a service, check the provider's own website before you pay."
   - question: "Is there a Netflix plan with ads in Ireland?"
-    answer: "Not yet. As of September 2026 Irish plans are Basic (€11.99), Standard (€18.99) and Premium (€25.99). Netflix has confirmed ads will start on its Irish service from 1 March 2027 (reported by The Irish Times, September 2026), but hasn't announced the price."
+    answer: "Not yet. Irish plans are Basic, Standard and Premium (prices are in our streaming price tracker). Netflix has confirmed ads will start on its Irish service from 1 March 2027 (reported by The Irish Times, September 2026), but hasn't announced the price."
   - question: "Do I need a TV licence if I only stream?"
     answer: "Not if you only watch on a phone, laptop, tablet or other device that can't receive a TV signal by aerial, satellite or cable. Any TV set needs a licence, even a smart TV you only use for streaming apps."
 ---
@@ -77,18 +77,20 @@ These are the standard monthly prices in Ireland as of October 2026. Several ser
 
 Prices change often. Our [streaming prices tracker](/streaming-prices/) lists every plan with the date we last checked it on the provider's own Irish page.
 
+{% assign nf_b = site.data.prices | where: "service", "Netflix" | where: "plan", "Basic" | first %}{% assign nf_s = site.data.prices | where: "service", "Netflix" | where: "plan", "Standard" | first %}{% assign nf_p = site.data.prices | where: "service", "Netflix" | where: "plan", "Premium" | first %}{% assign dp_a = site.data.prices | where: "service", "Disney+" | where: "plan", "Standard with Ads" | first %}{% assign dp_s = site.data.prices | where: "service", "Disney+" | where: "plan", "Standard" | first %}{% assign dp_p = site.data.prices | where: "service", "Disney+" | where: "plan", "Premium" | first %}{% assign atv = site.data.prices | where: "service", "Apple TV" | where: "plan", "Apple TV" | first %}{% assign now_e = site.data.prices | where: "service", "NOW" | where: "plan", "Entertainment" | first %}{% assign now_eh = site.data.prices | where: "service", "NOW" | where: "plan", "Entertainment & HBO Max" | first %}{% assign now_c = site.data.prices | where: "service", "NOW" | where: "plan", "Cinema" | first %}{% assign now_b = site.data.prices | where: "service", "NOW" | where: "plan", "Boost add-on" | first %}{% assign hbo_a = site.data.prices | where: "service", "HBO Max" | where: "plan", "Standard with Ads" | first %}{% assign hbo_s = site.data.prices | where: "service", "HBO Max" | where: "plan", "Standard" | first %}{% assign hbo_p = site.data.prices | where: "service", "HBO Max" | where: "plan", "Premium" | first %}{% assign now_sports = site.data.prices | where: "service", "NOW" | where: "plan", "Sports" | first %}{% assign now_extra = site.data.prices | where: "service", "NOW" | where: "plan", "Sports Extra" | first %}{% assign tvl = site.data.prices | where: "service", "TV licence" | where: "plan", "Per premises" | first %}
+
 | Service | Plans and monthly price | Best for |
 | --- | --- | --- |
-| **Netflix** | Basic €11.99 · Standard €18.99 · Premium €25.99 | The biggest general library; no ad tier in Ireland until 1 March 2027 ([Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/)) |
-| **Disney+** | From €8.99 (Standard with Ads) · Standard €11.99 · Premium €15.99 | Families, Marvel, Star Wars, Pixar |
+| **Netflix** | Basic {% include euro.html amount=nf_b.monthly %} · Standard {% include euro.html amount=nf_s.monthly %} · Premium {% include euro.html amount=nf_p.monthly %} | The biggest general library; no ad tier in Ireland until 1 March 2027 ([Irish Times](https://www.irishtimes.com/media/2026/09/24/ads-coming-to-netflix-in-ireland-next-march-company-confirms/)) |
+| **Disney+** | From {% include euro.html amount=dp_a.monthly %} (Standard with Ads) · Standard {% include euro.html amount=dp_s.monthly %} · Premium {% include euro.html amount=dp_p.monthly %} | Families, Marvel, Star Wars, Pixar |
 | **Prime Video** | €6.99 | Good value, especially if you already shop on Amazon |
-| **Apple TV** | €9.99 | Apple originals like *Slow Horses* and *Severance* |
+| **Apple TV** | {% include euro.html amount=atv.monthly %} | Apple originals like *Slow Horses* and *Severance* |
 | **Paramount+** | From €5.99 (Basic with Ads); see [Paramount+ Ireland](https://www.paramountplus.com/ie/) for the other plans | US drama and comedy on a budget |
-| **NOW Entertainment** | €8.99 (€11.99 with HBO Max Basic with Ads) | Sky Originals and HBO series without a Sky contract |
-| **NOW Cinema** | €11.99 | New film releases |
-| **HBO Max** | From €6.99 (Standard with Ads) · Standard €10.99 · Premium €15.99; also included with Sky Ultimate TV and NOW | HBO, Warner Bros. and DC in one app |
+| **NOW Entertainment** | {% include euro.html amount=now_e.monthly %} ({% include euro.html amount=now_eh.monthly %} with HBO Max Basic with Ads) | Sky Originals and HBO series without a Sky contract |
+| **NOW Cinema** | {% include euro.html amount=now_c.monthly %} | New film releases |
+| **HBO Max** | From {% include euro.html amount=hbo_a.monthly %} (Standard with Ads) · Standard {% include euro.html amount=hbo_s.monthly %} · Premium {% include euro.html amount=hbo_p.monthly %}; also included with Sky Ultimate TV and NOW | HBO, Warner Bros. and DC in one app |
 
-NOW's optional **Boost** add-on (€5 a month) adds Full HD 1080p, ad-free on-demand viewing and a second simultaneous stream.
+NOW's optional **Boost** add-on ({% include euro.html amount=now_b.monthly %} a month) adds Full HD 1080p, ad-free on-demand viewing and a second simultaneous stream.
 
 Read more in our guides to [Netflix's 2026 price changes](/news/netflix-ireland-price-changes-for-2026-what-you-need-to-know/), [Disney+ plans](/streaming-services/disney-ireland-plans-pricing-and-what-s-worth-watching-in-2026/), [Paramount+](/streaming-services/paramount-in-ireland-is-it-worth-subscribing/), [HBO Max in Ireland](/news/is-hbo-max-coming-to-ireland/) and [NOW's latest prices](/news/now-ireland-raises-prices-for-2026/).
 
@@ -109,7 +111,7 @@ Sport is split across several services, so the cheapest route depends on what yo
 | Sport | Where to watch legally |
 | --- | --- |
 | **GAA** | RTÉ (35 live championship games in 2026) and TG4 (free); **GAA+** for 40 exclusive games — the 2026 Season Pass cost €95, or €15 per match |
-| **Premier League football** | Sky Sports (most games), TNT Sports, and Premier Sports, which has an exclusive Saturday 3pm game every round in Ireland. On NOW: Sports (Sky Sports, €38.99 a month) plus Sports Extra (TNT and Premier Sports, €33.99), or both for €27 a month on the 12-month Sports Saver |
+| **Premier League football** | Sky Sports (most games), TNT Sports, and Premier Sports, which has an exclusive Saturday 3pm game every round in Ireland. On NOW: Sports (Sky Sports, {% include euro.html amount=now_sports.monthly %} a month) plus Sports Extra (TNT and Premier Sports, {% include euro.html amount=now_extra.monthly %}), or both for {% include euro.html amount=now_extra.saver_both %} a month on the 12-month Sports Saver |
 | **Champions League football** | Free games on RTÉ (Wednesdays) and Virgin Media until 2027; Premier Sports has first pick of Tuesday games. From 2027–28 Virgin drops out: RTÉ keeps free Wednesday games and the final, Premier Sports keeps Tuesdays and Sky Sports gets the rest |
 | **Rugby** | Six Nations free on RTÉ and Virgin Media; Ireland's November internationals free on Virgin Media; URC free on TG4 (selected games) and every Irish province match on Premier Sports; Champions Cup on Premier Sports |
 | **Formula 1** | Sky Sports only (exclusive in Ireland until 2034), or NOW with no contract |
@@ -119,7 +121,7 @@ Our sport guides go into detail: the [GAA guide](/gaa/) and [rugby guide](/rugby
 
 ## Do you need a TV licence to stream?
 
-The TV licence costs **€160 a year**. According to Citizens Information, you don't need one to watch on a computer, phone or other device that can't receive a TV signal by aerial, satellite or cable. But any TV set needs a licence, even a smart TV you only use for streaming apps, so a household is only exempt if it has no TV set at all. Our [TV licence guide](/streaming-services/tv-licence-streaming-ireland/) explains the rules in full.
+The TV licence costs **{% include euro.html amount=tvl.yearly %} a year**. According to Citizens Information, you don't need one to watch on a computer, phone or other device that can't receive a TV signal by aerial, satellite or cable. But any TV set needs a licence, even a smart TV you only use for streaming apps, so a household is only exempt if it has no TV set at all. Our [TV licence guide](/streaming-services/tv-licence-streaming-ireland/) explains the rules in full.
 
 ## What you need to watch on your TV
 
