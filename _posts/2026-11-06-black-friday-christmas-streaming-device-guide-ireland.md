@@ -3,6 +3,7 @@ title: Black Friday and Christmas Streaming Guide for Ireland
 excerpt: Streaming offers confirmed on each provider's Irish page, which stick or box suits your house, how to spot a real Black Friday deal, and your Christmas return rights.
 description: Streaming offers from providers' own Irish pages, which device suits your home, how to spot a real Black Friday deal, and your Christmas return rights.
 last_checked: 2026-11-05
+last_updated: 2026-11-16
 categories:
 - Devices
 tags:
