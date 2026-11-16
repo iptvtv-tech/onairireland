@@ -188,6 +188,33 @@ for path in price_files:
         errors.append(f"{rel}: {problem}")
 
 # ---------------------------------------------------------------------------
+# A bare "|" in ordinary text makes kramdown turn the line into a one-row
+# table (16 Nov 2026: "Xbox Series X|S" broke the HBO Max device list).
+# Table rows start with "|" once Liquid is set aside; anywhere else, escape
+# it as "\|". Liquid filters (`| date:`) are rendered before kramdown runs.
+# ---------------------------------------------------------------------------
+LIQUID_TAG = re.compile(r"\{\{.*?\}\}|\{%.*?%\}")
+for path in price_files:
+    if not path.endswith(".md"):
+        continue
+    rel = os.path.relpath(path, ROOT)
+    text = open(path, encoding="utf-8").read()
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
+    body = m.group(2) if m else text
+    in_code = False
+    for line in body.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code or stripped.startswith("<"):
+            continue
+        bare = re.sub(r"`[^`]*`", "", LIQUID_TAG.sub("", line)).replace("\\|", "")
+        if "|" in bare and not bare.lstrip().startswith("|"):
+            errors.append(f"{rel}: a \"|\" outside a table makes kramdown turn the line into a table "
+                          f"(\"{stripped[:70]}\"); write it as \\| (e.g. Xbox Series X\\|S)")
+
+# ---------------------------------------------------------------------------
 # Sources and checked date. Every new or refreshed post (from 16 Nov 2026,
 # when this check started) ends with a "Sources:" line and has last_checked.
 # A seasonal refresh bumps last_checked, so it must bring its sources too.

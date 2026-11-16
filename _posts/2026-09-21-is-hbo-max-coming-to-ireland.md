@@ -119,7 +119,7 @@ HBO Max's supported devices list includes:
 - **Streaming players:** Amazon Fire TV, Apple TV 4K and Apple TV HD, Chromecast with Google TV and Roku
 - **Smart TVs:** Android TV and Google TV sets, LG (webOS), Hisense (VIDAA), TitanOS and Vestel TiVo TVs
 - **Sky:** Sky Glass, Sky Glass Air, Sky Q and Sky Stream
-- **Games consoles:** PlayStation 4 and 5, Xbox One and Xbox Series X|S
+- **Games consoles:** PlayStation 4 and 5, Xbox One and Xbox Series X\|S
 
 Most devices need to be on the latest software or one of the two previous versions. Some older or region-specific models are left out, so check the [supported devices list](https://help.hbomax.com/ie-en/Answer/Detail/000002506) for your exact TV before buying anything. You can also cast from a phone with Chromecast or AirPlay.
 
