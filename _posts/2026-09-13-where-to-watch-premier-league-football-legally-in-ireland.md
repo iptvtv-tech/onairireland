@@ -2,7 +2,7 @@
 title: "Where to Watch Premier League Football in Ireland 2026/27"
 excerpt: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
 description: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
-last_updated: 2026-11-10
+last_updated: 2026-11-16
 last_checked: 2026-11-10
 categories:
   - Sports-Streaming
@@ -96,6 +96,10 @@ If you don't want a long-term contract, [NOW](https://www.nowtv.com/ie/membershi
 To compare these with every other service, see our [streaming prices tracker](/streaming-prices/), or add up a full setup with the [cost calculator](/streaming-cost-calculator/).
 
 You can also get all three channels through Sky, Virgin Media or Vodafone TV packages.
+
+### Serie A on DAZN
+
+If you follow Italian football too, DAZN shows every Serie A game in Ireland in 2026/27, included with its Standard and Ultimate plans ([DAZN](https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb)). Games in the Saturday blackout window, 14:45 to 17:15, can't be shown live in full. Prices and plans are in our guide, [is DAZN available in Ireland?]({% post_url 2026-11-16-is-dazn-available-in-ireland %}), or go straight to {% include product-link.html id="dazn" text="DAZN's Irish website" %}.
 
 Prices were checked in October 2026 and do shift fairly often, so check the current offer directly on each provider's website before signing up, rather than relying on older screenshots or forum posts you might find elsewhere.
 

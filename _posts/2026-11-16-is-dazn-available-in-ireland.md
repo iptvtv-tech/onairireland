@@ -1,7 +1,7 @@
 ---
 title: "Is DAZN Available in Ireland? Prices and Plans"
-excerpt: "Yes. DAZN sells two plans in Ireland, Standard and Ultimate, built mainly around boxing. What each costs, what's included and how to sign up."
-description: "Yes. DAZN sells two plans in Ireland, Standard and Ultimate, built mainly around boxing. What each costs, what's included and how to sign up."
+excerpt: "Yes. DAZN sells two plans in Ireland, with boxing and every Serie A game. What Standard and Ultimate cost, what's included and how to sign up."
+description: "Yes. DAZN sells two plans in Ireland, with boxing and every Serie A game. What Standard and Ultimate cost, what's included and how to sign up."
 last_updated: 2026-11-16
 last_checked: 2026-11-16
 categories:
@@ -18,6 +18,8 @@ seo:
 toc: true
 affiliate_links: true
 faqs:
+  - question: "Is Serie A on DAZN in Ireland?"
+    answer: "Yes. DAZN says every Serie A game in 2026/27 is included with both its Standard and Ultimate plans in Ireland. Games in the Saturday blackout window, 14:45 to 17:15, can't be shown live in full."
   - question: "Do I need DAZN Ultimate to watch pay-per-view boxing?"
     answer: "No. You can buy pay-per-view events on DAZN Standard, but each one costs extra. DAZN says Ultimate includes at least 12 pay-per-view events a year at no extra cost."
   - question: "Can I cancel DAZN at any time?"
@@ -35,7 +37,7 @@ faqs:
 {% include affiliate-disclosure.html %}
 
 {% assign dazn_flex = site.data.prices | where: "service", "DAZN" | where: "plan", "Standard (Flex)" | first %}{% assign dazn_std = site.data.prices | where: "service", "DAZN" | where: "plan", "Standard (12-month contract)" | first %}{% assign dazn_ult = site.data.prices | where: "service", "DAZN" | where: "plan", "Ultimate (12-month contract)" | first %}
-**Yes, DAZN is available in Ireland.** It's a sports streaming service built mainly around boxing, and it sells two plans here: Standard, from {% include euro.html amount=dazn_std.monthly %} a month, and Ultimate, at {% include euro.html amount=dazn_ult.monthly %} a month on a 12-month contract.
+**Yes, DAZN is available in Ireland.** It's a sports streaming service built around boxing and Italian football, and it sells two plans here: Standard, from {% include euro.html amount=dazn_std.monthly %} a month, and Ultimate, at {% include euro.html amount=dazn_ult.monthly %} a month on a 12-month contract.
 
 ## DAZN prices in Ireland
 
@@ -49,12 +51,17 @@ DAZN only shows its Irish prices during sign-up, so we checked them there on 16 
 
 ## What each DAZN plan includes
 
-Both plans include **185+ boxing fights a year**, from promoters including Matchroom, Queensberry Promotions, Top Rank and Golden Boy, according to DAZN.
+Both plans include, according to DAZN:
+
+- **Every Serie A game** in the 2026/27 season, all 380, live or on demand. Games that fall in the Saturday blackout window (14:45 to 17:15) can't be shown live in full in Ireland.
+- **185+ boxing fights a year**, from promoters including Matchroom, Queensberry Promotions, Top Rank and Golden Boy.
+
+On top of that:
 
 - **Standard:** full HD picture. Pay-per-view events cost extra.
-- **Ultimate:** at least 12 pay-per-view events a year included, HDR and Dolby 5.1 sound on selected events, and highlights from LALIGA, Serie A, the Bundesliga and the Saudi Pro League.
+- **Ultimate:** at least 12 pay-per-view events a year included, HDR and Dolby 5.1 sound on selected events, and highlights from LALIGA, the Bundesliga and the Saudi Pro League.
 
-The difference comes down to pay-per-views. If you'd buy several big fights a year anyway, Ultimate may cost less overall. If you mainly watch the regular fight nights, Standard covers them. If you only want one month of boxing, Flex is the only plan you can cancel without a 12-month commitment.
+The difference comes down to pay-per-views. If you'd buy several big fights a year anyway, Ultimate may cost less overall. If you mainly want Serie A or the regular fight nights, Standard covers them. If you only want one month of boxing, Flex is the only plan you can cancel without a 12-month commitment.
 
 ## Other DAZN subscriptions
 
@@ -68,7 +75,7 @@ DAZN also sells separate subscriptions in Ireland for:
 
 These aren't part of Standard or Ultimate, and their prices appear during sign-up. There's also a **free tier**: register on DAZN's site for some highlights, NFL action, FIFA+ matches and a free US college game each week.
 
-For live football in Ireland, see [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/) and [where to watch the Premier League](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/).
+For other live football in Ireland, see [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/) and [where to watch the Premier League](/sports-streaming/where-to-watch-premier-league-football-legally-in-ireland/).
 
 ## How to sign up for DAZN in Ireland
 
@@ -78,7 +85,7 @@ For live football in Ireland, see [where to watch the Champions League](/sports-
 
 If your TV doesn't have the app, a streaming stick is the simplest fix. See [the best streaming devices in Ireland](/devices/best-streaming-devices-ireland/).
 
-Sources: [DAZN Ireland](https://www.dazn.com/en-IE/welcome) (plans, content and supported devices; prices from DAZN's Irish sign-up pages, checked 16 November 2026) · [DAZN help: plans and pricing](https://www.dazn.com/en-IE/help/articles/16184063399709-DAZN-plans-and-pricing) (contracts and screens, checked 16 November 2026)
+Sources: [DAZN Ireland](https://www.dazn.com/en-IE/welcome) (plans, content and supported devices; prices from DAZN's Irish sign-up pages, checked 16 November 2026) · [DAZN help: plans and pricing](https://www.dazn.com/en-IE/help/articles/16184063399709-DAZN-plans-and-pricing) (contracts and screens, checked 16 November 2026) · [DAZN: how to watch Serie A in the UK and Ireland](https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb) (2026/27, checked 16 November 2026)
 
 {% include faq-section.html %}
 

@@ -6,7 +6,7 @@ description: "What Netflix, Disney+, NOW, HBO Max, Apple TV and Hayu cost in Ire
 excerpt: "Every major streaming price in Ireland, in one table, with the date we last checked it."
 seo:
   type: WebPage
-last_updated: 2026-10-21
+last_updated: 2026-11-16
 header:
   overlay_image: /assets/images/teasers/streaming-8.jpg
   overlay_filter: 0.5
@@ -25,6 +25,8 @@ Standard prices for the main legal streaming services in Ireland, in euro, inclu
 Prices here are the standard rates. Many services run introductory offers for new customers, so you may pay less for the first few months. Always confirm on the provider's own site before you subscribe.
 
 Want to add up your own bill? Try the [streaming cost calculator](/streaming-cost-calculator/).
+
+{% include affiliate-disclosure.html %}
 
 {% assign changed = all_prices | where_exp: "p", "p.changed" | sort: "changed" | reverse %}
 {% if changed.size > 0 %}
@@ -52,7 +54,7 @@ Want to add up your own bill? Try the [streaming cost calculator](/streaming-cos
   {% for p in rows %}
     <tr>
       <td data-label="Service"><strong>{{ p.service }}</strong></td>
-      <td data-label="Plan">{{ p.plan }}{% if p.note %}<br><small>{{ p.note }}</small>{% endif %}</td>
+      <td data-label="Plan">{{ p.plan }}{% if p.note %}<br><small>{{ p.note }}</small>{% endif %}{% if p.affiliate %}{% assign signup_text = "Sign up on " | append: p.service %}<br>{% include product-link.html id=p.affiliate text=signup_text %}{% endif %}</td>
       <td data-label="Monthly">{% if p.monthly == 0 %}Free{% elsif p.monthly %}{% include euro.html amount=p.monthly %}{% else %}–{% endif %}</td>
       <td data-label="Yearly">{% if p.yearly %}{% include euro.html amount=p.yearly %}{% else %}–{% endif %}</td>
       <td data-label="Checked"><a href="{{ p.url }}" rel="noopener" target="_blank" title="Source: {{ p.source }}">{{ p.checked | date: "%-d %b %Y" }}</a></td>

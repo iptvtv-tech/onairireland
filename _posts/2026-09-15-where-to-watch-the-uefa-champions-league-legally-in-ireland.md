@@ -2,7 +2,7 @@
 title: "Where to Watch the Champions League in Ireland (2026/27)"
 excerpt: "Champions League in Ireland in 2026/27: free games on Virgin Media and RTÉ, Tuesday's top game on Premier Sports, and what changes from 2027/28."
 description: "Champions League in Ireland in 2026/27: free games on Virgin Media and RTÉ, Tuesday's top game on Premier Sports, and what changes from 2027/28."
-last_updated: 2026-11-10
+last_updated: 2026-11-16
 last_checked: 2026-11-10
 categories:
   - Sports-Streaming
@@ -18,7 +18,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: false
+affiliate_links: true
 faqs:
   - question: "Is the Champions League free to watch in Ireland?"
     answer: "Mostly, this season. Until the end of 2026/27 Virgin Media Television shows most games free, and RTÉ shows live Wednesday games free on RTÉ2 and RTÉ Player. Premier Sports, a paid channel, has first pick of Tuesday games."
@@ -31,6 +31,8 @@ faqs:
 {% include last-updated.html %}
 
 {% include share-buttons.html %}
+
+{% include affiliate-disclosure.html %}
 
 In Ireland, most Champions League games this season (2026/27) are free on **Virgin Media Television** and **RTÉ**. The paid option is **Premier Sports**, which has first pick of the Tuesday night games and is available through Sky, Virgin Media, Vodafone or NOW.
 
@@ -82,7 +84,11 @@ The rights for 2027 to 2031 have been sold:
 - **Sky Sports** gets the remaining Champions League games, plus the Europa League and Conference League (reported by The Irish Times).
 - **Virgin Media Television** didn't keep the rights. RTÉ notes that Tuesday games will no longer be free-to-air in Ireland after May 2027.
 
-Sources: [RTÉ Sport: RTÉ retain Champions League rights until 2031](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/) (checked 10 November 2026) · [UEFA: 2026/27 Champions League dates](https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/) (checked 10 November 2026) · [NOW Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) (checked 10 November 2026) · [Premier Sports Ireland: how to watch](https://premiersportsireland.com/how-to-watch/) (checked 10 November 2026) · [The Irish Times, 30 April 2026](https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/) · [The42, October 2023](https://the42.ie/irish-champions-league-rights-2024-6194583-Oct2023)
+## Serie A in Ireland
+
+For Italian league football, DAZN shows every Serie A game in Ireland in 2026/27, included with its Standard and Ultimate plans ([DAZN](https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb)). Games in the Saturday blackout window, 14:45 to 17:15, can't be shown live in full. See [is DAZN available in Ireland?]({% post_url 2026-11-16-is-dazn-available-in-ireland %}) for prices, or go to {% include product-link.html id="dazn" text="DAZN's Irish website" %}.
+
+Sources: [RTÉ Sport: RTÉ retain Champions League rights until 2031](https://www.rte.ie/sport/soccer/2026/0430/1571140-rte-sport-retain-champions-league-rights-until-2031/) (checked 10 November 2026) · [UEFA: 2026/27 Champions League dates](https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/) (checked 10 November 2026) · [NOW Sports Extra](https://www.nowtv.com/ie/membership/sports/watch-sports-extra) (checked 10 November 2026) · [Premier Sports Ireland: how to watch](https://premiersportsireland.com/how-to-watch/) (checked 10 November 2026) · [The Irish Times, 30 April 2026](https://www.irishtimes.com/sport/soccer/2026/04/30/premier-sports-retain-champions-league-rights-to-2031/) · [The42, October 2023](https://the42.ie/irish-champions-league-rights-2024-6194583-Oct2023) · [DAZN: how to watch Serie A in the UK and Ireland](https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb) (checked 16 November 2026)
 
 {% include faq-section.html %}
 

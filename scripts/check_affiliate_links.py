@@ -34,6 +34,7 @@ HTML_ANCHOR = re.compile(
 )
 PRODUCT_LINK = re.compile(r"\{%-?\s*include\s+product-link\.html\s+([^%]*?)-?%\}")
 ID_PARAM = re.compile(r'\bid\s*=\s*"([^"]+)"')
+VAR_ID_PARAM = re.compile(r"\bid\s*=\s*[A-Za-z_][\w.]*")
 SPONSORED_REL = re.compile(r"\brel\s*=\s*([\"'])([^\"']*)\1", re.I)
 DISCLOSURE = "{% include affiliate-disclosure.html %}"
 
@@ -64,7 +65,10 @@ for directory in (POSTS, PAGES):
             include_links += 1
             id_match = ID_PARAM.search(match.group(1))
             if not id_match:
-                errors.append(f"{relative}: product-link include without id=\"...\"")
+                # A template may pass the id from data, e.g. id=p.affiliate on the
+                # price tracker; check_prices_data.py validates those ids.
+                if not VAR_ID_PARAM.search(match.group(1)):
+                    errors.append(f"{relative}: product-link include without id=\"...\"")
             elif id_match.group(1) not in product_ids:
                 errors.append(f"{relative}: product-link id {id_match.group(1)!r} is not in _data/products.yml")
 

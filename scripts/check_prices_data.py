@@ -25,6 +25,10 @@ except yaml.YAMLError as e:
 
 today = datetime.date.today()
 seen = set()
+_products_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_data", "products.yml")
+with open(_products_path, encoding="utf-8") as _f:
+    PRODUCT_IDS = {str(p.get("id")) for p in (yaml.safe_load(_f) or []) if isinstance(p, dict)}
+
 for i, r in enumerate(rows, 1):
     if not isinstance(r, dict):
         errors.append(f"entry {i}: not a mapping")
@@ -44,6 +48,9 @@ for i, r in enumerate(rows, 1):
         v = r.get(key)
         if v is not None and (not isinstance(v, (int, float)) or v < 0 or v > MAX_PRICE):
             errors.append(f"{name}: {key} {v!r} is not a sensible euro amount")
+    aff = r.get("affiliate")
+    if aff is not None and str(aff) not in PRODUCT_IDS:
+        errors.append(f"{name}: affiliate {aff!r} is not an id in _data/products.yml")
     url = r.get("url")
     if url and not str(url).startswith("https://"):
         errors.append(f"{name}: url should start with https://")

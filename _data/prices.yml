@@ -13,6 +13,7 @@
 #   source    - where it was confirmed
 #   url       - link to that source
 #   group     - general | film-tv | sport | free (used to group the table and calculator)
+#   affiliate  - optional id from _data/products.yml; the tracker adds a "Sign up" paid link for that row
 #   combinable - true if several plans of this service can be taken together (NOW memberships)
 #
 # When a price changes: update monthly/yearly, set changed + checked to today, update source.
@@ -171,6 +172,7 @@
   source: DAZN (prices shown at sign-up)
   url: https://www.dazn.com/en-IE/welcome
   group: sport
+  affiliate: dazn
 - service: DAZN
   plan: Standard (12-month contract)
   monthly: 15.99
@@ -180,6 +182,7 @@
   source: DAZN (prices shown at sign-up)
   url: https://www.dazn.com/en-IE/welcome
   group: sport
+  affiliate: dazn
 - service: DAZN
   plan: Ultimate (12-month contract)
   monthly: 24.99
@@ -189,6 +192,7 @@
   source: DAZN (prices shown at sign-up)
   url: https://www.dazn.com/en-IE/welcome
   group: sport
+  affiliate: dazn
 - service: RTÉ Player
   plan: Free
   monthly: 0
