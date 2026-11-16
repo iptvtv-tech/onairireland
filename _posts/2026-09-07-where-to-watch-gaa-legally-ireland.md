@@ -25,7 +25,7 @@ header:
 seo:
   type: Article
 toc: true
-affiliate_links: true
+affiliate_links: false
 quick_facts:
      - Live GAA in Ireland is split between RTÉ and TG4 (free) and GAA+ (paid)
      - Games are picked match by match, not by county
@@ -51,7 +51,6 @@ faqs:
 
 {% include last-updated.html %}
 
-{% include affiliate-disclosure.html %}
 {% include share-buttons.html %}
 {% include quick-facts.html %}
 
@@ -136,7 +135,7 @@ GAA+ lists these as supported:
 - **Computers:** the gaaplus.ie website
 - **Casting:** from the phone app to a TV with Chromecast or AirPlay
 
-Browsers on smart TVs and games consoles aren't officially supported. If your TV is too old for the app, a streaming stick such as the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Fire TV Stick 4K Max" %} or {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} adds it.
+Browsers on smart TVs and games consoles aren't officially supported. If your TV is too old for the app, a Roku or a Fire TV stick running Fire OS adds it; our [streaming devices guide](/devices/best-streaming-devices-ireland/) compares the ones sold in Ireland.
 
 RTÉ Player and TG4 Player are free and are on most streaming sticks, smart TVs, phones and computers, so one device usually covers all three services.
 
@@ -183,8 +182,6 @@ The 2027 fixtures, TV picks and GAA+ prices hadn't been published when we last c
 Sources: [GAA: broadcast deals 2023–2027](https://www.gaa.ie/news/gaa-broadcast-statement-2023-2027) · [RTÉ: the GAA championships on RTÉ](https://about.rte.ie/2026/04/07/the-gaa-championships-on-rte) · [GAA: 2026 GAA+ season pass](https://www.gaa.ie/article/gaa-launches-2026-season-pass) · [GAA+ help: from GAAGO to GAA+](https://help.gaaplus.ie/support/solutions/articles/77000578937-gaago-to-gaa-transition) · [GAA+ help: where GAA+ is available](https://help.gaaplus.ie/support/solutions/articles/77000579274-what-countries-is-gaa-available-in-) · [GAA+ packages](https://www.gaaplus.ie/packages) · [TG4: Allianz Leagues coverage](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-unveils-extensive-allianz-leagues-coverage/) · [TG4: Ladies football championships to 2032](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/)
 
 **Related guides:** [All our GAA guides](/gaa/)
-
-{% include product-showcase.html category="Devices" title="Get Set Up for the GAA Season" %}
 
 {% include faq-section.html %}
 

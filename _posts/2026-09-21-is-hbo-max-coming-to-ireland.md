@@ -21,7 +21,7 @@ seo:
   type: Article
 toc: true
 draft_generated: true
-affiliate_links: true
+affiliate_links: false
 faqs:
   - question: "Is HBO Max coming to Ireland?"
     answer: "It's already here. HBO Max launched in Ireland and the UK on Thursday 26 March 2026, and Ireland is listed as a country where the service is available in HBO Max's own help centre."
@@ -42,8 +42,6 @@ faqs:
 ---
 
 {% include last-updated.html %}
-
-{% include affiliate-disclosure.html %}
 
 {% include share-buttons.html %}
 
@@ -127,7 +125,7 @@ Most devices need to be on the latest software or one of the two previous versio
 
 ### Watching on an older TV
 
-If your TV is older and the app isn't in its store, a plug-in streaming stick is a cheap way to add it. HBO Max supports Fire TV and Roku, so the {% include product-link.html id="fire-tv-stick-4k-max-review" text="Amazon Fire TV Stick 4K Max" %} or the {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} will both run it. Amazon's newest standard Fire TV sticks run Vega OS, which has fewer apps, so check the listing if you choose a different Fire TV model. If you plan on Premium, pick a 4K stick and make sure your TV supports 4K too.
+If your TV is older and the app isn't in its store, a plug-in streaming stick is a cheap way to add it. HBO Max supports Fire TV and Roku, so a Roku or a Fire TV stick running Fire OS will run it. Amazon's newest standard Fire TV sticks run Vega OS, which has fewer apps, so check the listing before you buy. If you plan on Premium, pick a 4K stick and make sure your TV supports 4K too. Our [streaming devices guide](/devices/best-streaming-devices-ireland/) compares the sticks sold in Ireland.
 
 ## Watching HBO Max abroad
 
