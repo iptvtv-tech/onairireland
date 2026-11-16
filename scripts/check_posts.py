@@ -151,8 +151,85 @@ for name in sorted(os.listdir(POSTS)):
     if re.search(r"/assets/images/(headers|teasers)/", hero):
         legacy_images += 1
 
+# ---------------------------------------------------------------------------
+# Prices (posts and pages). The same rules for every PR: draft, seasonal,
+# sport, hand edits. See scripts/price_rules.py.
+#  1. A tracked price (prices.yml) or live offer (offers.yml) is never typed
+#     next to its service: use {% include price.html %} / {% include offers.html %}.
+#     Front matter can't run Liquid, so it points to the tracker instead.
+#  2. No typed price or deal wording in a paragraph that links a retailer
+#     product: Amazon only allows live prices, so readers check the retailer.
+#  3. price.html / offers.html includes must point at data that exists.
+# ---------------------------------------------------------------------------
+import price_rules  # noqa: E402  (scripts/ is on the path when run as a script)
+
+_amounts = price_rules.tracked_amounts()
+_prices = price_rules.load_prices()
+_offers = price_rules.load_offers()
+PAGES = os.path.join(ROOT, "_pages")
+price_files = [os.path.join(POSTS, n) for n in sorted(os.listdir(POSTS)) if n.endswith(".md")]
+if os.path.isdir(PAGES):
+    price_files += [os.path.join(PAGES, n) for n in sorted(os.listdir(PAGES)) if n.endswith((".md", ".html"))]
+for path in price_files:
+    rel = os.path.relpath(path, ROOT)
+    text = open(path, encoding="utf-8").read()
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
+    fm_text, body = (m.group(1), m.group(2)) if m else ("", text)
+    for service, amount, sentence in price_rules.typed_tracked_prices(body, _amounts):
+        errors.append(f"{rel}: typed {service} price €{amount:.2f} in \"{sentence[:90]}\"; use "
+                      f"{{% include price.html service=\"{service}\" plan=\"...\" %}} (or offers.html for an offer)")
+    for service, amount, sentence in price_rules.typed_tracked_prices(fm_text, _amounts):
+        errors.append(f"{rel}: front matter quotes the {service} price €{amount:.2f} (\"{sentence[:80]}\"); "
+                      "front matter can't use Liquid, so point readers to the streaming price tracker instead")
+    for hit, para in price_rules.retailer_price_problems(body):
+        errors.append(f"{rel}: '{hit}' in a paragraph with a product link (\"{para[:80]}\"); retailer prices "
+                      "and deals are never typed (Amazon only allows live prices): link the product and let readers check")
+    for problem in price_rules.price_include_problems(body, _prices, _offers):
+        errors.append(f"{rel}: {problem}")
+
+# ---------------------------------------------------------------------------
+# Sources and checked date. Every new or refreshed post (from 16 Nov 2026,
+# when this check started) ends with a "Sources:" line and has last_checked.
+# A seasonal refresh bumps last_checked, so it must bring its sources too.
+# ---------------------------------------------------------------------------
+import datetime  # noqa: E402
+
+SOURCES_FROM = datetime.date(2026, 11, 16)
+SOURCES_LINE = re.compile(r"^\s*(?:\*\*)?Sources?:", re.M)
+for name in sorted(os.listdir(POSTS)):
+    if not name.endswith(".md"):
+        continue
+    text = open(os.path.join(POSTS, name), encoding="utf-8").read()
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
+    if not m:
+        continue
+    try:
+        fm = yaml.safe_load(m.group(1)) or {}
+    except yaml.YAMLError:
+        continue
+    try:
+        post_date = datetime.date.fromisoformat(name[:10])
+    except ValueError:
+        continue
+    checked = price_rules.as_date(fm.get("last_checked")) if fm.get("last_checked") else None
+    is_new = post_date >= SOURCES_FROM
+    refreshed = checked is not None and checked >= SOURCES_FROM
+    if is_new and not checked:
+        errors.append(f"{name}: new post needs last_checked: YYYY-MM-DD in its front matter")
+    if (is_new or refreshed) and not SOURCES_LINE.search(m.group(2)):
+        errors.append(f"{name}: new or refreshed post needs a 'Sources:' line at the end, linking the primary sources")
+
+# Seasonal topics that refresh an existing post must name a post that exists
+# (posts get merged and renamed; the seasonal plan has to follow them).
+SEASONAL = os.path.join(ROOT, "_data", "seasonal_topics.yml")
+if os.path.exists(SEASONAL):
+    for t in yaml.safe_load(open(SEASONAL, encoding="utf-8")) or []:
+        target = (t or {}).get("refresh")
+        if target and not os.path.exists(os.path.join(POSTS, target)):
+            errors.append(f"seasonal_topics.yml: {t.get('title')!r} refreshes _posts/{target}, which doesn't exist")
+
 # Inline includes used inside table rows must not print a trailing newline.
-for inline in ("euro.html",):
+for inline in ("euro.html", "price.html"):
     path = os.path.join(ROOT, "_includes", inline)
     if os.path.exists(path) and open(path, encoding="utf-8").read().endswith("\n"):
         errors.append(f"_includes/{inline} ends with a newline, which breaks table rows that use it")

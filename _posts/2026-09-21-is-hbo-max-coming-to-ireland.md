@@ -26,7 +26,7 @@ faqs:
   - question: "Is HBO Max coming to Ireland?"
     answer: "It's already here. HBO Max launched in Ireland and the UK on Thursday 26 March 2026, and Ireland is listed as a country where the service is available in HBO Max's own help centre."
   - question: "How much is HBO Max in Ireland?"
-    answer: "At the time of writing (November 2026), HBO Max's Irish site lists Standard with Ads at €6.99 a month, Standard at €10.99 and Premium at €15.99. Our streaming prices tracker shows the latest price and the date we last checked it."
+    answer: "HBO Max's Irish site sells three plans: Standard with Ads, Standard and Premium. Our streaming prices tracker shows the current price of each and the date we last checked it."
   - question: "Is HBO Max included with Sky in Ireland?"
     answer: "Sky Ultimate TV includes HBO Max Basic with Ads, which you activate from a Sky Glass, Sky Stream or Sky Q box. Sky customers can upgrade to Standard or Premium through Sky."
   - question: "Can I get HBO Max through NOW?"

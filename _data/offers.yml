@@ -1,0 +1,52 @@
+# Time-limited streaming offers (Black Friday, Christmas, introductory prices).
+# ONE place for offers, like _data/prices.yml is for regular prices. Used by:
+#   _includes/offers.html  -> the price tracker (/streaming-prices/) and the
+#                             Black Friday and Christmas guide
+# Never type an offer price into a post or page: list it here and use
+#   {% include offers.html %}                 (every live offer)
+#   {% include offers.html service="NOW" %}   (one service's offers)
+#
+# Each offer:
+#   id            - unique slug, e.g. now-entertainment-6-months-nov-2026
+#   service, plan - must match a row in _data/prices.yml (the regular price
+#                   shown after the offer comes from there)
+#   offer_monthly - offer price a month, in euro (number)
+#   months        - how many months the offer price lasts
+#   terms         - short, from the provider's own page: who it's for and any
+#                   minimum term. No promo codes (Awin declines unapproved codes).
+#   ends          - the provider's stated end date (YYYY-MM-DD), if it gives one
+#   show_until    - REQUIRED. The last day the site shows the offer: the provider's
+#                   end date, or a re-check date no more than 21 days after
+#                   `checked` when the provider gives none. After this date the
+#                   offer disappears by itself (at the next build, and straight
+#                   away in visitors' browsers).
+#   checked       - the day WE confirmed it on the provider's own Irish page
+#   source, url   - that page (same primary-source rules as prices.yml)
+#   checked_by    - "hand" for providers we may not fetch automatically (DAZN:
+#                   its affiliate terms forbid scraping; John checks it himself)
+#   affiliate     - optional id from _data/products.yml for a "(paid link)" sign-up link
+#
+# scripts/check_prices_data.py validates this file on every PR.
+# Re-check or remove an offer before its show_until date.
+
+- id: now-entertainment-6-months-nov-2026
+  service: NOW
+  plan: Entertainment
+  offer_monthly: 5.99
+  months: 6
+  terms: 6-month minimum term, new NOW Entertainment, Cinema and Boost customers only
+  show_until: 2026-11-30
+  checked: 2026-11-16
+  source: NOW Ireland
+  url: https://www.nowtv.com/ie/plans/new/entertainment
+
+- id: now-entertainment-hbo-max-6-months-nov-2026
+  service: NOW
+  plan: Entertainment & HBO Max
+  offer_monthly: 7.99
+  months: 6
+  terms: 6-month minimum term, new NOW Entertainment & HBO Max, Cinema and Boost customers only
+  show_until: 2026-11-30
+  checked: 2026-11-16
+  source: NOW Ireland
+  url: https://www.nowtv.com/ie/plans/new/entertainment

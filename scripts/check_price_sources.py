@@ -1,22 +1,15 @@
 #!/usr/bin/env python3
-"""Guard price data against unapproved, non-primary source domains."""
+"""Guard price data against unapproved, non-primary source domains.
+The allowlist lives in price_rules.py, shared with the offers check."""
 from pathlib import Path
 from urllib.parse import urlparse
 import sys
 import yaml
 
+from price_rules import is_approved
+
 ROOT = Path(__file__).resolve().parent.parent
 PRICES = ROOT / "_data" / "prices.yml"
-APPROVED_HOSTS = {
-    "netflix.com", "disneyplus.com", "aboutamazon.eu", "amazon.ie",
-    "tv.apple.com", "apple.com", "help.hbomax.com", "hbomax.com",
-    "paramountplus.com", "support.paramountplus.com", "hayu.com", "support.hayu.com",
-    "nowtv.com", "gaa.ie", "rte.ie", "virginmediatelevision.ie", "tg4.ie",
-    "citizensinformation.ie", "tvlicence.ie", "dazn.com",
-}
-
-def is_approved(host: str) -> bool:
-    return any(host == domain or host.endswith("." + domain) for domain in APPROVED_HOSTS)
 
 try:
     rows = yaml.safe_load(PRICES.read_text(encoding="utf-8")) or []

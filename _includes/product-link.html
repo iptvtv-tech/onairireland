@@ -8,7 +8,16 @@
   the link stays inline in Markdown paragraphs, lists and tables.
   Each link is followed by "(paid link)" so readers can see which links earn
   a commission, as well as the disclosure at the top of the post.
+
+  to="https://..." (Awin partners such as DAZN only): the same tracked link,
+  but landing on that page of the partner's site instead of the default one,
+  e.g. a help article cited in a Sources line:
+    {% include product-link.html id="dazn" text="DAZN help: plans and pricing" to="https://www.dazn.com/en-IE/help/..." %}
+  check_affiliate_links.py fails a `to` on another site, and any plain link to
+  a partner's site, so every click to DAZN carries our tracking.
 {%- endcomment -%}
 {%- assign oai_product = site.data.products | where: "id", include.id | first -%}
 {%- assign oai_text = include.text | default: oai_product.name -%}
-{%- if oai_product -%}<a href="{{ oai_product.affiliate_link }}" rel="nofollow sponsored noopener" target="_blank">{{ oai_text }}</a> <small class="paid-link">(paid link)</small>{%- else -%}{{ oai_text }}{%- endif -%}
+{%- assign oai_href = oai_product.affiliate_link -%}
+{%- if include.to and oai_href contains "ued=" -%}{%- assign oai_to = include.to | url_encode -%}{%- assign oai_href = oai_href | split: "ued=" | first | append: "ued=" | append: oai_to -%}{%- endif -%}
+{%- if oai_product -%}<a href="{{ oai_href }}" rel="nofollow sponsored noopener" target="_blank">{{ oai_text }}</a> <small class="paid-link">(paid link)</small>{%- else -%}{{ oai_text }}{%- endif -%}

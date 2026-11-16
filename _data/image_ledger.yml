@@ -1760,24 +1760,6 @@ photos:
   created: '2026-11-10'
   used_in:
   - 2026-10-14-setting-up-sky-stream-on-a-new-smart-tv.md
-- id: photo-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland
-  source: pexels
-  pexels_id: 275484
-  pexels_url: https://www.pexels.com/photo/brown-fabric-sectional-sofa-275484/
-  photographer: Pixabay
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Stylish modern living room featuring a brown sofa, wall-mounted TV, and interior decor.
-  scene: viewing-room
-  people: false
-  palette: Installation-Guides
-  files:
-    hero: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero.webp
-    hero_small: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-hero-800.webp
-    teaser: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-teaser.webp
-    og: /assets/images/posts/new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland-og.jpg
-  created: '2026-11-10'
-  used_in:
-  - 2026-12-01-new-tv-for-christmas-set-it-up-for-legal-streaming-in-ireland.md
 retired:
 - file: /assets/images/teasers/streaming-2.jpg
   reason: third-party brand logos (Netflix, Disney+, HBO Max, Prime, Apple TV+) and cash

@@ -1,0 +1,50 @@
+{%- comment -%}
+  Lists the live offers in _data/offers.yml: the offer price, for how long,
+  then the regular price from _data/prices.yml, with the source and check date.
+    {% include offers.html %}                        every live offer
+    {% include offers.html service="NOW" %}          one service's offers
+    {% include offers.html hide_empty="true" title="Offers right now" %}
+  An offer is live up to and including its show_until date. After that it is
+  left out at the next build, and the script below hides it in the browser
+  straight away, so an ended offer never shows. none="..." changes the line
+  shown when there is no live offer; hide_empty="true" shows nothing instead.
+{%- endcomment -%}
+{%- assign oai_today = site.time | date: "%Y-%m-%d" -%}
+{%- assign oai_live = 0 -%}
+{%- capture oai_items -%}
+{%- if site.data.offers -%}
+{%- for o in site.data.offers -%}
+{%- assign oai_until = o.show_until | date: "%Y-%m-%d" -%}
+{%- if include.service and o.service != include.service -%}{%- continue -%}{%- endif -%}
+{%- if oai_until >= oai_today -%}
+{%- assign oai_live = oai_live | plus: 1 -%}
+{%- assign oai_offer_row = site.data.prices | where: "service", o.service | where: "plan", o.plan | first -%}
+<li data-offer-until="{{ oai_until }}"><strong>{{ o.service }}{% if o.plan != o.service %} {{ o.plan }}{% endif %}:</strong> {% include euro.html amount=o.offer_monthly %} a month for {{ o.months }} month{% if o.months != 1 %}s{% endif %}{% if oai_offer_row.monthly %}, then {% include euro.html amount=oai_offer_row.monthly %} a month{% endif %}. {{ o.terms }}.{% if o.ends %} Ends {{ o.ends | date: "%-d %B %Y" }}.{% endif %}{% if o.affiliate %} {% include product-link.html id=o.affiliate text="Sign up" %}{% endif %} <small>Source: {% if o.affiliate %}{% include product-link.html id=o.affiliate text=o.source to=o.url %}{% else %}<a href="{{ o.url }}" rel="noopener" target="_blank">{{ o.source }}</a>{% endif %}, checked {{ o.checked | date: "%-d %B %Y" }}.</small></li>
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endcapture -%}
+{%- if oai_live > 0 or include.hide_empty != "true" -%}
+<div class="streaming-offers"{% if include.hide_empty == "true" %} data-hide-empty{% endif %}>
+{%- if include.title %}<h2>{{ include.title }}</h2>{% endif -%}
+<ul class="streaming-offers__list">{{ oai_items }}</ul>
+<p class="streaming-offers__none"{% if oai_live > 0 %} hidden{% endif %}>{{ include.none | default: "No offers confirmed on the providers' own Irish pages right now. Regular prices are in our streaming price tracker." }}</p>
+</div>
+<script>
+(function () {
+  var d = new Date();
+  var t = d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+  document.querySelectorAll(".streaming-offers").forEach(function (box) {
+    var live = 0;
+    box.querySelectorAll("[data-offer-until]").forEach(function (li) {
+      if (li.getAttribute("data-offer-until") < t) { li.hidden = true; } else { live++; }
+    });
+    if (!live) {
+      if (box.hasAttribute("data-hide-empty")) { box.hidden = true; return; }
+      var none = box.querySelector(".streaming-offers__none");
+      if (none) { none.hidden = false; }
+    }
+  });
+})();
+</script>
+{%- endif -%}

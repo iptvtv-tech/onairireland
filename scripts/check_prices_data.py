@@ -66,12 +66,28 @@ for i, r in enumerate(rows, 1):
     if isinstance(checked, datetime.date) and (today - checked).days > STALE_DAYS:
         warnings.append(f"{name}: last checked {checked} ({(today - checked).days} days ago)")
 
+# Time-limited offers (_data/offers.yml): provider sources, a show_until date
+# no more than three weeks after the check, and a real discount on a tracked plan.
+import price_rules  # noqa: E402  (scripts/ is on the path when run as a script)
+
+try:
+    offers = price_rules.load_offers()
+except yaml.YAMLError as e:
+    offers = []
+    errors.append(f"_data/offers.yml is not valid YAML: {e}")
+offer_errors, offer_warnings = price_rules.offer_problems(offers, rows, today, price_rules.is_approved)
+errors += offer_errors
+stale_count = len(warnings)
+warnings += offer_warnings
+
 for w in warnings:
     print("WARNING:", w)
 for e in errors:
     print("ERROR:", e)
-print(f"Checked prices: {len(rows)} plans, {len(errors)} error(s), {len(warnings)} stale warning(s)")
-if warnings and os.environ.get("GITHUB_ACTIONS"):
-    print(f"::warning title=Prices overdue::{len(warnings)} price(s) not confirmed in {STALE_DAYS} days. "
+print(f"Checked prices: {len(rows)} plans and {len(offers)} offer(s), {len(errors)} error(s), {len(warnings)} warning(s)")
+if stale_count and os.environ.get("GITHUB_ACTIONS"):
+    print(f"::warning title=Prices overdue::{stale_count} price(s) not confirmed in {STALE_DAYS} days. "
           "Run the Quarterly Price Check workflow.")
+if offer_warnings and os.environ.get("GITHUB_ACTIONS"):
+    print(f"::warning title=Offers ended::{len(offer_warnings)} offer(s) in _data/offers.yml have ended; remove or re-check them.")
 sys.exit(1 if errors else 0)

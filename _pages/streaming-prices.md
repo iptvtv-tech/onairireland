@@ -24,6 +24,8 @@ Standard prices for the main legal streaming services in Ireland, in euro, inclu
 
 Prices here are the standard rates. Many services run introductory offers for new customers, so you may pay less for the first few months. Always confirm on the provider's own site before you subscribe.
 
+{% include offers.html hide_empty="true" title="Offers right now" %}
+
 Want to add up your own bill? Try the [streaming cost calculator](/streaming-cost-calculator/).
 
 {% include affiliate-disclosure.html %}
@@ -34,7 +36,7 @@ Want to add up your own bill? Try the [streaming cost calculator](/streaming-cos
 
 <ul class="price-tracker__changes">
 {% for p in changed limit: 6 %}
-  <li><strong>{{ p.service }} {{ p.plan }}</strong> is now {% if p.monthly %}{% include euro.html amount=p.monthly %} a month{% else %}{% include euro.html amount=p.yearly %} a year{% endif %} (changed {{ p.changed | date: "%-d %B %Y" }}). <a href="{{ p.url }}" rel="noopener" target="_blank">Source: {{ p.source }}</a></li>
+  <li><strong>{{ p.service }} {{ p.plan }}</strong> is now {% if p.monthly %}{% include euro.html amount=p.monthly %} a month{% else %}{% include euro.html amount=p.yearly %} a year{% endif %} (changed {{ p.changed | date: "%-d %B %Y" }}). {% if p.affiliate %}{% assign src_text = "Source: " | append: p.source %}{% include product-link.html id=p.affiliate text=src_text to=p.url %}{% else %}<a href="{{ p.url }}" rel="noopener" target="_blank">Source: {{ p.source }}</a>{% endif %}</li>
 {% endfor %}
 </ul>
 {% endif %}
@@ -57,7 +59,7 @@ Want to add up your own bill? Try the [streaming cost calculator](/streaming-cos
       <td data-label="Plan">{{ p.plan }}{% if p.note %}<br><small>{{ p.note }}</small>{% endif %}{% if p.affiliate %}{% assign signup_text = "Sign up on " | append: p.service %}<br>{% include product-link.html id=p.affiliate text=signup_text %}{% endif %}</td>
       <td data-label="Monthly">{% if p.monthly == 0 %}Free{% elsif p.monthly %}{% include euro.html amount=p.monthly %}{% else %}–{% endif %}</td>
       <td data-label="Yearly">{% if p.yearly %}{% include euro.html amount=p.yearly %}{% else %}–{% endif %}</td>
-      <td data-label="Checked"><a href="{{ p.url }}" rel="noopener" target="_blank" title="Source: {{ p.source }}">{{ p.checked | date: "%-d %b %Y" }}</a></td>
+      <td data-label="Checked">{% if p.affiliate %}<span title="Source: {{ p.source }}">{{ p.checked | date: "%-d %b %Y" }}</span>{% else %}<a href="{{ p.url }}" rel="noopener" target="_blank" title="Source: {{ p.source }}">{{ p.checked | date: "%-d %b %Y" }}</a>{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

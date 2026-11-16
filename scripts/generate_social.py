@@ -195,6 +195,9 @@ Links only to onairireland.ie pages — never to external sites.
 Use only facts stated in the blog post below. Don't add services, channels,
 prices, dates or claims that aren't in it, and don't generalise about what
 "most fans" do or need.
+Never give a price, discount, saving or "deal" for a device or anything sold
+by Amazon or another retailer, even if the post names one: retailer prices
+change daily, so readers check them on the retailer's page.
 
 Blog post details
 Title: {title}

@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
 Checks _data/seasonal_topics.yml against today's date and adds any in-season
-topic to the front of _data/topic_queue.yml, unless it is already queued or
-already published.
+NEW-post topic to the front of _data/topic_queue.yml, unless it is already
+queued or already published.
+
+Topics with `refresh: <post file>` are never queued: their season's work is
+updating an existing post from primary sources, which the draft bot can't do
+(it has no web access, and a second post on the same subject competes with the
+first). They are listed in the run summary as "refresh by hand" instead.
 
 Run by the "Inject Seasonal Topics" workflow, which opens a PR with the
 change -- nothing reaches the queue until that PR is merged. This script never
@@ -101,6 +106,16 @@ def set_output(name: str, value: str) -> None:
         fh.write(f"{name}<<OAIEOF\n{value}\nOAIEOF\n")
 
 
+def write_summary(lines: list) -> None:
+    """Show the refresh-by-hand list on the Actions run page."""
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path or not lines:
+        return
+    with open(path, "a", encoding="utf-8") as fh:
+        fh.write("### Seasonal refreshes due (by hand, not the draft bot)\n\n")
+        fh.write("\n".join(lines) + "\n")
+
+
 def main():
     today = datetime.date.today()
     today_md = today.strftime("%m-%d")
@@ -111,9 +126,16 @@ def main():
     posted = published_slugs()
 
     new_entries = []
+    refresh_due = []
     for topic in seasonal:
         start, end = topic.get("window_start", ""), topic.get("window_end", "")
         if not in_window(today_md, start, end):
+            continue
+
+        if topic.get("refresh"):
+            refresh_due.append(
+                f"- Refresh `_posts/{topic['refresh']}` by {window_end_date(today, start, end).isoformat()}: "
+                f"{fill_placeholders(topic.get('brief', ''), today)}")
             continue
 
         title = fill_placeholders(topic["title"], today)
@@ -133,8 +155,13 @@ def main():
         new_entries.append(entry)
         queued_titles.add(title)
 
+    if refresh_due:
+        print("Seasonal refreshes due (by hand, never queued for the draft bot):\n" + "\n".join(refresh_due))
+        write_summary(refresh_due)
+    set_output("refresh", "\n".join(refresh_due))
+
     if not new_entries:
-        print("No seasonal topics are in-window today, or all matches are already queued/posted.")
+        print("No new-post seasonal topics are in-window today, or all matches are already queued/posted.")
         set_output("added", "")
         return
 

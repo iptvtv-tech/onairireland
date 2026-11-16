@@ -103,10 +103,34 @@ python scripts/check_fact_flags.py
 
 ## 4c. Prices
 
-`show_prices: false` in `_config.yml` hides the hand-typed `price` values in
-`_data/products.yml` everywhere (cards, Best Prices, quiz, hover previews).
-Amazon's Associates rules only allow showing prices pulled live from their
-Product Advertising API, so leave this off unless you add that.
+One rule for every post, page, draft and seasonal update: **never type a price**.
+
+- **Streaming services in the tracker:** the price lives in `_data/prices.yml`.
+  In a post or page write `{% raw %}{% include price.html service="NOW" plan="Sports" %}{% endraw %}`
+  (`field="yearly"`, `"day_pass"` or `"saver_both"` for the other amounts). Front
+  matter can't run Liquid, so key points and FAQs point to the
+  [price tracker](/streaming-prices/) instead. The draft writer uses
+  `[[price:NOW|Sports]]` tokens, which `generate_post.py` turns into the include.
+- **Offers (Black Friday, Christmas, introductory prices):** add them to
+  `_data/offers.yml` with the provider's own Irish page and a `show_until` date
+  (at most 21 days after the check). `{% raw %}{% include offers.html %}{% endraw %}` lists the live
+  ones; each disappears by itself after its `show_until` date. The tracker
+  shows them in an "Offers right now" box.
+- **Amazon and other retailers:** no prices, discounts or "% off" anywhere.
+  Amazon's Associates rules only allow prices pulled live from its API, so
+  `show_prices: false` stays in `_config.yml` and products carry no `price` field.
+  Link the product and let readers check the price.
+
+`scripts/check_posts.py` fails a post or page that types a tracked price, puts a
+price or deal wording next to a product link, or points a price include at a
+plan that doesn't exist. `check_prices_data.py` checks `offers.yml`, and
+`check_products.py` fails a product with a price.
+
+**Seasonal topics** (`_data/seasonal_topics.yml`): a topic with `refresh:` updates
+an existing post (Black Friday guide, Six Nations, GAA, the main guide each
+quarter) from primary sources, prepared by hand; it is never queued for the
+draft bot. A refreshed post sets `last_checked` and ends with a `Sources:` line
+(`check_posts.py` requires both for posts dated or checked from 16 Nov 2026).
 
 ## 5. Affiliate product showcase (Amazon Associates + others)
 
@@ -133,6 +157,8 @@ grep -n "AFFILIATE_LINK_" _data/products.yml
 **To add the showcase to a new post:** just add `{% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}` anywhere in the post body — it renders nothing if there are no matching products yet.
 
 **To link a product inside a sentence:** never paste an Amazon link into a post. Use `{% raw %}{% include product-link.html id="fire-tv-stick-4k" text="Fire TV Stick 4K" %}{% endraw %}` — the address comes from `_data/products.yml` (so changing it there updates every post) and the link is always marked `rel="nofollow sponsored noopener"`. If the product isn't in the catalogue yet, add it first. `scripts/check_affiliate_links.py` fails on raw Amazon links in posts and on unknown ids, and the draft generator converts links automatically.
+
+**Linking a specific page of an Awin partner (DAZN):** add `to="..."`, e.g. `{% raw %}{% include product-link.html id="dazn" text="DAZN help: plans and pricing" to="https://www.dazn.com/en-IE/help/..." %}{% endraw %}`. It's the same tracked Awin link landing on that page, so citations in a Sources line earn too. A plain link to dazn.com (or any partner site we have an Awin link for) fails the check, because the click would carry no tracking.
 
 ## 6. Plain affiliate link placeholders (older/simpler pattern)
 

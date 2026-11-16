@@ -33,7 +33,7 @@ header:
   <li class="sport-week__item">
     <span class="sport-week__time">{{ e.time }}</span>
     <span class="sport-week__main"><strong>{{ e.event }}</strong> <span class="sport-week__comp">{{ e.sport }} · {{ e.competition }}</span></span>
-    <span class="sport-week__watch">{% if e.free %}<span class="sport-week__free">FREE</span> {% endif %}{{ e.watch }}{% if e.watch contains "DAZN" %} · {% include product-link.html id="dazn" text="Sign up to DAZN" %}{% endif %} <a href="{{ e.source }}" rel="noopener" target="_blank" class="sport-week__src" aria-label="Source for {{ e.event }}">source</a></span>
+    <span class="sport-week__watch">{% if e.free %}<span class="sport-week__free">FREE</span> {% endif %}{{ e.watch }}{% if e.watch contains "DAZN" %} · {% include product-link.html id="dazn" text="Sign up to DAZN" %}{% endif %} {% if e.source contains "dazn.com" %}{% include product-link.html id="dazn" text="source" to=e.source %}{% else %}<a href="{{ e.source }}" rel="noopener" target="_blank" class="sport-week__src" aria-label="Source for {{ e.event }}">source</a>{% endif %}</span>
   </li>
 {% endfor %}
 </ul>

@@ -85,7 +85,7 @@ For other live football in Ireland, see [where to watch the Champions League](/s
 
 If your TV doesn't have the app, a streaming stick is the simplest fix. See [the best streaming devices in Ireland](/devices/best-streaming-devices-ireland/).
 
-Sources: [DAZN Ireland](https://www.dazn.com/en-IE/welcome) (plans, content and supported devices; prices from DAZN's Irish sign-up pages, checked 16 November 2026) · [DAZN help: plans and pricing](https://www.dazn.com/en-IE/help/articles/16184063399709-DAZN-plans-and-pricing) (contracts and screens, checked 16 November 2026) · [DAZN: how to watch Serie A in the UK and Ireland](https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb) (2026/27, checked 16 November 2026)
+Sources: {% include product-link.html id="dazn" text="DAZN Ireland" %}: plans, content and supported devices; prices from DAZN's Irish sign-up pages, checked 16 November 2026 · {% include product-link.html id="dazn" text="DAZN help: plans and pricing" to="https://www.dazn.com/en-IE/help/articles/16184063399709-DAZN-plans-and-pricing" %}: contracts and screens, checked 16 November 2026 · {% include product-link.html id="dazn" text="DAZN: how to watch Serie A in the UK and Ireland" to="https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb" %}: 2026/27, checked 16 November 2026
 
 {% include faq-section.html %}
 

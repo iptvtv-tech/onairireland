@@ -1,7 +1,7 @@
 ---
-title: Black Friday and Christmas Streaming Device Guide for Ireland
-excerpt: Which streaming stick or box suits your house, what to check before you buy, how to spot a real Black Friday deal, and your return rights over Christmas.
-description: Which streaming device suits your home, what to check before buying, how to spot a real Black Friday deal, and your Christmas return rights in Ireland.
+title: Black Friday and Christmas Streaming Guide for Ireland
+excerpt: Streaming offers confirmed on each provider's Irish page, which stick or box suits your house, how to spot a real Black Friday deal, and your Christmas return rights.
+description: Streaming offers from providers' own Irish pages, which device suits your home, how to spot a real Black Friday deal, and your Christmas return rights.
 last_checked: 2026-11-05
 categories:
 - Devices
@@ -20,6 +20,8 @@ seo:
 toc: true
 affiliate_links: true
 faqs:
+- question: Are there Black Friday deals on streaming subscriptions in Ireland?
+  answer: Some services run offers for new customers over Black Friday and Christmas, usually a lower price for a set number of months that then rolls onto the regular price. This guide lists the offers we've confirmed on each provider's own Irish page, and our streaming price tracker has every regular price.
 - question: Is Black Friday the cheapest time to buy a streaming stick in Ireland?
   answer: Not always. Prices on streaming devices move several times a year, so note the regular price a few weeks before and compare. Under Irish rules a "was" price has to be the lowest price the shop charged in the previous 30 days.
 - question: Can I return a streaming device I bought on Black Friday if it isn't wanted at Christmas?
@@ -38,9 +40,9 @@ faqs:
 
 {% include share-buttons.html %}
 
-**The short answer:** decide which apps your house actually uses, check your TV has a free HDMI port and whether it's 4K, then pick the device that runs those apps. Look at the regular price before Black Friday so you can tell whether a "deal" is real, and keep the receipt (or ask for a gift receipt) in case it needs to go back.
+**The short answer:** decide which apps your house actually uses, check your TV has a free HDMI port and whether it's 4K, then pick the device that runs those apps. Look at the regular price before Black Friday so you can tell whether a "deal" is real, and keep the receipt (or ask for a gift receipt) in case it needs to go back. For subscriptions, see the [offers we've confirmed](#streaming-subscription-offers) on each provider's Irish page, and check what each one costs once the offer ends.
 
-We don't list prices on this page because they change from day to day over the sales. Check the current price on the retailer's own page before you buy.
+We don't list device prices on this page because they change from day to day over the sales. Check the current price on the retailer's own page before you buy. Subscription prices here come from our [streaming price tracker](/streaming-prices/).
 
 ## Which streaming device suits which household
 
@@ -69,6 +71,30 @@ The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streami
 The Apple TV 4K makes most sense if the house already uses iPhones, iPads and an Apple Account. Apple's Irish page lists Gigabit Ethernet built in, works with HD and 4K TVs, and needs an HDMI cable, sold separately. We don't have an affiliate link for it, so buy it wherever suits you. See our [Apple TV 4K guide]({% post_url 2026-09-12-apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers %}).
 
 {% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k,fire-tv-stick" title="Streaming devices by household" %}
+
+## Streaming subscription offers
+
+Streaming services run their own offers around Black Friday and Christmas, usually for new customers and for a set number of months. These are the offers we've confirmed on each provider's own Irish page, with the date we checked. An offer comes off this list on its end date, or sooner if we can't confirm it again.
+
+{% include offers.html none="We haven't confirmed any streaming offers on the providers' own Irish pages yet. We add them here as providers announce them. Regular prices are in our streaming price tracker." %}
+
+Before you sign up to an offer:
+
+- **Check what it rolls onto.** When the offer ends, the membership carries on at the regular price unless you cancel. [NOW's offer page](https://www.nowtv.com/ie/plans/new/entertainment) says this for its own offers. Our [streaming price tracker](/streaming-prices/) has every regular price.
+- **Check for a minimum term.** With a minimum term, you pay for those months even if you stop watching.
+- **Check what you already pay for.** Some TV and broadband packages include a streaming service. Sky Ultimate TV, for example, includes HBO Max Basic with Ads: see our [HBO Max guide]({% post_url 2026-09-21-is-hbo-max-coming-to-ireland %}).
+
+### Paying for a year: the saving that lasts
+
+An offer ends after a few months, but a yearly plan keeps its saving for the whole year. These figures come from our price tracker:
+
+| Service and plan | 12 months at the monthly price | Yearly price | Difference |
+|---|---|---|---|
+{% assign oai_yearly = site.data.prices | where_exp: "p", "p.yearly" | where_exp: "p", "p.monthly" %}{% for p in oai_yearly %}{% assign oai_twelve = p.monthly | times: 12 %}{% assign oai_gap = oai_twelve | minus: p.yearly %}| {{ p.service }}{% if p.plan != p.service %} {{ p.plan }}{% endif %}{% if p.affiliate %}{% assign oai_signup = "Sign up on " | append: p.service %}<br>{% include product-link.html id=p.affiliate text=oai_signup %}{% endif %} | {% include euro.html amount=oai_twelve %} | {% include euro.html amount=p.yearly %} | {% include euro.html amount=oai_gap %} |
+{% endfor %}
+
+{% assign oai_now_sports = site.data.prices | where: "service", "NOW" | where: "plan", "Sports" | first %}{% assign oai_now_extra = site.data.prices | where: "service", "NOW" | where: "plan", "Sports Extra" | first %}{% assign oai_now_both = oai_now_sports.monthly | plus: oai_now_extra.monthly %}
+For sport, NOW's 12-month Sports Saver gives you both NOW sport memberships for {% include price.html service="NOW" plan="Sports Extra" field="saver_both" %} a month, against {% include euro.html amount=oai_now_both %} a month for Sports and Sports Extra bought separately. The free Irish apps (RTÉ Player, Virgin Media Play and TG4 Player) cost nothing beyond the TV licence, which is {% include price.html service="TV licence" field="yearly" %} a year per premises.
 
 ## The Irish apps on each device
 
@@ -129,9 +155,14 @@ A little preparation on Christmas Eve saves a lot of fiddling on the day:
 3. **Check the cables and batteries.** Make sure there's an HDMI cable for a box that needs one and batteries for the remote.
 4. **Plug it in and let it update.** New devices often download software the first time they're switched on. Do it on Christmas Eve if you can, so it's ready to go.
 5. **Install the free Irish apps first.** RTÉ Player, Virgin Media Play and TG4 Player cover the main Irish channels. Then sign in to services the house already pays for before paying for anything new. Our [streaming prices tracker](/streaming-prices/) shows what each service costs.
-6. **If it buffers,** try moving the router or the stick, or use a wired connection. Our [buffering fixes guide]({% post_url 2026-09-11-why-is-my-streaming-app-buffering-common-fixes %}) goes through the common causes.
+6. **Check the festive sport.** Christmas is busy for football, rugby, racing and darts. Our [Sport on TV this week](/sport-on-tv/) page, updated every Thursday, shows which games are free on RTÉ, TG4 and Virgin Media and which need a paid service.
+7. **If it buffers,** try moving the router or the stick, or use a wired connection. Our [buffering fixes guide]({% post_url 2026-09-11-why-is-my-streaming-app-buffering-common-fixes %}) goes through the common causes.
+
+New to streaming? Our free **Irish Streaming Starter Guide** covers every legal service in Ireland, where the sport is, three example monthly budgets and which device to buy. [Get it free here](/free-guides/).
 
 {% include product-showcase.html products="hdmi-cable-4k,hdmi-extender-adapter,ethernet-cable-troubleshoot" title="Before you wrap it" %}
+
+Sources: [NOW Ireland: Entertainment offers](https://www.nowtv.com/ie/plans/new/entertainment) (offer prices, minimum term and renewal, checked 16 November 2026) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Apple Store Ireland: Apple TV 4K](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) (checked 10 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) and [Fire TV device comparison](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) (checked 10 November 2026) · [Virgin Media Play FAQ](https://virginmediatelevision.ie/player/faq/) (checked 10 November 2026) · CCPC: [shopping in the sales](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/shopping-in-the-sales), [changing your mind](https://www.ccpc.ie/consumers/shopping/buying-goods/changing-your-mind/) and [refunds](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds) (checked 5 November 2026) · Regular prices: our [streaming price tracker](/streaming-prices/)
 
 {% include faq-section.html %}
 

@@ -68,6 +68,13 @@ for row in products:
     elif image and not (ROOT / image.lstrip("/")).is_file():
         errors.append(f"{product_id}: product image does not exist: {image}")
 
+    # Retailer prices are never typed (Amazon only allows live API prices).
+    if "price" in row:
+        errors.append(f"{product_id}: remove the price field; retailer prices are never typed (show_prices stays false)")
+    for field in ("name", "blurb", "badge"):
+        if __import__("re").search(r"€\s?\d|\b\d{1,3}\s?%\s?off\b", str(row.get(field, "")), __import__("re").I):
+            errors.append(f"{product_id}: {field} contains a price or discount; retailer prices are never typed")
+
     affiliate_link = str(row.get("affiliate_link", ""))
     if affiliate_link and not affiliate_link.startswith("https://"):
         errors.append(f"{product_id}: affiliate_link must use HTTPS")

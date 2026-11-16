@@ -5,7 +5,7 @@
 #   {% raw %}{% include product-showcase.html category="Devices" %}{% endraw %}
 # That shows every product whose show_on list includes "Devices", three at a
 # time in random order, so all matching products rotate across visits.
-# Update a product's link, price, or image here ONCE and it updates
+# Update a product's link or image here ONCE and it updates
 # everywhere that category is shown across the whole site — you never
 # need to hunt through individual post files to change a link.
 #
@@ -20,7 +20,10 @@
 #                   Use [] for a product that is only linked inline in posts
 #                   (it then stays out of the rotating product cards).
 #   image         - path to a product image (add real images under assets/images/products/)
-#   price         - display price, e.g. "€49.99" (TODO: keep current, Amazon prices change often)
+#   (no price)    - never type a retailer price here. Amazon Associates only
+#                   allows live prices from its API, so show_prices stays false
+#                   and cards say "Check price on ...". check_products.py fails
+#                   a product with a price field or a typed price in its text.
 #   badge         - optional short label shown on the card, e.g. "Best Seller", "Editor's Pick"
 #   blurb         - one short sentence on why it's worth considering
 #   retailer      - optional; who the link goes to (default Amazon). Used for button text, e.g. "Check price on DAZN".
@@ -49,7 +52,6 @@
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/wifi-extender.svg"
-  price: "€31.99"
   badge: "Fixes Buffering"
   blurb: "The most common fix for streaming boxes that are too far from the router — extends your signal without a full mesh system."
   affiliate_link: "https://amzn.to/3SZDvjo"
@@ -59,7 +61,6 @@
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/ethernet-cable.svg"
-  price: "€18.99"
   badge: "Most Reliable Fix"
   blurb: "A wired connection eliminates Wi-Fi buffering entirely if you can run a cable to your streaming device."
   affiliate_link: "https://amzn.to/4imUjuU"
@@ -69,7 +70,6 @@
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/mesh-wifi.svg"
-  price: "€109.99"
   badge: "Whole-Home Fix"
   blurb: "For persistent buffering across multiple rooms, a mesh system solves it more thoroughly than a single extender."
   affiliate_link: "https://amzn.to/4xqgJzh"
@@ -79,7 +79,6 @@
   category: "Installation Guides"
   show_on: ["News"]
   image: "/assets/images/products/indoor-aerial.svg"
-  price: "€19.99"
   badge: "Handy Extra"
   blurb: "Worth knowing about if a broadcast rights or channel-lineup change affects your aerial reception — a simple fix for a weak signal."
   affiliate_link: "https://amzn.to/3VrktTE"
@@ -98,7 +97,6 @@
   category: "Devices"
   show_on: ["Reviews"]
   image: "/assets/images/products/streaming-stick.svg"
-  price: "€114.99"
   badge: "Reviewer's Pick"
   blurb: "The higher-spec sibling of the standard 4K Stick — worth the extra cost if you want the fastest interface and Wi-Fi 6 support."
   affiliate_link: "https://amzn.to/4j6UWJc"
@@ -135,7 +133,6 @@
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/projector.svg"
-  price: "€53.99"
   badge: "Big-Screen Extra"
   blurb: "A compact projector for movie nights or match days on a wall — plug a streaming stick into its HDMI port for all your usual apps."
   affiliate_link: "https://amzn.to/4rwndv5" 
@@ -145,7 +142,6 @@
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/remote-cover.svg"
-  price: "€8.99"
   badge: "Handy Extra"
   blurb: "Glow-in-the-dark covers for the Fire TV Alexa Voice Remote (3rd gen) — easier to find in a dark room and harder to drop."
   affiliate_link: "https://amzn.to/3UXJaXL"
@@ -155,7 +151,6 @@
   category: "Installation Guides"
   show_on: ["Installation Guides"]
   image: "/assets/images/products/wall-mount.svg"
-  price: "€16.99"
   badge: "Popular Add-on"
   blurb: "Tilting/swivel mounts make it much easier to angle the screen for glare-free streaming, especially in bright rooms."
   affiliate_link: "https://amzn.to/4cKGEdr"
@@ -165,7 +160,6 @@
   category: "Installation Guides"
   show_on: ["Installation Guides"]
   image: "/assets/images/products/guidebook.svg"
-  price: "€11.99"
   badge: "Book"
   blurb: "A setup guidebook, not the Fire TV Cube itself: a plain-English guide to the Cube, handy if you're new to Alexa voice control and the Fire TV menus."
   affiliate_link: "https://amzn.to/4cLlYlI"
@@ -175,7 +169,6 @@
   category: "Installation Guides"
   show_on: ["Installation Guides"]
   image: "/assets/images/products/mesh-wifi-3.svg"
-  price: "€193.99"
   badge: "Best Fix for Buffering"
   blurb: "A bigger upgrade than a single extender, but the most reliable fix for houses where streaming boxes are far from the router."
   affiliate_link: "https://amzn.to/3UGxqJd"
@@ -185,7 +178,6 @@
   category: "Installation Guides"
   show_on: ["Sports Streaming"]
   image: "/assets/images/products/outdoor-aerial.svg"
-  price: "€52.99"
   badge: "Reliable Reception"
   blurb: "A proper outdoor aerial gives the most reliable free-to-air reception for big match days on RTÉ or TG4, when every stream is under strain."
   affiliate_link: "https://amzn.to/3T7hgI6"
@@ -195,7 +187,6 @@
   category: "Installation Guides"
   show_on: ["Sports Streaming"]
   image: "/assets/images/products/hdmi-switch.svg"
-  price: "€21.99"
   badge: "Handy Extra"
   blurb: "Useful if your streaming box, games console, and set-top box are all fighting over one HDMI port on match day."
   affiliate_link: "https://amzn.to/4h8t3OA"
@@ -214,7 +205,6 @@
   category: "Devices"
   show_on: ["Streaming Services"]
   image: "/assets/images/products/speaker.svg"
-  price: "€49.99"
   badge: "Popular Add-on"
   blurb: "A flexible alternative to a fixed soundbar if you want to move audio between rooms or take it outside for a match."
   affiliate_link: "https://amzn.to/3VbjBT4"
@@ -251,7 +241,6 @@
   category: "Installation Guides"
   show_on: ["Installation Guides"]
   image: "/assets/images/products/hdmi-adapter.svg"
-  price: "€6.99"
   badge: "Handy Extra"
   blurb: "Useful when a streaming stick sits too close to a wall or cabinet and needs a bit of clearance for good Wi-Fi reception."
   affiliate_link: "https://amzn.to/4An8hDF"
@@ -261,7 +250,6 @@
   category: "Installation Guides"
   show_on: ["Troubleshooting"]
   image: "/assets/images/products/screen-cleaning.svg"
-  price: "€19.50"
   badge: "Popular Add-on"
   blurb: "A safe, streak-free way to keep your screen clear — worth having once you've got your setup looking sharp."
   affiliate_link: "https://amzn.to/4xyXx2o"
@@ -280,7 +268,6 @@
   category: "Installation Guides"
   show_on: ["Installation Guides"]
   image: "/assets/images/products/cable-clips.svg"
-  price: "€6.59"
   badge: "Budget Pick"
   blurb: "Keeps HDMI and power cables tidy behind the TV — small, cheap, and makes the whole setup look a lot less chaotic."
   affiliate_link: "https://amzn.to/4ApzPIu"
@@ -290,7 +277,6 @@
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/travel-router.svg"
-  price: "€49.35"
   badge: "Handy Extra"
   blurb: "A pocket router that takes a mobile SIM, so a streaming stick can get online on holidays or in a second home without relying on unfamiliar Wi-Fi."
   affiliate_link: "https://amzn.to/4rkI7xj"
@@ -300,7 +286,6 @@
   category: "Devices"
   show_on: ["Devices"]
   image: "/assets/images/products/smart-speaker.svg"
-  price: "€70.59"
   badge: "Simple Interface"
   blurb: "Amazon's small Alexa speaker — pair it with a Fire TV to change channels, search and control playback by voice."
   affiliate_link: "https://amzn.to/3UWyngD"
@@ -310,7 +295,6 @@
   category: "Devices"
   show_on: ["Watch Guides"]
   image: "/assets/images/products/smart-tv.svg"
-  price: "€147.83"
   badge: "Handy Extra"
   blurb: "A 32-inch smart TV running Fire OS, so the main Irish streaming apps are built in — no extra stick needed. Good for a bedroom or kitchen."
   affiliate_link: "https://amzn.to/4rydeFK"
@@ -320,7 +304,6 @@
   category: "Devices"
   show_on: ["Streaming Services"]
   image: "/assets/images/products/smart-tv-2.svg"
-  price: "€173.26"
   badge: "Handy Extra"
   blurb: "A 2026 32-inch LG smart TV with webOS apps built in, plus Google Cast and AirPlay 2 for casting from your phone."
   affiliate_link: "https://amzn.to/3TO6jeZ"

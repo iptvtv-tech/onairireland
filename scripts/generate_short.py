@@ -67,6 +67,8 @@ Rules:
 - Use ONLY facts stated in the article below. No service, channel, competition, price, date,
   number or claim that isn't in it. If the article gives a price, give the date it was checked,
   as the article states it. Never invent a date.
+- Never give a price, discount or deal for a device or anything sold by Amazon or another
+  retailer: those prices change daily, so viewers check them on the retailer's page.
 - 4 to 6 scenes, then end_vo. About 110 to 150 spoken words in all (40 to 55 seconds).
 - kicker: 1 to 3 words in capitals. head: up to 30 characters. pills: up to 5 short labels,
   each under 32 characters. Use "sub" for one short line only when it adds something.

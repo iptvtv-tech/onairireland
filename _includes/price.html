@@ -1,0 +1,15 @@
+{%- comment -%}
+  Prints a price from _data/prices.yml, so no post or page types a tracked price:
+    {% include price.html service="NOW" plan="Sports" %}                      -> €38.99
+    {% include price.html service="Disney+" plan="Standard" field="yearly" %} -> €119.90
+  field: monthly (the default), yearly, day_pass or saver_both.
+  plan can be left out when the service has only one plan (Apple TV, Hayu).
+  scripts/check_posts.py fails on a service, plan or field that doesn't exist.
+  This file must NOT end with a newline: it's used inside sentences and table rows.
+{%- endcomment -%}
+{%- assign oai_rows = site.data.prices | where: "service", include.service -%}
+{%- if include.plan -%}{%- assign oai_rows = oai_rows | where: "plan", include.plan -%}{%- endif -%}
+{%- assign oai_price_row = oai_rows | first -%}
+{%- assign oai_field = include.field | default: "monthly" -%}
+{%- assign oai_amount = oai_price_row[oai_field] -%}
+{%- if oai_amount -%}{% include euro.html amount=oai_amount %}{%- endif -%}

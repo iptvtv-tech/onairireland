@@ -31,7 +31,7 @@ Pick the plan you have (or are thinking about) for each service. The total updat
 
 ## Free services to add at no cost
 
-RTÉ Player, Virgin Media Play and TG4 Player are free. You need a TV licence (€160 a year) if you have a TV that can pick up broadcast channels, whatever apps you use. See [do you need a TV licence to stream?]({% post_url 2026-09-07-tv-licence-streaming-ireland %})
+RTÉ Player, Virgin Media Play and TG4 Player are free. You need a TV licence ({% include price.html service="TV licence" field="yearly" %} a year) if you have a TV that can pick up broadcast channels, whatever apps you use. See [do you need a TV licence to stream?]({% post_url 2026-09-07-tv-licence-streaming-ireland %})
 
 ## Ways to pay less
 

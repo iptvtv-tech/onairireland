@@ -1,49 +1,59 @@
-# Seasonal topics, added to the front of _data/topic_queue.yml when their date
-# window is active, by scripts/inject_seasonal_topics.py. The "Inject Seasonal
-# Topics" workflow runs every Monday (and on demand) and opens a PR; nothing
-# reaches the queue until that PR is merged.
+# Seasonal topics by date window, read by scripts/inject_seasonal_topics.py
+# (the "Inject Seasonal Topics" workflow: Mondays when it runs, or Run workflow).
+#
+# Two kinds of entry:
+#   refresh: <file in _posts/>  The season's work is UPDATING that post from
+#       primary sources (offers, dates, rights), prepared by hand (Claude makes
+#       the patch, John reviews). Never queued for the draft bot: the writer has
+#       no web access, and a second post on the same subject would compete with
+#       the first (Google cut the site's visibility for overlapping posts in Oct
+#       2026). check_posts.py fails if the file doesn't exist.
+#   no refresh:  A NEW post, added to the front of _data/topic_queue.yml for
+#       the draft bot. It is only drafted while the Daily Draft Post workflow runs.
+#
+# Prices, for every brief: regular prices come from _data/prices.yml (the
+# price.html include, or [[price:...]] tokens in drafts), offers from
+# _data/offers.yml (the offers.html include), and Amazon or other retailer
+# prices are never typed (Amazon only allows live prices). check_posts.py
+# fails a post that breaks this, whoever wrote it.
 #
 # window_start / window_end: MM-DD. Windows can wrap across New Year
 #   (e.g. start 12-01, end 01-15 covers 1 Dec to 15 Jan).
 #   Keep each window at least 7 days long so a Monday run always falls inside it.
-# publish_by is set automatically to the window_end date, so the daily draft
-#   workflow floats the topic to the top of the queue.
+# publish_by (new posts) is set to the window_end date, so the draft workflow
+#   floats the topic to the top of the queue.
 # {month} and {year} in title or brief are replaced with the month and year the
-#   topic is added (e.g. "January 2027"). Use them for recurring topics so each
-#   one gets its own title and post.
+#   topic comes into season (e.g. "January 2027").
 # Optional fields copied into the queue as-is: pillar, video, video_angle, whatsapp.
 
 # ---------------------------------------------------------------------------
-# QUARTERLY SERVICE REVIEW — first two weeks of Jan, Apr, Jul and Oct.
+# QUARTERLY CHECK — first two weeks of Jan, Apr, Jul and Oct.
 # The Quarterly Price Check workflow opens a prices PR on the 1st of the same
-# months. Merge that first so the post and the price table agree.
+# months; merge it first. Tracked prices then update everywhere by themselves,
+# so the quarter's work is re-checking the main guide's other facts.
 # ---------------------------------------------------------------------------
 
-- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
-  category: "Streaming Services"
-  pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
+- title: "Main guide: quarterly check, {month} {year}"
+  refresh: 2026-09-04-legal-streaming-services-ireland-2026.md
+  brief: "After the quarterly prices PR is merged: re-check the main guide's services, plans, channels and offers against each provider's Irish page, note what changed this quarter, and set last_checked. Prices come from the tracker; add a Sources line."
   window_start: "01-01"
   window_end: "01-14"
 
-- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
-  category: "Streaming Services"
-  pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
+- title: "Main guide: quarterly check, {month} {year}"
+  refresh: 2026-09-04-legal-streaming-services-ireland-2026.md
+  brief: "After the quarterly prices PR is merged: re-check the main guide's services, plans, channels and offers against each provider's Irish page, note what changed this quarter, and set last_checked. Prices come from the tracker; add a Sources line."
   window_start: "04-01"
   window_end: "04-14"
 
-- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
-  category: "Streaming Services"
-  pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
+- title: "Main guide: quarterly check, {month} {year}"
+  refresh: 2026-09-04-legal-streaming-services-ireland-2026.md
+  brief: "After the quarterly prices PR is merged: re-check the main guide's services, plans, channels and offers against each provider's Irish page, note what changed this quarter, and set last_checked. Prices come from the tracker; add a Sources line."
   window_start: "07-01"
   window_end: "07-14"
 
-- title: "Streaming in Ireland: Quarterly Review, {month} {year}"
-  category: "Streaming Services"
-  pillar: Price Watch
-  brief: "A quarterly round-up for {month} {year}: what each legal streaming service in Ireland costs now, what changed in the last three months (price rises, new plans, channels added or dropped, offers ended) and which services are worth keeping. Use the figures in _data/prices.yml after the quarterly price-check PR (opened on the 1st) is merged, and check any price the post quotes on the provider's own Irish site before publishing."
+- title: "Main guide: quarterly check, {month} {year}"
+  refresh: 2026-09-04-legal-streaming-services-ireland-2026.md
+  brief: "After the quarterly prices PR is merged: re-check the main guide's services, plans, channels and offers against each provider's Irish page, note what changed this quarter, and set last_checked. Prices come from the tracker; add a Sources line."
   window_start: "10-01"
   window_end: "10-14"
 
@@ -51,37 +61,34 @@
 # SEASONAL
 # ---------------------------------------------------------------------------
 
-- title: "Best Streaming Deals for Christmas in Ireland"
-  category: "Streaming Services"
-  pillar: Price Watch
-  brief: "Round up any current Christmas/New Year promotional pricing on streaming services and devices relevant to Irish shoppers, being clear about which prices are time-limited offers."
+# Black Friday to Christmas: one guide for devices and subscription offers.
+# Offers go in _data/offers.yml (provider's own Irish page, show_until no more
+# than 21 days after the check); device prices are never typed.
+- title: "Black Friday and Christmas streaming offers, {year}"
+  refresh: 2026-11-06-black-friday-christmas-streaming-device-guide-ireland.md
+  brief: "Check each provider's own Irish page (NOW, Disney+, Apple TV, HBO Max, Netflix, Paramount+, Prime Video; DAZN by hand only) for Black Friday, Christmas and New Year offers and add the confirmed ones to _data/offers.yml with a show_until date. Re-check device and app facts in the guide, set last_checked and update its Sources line. Never type a device price or deal."
   window_start: "11-15"
   window_end: "12-26"
 
 - title: "Cutting the Cord: A New Year Streaming Setup Guide"
   category: "Streaming Services"
   pillar: Service Guide
-  brief: "A New Year's resolution-style guide for households switching from cable/satellite to legal streaming-only setups in Ireland."
+  brief: "A New Year guide for households in Ireland switching from a pay-TV package to legal streaming only: what replaces what, which free Irish apps cover the main channels, and how to compare the cost using our streaming price tracker. No typed prices: use price tokens for tracked services, and never a device price."
   window_start: "12-27"
   window_end: "01-20"
 
-- title: "How to Watch the Six Nations Legally in Ireland"
-  category: "Sports Streaming"
-  pillar: Where to Watch
-  brief: "Explain how RTÉ and Virgin Media Television split Six Nations coverage in Ireland, free-to-air, ahead of the tournament kicking off."
+- title: "Six Nations {year}: where to watch in Ireland"
+  refresh: 2026-09-11-how-to-watch-six-nations-rugby-legally-in-ireland.md
+  brief: "Add the {year} Six Nations fixtures and how RTÉ and Virgin Media Television split the games, from the IRFU, RTÉ and Virgin Media Television's own pages, once announced. Set last_checked and update the Sources line."
   window_start: "01-15"
   window_end: "02-10"
 
-- title: "GAA Championship Season: Your Streaming Setup Checklist"
-  category: "Sports Streaming"
-  pillar: Where to Watch
-  brief: "A pre-season checklist for GAA fans getting their legal streaming setup (RTÉ Player, TG4 Player, GAA+) ready before Championship season starts."
+- title: "GAA Championship {year}: streaming setup"
+  refresh: 2026-09-07-where-to-watch-gaa-legally-ireland.md
+  brief: "Before the championships start: re-check RTÉ's and GAA+'s live coverage and the GAA+ pass prices on gaa.ie, gaaplus.ie and RTÉ, update the GAA guide (and the GAA+ price in _data/prices.yml if it's tracked), set last_checked and update the Sources line."
   window_start: "04-15"
   window_end: "05-15"
 
-- title: "Back to College: Best Budget Streaming Setup in Ireland"
-  category: "Devices"
-  pillar: Device Setup
-  brief: "A budget-focused streaming device and service guide aimed at students setting up in new accommodation for the academic year."
-  window_start: "08-15"
-  window_end: "09-20"
+# "Back to College: Best Budget Streaming Setup in Ireland" (15 Aug to 20 Sep)
+# was removed on 16 Nov 2026: its post was noindexed as thin in the Nov 2026
+# clean-up. Bring it back as a refresh of a stronger post if wanted.

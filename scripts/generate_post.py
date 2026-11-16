@@ -24,6 +24,7 @@ import yaml
 
 import image_system  # scripts/image_system.py: approved photos first, brand card as fallback
 import site_facts  # scripts/site_facts.py: checked facts and prices for the prompt
+import price_rules  # scripts/price_rules.py: price tokens -> price.html includes, typed-price rules
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
@@ -184,6 +185,7 @@ This is a "Watch Guide" post about a specific TV show or movie. Special rules:
     # draft is better than one written from memory.
     facts_text = site_facts.facts_for_prompt()
     prices_text = site_facts.prices_for_prompt()
+    tokens_text = price_rules.tokens_for_prompt()
 
     prompt = f"""Write a Jekyll blog post in Markdown for an Irish blog about LEGAL
 streaming services and devices. Never mention, link to, or describe
@@ -211,6 +213,10 @@ FACTS WE HAVE CHECKED for Ireland (they override anything you remember):
 PRICES WE HAVE CHECKED, in euro, from each provider's own Irish page:
 {prices_text}
 
+PRICE TOKENS (write these instead of typing a price; the site fills in the
+current figure from its price tracker):
+{tokens_text}
+
 Rules for facts and prices:
 - When you say which service, channel or broadcaster shows a competition, or what
   a membership, package or app includes, use ONLY the checked facts above.
@@ -222,7 +228,16 @@ Rules for facts and prices:
   has (casting, downloads, live channels, sign-in), are facts too: state them
   only from the checked facts above. Otherwise tell readers to check the
   provider's own list of supported devices or its help pages.
-- Only give a price that is in the checked prices above, and say prices can change.
+- Never type a price in euro. Where a price helps the reader, write its price
+  token from the list above, e.g. "NOW Sports costs [[price:NOW|Sports]] a month".
+  Copy the token exactly. Only prices in that list may appear at all.
+- Never give a price, discount, saving, "% off" or "deal" for a device, TV,
+  accessory or anything sold by Amazon or another retailer: those prices change
+  daily and we only link the product so readers check the price themselves.
+- Don't invent offers or introductory prices. Say that services sometimes run
+  offers for new customers and point to our streaming price tracker.
+- No prices or price tokens in the FAQ answers: point to the streaming price
+  tracker instead.
 - Use only the facts that matter for this post's topic.
 
 Title: {title}
@@ -330,8 +345,9 @@ draft so that none of them stays as it is:
   or drop it, but keep exactly 4 FAQ pairs.
 - Otherwise keep the structure, wording, links and product links.
 <<STRICT>>- The usual rules still apply: licensed services only; never mention VPNs,
-  proxies or unofficial IPTV; no first-hand testing claims; prices only from
-  our checked prices.
+  proxies or unofficial IPTV; no first-hand testing claims; prices only as
+  [[price:...]] tokens from our checked prices (keep any token already in the
+  draft); never a price or deal for a device or anything a retailer sells.
 
 Reply in exactly this shape, with nothing before or after it:
 SUMMARY: the one-sentence summary (max 155 characters), corrected if needed
@@ -347,6 +363,9 @@ OUR CHECKED FACTS:
 
 OUR CHECKED PRICES (euro):
 <<PRICES>>
+
+PRICE TOKENS (use these, never a typed price):
+<<TOKENS>>
 
 Title: <<TITLE>>
 
@@ -396,6 +415,7 @@ def revise_draft(title: str, summary: str, body: str, faqs: list, flagged: list,
         "<<STRICT>>": STRICT_RULES if strict else "",
         "<<FACTS>>": site_facts.facts_for_prompt(),
         "<<PRICES>>": site_facts.prices_for_prompt(),
+        "<<TOKENS>>": price_rules.tokens_for_prompt(),
         "<<TITLE>>": title,
         "<<FLAGGED>>": _claim_lines(flagged),
         "<<EARLIER>>": _claim_lines(list(earlier)),
@@ -811,7 +831,10 @@ def draft_topic(topic: dict) -> dict:
             # check_posts.py requires this; see _includes/review-basis.html.
             fm["review_basis"] = "research"
         if faqs:
-            fm["faqs"] = [{"question": q, "answer": a} for q, a in faqs]
+            # Front matter can't run Liquid: a price token there becomes a
+            # pointer to the tracker (check_posts.py fails typed tracked prices).
+            fm["faqs"] = [{"question": q, "answer": price_rules.replace_price_tokens(a, in_front_matter=True)[0]}
+                          for q, a in faqs]
         # yaml.safe_dump quotes/escapes AI-generated text properly, so colons,
         # quotes or '#' in a title can never break the front matter again.
         review_basis_block = "\n{% include review-basis.html %}\n" if category == "Reviews" else ""
@@ -844,8 +867,14 @@ def draft_topic(topic: dict) -> dict:
             + "\n{% include whatsapp-cta.html %}\n"
         )
 
+        # Price tokens become {% include price.html %}; a tracked price the writer
+        # typed anyway is swapped for its include when it can only mean one plan.
+        priced_body, unknown_tokens = price_rules.replace_price_tokens(body)
+        priced_body = price_rules.replace_unambiguous_typed_prices(priced_body)
+        if unknown_tokens:
+            print(f"Unknown price tokens replaced with a tracker link: {', '.join(unknown_tokens)}")
         with open(filepath, "w") as f:
-            f.write(front_matter + convert_affiliate_links(body, products) + showcase_block + related_block)
+            f.write(front_matter + convert_affiliate_links(priced_body, products) + showcase_block + related_block)
 
     def read_post() -> str:
         with open(filepath, encoding="utf-8") as fh:
@@ -859,13 +888,13 @@ def draft_topic(topic: dict) -> dict:
     post_url = f"https://onairireland.ie/{category_slug_name.lower()}/{slug}/"
     social_args = dict(title=title, category=category, brief=brief, topic=topic,
                        slug=slug, today=today, filepath=filepath, post_url=post_url)
-    social, social_out = build_social(body=body, **social_args)
+    social, social_out = build_social(body=price_rules.render_price_includes(body), **social_args)
 
     earlier = []   # every claim flagged so far, so a rewrite doesn't bring one back
     first = None
     flagged = []
     for check_no in range(1, MAX_CHECKS + 1):
-        result = run_check(read_post(), social)
+        result = run_check(price_rules.render_price_includes(read_post()), social)
         first = first or result["counts"]
         print(f"Check {check_no}: {result['summary']}")
         flagged = [c for c in result["claims"] if c["status"] != "ok"]
@@ -907,7 +936,8 @@ def draft_topic(topic: dict) -> dict:
         # tell them which claims the check couldn't confirm.
         avoid = "\nDon't state any of these (the fact check couldn't confirm them):\n" + "\n".join(
             f"- {c['claim']}" for c in earlier)
-        social, social_out = build_social(body=body, **dict(social_args, brief=brief + avoid))
+        social, social_out = build_social(body=price_rules.render_price_includes(body),
+                                          **dict(social_args, brief=brief + avoid))
     return {"passed": False, "left": flagged}
 
 

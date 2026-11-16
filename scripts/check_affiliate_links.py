@@ -9,11 +9,16 @@ noopener":
 
 This script fails when:
   - a post contains a raw Amazon or Awin link (Markdown or HTML) instead of the include
+  - a post or page links straight to an Awin partner's own site (e.g. dazn.com):
+    the click carries no tracking, so it goes through the include with
+    to="<that page>", which keeps our link and lands on the same page
+  - an include's to="..." isn't an https page on that partner's site
   - an include uses an id that is not in _data/products.yml
   - a page has a raw Amazon or Awin link without rel="sponsored"
   - a post with affiliate links is missing the affiliate disclosure include
 """
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 import re
 import sys
 
@@ -32,7 +37,10 @@ HTML_ANCHOR = re.compile(
     r"<a\b[^>]*href=[\"'](https?://(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.[a-z.]+|(?:www\.)?awin1\.com)[^\"']*)[\"'][^>]*>",
     re.I | re.S,
 )
-PRODUCT_LINK = re.compile(r"\{%-?\s*include\s+product-link\.html\s+([^%]*?)-?%\}")
+PRODUCT_LINK = re.compile(r"\{%-?\s*include\s+product-link\.html\s+(.*?)-?%\}", re.S)
+TO_PARAM = re.compile(r'\bto\s*=\s*"([^"]+)"')
+# A plain link (Markdown or HTML) and the host it points at.
+PLAIN_LINK = re.compile(r"""(?:\]\(|href=["'])(https?://([^/\s)"'?#]+)[^\s)"']*)""", re.I)
 ID_PARAM = re.compile(r'\bid\s*=\s*"([^"]+)"')
 VAR_ID_PARAM = re.compile(r"\bid\s*=\s*[A-Za-z_][\w.]*")
 SPONSORED_REL = re.compile(r"\brel\s*=\s*([\"'])([^\"']*)\1", re.I)
@@ -40,6 +48,28 @@ DISCLOSURE = "{% include affiliate-disclosure.html %}"
 
 products = yaml.safe_load(PRODUCTS.read_text(encoding="utf-8")) or []
 product_ids = {str(p.get("id")) for p in products if isinstance(p, dict)}
+products_by_id = {str(p.get("id")): p for p in products if isinstance(p, dict)}
+
+
+def site_of(host: str) -> str:
+    host = (host or "").lower()
+    return host[4:] if host.startswith("www.") else host
+
+
+def landing_site(link: str) -> str:
+    """The partner site an Awin link lands on (its ued= address), or ''."""
+    ued = (parse_qs(urlparse(link).query).get("ued") or [""])[0]
+    return site_of(urlparse(ued).hostname or "")
+
+
+# Partner sites we have an Awin link for (dazn.com -> "dazn"): a plain link to
+# them would send readers there without our tracking.
+partner_sites = {}
+for p in products:
+    if isinstance(p, dict) and "awin1.com" in str(p.get("affiliate_link", "")):
+        site = landing_site(str(p["affiliate_link"]))
+        if site:
+            partner_sites.setdefault(site, str(p.get("id")))
 
 errors = []
 include_links = raw_links = files_with_links = 0
@@ -71,6 +101,24 @@ for directory in (POSTS, PAGES):
                     errors.append(f"{relative}: product-link include without id=\"...\"")
             elif id_match.group(1) not in product_ids:
                 errors.append(f"{relative}: product-link id {id_match.group(1)!r} is not in _data/products.yml")
+            to = TO_PARAM.search(match.group(1))
+            if to and id_match and id_match.group(1) in product_ids:
+                link = str(products_by_id[id_match.group(1)].get("affiliate_link", ""))
+                want = landing_site(link)
+                got = site_of(urlparse(to.group(1)).hostname or "")
+                if not want:
+                    errors.append(f"{relative}: to=\"...\" only works for Awin partners, not {id_match.group(1)!r}")
+                elif not to.group(1).startswith("https://") or got != want:
+                    errors.append(f"{relative}: to={to.group(1)!r} must be an https page on {want}")
+
+        for m in PLAIN_LINK.finditer(text):
+            pid = partner_sites.get(site_of(m.group(2)))
+            if pid:
+                found = True
+                errors.append(
+                    f"{relative}: plain link to {m.group(1)} carries no tracking; use "
+                    f"{{% include product-link.html id=\"{pid}\" text=\"...\" to=\"{m.group(1)}\" %}}"
+                )
 
         raw = [(m.group(1), m.group(2) or "") for m in MARKDOWN_LINK.finditer(text)]
         raw += [(m.group(1), m.group(0)) for m in HTML_ANCHOR.finditer(text)]

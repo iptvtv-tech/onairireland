@@ -100,7 +100,7 @@ You can also get all three channels through Sky, Virgin Media or Vodafone TV pac
 
 ### Serie A on DAZN
 
-If you follow Italian football too, DAZN shows every Serie A game in Ireland in 2026/27, included with its Standard and Ultimate plans ([DAZN](https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb)). Games in the Saturday blackout window, 14:45 to 17:15, can't be shown live in full. Prices and plans are in our guide, [is DAZN available in Ireland?]({% post_url 2026-11-16-is-dazn-available-in-ireland %}), or go straight to {% include product-link.html id="dazn" text="DAZN's Irish website" %}.
+If you follow Italian football too, DAZN shows every Serie A game in Ireland in 2026/27, included with its Standard and Ultimate plans, according to {% include product-link.html id="dazn" text="DAZN's own Serie A page" to="https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb" %}. Games in the Saturday blackout window, 14:45 to 17:15, can't be shown live in full. Prices and plans are in our guide, [is DAZN available in Ireland?]({% post_url 2026-11-16-is-dazn-available-in-ireland %}), or go straight to {% include product-link.html id="dazn" text="DAZN's Irish website" %}.
 
 Prices were checked in October 2026 and do shift fairly often, so check the current offer directly on each provider's website before signing up, rather than relying on older screenshots or forum posts you might find elsewhere.
 
