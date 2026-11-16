@@ -25,7 +25,7 @@ The data controller for personal data collected through On Air Ireland is **John
 
 **Analytics data** — if you accept analytics in the consent banner, we load Google Analytics and GoatCounter to understand general site use, including which pages and links are useful. Neither analytics tool is loaded if you decline. Google Analytics uses cookies; GoatCounter is configured for cookie-free page-view and event counting. See the provider policies linked below for details.
 
-**Affiliate link clicks** — when you click a product or subscription link on this site, the retailer (e.g. Amazon) or the affiliate network (Awin, for partners such as DAZN) may track that click to credit us with a commission if you buy or subscribe. This tracking is handled by their own systems, not by us directly — see their own privacy policies for details on what they collect.
+**Affiliate link clicks** — when you click a product or subscription link on this site, the retailer (e.g. Amazon) or the affiliate network (Awin) may track that click to credit us with a commission if you buy or subscribe. This tracking is handled by their own systems, not by us directly — see their own privacy policies for details on what they collect.
 
 ## Cookies
 
@@ -50,7 +50,7 @@ Some of the services we use (Google and GitHub) are based in the United States, 
 - **Google Analytics** — website analytics. See [Google's privacy policy](https://policies.google.com/privacy) for details.
 - **GoatCounter** — cookie-free analytics, loaded only after analytics consent. See [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy) for details.
 - **Amazon Associates** — Amazon product links on this site are affiliate links. See Amazon's own privacy policy for its data practices.
-- **Awin** (Awin AG, Germany) — the affiliate network behind our DAZN links. When you follow one, Awin records the click so the sale can be credited to us. See [Awin's privacy policy](https://www.awin.com/gb/privacy).
+- **Awin** (Awin AG, Germany) — the affiliate network behind our links to some subscription services. When you follow one, Awin records the click so the sale can be credited to us. See [Awin's privacy policy](https://www.awin.com/gb/privacy).
 - **GitHub Pages** — this site is hosted on GitHub Pages, which may log standard server access data (IP address, browser type) as part of normal web hosting.
 
 ## Your Rights Under GDPR
