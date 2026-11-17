@@ -2,7 +2,7 @@
 title: "Where to Watch Premier League Football in Ireland 2026/27"
 excerpt: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
 description: "Premier League games in Ireland are on Sky Sports, TNT Sports and Premier Sports, which has an exclusive Saturday 3pm match. How to get each, including on NOW."
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 last_checked: 2026-11-10
 categories:
   - Sports-Streaming
@@ -40,7 +40,7 @@ faqs:
 
 Premier League football remains one of the most in-demand sports products in Ireland, and thankfully there are several fully licensed ways to watch it. Broadcast rights are split across a small number of official partners, so knowing which platform holds which fixtures can save you a lot of hassle before kick-off.
 
-This post runs through the main legal options available to Irish viewers, along with a few practical tips on getting the best picture and sound quality once you've subscribed.
+This post runs through the main legal options available to Irish viewers.
 
 ### The Main Broadcast Rights Holders
 
@@ -101,12 +101,6 @@ You can also get all three channels through Sky, Virgin Media or Vodafone TV pac
 ### Serie A on DAZN
 
 If you follow Italian football too, DAZN shows every Serie A game in Ireland in 2026/27, included with its Standard and Ultimate plans, according to {% include product-link.html id="dazn" text="DAZN's own Serie A page" to="https://www.dazn.com/en-IE/news/soccer/serie-a-watch-in-uk-ireland-on-dazn/12b9k1cfyat9710b0eu33mtrdb" %}. Games in the Saturday blackout window, 14:45 to 17:15, can't be shown live in full. Prices and plans are in our guide, [is DAZN available in Ireland?]({% post_url 2026-11-16-is-dazn-available-in-ireland %}), or go straight to {% include product-link.html id="dazn" text="DAZN's Irish website" %}.
-
-Prices were checked in October 2026 and do shift fairly often, so check the current offer directly on each provider's website before signing up, rather than relying on older screenshots or forum posts you might find elsewhere.
-
-### A Note on Staying Legal
-
-Subscription costs can add up across several services, so it's worth planning: pick the package that covers the games you care about most, and check for bundle or annual deals. Sticking with official broadcasters means better reliability, proper customer support and no nasty surprises mid-season, and your subscription helps fund the game itself.
 
 ### Planning Your Season
 
