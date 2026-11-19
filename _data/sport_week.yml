@@ -7,14 +7,6 @@ week_end: 2026-11-26
 generated: 2026-11-19
 events:
 - date: 2026-11-21
-  time: 01:00
-  sport: Boxing
-  event: Gabriela Fundora v Jasmina Zapotoczna
-  competition: Undisputed Women's Flyweight World Title
-  watch: DAZN
-  free: false
-  source: https://britishboxingnews.co.uk/blogs/gabriela-fundora-vs-jasmina-zapotoczna-full-card-start-time-ring-walks-and-how-to-watch/
-- date: 2026-11-21
   time: '12:30'
   sport: Football
   event: Man City v Fulham
@@ -79,13 +71,13 @@ events:
   free: false
   source: https://www.irishtimes.com/sport/2026/11/15/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-11-22
-  time: 02:30
+  time: 04:00
   sport: Motorsport
   event: Las Vegas Grand Prix
   competition: Formula 1
   watch: Sky Sports F1 (also on NOW)
   free: false
-  source: https://www.irishtimes.com/sport/2026/11/15/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+  source: https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr
 - date: 2026-11-22
   time: '13:00'
   sport: Other
@@ -131,25 +123,9 @@ events:
   sport: Football
   event: Atalanta v Inter Milan
   competition: Serie A
-  watch: DAZN
+  watch: DAZN and TNT Sports 1
   free: false
-  source: https://www.legaseriea.it/serie-a/news/quando-si-gioca-anticipi-e-posticipi-fino-alla-12a-giornata
-- date: 2026-11-24
-  time: '20:00'
-  sport: Football
-  event: Arsenal v Borussia Dortmund
-  competition: UEFA Champions League
-  watch: Premier Sports 1 and Amazon Prime Video
-  free: false
-  source: https://premiersportsireland.com/
-- date: 2026-11-25
-  time: '20:00'
-  sport: Football
-  event: Sporting CP v Manchester United
-  competition: UEFA Champions League
-  watch: RTÉ 2 and RTÉ Player
-  free: true
-  source: https://www.rte.ie/sport/results/soccer/champions-league/47760/report-6106279/
+  source: https://www.irishtimes.com/sport/2026/11/15/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-11-26
   time: '20:00'
   sport: Football
