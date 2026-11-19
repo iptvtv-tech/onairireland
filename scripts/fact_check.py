@@ -31,9 +31,8 @@ import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import site_facts  # noqa: E402
-from generate_social import post_messages, write_multiline_output  # noqa: E402
+from generate_social import MODEL, post_messages, write_multiline_output  # noqa: E402,F401  one place to change the model
 
-MODEL = "claude-sonnet-5"
 MAX_CLAIMS = 30
 ICONS = {"wrong": "❌", "unconfirmed": "⚠️", "ok": "✅"}
 STATUS_WORDS = {
@@ -285,7 +284,7 @@ def call_claude(prompt: str, max_uses: int = 8, official_fetch: bool = False) ->
     text = []
     for _ in range(12):
         data = post_messages({"model": MODEL, "max_tokens": 12000, "tools": tools,
-                              "messages": messages}, "fact check")
+                              "messages": messages}, "fact check", cache=True)
         content = data.get("content", [])
         text += [b.get("text", "") for b in content if b.get("type") == "text"]
         for b in content:

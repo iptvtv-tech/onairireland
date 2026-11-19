@@ -172,13 +172,13 @@ def call_claude(prompt):
          "max_content_tokens": 30000, "blocked_domains": ["dazn.com"]},
     ]
     from fact_check import OFFICIAL_FETCH_TOOL, answer_official_fetches
-    from generate_social import post_messages
+    from generate_social import MODEL, post_messages
     tools.append(OFFICIAL_FETCH_TOOL)
     messages = [{"role": "user", "content": prompt}]
     text = []
     for _ in range(12):
-        data = post_messages({"model": "claude-sonnet-5", "max_tokens": 16000,
-                              "tools": tools, "messages": messages}, "sport listings")
+        data = post_messages({"model": MODEL, "max_tokens": 16000,
+                              "tools": tools, "messages": messages}, "sport listings", cache=True)
         content = data.get("content", [])
         text += [b.get("text", "") for b in content if b.get("type") == "text"]
         for b in content:
@@ -404,7 +404,16 @@ def check_and_correct(events, week_label, start, end):
     return events, social, section
 
 
+def _print_usage():
+    from generate_social import usage_summary
+    summary = usage_summary()
+    if summary:
+        print("\n" + summary)
+
+
 def main():
+    import atexit
+    atexit.register(_print_usage)   # the log shows the run's API use even if it stops early
     start, end = week_range(sys.argv)
     print(f"Building sport listings for {start} to {end}")
     raw = call_claude(build_prompt(start, end))
@@ -426,7 +435,7 @@ def main():
     OUT.write_text(HEADER + yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=200), encoding="utf-8")
     print(f"Wrote {len(events)} events to {OUT}")
 
-    from generate_social import write_multiline_output
+    from generate_social import usage_summary, write_multiline_output
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a", encoding="utf-8") as fh:
@@ -437,6 +446,7 @@ def main():
         print(fact_section)
     for key in ("x_post", "whatsapp_msg", "matchday_msg", "matchday_day"):
         write_multiline_output(gh_out, key, social.get(key, ""))
+    write_multiline_output(gh_out, "api_usage", usage_summary())
 
 
 if __name__ == "__main__":

@@ -12,8 +12,24 @@ import time
 
 import requests
 
-# Model used for all social copy generation. Update here to change everywhere.
-MODEL = "claude-sonnet-5"
+# The model for the social copy, the sport listings, the fact check and the
+# quarterly price check. Update here to change everywhere. Sonnet 5 became a
+# legacy model; Sonnet 5.5 has the same token prices (19 Nov 2026).
+MODEL = "claude-sonnet-5-5"
+
+# List prices in USD, from platform.claude.com/docs/en/about-claude/pricing
+# (checked 19 Nov 2026). Only used to estimate each run's cost in the logs and
+# the sport PR; the Anthropic Console shows what was actually billed.
+PRICES_PER_MTOK = {
+    "claude-sonnet-5-5": {"input": 2.00, "output": 10.00, "cache_write_5m": 2.50,
+                          "cache_write_1h": 4.00, "cache_read": 0.10},
+    "claude-sonnet-5": {"input": 2.00, "output": 10.00, "cache_write_5m": 2.50,
+                        "cache_write_1h": 4.00, "cache_read": 0.20},
+}
+WEB_SEARCH_USD_PER_1000 = 10.00   # web fetch has no charge beyond its tokens
+
+# Every successful call's usage, by label ("sport listings", "fact check", ...).
+USAGE = {}
 
 # Rate limits (429), overload (529) and server errors clear within a minute or
 # two, so post_messages() waits and sends the same request again instead of
@@ -36,11 +52,80 @@ def _retry_wait(resp) -> int:
     return int(min(max(wait, 5), API_MAX_WAIT))
 
 
-def post_messages(payload: dict, label: str, timeout: int = 600, sleep=time.sleep) -> dict:
+def _usage_cost(model: str, u: dict) -> float:
+    """Estimated USD cost of one reply's usage at list prices (0 if the model has no prices)."""
+    p = PRICES_PER_MTOK.get(model)
+    if not p:
+        return 0.0
+    created = u.get("cache_creation") or {}
+    if created:
+        writes = (created.get("ephemeral_5m_input_tokens", 0) * p["cache_write_5m"]
+                  + created.get("ephemeral_1h_input_tokens", 0) * p["cache_write_1h"])
+    else:
+        writes = u.get("cache_creation_input_tokens", 0) * p["cache_write_5m"]
+    searches = (u.get("server_tool_use") or {}).get("web_search_requests", 0)
+    return ((u.get("input_tokens", 0) * p["input"] + writes
+             + u.get("cache_read_input_tokens", 0) * p["cache_read"]
+             + u.get("output_tokens", 0) * p["output"]) / 1e6
+            + searches * WEB_SEARCH_USD_PER_1000 / 1000)
+
+
+def record_usage(model: str, label: str, u: dict) -> None:
+    """Add one reply's usage to USAGE[label]."""
+    t = USAGE.setdefault(label, {"calls": 0, "input": 0, "cache_write": 0, "cache_read": 0,
+                                 "output": 0, "searches": 0, "fetches": 0, "cost": 0.0})
+    tools = u.get("server_tool_use") or {}
+    t["calls"] += 1
+    t["input"] += u.get("input_tokens", 0)
+    t["cache_write"] += u.get("cache_creation_input_tokens", 0)
+    t["cache_read"] += u.get("cache_read_input_tokens", 0)
+    t["output"] += u.get("output_tokens", 0)
+    t["searches"] += tools.get("web_search_requests", 0)
+    t["fetches"] += tools.get("web_fetch_requests", 0)
+    t["cost"] += _usage_cost(model, u)
+
+
+def _tokens(n: int) -> str:
+    return f"{n / 1e6:.2f}M" if n >= 1e6 else f"{n / 1e3:.0f}k"
+
+
+def usage_summary() -> str:
+    """Markdown table of this run's API use and estimated cost ('' if no calls)."""
+    if not USAGE:
+        return ""
+    rows, total = [], {k: 0 for k in ("calls", "input", "cache_write", "cache_read",
+                                      "output", "searches", "fetches", "cost")}
+    for label, t in USAGE.items():
+        rows.append(f"| {label} | {t['calls']} | {_tokens(t['input'] + t['cache_write'])} | "
+                    f"{_tokens(t['cache_read'])} | {_tokens(t['output'])} | {t['searches']} | "
+                    f"{t['fetches']} | ${t['cost']:.2f} |")
+        for k in total:
+            total[k] += t[k]
+    rows.append(f"| **Total** | {total['calls']} | {_tokens(total['input'] + total['cache_write'])} | "
+                f"{_tokens(total['cache_read'])} | {_tokens(total['output'])} | {total['searches']} | "
+                f"{total['fetches']} | **${total['cost']:.2f}** |")
+    return ("### 💶 API use this run\n\n"
+            f"About **${total['cost']:.2f}** at list prices ({MODEL}); the Anthropic Console "
+            "shows what was billed.\n\n"
+            "| Step | Calls | New input | Read from cache | Output | Searches | Fetches | Cost |\n"
+            "|---|---|---|---|---|---|---|---|\n" + "\n".join(rows))
+
+
+def post_messages(payload: dict, label: str, timeout: int = 600, sleep=time.sleep,
+                  cache: bool = False) -> dict:
     """POST payload to the Messages API and return the reply's JSON. On a rate
     limit, overload or server error it waits and resends the same request (up to
     API_RETRIES times), so a long conversation keeps its progress. Any other
-    error, or the last failed retry, raises requests.HTTPError."""
+    error, or the last failed retry, raises requests.HTTPError.
+
+    cache=True turns on automatic prompt caching for long research
+    conversations: each request caches the conversation so far, and the API
+    also caches after every web search or fetch result inside the request, so
+    pages already read are billed at the cache price instead of in full. The
+    model sees exactly the same input either way. Each reply's usage is added
+    to USAGE under label."""
+    if cache:
+        payload = {**payload, "cache_control": {"type": "ephemeral"}}
     for attempt in range(API_RETRIES + 1):
         resp = requests.post(
             "https://api.anthropic.com/v1/messages",
@@ -53,7 +138,9 @@ def post_messages(payload: dict, label: str, timeout: int = 600, sleep=time.slee
             timeout=timeout,
         )
         if resp.ok:
-            return resp.json()
+            data = resp.json()
+            record_usage(payload.get("model", ""), label, data.get("usage") or {})
+            return data
         print(f"Anthropic API error ({label}) {resp.status_code}: {resp.text}")
         if resp.status_code not in API_RETRY_STATUSES or attempt == API_RETRIES:
             resp.raise_for_status()

@@ -80,6 +80,10 @@ jobs:
             ```
             ${{ steps.generate.outputs.matchday_msg }}
             ```
+
+            ---
+
+            ${{ steps.generate.outputs.api_usage }}
           labels: |
             sport-week
             needs-review
