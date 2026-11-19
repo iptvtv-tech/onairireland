@@ -28,7 +28,6 @@ import re
 import sys
 from pathlib import Path
 
-import requests
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -173,29 +172,13 @@ def call_claude(prompt):
          "max_content_tokens": 30000, "blocked_domains": ["dazn.com"]},
     ]
     from fact_check import OFFICIAL_FETCH_TOOL, answer_official_fetches
+    from generate_social import post_messages
     tools.append(OFFICIAL_FETCH_TOOL)
     messages = [{"role": "user", "content": prompt}]
     text = []
     for _ in range(12):
-        resp = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={
-                "model": "claude-sonnet-5",
-                "max_tokens": 16000,
-                "tools": tools,
-                "messages": messages,
-            },
-            timeout=600,
-        )
-        if not resp.ok:
-            print(f"Anthropic API error {resp.status_code}: {resp.text}")
-        resp.raise_for_status()
-        data = resp.json()
+        data = post_messages({"model": "claude-sonnet-5", "max_tokens": 16000,
+                              "tools": tools, "messages": messages}, "sport listings")
         content = data.get("content", [])
         text += [b.get("text", "") for b in content if b.get("type") == "text"]
         for b in content:

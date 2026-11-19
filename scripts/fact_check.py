@@ -31,7 +31,7 @@ import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import site_facts  # noqa: E402
-from generate_social import write_multiline_output  # noqa: E402
+from generate_social import post_messages, write_multiline_output  # noqa: E402
 
 MODEL = "claude-sonnet-5"
 MAX_CLAIMS = 30
@@ -284,20 +284,8 @@ def call_claude(prompt: str, max_uses: int = 8, official_fetch: bool = False) ->
     messages = [{"role": "user", "content": prompt}]
     text = []
     for _ in range(12):
-        resp = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={"model": MODEL, "max_tokens": 12000, "tools": tools, "messages": messages},
-            timeout=600,
-        )
-        if not resp.ok:
-            print(f"Anthropic API error (fact check) {resp.status_code}: {resp.text}")
-        resp.raise_for_status()
-        data = resp.json()
+        data = post_messages({"model": MODEL, "max_tokens": 12000, "tools": tools,
+                              "messages": messages}, "fact check")
         content = data.get("content", [])
         text += [b.get("text", "") for b in content if b.get("type") == "text"]
         for b in content:

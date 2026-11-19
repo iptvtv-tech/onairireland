@@ -8,11 +8,59 @@ Not run standalone.
 """
 import os
 import re
+import time
 
 import requests
 
 # Model used for all social copy generation. Update here to change everywhere.
 MODEL = "claude-sonnet-5"
+
+# Rate limits (429), overload (529) and server errors clear within a minute or
+# two, so post_messages() waits and sends the same request again instead of
+# failing the step. On 19 Nov 2026 the sport fact check hit the API's
+# 500,000-input-tokens-a-minute limit twice in a row (each round of a research
+# conversation resends every page it has read), and the PR opened unchecked.
+API_RETRY_STATUSES = {429, 500, 502, 503, 504, 529}
+API_RETRIES = 4
+API_DEFAULT_WAIT = 60   # seconds, when the API doesn't say (a minute refills the limit)
+API_MAX_WAIT = 120
+
+
+def _retry_wait(resp) -> int:
+    """Seconds to wait before resending: the API's retry-after header if it gives
+    one, else a minute; never under 5 or over API_MAX_WAIT."""
+    try:
+        wait = float(resp.headers.get("retry-after") or API_DEFAULT_WAIT)
+    except (TypeError, ValueError):
+        wait = API_DEFAULT_WAIT
+    return int(min(max(wait, 5), API_MAX_WAIT))
+
+
+def post_messages(payload: dict, label: str, timeout: int = 600, sleep=time.sleep) -> dict:
+    """POST payload to the Messages API and return the reply's JSON. On a rate
+    limit, overload or server error it waits and resends the same request (up to
+    API_RETRIES times), so a long conversation keeps its progress. Any other
+    error, or the last failed retry, raises requests.HTTPError."""
+    for attempt in range(API_RETRIES + 1):
+        resp = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": os.environ["ANTHROPIC_API_KEY"],
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json=payload,
+            timeout=timeout,
+        )
+        if resp.ok:
+            return resp.json()
+        print(f"Anthropic API error ({label}) {resp.status_code}: {resp.text}")
+        if resp.status_code not in API_RETRY_STATUSES or attempt == API_RETRIES:
+            resp.raise_for_status()
+        wait = _retry_wait(resp)
+        print(f"Waiting {wait}s, then sending the same request again "
+              f"(retry {attempt + 1} of {API_RETRIES}).")
+        sleep(wait)
 
 
 # ---------------------------------------------------------------------------
@@ -20,21 +68,9 @@ MODEL = "claude-sonnet-5"
 # ---------------------------------------------------------------------------
 
 def _request(prompt: str, max_tokens: int) -> dict:
-    resp = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={"model": MODEL, "max_tokens": max_tokens,
-              "messages": [{"role": "user", "content": prompt}]},
-        timeout=300,
-    )
-    if not resp.ok:
-        print(f"Anthropic API error (social) {resp.status_code}: {resp.text}")
-        resp.raise_for_status()
-    return resp.json()
+    return post_messages({"model": MODEL, "max_tokens": max_tokens,
+                          "messages": [{"role": "user", "content": prompt}]},
+                         "social", timeout=300)
 
 
 def _call_claude(prompt: str, max_tokens: int = 600) -> str:
