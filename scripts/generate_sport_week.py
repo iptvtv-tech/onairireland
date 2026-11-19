@@ -334,33 +334,44 @@ def check_and_correct(events, week_label, start, end):
              "schedules and the governing bodies' fixture pages.")
     social = build_social(week_label, events)
     result, first, checks = None, None, 0
+    # The listing, drafts and result of the last check that ran. If a later
+    # check fails, the PR shows these rather than nothing: on 19 Nov 2026 the
+    # API credit ran out after check 2 and its result (4 wrong) was thrown away.
+    checked = None
     for check_no in range(1, SPORT_MAX_CHECKS + 1):
         result = run_sport_check(events, social, start, end)
         if result is None:
             break
         checks = check_no
+        checked = (events, social, result)
         first = first or result["counts"]
         flagged = [c for c in result["claims"] if c["status"] != "ok"]
         print(f"Check {check_no}: {result['summary']} {len(result['missing'])} missing.")
         if (not flagged and not result["missing"]) or check_no == SPORT_MAX_CHECKS:
             break
+        # A failed correction leaves the list as this check saw it, so stop
+        # here: checking the same list again would only cost more.
         try:
             raw = call_claude(revise_prompt(events, flagged, result["missing"], start, end))
             revised = parse_events(raw, start, end, fatal=False)
         except Exception as exc:
             print(f"Correction {check_no} failed: {exc}")
-            continue
+            break
         if len(revised) < 3:
             print(f"Correction {check_no} left only {len(revised)} events; keeping the previous list.")
-            continue
+            break
         events = revised
         social = build_social(week_label, events)
         print(f"Correction {check_no} done: {len(events)} events.")
 
-    if result is None:
+    if checked is None:
         section = ("### 🔎 Fact check\n\n> ⚠️ **The fact check couldn't run this week.** "
                    "Check every date, time, channel and competition name by hand (click each source link).")
         return events, social, section
+    fell_back = result is None
+    if fell_back:
+        print(f"Check {checks + 1} couldn't run; using the listings check {checks} saw.")
+    events, social, result = checked
 
     # Never publish a line the last check found wrong.
     wrong_items = {c["item"] for c in result["claims"] if c["where"] == "listing" and c["status"] == "wrong"}
@@ -375,6 +386,9 @@ def check_and_correct(events, week_label, start, end):
     note = (f"Checked {checks} time{'s' if checks > 1 else ''}"
             + (f"; the first check found {first['wrong']} wrong and {first['unconfirmed']} unconfirmed."
                if checks > 1 else "."))
+    if fell_back:
+        note += (f" Corrections made after check {checks} couldn't be checked again, so they were "
+                 f"dropped: these are the listings check {checks} saw.")
     section = format_markdown(claims, note, basis)
     if removed:
         section += ("\n\n**Taken out (still wrong after the last check):**\n"
