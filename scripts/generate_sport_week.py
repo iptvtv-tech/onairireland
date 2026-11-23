@@ -51,6 +51,25 @@ HEADER = """# "Sport on TV this week" data, shown on /sport-on-tv/.
 """
 
 
+class _WeekDumper(yaml.SafeDumper):
+    """Quotes every HH:MM time. PyYAML only quotes times from 10:00 up, and
+    Jekyll's YAML reads an unquoted 04:00 as a number (the page showed
+    "240.0" for the 2026 Las Vegas Grand Prix)."""
+
+
+def _represent_str(dumper, s):
+    style = "'" if re.fullmatch(r"\d{1,2}:\d{2}", s) else None
+    return dumper.represent_scalar("tag:yaml.org,2002:str", s, style=style)
+
+
+_WeekDumper.add_representer(str, _represent_str)
+
+
+def dump_week(data):
+    """The text of _data/sport_week.yml. Use this for hand edits too."""
+    return HEADER + yaml.dump(data, Dumper=_WeekDumper, sort_keys=False, allow_unicode=True, width=200)
+
+
 def week_range(argv):
     if len(argv) > 1:
         start = dt.date.fromisoformat(argv[1])
@@ -432,7 +451,7 @@ def main():
         "generated": dt.date.today(),
         "events": events,
     }
-    OUT.write_text(HEADER + yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=200), encoding="utf-8")
+    OUT.write_text(dump_week(data), encoding="utf-8")
     print(f"Wrote {len(events)} events to {OUT}")
 
     from generate_social import usage_summary, write_multiline_output

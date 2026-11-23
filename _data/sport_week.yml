@@ -71,7 +71,7 @@ events:
   free: false
   source: https://www.irishtimes.com/sport/2026/11/15/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-11-22
-  time: 04:00
+  time: '04:00'
   sport: Motorsport
   event: Las Vegas Grand Prix
   competition: Formula 1
@@ -126,6 +126,86 @@ events:
   watch: DAZN and TNT Sports 1
   free: false
   source: https://www.irishtimes.com/sport/2026/11/15/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-23
+  time: '20:00'
+  sport: Football
+  event: Brentford v Everton
+  competition: Premier League
+  watch: Sky Sports Premier League
+  free: false
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-24
+  time: '12:30'
+  sport: Football
+  event: Costa Rica v Ireland
+  competition: FIFA Under-17 World Cup
+  watch: RTÉ 2 and RTÉ Player
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-24
+  time: '17:45'
+  sport: Football
+  event: Galatasaray v Aston Villa
+  competition: UEFA Champions League
+  watch: Virgin Media Two and Virgin Media Play
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-24
+  time: '20:00'
+  sport: Football
+  event: Man City v Napoli
+  competition: UEFA Champions League
+  watch: Virgin Media Two and Virgin Media Play
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-24
+  time: '20:00'
+  sport: Football
+  event: Arsenal v Borussia Dortmund
+  competition: UEFA Champions League
+  watch: Premier Sports 1
+  free: false
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-25
+  time: '17:45'
+  sport: Football
+  event: Sabah FK v Barcelona
+  competition: UEFA Champions League
+  watch: Virgin Media Two and Virgin Media Play
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-25
+  time: '20:00'
+  sport: Football
+  event: Club Brugge v Liverpool
+  competition: UEFA Champions League
+  watch: Virgin Media Two and Virgin Media Play
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-25
+  time: '20:00'
+  sport: Football
+  event: Sporting CP v Manchester United
+  competition: UEFA Champions League
+  watch: RTÉ 2 and RTÉ Player (also on Premier Sports 1)
+  free: true
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-26
+  time: '17:45'
+  sport: Football
+  event: Celta Vigo v Bournemouth
+  competition: UEFA Europa League
+  watch: Premier Sports 1
+  free: false
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
+- date: 2026-11-26
+  time: '17:45'
+  sport: Football
+  event: Brighton v Universitatea Craiova
+  competition: UEFA Conference League
+  watch: Premier Sports 2
+  free: false
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
 - date: 2026-11-26
   time: '20:00'
   sport: Football
@@ -134,3 +214,11 @@ events:
   watch: Premier Sports
   free: false
   source: https://www.uefa.com/uefaeuropaleague/news/028d-1ae6d62165d6-69b17b354deb-1000--where-to-watch-the-europa-league-tv-broadcast-partners-li/
+- date: 2026-11-26
+  time: '20:00'
+  sport: Football
+  event: Crystal Palace v Real Sociedad
+  competition: UEFA Europa League
+  watch: Premier Sports 2
+  free: false
+  source: https://www.irishtimes.com/sport/2026/11/22/three-sporting-events-to-watch-this-week-your-handy-guide-to-sport-on-television/
