@@ -2,8 +2,8 @@
 title: Black Friday and Christmas Streaming Guide for Ireland
 excerpt: Streaming offers confirmed on each provider's Irish page, which stick or box suits your house, how to spot a real Black Friday deal, and your Christmas return rights.
 description: Streaming offers from providers' own Irish pages, which device suits your home, how to spot a real Black Friday deal, and your Christmas return rights.
-last_checked: 2026-11-05
-last_updated: 2026-11-24
+last_checked: 2026-11-25
+last_updated: 2026-11-25
 categories:
 - Devices
 tags:
@@ -65,11 +65,11 @@ The {% include product-link.html id="google-tv-streamer" text="Google TV Streame
 
 ### Roku for a simple menu
 
-The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} has a plain, simple menu that suits less confident users. Roku says RTÉ Player is officially available on Roku in Ireland, and Virgin Media Play is in the Roku Channel Store. Check any other app you need there before you buy. Our [Roku guide]({% post_url 2026-09-13-roku-streaming-devices-are-they-worth-buying-in-ireland %}) explains more.
+The {% include product-link.html id="roku-streaming-stick-4k" text="Roku Streaming Stick Plus" %} has a plain, simple menu that suits less confident users. Roku says RTÉ Player is officially available on Roku in Ireland. Check Virgin Media Play and any other app you need in Roku's Channel Store before you buy. Our [Roku guide]({% post_url 2026-09-13-roku-streaming-devices-are-they-worth-buying-in-ireland %}) explains more.
 
 ### Apple TV for Apple homes
 
-The Apple TV 4K makes most sense if the house already uses iPhones, iPads and an Apple Account. Apple's Irish page lists Gigabit Ethernet built in, works with HD and 4K TVs, and needs an HDMI cable, sold separately. We don't have an affiliate link for it, so buy it wherever suits you. See our [Apple TV 4K guide]({% post_url 2026-09-12-apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers %}).
+The Apple TV 4K makes most sense if the house already uses iPhones, iPads and an Apple Account. Apple's Irish store page says it needs a TV with HD capability or better, works over Wi-Fi or wired Ethernet, and that the HDMI cable is sold separately. We don't have an affiliate link for it, so buy it wherever suits you. See our [Apple TV 4K guide]({% post_url 2026-09-12-apple-tv-4k-review-is-it-worth-the-price-for-irish-viewers %}).
 
 {% include product-showcase.html products="fire-tv-stick-4k-max-review,google-tv-streamer,roku-streaming-stick-4k,fire-tv-stick" title="Streaming devices by household" %}
 
@@ -111,7 +111,7 @@ Check any paid or sport service you use the same way. Install apps only from the
 ## What to check before you buy
 
 1. **A free HDMI port.** Every stick and box plugs into one. If the ports are taken by a set-top box or games console, you'll need to swap a cable or use a switch.
-2. **Whether the TV is 4K.** Apple, for example, says you need a 4K HDR TV to get 4K HDR. On an HD TV, a 4K device just shows HD, so don't pay extra for nothing.
+2. **Whether the TV is 4K.** On an HD TV, a 4K device just shows HD, so don't pay extra for nothing.
 3. **An HDMI cable, if the box needs one.** Google and Apple both say their boxes need an HDMI cable that's sold separately. Sticks plug straight in.
 4. **Wi-Fi where the TV is.** If the router is at the other end of the house, live sport is where you'll notice buffering. The Google TV Streamer and Apple TV 4K have an Ethernet port; most sticks need an adapter for a wired connection.
 5. **Vega OS on new Fire TV models.** As above, check your apps are available for the exact model.
@@ -143,7 +143,7 @@ These points come from the [Competition and Consumer Protection Commission (CCPC
 
 - **Bought online:** you can cancel for any reason within 14 days of receiving the goods. The 14 days start when the parcel is delivered, not when the present is opened, so a device bought on Black Friday may be outside that window by Christmas Day.
 - **Bought in a shop:** you don't have a legal right to a refund or exchange just because you changed your mind. Many shops accept returns anyway, and some extend their returns period into January, but that's their own policy. Check it before you buy and ask for a gift receipt.
-- **If it's faulty:** you're entitled to a full refund if you contact the business [within 30 days](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds), without having to accept a repair or replacement. After that you may still be entitled to a repair, replacement or refund, and the CCPC says you're protected for up to six years, with the strongest rights in the first year.
+- **If it's faulty:** you're entitled to a full refund if you contact the business [within 30 days](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds), without having to accept a repair or replacement. After that you may still be entitled to a repair, replacement or refund, but the CCPC says your rights are strongest in the first 30 days.
 - **Sale items:** you have the same rights as at full price, and a faulty sale item is refunded at the price you paid.
 - **Gifts:** you still need proof of purchase to return a gift. For a faulty item, a gift receipt, order confirmation email or card statement can count.
 
@@ -163,7 +163,7 @@ New to streaming? Our free **Irish Streaming Starter Guide** covers every legal 
 
 {% include product-showcase.html products="hdmi-cable-4k,hdmi-extender-adapter,ethernet-cable-troubleshoot" title="Before you wrap it" %}
 
-Sources: [NOW Ireland: memberships and offers](https://www.nowtv.com/ie/membership) (offer prices, minimum term and renewal, checked 24 November 2026) · [Disney+ Ireland](https://www.disneyplus.com/en-ie) (6-month saver prices and minimum term, checked 24 November 2026) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Apple Store Ireland: Apple TV 4K](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) (checked 10 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) and [Fire TV device comparison](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) (checked 10 November 2026) · [Virgin Media Play FAQ](https://virginmediatelevision.ie/player/faq/) (checked 10 November 2026) · CCPC: [shopping in the sales](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/shopping-in-the-sales), [changing your mind](https://www.ccpc.ie/consumers/shopping/buying-goods/changing-your-mind/) and [refunds](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds) (checked 5 November 2026) · Regular prices: our [streaming price tracker](/streaming-prices/)
+Sources: [NOW Ireland: memberships and offers](https://www.nowtv.com/ie/membership) (offer prices, minimum term and renewal, checked 24 November 2026) · [Disney+ Ireland](https://www.disneyplus.com/en-ie) (6-month saver prices and minimum term, checked 24 November 2026) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 25 November 2026) · [Apple Store Ireland: Apple TV 4K](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) (checked 25 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) and [Fire TV device comparison](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) (checked 25 November 2026) · [Virgin Media Play FAQ](https://virginmediatelevision.ie/player/faq/) (checked 25 November 2026) · CCPC: [shopping in the sales](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/shopping-in-the-sales), [changing your mind](https://www.ccpc.ie/consumers/shopping/buying-goods/changing-your-mind/) and [refunds](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds) (checked 25 November 2026) · Regular prices: our [streaming price tracker](/streaming-prices/)
 
 {% include faq-section.html %}
 
