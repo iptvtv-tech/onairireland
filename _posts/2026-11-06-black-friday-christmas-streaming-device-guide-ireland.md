@@ -3,7 +3,7 @@ title: Black Friday and Christmas Streaming Guide for Ireland
 excerpt: Streaming offers confirmed on each provider's Irish page, which stick or box suits your house, how to spot a real Black Friday deal, and your Christmas return rights.
 description: Streaming offers from providers' own Irish pages, which device suits your home, how to spot a real Black Friday deal, and your Christmas return rights.
 last_checked: 2026-11-05
-last_updated: 2026-11-16
+last_updated: 2026-11-24
 categories:
 - Devices
 tags:
@@ -163,7 +163,7 @@ New to streaming? Our free **Irish Streaming Starter Guide** covers every legal 
 
 {% include product-showcase.html products="hdmi-cable-4k,hdmi-extender-adapter,ethernet-cable-troubleshoot" title="Before you wrap it" %}
 
-Sources: [NOW Ireland: Entertainment offers](https://www.nowtv.com/ie/plans/new/entertainment) (offer prices, minimum term and renewal, checked 16 November 2026) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Apple Store Ireland: Apple TV 4K](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) (checked 10 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) and [Fire TV device comparison](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) (checked 10 November 2026) · [Virgin Media Play FAQ](https://virginmediatelevision.ie/player/faq/) (checked 10 November 2026) · CCPC: [shopping in the sales](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/shopping-in-the-sales), [changing your mind](https://www.ccpc.ie/consumers/shopping/buying-goods/changing-your-mind/) and [refunds](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds) (checked 5 November 2026) · Regular prices: our [streaming price tracker](/streaming-prices/)
+Sources: [NOW Ireland: memberships and offers](https://www.nowtv.com/ie/membership) (offer prices, minimum term and renewal, checked 24 November 2026) · [Disney+ Ireland](https://www.disneyplus.com/en-ie) (6-month saver prices and minimum term, checked 24 November 2026) · [Google Store Ireland: Google TV Streamer specs](https://store.google.com/ie/product/google_tv_streamer_specs) (checked 10 November 2026) · [Apple Store Ireland: Apple TV 4K](https://www.apple.com/ie/shop/buy-tv/apple-tv-4k) (checked 10 November 2026) · [Amazon: Fire OS overview](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html) and [Fire TV device comparison](https://developer.amazon.com/docs/device-specs/device-specifications-comparison-table.html) (checked 10 November 2026) · [Roku: RTÉ Player on Roku in Ireland](https://www.roku.com/blog/rte-player-now-available-on-the-roku-platform-in-ireland) (checked 10 November 2026) · [Virgin Media Play FAQ](https://virginmediatelevision.ie/player/faq/) (checked 10 November 2026) · CCPC: [shopping in the sales](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/shopping-in-the-sales), [changing your mind](https://www.ccpc.ie/consumers/shopping/buying-goods/changing-your-mind/) and [refunds](https://www.ccpc.ie/consumer-advice/consumer-rights/buying-goods/refunds) (checked 5 November 2026) · Regular prices: our [streaming price tracker](/streaming-prices/)
 
 {% include faq-section.html %}
 

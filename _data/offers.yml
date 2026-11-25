@@ -32,21 +32,54 @@
 - id: now-entertainment-6-months-nov-2026
   service: NOW
   plan: Entertainment
-  offer_monthly: 5.99
+  offer_monthly: 3.99
   months: 6
-  terms: 6-month minimum term, new NOW Entertainment, Cinema and Boost customers only
-  show_until: 2026-11-30
-  checked: 2026-11-16
+  terms: Black Friday offer. 6-month minimum term, new NOW Entertainment, Cinema and Boost customers only
+  show_until: 2026-12-15
+  checked: 2026-11-24
   source: NOW Ireland
-  url: https://www.nowtv.com/ie/plans/new/entertainment
+  url: https://www.nowtv.com/ie/membership
 
 - id: now-entertainment-hbo-max-6-months-nov-2026
   service: NOW
   plan: Entertainment & HBO Max
   offer_monthly: 7.99
   months: 6
-  terms: 6-month minimum term, new NOW Entertainment & HBO Max, Cinema and Boost customers only
-  show_until: 2026-11-30
-  checked: 2026-11-16
+  terms: 6-month minimum term, new customers only
+  show_until: 2026-12-15
+  checked: 2026-11-24
   source: NOW Ireland
-  url: https://www.nowtv.com/ie/plans/new/entertainment
+  url: https://www.nowtv.com/ie/membership
+
+- id: disney-plus-standard-with-ads-6-months-nov-2026
+  service: Disney+
+  plan: Standard with Ads
+  offer_monthly: 7.99
+  months: 6
+  terms: 6-month saver plan with a 6-month minimum term, then the regular monthly price. 18+
+  show_until: 2026-12-15
+  checked: 2026-11-24
+  source: Disney+ Ireland
+  url: https://www.disneyplus.com/en-ie
+
+- id: disney-plus-standard-6-months-nov-2026
+  service: Disney+
+  plan: Standard
+  offer_monthly: 9.99
+  months: 6
+  terms: 6-month saver plan with a 6-month minimum term, then the regular monthly price. 18+
+  show_until: 2026-12-15
+  checked: 2026-11-24
+  source: Disney+ Ireland
+  url: https://www.disneyplus.com/en-ie
+
+- id: disney-plus-premium-6-months-nov-2026
+  service: Disney+
+  plan: Premium
+  offer_monthly: 11.99
+  months: 6
+  terms: 6-month saver plan with a 6-month minimum term, then the regular monthly price. 18+
+  show_until: 2026-12-15
+  checked: 2026-11-24
+  source: Disney+ Ireland
+  url: https://www.disneyplus.com/en-ie
