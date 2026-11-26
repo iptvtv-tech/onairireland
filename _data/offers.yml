@@ -22,11 +22,19 @@
 #                   away in visitors' browsers).
 #   checked       - the day WE confirmed it on the provider's own Irish page
 #   source, url   - that page (same primary-source rules as prices.yml)
+#   evidence      - REQUIRED. The provider page's own words that show the offer
+#                   price, copied from the page's text (browser page text or the
+#                   fetched page), never from a summary. Under 300 characters.
+#                   Use [...] to skip the lines between the plan name and its price.
+#                   The diff shows it, so the review is against the source's words.
 #   checked_by    - "hand" for providers we may not fetch automatically (DAZN:
 #                   its affiliate terms forbid scraping; John checks it himself)
 #   affiliate     - optional id from _data/products.yml for a "(paid link)" sign-up link
 #
-# scripts/check_prices_data.py validates this file on every PR.
+# scripts/check_prices_data.py validates this file on every PR, and
+# .github/workflows/verify-prices.yml re-reads each new or changed offer on the
+# provider's own page (scripts/check_prices.py --verify). Don't merge a PR
+# whose "Verify prices" check is red.
 # Re-check or remove an offer before its show_until date.
 
 - id: now-entertainment-6-months-nov-2026
@@ -39,6 +47,7 @@
   checked: 2026-11-24
   source: NOW Ireland
   url: https://www.nowtv.com/ie/membership
+  evidence: "Black Friday offer Entertainment Save 55% when you join for 6 months. [...] €8.99€3.99 a month 6-month minimum term."
 
 - id: now-entertainment-hbo-max-6-months-nov-2026
   service: NOW
@@ -50,6 +59,7 @@
   checked: 2026-11-24
   source: NOW Ireland
   url: https://www.nowtv.com/ie/membership
+  evidence: "Entertainment & HBO Max Save 33% when you join for 6 months. [...] €11.99€7.99 a month 6-month minimum term."
 
 - id: disney-plus-standard-with-ads-6-months-nov-2026
   service: Disney+
@@ -61,6 +71,7 @@
   checked: 2026-11-24
   source: Disney+ Ireland
   url: https://www.disneyplus.com/en-ie
+  evidence: "Standard with Ads From €7.99/mo Save 16% for 6 months, then €8.99/mo"
 
 - id: disney-plus-standard-6-months-nov-2026
   service: Disney+
@@ -72,6 +83,7 @@
   checked: 2026-11-24
   source: Disney+ Ireland
   url: https://www.disneyplus.com/en-ie
+  evidence: "Standard From €9.99/mo Save 20% for 6 months, then €11.99/mo"
 
 - id: disney-plus-premium-6-months-nov-2026
   service: Disney+
@@ -83,3 +95,4 @@
   checked: 2026-11-24
   source: Disney+ Ireland
   url: https://www.disneyplus.com/en-ie
+  evidence: "Premium From €11.99/mo Save 26% for 6 months, then €15.99/mo"

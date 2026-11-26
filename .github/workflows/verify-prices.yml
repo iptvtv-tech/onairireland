@@ -1,0 +1,65 @@
+name: Verify Prices
+
+# Every price or offer added or changed in _data/offers.yml or _data/prices.yml
+# is re-read on the provider's own page before it goes live. It passes only when
+# a quote showing the figure is found word for word in the text of a page fetched
+# in this run (scripts/check_prices.py --verify). The checks in check-pr.yml only
+# test the format of the data; this is the check that tests the figure itself.
+#
+# On a pull request: don't merge while this is red.
+# On a direct push to main it can't stop the push, so a red run means a figure
+# is already live and must be fixed or removed straight away (GitHub emails the
+# failure).
+# DAZN and offers marked checked_by: hand are never fetched (DAZN's affiliate
+# terms forbid scraping); they're listed in the report for a check by hand.
+
+on:
+  pull_request:
+    paths:
+      - "_data/offers.yml"
+      - "_data/prices.yml"
+  push:
+    branches: [main]
+    paths:
+      - "_data/offers.yml"
+      - "_data/prices.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      # Pull request: figures new or changed since the base branch.
+      # Push: figures new or changed since the previous commit on main.
+      # Run by hand: every live offer.
+      - name: Re-read new and changed figures on the providers' pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PRICE_REPORT_PATH: ${{ runner.temp }}/verify_report.md
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BASE_SHA" ] && git cat-file -e "${BASE_SHA}^{commit}" 2>/dev/null; then
+            python scripts/check_prices.py --verify --base "$BASE_SHA"
+          else
+            python scripts/check_prices.py --verify
+          fi
+
+      - name: Show report in the run summary
+        if: always()
+        run: cat "${{ runner.temp }}/verify_report.md" >> "$GITHUB_STEP_SUMMARY" || true

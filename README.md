@@ -75,8 +75,18 @@ python scripts/check_fact_flags.py
 - `check_posts.py` validates post front matter, required image metadata,
   image-ledger integrity, and leftover `TODO`/`AFFILIATE_LINK_` placeholders.
 - `check_prices_data.py` validates price data structure and warns when a row
-  has not been checked recently. It does **not** confirm prices against live
-  provider pages; that remains an editorial fact-check.
+  has not been checked recently. It also requires every offer to carry
+  `evidence:` (the provider page's own words showing the price). It does **not**
+  read the provider's page: see the next point.
+- **These checks test the format of the data, not whether a figure is true.**
+  The one check that reads the provider's page is
+  `scripts/check_prices.py --verify`, run by `.github/workflows/verify-prices.yml`
+  on every pull request or push that changes `_data/offers.yml` or
+  `_data/prices.yml`. A figure passes only when a quote showing it is found word
+  for word in the text of the provider's page fetched in that run. It needs
+  `ANTHROPIC_API_KEY`, so it runs on GitHub, not locally. Don't merge a PR while
+  "Verify Prices" is red. DAZN and `checked_by: hand` offers are listed for a
+  check by hand, never fetched.
 - `check_site_facts.py` validates `_data/site_facts.yml` (every entry needs
   facts, https sources and a checked date) and warns when an entry hasn't been
   confirmed for 100 days.
@@ -112,8 +122,10 @@ One rule for every post, page, draft and seasonal update: **never type a price**
   [price tracker](/streaming-prices/) instead. The draft writer uses
   `[[price:NOW|Sports]]` tokens, which `generate_post.py` turns into the include.
 - **Offers (Black Friday, Christmas, introductory prices):** add them to
-  `_data/offers.yml` with the provider's own Irish page and a `show_until` date
-  (at most 21 days after the check). `{% raw %}{% include offers.html %}{% endraw %}` lists the live
+  `_data/offers.yml` with the provider's own Irish page, a `show_until` date
+  (at most 21 days after the check) and `evidence:` copied from the page's own
+  text (never from a web-fetch summary). Send offer changes as a pull request,
+  so "Verify Prices" runs before they go live. `{% raw %}{% include offers.html %}{% endraw %}` lists the live
   ones; each disappears by itself after its `show_until` date. The tracker
   shows them in an "Offers right now" box.
 - **Amazon and other retailers:** no prices, discounts or "% off" anywhere.

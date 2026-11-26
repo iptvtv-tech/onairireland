@@ -101,6 +101,65 @@ def as_date(value):
         return None
 
 
+# The provider's own words for a figure (`evidence:` in offers.yml, optional
+# in prices.yml): copied from the provider's page, short, and showing the amount.
+MAX_EVIDENCE_CHARS = 300
+
+
+def squash(text: str) -> str:
+    """Lower case, curly quotes made straight, all whitespace removed: so the
+    same words match whether a page puts them on one line or several."""
+    text = str(text).replace("\u2019", "'").replace("\u2018", "'").replace("\u00a0", " ")
+    return re.sub(r"\s+", "", text).lower()
+
+
+def amount_shown(text: str, price) -> bool:
+    """True if the text shows this euro amount (€3.99, € 3,99, 3.99 €, 3.99 EUR, €27)."""
+    try:
+        price = float(price)
+    except (TypeError, ValueError):
+        return False
+    variants = {f"{price:.2f}", f"{price:.2f}".replace(".", ",")}
+    if abs(price - round(price)) < 0.005:
+        variants.add(str(int(round(price))))
+    t = re.sub(r"\s+", " ", str(text)).lower()
+    for v in variants:
+        v = re.escape(v)
+        if re.search(rf"€\s?{v}(?![\d.,]*\d)|(?<![\d.,]){v}\s?(€|eur\b)", t):
+            return True
+    return False
+
+
+def evidence_on_page(evidence, page_text) -> bool:
+    """True if the stored wording is on the page, in order ("[...]" skips text).
+    Spacing and line breaks don't matter."""
+    page = squash(page_text)
+    pos = 0
+    for part in str(evidence).split("[...]"):
+        part = squash(part)
+        if not part:
+            continue
+        found = page.find(part, pos)
+        if found < 0:
+            return False
+        pos = found + len(part)
+    return True
+
+
+def evidence_problem(evidence, amounts) -> str:
+    """'' if `evidence` is usable for one of `amounts`, else what's wrong."""
+    if evidence in (None, ""):
+        return "missing evidence"
+    text = str(evidence)
+    if len(text) > MAX_EVIDENCE_CHARS:
+        return f"evidence is longer than {MAX_EVIDENCE_CHARS} characters; copy only the lines that show the price"
+    shown = [a for a in amounts if a is not None]
+    if shown and not any(amount_shown(text, a) for a in shown):
+        listed = " or ".join(f"€{float(a):.2f}" for a in shown)
+        return f"evidence doesn't show {listed}; copy the provider's own words that show the price"
+    return ""
+
+
 def find_row(prices: list, service: str, plan: str = None):
     """The prices.yml row for a service and plan. Without a plan, the service's
     only row (None if it has several)."""
@@ -335,6 +394,12 @@ def offer_problems(offers: list, prices: list, today: datetime.date, approved_ho
         months = o.get("months")
         if months is not None and (not isinstance(months, int) or not 1 <= months <= 24):
             errors.append(f"{where}: months should be a whole number from 1 to 24")
+        problem = evidence_problem(o.get("evidence"), [price] if isinstance(price, (int, float)) else [])
+        if problem == "missing evidence":
+            errors.append(f"{where}: missing evidence (the provider page's own words that show the offer "
+                          "price, copied from the page's text, not from a summary)")
+        elif problem:
+            errors.append(f"{where}: {problem}")
         terms = str(o.get("terms") or "")
         if re.search(r"\b(?:code|voucher|coupon)\b", terms, re.I):
             errors.append(f"{where}: terms mention a code or voucher; don't publish promo codes")

@@ -10,6 +10,9 @@ import sys
 
 import yaml
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import price_rules  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PRICES = os.path.join(ROOT, "_data", "prices.yml")
 GROUPS = {"general", "film-tv", "sport", "free"}
@@ -48,6 +51,12 @@ for i, r in enumerate(rows, 1):
         v = r.get(key)
         if v is not None and (not isinstance(v, (int, float)) or v < 0 or v > MAX_PRICE):
             errors.append(f"{name}: {key} {v!r} is not a sensible euro amount")
+    if r.get("evidence") not in (None, ""):
+        # Optional here (the quarterly checker fills it in), but when it's there
+        # it must be the provider's own words showing one of the row's prices.
+        problem = price_rules.evidence_problem(r["evidence"], [r.get(k) for k in price_rules.PRICE_FIELDS])
+        if problem:
+            errors.append(f"{name}: {problem}")
     aff = r.get("affiliate")
     if aff is not None and str(aff) not in PRODUCT_IDS:
         errors.append(f"{name}: affiliate {aff!r} is not an id in _data/products.yml")
@@ -68,8 +77,6 @@ for i, r in enumerate(rows, 1):
 
 # Time-limited offers (_data/offers.yml): provider sources, a show_until date
 # no more than three weeks after the check, and a real discount on a tracked plan.
-import price_rules  # noqa: E402  (scripts/ is on the path when run as a script)
-
 try:
     offers = price_rules.load_offers()
 except yaml.YAMLError as e:

@@ -1,8 +1,12 @@
 name: Daily Draft Post
 
 # PAUSED 10 Nov 2026: no scheduled drafts while the existing posts are rewritten
-# with sources (Google stopped showing most of the site from 27 Oct). Run it by
-# hand with "Run workflow" if needed. To restart, put this back under `on:`:
+# with sources (Google stopped showing most of the site from 27 Oct).
+# SWITCHED OFF 26 Nov 2026: scripts/generate_post.py stops with an error until
+# its DRAFTING_ALLOWED guard is turned on, and that happens only in the change
+# that gives the writer the fetched text of its sources (see the comment there).
+# "Run workflow" by hand fails for the same reason. To restart after that change,
+# put this back under `on:`:
 #   schedule:
 #     - cron: "37 8 * * 3"   # Wednesday 08:37 UTC (off the hour: GitHub runs :00 jobs late)
 on:

@@ -26,6 +26,18 @@ import image_system  # scripts/image_system.py: approved photos first, brand car
 import site_facts  # scripts/site_facts.py: checked facts and prices for the prompt
 import price_rules  # scripts/price_rules.py: price tokens -> price.html includes, typed-price rules
 
+# Drafting is switched off (John's decision, 26 Nov 2026). The writer has no
+# web access, so its drafts state facts that nobody fetched from a source, and
+# the bot's posts were the main source of unsourced claims before the Nov 2026
+# clean-up. Turn this back on only in the change that gives draft_topic() the
+# text of the primary-source pages it must cite, and checks every claim in the
+# draft against that text. Restoring the workflow's schedule alone does nothing.
+DRAFTING_ALLOWED = False
+DRAFTING_OFF_MESSAGE = (
+    "Drafting is switched off: the writer can't fetch sources yet, so its drafts would state "
+    "unsourced facts. See DRAFTING_ALLOWED at the top of scripts/generate_post.py."
+)
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_PATH = os.path.join(REPO_ROOT, "_data", "topic_queue.yml")
 POSTS_DIR = os.path.join(REPO_ROOT, "_posts")
@@ -689,6 +701,12 @@ def write_outputs(outputs: list) -> None:
 
 
 def main():
+    if not DRAFTING_ALLOWED:
+        print("ERROR:", DRAFTING_OFF_MESSAGE)
+        if os.environ.get("GITHUB_STEP_SUMMARY"):
+            with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+                fh.write(f"### No draft\n{DRAFTING_OFF_MESSAGE}\n")
+        sys.exit(1)
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     queue = load_queue()
     if not queue:

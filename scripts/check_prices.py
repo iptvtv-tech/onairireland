@@ -19,12 +19,24 @@ Safeguards -- nothing here publishes anything:
     exits with an error so the workflow fails and GitHub emails you.
 
 Writes the report to $PRICE_REPORT_PATH (used as the PR body).
+
+--verify mode (read-only; .github/workflows/verify-prices.yml):
+  python scripts/check_prices.py --verify [--base <git ref>]
+  Re-reads every new or changed figure on the provider's own page before it goes
+  live: offers in _data/offers.yml and prices in _data/prices.yml. With --base,
+  only entries added or changed since that commit; without it, every live offer.
+  A figure passes only when a quote showing it is found word for word in the
+  text of a page fetched in this run (the same test as the quarterly check).
+  Nothing is edited. Exits 1 if any figure can't be confirmed, so the PR shows a
+  red check. DAZN and anything marked checked_by: hand are listed, never fetched.
 """
 import datetime
 import json
 import os
 import re
 import sys
+
+import subprocess
 
 import requests
 import yaml
@@ -39,10 +51,11 @@ MAX_QUOTE_CHARS = 300
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_social import MODEL  # noqa: E402  one place to change the model
+import price_rules  # noqa: E402
 
 # Field order used when a field has to be added to a plan in prices.yml.
 FIELD_ORDER = ["service", "plan", "monthly", "yearly", "note", "changed",
-               "checked", "source", "url", "group", "combinable"]
+               "checked", "source", "url", "evidence", "group", "combinable"]
 
 
 # ---------------------------------------------------------------------------
@@ -370,6 +383,9 @@ def main():
                   src_cfg.get("source_name", out["service"]))
         if url:
             set_field(lines, out["service"], out["plan"], "url", url)
+        quote = next((f["quote"] for f in out["fields"].values() if f.get("quote")), None)
+        if quote:  # the provider's own words, so the PR diff shows what was read
+            set_field(lines, out["service"], out["plan"], "evidence", " ".join(str(quote).split()))
 
     new_text = "".join(lines)
     yaml.safe_load(new_text)  # never write a file that doesn't parse
@@ -389,6 +405,172 @@ def main():
     if to_check and len(errors) * 2 >= len(to_check):
         print("ERROR: half or more of the services failed. See the log above.")
         sys.exit(1)
+
+
+# ---------------------------------------------------------------------------
+# --verify: read-only check of new and changed figures (PRs and pushes)
+# ---------------------------------------------------------------------------
+
+def load_yaml_at(ref, rel_path):
+    """The file as it was at a git ref ([] if it didn't exist there)."""
+    try:
+        out = subprocess.run(["git", "show", f"{ref}:{rel_path}"], cwd=ROOT,
+                             capture_output=True, text=True, check=True).stdout
+    except subprocess.CalledProcessError:
+        return []
+    return [x for x in (yaml.safe_load(out) or []) if isinstance(x, dict)]
+
+
+OFFER_KEYS = ("service", "plan", "offer_monthly", "months", "url", "evidence")
+
+
+def items_to_verify(today, base=None):
+    """(auto, by_hand): figures to re-read on the provider's page, and ones a
+    person checks (DAZN, checked_by: hand, or a service with no source entry)."""
+    offers = price_rules.load_offers()
+    prices = price_rules.load_prices()
+    old_offers = {o.get("id"): o for o in load_yaml_at(base, "_data/offers.yml")} if base else None
+    old_prices = {(r.get("service"), r.get("plan")): r for r in load_yaml_at(base, "_data/prices.yml")} if base else None
+    items = []
+    for o in offers:
+        until = price_rules.as_date(o.get("show_until"))
+        if until and until < today:
+            continue  # ended: hidden on the site, nothing to confirm
+        if old_offers is not None:
+            old = old_offers.get(o.get("id"))
+            if old and all(old.get(k) == o.get(k) for k in OFFER_KEYS):
+                continue  # unchanged since the base commit
+        items.append({"kind": "offer", "key": str(o.get("id")), "service": str(o.get("service")),
+                      "label": f"{o.get('service')} {o.get('plan')} offer, {o.get('months')} months",
+                      "amount": o.get("offer_monthly"), "url": o.get("url"),
+                      "evidence": o.get("evidence"), "hand": o.get("checked_by") == "hand"})
+    if old_prices is not None:
+        for r in prices:
+            old = old_prices.get((r.get("service"), r.get("plan")), {})
+            for field in price_rules.PRICE_FIELDS:
+                if r.get(field) is None or old.get(field) == r.get(field):
+                    continue
+                items.append({"kind": "price", "key": f"{r.get('service')}|{r.get('plan')}|{field}",
+                              "service": str(r.get("service")),
+                              "label": f"{r.get('service')} {r.get('plan')} ({field})",
+                              "amount": r.get(field), "url": r.get("url"),
+                              "evidence": r.get("evidence"), "hand": False})
+    with open(SOURCES_PATH, encoding="utf-8") as f:
+        sources = yaml.safe_load(f) or {}
+    auto, by_hand = [], []
+    for it in items:
+        cfg = sources.get(it["service"])
+        if it["hand"] or not cfg or cfg.get("skip"):
+            it["why"] = ("checked_by: hand" if it["hand"] else
+                         "no entry in _data/price_sources.yml" if not cfg else "skip: true (checked by hand)")
+            by_hand.append(it)
+        else:
+            auto.append(it)
+    return auto, by_hand, sources
+
+
+def build_verify_prompt(service, items, cfg):
+    lines = "\n".join(f"- key {it['key']}: {it['label']}: €{float(it['amount']):.2f} "
+                      f"(our source page: {it['url']})" for it in items)
+    urls = sorted({str(it["url"]) for it in items if it.get("url")})
+    return f"""You are checking figures for On Air Ireland, an independent site about
+legal streaming in Ireland, before they go live. Service: {service}
+
+We are about to publish these euro amounts for customers in Ireland:
+{lines}
+
+Fetch our source pages first:
+{chr(10).join('- ' + u for u in urls)}
+If a page doesn't load, search the provider's own site for the Irish page.
+
+For each key, copy `quote` WORD FOR WORD from a page you fetched with web_fetch in
+this conversation: a short passage (under {MAX_QUOTE_CHARS} characters) that shows the
+euro amount for that plan exactly as the page shows it. Offer and introductory prices
+count for offer keys. Never convert currencies or use another country's page.
+If the page does not show that amount for that plan, set quote to null and say in
+`seen` what the page shows instead.
+
+Return ONLY this JSON between <result> and </result>:
+<result>
+{{"items": [{{"key": "<key>", "source_url": "<fetched page>", "quote": "<verbatim>" or null, "seen": "<if different>"}}]}}
+</result>"""
+
+
+def verify_main(base=None):
+    today = datetime.date.today()
+    auto, by_hand, sources = items_to_verify(today, base)
+    results = []
+    if auto and not os.environ.get("ANTHROPIC_API_KEY"):
+        print("ERROR: ANTHROPIC_API_KEY is not set, so these figures can't be re-read on the provider's page:")
+        for it in auto:
+            print(f"  - {it['label']}: €{float(it['amount']):.2f}")
+        write_verify_report(today, base, [(it, False, "not checked: no API key", "") for it in auto], by_hand)
+        sys.exit(1)
+
+    by_service = {}
+    for it in auto:
+        by_service.setdefault(it["service"], []).append(it)
+    for service, items in by_service.items():
+        cfg = sources[service]
+        print(f"Re-reading {service} ({len(items)} figure(s))...")
+        try:
+            blocks = call_claude(build_verify_prompt(service, items, cfg), cfg["domains"])
+            pages = fetched_pages(blocks)
+            reply = parse_result(final_text(blocks)) or {}
+            found = {str(x.get("key")): x for x in reply.get("items", []) if isinstance(x, dict)}
+        except Exception as exc:  # one failure never stops the others
+            for it in items:
+                results.append((it, False, f"check failed: {str(exc)[:150]}", ""))
+            continue
+        for it in items:
+            rep = found.get(it["key"], {})
+            ev = {"price": it["amount"], "source_url": rep.get("source_url"), "quote": rep.get("quote")}
+            ok, reason = verify(ev, pages) if rep.get("quote") else (False, "not shown on the provider's page")
+            if not ok and rep.get("seen"):
+                reason += f" (page shows: {str(rep['seen'])[:120]})"
+            note = ""
+            page = pages.get(norm_url(rep.get("source_url") or it.get("url") or ""))
+            if it.get("evidence") and page is not None:
+                note = ("stored wording is on the page" if price_rules.evidence_on_page(it["evidence"], page)
+                        else "stored wording not found word for word (the page may have changed; refresh evidence)")
+            results.append((it, ok, reason if not ok else (rep.get("quote") or ""), note))
+
+    write_verify_report(today, base, results, by_hand)
+    bad = [r for r in results if not r[1]]
+    print(f"Verified {len(results) - len(bad)} of {len(results)} figure(s); {len(by_hand)} to check by hand.")
+    for it, ok, detail, _ in bad:
+        print(f"NOT CONFIRMED: {it['label']} €{float(it['amount']):.2f}: {detail}")
+    sys.exit(1 if bad else 0)
+
+
+def write_verify_report(today, base, results, by_hand):
+    scope = f"new or changed since {base[:7]}" if base else "every live offer"
+    out = [f"Re-read on the providers' own pages, {today.isoformat()} ({scope}). A figure passes "
+           "only when a quote showing it was found word for word on a page fetched in this run.", ""]
+    bad = [r for r in results if not r[1]]
+    if bad:
+        out += [f"## Not confirmed ({len(bad)}): don't merge", "", "| Figure | Amount | Why |", "| --- | --- | --- |"]
+        for it, _, detail, _ in bad:
+            out.append(f"| {it['label']} | €{float(it['amount']):.2f} | {str(detail).replace('|', '/')} |")
+        out.append("")
+    good = [r for r in results if r[1]]
+    out.append(f"## Confirmed ({len(good)})")
+    if good:
+        out += ["", "| Figure | Amount | Provider's words | Stored evidence |", "| --- | --- | --- | --- |"]
+        for it, _, quote, note in good:
+            q = " ".join(str(quote).split()).replace("|", "/")[:160]
+            out.append(f"| {it['label']} | €{float(it['amount']):.2f} | \"{q}\" | {note or '–'} |")
+    else:
+        out.append("\nNothing to confirm." if not results else "\nNone.")
+    out.append("")
+    if by_hand:
+        out += [f"## Check by hand ({len(by_hand)})", ""]
+        for it in by_hand:
+            out.append(f"- {it['label']}: €{float(it['amount']):.2f} ({it['why']})")
+        out.append("")
+    with open(REPORT_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(out))
+    print(f"Report written to {REPORT_PATH}")
 
 
 def write_report(today, groups, new_plans, not_checked, errors):
@@ -484,4 +666,8 @@ def write_report(today, groups, new_plans, not_checked, errors):
 
 
 if __name__ == "__main__":
-    main()
+    if "--verify" in sys.argv:
+        base_ref = sys.argv[sys.argv.index("--base") + 1] if "--base" in sys.argv else None
+        verify_main(base_ref)
+    else:
+        main()
