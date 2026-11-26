@@ -50,7 +50,7 @@ MAX_CHANGE = 0.35          # fractional change above which nothing is applied
 MAX_QUOTE_CHARS = 300
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from generate_social import MODEL  # noqa: E402  one place to change the model
+from generate_social import MODEL, post_messages, usage_summary  # noqa: E402  one place to change the model
 import price_rules  # noqa: E402
 
 # Field order used when a field has to be added to a plan in prices.yml.
@@ -105,8 +105,25 @@ Return ONLY this JSON between <result> and </result>:
 </result>"""
 
 
+def api_error_text(exc) -> str:
+    """The API's own error message when post_messages raised an HTTP error (it
+    raises requests.HTTPError, whose text alone is just "400 Client Error"), so
+    reports still say why, e.g. "Your credit balance is too low"."""
+    resp = getattr(exc, "response", None)
+    if isinstance(exc, requests.HTTPError) and resp is not None:
+        return f"API error {resp.status_code}: {resp.text[:300]}"
+    return str(exc)
+
+
 def call_claude(prompt, domains):
-    """Run one conversation (following pause_turn) and return all content blocks."""
+    """Run one conversation (following pause_turn) and return all content blocks.
+
+    Prompt caching is on (see post_messages): each provider page fetched here
+    can be up to 40,000 tokens and is resent at every later step of the
+    conversation, so it's billed once at the cache-write price and then at the
+    cache-read price instead of in full each time. The model sees exactly the
+    same input. Rate limits and overloads are waited out and resent, as in the
+    sport and fact-check runs."""
     tools = [
         # No user_location: the API rejects country "IE" (26 Nov 2026). The search
         # is limited to the provider's own domains, and the prompt asks for Irish
@@ -119,19 +136,8 @@ def call_claude(prompt, domains):
     messages = [{"role": "user", "content": prompt}]
     blocks = []
     for _ in range(4):
-        resp = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={"model": MODEL, "max_tokens": 3000, "messages": messages, "tools": tools},
-            timeout=300,
-        )
-        if not resp.ok:
-            raise RuntimeError(f"API error {resp.status_code}: {resp.text[:300]}")
-        data = resp.json()
+        data = post_messages({"model": MODEL, "max_tokens": 3000, "messages": messages, "tools": tools},
+                             "price check", timeout=300, cache=True)
         blocks.extend(data.get("content", []))
         if data.get("stop_reason") != "pause_turn":
             return blocks
@@ -360,11 +366,12 @@ def main():
             outcomes.extend(outs)
             new_plans.extend((service, p) for p in extra)
         except Exception as exc:  # one failure never stops the others
-            print(f"  failed: {exc}")
-            errors.append((service, str(exc)))
+            why = api_error_text(exc)
+            print(f"  failed: {why}")
+            errors.append((service, why))
             for p in plans:
                 outcomes.append({"service": service, "plan": p["plan"], "row": p, "fields": {},
-                                 "problems": [f"check failed: {exc}"[:200]], "notes": ""})
+                                 "problems": [f"check failed: {why}"[:200]], "notes": ""})
 
     # Apply only confirmed and changed plans.
     lines = text.splitlines(keepends=True)
@@ -521,8 +528,9 @@ def verify_main(base=None):
             reply = parse_result(final_text(blocks)) or {}
             found = {str(x.get("key")): x for x in reply.get("items", []) if isinstance(x, dict)}
         except Exception as exc:  # one failure never stops the others
+            why = api_error_text(exc)
             for it in items:
-                results.append((it, False, f"check failed: {str(exc)[:150]}", ""))
+                results.append((it, False, f"check failed: {why[:200]}", ""))
             continue
         for it in items:
             rep = found.get(it["key"], {})
@@ -570,6 +578,10 @@ def write_verify_report(today, base, results, by_hand):
         for it in by_hand:
             out.append(f"- {it['label']}: €{float(it['amount']):.2f} ({it['why']})")
         out.append("")
+    usage = usage_summary()  # API calls, cache reads and estimated cost ('' if none)
+    if usage:
+        out += [usage, ""]
+        print(usage)
     with open(REPORT_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(out))
     print(f"Report written to {REPORT_PATH}")
@@ -662,6 +674,10 @@ def write_report(today, groups, new_plans, not_checked, errors):
             out.append(f"- {service}: {err[:200]}")
         out.append("")
 
+    usage = usage_summary()  # API calls, cache reads and estimated cost ('' if none)
+    if usage:
+        out += [usage, ""]
+        print(usage)
     with open(REPORT_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(out))
     print(f"Report written to {REPORT_PATH}")
