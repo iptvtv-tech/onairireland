@@ -108,9 +108,11 @@ Return ONLY this JSON between <result> and </result>:
 def call_claude(prompt, domains):
     """Run one conversation (following pause_turn) and return all content blocks."""
     tools = [
+        # No user_location: the API rejects country "IE" (26 Nov 2026). The search
+        # is limited to the provider's own domains, and the prompt asks for Irish
+        # euro prices only.
         {"type": "web_search_20250305", "name": "web_search", "max_uses": 3,
-         "allowed_domains": domains,
-         "user_location": {"type": "approximate", "country": "IE", "timezone": "Europe/Dublin"}},
+         "allowed_domains": domains},
         {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": 6,
          "allowed_domains": domains, "max_content_tokens": 40000},
     ]
