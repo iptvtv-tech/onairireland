@@ -61,7 +61,7 @@ Press **cc** in the player to turn optional subtitles on or off. TG4 offers Iris
 - **Browser:** works on computers. TG4 says older browsers can have trouble with its site, so keep yours up to date.
 - **iPhone and iPad:** use the TG4 Player app; TG4 says the app is needed to watch there.
 - **Android:** the TG4 Player app on Google Play.
-- **TV:** TG4's help page isn't clear on smart TV apps. It lists them as "coming soon" in one place and says to search for TG4 in your TV's app store in another. Check your TV's store, or see [getting TG4 Player on your TV](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/#getting-tg4-player-on-your-tv) for other ways, such as casting from a phone.
+- **TV:** TG4's help page isn't clear on smart TV apps. It lists them as "coming soon" in one place and says to search for TG4 in your TV's app store in another. Check your TV's store, or see [getting TG4 Player on your TV](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/#getting-tg4-player-on-your-tv) for other ways, such as casting from a phone. A streaming stick adds apps to an older TV: our {% include device-guide-link.html %} compares the ones sold in Ireland, but check TG4 Player is listed for the model you pick.
 
 You don't need the Player to watch TG4 live on a TV: it's on Saorview channel 4, Sky 104 and Virgin Media 104 (602 for Cúla4). In Northern Ireland it's on Freeview 51, Sky 163 and Virgin Media 877.
 

@@ -28,6 +28,8 @@ Start with our main guide: [where to watch GAA legally in Ireland]({% post_url 2
 
 For this week's games, see [sport on TV this week](/sport-on-tv/). Rugby fans: see our [rugby guide](/rugby/).
 
+Need GAA+ on an older TV? Our {% include device-guide-link.html %} compares the streaming devices sold in Ireland.
+
 ## All our GAA guides
 
 {% include hub-posts.html keywords="GAA|Hurling|hurling|Camogie" %}

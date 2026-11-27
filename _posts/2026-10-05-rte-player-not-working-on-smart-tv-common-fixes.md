@@ -78,7 +78,7 @@ You need a free RTÉ account to sign in to RTÉ Player.
 
 ## 6. RTÉ Player isn't in your TV's app store
 
-App lists depend on the device model, its software version and the country the app store is set to. Check that the TV's or streaming stick's region is set to Ireland, and that its software is up to date. If the app still isn't listed for your model, use a streaming stick that carries it, or watch on a phone, tablet or computer instead.
+App lists depend on the device model, its software version and the country the app store is set to. Check that the TV's or streaming stick's region is set to Ireland, and that its software is up to date. If the app still isn't listed for your model, use a streaming stick that carries it (our {% include device-guide-link.html %} compares the ones sold in Ireland), or watch on a phone, tablet or computer instead.
 
 ## 7. "This programme isn't available"
 

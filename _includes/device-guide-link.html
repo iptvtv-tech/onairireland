@@ -1,0 +1,9 @@
+{%- comment -%}
+Link to the device guide readers should see right now: the Black Friday and Christmas guide up to and including 24 Dec 2026, then the best streaming devices guide. The date is read at build time (site.time), so the link switches at the first build after 24 Dec. Used mid-sentence after "our", for example "our [link] compares the ones sold in Ireland".
+{%- endcomment -%}
+{%- assign oai_today = site.time | date: "%Y%m%d" | plus: 0 -%}
+{%- if oai_today <= 20261224 -%}
+<a href="{% post_url 2026-11-06-black-friday-christmas-streaming-device-guide-ireland %}">Black Friday and Christmas streaming guide</a>
+{%- else -%}
+<a href="{% post_url 2026-09-04-best-streaming-devices-ireland %}">streaming devices guide</a>
+{%- endif -%}

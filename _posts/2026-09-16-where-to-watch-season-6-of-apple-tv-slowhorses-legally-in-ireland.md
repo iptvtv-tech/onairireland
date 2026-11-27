@@ -57,7 +57,7 @@ Apple announced Season 7 in 2025. On 15 September 2026, the day before Season 6 
 
 The Apple TV app is on Apple devices, most recent Samsung and LG smart TVs, Fire TV, [Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/), Google TV devices and games consoles, and you can watch in a web browser at tv.apple.com. Check your own TV's app store first.
 
-If your TV doesn't have the app, a streaming stick that carries it is the cheapest fix; our [streaming devices guide](/devices/best-streaming-devices-ireland/) compares the ones sold in Ireland. If episodes buffer, our [buffering fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) can help.
+If your TV doesn't have the app, a streaming stick that carries it is the cheapest fix; our {% include device-guide-link.html %} compares the ones sold in Ireland. If episodes buffer, our [buffering fixes](/troubleshooting/why-is-my-streaming-app-buffering-common-fixes/) can help.
 
 Sources: [Apple TV Press: Season 6 trailer and dates](https://www.apple.com/tv-pr/news/2026/08/apple-tv-debuts-enthralling-trailer-for-season-six-of-emmy-and-bafta-award-winning-espionage-drama-slow-horses-starring-academy-award-winner-sir-gary-oldman/) · [Apple TV Press: Season 8 announced](https://www.apple.com/tv-pr/news/2026/09/apple-tv-announces-eighth-season-for-emmy-and-bafta-award-winning-spy-drama-slow-horses/) · [Apple TV in Ireland](https://www.apple.com/ie/apple-tv/)
 
