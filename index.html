@@ -25,6 +25,10 @@ header:
   </div>
 
   <div class="oai-hero__tools">
+    {%- assign oai_today = site.time | date: "%Y%m%d" | plus: 0 %}
+    {%- if oai_today <= 20261224 %}
+    <a href="/devices/black-friday-christmas-streaming-device-guide-ireland/">🎁 Black Friday &amp; Christmas guide</a>
+    {%- endif %}
     <a href="/sport-on-tv/">⚽ Sport on TV this week</a>
     <a href="/streaming-prices/">💶 Streaming prices</a>
     <a href="/streaming-cost-calculator/">🧮 What will my streaming cost?</a>
