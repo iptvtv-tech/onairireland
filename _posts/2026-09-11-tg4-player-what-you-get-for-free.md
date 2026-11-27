@@ -2,7 +2,7 @@
 title: "TG4 Player: Watch TG4 Live and On Demand for Free"
 excerpt: "TG4 Player is free: watch TG4 live and catch up on Irish-language shows, GAA and documentaries on your phone, laptop or TV. What's on and how to start."
 description: "TG4 Player is free: watch TG4 live and catch up on Irish-language shows, GAA and documentaries on your phone, laptop or TV. What's on and how to start."
-last_updated: 2026-11-10
+last_updated: 2026-11-27
 last_checked: 2026-11-10
 categories:
   - Streaming-Services
@@ -26,6 +26,8 @@ affiliate_links: true
 {% include share-buttons.html %}
 
 TG4 Player is TG4's own free streaming service. You can watch the TG4 channel live and catch up on programmes you missed, in a browser or in the TG4 Player app. There's no subscription. Everything below comes from TG4's own help and press pages.
+
+On 31 October 2026 TG4 relaunched the Player as **TG4+**, which it calls the new and improved TG4 Player. It's still free, and TG4 says it holds more than 690 box sets and 9,200 programmes. If you have the old app, update it or download TG4+ from your app store.
 
 ## TG4 Player at a glance
 
@@ -69,7 +71,7 @@ TG4 streams at between 250 kbit/s and 1.2 Mbit/s, so almost any broadband connec
 
 **Related guides:** [Virgin Media Play vs RTÉ Player](/streaming-services/virgin-media-play-vs-rt-player-free-irish-streaming-compared/) · [5 free Irish streaming apps](/streaming-services/5-free-irish-streaming-apps-worth-knowing/)
 
-Sources: [TG4 frequently asked questions](https://www.tg4.ie/en/information/faq/) (updated by TG4 in May 2026) · [TG4 press release on the Ladies Football Championships deal](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/) (26 May 2026).
+Sources: [TG4 frequently asked questions](https://www.tg4.ie/en/information/faq/) (updated by TG4 in May 2026) · [TG4 press release on the Ladies Football Championships deal](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-confirms-5-year-sponsorship-and-broadcast-extension-of-ladies-gaelic-football-championships/) (26 May 2026) · [TG4: TG4+ now live](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-now-live-a-major-step-in-tg4s-digital-future/) (18 November 2026).
 
 {% include faq-section.html %}
 

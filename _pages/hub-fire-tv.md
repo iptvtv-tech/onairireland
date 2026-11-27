@@ -42,7 +42,7 @@ For other brands, such as Roku, Google TV and Apple TV, see our [best streaming 
 
 ## Irish apps: check before you buy
 
-The 2026 Fire TV Stick HD and Fire TV Stick 4K only install apps from the Amazon Appstore; amazon.ie says they block apps from anywhere else. So before you buy, search the Amazon Appstore for the Irish apps you use, such as RTÉ Player, Virgin Media Play, TG4 Player and GAA+.
+The 2026 Fire TV Stick HD and Fire TV Stick 4K only install apps from the Amazon Appstore; amazon.ie says they block apps from anywhere else. So before you buy, search the Amazon Appstore for the Irish apps you use, such as RTÉ Player, Virgin Media Play, TG4+ (formerly TG4 Player) and GAA+.
 
 What amazon.ie's own listings name:
 
@@ -50,7 +50,15 @@ What amazon.ie's own listings name:
 - **Fire TV Stick HD (2026):** NOW, Channel 4, Apple TV, HBO Max, Netflix, Disney+, YouTube and Prime Video. RTÉ Player isn't named on this listing.
 - **Fire TV Stick 4K Max:** Netflix, Prime Video and Disney+. Its listing doesn't carry the Appstore-only notice.
 
-We couldn't confirm TG4 Player on the 2026 sticks; see [getting TG4 Player on your TV](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/#getting-tg4-player-on-your-tv) for other ways to watch.
+What the apps' own help pages say:
+
+- **RTÉ Player:** RTÉ's FAQ lists "Amazon Firestick" among its supported devices, without naming models.
+- **Virgin Media Play:** Virgin Media Television's FAQ lists computers, phones and tablets, Virgin Media and Sky, and NOW. It doesn't mention Fire TV.
+- **TG4+:** TG4 relaunched TG4 Player as TG4+ on 31 October 2026, and its launch page links only the App Store and Google Play. We couldn't confirm TG4+ on the 2026 sticks; see [getting TG4 Player on your TV](/troubleshooting/tg4-player-not-working-fixes-and-where-to-get-help/#getting-tg4-player-on-your-tv) for other ways to watch.
+- **GAA+:** GAA+'s help page lists Amazon Fire TV and says availability depends on the device model and its software version. It doesn't mention the 2026 sticks.
+- **NOW:** NOW's Irish device list names the Fire TV Stick 4K Max (1st and 2nd gen). It doesn't list the Fire TV Stick HD, or say whether its "Fire TV Stick 4K" entry covers the 2026 model.
+
+If an app you rely on isn't confirmed for the 2026 sticks, search for it in the Amazon Appstore before you buy, or consider the 4K Max, which NOW's list names.
 
 ## Setting one up
 
@@ -60,7 +68,7 @@ We couldn't confirm TG4 Player on the 2026 sticks; see [getting TG4 Player on yo
 
 If live sport buffers, the steadiest fix is a wired connection with an {% include product-link.html id="fire-tv-ethernet-adapter" text="Ethernet adapter for Fire TV" %}; check it lists your stick as compatible. See [why is my streaming app buffering?]({% post_url 2026-09-11-why-is-my-streaming-app-buffering-common-fixes %})
 
-Sources: amazon.ie product listings for the Fire TV Stick HD (newest gen), Fire TV Stick 4K (newest gen) and Fire TV Stick 4K Max (2nd gen, International Version), checked 27 Nov 2026.
+Sources: amazon.ie product listings for the Fire TV Stick HD (newest gen), Fire TV Stick 4K (newest gen) and Fire TV Stick 4K Max (2nd gen, International Version) · [RTÉ Player FAQ](https://www.rte.ie/player/en_IE/profile/faq) · [Virgin Media Play FAQ](https://www.virginmediatelevision.ie/player-faq) · [TG4: TG4+ now live](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-now-live-a-major-step-in-tg4s-digital-future/) (18 Nov 2026) · [GAA+: supported devices](https://help.gaaplus.ie/support/solutions/articles/77000600642-supported-devices) · [NOW Ireland: streaming devices](https://www.nowtv.com/ie/help/article/what-set-top-boxes-streaming-devices-can-i-use-to-watch). All checked 27 Nov 2026.
 
 ## All our Amazon Fire TV guides
 

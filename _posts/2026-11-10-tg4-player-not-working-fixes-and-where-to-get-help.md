@@ -4,7 +4,7 @@ excerpt: "TG4 Player won't load, keeps buffering or isn't on your TV? Fixes from
 description: "TG4 Player won't load, keeps buffering or isn't on your TV? Fixes from TG4's own help pages, how to get it on a smart TV, and who to contact."
 redirect_from:
   - /installation-guides/how-to-get-tg4-player-on-your-tv/
-last_updated: 2026-11-16
+last_updated: 2026-11-27
 last_checked: 2026-11-10
 categories:
   - Troubleshooting
@@ -88,11 +88,13 @@ Use the **cc** button in the player's controls to turn optional subtitles on or 
 
 ## Getting TG4 Player on your TV
 
+**TG4 Player is now TG4+.** TG4 relaunched its player as TG4+ on 31 October 2026. If the old app stops working, TG4 says to update the TG4 app or download TG4+ from your app store.
+
 TG4 Player is TG4's own app, separate from RTÉ Player, so you won't find TG4 inside RTÉ Player. On a TV, search for TG4 in the app store:
 
 - **Smart TVs:** TG4 launched a smart TV app for Samsung, Sony and LG TVs, Android TV and Google TV in 2021, but its help page still lists the smart TV and Android TV apps as "coming soon". Search for TG4 in your TV's app store to see whether your model has it.
 - **Apple TV:** there's a TG4 app in the App Store, and it needs tvOS 26 or later.
-- **Fire TV:** search for TG4 in the Amazon Appstore. Amazon's newest sticks run its Vega OS, and we couldn't confirm TG4 Player on those.
+- **Fire TV:** search for TG4 in the Amazon Appstore. Amazon's newest sticks run its Vega OS, and we couldn't confirm TG4+ on those.
 
 If your TV doesn't have the app, cast it from your phone or tablet:
 
@@ -115,7 +117,7 @@ For streaming and playback problems, TG4's contact is **webmaster@tg4.ie**. Incl
 
 **Other fixes:** [RTÉ Player not working](/troubleshooting/rte-player-not-working-on-smart-tv-common-fixes/) · [Virgin Media Play not working](/troubleshooting/virgin-media-player-login-issues-explained/) · [TG4 Player: what you get for free](/streaming-services/tg4-player-what-you-get-for-free/)
 
-Sources: [TG4: frequently asked questions](https://www.tg4.ie/en/information/faq/) (last updated by TG4 in May 2026) · [TG4: smart TV app launch](https://www.tg4.ie/en/information/press/press-releases/2021-2/tg4-launches-new-smart-tv-app/) (February 2021) · [App Store: TG4 Player](https://apps.apple.com/gb/app/tg4-player/id598591024)
+Sources: [TG4: frequently asked questions](https://www.tg4.ie/en/information/faq/) (last updated by TG4 in May 2026) · [TG4: smart TV app launch](https://www.tg4.ie/en/information/press/press-releases/2021-2/tg4-launches-new-smart-tv-app/) (February 2021) · [App Store: TG4 Player](https://apps.apple.com/gb/app/tg4-player/id598591024) · [TG4: TG4+ now live](https://www.tg4.ie/en/information/press/press-releases/2026-2/tg4-now-live-a-major-step-in-tg4s-digital-future/) (18 November 2026)
 
 {% include faq-section.html %}
 

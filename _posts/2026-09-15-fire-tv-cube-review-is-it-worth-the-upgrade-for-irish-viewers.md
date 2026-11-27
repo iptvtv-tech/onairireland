@@ -4,7 +4,7 @@ sitemap: false
 title: "Fire TV Cube Review: Is It Worth It in Ireland?"
 excerpt: "The Fire TV Cube adds hands-free Alexa and built-in Ethernet, but Amazon doesn't list it for Amazon.ie. What it offers and what to buy instead."
 description: "The Fire TV Cube adds hands-free Alexa and built-in Ethernet, but Amazon doesn't list it for Amazon.ie. What it offers and what to buy instead."
-last_updated: 2026-11-10
+last_updated: 2026-11-27
 last_checked: 2026-11-10
 categories:
   - Reviews
@@ -72,7 +72,7 @@ Because the Cube runs Fire OS, it uses the Amazon Appstore, where RTÉ Player is
 - **[Google TV Streamer](/reviews/google-tv-streamer-review-should-you-switch-from-fire-tv/):** sold on the Google Store Ireland, with gigabit Ethernet built in and 32 GB of storage. It isn't on NOW's Irish device list at the time of writing.
 - **[Roku](/devices/roku-streaming-devices-are-they-worth-buying-in-ireland/):** Roku says RTÉ Player is officially available on its devices in Ireland.
 
-Avoid the Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select if RTÉ Player, Virgin Media Play or TG4 Player matter to you. They run Vega OS, and those apps weren't confirmed for it when we checked.
+Avoid the Fire TV Stick 4K (2026), Fire TV Stick HD (2026) and Fire TV Stick 4K Select if Virgin Media Play or TG4+ (formerly TG4 Player) matter to you. They run Vega OS, and those apps weren't confirmed for it when we checked. For RTÉ Player, amazon.ie's listing for the Fire TV Stick 4K (2026) names it, but the HD (2026) listing doesn't.
 
 ## Verdict
 
