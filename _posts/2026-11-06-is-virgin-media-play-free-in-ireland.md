@@ -45,7 +45,7 @@ Yes. Virgin Media Play is free for anyone in Ireland: you register a free accoun
 - **Restart:** start a live programme again from the beginning.
 - **Subtitles and audio description.**
 
-The biggest draws are Virgin Media's own shows and its free sport. It has most Champions League games until the end of 2026/27 and shares the Six Nations with RTÉ, and it's the free-to-air home of Ireland's [November rugby internationals](/sports-streaming/where-to-watch-irelands-november-rugby-internationals/) in 2026.
+The biggest draws are Virgin Media's own shows and its free sport. It has most Champions League games until the end of 2026/27 and shares the Six Nations with RTÉ, and it's the free-to-air home of Ireland's November rugby internationals in 2026 (see [our rugby guide](/rugby/)).
 
 ## What's the catch?
 

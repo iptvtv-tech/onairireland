@@ -1,6 +1,8 @@
 ---
 title: "Rugby on TV and Streaming in Ireland: The Complete Guide"
 permalink: /rugby/
+redirect_from:
+- /sports-streaming/where-to-watch-irelands-november-rugby-internationals/
 layout: single
 description: "Where to watch rugby legally in Ireland: Six Nations, November internationals, the URC and the Champions Cup, plus every rugby guide we've written."
 last_updated: 2026-10-21

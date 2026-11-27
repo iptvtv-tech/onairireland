@@ -60,7 +60,7 @@ RTÉ Radio 1 has had the radio rights to all of Ireland's Six Nations games, wit
 - **Streaming:** RTÉ games stream on RTÉ Player and Virgin Media games on [Virgin Media Play](/streaming-services/is-virgin-media-play-free-in-ireland/). Both are free.
 - **TV licence:** you need one for any TV set at home, even if you only stream. See [do you need a TV licence to stream](/streaming-services/tv-licence-streaming-ireland/).
 
-Ireland's November games in the new Nations Championship are free on Virgin Media Television: see [where to watch Ireland's November internationals](/sports-streaming/where-to-watch-irelands-november-rugby-internationals/). Every rugby competition is in our [rugby guide](/rugby/).
+Ireland's November games in the new Nations Championship are free on Virgin Media Television. Every rugby competition is in our [rugby guide](/rugby/).
 
 Sources: [IRFU: 2027 Six Nations fixtures](https://www.irishrugby.ie/2026/03/09/guinness-mens-six-nations-fixtures-confirmed-for-2027) (checked 10 November 2026) · [Six Nations Rugby: Wales v Ireland](https://www.sixnationsrugby.com/en/m6n/fixtures/202700/wales-v-ireland-20022027-1410/build-up) (checked 10 November 2026) · [IRFU: free-to-air Six Nations coverage until 2029](https://www.irishrugby.ie/2025/09/02/free-to-air-six-nations-coverage-confirmed-until-2029) · [RTÉ: 2026 Six Nations coverage](https://about.rte.ie/2026/01/24/rte-and-virgin-media-television-kick-off-comprehensive-free-to-air-coverage-of-the-2026-six-nations-championship/) (checked 10 November 2026) · [The Irish Times, 2 September 2025](https://www.irishtimes.com/sport/rugby/2025/09/02/six-nations-coverage-to-remain-on-free-to-air-television-to-2029)
 

@@ -394,24 +394,6 @@ photos:
   created: '2026-10-20'
   used_in:
   - 2026-09-22-5-hidden-gems-on-tg4-player.md
-- id: photo-where-to-watch-irelands-november-rugby-internationals
-  source: pexels
-  pexels_id: 23495476
-  pexels_url: https://www.pexels.com/photo/three-men-are-watching-a-football-game-on-a-couch-23495476/
-  photographer: Vitaly Gariev
-  licence: Pexels licence (free to use and modify; credit kept as a caption)
-  description: Three friends excitedly watch a soccer game at home, showing emotions and enjoying snacks.
-  scene: sport-viewing
-  people: true
-  palette: Sports-Streaming
-  files:
-    hero: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-hero.webp
-    hero_small: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-hero-800.webp
-    teaser: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-teaser.webp
-    og: /assets/images/posts/where-to-watch-irelands-november-rugby-internationals-og.jpg
-  created: '2026-10-20'
-  used_in:
-  - 2026-10-16-where-to-watch-irelands-november-rugby-internationals.md
 - id: photo-best-streaming-devices-ireland
   source: pexels
   pexels_id: 33693716

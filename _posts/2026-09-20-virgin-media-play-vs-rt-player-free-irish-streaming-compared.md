@@ -61,7 +61,7 @@ Both carry big free-to-air sport, so which app you need depends on the game:
 
 - **Six Nations:** shared between RTÉ and Virgin Media Television until 2029, with every match free-to-air. See [how to watch the Six Nations](/sports-streaming/how-to-watch-six-nations-rugby-legally-in-ireland/).
 - **Champions League:** until the end of 2026/27, Virgin Media shows most games free, and RTÉ shows live Wednesday games on RTÉ2 and RTÉ Player. See [where to watch the Champions League](/sports-streaming/where-to-watch-the-uefa-champions-league-legally-in-ireland/).
-- **Ireland's November rugby internationals:** Virgin Media Television is the free-to-air home of the Nations Championship in 2026 and 2028. See [the November internationals guide](/sports-streaming/where-to-watch-irelands-november-rugby-internationals/).
+- **Ireland's November rugby internationals:** Virgin Media Television is the free-to-air home of the Nations Championship in 2026 and 2028. See [our rugby guide](/rugby/).
 - **GAA:** RTÉ shows live championship games; Virgin Media doesn't. See [where to watch GAA](/streaming-services/where-to-watch-gaa-legally-ireland/).
 
 ## Devices
