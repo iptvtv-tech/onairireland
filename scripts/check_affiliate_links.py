@@ -16,6 +16,10 @@ This script fails when:
   - an include uses an id that is not in _data/products.yml
   - a page has a raw Amazon or Awin link without rel="sponsored"
   - a post with affiliate links is missing the affiliate disclosure include
+
+Amazon help pages (amazon.*/gp/help/...) are not affiliate links and pass, as
+long as they carry no tag= parameter: posts can cite them as a source like any
+other page, with no include, disclosure or "(paid link)".
 """
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
@@ -72,7 +76,18 @@ for p in products:
             partner_sites.setdefault(site, str(p.get("id")))
 
 errors = []
-include_links = raw_links = files_with_links = 0
+include_links = raw_links = files_with_links = help_links = 0
+
+
+def is_amazon_help(url: str) -> bool:
+    """An untagged Amazon help page, e.g. https://www.amazon.ie/gp/help/customer/display.html?nodeId=..."""
+    parts = urlparse(url)
+    host = site_of(parts.hostname or "")
+    return (
+        host.startswith("amazon.")
+        and parts.path.lower().startswith("/gp/help/")
+        and "tag" not in {k.lower() for k in parse_qs(parts.query)}
+    )
 
 
 def has_sponsored(attributes: str) -> bool:
@@ -123,6 +138,9 @@ for directory in (POSTS, PAGES):
         raw = [(m.group(1), m.group(2) or "") for m in MARKDOWN_LINK.finditer(text)]
         raw += [(m.group(1), m.group(0)) for m in HTML_ANCHOR.finditer(text)]
         for url, attributes in raw:
+            if is_amazon_help(url):
+                help_links += 1
+                continue
             found = True
             raw_links += 1
             if is_post:
@@ -143,5 +161,6 @@ for error in errors:
 print(
     f"Checked affiliate links: {include_links} product-link include(s) and {raw_links} raw link(s) "
     f"across {files_with_links} file(s), {len(errors)} error(s)"
+    + (f"; {help_links} Amazon help page link(s) allowed" if help_links else "")
 )
 sys.exit(1 if errors else 0)
