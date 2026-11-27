@@ -2,7 +2,7 @@
 title: "Legal Streaming Services in Ireland: The Full 2026 Guide"
 excerpt: "Every major legal streaming service in Ireland, what it costs and what you get, from free RTÉ Player to Netflix, NOW and live sport."
 description: "Every legal streaming service in Ireland for 2026: free apps, Netflix, Disney+, NOW, HBO Max, sport and what each one costs."
-last_updated: 2026-10-23
+last_updated: 2026-11-27
 last_checked: 2026-10-07
 categories:
   - Streaming-Services
@@ -127,7 +127,7 @@ The TV licence costs **{% include euro.html amount=tvl.yearly %} a year**. Accor
 
 Most smart TVs from the last few years already have RTÉ Player, Virgin Media Play, Netflix and the other big apps built in. If yours is older or missing apps, a plug-in streaming stick is the cheapest fix:
 
-- **Amazon Fire TV Stick** — wide app support, including Virgin Media Play, TG4 Player, NOW and GAA+. {% include product-link.html id="fire-tv-stick" text="Check price on Amazon" %}
+- **Amazon Fire TV Stick** — Amazon's 2026 sticks only install apps from the Amazon Appstore, so check the Irish apps you use are listed before you buy; amazon.ie's listing for the 4K stick names RTÉ Player and NOW. Our [Fire TV guide](/fire-tv/) compares the three sticks sold here. {% include product-link.html id="fire-tv-stick" text="Fire TV Stick HD on Amazon" %}
 - **A new smart TV** — worth it if your current set is slow or no longer gets app updates. {% include product-link.html id="xiaomi-tv-f32" text="Check smart TV prices" %}
 - **A soundbar** — the single biggest upgrade for TV speakers. {% include product-link.html id="soundbar-budget" text="Check soundbar prices" %}
 
