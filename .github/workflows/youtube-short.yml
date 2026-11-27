@@ -27,7 +27,7 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -52,7 +52,7 @@ jobs:
 
       - name: Set up Python
         if: steps.specs.outputs.files != ''
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -65,7 +65,7 @@ jobs:
 
       - name: Cache the voice files
         if: steps.specs.outputs.files != ''
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/onair-video
           key: onair-video-kokoro-v1.0-cmu-7479086
@@ -81,7 +81,7 @@ jobs:
       - name: Upload the video
         if: steps.specs.outputs.files != ''
         id: upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: youtube-short-${{ github.run_number }}
           path: video-out/

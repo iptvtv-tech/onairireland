@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # One draft at a time. Draft, photo and seasonal-topic PRs all edit
       # _data/topic_queue.yml or _data/image_ledger.yml. A new draft opened
@@ -48,7 +48,7 @@ jobs:
 
       - name: Set up Python
         if: steps.gate.outputs.skip != 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -76,7 +76,7 @@ jobs:
       # and no PR opens.
       - name: Open Pull Request
         if: success() && steps.gate.outputs.skip != 'true' && steps.generate.outputs.parked_only != 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Draft post: ${{ steps.generate.outputs.post_title }}"
@@ -123,7 +123,7 @@ jobs:
       # _data/topic_parked.yml. auto-post/ branch, so draft runs wait for it.
       - name: Open Pull Request (topics parked, no draft)
         if: success() && steps.gate.outputs.skip != 'true' && steps.generate.outputs.parked_only == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Topic queue: park topics that couldn't pass the fact check"

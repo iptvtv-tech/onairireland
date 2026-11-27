@@ -18,8 +18,8 @@ jobs:
   propose:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
       - run: pip install requests pyyaml pillow
@@ -30,7 +30,7 @@ jobs:
           python scripts/propose_photos.py
           [ -f photo_review.md ] || echo "Nothing new to review." > photo_review.md
       - name: Open Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Photo shortlist: new candidates to review"
